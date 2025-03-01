@@ -1,6 +1,7 @@
 PV = 7.6
 PR = r0
 PKG = libwrap0
+PKGR = r0.0
 RPROVIDES = libwrap (=7.6)
 RDEPENDS = glibc (>= 2.39+git0+e8f5217097)
 RRECOMMENDS = 

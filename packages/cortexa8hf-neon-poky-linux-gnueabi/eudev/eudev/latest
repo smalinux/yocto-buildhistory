@@ -1,5 +1,6 @@
 PV = 3.2.14
 PR = r0
+PKGR = r0.0
 RPROVIDES = hotplug udev
 RDEPENDS = glibc (>= 2.39+git0+e8f5217097) kmod libkmod (>= 31) util-linux-libblkid (>= 2.39.3)
 RRECOMMENDS = update-rc.d

@@ -1,5 +1,6 @@
 PV = 3.11
 PR = r0
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.39+git0+e8f5217097) libpcre2 (>= 10.43) update-alternatives-opkg
 RRECOMMENDS = 

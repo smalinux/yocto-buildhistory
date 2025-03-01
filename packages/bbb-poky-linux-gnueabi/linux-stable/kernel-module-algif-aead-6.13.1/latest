@@ -1,5 +1,6 @@
 PV = 6.13.1
 PR = r0
+PKGR = r0.0
 RPROVIDES = kernel-module-algif-aead
 RDEPENDS = kernel-6.13.1 kernel-module-af-alg-6.13.1 kernel-module-crypto-null-6.13.1
 RRECOMMENDS = 

@@ -1,5 +1,6 @@
 PV = 3.12.6
 PR = r0
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.39+git0+e8f5217097) python3-core python3-crypt python3-datetime python3-email python3-io python3-math python3-mime python3-stringold util-linux-libuuid (>= 2.39.3)
 RRECOMMENDS = 

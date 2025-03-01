@@ -1,6 +1,7 @@
 PV = 3.2.14
 PR = r0
 PKG = libudev1
+PKGR = r0.0
 RPROVIDES = libudev (=3.2.14)
 RDEPENDS = glibc (>= 2.39+git0+e8f5217097)
 RRECOMMENDS = 

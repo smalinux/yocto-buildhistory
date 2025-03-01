@@ -1,8 +1,9 @@
 PV = 1.3.1
 PR = r0
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = libmpc
-RRECOMMENDS = glibc-dev gmp-dev libmpc (= 1.3.1-r0) mpfr-dev
+RRECOMMENDS = glibc-dev gmp-dev libmpc (= 1.3.1-r0.0) mpfr-dev
 PKGSIZE = 16964
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libmpc/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/mpc.h /usr/lib/libmpc.so

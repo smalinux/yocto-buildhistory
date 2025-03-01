@@ -1,5 +1,6 @@
 PV = 8.7.1
 PR = r0
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = bash curl glibc (>= 2.39+git0+e8f5217097) libcurl (>= 8.7.1) locale-base-en-us perl-module-b perl-module-base perl-module-cwd perl-module-digest perl-module-digest-md5 perl-module-file-basename perl-module-file-spec perl-module-file-temp perl-module-io-socket perl-module-ipc-open2 perl-module-list-util perl-module-memoize perl-module-storable perl-module-time-hires
 RRECOMMENDS = ptest-runner

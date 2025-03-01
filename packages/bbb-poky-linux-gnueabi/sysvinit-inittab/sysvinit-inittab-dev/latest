@@ -1,8 +1,9 @@
 PV = 2.88dsf
 PR = r0
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = sysvinit-inittab (= 2.88dsf-r0) ttyrun-dev
+RRECOMMENDS = sysvinit-inittab (= 2.88dsf-r0.0) ttyrun-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/sysvinit-inittab/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = 

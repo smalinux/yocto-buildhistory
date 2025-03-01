@@ -1,5 +1,6 @@
 PV = 0.191
 PR = r0
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = bash binutils-symlinks bsdtar coreutils elfutils elfutils-binutils gcc-symlinks glibc (>= 2.39+git0+e8f5217097) glibc-dbg glibc-dev glibc-utils iproute2-ss libarchive (>= 3.7.4) libasm libcurl (>= 8.7.1) libelf libgcc (>= 13.3.0) libgcc-dev libmicrohttpd (>= 1.0.1) libsqlite3 (>= 3.45.1) libstdc++ (>= 13.3.0) make zlib (>= 1.3.1)
 RRECOMMENDS = ptest-runner

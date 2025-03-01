@@ -1,0 +1,21 @@
+bbb: core-image-bbb configured for poky 5.0.4
+
+Build Configuration:
+BB_VERSION           = "2.8.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "arm-poky-linux-gnueabi"
+MACHINE              = "bbb"
+DISTRO               = "poky"
+DISTRO_VERSION       = "5.0.4"
+TUNE_FEATURES        = "arm vfp cortexa8 neon callconvention-hard"
+TARGET_FPU           = "hard"
+meta                 
+meta-poky            
+meta-yocto-bsp       = "HEAD:2034fc38eb4e63984d9bd6b260aa1bf95ce562e4"
+meta-arm             
+meta-arm-toolchain   = "HEAD:60e31ef2c4983c0bdb8682dee6a6ec5f2e9d5f0a"
+meta-ti-bsp          
+meta-ti-extras       = "HEAD:cf6400520e0c8e370af458a71935f09673f069c5"
+meta-bbb             = "scarthgap:3ff6a5cc4fcb128853c102eb13381668064773b1"
+

@@ -1,0 +1,8 @@
+meta              = HEAD:2034fc38eb4e63984d9bd6b260aa1bf95ce562e4
+meta-poky         = HEAD:2034fc38eb4e63984d9bd6b260aa1bf95ce562e4
+meta-yocto-bsp    = HEAD:2034fc38eb4e63984d9bd6b260aa1bf95ce562e4
+meta-arm          = HEAD:60e31ef2c4983c0bdb8682dee6a6ec5f2e9d5f0a
+meta-arm-toolchain = HEAD:60e31ef2c4983c0bdb8682dee6a6ec5f2e9d5f0a
+meta-ti-bsp       = HEAD:cf6400520e0c8e370af458a71935f09673f069c5
+meta-ti-extras    = HEAD:cf6400520e0c8e370af458a71935f09673f069c5
+meta-bbb          = scarthgap:3ff6a5cc4fcb128853c102eb13381668064773b1 -- modified

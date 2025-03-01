@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/traceevent
+drwxr-xr-x root       root             4096 ./usr/lib/traceevent/plugins
+-rw-r--r-- root       root              781 ./usr/lib/traceevent/plugins/libtraceevent-dynamic-list
+-rwxr-xr-x root       root             5252 ./usr/lib/traceevent/plugins/plugin_cfg80211.so
+-rwxr-xr-x root       root             9608 ./usr/lib/traceevent/plugins/plugin_function.so
+-rwxr-xr-x root       root             9504 ./usr/lib/traceevent/plugins/plugin_futex.so
+-rwxr-xr-x root       root             5252 ./usr/lib/traceevent/plugins/plugin_hrtimer.so
+-rwxr-xr-x root       root             5248 ./usr/lib/traceevent/plugins/plugin_jbd2.so
+-rwxr-xr-x root       root             5356 ./usr/lib/traceevent/plugins/plugin_kmem.so
+-rwxr-xr-x root       root            14704 ./usr/lib/traceevent/plugins/plugin_kvm.so
+-rwxr-xr-x root       root             9456 ./usr/lib/traceevent/plugins/plugin_mac80211.so
+-rwxr-xr-x root       root             9460 ./usr/lib/traceevent/plugins/plugin_sched_switch.so
+-rwxr-xr-x root       root             5248 ./usr/lib/traceevent/plugins/plugin_scsi.so
+-rwxr-xr-x root       root             5356 ./usr/lib/traceevent/plugins/plugin_tlb.so
+-rwxr-xr-x root       root             5300 ./usr/lib/traceevent/plugins/plugin_xen.so

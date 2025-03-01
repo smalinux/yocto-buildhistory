@@ -1,0 +1,31 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  13 ./sysroot-providers/libtraceevent
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+drwxr-xr-x -          -                4096 ./usr/include/traceevent
+-rw-r--r-- -          -               23898 ./usr/include/traceevent/event-parse.h
+-rw-r--r-- -          -                1786 ./usr/include/traceevent/event-utils.h
+-rw-r--r-- -          -                1896 ./usr/include/traceevent/kbuffer.h
+-rw-r--r-- -          -                1504 ./usr/include/traceevent/trace-seq.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rw-r--r-- -          -              680802 ./usr/lib/libtraceevent.a
+-rwxr-xr-x -          -              111972 ./usr/lib/libtraceevent.so.1.7.3
+lrwxrwxrwx -          -                  22 ./usr/lib/libtraceevent.so.1 -> libtraceevent.so.1.7.3
+lrwxrwxrwx -          -                  18 ./usr/lib/libtraceevent.so -> libtraceevent.so.1
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 265 ./usr/lib/pkgconfig/libtraceevent.pc
+drwxr-xr-x -          -                4096 ./usr/lib/traceevent
+drwxr-xr-x -          -                4096 ./usr/lib/traceevent/plugins
+-rw-r--r-- -          -                 781 ./usr/lib/traceevent/plugins/libtraceevent-dynamic-list
+-rwxr-xr-x -          -                5168 ./usr/lib/traceevent/plugins/plugin_cfg80211.so
+-rwxr-xr-x -          -                9524 ./usr/lib/traceevent/plugins/plugin_function.so
+-rwxr-xr-x -          -                9428 ./usr/lib/traceevent/plugins/plugin_futex.so
+-rwxr-xr-x -          -                5168 ./usr/lib/traceevent/plugins/plugin_hrtimer.so
+-rwxr-xr-x -          -                5168 ./usr/lib/traceevent/plugins/plugin_jbd2.so
+-rwxr-xr-x -          -                5276 ./usr/lib/traceevent/plugins/plugin_kmem.so
+-rwxr-xr-x -          -               14628 ./usr/lib/traceevent/plugins/plugin_kvm.so
+-rwxr-xr-x -          -                9372 ./usr/lib/traceevent/plugins/plugin_mac80211.so
+-rwxr-xr-x -          -                9372 ./usr/lib/traceevent/plugins/plugin_sched_switch.so
+-rwxr-xr-x -          -                5168 ./usr/lib/traceevent/plugins/plugin_scsi.so
+-rwxr-xr-x -          -                5276 ./usr/lib/traceevent/plugins/plugin_tlb.so
+-rwxr-xr-x -          -                5224 ./usr/lib/traceevent/plugins/plugin_xen.so

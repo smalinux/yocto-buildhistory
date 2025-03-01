@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root             4096 ./usr/bin/.debug
+-rwxr-xr-x root       root           275044 ./usr/bin/.debug/lspci.pciutils
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/.debug
+-rwxr-xr-x root       root           244864 ./usr/lib/.debug/libpci.so.3.11.1
+drwxr-xr-x root       root             4096 ./usr/sbin
+drwxr-xr-x root       root             4096 ./usr/sbin/.debug
+-rwxr-xr-x root       root           100780 ./usr/sbin/.debug/pcilmr
+-rwxr-xr-x root       root            45052 ./usr/sbin/.debug/setpci

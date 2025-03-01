@@ -1,0 +1,9 @@
+PV = 0.17
+PR = r0
+PKG = libjson-c-dbg
+RPROVIDES = json-c-dbg (=0.17)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 645844
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/lib/.debug/libjson-c.so.5.3.0 /usr/lib/json-c/ptest/tests/.debug/test1 /usr/lib/json-c/ptest/tests/.debug/test1Formatted /usr/lib/json-c/ptest/tests/.debug/test2 /usr/lib/json-c/ptest/tests/.debug/test2Formatted /usr/lib/json-c/ptest/tests/.debug/test4 /usr/lib/json-c/ptest/tests/.debug/testReplaceExisting /usr/lib/json-c/ptest/tests/.debug/test_cast /usr/lib/json-c/ptest/tests/.debug/test_charcase /usr/lib/json-c/ptest/tests/.debug/test_compare /usr/lib/json-c/ptest/tests/.debug/test_deep_copy /usr/lib/json-c/ptest/tests/.debug/test_double_serializer /usr/lib/json-c/ptest/tests/.debug/test_float /usr/lib/json-c/ptest/tests/.debug/test_int_add /usr/lib/json-c/ptest/tests/.debug/test_int_get /usr/lib/json-c/ptest/tests/.debug/test_json_patch /usr/lib/json-c/ptest/tests/.debug/test_json_pointer /usr/lib/json-c/ptest/tests/.debug/test_locale /usr/lib/json-c/ptest/tests/.debug/test_null /usr/lib/json-c/ptest/tests/.debug/test_object_iterator /usr/lib/json-c/ptest/tests/.debug/test_parse /usr/lib/json-c/ptest/tests/.debug/test_parse_int64 /usr/lib/json-c/ptest/tests/.debug/test_printbuf /usr/lib/json-c/ptest/tests/.debug/test_set_serializer /usr/lib/json-c/ptest/tests/.debug/test_set_value /usr/lib/json-c/ptest/tests/.debug/test_strerror /usr/lib/json-c/ptest/tests/.debug/test_util_file /usr/lib/json-c/ptest/tests/.debug/test_visit

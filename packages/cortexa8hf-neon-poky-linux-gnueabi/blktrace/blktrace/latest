@@ -1,0 +1,9 @@
+PV = 1.3.0+git
+PR = r0
+PKGV = 1.3.0+git0+366d30b9cd
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097) libaio (>= 0.3.113)
+RRECOMMENDS = 
+PKGSIZE = 313648
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/blktrace /usr/lib/blktrace/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/blkiomon /usr/bin/blkparse /usr/bin/blkrawverify /usr/bin/blktrace /usr/bin/bno_plot.py /usr/bin/btrace /usr/bin/btrecord /usr/bin/btreplay /usr/bin/btt /usr/bin/iowatcher /usr/bin/verify_blkparse

@@ -1,0 +1,9 @@
+PV = 1.7.3
+PR = r0
+PKG = libtraceevent1
+RPROVIDES = libtraceevent (=1.7.3)
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097)
+RRECOMMENDS = 
+PKGSIZE = 112082
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libtraceevent /usr/lib/libtraceevent/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libtraceevent.so.1 /usr/lib/libtraceevent.so.1.7.3

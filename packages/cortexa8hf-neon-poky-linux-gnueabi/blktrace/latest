@@ -1,0 +1,8 @@
+PV = 1.3.0+git
+PR = r0
+DEPENDS = libaio virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+PACKAGES = blktrace-src blktrace-dbg blktrace-staticdev blktrace-dev blktrace-doc blktrace-locale blktrace
+LAYER = core
+LICENSE = GPL-2.0-only
+CONFIG = 
+SRC_URI = git://git.kernel.dk/blktrace.git;branch=master;protocol=https

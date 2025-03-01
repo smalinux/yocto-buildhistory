@@ -1,0 +1,9 @@
+PV = 1.19
+PR = r0
+PKG = libpopt-src
+RPROVIDES = popt-src (=1.19)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 161205
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/popt/1.19/src/lookup3.c /usr/src/debug/popt/1.19/src/popt.c /usr/src/debug/popt/1.19/src/popt.h /usr/src/debug/popt/1.19/src/poptconfig.c /usr/src/debug/popt/1.19/src/popthelp.c /usr/src/debug/popt/1.19/src/poptint.c /usr/src/debug/popt/1.19/src/poptint.h /usr/src/debug/popt/1.19/src/poptparse.c /usr/src/debug/popt/1.19/tests/tdict.c /usr/src/debug/popt/1.19/tests/test1.c /usr/src/debug/popt/1.19/tests/test2.c /usr/src/debug/popt/1.19/tests/test3.c

@@ -1,0 +1,8 @@
+PV = 1.7.3
+PR = r0
+DEPENDS = meson-native ninja-native pkgconfig-native python3-native qemu-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+PACKAGES = libtraceevent-src libtraceevent-dbg libtraceevent-staticdev libtraceevent-dev libtraceevent-doc libtraceevent-locale libtraceevent libtraceevent-plugins
+LAYER = core
+LICENSE = GPL-2.0-or-later & LGPL-2.1-or-later
+CONFIG = 
+SRC_URI = git://git.kernel.org/pub/scm/libs/libtrace/libtraceevent.git;branch=libtraceevent;protocol=https file://meson.patch

@@ -1,0 +1,9 @@
+PV = 1.19
+PR = r0
+PKG = libpopt-ptest
+RPROVIDES = popt-ptest (=1.19)
+RDEPENDS = bash glibc (>= 2.39+git0+e8f5217097) popt (>= 1.19)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 45641
+FILES = /usr/lib/popt/ptest
+FILELIST = /usr/lib/popt/ptest/run-ptest /usr/lib/popt/ptest/tdict /usr/lib/popt/ptest/test-poptrc /usr/lib/popt/ptest/test1 /usr/lib/popt/ptest/test2 /usr/lib/popt/ptest/test3 /usr/lib/popt/ptest/testit.sh

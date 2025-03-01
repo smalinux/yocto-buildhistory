@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/popt
+drwxr-xr-x root       root             4096 ./usr/lib/popt/ptest
+-rwxr-xr-x root       root               23 ./usr/lib/popt/ptest/run-ptest
+-rwxr-xr-x root       root             9744 ./usr/lib/popt/ptest/tdict
+-rwxr-xr-x root       root            10832 ./usr/lib/popt/ptest/test1
+-rwxr-xr-x root       root            10504 ./usr/lib/popt/ptest/test2
+-rwxr-xr-x root       root             5504 ./usr/lib/popt/ptest/test3
+-rwxr-xr-x root       root             8686 ./usr/lib/popt/ptest/testit.sh
+-rwxr-xr-x root       root              348 ./usr/lib/popt/ptest/test-poptrc

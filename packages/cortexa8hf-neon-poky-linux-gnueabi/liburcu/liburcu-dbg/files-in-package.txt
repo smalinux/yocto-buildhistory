@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/.debug
+-rwxr-xr-x root       root           108224 ./usr/lib/.debug/liburcu-bp.so.8.1.0
+-rwxr-xr-x root       root           160688 ./usr/lib/.debug/liburcu-cds.so.8.1.0
+-rwxr-xr-x root       root            69924 ./usr/lib/.debug/liburcu-common.so.8.1.0
+-rwxr-xr-x root       root           105136 ./usr/lib/.debug/liburcu-mb.so.8.1.0
+-rwxr-xr-x root       root           107732 ./usr/lib/.debug/liburcu-memb.so.8.1.0
+-rwxr-xr-x root       root           105220 ./usr/lib/.debug/liburcu-qsbr.so.8.1.0
+-rwxr-xr-x root       root           110300 ./usr/lib/.debug/liburcu-signal.so.8.1.0
+-rwxr-xr-x root       root           107732 ./usr/lib/.debug/liburcu.so.8.1.0

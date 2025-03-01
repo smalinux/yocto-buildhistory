@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = babeltrace-dbg babeltrace2-dbg lttng-tools-dbg powertop-dbg systemtap-dbg valgrind-dbg
+PKGSIZE = 0
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = 

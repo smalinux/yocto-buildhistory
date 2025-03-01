@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0
+DEPENDS = 
+PACKAGES = packagegroup-core-tools-profile-src packagegroup-core-tools-profile-dbg packagegroup-core-tools-profile packagegroup-core-tools-profile-dev packagegroup-core-tools-profile-ptest
+LAYER = core
+LICENSE = MIT
+CONFIG = 
+SRC_URI = 

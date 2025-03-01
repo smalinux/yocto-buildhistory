@@ -1,0 +1,8 @@
+PV = 1.7.3
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 569080
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/lib/.debug/libtraceevent.so.1.7.3 /usr/lib/traceevent/plugins/.debug/plugin_cfg80211.so /usr/lib/traceevent/plugins/.debug/plugin_function.so /usr/lib/traceevent/plugins/.debug/plugin_futex.so /usr/lib/traceevent/plugins/.debug/plugin_hrtimer.so /usr/lib/traceevent/plugins/.debug/plugin_jbd2.so /usr/lib/traceevent/plugins/.debug/plugin_kmem.so /usr/lib/traceevent/plugins/.debug/plugin_kvm.so /usr/lib/traceevent/plugins/.debug/plugin_mac80211.so /usr/lib/traceevent/plugins/.debug/plugin_sched_switch.so /usr/lib/traceevent/plugins/.debug/plugin_scsi.so /usr/lib/traceevent/plugins/.debug/plugin_tlb.so /usr/lib/traceevent/plugins/.debug/plugin_xen.so

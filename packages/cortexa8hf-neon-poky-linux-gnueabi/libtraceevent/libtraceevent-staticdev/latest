@@ -1,0 +1,8 @@
+PV = 1.7.3
+PR = r0
+RPROVIDES = 
+RDEPENDS = libtraceevent-dev (= 1.7.3-r0)
+RRECOMMENDS = 
+PKGSIZE = 680802
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/libtraceevent/*.a
+FILELIST = /usr/lib/libtraceevent.a

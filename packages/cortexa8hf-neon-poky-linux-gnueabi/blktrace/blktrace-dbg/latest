@@ -1,0 +1,9 @@
+PV = 1.3.0+git
+PR = r0
+PKGV = 1.3.0+git0+366d30b9cd
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libaio-dbg
+PKGSIZE = 1142488
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/bin/.debug/blkiomon /usr/bin/.debug/blkparse /usr/bin/.debug/blkrawverify /usr/bin/.debug/blktrace /usr/bin/.debug/btrecord /usr/bin/.debug/btreplay /usr/bin/.debug/btt /usr/bin/.debug/iowatcher /usr/bin/.debug/verify_blkparse

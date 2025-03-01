@@ -1,0 +1,8 @@
+PV = 1.7.3
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 383563
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/libtraceevent/1.7.3/include/traceevent/event-parse.h /usr/src/debug/libtraceevent/1.7.3/include/traceevent/event-utils.h /usr/src/debug/libtraceevent/1.7.3/include/traceevent/kbuffer.h /usr/src/debug/libtraceevent/1.7.3/include/traceevent/trace-seq.h /usr/src/debug/libtraceevent/1.7.3/plugins/plugin_cfg80211.c /usr/src/debug/libtraceevent/1.7.3/plugins/plugin_function.c /usr/src/debug/libtraceevent/1.7.3/plugins/plugin_futex.c /usr/src/debug/libtraceevent/1.7.3/plugins/plugin_hrtimer.c /usr/src/debug/libtraceevent/1.7.3/plugins/plugin_jbd2.c /usr/src/debug/libtraceevent/1.7.3/plugins/plugin_kmem.c /usr/src/debug/libtraceevent/1.7.3/plugins/plugin_kvm.c /usr/src/debug/libtraceevent/1.7.3/plugins/plugin_mac80211.c /usr/src/debug/libtraceevent/1.7.3/plugins/plugin_sched_switch.c /usr/src/debug/libtraceevent/1.7.3/plugins/plugin_scsi.c /usr/src/debug/libtraceevent/1.7.3/plugins/plugin_tlb.c /usr/src/debug/libtraceevent/1.7.3/plugins/plugin_xen.c /usr/src/debug/libtraceevent/1.7.3/src/event-parse-api.c /usr/src/debug/libtraceevent/1.7.3/src/event-parse-local.h /usr/src/debug/libtraceevent/1.7.3/src/event-parse.c /usr/src/debug/libtraceevent/1.7.3/src/event-plugin.c /usr/src/debug/libtraceevent/1.7.3/src/kbuffer-parse.c /usr/src/debug/libtraceevent/1.7.3/src/parse-filter.c /usr/src/debug/libtraceevent/1.7.3/src/parse-utils.c /usr/src/debug/libtraceevent/1.7.3/src/tep_strerror.c /usr/src/debug/libtraceevent/1.7.3/src/trace-seq.c

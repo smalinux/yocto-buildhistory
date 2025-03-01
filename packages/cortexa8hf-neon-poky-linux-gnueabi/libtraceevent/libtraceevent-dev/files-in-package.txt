@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/traceevent
+-rw-r--r-- root       root            23898 ./usr/include/traceevent/event-parse.h
+-rw-r--r-- root       root             1786 ./usr/include/traceevent/event-utils.h
+-rw-r--r-- root       root             1896 ./usr/include/traceevent/kbuffer.h
+-rw-r--r-- root       root             1504 ./usr/include/traceevent/trace-seq.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               18 ./usr/lib/libtraceevent.so -> libtraceevent.so.1
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              265 ./usr/lib/pkgconfig/libtraceevent.pc

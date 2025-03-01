@@ -1,5 +1,7 @@
 digraph depends {
     node [shape=plaintext]
+"bc" -> "libreadline8"
+"bc" -> "update-alternatives-opkg"
 "busybox" -> "busybox-udhcpc" [style=dotted]
 "busybox-hwclock" -> "update-rc.d" [style=dotted]
 "busybox-syslog" -> "busybox"
@@ -707,6 +709,7 @@ digraph depends {
 "libnsl3" -> "libtirpc3"
 "libpanelw5" -> "libncursesw5"
 "libpanelw5" -> "libtinfo5"
+"libreadline8" -> "libtinfo5"
 "libssl3" -> "libcrypto3"
 "libtinfo5" -> "ncurses-terminfo-base" [style=dotted]
 "modutils-initscripts" -> "update-rc.d" [style=dotted]

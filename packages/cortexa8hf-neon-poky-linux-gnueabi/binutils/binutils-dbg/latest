@@ -1,0 +1,8 @@
+PV = 2.42
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libbfd-dbg libdebuginfod-dbg libgcc-dbg libopcodes-dbg libstdc++-dbg libzstd-dbg zlib-dbg
+PKGSIZE = 163281248
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/bin/.debug/arm-poky-linux-gnueabi-addr2line /usr/bin/.debug/arm-poky-linux-gnueabi-ar /usr/bin/.debug/arm-poky-linux-gnueabi-as /usr/bin/.debug/arm-poky-linux-gnueabi-c++filt /usr/bin/.debug/arm-poky-linux-gnueabi-dwp /usr/bin/.debug/arm-poky-linux-gnueabi-elfedit /usr/bin/.debug/arm-poky-linux-gnueabi-gprof /usr/bin/.debug/arm-poky-linux-gnueabi-ld /usr/bin/.debug/arm-poky-linux-gnueabi-ld.gold /usr/bin/.debug/arm-poky-linux-gnueabi-nm /usr/bin/.debug/arm-poky-linux-gnueabi-objcopy /usr/bin/.debug/arm-poky-linux-gnueabi-objdump /usr/bin/.debug/arm-poky-linux-gnueabi-ranlib /usr/bin/.debug/arm-poky-linux-gnueabi-readelf /usr/bin/.debug/arm-poky-linux-gnueabi-size /usr/bin/.debug/arm-poky-linux-gnueabi-strings /usr/bin/.debug/arm-poky-linux-gnueabi-strip /usr/lib/.debug/libbfd-2.42.0.20240716.so /usr/lib/.debug/libctf-nobfd.so.0.0.0 /usr/lib/.debug/libctf.so.0.0.0 /usr/lib/.debug/libopcodes-2.42.0.20240716.so /usr/lib/.debug/libsframe.so.1.0.0 /usr/lib/bfd-plugins/.debug/libdep.so

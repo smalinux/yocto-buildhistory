@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-libsha256
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 6924
+FILES = /lib/modules/6.13.1/kernel/lib/crypto/.debug/libsha256.ko /lib/modules/6.13.1/kernel/lib/crypto/libsha256.ko
+FILELIST = /lib/modules/6.13.1/kernel/lib/crypto/libsha256.ko

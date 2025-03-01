@@ -1,0 +1,15 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12/dbm
+-rw-r--r-- root       root            11594 ./usr/lib/python3.12/dbm/dumb.py
+-rw-r--r-- root       root               72 ./usr/lib/python3.12/dbm/gnu.py
+-rw-r--r-- root       root             5882 ./usr/lib/python3.12/dbm/__init__.py
+-rw-r--r-- root       root               70 ./usr/lib/python3.12/dbm/ndbm.py
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12/dbm/__pycache__
+-rw-r--r-- root       root            12950 ./usr/lib/python3.12/dbm/__pycache__/dumb.cpython-312.pyc
+-rw-r--r-- root       root              216 ./usr/lib/python3.12/dbm/__pycache__/gnu.cpython-312.pyc
+-rw-r--r-- root       root             6235 ./usr/lib/python3.12/dbm/__pycache__/__init__.cpython-312.pyc
+-rw-r--r-- root       root              215 ./usr/lib/python3.12/dbm/__pycache__/ndbm.cpython-312.pyc
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12/lib-dynload
+-rwxr-xr-x root       root            14016 ./usr/lib/python3.12/lib-dynload/_dbm.cpython-312-arm-linux-gnueabihf.so

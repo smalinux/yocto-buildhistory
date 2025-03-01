@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-resistive-adc-touch
+RDEPENDS = kernel-6.13.1 kernel-module-industrialio-buffer-cb-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 9108
+FILES = /lib/modules/6.13.1/kernel/drivers/input/touchscreen/.debug/resistive-adc-touch.ko /lib/modules/6.13.1/kernel/drivers/input/touchscreen/resistive-adc-touch.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/input/touchscreen/resistive-adc-touch.ko

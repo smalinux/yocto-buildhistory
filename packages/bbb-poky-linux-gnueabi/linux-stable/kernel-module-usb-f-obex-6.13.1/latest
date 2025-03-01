@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-usb-f-obex
+RDEPENDS = kernel-6.13.1 kernel-module-libcomposite-6.13.1 kernel-module-u-serial-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 8676
+FILES = /lib/modules/6.13.1/kernel/drivers/usb/gadget/function/.debug/usb_f_obex.ko /lib/modules/6.13.1/kernel/drivers/usb/gadget/function/usb_f_obex.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/usb/gadget/function/usb_f_obex.ko

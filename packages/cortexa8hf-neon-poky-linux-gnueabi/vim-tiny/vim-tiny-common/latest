@@ -1,0 +1,8 @@
+PV = 9.1.0698
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/vim-tiny/vim91/*.vim /usr/share/vim-tiny/vim91/autoload /usr/share/vim-tiny/vim91/colors /usr/share/vim-tiny/vim91/compiler /usr/share/vim-tiny/vim91/ftplugin /usr/share/vim-tiny/vim91/indent /usr/share/vim-tiny/vim91/keymap /usr/share/vim-tiny/vim91/lang /usr/share/vim-tiny/vim91/macros /usr/share/vim-tiny/vim91/plugin /usr/share/vim-tiny/vim91/print /usr/share/vim-tiny/vim91/spell /usr/share/icons
+FILELIST = 

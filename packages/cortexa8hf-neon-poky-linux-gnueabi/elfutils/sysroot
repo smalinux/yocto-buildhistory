@@ -1,0 +1,39 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   8 ./sysroot-providers/elfutils
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+-rw-r--r-- -          -               31613 ./usr/include/dwarf.h
+drwxr-xr-x -          -                4096 ./usr/include/elfutils
+-rw-r--r-- -          -                4445 ./usr/include/elfutils/debuginfod.h
+-rw-r--r-- -          -                3927 ./usr/include/elfutils/elf-knowledge.h
+-rw-r--r-- -          -               42654 ./usr/include/elfutils/known-dwarf.h
+-rw-r--r-- -          -                7116 ./usr/include/elfutils/libasm.h
+-rw-r--r-- -          -                6454 ./usr/include/elfutils/libdwelf.h
+-rw-r--r-- -          -               38616 ./usr/include/elfutils/libdwfl.h
+-rw-r--r-- -          -               47110 ./usr/include/elfutils/libdw.h
+-rw-r--r-- -          -                1274 ./usr/include/elfutils/version.h
+-rw-r--r-- -          -               11406 ./usr/include/gelf.h
+-rw-r--r-- -          -               20318 ./usr/include/libelf.h
+-rw-r--r-- -          -                1601 ./usr/include/nlist.h
+drwxr-xr-x -          -                4096 ./usr/lib
+drwxr-xr-x -          -                4096 ./usr/lib/elfutils
+-rwxr-xr-x -          -               25968 ./usr/lib/libasm-0.191.so
+-rw-r--r-- -          -              341742 ./usr/lib/libasm.a
+lrwxrwxrwx -          -                  15 ./usr/lib/libasm.so.1 -> libasm-0.191.so
+lrwxrwxrwx -          -                  11 ./usr/lib/libasm.so -> libasm.so.1
+-rwxr-xr-x -          -               25812 ./usr/lib/libdebuginfod-0.191.so
+lrwxrwxrwx -          -                  22 ./usr/lib/libdebuginfod.so.1 -> libdebuginfod-0.191.so
+lrwxrwxrwx -          -                  22 ./usr/lib/libdebuginfod.so -> libdebuginfod-0.191.so
+-rwxr-xr-x -          -              555052 ./usr/lib/libdw-0.191.so
+-rw-r--r-- -          -             7780164 ./usr/lib/libdw.a
+lrwxrwxrwx -          -                  14 ./usr/lib/libdw.so.1 -> libdw-0.191.so
+lrwxrwxrwx -          -                  10 ./usr/lib/libdw.so -> libdw.so.1
+-rwxr-xr-x -          -               91500 ./usr/lib/libelf-0.191.so
+-rw-r--r-- -          -             1893202 ./usr/lib/libelf.a
+lrwxrwxrwx -          -                  15 ./usr/lib/libelf.so.1 -> libelf-0.191.so
+lrwxrwxrwx -          -                  11 ./usr/lib/libelf.so -> libelf.so.1
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 263 ./usr/lib/pkgconfig/libdebuginfod.pc
+-rw-r--r-- -          -                 641 ./usr/lib/pkgconfig/libdw.pc
+-rw-r--r-- -          -                 263 ./usr/lib/pkgconfig/libelf.pc
+drwxr-xr-x -          -                4096 ./usr/share

@@ -1,0 +1,9 @@
+PV = 1.14
+PR = r0
+PKG = liblz-src
+RPROVIDES = lzlib-src (=1.14)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/src/debug
+FILELIST = 

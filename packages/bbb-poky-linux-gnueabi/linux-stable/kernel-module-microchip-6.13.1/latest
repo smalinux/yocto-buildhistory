@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-microchip
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 10928
+FILES = /lib/modules/6.13.1/kernel/drivers/net/phy/.debug/microchip.ko /lib/modules/6.13.1/kernel/drivers/net/phy/microchip.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/net/phy/microchip.ko

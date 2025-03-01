@@ -1,0 +1,9 @@
+PV = 0.8+git
+PR = r0
+PKGV = 0.8+git0+b8f9501050
+RPROVIDES = 
+RDEPENDS = update-rc.d-dev (= 0.8+git0+b8f9501050-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/update-rc.d/*.a
+FILELIST = 

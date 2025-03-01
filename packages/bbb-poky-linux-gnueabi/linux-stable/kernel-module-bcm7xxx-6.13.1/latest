@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-bcm7xxx
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 22384
+FILES = /lib/modules/6.13.1/kernel/drivers/net/phy/.debug/bcm7xxx.ko /lib/modules/6.13.1/kernel/drivers/net/phy/bcm7xxx.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/net/phy/bcm7xxx.ko

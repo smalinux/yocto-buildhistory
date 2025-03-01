@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-spi-gpio
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 12176
+FILES = /lib/modules/6.13.1/kernel/drivers/spi/.debug/spi-gpio.ko /lib/modules/6.13.1/kernel/drivers/spi/spi-gpio.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/spi/spi-gpio.ko

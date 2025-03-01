@@ -1,0 +1,8 @@
+PV = 5.4.6
+PR = r0
+RPROVIDES = sv-translation xz-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-sv
+PKGSIZE = 26576
+FILES = /usr/share/locale/sv
+FILELIST = /usr/share/locale/sv/LC_MESSAGES/xz.mo

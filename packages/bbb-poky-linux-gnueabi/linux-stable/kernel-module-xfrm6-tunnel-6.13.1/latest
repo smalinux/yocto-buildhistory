@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-xfrm6-tunnel
+RDEPENDS = kernel-6.13.1 kernel-module-tunnel6-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 10928
+FILES = /lib/modules/6.13.1/kernel/net/ipv6/.debug/xfrm6_tunnel.ko /lib/modules/6.13.1/kernel/net/ipv6/xfrm6_tunnel.ko
+FILELIST = /lib/modules/6.13.1/kernel/net/ipv6/xfrm6_tunnel.ko

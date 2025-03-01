@@ -1,0 +1,8 @@
+PV = 1.66
+PR = r0
+DEPENDS = virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+PACKAGES = init-system-helpers-src init-system-helpers-dbg init-system-helpers-staticdev init-system-helpers-dev init-system-helpers-doc init-system-helpers-locale init-system-helpers init-system-helpers-invoke-rc.d init-system-helpers-service
+LAYER = core
+LICENSE = BSD-3-Clause & GPL-2.0-only
+CONFIG = 
+SRC_URI = git://salsa.debian.org/debian/init-system-helpers.git;protocol=https;branch=master

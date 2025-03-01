@@ -1,0 +1,8 @@
+PV = 13.3.0
+PR = r0
+DEPENDS = autoconf-native automake-native flex-native gettext-native gmp libmpc libtool-cross libtool-native mpfr texinfo-dummy-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc zlib zstd
+PACKAGES = gcc-src gcc-dbg gcc gcc-plugins gcc-symlinks g++ g++-symlinks cpp cpp-symlinks g77 g77-symlinks gfortran gfortran-symlinks gcov gcov-symlinks gcc-doc gcc-dev gcc-locale-be gcc-locale-ca gcc-locale-da gcc-locale-de gcc-locale-el gcc-locale-eo gcc-locale-es gcc-locale-fi gcc-locale-fr gcc-locale-hr gcc-locale-id gcc-locale-ja gcc-locale-ka gcc-locale-nl gcc-locale-pt-br gcc-locale-ro gcc-locale-ru gcc-locale-sr gcc-locale-sv gcc-locale-tr gcc-locale-uk gcc-locale-vi gcc-locale-zh-cn gcc-locale-zh-tw
+LAYER = core
+LICENSE = GPL-3.0-with-GCC-exception & GPL-3.0-only
+CONFIG = 
+SRC_URI = 

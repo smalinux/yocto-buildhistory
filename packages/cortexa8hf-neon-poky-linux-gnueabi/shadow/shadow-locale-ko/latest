@@ -1,0 +1,8 @@
+PV = 4.14.2
+PR = r0
+RPROVIDES = ko-translation shadow-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ko
+PKGSIZE = 30941
+FILES = /usr/share/locale/ko
+FILELIST = /usr/share/locale/ko/LC_MESSAGES/shadow.mo

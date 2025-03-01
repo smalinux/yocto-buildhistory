@@ -1,0 +1,9 @@
+PE = 1
+PV = 1.1.1
+PR = r0
+DEPENDS = autoconf-native automake-native libtool-cross libtool-native pkgconfig-native util-macros virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc xorgproto xtrans
+PACKAGES = libice-src libice-dbg libice-staticdev libice-dev libice-doc libice-locale libice
+LAYER = core
+LICENSE = MIT
+CONFIG = ipv6
+SRC_URI = https://www.x.org/releases//individual/lib/libICE-1.1.1.tar.xz

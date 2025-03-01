@@ -1,0 +1,8 @@
+PV = 2.31.0
+PR = r0
+DEPENDS = virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+PACKAGES = ttyrun-src ttyrun-dbg ttyrun-staticdev ttyrun-dev ttyrun-doc ttyrun-locale ttyrun
+LAYER = core
+LICENSE = MIT
+CONFIG = 
+SRC_URI = git://github.com/ibm-s390-linux/s390-tools;protocol=https;branch=master

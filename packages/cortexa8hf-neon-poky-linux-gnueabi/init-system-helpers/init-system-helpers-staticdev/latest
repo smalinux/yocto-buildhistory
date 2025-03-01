@@ -1,0 +1,8 @@
+PV = 1.66
+PR = r0
+RPROVIDES = 
+RDEPENDS = init-system-helpers-dev (= 1.66-r0)
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/init-system-helpers/*.a
+FILELIST = 

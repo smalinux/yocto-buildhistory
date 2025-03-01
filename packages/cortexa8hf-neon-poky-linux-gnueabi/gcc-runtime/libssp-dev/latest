@@ -1,0 +1,8 @@
+PV = 13.3.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = libgcc-dev
+PKGSIZE = 0
+FILES = /usr/lib/libssp*.so /usr/lib/libssp*_nonshared.a /usr/lib/libssp*.la /usr/lib/arm-poky-linux-gnueabi/13.3.0/include/ssp
+FILELIST = 

@@ -1,0 +1,8 @@
+PV = 4.4.1
+PR = r0
+RPROVIDES = bg-translation make-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-bg
+PKGSIZE = 67139
+FILES = /usr/share/locale/bg
+FILELIST = /usr/share/locale/bg/LC_MESSAGES/make.mo

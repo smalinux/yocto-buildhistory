@@ -1,0 +1,8 @@
+PV = 3.2.14
+PR = r0
+DEPENDS = autoconf-native automake-native gperf-native initscripts kmod libtool-cross libtool-native pkgconfig-native update-rc.d util-linux virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+PACKAGES = eudev-src eudev-dbg eudev-staticdev eudev-dev eudev-doc eudev-locale libudev eudev-hwdb eudev
+LAYER = core
+LICENSE = GPL-2.0-or-later & LGPL-2.1-or-later
+CONFIG = blkid hwdb kmod
+SRC_URI = https://github.com/eudev-project/eudev/releases/download/v3.2.14/eudev-3.2.14.tar.gz file://netifnames.patch file://init file://local.rules

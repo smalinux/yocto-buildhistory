@@ -1,0 +1,8 @@
+PV = 3.12.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = python3-core
+RRECOMMENDS = 
+PKGSIZE = 158627
+FILES = /usr/lib/python3.12/difflib.py /usr/lib/python3.12/__pycache__/difflib.*.pyc
+FILELIST = /usr/lib/python3.12/__pycache__/difflib.cpython-312.pyc /usr/lib/python3.12/difflib.py

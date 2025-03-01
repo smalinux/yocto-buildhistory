@@ -1,0 +1,8 @@
+PV = 24.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = python3-compile-dev python3-core-dev python3-dev python3-html-dev python3-image-dev python3-io-dev python3-json-dev python3-multiprocessing-dev python3-netserver-dev python3-pickle-dev python3-pip (= 24.0-r0) python3-setuptools-dev python3-unixadmin-dev python3-xmlrpc-dev
+PKGSIZE = 0
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/python3-pip/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/python3.12/site-packages/*.la
+FILELIST = 

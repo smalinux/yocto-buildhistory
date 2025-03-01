@@ -1,0 +1,8 @@
+PV = 5.4.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg liblzma-dbg
+PKGSIZE = 1982532
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/bin/.debug/lzmadec /usr/bin/.debug/lzmainfo /usr/bin/.debug/xz.xz /usr/bin/.debug/xzdec /usr/lib/.debug/liblzma.so.5.4.6 /usr/lib/xz/ptest/tests/.debug/create_compress_files /usr/lib/xz/ptest/tests/.debug/test_bcj_exact_size /usr/lib/xz/ptest/tests/.debug/test_block_header /usr/lib/xz/ptest/tests/.debug/test_check /usr/lib/xz/ptest/tests/.debug/test_filter_flags /usr/lib/xz/ptest/tests/.debug/test_filter_str /usr/lib/xz/ptest/tests/.debug/test_hardware /usr/lib/xz/ptest/tests/.debug/test_index /usr/lib/xz/ptest/tests/.debug/test_index_hash /usr/lib/xz/ptest/tests/.debug/test_lzip_decoder /usr/lib/xz/ptest/tests/.debug/test_memlimit /usr/lib/xz/ptest/tests/.debug/test_stream_flags /usr/lib/xz/ptest/tests/.debug/test_vli

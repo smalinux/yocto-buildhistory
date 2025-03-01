@@ -1,0 +1,18 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  17 ./sysroot-providers/libarchive-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/bin
+-rwxr-xr-x -          -               14424 ./usr/bin/bsdcat
+-rwxr-xr-x -          -               47192 ./usr/bin/bsdcpio
+-rwxr-xr-x -          -               75864 ./usr/bin/bsdtar
+-rwxr-xr-x -          -               34880 ./usr/bin/bsdunzip
+drwxr-xr-x -          -                4096 ./usr/include
+-rw-r--r-- -          -               33975 ./usr/include/archive_entry.h
+-rw-r--r-- -          -               53839 ./usr/include/archive.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -              767392 ./usr/lib/libarchive.so.13.7.4
+lrwxrwxrwx -          -                  20 ./usr/lib/libarchive.so.13 -> libarchive.so.13.7.4
+lrwxrwxrwx -          -                  20 ./usr/lib/libarchive.so -> libarchive.so.13.7.4
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 418 ./usr/lib/pkgconfig/libarchive.pc
+drwxr-xr-x -          -                4096 ./usr/share

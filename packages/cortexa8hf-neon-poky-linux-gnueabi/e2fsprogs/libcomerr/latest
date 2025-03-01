@@ -1,0 +1,9 @@
+PV = 1.47.0
+PR = r0
+PKG = libcom-err2
+RPROVIDES = libcomerr (=1.47.0)
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097)
+RRECOMMENDS = 
+PKGSIZE = 9521
+FILES = /lib/libcom_err.so.*
+FILELIST = /lib/libcom_err.so.2 /lib/libcom_err.so.2.1

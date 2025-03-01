@@ -1,0 +1,9 @@
+PV = 13.3.0
+PR = r0
+PKG = libgcc-s-dbg
+RPROVIDES = libgcc-dbg (=13.3.0)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 3089584
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /lib/.debug/libgcc_s.so.1

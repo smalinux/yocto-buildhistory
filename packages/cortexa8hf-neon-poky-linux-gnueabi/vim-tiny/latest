@@ -1,0 +1,8 @@
+PV = 9.1.0698
+PR = r0
+DEPENDS = autoconf-native automake-native desktop-file-utils gettext-native libtool-cross libtool-native ncurses pkgconfig-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc virtual/update-alternatives
+PACKAGES = vim-tiny-src vim-tiny-dbg vim-tiny-common vim-tiny-syntax vim-tiny-help vim-tiny-tutor vim-tiny-vimrc vim-tiny-tools vim-tiny-staticdev vim-tiny-dev vim-tiny-doc vim-tiny-locale vim-tiny
+LAYER = core
+LICENSE = Vim
+CONFIG = tiny
+SRC_URI = git://github.com/vim/vim.git;branch=master;protocol=https file://disable_acl_header_check.patch file://0001-src-Makefile-improve-reproducibility.patch file://no-path-adjust.patch

@@ -1,0 +1,8 @@
+PV = 1.66
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 16517
+FILES = /usr/sbin/invoke-rc.d
+FILELIST = /usr/sbin/invoke-rc.d

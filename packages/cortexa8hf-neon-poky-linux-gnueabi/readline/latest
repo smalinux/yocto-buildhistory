@@ -1,0 +1,8 @@
+PV = 8.2
+PR = r0
+DEPENDS = autoconf-native automake-native libtool-cross libtool-native ncurses texinfo-dummy-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc virtual/update-alternatives
+PACKAGES = readline-src readline-dbg readline-staticdev readline-dev readline-doc readline-locale readline
+LAYER = core
+LICENSE = GPL-3.0-or-later
+CONFIG = 
+SRC_URI = https://ftp.gnu.org/gnu/readline/readline-8.2.tar.gz;name=archive file://inputrc file://norpath.patch file://readline82-001.patch;striplevel=0 file://readline82-002.patch;striplevel=0 file://readline82-003.patch;striplevel=0 file://readline82-004.patch;striplevel=0 file://readline82-005.patch;striplevel=0 file://readline82-006.patch;striplevel=0 file://readline82-007.patch;striplevel=0 file://readline82-008.patch;striplevel=0 file://readline82-009.patch;striplevel=0 file://readline82-010.patch;striplevel=0

@@ -1,0 +1,9 @@
+PE = 1
+PV = 1.0.11
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 25223
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/libxau/1.0.11/AuDispose.c /usr/src/debug/libxau/1.0.11/AuFileName.c /usr/src/debug/libxau/1.0.11/AuGetAddr.c /usr/src/debug/libxau/1.0.11/AuGetBest.c /usr/src/debug/libxau/1.0.11/AuLock.c /usr/src/debug/libxau/1.0.11/AuRead.c /usr/src/debug/libxau/1.0.11/AuUnlock.c /usr/src/debug/libxau/1.0.11/AuWrite.c /usr/src/debug/libxau/1.0.11/include/X11/Xauth.h

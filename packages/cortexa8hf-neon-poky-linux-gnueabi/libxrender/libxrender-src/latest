@@ -1,0 +1,9 @@
+PE = 1
+PV = 0.9.11
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 128572
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/libxrender/0.9.11/include/X11/extensions/Xrender.h /usr/src/debug/libxrender/0.9.11/src/AddTrap.c /usr/src/debug/libxrender/0.9.11/src/Color.c /usr/src/debug/libxrender/0.9.11/src/Composite.c /usr/src/debug/libxrender/0.9.11/src/Cursor.c /usr/src/debug/libxrender/0.9.11/src/FillRect.c /usr/src/debug/libxrender/0.9.11/src/FillRects.c /usr/src/debug/libxrender/0.9.11/src/Filter.c /usr/src/debug/libxrender/0.9.11/src/Glyph.c /usr/src/debug/libxrender/0.9.11/src/Picture.c /usr/src/debug/libxrender/0.9.11/src/Poly.c /usr/src/debug/libxrender/0.9.11/src/Trap.c /usr/src/debug/libxrender/0.9.11/src/Tri.c /usr/src/debug/libxrender/0.9.11/src/Xrender.c /usr/src/debug/libxrender/0.9.11/src/Xrenderint.h

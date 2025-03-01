@@ -1,0 +1,8 @@
+PV = 3.12.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = python3-tkinter
+RRECOMMENDS = 
+PKGSIZE = 330791
+FILES = /usr/lib/python3.12/turtle.py /usr/lib/python3.12/__pycache__/turtle.*.pyc
+FILELIST = /usr/lib/python3.12/__pycache__/turtle.cpython-312.pyc /usr/lib/python3.12/turtle.py

@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-qrtr-smd
+RDEPENDS = kernel-6.13.1 kernel-module-qrtr-6.13.1 kernel-module-rpmsg-core-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 5740
+FILES = /lib/modules/6.13.1/kernel/net/qrtr/.debug/qrtr-smd.ko /lib/modules/6.13.1/kernel/net/qrtr/qrtr-smd.ko
+FILELIST = /lib/modules/6.13.1/kernel/net/qrtr/qrtr-smd.ko

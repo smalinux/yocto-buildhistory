@@ -1,0 +1,8 @@
+PV = 5.38.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-dynaloader perl-module-strict
+RRECOMMENDS = 
+PKGSIZE = 12135
+FILES = /usr/lib/perl5/5.38.2/XSLoader.pm
+FILELIST = /usr/lib/perl5/5.38.2/XSLoader.pm

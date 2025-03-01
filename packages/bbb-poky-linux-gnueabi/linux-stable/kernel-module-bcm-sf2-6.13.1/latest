@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-bcm-sf2
+RDEPENDS = kernel-6.13.1 kernel-module-b53-common-6.13.1 kernel-module-dsa-core-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 35824
+FILES = /lib/modules/6.13.1/kernel/drivers/net/dsa/.debug/bcm-sf2.ko /lib/modules/6.13.1/kernel/drivers/net/dsa/bcm-sf2.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/net/dsa/bcm-sf2.ko

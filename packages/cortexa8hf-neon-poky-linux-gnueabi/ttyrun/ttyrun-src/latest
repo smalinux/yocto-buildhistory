@@ -1,0 +1,8 @@
+PV = 2.31.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 5089
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/ttyrun/2.31.0/iucvterm/src/ttyrun.c

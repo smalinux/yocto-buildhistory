@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-xfrm-ipcomp
+RDEPENDS = kernel-6.13.1 kernel-module-xfrm-algo-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 9556
+FILES = /lib/modules/6.13.1/kernel/net/xfrm/.debug/xfrm_ipcomp.ko /lib/modules/6.13.1/kernel/net/xfrm/xfrm_ipcomp.ko
+FILELIST = /lib/modules/6.13.1/kernel/net/xfrm/xfrm_ipcomp.ko

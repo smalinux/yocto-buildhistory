@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-onboard-usb-dev
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 23128
+FILES = /lib/modules/6.13.1/kernel/drivers/usb/misc/.debug/onboard_usb_dev.ko /lib/modules/6.13.1/kernel/drivers/usb/misc/onboard_usb_dev.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/usb/misc/onboard_usb_dev.ko

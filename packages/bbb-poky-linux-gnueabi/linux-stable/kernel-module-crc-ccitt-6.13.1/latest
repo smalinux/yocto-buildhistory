@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-crc-ccitt
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 4040
+FILES = /lib/modules/6.13.1/kernel/lib/.debug/crc-ccitt.ko /lib/modules/6.13.1/kernel/lib/crc-ccitt.ko
+FILELIST = /lib/modules/6.13.1/kernel/lib/crc-ccitt.ko

@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-esp6
+RDEPENDS = kernel-6.13.1 kernel-module-xfrm-algo-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 19224
+FILES = /lib/modules/6.13.1/kernel/net/ipv6/.debug/esp6.ko /lib/modules/6.13.1/kernel/net/ipv6/esp6.ko
+FILELIST = /lib/modules/6.13.1/kernel/net/ipv6/esp6.ko

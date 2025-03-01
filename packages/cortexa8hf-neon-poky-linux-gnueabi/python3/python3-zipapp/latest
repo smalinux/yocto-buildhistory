@@ -1,0 +1,8 @@
+PV = 3.12.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = python3-compression python3-core
+RRECOMMENDS = 
+PKGSIZE = 17459
+FILES = /usr/lib/python3.12/zipapp.py /usr/lib/python3.12/__pycache__/zipapp.*.pyc
+FILELIST = /usr/lib/python3.12/__pycache__/zipapp.cpython-312.pyc /usr/lib/python3.12/zipapp.py

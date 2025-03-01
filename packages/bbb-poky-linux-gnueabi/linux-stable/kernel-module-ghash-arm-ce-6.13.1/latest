@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-ghash-arm-ce
+RDEPENDS = kernel-6.13.1 kernel-module-cryptd-6.13.1 kernel-module-gf128mul-6.13.1 kernel-module-libaes-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 20700
+FILES = /lib/modules/6.13.1/kernel/arch/arm/crypto/.debug/ghash-arm-ce.ko /lib/modules/6.13.1/kernel/arch/arm/crypto/ghash-arm-ce.ko
+FILELIST = /lib/modules/6.13.1/kernel/arch/arm/crypto/ghash-arm-ce.ko

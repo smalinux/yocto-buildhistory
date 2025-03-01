@@ -1,0 +1,9 @@
+PV = 13.3.0
+PR = r0
+PKG = libstdc++6
+RPROVIDES = libstdc++ (=13.3.0)
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097) libgcc (>= 13.3.0)
+RRECOMMENDS = 
+PKGSIZE = 2000619
+FILES = /usr/lib/libstdc++.so.*
+FILELIST = /usr/lib/libstdc++.so.6 /usr/lib/libstdc++.so.6.0.32

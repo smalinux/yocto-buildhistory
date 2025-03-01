@@ -1,0 +1,8 @@
+PV = 3.12.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = gdbm (>= 1.23) glibc (>= 2.39+git0+e8f5217097) python3-core
+RRECOMMENDS = 
+PKGSIZE = 18148
+FILES = /usr/lib/python3.12/lib-dynload/_gdbm.*.so
+FILELIST = /usr/lib/python3.12/lib-dynload/_gdbm.cpython-312-arm-linux-gnueabihf.so

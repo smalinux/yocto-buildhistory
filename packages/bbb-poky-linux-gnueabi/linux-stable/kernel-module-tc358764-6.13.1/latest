@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-tc358764
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 9380
+FILES = /lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/.debug/tc358764.ko /lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/tc358764.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/tc358764.ko

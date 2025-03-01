@@ -1,0 +1,8 @@
+PV = 3.04
+PR = r0
+DEPENDS = base-passwd update-rc.d-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/crypt virtual/libc virtual/update-alternatives
+PACKAGES = sysvinit-src sysvinit-dbg sysvinit-pidof sysvinit-sulogin sysvinit-staticdev sysvinit-dev sysvinit-doc sysvinit-locale sysvinit
+LAYER = core
+LICENSE = GPL-2.0-or-later
+CONFIG = 
+SRC_URI = https://download.savannah.gnu.org/releases/sysvinit/sysvinit-3.04.tar.xz file://install.patch file://crypt-lib.patch file://pidof-add-m-option.patch file://realpath.patch file://0001-include-sys-sysmacros.h-for-major-minor-defines-in-g.patch file://sysvinit_remove_linux_fs.patch file://rcS-default file://rc file://rcS file://bootlogd.init file://01_bootlogd file://0001-hddown-include-libgen.h-for-basename-API.patch

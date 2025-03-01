@@ -1,0 +1,8 @@
+PV = 2.3.7
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097) libidn2 (>= 2.3.7) libunistring (>= 1.2)
+RRECOMMENDS = 
+PKGSIZE = 26272
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/idn2

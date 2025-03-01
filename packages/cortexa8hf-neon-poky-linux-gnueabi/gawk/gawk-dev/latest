@@ -1,0 +1,8 @@
+PV = 5.3.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = coreutils-dev gawk (= 5.3.0-r0) glibc-dev locale-base-en-us-dev locale-base-en-us.iso-8859-1-dev make-dev readline-dev update-alternatives-opkg-dev
+PKGSIZE = 42138
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gawk/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/gawk/*.la
+FILELIST = /usr/include/gawkapi.h

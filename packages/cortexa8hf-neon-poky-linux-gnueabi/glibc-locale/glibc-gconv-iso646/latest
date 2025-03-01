@@ -1,0 +1,8 @@
+PV = 2.39+git
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097) glibc-gconv
+RRECOMMENDS = 
+PKGSIZE = 29980
+FILES = /usr/lib/gconv/ISO646.so
+FILELIST = /usr/lib/gconv/ISO646.so

@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12
+-rw-r--r-- root       root             3913 ./usr/lib/python3.12/crypt.py
+-rw-r--r-- root       root             9349 ./usr/lib/python3.12/hashlib.py
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12/lib-dynload
+-rwxr-xr-x root       root            51104 ./usr/lib/python3.12/lib-dynload/_blake2.cpython-312-arm-linux-gnueabihf.so
+-rwxr-xr-x root       root             5484 ./usr/lib/python3.12/lib-dynload/_crypt.cpython-312-arm-linux-gnueabihf.so
+-rwxr-xr-x root       root            44140 ./usr/lib/python3.12/lib-dynload/_hashlib.cpython-312-arm-linux-gnueabihf.so
+-rwxr-xr-x root       root            13992 ./usr/lib/python3.12/lib-dynload/_md5.cpython-312-arm-linux-gnueabihf.so
+-rwxr-xr-x root       root            13996 ./usr/lib/python3.12/lib-dynload/_sha1.cpython-312-arm-linux-gnueabihf.so
+-rwxr-xr-x root       root            71768 ./usr/lib/python3.12/lib-dynload/_sha2.cpython-312-arm-linux-gnueabihf.so
+-rwxr-xr-x root       root            22836 ./usr/lib/python3.12/lib-dynload/_sha3.cpython-312-arm-linux-gnueabihf.so
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12/__pycache__
+-rw-r--r-- root       root             5359 ./usr/lib/python3.12/__pycache__/crypt.cpython-312.pyc
+-rw-r--r-- root       root             8080 ./usr/lib/python3.12/__pycache__/hashlib.cpython-312.pyc

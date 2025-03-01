@@ -1,0 +1,9 @@
+PV = 1.0.8
+PR = r0
+PKG = libbz2-1
+RPROVIDES = libbz2 (=1.0.8)
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097)
+RRECOMMENDS = 
+PKGSIZE = 65839
+FILES = /usr/lib/lib*.so.*
+FILELIST = /usr/lib/libbz2.so.1 /usr/lib/libbz2.so.1.0.8

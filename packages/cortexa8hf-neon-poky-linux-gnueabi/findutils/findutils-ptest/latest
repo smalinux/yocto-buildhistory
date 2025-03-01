@@ -1,0 +1,8 @@
+PV = 4.9.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = bash coreutils findutils grep sed
+RRECOMMENDS = ptest-runner
+PKGSIZE = 80326
+FILES = /usr/lib/findutils/ptest
+FILELIST = /usr/lib/findutils/ptest/run-ptest /usr/lib/findutils/ptest/tests/GNUmakefile /usr/lib/findutils/ptest/tests/envvar-check /usr/lib/findutils/ptest/tests/find/debug-missing-arg.sh /usr/lib/findutils/ptest/tests/find/depth-unreadable-dir.sh /usr/lib/findutils/ptest/tests/find/exec-plus-last-file.sh /usr/lib/findutils/ptest/tests/find/execdir-fd-leak.sh /usr/lib/findutils/ptest/tests/find/files0-from.sh /usr/lib/findutils/ptest/tests/find/inode-zero.sh /usr/lib/findutils/ptest/tests/find/many-dir-entries-vs-OOM.sh /usr/lib/findutils/ptest/tests/find/name-lbracket-literal.sh /usr/lib/findutils/ptest/tests/find/printf_escape_c.sh /usr/lib/findutils/ptest/tests/find/printf_escapechars.sh /usr/lib/findutils/ptest/tests/find/printf_inode.sh /usr/lib/findutils/ptest/tests/find/refuse-noop.sh /usr/lib/findutils/ptest/tests/find/type_list.sh /usr/lib/findutils/ptest/tests/find/used.sh /usr/lib/findutils/ptest/tests/init.sh /usr/lib/findutils/ptest/tests/lang-default /usr/lib/findutils/ptest/tests/local.mk /usr/lib/findutils/ptest/tests/misc/help-version.sh /usr/lib/findutils/ptest/tests/other-fs-tmpdir /usr/lib/findutils/ptest/tests/sample-test /usr/lib/findutils/ptest/tests/xargs/conflicting_opts.sh /usr/lib/findutils/ptest/tests/xargs/verbose-quote.sh

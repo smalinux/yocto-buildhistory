@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-musb-hdrc
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 171688
+FILES = /lib/modules/6.13.1/kernel/drivers/usb/musb/.debug/musb_hdrc.ko /lib/modules/6.13.1/kernel/drivers/usb/musb/musb_hdrc.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/usb/musb/musb_hdrc.ko

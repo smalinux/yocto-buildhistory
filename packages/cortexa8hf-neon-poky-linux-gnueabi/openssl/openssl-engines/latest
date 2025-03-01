@@ -1,0 +1,8 @@
+PV = 3.2.3
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097) libcrypto (>= 3.2.3)
+RRECOMMENDS = 
+PKGSIZE = 62588
+FILES = /usr/lib/engines-3
+FILELIST = /usr/lib/engines-3/afalg.so /usr/lib/engines-3/capi.so /usr/lib/engines-3/loader_attic.so /usr/lib/engines-3/padlock.so

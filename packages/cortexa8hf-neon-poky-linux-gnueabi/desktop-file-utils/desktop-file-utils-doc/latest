@@ -1,0 +1,8 @@
+PV = 0.27
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 17856
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = /usr/share/man/man1/desktop-file-edit.1 /usr/share/man/man1/desktop-file-install.1 /usr/share/man/man1/desktop-file-validate.1 /usr/share/man/man1/update-desktop-database.1

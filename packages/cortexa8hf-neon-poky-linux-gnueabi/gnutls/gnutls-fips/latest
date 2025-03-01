@@ -1,0 +1,9 @@
+PV = 3.8.4
+PR = r0
+PKG = libgnutls-fips
+RPROVIDES = gnutls-fips (=3.8.4)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/bin/fipshmac
+FILELIST = 

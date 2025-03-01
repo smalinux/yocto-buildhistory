@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-rtc-rx8581
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 9148
+FILES = /lib/modules/6.13.1/kernel/drivers/rtc/.debug/rtc-rx8581.ko /lib/modules/6.13.1/kernel/drivers/rtc/rtc-rx8581.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/rtc/rtc-rx8581.ko

@@ -1,0 +1,8 @@
+PV = 9.6p1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097) libcrypto (>= 3.2.3)
+RRECOMMENDS = 
+PKGSIZE = 497208
+FILES = /usr/bin/ssh-keygen
+FILELIST = /usr/bin/ssh-keygen

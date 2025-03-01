@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-usb-f-ecm-subset
+RDEPENDS = kernel-6.13.1 kernel-module-libcomposite-6.13.1 kernel-module-u-ether-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 11204
+FILES = /lib/modules/6.13.1/kernel/drivers/usb/gadget/function/.debug/usb_f_ecm_subset.ko /lib/modules/6.13.1/kernel/drivers/usb/gadget/function/usb_f_ecm_subset.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/usb/gadget/function/usb_f_ecm_subset.ko

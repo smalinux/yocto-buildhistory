@@ -1,0 +1,8 @@
+PV = 4.0.4
+PR = r0
+RPROVIDES = ka-translation procps-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ka
+PKGSIZE = 51544
+FILES = /usr/share/locale/ka
+FILELIST = /usr/share/locale/ka/LC_MESSAGES/procps-ng.mo

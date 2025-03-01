@@ -1,0 +1,8 @@
+PV = 3.2.3
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 24684
+FILES = /etc/ssl/openssl.cnf /usr/lib/ssl-3/openssl.cnf*
+FILELIST = /etc/ssl/openssl.cnf /usr/lib/ssl-3/openssl.cnf /usr/lib/ssl-3/openssl.cnf.dist

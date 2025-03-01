@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-mms114
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 15224
+FILES = /lib/modules/6.13.1/kernel/drivers/input/touchscreen/.debug/mms114.ko /lib/modules/6.13.1/kernel/drivers/input/touchscreen/mms114.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/input/touchscreen/mms114.ko

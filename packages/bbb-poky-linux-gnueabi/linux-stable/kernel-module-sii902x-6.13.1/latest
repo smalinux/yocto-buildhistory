@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-sii902x
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 19940
+FILES = /lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/.debug/sii902x.ko /lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/sii902x.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/sii902x.ko

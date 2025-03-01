@@ -1,0 +1,9 @@
+PE = 1
+PV = 1.8.9
+PR = r0
+DEPENDS = autoconf-archive-native autoconf-native automake-native gettext-native libtool-cross libtool-native libxcb pkgconfig-native util-macros virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc xorgproto xorgproto-native xtrans
+PACKAGES = libx11-src libx11-dbg libx11-xcb libx11-staticdev libx11-dev libx11-doc libx11-locale libx11
+LAYER = core
+LICENSE = MIT & BSD-1-Clause & HPND & HPND-sell-variant & ISC
+CONFIG = xcms
+SRC_URI = https://www.x.org/releases//individual/lib/libX11-1.8.9.tar.xz file://disable_tests.patch

@@ -1,0 +1,8 @@
+PV = 2.6.3
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+PACKAGES = expat-src expat-dbg expat-ptest expat-staticdev expat-dev expat-doc expat-locale expat-bin expat
+LAYER = core
+LICENSE = MIT
+CONFIG = 
+SRC_URI = https://github.com/libexpat/libexpat/releases//download/R_2_6_3/expat-2.6.3.tar.bz2 file://run-ptest

@@ -1,0 +1,8 @@
+PV = 9.6p1
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097)
+RRECOMMENDS = 
+PKGSIZE = 210532
+FILES = /usr/bin/sftp
+FILELIST = /usr/bin/sftp

@@ -1,0 +1,9 @@
+PV = 0.191
+PR = r0
+PKG = libelf1
+RPROVIDES = libelf (=0.191)
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097) zlib (>= 1.3.1)
+RRECOMMENDS = 
+PKGSIZE = 91591
+FILES = /usr/lib/libelf-0.191.so /usr/lib/libelf.so.*
+FILELIST = /usr/lib/libelf-0.191.so /usr/lib/libelf.so.1

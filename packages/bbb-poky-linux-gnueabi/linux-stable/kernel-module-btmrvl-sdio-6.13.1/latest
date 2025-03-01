@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-btmrvl-sdio
+RDEPENDS = kernel-6.13.1 kernel-module-bluetooth-6.13.1 kernel-module-btmrvl-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 28128
+FILES = /lib/modules/6.13.1/kernel/drivers/bluetooth/.debug/btmrvl_sdio.ko /lib/modules/6.13.1/kernel/drivers/bluetooth/btmrvl_sdio.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/bluetooth/btmrvl_sdio.ko

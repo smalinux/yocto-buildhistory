@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            21900 ./usr/bin/dbus-monitor
+-rwxr-xr-x root       root            21892 ./usr/bin/dbus-send
+-rwxr-xr-x root       root             9628 ./usr/bin/dbus-update-activation-environment
+-rwxr-xr-x root       root             9608 ./usr/bin/dbus-uuidgen

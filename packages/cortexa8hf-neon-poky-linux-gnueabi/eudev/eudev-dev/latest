@@ -1,0 +1,8 @@
+PV = 3.2.14
+PR = r0
+RPROVIDES = 
+RDEPENDS = libudev
+RRECOMMENDS = eudev (= 3.2.14-r0) glibc-dev initscripts-dev kmod-dev libkmod-dev libudev-dev update-rc.d-dev util-linux-dev util-linux-libblkid-dev
+PKGSIZE = 20106
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/eudev/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/libudev.h /usr/include/udev.h /usr/lib/libudev.so /usr/lib/pkgconfig/libudev.pc /usr/share/pkgconfig/udev.pc

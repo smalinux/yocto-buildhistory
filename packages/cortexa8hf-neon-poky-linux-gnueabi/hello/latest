@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0
+DEPENDS = virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+PACKAGES = hello-src hello-dbg hello-staticdev hello-dev hello-doc hello-locale hello
+LAYER = meta-bbb
+LICENSE = MIT
+CONFIG = 
+SRC_URI = file://hello.c

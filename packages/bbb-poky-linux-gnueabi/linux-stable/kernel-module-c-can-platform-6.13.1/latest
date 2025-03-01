@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-c-can-platform
+RDEPENDS = kernel-6.13.1 kernel-module-c-can-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 13712
+FILES = /lib/modules/6.13.1/kernel/drivers/net/can/c_can/.debug/c_can_platform.ko /lib/modules/6.13.1/kernel/drivers/net/can/c_can/c_can_platform.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/net/can/c_can/c_can_platform.ko

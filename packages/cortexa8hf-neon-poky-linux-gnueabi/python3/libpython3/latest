@@ -1,0 +1,9 @@
+PV = 3.12.6
+PR = r0
+PKG = libpython3.12-1.0
+RPROVIDES = libpython3 (=3.12.6)
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097) libgcc
+RRECOMMENDS = 
+PKGSIZE = 4950232
+FILES = /usr/lib/libpython*.so.*
+FILELIST = /usr/lib/libpython3.12.so.1.0

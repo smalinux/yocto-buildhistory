@@ -1,0 +1,25 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root          1100368 ./usr/bin/btrfs
+lrwxrwxrwx root       root                5 ./usr/bin/btrfsck -> btrfs
+-rwxr-xr-x root       root           624740 ./usr/bin/btrfs-convert
+-rwxr-xr-x root       root           559204 ./usr/bin/btrfs-find-root
+-rwxr-xr-x root       root           596072 ./usr/bin/btrfs-image
+-rwxr-xr-x root       root           563304 ./usr/bin/btrfs-map-logical
+-rwxr-xr-x root       root           559208 ./usr/bin/btrfs-select-super
+-rwxr-xr-x root       root           596064 ./usr/bin/btrfstune
+-rwxr-xr-x root       root             1185 ./usr/bin/fsck.btrfs
+-rwxr-xr-x root       root           604272 ./usr/bin/mkfs.btrfs
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            21796 ./usr/lib/libbtrfs.so.0.1
+lrwxrwxrwx root       root               15 ./usr/lib/libbtrfs.so.0 -> libbtrfs.so.0.1
+-rwxr-xr-x root       root            21856 ./usr/lib/libbtrfsutil.so.1.2.0
+lrwxrwxrwx root       root               21 ./usr/lib/libbtrfsutil.so.1 -> libbtrfsutil.so.1.2.0
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12/site-packages
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12/site-packages/btrfsutil-6.7.1-py3.12.egg-info
+-rw-r--r-- root       root                1 ./usr/lib/python3.12/site-packages/btrfsutil-6.7.1-py3.12.egg-info/dependency_links.txt
+-rw-r--r-- root       root              166 ./usr/lib/python3.12/site-packages/btrfsutil-6.7.1-py3.12.egg-info/PKG-INFO
+-rw-r--r-- root       root              273 ./usr/lib/python3.12/site-packages/btrfsutil-6.7.1-py3.12.egg-info/SOURCES.txt
+-rw-r--r-- root       root               10 ./usr/lib/python3.12/site-packages/btrfsutil-6.7.1-py3.12.egg-info/top_level.txt
+-rwxr-xr-x root       root            35528 ./usr/lib/python3.12/site-packages/btrfsutil.cpython-312-arm-linux-gnueabihf.so

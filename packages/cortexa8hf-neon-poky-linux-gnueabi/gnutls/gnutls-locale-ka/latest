@@ -1,0 +1,9 @@
+PV = 3.8.4
+PR = r0
+PKG = libgnutls-locale-ka
+RPROVIDES = gnutls-locale gnutls-locale-ka (=3.8.4) ka-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ka
+PKGSIZE = 51597
+FILES = /usr/share/locale/ka
+FILELIST = /usr/share/locale/ka/LC_MESSAGES/gnutls.mo

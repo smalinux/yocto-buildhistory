@@ -1,0 +1,9 @@
+PE = 1
+PV = 6.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 1040778
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/unzip/6.0/consts.h /usr/src/debug/unzip/6.0/crc32.c /usr/src/debug/unzip/6.0/crc32.h /usr/src/debug/unzip/6.0/crypt.c /usr/src/debug/unzip/6.0/crypt.h /usr/src/debug/unzip/6.0/ebcdic.h /usr/src/debug/unzip/6.0/envargs.c /usr/src/debug/unzip/6.0/explode.c /usr/src/debug/unzip/6.0/extract.c /usr/src/debug/unzip/6.0/fileio.c /usr/src/debug/unzip/6.0/funzip.c /usr/src/debug/unzip/6.0/globals.c /usr/src/debug/unzip/6.0/globals.h /usr/src/debug/unzip/6.0/inflate.c /usr/src/debug/unzip/6.0/list.c /usr/src/debug/unzip/6.0/match.c /usr/src/debug/unzip/6.0/process.c /usr/src/debug/unzip/6.0/ttyio.c /usr/src/debug/unzip/6.0/ttyio.h /usr/src/debug/unzip/6.0/ubz2err.c /usr/src/debug/unzip/6.0/unix/unix.c /usr/src/debug/unzip/6.0/unix/unxcfg.h /usr/src/debug/unzip/6.0/unreduce.c /usr/src/debug/unzip/6.0/unshrink.c /usr/src/debug/unzip/6.0/unzip.c /usr/src/debug/unzip/6.0/unzip.h /usr/src/debug/unzip/6.0/unzpriv.h /usr/src/debug/unzip/6.0/zipinfo.c

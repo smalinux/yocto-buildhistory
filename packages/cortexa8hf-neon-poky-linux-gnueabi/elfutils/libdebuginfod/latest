@@ -1,0 +1,9 @@
+PV = 0.191
+PR = r0
+PKG = libdebuginfod1
+RPROVIDES = libdebuginfod (=0.191)
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097) libcurl (>= 8.7.1) libelf (>= 0.191)
+RRECOMMENDS = 
+PKGSIZE = 25922
+FILES = /usr/lib/libdebuginfod-0.191.so /usr/lib/libdebuginfod.so.*
+FILELIST = /usr/lib/libdebuginfod-0.191.so /usr/lib/libdebuginfod.so.1

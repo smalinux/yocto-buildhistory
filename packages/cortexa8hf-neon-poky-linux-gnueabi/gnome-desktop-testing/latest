@@ -1,0 +1,8 @@
+PV = 2021.1
+PR = r0
+DEPENDS = autoconf-native automake-native glib-2.0 libtool-cross libtool-native pkgconfig-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+PACKAGES = gnome-desktop-testing-src gnome-desktop-testing-dbg gnome-desktop-testing-staticdev gnome-desktop-testing-dev gnome-desktop-testing-doc gnome-desktop-testing-locale gnome-desktop-testing
+LAYER = core
+LICENSE = LGPL-2.0-or-later
+CONFIG = 
+SRC_URI = git://gitlab.gnome.org/GNOME/gnome-desktop-testing.git;protocol=https;branch=master file://0001-fix-non-literal-format-string-issue-with-clang.patch

@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/gnome-desktop-testing
+drwxr-xr-x root       root             4096 ./usr/src/debug/gnome-desktop-testing/2021.1
+drwxr-xr-x root       root             4096 ./usr/src/debug/gnome-desktop-testing/2021.1/src
+-rw-r--r-- root       root            30254 ./usr/src/debug/gnome-desktop-testing/2021.1/src/gnome-desktop-testing-runner.c

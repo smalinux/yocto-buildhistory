@@ -1,0 +1,9 @@
+PV = 2.4.4+git
+PR = r0
+PKGV = 2.4.4+git0+95f528cff0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 54236
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/bin/.debug/ptest-runner

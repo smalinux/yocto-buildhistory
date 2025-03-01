@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/ssl
+-rw-r--r-- root       root            12328 ./etc/ssl/openssl.cnf
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/ssl-3
+-rw-r--r-- root       root            12328 ./usr/lib/ssl-3/openssl.cnf.dist
+lrwxrwxrwx root       root               28 ./usr/lib/ssl-3/openssl.cnf -> ../../../etc/ssl/openssl.cnf

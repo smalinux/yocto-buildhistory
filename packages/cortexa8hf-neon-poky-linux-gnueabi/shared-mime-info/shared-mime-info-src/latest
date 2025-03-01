@@ -1,0 +1,8 @@
+PV = 2.4
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 87264
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/shared-mime-info/2.4/src/update-mime-database.cpp

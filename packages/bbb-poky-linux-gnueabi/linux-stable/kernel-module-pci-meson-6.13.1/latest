@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-pci-meson
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 11040
+FILES = /lib/modules/6.13.1/kernel/drivers/pci/controller/dwc/.debug/pci-meson.ko /lib/modules/6.13.1/kernel/drivers/pci/controller/dwc/pci-meson.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/pci/controller/dwc/pci-meson.ko

@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-adxl34x-i2c
+RDEPENDS = kernel-6.13.1 kernel-module-adxl34x-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 7028
+FILES = /lib/modules/6.13.1/kernel/drivers/input/misc/.debug/adxl34x-i2c.ko /lib/modules/6.13.1/kernel/drivers/input/misc/adxl34x-i2c.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/input/misc/adxl34x-i2c.ko

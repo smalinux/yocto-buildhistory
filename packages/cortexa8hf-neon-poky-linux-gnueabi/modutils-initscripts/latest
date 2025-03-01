@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0
+DEPENDS = initscripts update-rc.d virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+PACKAGES = modutils-initscripts-src modutils-initscripts-dbg modutils-initscripts-staticdev modutils-initscripts-dev modutils-initscripts-doc modutils-initscripts-locale modutils-initscripts
+LAYER = core
+LICENSE = MIT
+CONFIG = 
+SRC_URI = file://modutils.sh

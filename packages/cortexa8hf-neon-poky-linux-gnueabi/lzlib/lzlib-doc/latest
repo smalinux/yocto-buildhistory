@@ -1,0 +1,9 @@
+PV = 1.14
+PR = r0
+PKG = liblz-doc
+RPROVIDES = lzlib-doc (=1.14)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 56577
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = /usr/share/info/lzlib.info

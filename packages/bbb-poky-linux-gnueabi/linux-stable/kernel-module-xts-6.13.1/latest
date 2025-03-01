@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-xts
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 9992
+FILES = /lib/modules/6.13.1/kernel/crypto/.debug/xts.ko /lib/modules/6.13.1/kernel/crypto/xts.ko
+FILELIST = /lib/modules/6.13.1/kernel/crypto/xts.ko

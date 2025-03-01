@@ -1,0 +1,8 @@
+PV = 5.45
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libbz2-dbg liblzma-dbg libzstd-dbg lzlib-dbg zlib-dbg
+PKGSIZE = 587436
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/bin/.debug/file.file /usr/lib/.debug/libmagic.so.1.0.0

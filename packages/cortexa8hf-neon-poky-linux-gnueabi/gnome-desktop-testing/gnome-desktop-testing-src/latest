@@ -1,0 +1,8 @@
+PV = 2021.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 30254
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/gnome-desktop-testing/2021.1/src/gnome-desktop-testing-runner.c

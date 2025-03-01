@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/modules
+drwxr-xr-x root       root             4096 ./lib/modules/6.13.1
+-rw-r--r-- root       root            16516 ./lib/modules/6.13.1/modules.builtin
+-rw-r--r-- root       root           108049 ./lib/modules/6.13.1/modules.builtin.modinfo
+-rw-r--r-- root       root             9683 ./lib/modules/6.13.1/modules.order

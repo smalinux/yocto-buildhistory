@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-chacha-neon
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 26524
+FILES = /lib/modules/6.13.1/kernel/arch/arm/crypto/.debug/chacha-neon.ko /lib/modules/6.13.1/kernel/arch/arm/crypto/chacha-neon.ko
+FILELIST = /lib/modules/6.13.1/kernel/arch/arm/crypto/chacha-neon.ko

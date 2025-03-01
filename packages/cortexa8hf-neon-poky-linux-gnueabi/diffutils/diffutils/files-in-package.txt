@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            46556 ./usr/bin/cmp.diffutils
+-rwxr-xr-x root       root            58904 ./usr/bin/diff3
+-rwxr-xr-x root       root           202336 ./usr/bin/diff.diffutils
+-rwxr-xr-x root       root            50640 ./usr/bin/sdiff

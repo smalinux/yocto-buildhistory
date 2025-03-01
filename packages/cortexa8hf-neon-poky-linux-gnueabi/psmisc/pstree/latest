@@ -1,0 +1,8 @@
+PV = 23.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097) ncurses-libtinfo (>= 6.4) update-alternatives-opkg
+RRECOMMENDS = 
+PKGSIZE = 26496
+FILES = /usr/bin/pstree.psmisc
+FILELIST = /usr/bin/pstree.psmisc

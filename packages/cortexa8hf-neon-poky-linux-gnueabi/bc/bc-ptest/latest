@@ -1,0 +1,8 @@
+PV = 1.07.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = bc
+RRECOMMENDS = ptest-runner
+PKGSIZE = 4788
+FILES = /usr/lib/bc/ptest
+FILELIST = /usr/lib/bc/ptest/array.b /usr/lib/bc/ptest/arrayp.b /usr/lib/bc/ptest/aryprm.b /usr/lib/bc/ptest/atan.b /usr/lib/bc/ptest/checklib.b /usr/lib/bc/ptest/div.b /usr/lib/bc/ptest/exp.b /usr/lib/bc/ptest/fact.b /usr/lib/bc/ptest/jn.b /usr/lib/bc/ptest/ln.b /usr/lib/bc/ptest/mul.b /usr/lib/bc/ptest/raise.b /usr/lib/bc/ptest/run-ptest /usr/lib/bc/ptest/sine.b /usr/lib/bc/ptest/sqrt.b /usr/lib/bc/ptest/sqrt1.b /usr/lib/bc/ptest/sqrt2.b /usr/lib/bc/ptest/testfn.b

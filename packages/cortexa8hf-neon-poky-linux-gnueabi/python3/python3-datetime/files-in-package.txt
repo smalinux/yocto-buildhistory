@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12
+-rw-r--r-- root       root            25440 ./usr/lib/python3.12/calendar.py
+-rw-r--r-- root       root              268 ./usr/lib/python3.12/datetime.py
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12/lib-dynload
+-rwxr-xr-x root       root            83044 ./usr/lib/python3.12/lib-dynload/_datetime.cpython-312-arm-linux-gnueabihf.so
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12/__pycache__
+-rw-r--r-- root       root            39605 ./usr/lib/python3.12/__pycache__/calendar.cpython-312.pyc
+-rw-r--r-- root       root              409 ./usr/lib/python3.12/__pycache__/datetime.cpython-312.pyc
+-rw-r--r-- root       root            24064 ./usr/lib/python3.12/__pycache__/_strptime.cpython-312.pyc
+-rw-r--r-- root       root            24615 ./usr/lib/python3.12/_strptime.py

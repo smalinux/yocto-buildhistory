@@ -1,0 +1,8 @@
+PV = 1.48
+PR = r0
+RPROVIDES = 
+RDEPENDS = bash glibc (>= 2.39+git0+e8f5217097) libgpg-error (>= 1.48) make
+RRECOMMENDS = ptest-runner
+PKGSIZE = 168373
+FILES = /usr/lib/libgpg-error/ptest
+FILELIST = /usr/lib/libgpg-error/ptest/Makefile /usr/lib/libgpg-error/ptest/run-ptest /usr/lib/libgpg-error/ptest/t-argparse /usr/lib/libgpg-error/ptest/t-b64 /usr/lib/libgpg-error/ptest/t-lock /usr/lib/libgpg-error/ptest/t-lock-single-posix /usr/lib/libgpg-error/ptest/t-logging /usr/lib/libgpg-error/ptest/t-malloc /usr/lib/libgpg-error/ptest/t-poll /usr/lib/libgpg-error/ptest/t-printf /usr/lib/libgpg-error/ptest/t-strerror /usr/lib/libgpg-error/ptest/t-stringutils /usr/lib/libgpg-error/ptest/t-syserror /usr/lib/libgpg-error/ptest/t-version

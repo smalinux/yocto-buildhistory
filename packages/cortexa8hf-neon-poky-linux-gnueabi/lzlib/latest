@@ -1,0 +1,8 @@
+PV = 1.14
+PR = r0
+DEPENDS = virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+PACKAGES = lzlib-src lzlib-dbg lzlib-staticdev lzlib-dev lzlib-doc lzlib-locale lzlib
+LAYER = core
+LICENSE = BSD-2-Clause
+CONFIG = 
+SRC_URI = https://download.savannah.gnu.org/releases/lzip/lzlib/lzlib-1.14.tar.gz

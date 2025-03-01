@@ -1,0 +1,8 @@
+PV = 3.11
+PR = r0
+RPROVIDES = grep-locale hu-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-hu
+PKGSIZE = 18874
+FILES = /usr/share/locale/hu
+FILELIST = /usr/share/locale/hu/LC_MESSAGES/grep.mo

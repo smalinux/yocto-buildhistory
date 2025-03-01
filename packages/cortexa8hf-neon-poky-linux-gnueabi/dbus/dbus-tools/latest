@@ -1,0 +1,8 @@
+PV = 1.14.10
+PR = r0
+RPROVIDES = 
+RDEPENDS = dbus-lib (>= 1.14.10) glibc (>= 2.39+git0+e8f5217097)
+RRECOMMENDS = 
+PKGSIZE = 63028
+FILES = /usr/bin/dbus-uuidgen /usr/bin/dbus-send /usr/bin/dbus-monitor /usr/bin/dbus-update-activation-environment
+FILELIST = /usr/bin/dbus-monitor /usr/bin/dbus-send /usr/bin/dbus-update-activation-environment /usr/bin/dbus-uuidgen

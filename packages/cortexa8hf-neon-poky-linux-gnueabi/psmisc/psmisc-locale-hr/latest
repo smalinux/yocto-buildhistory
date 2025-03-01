@@ -1,0 +1,8 @@
+PV = 23.6
+PR = r0
+RPROVIDES = hr-translation psmisc-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-hr
+PKGSIZE = 18551
+FILES = /usr/share/locale/hr
+FILELIST = /usr/share/locale/hr/LC_MESSAGES/psmisc.mo

@@ -1,0 +1,8 @@
+PV = 3.04
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097) update-alternatives-opkg
+RRECOMMENDS = 
+PKGSIZE = 21982
+FILES = /bin/pidof.sysvinit /sbin/killall5
+FILELIST = /bin/pidof.sysvinit /sbin/killall5

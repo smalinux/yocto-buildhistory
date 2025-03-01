@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12
+-rw-r--r-- root       root              129 ./usr/lib/python3.12/contextvars.py
+-rw-r--r-- root       root             2805 ./usr/lib/python3.12/decimal.py
+-rw-r--r-- root       root            38147 ./usr/lib/python3.12/fractions.py
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12/lib-dynload
+-rwxr-xr-x root       root             5388 ./usr/lib/python3.12/lib-dynload/_contextvars.cpython-312-arm-linux-gnueabihf.so
+-rwxr-xr-x root       root           276364 ./usr/lib/python3.12/lib-dynload/_decimal.cpython-312-arm-linux-gnueabihf.so
+-rw-r--r-- root       root            11467 ./usr/lib/python3.12/numbers.py
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12/__pycache__
+-rw-r--r-- root       root              261 ./usr/lib/python3.12/__pycache__/contextvars.cpython-312.pyc
+-rw-r--r-- root       root             2931 ./usr/lib/python3.12/__pycache__/decimal.cpython-312.pyc
+-rw-r--r-- root       root            36755 ./usr/lib/python3.12/__pycache__/fractions.cpython-312.pyc
+-rw-r--r-- root       root            13967 ./usr/lib/python3.12/__pycache__/numbers.cpython-312.pyc
+-rw-r--r-- root       root           225512 ./usr/lib/python3.12/__pycache__/_pydecimal.cpython-312.pyc
+-rw-r--r-- root       root           227283 ./usr/lib/python3.12/_pydecimal.py

@@ -1,0 +1,8 @@
+PV = 3.10
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native libtool-cross libtool-native texinfo-dummy-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc virtual/update-alternatives
+PACKAGES = diffutils-src diffutils-dbg diffutils-ptest diffutils-staticdev diffutils-dev diffutils-doc diffutils-locale-bg diffutils-locale-ca diffutils-locale-cs diffutils-locale-da diffutils-locale-de diffutils-locale-el diffutils-locale-eo diffutils-locale-es diffutils-locale-fi diffutils-locale-fr diffutils-locale-ga diffutils-locale-gl diffutils-locale-he diffutils-locale-hr diffutils-locale-hu diffutils-locale-id diffutils-locale-it diffutils-locale-ja diffutils-locale-ka diffutils-locale-ko diffutils-locale-lv diffutils-locale-ms diffutils-locale-nb diffutils-locale-nl diffutils-locale-pl diffutils-locale-pt diffutils-locale-pt-br diffutils-locale-ro diffutils-locale-ru diffutils-locale-sr diffutils-locale-sv diffutils-locale-tr diffutils-locale-uk diffutils-locale-vi diffutils-locale-zh-cn diffutils-locale-zh-tw diffutils
+LAYER = core
+LICENSE = GPL-3.0-or-later
+CONFIG = 
+SRC_URI = https://ftp.gnu.org/gnu/diffutils/diffutils-3.10.tar.xz file://run-ptest file://0001-Skip-strip-trailing-cr-test-case.patch

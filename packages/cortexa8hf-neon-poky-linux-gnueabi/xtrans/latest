@@ -1,0 +1,9 @@
+PE = 1
+PV = 1.5.0
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native libtool-cross libtool-native pkgconfig-native util-macros virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+PACKAGES = xtrans-src xtrans-dbg xtrans-staticdev xtrans-dev xtrans-doc xtrans-locale xtrans
+LAYER = core
+LICENSE = MIT
+CONFIG = 
+SRC_URI = https://www.x.org/releases//individual/lib/xtrans-1.5.0.tar.xz file://multilibfix.patch

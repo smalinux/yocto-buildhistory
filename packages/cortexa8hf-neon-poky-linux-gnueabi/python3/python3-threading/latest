@@ -1,0 +1,8 @@
+PV = 3.12.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097) python3-core
+RRECOMMENDS = 
+PKGSIZE = 55737
+FILES = /usr/lib/python3.12/_threading_local.py /usr/lib/python3.12/lib-dynload/_queue.*.so /usr/lib/python3.12/queue.py /usr/lib/python3.12/__pycache__/_threading_local.*.pyc /usr/lib/python3.12/__pycache__/queue.*.pyc
+FILELIST = /usr/lib/python3.12/__pycache__/_threading_local.cpython-312.pyc /usr/lib/python3.12/__pycache__/queue.cpython-312.pyc /usr/lib/python3.12/_threading_local.py /usr/lib/python3.12/lib-dynload/_queue.cpython-312-arm-linux-gnueabihf.so /usr/lib/python3.12/queue.py

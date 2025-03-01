@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-st-sensors
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 17556
+FILES = /lib/modules/6.13.1/kernel/drivers/iio/common/st_sensors/.debug/st_sensors.ko /lib/modules/6.13.1/kernel/drivers/iio/common/st_sensors/st_sensors.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/iio/common/st_sensors/st_sensors.ko

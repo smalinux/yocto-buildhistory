@@ -1,0 +1,17 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  19 ./sysroot-providers/u-boot-mkeficapsule-native
+-rw-r--r-- -          -                  19 ./sysroot-providers/u-boot-mkenvimage-native
+-rw-r--r-- -          -                  19 ./sysroot-providers/u-boot-mkimage-native
+-rw-r--r-- -          -                  19 ./sysroot-providers/u-boot-tools-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/bin
+lrwxrwxrwx -          -                  15 ./usr/bin/dumpimage -> uboot-dumpimage
+lrwxrwxrwx -          -                  20 ./usr/bin/fit_check_sign -> uboot-fit_check_sign
+lrwxrwxrwx -          -                  18 ./usr/bin/mkeficapsule -> uboot-mkeficapsule
+lrwxrwxrwx -          -                  16 ./usr/bin/mkenvimage -> uboot-mkenvimage
+lrwxrwxrwx -          -                  13 ./usr/bin/mkimage -> uboot-mkimage
+-rwxr-xr-x -          -              350040 ./usr/bin/uboot-dumpimage
+-rwxr-xr-x -          -              350040 ./usr/bin/uboot-fit_check_sign
+-rwxr-xr-x -          -               27144 ./usr/bin/uboot-mkeficapsule
+-rwxr-xr-x -          -               14360 ./usr/bin/uboot-mkenvimage
+-rwxr-xr-x -          -              358664 ./usr/bin/uboot-mkimage

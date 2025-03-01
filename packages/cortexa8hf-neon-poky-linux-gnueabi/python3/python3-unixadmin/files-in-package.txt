@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12
+-rw-r--r-- root       root             5990 ./usr/lib/python3.12/getpass.py
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12/lib-dynload
+-rwxr-xr-x root       root            13824 ./usr/lib/python3.12/lib-dynload/nis.cpython-312-arm-linux-gnueabihf.so
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12/__pycache__
+-rw-r--r-- root       root             6833 ./usr/lib/python3.12/__pycache__/getpass.cpython-312.pyc

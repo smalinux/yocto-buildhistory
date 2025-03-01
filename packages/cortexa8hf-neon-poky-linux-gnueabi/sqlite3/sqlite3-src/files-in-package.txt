@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/sqlite3
+drwxr-xr-x root       root             4096 ./usr/src/debug/sqlite3/3.45.1
+-rw-r--r-- root       root           910851 ./usr/src/debug/sqlite3/3.45.1/shell.c
+-rw-r--r-- root       root          9018109 ./usr/src/debug/sqlite3/3.45.1/sqlite3.c
+-rw-r--r-- root       root           640658 ./usr/src/debug/sqlite3/3.45.1/sqlite3.h

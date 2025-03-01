@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-phy-twl4030-usb
+RDEPENDS = kernel-6.13.1 kernel-module-musb-hdrc-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 15196
+FILES = /lib/modules/6.13.1/kernel/drivers/phy/ti/.debug/phy-twl4030-usb.ko /lib/modules/6.13.1/kernel/drivers/phy/ti/phy-twl4030-usb.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/phy/ti/phy-twl4030-usb.ko

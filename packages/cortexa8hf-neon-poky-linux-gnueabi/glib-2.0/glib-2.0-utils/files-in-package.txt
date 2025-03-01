@@ -1,0 +1,15 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            13756 ./usr/bin/gapplication
+-rwxr-xr-x root       root            38328 ./usr/bin/gdbus
+-rwxr-xr-x root       root            75212 ./usr/bin/gio
+-rwxr-xr-x root       root            46500 ./usr/bin/glib-compile-resources
+-rwxr-xr-x root       root            50692 ./usr/bin/glib-compile-schemas
+-rwxr-xr-x root       root            41107 ./usr/bin/glib-genmarshal
+-rwxr-xr-x root       root             5433 ./usr/bin/glib-gettextize
+-rwxr-xr-x root       root            31157 ./usr/bin/glib-mkenums
+-rwxr-xr-x root       root             9612 ./usr/bin/gobject-query
+-rwxr-xr-x root       root            13700 ./usr/bin/gresource
+-rwxr-xr-x root       root            21892 ./usr/bin/gsettings
+-rwxr-xr-x root       root            21904 ./usr/bin/gtester
+-rwxr-xr-x root       root            19094 ./usr/bin/gtester-report

@@ -1,0 +1,8 @@
+PV = 1.16.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 264648
+FILES = /usr/lib/python3.12/site-packages
+FILELIST = /usr/lib/python3.12/site-packages/xcbgen/__init__.py /usr/lib/python3.12/site-packages/xcbgen/__pycache__/__init__.cpython-312.opt-1.pyc /usr/lib/python3.12/site-packages/xcbgen/__pycache__/__init__.cpython-312.pyc /usr/lib/python3.12/site-packages/xcbgen/__pycache__/align.cpython-312.opt-1.pyc /usr/lib/python3.12/site-packages/xcbgen/__pycache__/align.cpython-312.pyc /usr/lib/python3.12/site-packages/xcbgen/__pycache__/error.cpython-312.opt-1.pyc /usr/lib/python3.12/site-packages/xcbgen/__pycache__/error.cpython-312.pyc /usr/lib/python3.12/site-packages/xcbgen/__pycache__/expr.cpython-312.opt-1.pyc /usr/lib/python3.12/site-packages/xcbgen/__pycache__/expr.cpython-312.pyc /usr/lib/python3.12/site-packages/xcbgen/__pycache__/matcher.cpython-312.opt-1.pyc /usr/lib/python3.12/site-packages/xcbgen/__pycache__/matcher.cpython-312.pyc /usr/lib/python3.12/site-packages/xcbgen/__pycache__/state.cpython-312.opt-1.pyc /usr/lib/python3.12/site-packages/xcbgen/__pycache__/state.cpython-312.pyc /usr/lib/python3.12/site-packages/xcbgen/__pycache__/xtypes.cpython-312.opt-1.pyc /usr/lib/python3.12/site-packages/xcbgen/__pycache__/xtypes.cpython-312.pyc /usr/lib/python3.12/site-packages/xcbgen/align.py /usr/lib/python3.12/site-packages/xcbgen/error.py /usr/lib/python3.12/site-packages/xcbgen/expr.py /usr/lib/python3.12/site-packages/xcbgen/matcher.py /usr/lib/python3.12/site-packages/xcbgen/state.py /usr/lib/python3.12/site-packages/xcbgen/xtypes.py

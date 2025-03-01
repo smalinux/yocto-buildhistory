@@ -1,0 +1,9 @@
+PE = 1
+PV = 1.1.1
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 221702
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/libice/1.1.1/include/X11/ICE/ICEconn.h /usr/src/debug/libice/1.1.1/include/X11/ICE/ICElib.h /usr/src/debug/libice/1.1.1/include/X11/ICE/ICEmsg.h /usr/src/debug/libice/1.1.1/include/X11/ICE/ICEproto.h /usr/src/debug/libice/1.1.1/include/X11/ICE/ICEutil.h /usr/src/debug/libice/1.1.1/src/ICElibint.h /usr/src/debug/libice/1.1.1/src/accept.c /usr/src/debug/libice/1.1.1/src/authutil.c /usr/src/debug/libice/1.1.1/src/connect.c /usr/src/debug/libice/1.1.1/src/error.c /usr/src/debug/libice/1.1.1/src/getauth.c /usr/src/debug/libice/1.1.1/src/globals.h /usr/src/debug/libice/1.1.1/src/iceauth.c /usr/src/debug/libice/1.1.1/src/icetrans.c /usr/src/debug/libice/1.1.1/src/listen.c /usr/src/debug/libice/1.1.1/src/listenwk.c /usr/src/debug/libice/1.1.1/src/locking.c /usr/src/debug/libice/1.1.1/src/misc.c /usr/src/debug/libice/1.1.1/src/ping.c /usr/src/debug/libice/1.1.1/src/process.c /usr/src/debug/libice/1.1.1/src/protosetup.c /usr/src/debug/libice/1.1.1/src/register.c /usr/src/debug/libice/1.1.1/src/replywait.c /usr/src/debug/libice/1.1.1/src/setauth.c /usr/src/debug/libice/1.1.1/src/shutdown.c /usr/src/debug/libice/1.1.1/src/watch.c

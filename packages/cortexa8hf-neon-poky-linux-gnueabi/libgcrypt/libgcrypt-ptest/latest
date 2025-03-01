@@ -1,0 +1,8 @@
+PV = 1.10.3
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097) libgcrypt (>= 1.10.3) libgpg-error (>= 1.48)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 45234164
+FILES = /usr/lib/libgcrypt/ptest
+FILELIST = /usr/lib/libgcrypt/ptest/aeswrap /usr/lib/libgcrypt/ptest/basic /usr/lib/libgcrypt/ptest/benchmark /usr/lib/libgcrypt/ptest/curves /usr/lib/libgcrypt/ptest/dsa-rfc6979 /usr/lib/libgcrypt/ptest/fips186-dsa /usr/lib/libgcrypt/ptest/hashtest /usr/lib/libgcrypt/ptest/hmac /usr/lib/libgcrypt/ptest/keygen /usr/lib/libgcrypt/ptest/keygrip /usr/lib/libgcrypt/ptest/mpitests /usr/lib/libgcrypt/ptest/pkcs1v2 /usr/lib/libgcrypt/ptest/prime /usr/lib/libgcrypt/ptest/pubkey /usr/lib/libgcrypt/ptest/random /usr/lib/libgcrypt/ptest/run-ptest /usr/lib/libgcrypt/ptest/t-convert /usr/lib/libgcrypt/ptest/t-cv25519 /usr/lib/libgcrypt/ptest/t-ed25519 /usr/lib/libgcrypt/ptest/t-ed25519.inp /usr/lib/libgcrypt/ptest/t-ed448 /usr/lib/libgcrypt/ptest/t-ed448.inp /usr/lib/libgcrypt/ptest/t-kdf /usr/lib/libgcrypt/ptest/t-lock /usr/lib/libgcrypt/ptest/t-mpi-bit /usr/lib/libgcrypt/ptest/t-mpi-point /usr/lib/libgcrypt/ptest/t-secmem /usr/lib/libgcrypt/ptest/t-sexp /usr/lib/libgcrypt/ptest/t-x448 /usr/lib/libgcrypt/ptest/testdrv /usr/lib/libgcrypt/ptest/version

@@ -1,0 +1,8 @@
+PV = 1.48
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 992956
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/bin/.debug/gpg-error /usr/bin/.debug/yat2m /usr/lib/.debug/libgpg-error.so.0.35.0 /usr/lib/libgpg-error/ptest/.debug/t-argparse /usr/lib/libgpg-error/ptest/.debug/t-b64 /usr/lib/libgpg-error/ptest/.debug/t-lock /usr/lib/libgpg-error/ptest/.debug/t-lock-single-posix /usr/lib/libgpg-error/ptest/.debug/t-logging /usr/lib/libgpg-error/ptest/.debug/t-malloc /usr/lib/libgpg-error/ptest/.debug/t-poll /usr/lib/libgpg-error/ptest/.debug/t-printf /usr/lib/libgpg-error/ptest/.debug/t-strerror /usr/lib/libgpg-error/ptest/.debug/t-stringutils /usr/lib/libgpg-error/ptest/.debug/t-syserror /usr/lib/libgpg-error/ptest/.debug/t-version

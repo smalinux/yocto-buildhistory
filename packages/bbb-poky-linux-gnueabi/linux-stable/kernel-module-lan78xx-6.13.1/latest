@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-lan78xx
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 55732
+FILES = /lib/modules/6.13.1/kernel/drivers/net/usb/.debug/lan78xx.ko /lib/modules/6.13.1/kernel/drivers/net/usb/lan78xx.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/net/usb/lan78xx.ko

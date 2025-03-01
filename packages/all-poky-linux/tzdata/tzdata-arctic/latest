@@ -1,0 +1,8 @@
+PV = 2024a
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 705
+FILES = /usr/share/zoneinfo/Arctic
+FILELIST = /usr/share/zoneinfo/Arctic/Longyearbyen

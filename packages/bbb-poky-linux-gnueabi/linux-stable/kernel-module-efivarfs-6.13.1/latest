@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-efivarfs
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 20332
+FILES = /lib/modules/6.13.1/kernel/fs/efivarfs/.debug/efivarfs.ko /lib/modules/6.13.1/kernel/fs/efivarfs/efivarfs.ko
+FILELIST = /lib/modules/6.13.1/kernel/fs/efivarfs/efivarfs.ko

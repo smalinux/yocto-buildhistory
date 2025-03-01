@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-phy-exynos-usb2
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 8884
+FILES = /lib/modules/6.13.1/kernel/drivers/phy/samsung/.debug/phy-exynos-usb2.ko /lib/modules/6.13.1/kernel/drivers/phy/samsung/phy-exynos-usb2.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/phy/samsung/phy-exynos-usb2.ko

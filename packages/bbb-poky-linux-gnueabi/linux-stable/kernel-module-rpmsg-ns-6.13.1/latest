@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-rpmsg-ns
+RDEPENDS = kernel-6.13.1 kernel-module-rpmsg-core-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 6684
+FILES = /lib/modules/6.13.1/kernel/drivers/rpmsg/.debug/rpmsg_ns.ko /lib/modules/6.13.1/kernel/drivers/rpmsg/rpmsg_ns.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/rpmsg/rpmsg_ns.ko

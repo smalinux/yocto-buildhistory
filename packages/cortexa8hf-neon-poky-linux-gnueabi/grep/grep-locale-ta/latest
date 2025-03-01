@@ -1,0 +1,8 @@
+PV = 3.11
+PR = r0
+RPROVIDES = grep-locale ta-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ta
+PKGSIZE = 27372
+FILES = /usr/share/locale/ta
+FILELIST = /usr/share/locale/ta/LC_MESSAGES/grep.mo

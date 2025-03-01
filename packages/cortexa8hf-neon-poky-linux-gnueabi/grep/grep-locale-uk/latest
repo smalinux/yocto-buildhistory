@@ -1,0 +1,8 @@
+PV = 3.11
+PR = r0
+RPROVIDES = grep-locale uk-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-uk
+PKGSIZE = 23948
+FILES = /usr/share/locale/uk
+FILELIST = /usr/share/locale/uk/LC_MESSAGES/grep.mo

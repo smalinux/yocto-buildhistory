@@ -1,0 +1,84 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  11 ./sysroot-providers/mesa-native
+-rw-r--r-- -          -                  11 ./sysroot-providers/virtual_egl-native
+-rw-r--r-- -          -                  11 ./sysroot-providers/virtual_libgbm-native
+-rw-r--r-- -          -                  11 ./sysroot-providers/virtual_libgles1-native
+-rw-r--r-- -          -                  11 ./sysroot-providers/virtual_libgles2-native
+-rw-r--r-- -          -                  11 ./sysroot-providers/virtual_libgles3-native
+-rw-r--r-- -          -                  11 ./sysroot-providers/virtual_libgl-native
+-rw-r--r-- -          -                  11 ./sysroot-providers/virtual_mesa-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+drwxr-xr-x -          -                4096 ./usr/include/EGL
+-rw-r--r-- -          -               19926 ./usr/include/EGL/eglext_angle.h
+-rw-r--r-- -          -               72948 ./usr/include/EGL/eglext.h
+-rw-r--r-- -          -               19286 ./usr/include/EGL/egl.h
+-rw-r--r-- -          -                2129 ./usr/include/EGL/eglmesaext.h
+-rw-r--r-- -          -                5239 ./usr/include/EGL/eglplatform.h
+-rw-r--r-- -          -               17461 ./usr/include/gbm.h
+drwxr-xr-x -          -                4096 ./usr/include/GL
+drwxr-xr-x -          -                4096 ./usr/include/GLES
+drwxr-xr-x -          -                4096 ./usr/include/GLES2
+-rw-r--r-- -          -              242477 ./usr/include/GLES2/gl2ext.h
+-rw-r--r-- -          -               42930 ./usr/include/GLES2/gl2.h
+-rw-r--r-- -          -                 642 ./usr/include/GLES2/gl2platform.h
+drwxr-xr-x -          -                4096 ./usr/include/GLES3
+-rw-r--r-- -          -              106404 ./usr/include/GLES3/gl31.h
+-rw-r--r-- -          -              127284 ./usr/include/GLES3/gl32.h
+-rw-r--r-- -          -                 741 ./usr/include/GLES3/gl3ext.h
+-rw-r--r-- -          -               81600 ./usr/include/GLES3/gl3.h
+-rw-r--r-- -          -                 642 ./usr/include/GLES3/gl3platform.h
+-rw-r--r-- -          -                 399 ./usr/include/GLES/egl.h
+-rw-r--r-- -          -               52710 ./usr/include/GLES/glext.h
+-rw-r--r-- -          -               30603 ./usr/include/GLES/gl.h
+-rw-r--r-- -          -                 634 ./usr/include/GLES/glplatform.h
+-rw-r--r-- -          -              425985 ./usr/include/GL/glcorearb.h
+-rw-r--r-- -          -              853964 ./usr/include/GL/glext.h
+-rw-r--r-- -          -               79877 ./usr/include/GL/gl.h
+-rw-r--r-- -          -               47796 ./usr/include/GL/glxext.h
+-rw-r--r-- -          -               12327 ./usr/include/GL/glx.h
+drwxr-xr-x -          -                4096 ./usr/include/GL/internal
+-rw-r--r-- -          -               80553 ./usr/include/GL/internal/dri_interface.h
+drwxr-xr-x -          -                4096 ./usr/include/KHR
+-rw-r--r-- -          -               11131 ./usr/include/KHR/khrplatform.h
+drwxr-xr-x -          -                4096 ./usr/lib
+drwxr-xr-x -          -                4096 ./usr/lib/dri
+-rwxr-xr-x -          -            31656040 ./usr/lib/dri/crocus_dri.so
+-rwxr-xr-x -          -            31656040 ./usr/lib/dri/i915_dri.so
+-rwxr-xr-x -          -            31656040 ./usr/lib/dri/iris_dri.so
+-rwxr-xr-x -          -            31656040 ./usr/lib/dri/kms_swrast_dri.so
+-rwxr-xr-x -          -            31656040 ./usr/lib/dri/nouveau_dri.so
+-rwxr-xr-x -          -            31656040 ./usr/lib/dri/r300_dri.so
+-rwxr-xr-x -          -            31656040 ./usr/lib/dri/r600_dri.so
+-rwxr-xr-x -          -            31656040 ./usr/lib/dri/radeonsi_dri.so
+-rwxr-xr-x -          -            31656040 ./usr/lib/dri/swrast_dri.so
+-rwxr-xr-x -          -            31656040 ./usr/lib/dri/virtio_gpu_dri.so
+-rwxr-xr-x -          -            31656040 ./usr/lib/dri/vmwgfx_dri.so
+-rwxr-xr-x -          -              288272 ./usr/lib/libEGL.so.1.0.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libEGL.so.1 -> libEGL.so.1.0.0
+lrwxrwxrwx -          -                  11 ./usr/lib/libEGL.so -> libEGL.so.1
+-rwxr-xr-x -          -               64592 ./usr/lib/libgbm.so.1.0.0
+lrwxrwxrwx -          -                  15 ./usr/lib/libgbm.so.1 -> libgbm.so.1.0.0
+lrwxrwxrwx -          -                  11 ./usr/lib/libgbm.so -> libgbm.so.1
+-rwxr-xr-x -          -              211144 ./usr/lib/libglapi.so.0.0.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libglapi.so.0 -> libglapi.so.0.0.0
+lrwxrwxrwx -          -                  13 ./usr/lib/libglapi.so -> libglapi.so.0
+-rwxr-xr-x -          -               26104 ./usr/lib/libGLESv1_CM.so.1.1.0
+lrwxrwxrwx -          -                  21 ./usr/lib/libGLESv1_CM.so.1 -> libGLESv1_CM.so.1.1.0
+lrwxrwxrwx -          -                  17 ./usr/lib/libGLESv1_CM.so -> libGLESv1_CM.so.1
+-rwxr-xr-x -          -               42488 ./usr/lib/libGLESv2.so.2.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libGLESv2.so.2 -> libGLESv2.so.2.0.0
+lrwxrwxrwx -          -                  14 ./usr/lib/libGLESv2.so -> libGLESv2.so.2
+-rwxr-xr-x -          -              455472 ./usr/lib/libGL.so.1.2.0
+lrwxrwxrwx -          -                  14 ./usr/lib/libGL.so.1 -> libGL.so.1.2.0
+lrwxrwxrwx -          -                  10 ./usr/lib/libGL.so -> libGL.so.1
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 243 ./usr/lib/pkgconfig/dri.pc
+-rw-r--r-- -          -                 340 ./usr/lib/pkgconfig/egl.pc
+-rw-r--r-- -          -                 239 ./usr/lib/pkgconfig/gbm.pc
+-rw-r--r-- -          -                 250 ./usr/lib/pkgconfig/glesv1_cm.pc
+-rw-r--r-- -          -                 241 ./usr/lib/pkgconfig/glesv2.pc
+-rw-r--r-- -          -                 354 ./usr/lib/pkgconfig/gl.pc
+drwxr-xr-x -          -                4096 ./usr/share
+drwxr-xr-x -          -                4096 ./usr/share/drirc.d
+-rw-r--r-- -          -               65280 ./usr/share/drirc.d/00-mesa-defaults.conf

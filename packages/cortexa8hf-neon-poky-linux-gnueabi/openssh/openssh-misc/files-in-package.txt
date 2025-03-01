@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root           378356 ./usr/bin/ssh-add
+-rwxr-xr-x root       root           361968 ./usr/bin/ssh-agent
+-rwxr-xr-x root       root            13078 ./usr/bin/ssh-copy-id
+-rwxr-xr-x root       root           452216 ./usr/bin/ssh-keyscan
+drwxr-xr-x root       root             4096 ./usr/libexec
+-rws--x--x root       root           476796 ./usr/libexec/ssh-keysign
+-rwxr-xr-x root       root           337388 ./usr/libexec/ssh-pkcs11-helper
+-rwxr-xr-x root       root             5512 ./usr/libexec/ssh-sk-helper

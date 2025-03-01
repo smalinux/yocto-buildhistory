@@ -1,0 +1,8 @@
+PV = 3.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 1027424
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/zip/3.0/crc32.c /usr/src/debug/zip/3.0/crc32.h /usr/src/debug/zip/3.0/crypt.c /usr/src/debug/zip/3.0/crypt.h /usr/src/debug/zip/3.0/deflate.c /usr/src/debug/zip/3.0/fileio.c /usr/src/debug/zip/3.0/globals.c /usr/src/debug/zip/3.0/revision.h /usr/src/debug/zip/3.0/tailor.h /usr/src/debug/zip/3.0/trees.c /usr/src/debug/zip/3.0/ttyio.c /usr/src/debug/zip/3.0/ttyio.h /usr/src/debug/zip/3.0/unix/osdep.h /usr/src/debug/zip/3.0/unix/unix.c /usr/src/debug/zip/3.0/unix/zipup.h /usr/src/debug/zip/3.0/util.c /usr/src/debug/zip/3.0/zbz2err.c /usr/src/debug/zip/3.0/zip.c /usr/src/debug/zip/3.0/zip.h /usr/src/debug/zip/3.0/zipcloak.c /usr/src/debug/zip/3.0/ziperr.h /usr/src/debug/zip/3.0/zipfile.c /usr/src/debug/zip/3.0/zipnote.c /usr/src/debug/zip/3.0/zipsplit.c /usr/src/debug/zip/3.0/zipup.c

@@ -1,0 +1,8 @@
+PV = 1.10.3
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libcap-dbg libgpg-error-dbg
+PKGSIZE = 5085464
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/bin/.debug/dumpsexp /usr/bin/.debug/hmac256 /usr/bin/.debug/mpicalc /usr/lib/.debug/libgcrypt.so.20.4.3 /usr/lib/libgcrypt/ptest/.debug/aeswrap /usr/lib/libgcrypt/ptest/.debug/basic /usr/lib/libgcrypt/ptest/.debug/benchmark /usr/lib/libgcrypt/ptest/.debug/curves /usr/lib/libgcrypt/ptest/.debug/dsa-rfc6979 /usr/lib/libgcrypt/ptest/.debug/fips186-dsa /usr/lib/libgcrypt/ptest/.debug/hashtest /usr/lib/libgcrypt/ptest/.debug/hmac /usr/lib/libgcrypt/ptest/.debug/keygen /usr/lib/libgcrypt/ptest/.debug/keygrip /usr/lib/libgcrypt/ptest/.debug/mpitests /usr/lib/libgcrypt/ptest/.debug/pkcs1v2 /usr/lib/libgcrypt/ptest/.debug/prime /usr/lib/libgcrypt/ptest/.debug/pubkey /usr/lib/libgcrypt/ptest/.debug/random /usr/lib/libgcrypt/ptest/.debug/t-convert /usr/lib/libgcrypt/ptest/.debug/t-cv25519 /usr/lib/libgcrypt/ptest/.debug/t-ed25519 /usr/lib/libgcrypt/ptest/.debug/t-ed448 /usr/lib/libgcrypt/ptest/.debug/t-kdf /usr/lib/libgcrypt/ptest/.debug/t-lock /usr/lib/libgcrypt/ptest/.debug/t-mpi-bit /usr/lib/libgcrypt/ptest/.debug/t-mpi-point /usr/lib/libgcrypt/ptest/.debug/t-secmem /usr/lib/libgcrypt/ptest/.debug/t-sexp /usr/lib/libgcrypt/ptest/.debug/t-x448 /usr/lib/libgcrypt/ptest/.debug/testdrv /usr/lib/libgcrypt/ptest/.debug/version

@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/ttyrun
+drwxr-xr-x root       root             4096 ./usr/src/debug/ttyrun/2.31.0
+drwxr-xr-x root       root             4096 ./usr/src/debug/ttyrun/2.31.0/iucvterm
+drwxr-xr-x root       root             4096 ./usr/src/debug/ttyrun/2.31.0/iucvterm/src
+-rw-r--r-- root       root             5089 ./usr/src/debug/ttyrun/2.31.0/iucvterm/src/ttyrun.c

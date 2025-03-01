@@ -1,0 +1,8 @@
+PV = 0.27
+PR = r0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 180467
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/desktop-file-utils/0.27/src/install.c /usr/src/debug/desktop-file-utils/0.27/src/keyfileutils.c /usr/src/debug/desktop-file-utils/0.27/src/keyfileutils.h /usr/src/debug/desktop-file-utils/0.27/src/mimeutils.c /usr/src/debug/desktop-file-utils/0.27/src/mimeutils.h /usr/src/debug/desktop-file-utils/0.27/src/update-desktop-database.c /usr/src/debug/desktop-file-utils/0.27/src/validate.c /usr/src/debug/desktop-file-utils/0.27/src/validate.h /usr/src/debug/desktop-file-utils/0.27/src/validator.c

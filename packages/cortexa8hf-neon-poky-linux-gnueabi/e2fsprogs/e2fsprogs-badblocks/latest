@@ -1,0 +1,8 @@
+PV = 1.47.0
+PR = r0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097) libcomerr (>= 1.47.0) libext2fs (>= 1.47.0)
+RRECOMMENDS = 
+PKGSIZE = 26000
+FILES = /sbin/badblocks
+FILELIST = /sbin/badblocks

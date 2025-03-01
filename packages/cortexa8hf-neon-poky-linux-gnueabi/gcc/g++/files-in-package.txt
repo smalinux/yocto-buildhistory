@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root          1630120 ./usr/bin/arm-poky-linux-gnueabi-g++
+drwxr-xr-x root       root             4096 ./usr/libexec
+drwxr-xr-x root       root             4096 ./usr/libexec/gcc
+drwxr-xr-x root       root             4096 ./usr/libexec/gcc/arm-poky-linux-gnueabi
+drwxr-xr-x root       root             4096 ./usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0
+-rwxr-xr-x root       root         26014664 ./usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/cc1plus

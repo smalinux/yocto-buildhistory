@@ -1,0 +1,9 @@
+PV = 1.16
+PR = r0
+PKG = libxcb-xf86dri0
+RPROVIDES = libxcb-xf86dri (=1.16)
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097) libxau (>= 1.0.11) libxcb (>= 1.16) libxdmcp (>= 1.1.4)
+RRECOMMENDS = 
+PKGSIZE = 13639
+FILES = /usr/lib/libxcb-xf86dri.so.0 /usr/lib/libxcb-xf86dri.so.0.0.0
+FILELIST = /usr/lib/libxcb-xf86dri.so.0 /usr/lib/libxcb-xf86dri.so.0.0.0

@@ -1,0 +1,8 @@
+PV = 3.11
+PR = r0
+DEPENDS = autoconf-native automake-native gettext-native libpcre2 libtool-cross libtool-native pkgconfig-native texinfo-dummy-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc virtual/update-alternatives
+PACKAGES = grep-src grep-dbg grep-staticdev grep-dev grep-doc grep-locale-af grep-locale-be grep-locale-bg grep-locale-ca grep-locale-cs grep-locale-da grep-locale-de grep-locale-el grep-locale-eo grep-locale-es grep-locale-et grep-locale-eu grep-locale-fi grep-locale-fr grep-locale-ga grep-locale-gl grep-locale-he grep-locale-hr grep-locale-hu grep-locale-id grep-locale-it grep-locale-ja grep-locale-ka grep-locale-ko grep-locale-ky grep-locale-lt grep-locale-nb grep-locale-nl grep-locale-pa grep-locale-pl grep-locale-pt grep-locale-pt-br grep-locale-ro grep-locale-ru grep-locale-sk grep-locale-sl grep-locale-sr grep-locale-sv grep-locale-ta grep-locale-th grep-locale-tr grep-locale-uk grep-locale-vi grep-locale-zh-cn grep-locale-zh-tw grep
+LAYER = core
+LICENSE = GPL-3.0-only
+CONFIG = pcre
+SRC_URI = https://ftp.gnu.org/gnu/grep/grep-3.11.tar.xz

@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12/lib-dynload
+-rwxr-xr-x root       root            31280 ./usr/lib/python3.12/lib-dynload/_multibytecodec.cpython-312-arm-linux-gnueabihf.so
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12/__pycache__
+-rw-r--r-- root       root            11826 ./usr/lib/python3.12/__pycache__/xdrlib.cpython-312.pyc
+-rw-r--r-- root       root             5942 ./usr/lib/python3.12/xdrlib.py

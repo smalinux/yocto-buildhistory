@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-lvds-codec
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 9172
+FILES = /lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/.debug/lvds-codec.ko /lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/lvds-codec.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/lvds-codec.ko

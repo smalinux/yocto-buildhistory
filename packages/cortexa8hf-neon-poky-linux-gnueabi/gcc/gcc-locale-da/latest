@@ -1,0 +1,8 @@
+PV = 13.3.0
+PR = r0
+RPROVIDES = da-translation gcc-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-da
+PKGSIZE = 201640
+FILES = /usr/share/locale/da
+FILELIST = /usr/share/locale/da/LC_MESSAGES/cpplib.mo /usr/share/locale/da/LC_MESSAGES/gcc.mo

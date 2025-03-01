@@ -1,0 +1,56 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root          1626024 ./usr/bin/arm-poky-linux-gnueabi-gcc
+-rwxr-xr-x root       root            30160 ./usr/bin/arm-poky-linux-gnueabi-gcc-ar
+-rwxr-xr-x root       root            30160 ./usr/bin/arm-poky-linux-gnueabi-gcc-nm
+-rwxr-xr-x root       root            30164 ./usr/bin/arm-poky-linux-gnueabi-gcc-ranlib
+-rwxr-xr-x root       root         22899340 ./usr/bin/arm-poky-linux-gnueabi-lto-dump
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/bfd-plugins
+lrwxrwxrwx root       root               63 ./usr/lib/bfd-plugins/liblto_plugin.so -> /usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/liblto_plugin.so
+drwxr-xr-x root       root             4096 ./usr/libexec
+drwxr-xr-x root       root             4096 ./usr/libexec/gcc
+drwxr-xr-x root       root             4096 ./usr/libexec/gcc/arm-poky-linux-gnueabi
+drwxr-xr-x root       root             4096 ./usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0
+-rwxr-xr-x root       root           882528 ./usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/collect2
+-rwxr-xr-x root       root           153140 ./usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/g++-mapper-server
+-rwxr-xr-x root       root            46492 ./usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/libcc1plugin.so.0.0.0
+lrwxrwxrwx root       root               21 ./usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/libcc1plugin.so.0 -> libcc1plugin.so.0.0.0
+-rwxr-xr-x root       root           108388 ./usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/libcc1.so.0.0.0
+lrwxrwxrwx root       root               15 ./usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/libcc1.so.0 -> libcc1.so.0.0.0
+-rwxr-xr-x root       root           107932 ./usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/libcp1plugin.so.0.0.0
+lrwxrwxrwx root       root               21 ./usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/libcp1plugin.so.0 -> libcp1plugin.so.0.0.0
+-rwxr-xr-x root       root            70964 ./usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/liblto_plugin.so
+-rwxr-xr-x root       root         22899316 ./usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/lto1
+-rwxr-xr-x root       root          1509256 ./usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/lto-wrapper
+drwxr-xr-x root       root             4096 ./usr/lib/gcc
+drwxr-xr-x root       root             4096 ./usr/lib/gcc/arm-poky-linux-gnueabi
+drwxr-xr-x root       root             4096 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0
+drwxr-xr-x root       root             4096 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include
+-rw-r--r-- root       root            22269 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/arm_acle.h
+-rw-r--r-- root       root             1594 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/arm_bf16.h
+-rw-r--r-- root       root             5840 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/arm_cde.h
+-rw-r--r-- root       root             4974 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/arm_cmse.h
+-rw-r--r-- root       root             6717 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/arm_fp16.h
+-rw-r--r-- root       root          2013387 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/arm_mve.h
+-rw-r--r-- root       root            40049 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/arm_mve_types.h
+-rw-r--r-- root       root           627100 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/arm_neon.h
+drwxr-xr-x root       root             4096 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include-fixed
+-rw-r--r-- root       root              750 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include-fixed/README
+-rw-r--r-- root       root            20749 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/float.h
+-rw-r--r-- root       root             1272 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/iso646.h
+-rw-r--r-- root       root             6399 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/limits.h
+-rw-r--r-- root       root            48219 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/mmintrin.h
+-rw-r--r-- root       root             1290 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/stdalign.h
+-rw-r--r-- root       root             4303 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/stdarg.h
+-rw-r--r-- root       root             9726 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/stdatomic.h
+-rw-r--r-- root       root             1490 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/stdbool.h
+-rw-r--r-- root       root            13735 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/stddef.h
+-rw-r--r-- root       root             6000 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/stdfix.h
+-rw-r--r-- root       root             9648 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/stdint-gcc.h
+-rw-r--r-- root       root              328 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/stdint.h
+-rw-r--r-- root       root             1136 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/stdnoreturn.h
+-rw-r--r-- root       root              330 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/syslimits.h
+-rw-r--r-- root       root             8327 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/unwind-arm-common.h
+-rwxr-xr-x root       root             3862 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/unwind.h
+-rw-r--r-- root       root              139 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include/varargs.h

@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-thermal-generic-adc
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 7776
+FILES = /lib/modules/6.13.1/kernel/drivers/thermal/.debug/thermal-generic-adc.ko /lib/modules/6.13.1/kernel/drivers/thermal/thermal-generic-adc.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/thermal/thermal-generic-adc.ko

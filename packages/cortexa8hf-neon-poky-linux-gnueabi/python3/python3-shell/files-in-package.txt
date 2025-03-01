@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12
+-rw-r--r-- root       root            14873 ./usr/lib/python3.12/cmd.py
+-rw-r--r-- root       root             8732 ./usr/lib/python3.12/glob.py
+drwxr-xr-x root       root             4096 ./usr/lib/python3.12/__pycache__
+-rw-r--r-- root       root            18587 ./usr/lib/python3.12/__pycache__/cmd.cpython-312.pyc
+-rw-r--r-- root       root             9805 ./usr/lib/python3.12/__pycache__/glob.cpython-312.pyc
+-rw-r--r-- root       root            14152 ./usr/lib/python3.12/__pycache__/shlex.cpython-312.pyc
+-rw-r--r-- root       root            13353 ./usr/lib/python3.12/shlex.py

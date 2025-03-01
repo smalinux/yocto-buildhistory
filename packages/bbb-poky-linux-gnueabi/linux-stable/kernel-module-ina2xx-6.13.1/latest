@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-ina2xx
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 17636
+FILES = /lib/modules/6.13.1/kernel/drivers/hwmon/.debug/ina2xx.ko /lib/modules/6.13.1/kernel/drivers/hwmon/ina2xx.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/hwmon/ina2xx.ko

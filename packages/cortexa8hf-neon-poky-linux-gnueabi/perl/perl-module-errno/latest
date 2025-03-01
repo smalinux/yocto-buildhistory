@@ -1,0 +1,8 @@
+PV = 5.38.2
+PR = r0
+RPROVIDES = 
+RDEPENDS = perl perl-module-exporter perl-module-strict
+RRECOMMENDS = 
+PKGSIZE = 6568
+FILES = /usr/lib/perl5/5.38.2/arm-linux/Errno.pm /usr/lib/perl5/5.38.2/arm-linux/Errno.pm
+FILELIST = /usr/lib/perl5/5.38.2/arm-linux/Errno.pm

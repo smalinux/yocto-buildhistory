@@ -1,0 +1,12 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  13 ./sysroot-providers/libmicrohttpd
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/include
+-rw-r--r-- -          -              252752 ./usr/include/microhttpd.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -              226568 ./usr/lib/libmicrohttpd.so.12.62.1
+lrwxrwxrwx -          -                  24 ./usr/lib/libmicrohttpd.so.12 -> libmicrohttpd.so.12.62.1
+lrwxrwxrwx -          -                  24 ./usr/lib/libmicrohttpd.so -> libmicrohttpd.so.12.62.1
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 294 ./usr/lib/pkgconfig/libmicrohttpd.pc
+drwxr-xr-x -          -                4096 ./usr/share

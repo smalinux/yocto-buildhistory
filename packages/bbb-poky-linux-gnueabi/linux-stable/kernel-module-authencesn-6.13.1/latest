@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-authencesn
+RDEPENDS = kernel-6.13.1 kernel-module-authenc-6.13.1 kernel-module-crypto-null-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 10284
+FILES = /lib/modules/6.13.1/kernel/crypto/.debug/authencesn.ko /lib/modules/6.13.1/kernel/crypto/authencesn.ko
+FILELIST = /lib/modules/6.13.1/kernel/crypto/authencesn.ko

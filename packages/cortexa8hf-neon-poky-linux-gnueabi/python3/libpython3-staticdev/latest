@@ -1,0 +1,9 @@
+PV = 3.12.6
+PR = r0
+PKG = libpython3.12-staticdev
+RPROVIDES = libpython3-staticdev (=3.12.6)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 38510860
+FILES = /usr/lib/python3.12/config-3.12-*/libpython3.12.a
+FILELIST = /usr/lib/python3.12/config-3.12-arm-linux-gnueabihf/libpython3.12.a

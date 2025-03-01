@@ -1,0 +1,8 @@
+PV = 13.3.0
+PR = r0
+RPROVIDES = gcc-locale vi-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-vi
+PKGSIZE = 497987
+FILES = /usr/share/locale/vi
+FILELIST = /usr/share/locale/vi/LC_MESSAGES/cpplib.mo /usr/share/locale/vi/LC_MESSAGES/gcc.mo

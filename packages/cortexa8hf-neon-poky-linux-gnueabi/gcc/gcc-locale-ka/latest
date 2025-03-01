@@ -1,0 +1,8 @@
+PV = 13.3.0
+PR = r0
+RPROVIDES = gcc-locale ka-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ka
+PKGSIZE = 14852
+FILES = /usr/share/locale/ka
+FILELIST = /usr/share/locale/ka/LC_MESSAGES/cpplib.mo

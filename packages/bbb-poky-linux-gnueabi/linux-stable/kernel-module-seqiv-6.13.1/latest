@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-seqiv
+RDEPENDS = kernel-6.13.1 kernel-module-geniv-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 6312
+FILES = /lib/modules/6.13.1/kernel/crypto/.debug/seqiv.ko /lib/modules/6.13.1/kernel/crypto/seqiv.ko
+FILELIST = /lib/modules/6.13.1/kernel/crypto/seqiv.ko

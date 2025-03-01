@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-nfc-digital
+RDEPENDS = kernel-6.13.1 kernel-module-crc-ccitt-6.13.1 kernel-module-crc-itu-t-6.13.1 kernel-module-nfc-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 42524
+FILES = /lib/modules/6.13.1/kernel/net/nfc/.debug/nfc_digital.ko /lib/modules/6.13.1/kernel/net/nfc/nfc_digital.ko
+FILELIST = /lib/modules/6.13.1/kernel/net/nfc/nfc_digital.ko

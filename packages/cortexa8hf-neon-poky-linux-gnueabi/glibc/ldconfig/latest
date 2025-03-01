@@ -1,0 +1,9 @@
+PV = 2.39+git
+PR = r0
+PKGV = 2.39+git0+e8f5217097
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 656024
+FILES = /sbin/ldconfig
+FILELIST = /sbin/ldconfig

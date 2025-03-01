@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-i2c-gpio
+RDEPENDS = kernel-6.13.1 kernel-module-i2c-algo-bit-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 9252
+FILES = /lib/modules/6.13.1/kernel/drivers/i2c/busses/.debug/i2c-gpio.ko /lib/modules/6.13.1/kernel/drivers/i2c/busses/i2c-gpio.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/i2c/busses/i2c-gpio.ko

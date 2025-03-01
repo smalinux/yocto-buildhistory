@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-led-class-flash
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 11068
+FILES = /lib/modules/6.13.1/kernel/drivers/leds/.debug/led-class-flash.ko /lib/modules/6.13.1/kernel/drivers/leds/led-class-flash.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/leds/led-class-flash.ko

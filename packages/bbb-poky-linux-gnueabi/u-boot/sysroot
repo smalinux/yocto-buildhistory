@@ -1,0 +1,8 @@
+drwxr-xr-x -          -                4096 ./boot
+-rw-r--r-- -          -              110012 ./boot/MLO-bbb-2024.01-r0
+lrwxrwxrwx -          -                  18 ./boot/MLO -> MLO-bbb-2024.01-r0
+-rw-r--r-- -          -             1449972 ./boot/u-boot-bbb-2024.01-r0.img
+lrwxrwxrwx -          -                  25 ./boot/u-boot.img -> u-boot-bbb-2024.01-r0.img
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                   6 ./sysroot-providers/u-boot
+-rw-r--r-- -          -                   6 ./sysroot-providers/virtual_bootloader

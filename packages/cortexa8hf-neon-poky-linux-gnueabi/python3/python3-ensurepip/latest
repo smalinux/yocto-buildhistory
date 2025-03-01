@@ -1,0 +1,8 @@
+PV = 3.12.6
+PR = r0
+RPROVIDES = 
+RDEPENDS = python3-core
+RRECOMMENDS = 
+PKGSIZE = 1836645
+FILES = /usr/lib/python3.12/ensurepip/
+FILELIST = /usr/lib/python3.12/ensurepip/__init__.py /usr/lib/python3.12/ensurepip/__main__.py /usr/lib/python3.12/ensurepip/__pycache__/__init__.cpython-312.pyc /usr/lib/python3.12/ensurepip/__pycache__/__main__.cpython-312.pyc /usr/lib/python3.12/ensurepip/__pycache__/_uninstall.cpython-312.pyc /usr/lib/python3.12/ensurepip/_bundled/pip-24.2-py3-none-any.whl /usr/lib/python3.12/ensurepip/_uninstall.py

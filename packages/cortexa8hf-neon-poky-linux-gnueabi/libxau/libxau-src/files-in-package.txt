@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxau
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxau/1.0.11
+-rw-r--r-- root       root             1592 ./usr/src/debug/libxau/1.0.11/AuDispose.c
+-rw-r--r-- root       root             2362 ./usr/src/debug/libxau/1.0.11/AuFileName.c
+-rw-r--r-- root       root             3075 ./usr/src/debug/libxau/1.0.11/AuGetAddr.c
+-rw-r--r-- root       root             4339 ./usr/src/debug/libxau/1.0.11/AuGetBest.c
+-rw-r--r-- root       root             3075 ./usr/src/debug/libxau/1.0.11/AuLock.c
+-rw-r--r-- root       root             3040 ./usr/src/debug/libxau/1.0.11/AuRead.c
+-rw-r--r-- root       root             1714 ./usr/src/debug/libxau/1.0.11/AuUnlock.c
+-rw-r--r-- root       root             2208 ./usr/src/debug/libxau/1.0.11/AuWrite.c
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxau/1.0.11/include
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxau/1.0.11/include/X11
+-rw-r--r-- root       root             3818 ./usr/src/debug/libxau/1.0.11/include/X11/Xauth.h

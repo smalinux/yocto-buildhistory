@@ -1,0 +1,21 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/libexec
+-rwxr-xr-x root       root             9612 ./usr/libexec/gio-launch-desktop
+-rwxr-xr-x root       root             9612 ./usr/libexec/gio-querymodules
+drwxr-xr-x root       root             4096 ./usr/lib/gio
+drwxr-xr-x root       root             4096 ./usr/lib/gio/modules
+-rwxr-xr-x root       root          1706096 ./usr/lib/libgio-2.0.so.0.7800.6
+lrwxrwxrwx root       root               22 ./usr/lib/libgio-2.0.so.0 -> libgio-2.0.so.0.7800.6
+-rwxr-xr-x root       root          1206508 ./usr/lib/libglib-2.0.so.0.7800.6
+lrwxrwxrwx root       root               23 ./usr/lib/libglib-2.0.so.0 -> libglib-2.0.so.0.7800.6
+-rwxr-xr-x root       root            13592 ./usr/lib/libgmodule-2.0.so.0.7800.6
+lrwxrwxrwx root       root               26 ./usr/lib/libgmodule-2.0.so.0 -> libgmodule-2.0.so.0.7800.6
+-rwxr-xr-x root       root           334048 ./usr/lib/libgobject-2.0.so.0.7800.6
+lrwxrwxrwx root       root               26 ./usr/lib/libgobject-2.0.so.0 -> libgobject-2.0.so.0.7800.6
+-rwxr-xr-x root       root             5260 ./usr/lib/libgthread-2.0.so.0.7800.6
+lrwxrwxrwx root       root               26 ./usr/lib/libgthread-2.0.so.0 -> libgthread-2.0.so.0.7800.6
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/glib-2.0
+drwxr-xr-x root       root             4096 ./usr/share/glib-2.0/dtds
+-rw-r--r-- root       root              480 ./usr/share/glib-2.0/dtds/gresource.dtd

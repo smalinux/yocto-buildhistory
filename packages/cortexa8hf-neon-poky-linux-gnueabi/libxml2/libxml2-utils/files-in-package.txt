@@ -1,0 +1,4 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            13752 ./usr/bin/xmlcatalog
+-rwxr-xr-x root       root            63296 ./usr/bin/xmllint

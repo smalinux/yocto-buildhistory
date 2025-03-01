@@ -1,0 +1,8 @@
+PV = 6.13.1
+PR = r0
+RPROVIDES = kernel-module-libcomposite
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 66816
+FILES = /lib/modules/6.13.1/kernel/drivers/usb/gadget/.debug/libcomposite.ko /lib/modules/6.13.1/kernel/drivers/usb/gadget/libcomposite.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/usb/gadget/libcomposite.ko

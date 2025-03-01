@@ -1,6 +1,7 @@
 PV = 0.17
 PR = r0
 PKG = libjson-c-ptest
+PKGR = r0.0
 RPROVIDES = json-c-ptest (=0.17)
 RDEPENDS = glibc (>= 2.39+git0+e8f5217097) json-c (>= 0.17)
 RRECOMMENDS = ptest-runner

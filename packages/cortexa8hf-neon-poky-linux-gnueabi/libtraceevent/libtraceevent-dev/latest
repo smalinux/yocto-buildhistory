@@ -1,8 +1,9 @@
 PV = 1.7.3
 PR = r0
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = libtraceevent
-RRECOMMENDS = glibc-dev libtraceevent (= 1.7.3-r0)
+RRECOMMENDS = glibc-dev libtraceevent (= 1.7.3-r0.0)
 PKGSIZE = 29367
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libtraceevent/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/traceevent/event-parse.h /usr/include/traceevent/event-utils.h /usr/include/traceevent/kbuffer.h /usr/include/traceevent/trace-seq.h /usr/lib/libtraceevent.so /usr/lib/pkgconfig/libtraceevent.pc

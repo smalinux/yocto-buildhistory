@@ -1,6 +1,7 @@
 PV = 8.45
 PR = r0
 PKG = libpcrecpp0
+PKGR = r0.0
 RPROVIDES = libpcrecpp (=8.45)
 RDEPENDS = glibc (>= 2.39+git0+e8f5217097) libgcc (>= 13.3.0) libpcre (>= 8.45) libstdc++ (>= 13.3.0)
 RRECOMMENDS = 

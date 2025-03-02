@@ -28,12 +28,12 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/b
 -rw-r--r-- -          -               14384 ./usr/lib/python3.12/site-packages/build/__init__.py
 -rw-r--r-- -          -               12787 ./usr/lib/python3.12/site-packages/build/__main__.py
 drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/build/__pycache__
--rw-r--r-- -          -               15924 ./usr/lib/python3.12/site-packages/build/__pycache__/env.cpython-312.pyc
+-rw-r--r-- -          -               15920 ./usr/lib/python3.12/site-packages/build/__pycache__/env.cpython-312.pyc
 -rw-r--r-- -          -                3789 ./usr/lib/python3.12/site-packages/build/__pycache__/_exceptions.cpython-312.pyc
--rw-r--r-- -          -               18872 ./usr/lib/python3.12/site-packages/build/__pycache__/__init__.cpython-312.pyc
--rw-r--r-- -          -               17842 ./usr/lib/python3.12/site-packages/build/__pycache__/__main__.cpython-312.pyc
+-rw-r--r-- -          -               18862 ./usr/lib/python3.12/site-packages/build/__pycache__/__init__.cpython-312.pyc
+-rw-r--r-- -          -               17835 ./usr/lib/python3.12/site-packages/build/__pycache__/__main__.cpython-312.pyc
 -rw-r--r-- -          -                2987 ./usr/lib/python3.12/site-packages/build/__pycache__/_util.cpython-312.pyc
--rw-r--r-- -          -                2517 ./usr/lib/python3.12/site-packages/build/__pycache__/util.cpython-312.pyc
+-rw-r--r-- -          -                2508 ./usr/lib/python3.12/site-packages/build/__pycache__/util.cpython-312.pyc
 -rw-r--r-- -          -                   0 ./usr/lib/python3.12/site-packages/build/py.typed
 -rw-r--r-- -          -                2325 ./usr/lib/python3.12/site-packages/build/_util.py
 -rw-r--r-- -          -                1747 ./usr/lib/python3.12/site-packages/build/util.py

@@ -1,8 +1,8 @@
 PV = 3.2.14
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = hotplug udev
-RDEPENDS = glibc (>= 2.39+git0+e8f5217097) kmod libkmod (>= 31) util-linux-libblkid (>= 2.39.3)
+RDEPENDS = glibc (>= 2.39+git1+dcaf51b41e) kmod libkmod (>= 31) util-linux-libblkid (>= 2.39.3)
 RRECOMMENDS = update-rc.d
 PKGSIZE = 1303359
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/eudev /usr/lib/eudev/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/udev

@@ -63,7 +63,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/binutils/2.42/bfd
 -rw-r--r-- root       root             2249 ./usr/src/debug/binutils/2.42/bfd/stab-syms.c
 -rw-r--r-- root       root            44907 ./usr/src/debug/binutils/2.42/bfd/syms.c
 -rw-r--r-- root       root            56592 ./usr/src/debug/binutils/2.42/bfd/targets.c
--rw-r--r-- root       root            27194 ./usr/src/debug/binutils/2.42/bfd/tekhex.c
+-rw-r--r-- root       root            27396 ./usr/src/debug/binutils/2.42/bfd/tekhex.c
 -rw-r--r-- root       root            13169 ./usr/src/debug/binutils/2.42/bfd/verilog.c
 drwxr-xr-x root       root             4096 ./usr/src/debug/binutils/2.42/binutils
 -rw-r--r-- root       root            15378 ./usr/src/debug/binutils/2.42/binutils/addr2line.c
@@ -522,7 +522,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/binutils/2.42/ld
 -rw-r--r-- root       root             2103 ./usr/src/debug/binutils/2.42/ld/plugin.h
 drwxr-xr-x root       root             4096 ./usr/src/debug/binutils/2.42/libctf
 -rw-r--r-- root       root            35467 ./usr/src/debug/binutils/2.42/libctf/ctf-archive.c
--rw-r--r-- root       root            59928 ./usr/src/debug/binutils/2.42/libctf/ctf-create.c
+-rw-r--r-- root       root            59927 ./usr/src/debug/binutils/2.42/libctf/ctf-create.c
 -rw-r--r-- root       root             5256 ./usr/src/debug/binutils/2.42/libctf/ctf-decl.c
 -rw-r--r-- root       root             2118 ./usr/src/debug/binutils/2.42/libctf/ctf-decls.h
 -rw-r--r-- root       root           103936 ./usr/src/debug/binutils/2.42/libctf/ctf-dedup.c

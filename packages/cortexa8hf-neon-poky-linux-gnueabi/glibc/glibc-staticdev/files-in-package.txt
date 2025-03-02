@@ -1,7 +1,7 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 -rw-r--r-- root       root            17158 ./usr/lib/libBrokenLocale.a
--rw-r--r-- root       root         20053958 ./usr/lib/libc.a
+-rw-r--r-- root       root         20060602 ./usr/lib/libc.a
 -rw-r--r-- root       root             2294 ./usr/lib/libg.a
 -rw-r--r-- root       root          2137124 ./usr/lib/libm.a
 -rw-r--r-- root       root             3232 ./usr/lib/libmcheck.a

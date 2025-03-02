@@ -1,10 +1,10 @@
-PV = 2.4.4+git
+PV = 2.4.5+git
 PR = r0
-PKGV = 2.4.4+git0+95f528cff0
+PKGV = 2.4.5+git0+aea9f42f87
 PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = base-files-dev base-passwd-dev glibc-dev libgcc-dev pstree-dev ptest-runner (= 2.4.4+git0+95f528cff0-r0.0) shadow-dev shadow-sysroot-dev
+RRECOMMENDS = base-files-dev base-passwd-dev glibc-dev libgcc-dev pstree-dev ptest-runner (= 2.4.5+git0+aea9f42f87-r0.0) shadow-dev shadow-sysroot-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ptest-runner/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = 

@@ -1,6 +1,6 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 drwxr-xr-x root       root             4096 ./usr/bin/.debug
--rwxr-xr-x root       root            60920 ./usr/bin/.debug/funzip
--rwxr-xr-x root       root           252904 ./usr/bin/.debug/unzipsfx
--rwxr-xr-x root       root           448524 ./usr/bin/.debug/unzip.unzip
+-rwxr-xr-x root       root            60924 ./usr/bin/.debug/funzip
+-rwxr-xr-x root       root           252892 ./usr/bin/.debug/unzipsfx
+-rwxr-xr-x root       root           448516 ./usr/bin/.debug/unzip.unzip

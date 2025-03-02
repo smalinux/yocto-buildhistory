@@ -1,4 +1,4 @@
-bbb: core-image-bbb configured for poky 5.0.4
+bbb: core-image-bbb configured for poky 5.0.7
 
 Build Configuration:
 BB_VERSION           = "2.8.0"
@@ -7,16 +7,16 @@ NATIVELSBSTRING      = "universal"
 TARGET_SYS           = "arm-poky-linux-gnueabi"
 MACHINE              = "bbb"
 DISTRO               = "poky"
-DISTRO_VERSION       = "5.0.4"
+DISTRO_VERSION       = "5.0.7"
 TUNE_FEATURES        = "arm vfp cortexa8 neon callconvention-hard"
 TARGET_FPU           = "hard"
 meta                 
 meta-poky            
-meta-yocto-bsp       = "HEAD:2034fc38eb4e63984d9bd6b260aa1bf95ce562e4"
+meta-yocto-bsp       = "HEAD:78fa27585441edd6f289d498ce9a26e3c8f7ddd8"
 meta-arm             
 meta-arm-toolchain   = "HEAD:60e31ef2c4983c0bdb8682dee6a6ec5f2e9d5f0a"
 meta-ti-bsp          
 meta-ti-extras       = "HEAD:cf6400520e0c8e370af458a71935f09673f069c5"
 meta-bbb             
-workspace            = "scarthgap:55a441d7ee1bc84e87cdf9d40e108a8946a69859"
+workspace            = "scarthgap:400922980b3f53141cd55061d7d718fd266fd71a"
 

@@ -3,8 +3,8 @@ drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/cairo
 drwxr-xr-x root       root             4096 ./usr/lib/cairo/.debug
 -rwxr-xr-x root       root            32708 ./usr/lib/cairo/.debug/libcairo-fdr.so
--rwxr-xr-x root       root           269324 ./usr/lib/cairo/.debug/libcairo-trace.so
+-rwxr-xr-x root       root           269336 ./usr/lib/cairo/.debug/libcairo-trace.so
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
 -rwxr-xr-x root       root            35384 ./usr/lib/.debug/libcairo-gobject.so.2.11800.0
--rwxr-xr-x root       root           540460 ./usr/lib/.debug/libcairo-script-interpreter.so.2.11800.0
--rwxr-xr-x root       root          5433652 ./usr/lib/.debug/libcairo.so.2.11800.0
+-rwxr-xr-x root       root           540464 ./usr/lib/.debug/libcairo-script-interpreter.so.2.11800.0
+-rwxr-xr-x root       root          5433660 ./usr/lib/.debug/libcairo.so.2.11800.0

@@ -761,6 +761,7 @@ digraph depends {
 "python3-core" -> "liblzma5"
 "python3-core" -> "libpython3.12-1.0"
 "python3-core" -> "libz1"
+"python3-core" -> "python3-compression"
 "python3-crypt" -> "ca-certificates" [style=dotted]
 "python3-crypt" -> "libcrypt2"
 "python3-crypt" -> "libcrypto3"

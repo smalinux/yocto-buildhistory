@@ -2,9 +2,9 @@ PE = 1
 PV = 1.1.4
 PR = r0
 PKG = libxdmcp6
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = libxdmcp (=1.1.4)
-RDEPENDS = glibc (>= 2.39+git0+e8f5217097)
+RDEPENDS = glibc (>= 2.39+git1+dcaf51b41e)
 RRECOMMENDS = 
 PKGSIZE = 17665
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libxdmcp /usr/lib/libxdmcp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

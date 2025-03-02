@@ -63,7 +63,7 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/e
 drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/elftools/dwarf/__pycache__
 -rw-r--r-- -          -                3646 ./usr/lib/python3.12/site-packages/elftools/dwarf/__pycache__/abbrevtable.cpython-312.pyc
 -rw-r--r-- -          -                5171 ./usr/lib/python3.12/site-packages/elftools/dwarf/__pycache__/aranges.cpython-312.pyc
--rw-r--r-- -          -               29812 ./usr/lib/python3.12/site-packages/elftools/dwarf/__pycache__/callframe.cpython-312.pyc
+-rw-r--r-- -          -               29807 ./usr/lib/python3.12/site-packages/elftools/dwarf/__pycache__/callframe.cpython-312.pyc
 -rw-r--r-- -          -                9313 ./usr/lib/python3.12/site-packages/elftools/dwarf/__pycache__/compileunit.cpython-312.pyc
 -rw-r--r-- -          -                5022 ./usr/lib/python3.12/site-packages/elftools/dwarf/__pycache__/constants.cpython-312.pyc
 -rw-r--r-- -          -               11747 ./usr/lib/python3.12/site-packages/elftools/dwarf/__pycache__/datatype_cpp.cpython-312.pyc
@@ -71,7 +71,7 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/e
 -rw-r--r-- -          -               15519 ./usr/lib/python3.12/site-packages/elftools/dwarf/__pycache__/die.cpython-312.pyc
 -rw-r--r-- -          -               14316 ./usr/lib/python3.12/site-packages/elftools/dwarf/__pycache__/dwarf_expr.cpython-312.pyc
 -rw-r--r-- -          -               24987 ./usr/lib/python3.12/site-packages/elftools/dwarf/__pycache__/dwarfinfo.cpython-312.pyc
--rw-r--r-- -          -                3365 ./usr/lib/python3.12/site-packages/elftools/dwarf/__pycache__/dwarf_util.cpython-312.pyc
+-rw-r--r-- -          -                3358 ./usr/lib/python3.12/site-packages/elftools/dwarf/__pycache__/dwarf_util.cpython-312.pyc
 -rw-r--r-- -          -               19472 ./usr/lib/python3.12/site-packages/elftools/dwarf/__pycache__/enums.cpython-312.pyc
 -rw-r--r-- -          -                 253 ./usr/lib/python3.12/site-packages/elftools/dwarf/__pycache__/__init__.cpython-312.pyc
 -rw-r--r-- -          -               10592 ./usr/lib/python3.12/site-packages/elftools/dwarf/__pycache__/lineprogram.cpython-312.pyc

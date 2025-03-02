@@ -1,9 +1,9 @@
 PV = 3.2.14
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libkmod-dbg util-linux-libblkid-dbg
-PKGSIZE = 4969488
+PKGSIZE = 4969800
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
 FILELIST = /lib/.debug/libudev.so.1.6.3 /lib/udev/.debug/ata_id /lib/udev/.debug/cdrom_id /lib/udev/.debug/collect /lib/udev/.debug/dmi_memory_id /lib/udev/.debug/fido_id /lib/udev/.debug/mtd_probe /lib/udev/.debug/scsi_id /lib/udev/.debug/v4l_id /sbin/.debug/udevd /usr/bin/.debug/udevadm

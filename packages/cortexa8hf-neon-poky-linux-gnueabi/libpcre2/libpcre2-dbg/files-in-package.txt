@@ -1,8 +1,8 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 drwxr-xr-x root       root             4096 ./usr/bin/.debug
--rwxr-xr-x root       root            98624 ./usr/bin/.debug/pcre2grep
--rwxr-xr-x root       root           376892 ./usr/bin/.debug/pcre2test
+-rwxr-xr-x root       root            98636 ./usr/bin/.debug/pcre2grep
+-rwxr-xr-x root       root           376908 ./usr/bin/.debug/pcre2test
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
 -rwxr-xr-x root       root           550704 ./usr/lib/.debug/libpcre2-16.so.0.12.0

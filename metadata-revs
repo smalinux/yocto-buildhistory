@@ -1,9 +1,9 @@
-meta              = HEAD:2034fc38eb4e63984d9bd6b260aa1bf95ce562e4
-meta-poky         = HEAD:2034fc38eb4e63984d9bd6b260aa1bf95ce562e4
-meta-yocto-bsp    = HEAD:2034fc38eb4e63984d9bd6b260aa1bf95ce562e4
+meta              = HEAD:78fa27585441edd6f289d498ce9a26e3c8f7ddd8
+meta-poky         = HEAD:78fa27585441edd6f289d498ce9a26e3c8f7ddd8
+meta-yocto-bsp    = HEAD:78fa27585441edd6f289d498ce9a26e3c8f7ddd8
 meta-arm          = HEAD:60e31ef2c4983c0bdb8682dee6a6ec5f2e9d5f0a
 meta-arm-toolchain = HEAD:60e31ef2c4983c0bdb8682dee6a6ec5f2e9d5f0a
 meta-ti-bsp       = HEAD:cf6400520e0c8e370af458a71935f09673f069c5
 meta-ti-extras    = HEAD:cf6400520e0c8e370af458a71935f09673f069c5
-meta-bbb          = scarthgap:55a441d7ee1bc84e87cdf9d40e108a8946a69859
-workspace         = scarthgap:55a441d7ee1bc84e87cdf9d40e108a8946a69859
+meta-bbb          = scarthgap:400922980b3f53141cd55061d7d718fd266fd71a -- modified
+workspace         = scarthgap:400922980b3f53141cd55061d7d718fd266fd71a -- modified

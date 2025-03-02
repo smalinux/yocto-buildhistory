@@ -1,9 +1,9 @@
 PV = 3.04
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 268008
+PKGSIZE = 268003
 FILES = /usr/src/debug
 FILELIST = /usr/src/debug/sysvinit/3.04/src/bootlogd.c /usr/src/debug/sysvinit/3.04/src/consoles.c /usr/src/debug/sysvinit/3.04/src/consoles.h /usr/src/debug/sysvinit/3.04/src/dowall.c /usr/src/debug/sysvinit/3.04/src/fstab-decode.c /usr/src/debug/sysvinit/3.04/src/halt.c /usr/src/debug/sysvinit/3.04/src/hddown.c /usr/src/debug/sysvinit/3.04/src/ifdown.c /usr/src/debug/sysvinit/3.04/src/init.c /usr/src/debug/sysvinit/3.04/src/init.h /usr/src/debug/sysvinit/3.04/src/initreq.h /usr/src/debug/sysvinit/3.04/src/killall5.c /usr/src/debug/sysvinit/3.04/src/last.c /usr/src/debug/sysvinit/3.04/src/mesg.c /usr/src/debug/sysvinit/3.04/src/mountpoint.c /usr/src/debug/sysvinit/3.04/src/oldutmp.h /usr/src/debug/sysvinit/3.04/src/readbootlog.c /usr/src/debug/sysvinit/3.04/src/runlevel.c /usr/src/debug/sysvinit/3.04/src/runlevellog.c /usr/src/debug/sysvinit/3.04/src/runlevellog.h /usr/src/debug/sysvinit/3.04/src/shutdown.c /usr/src/debug/sysvinit/3.04/src/sulogin.c /usr/src/debug/sysvinit/3.04/src/utmp.c /usr/src/debug/sysvinit/3.04/src/utmpdump.c /usr/src/debug/sysvinit/3.04/src/wall.c

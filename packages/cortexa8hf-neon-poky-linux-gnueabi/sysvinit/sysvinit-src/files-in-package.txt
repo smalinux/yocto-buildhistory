@@ -15,7 +15,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/sysvinit/3.04/src
 -rw-r--r-- root       root            71210 ./usr/src/debug/sysvinit/3.04/src/init.c
 -rw-r--r-- root       root             4787 ./usr/src/debug/sysvinit/3.04/src/init.h
 -rw-r--r-- root       root             2446 ./usr/src/debug/sysvinit/3.04/src/initreq.h
--rw-r--r-- root       root            27290 ./usr/src/debug/sysvinit/3.04/src/killall5.c
+-rw-r--r-- root       root            27285 ./usr/src/debug/sysvinit/3.04/src/killall5.c
 -rw-r--r-- root       root            22819 ./usr/src/debug/sysvinit/3.04/src/last.c
 -rw-r--r-- root       root             2890 ./usr/src/debug/sysvinit/3.04/src/mesg.c
 -rw-r--r-- root       root             4821 ./usr/src/debug/sysvinit/3.04/src/mountpoint.c

@@ -1,8 +1,8 @@
-PV = 3.12.6
+PV = 3.12.8
 PR = r0
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = expat (>= 2.6.3) glibc (>= 2.39+git0+e8f5217097) python3-core
+RDEPENDS = expat (>= 2.6.4) glibc (>= 2.39+git1+dcaf51b41e) python3-core
 RRECOMMENDS = 
 PKGSIZE = 786580
 FILES = /usr/lib/python3.12/lib-dynload/_elementtree.*.so /usr/lib/python3.12/lib-dynload/pyexpat.*.so /usr/lib/python3.12/xml

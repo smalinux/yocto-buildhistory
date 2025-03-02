@@ -300,7 +300,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/openssh/ptest/regress/unit
 -rw-r--r-- root       root             3155 ./usr/lib/openssh/ptest/regress/unittests/sshbuf/test_sshbuf_getput_fuzz.c
 -rw-r--r-- root       root            13004 ./usr/lib/openssh/ptest/regress/unittests/sshbuf/test_sshbuf_getput_fuzz.o
 -rw-r--r-- root       root             6257 ./usr/lib/openssh/ptest/regress/unittests/sshbuf/test_sshbuf_misc.c
--rw-r--r-- root       root            33052 ./usr/lib/openssh/ptest/regress/unittests/sshbuf/test_sshbuf_misc.o
+-rw-r--r-- root       root            33064 ./usr/lib/openssh/ptest/regress/unittests/sshbuf/test_sshbuf_misc.o
 -rw-r--r-- root       root            27720 ./usr/lib/openssh/ptest/regress/unittests/sshbuf/test_sshbuf.o
 drwxr-xr-x root       root             4096 ./usr/lib/openssh/ptest/regress/unittests/sshkey
 -rw-r--r-- root       root             2977 ./usr/lib/openssh/ptest/regress/unittests/sshkey/common.c

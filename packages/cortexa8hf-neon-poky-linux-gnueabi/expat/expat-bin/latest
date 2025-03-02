@@ -1,9 +1,9 @@
-PV = 2.6.3
+PV = 2.6.4
 PR = r0
 PKG = libexpat-bin
 PKGR = r0.0
-RPROVIDES = expat-bin (=2.6.3)
-RDEPENDS = expat (>= 2.6.3) glibc (>= 2.39+git0+e8f5217097)
+RPROVIDES = expat-bin (=2.6.4)
+RDEPENDS = expat (>= 2.6.4) glibc (>= 2.39+git1+dcaf51b41e)
 RRECOMMENDS = 
 PKGSIZE = 25988
 FILES = /usr/bin/* /usr/sbin/*

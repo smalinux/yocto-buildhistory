@@ -5,5 +5,5 @@ meta-arm          = HEAD:60e31ef2c4983c0bdb8682dee6a6ec5f2e9d5f0a
 meta-arm-toolchain = HEAD:60e31ef2c4983c0bdb8682dee6a6ec5f2e9d5f0a
 meta-ti-bsp       = HEAD:cf6400520e0c8e370af458a71935f09673f069c5
 meta-ti-extras    = HEAD:cf6400520e0c8e370af458a71935f09673f069c5
-meta-bbb          = scarthgap:936c1e1c2e93a7a6c5b20b6f9be75103c9fc4526 -- modified
-workspace         = scarthgap:936c1e1c2e93a7a6c5b20b6f9be75103c9fc4526 -- modified
+meta-bbb          = scarthgap:0980aa06a434556fed2f17736bb468788fd6c917 -- modified
+workspace         = scarthgap:0980aa06a434556fed2f17736bb468788fd6c917 -- modified

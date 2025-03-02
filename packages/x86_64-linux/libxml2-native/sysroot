@@ -72,10 +72,10 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages
 -rwxr-xr-x -          -              436408 ./usr/lib/python3.12/site-packages/libxml2mod.so
 -rw-r--r-- -          -              351586 ./usr/lib/python3.12/site-packages/libxml2.py
 drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/__pycache__
--rw-r--r-- -          -               16197 ./usr/lib/python3.12/site-packages/__pycache__/drv_libxml2.cpython-312.opt-1.pyc
--rw-r--r-- -          -               16197 ./usr/lib/python3.12/site-packages/__pycache__/drv_libxml2.cpython-312.pyc
--rw-r--r-- -          -              459324 ./usr/lib/python3.12/site-packages/__pycache__/libxml2.cpython-312.opt-1.pyc
--rw-r--r-- -          -              459324 ./usr/lib/python3.12/site-packages/__pycache__/libxml2.cpython-312.pyc
+-rw-r--r-- -          -               16206 ./usr/lib/python3.12/site-packages/__pycache__/drv_libxml2.cpython-312.opt-1.pyc
+-rw-r--r-- -          -               16206 ./usr/lib/python3.12/site-packages/__pycache__/drv_libxml2.cpython-312.pyc
+-rw-r--r-- -          -              459333 ./usr/lib/python3.12/site-packages/__pycache__/libxml2.cpython-312.opt-1.pyc
+-rw-r--r-- -          -              459333 ./usr/lib/python3.12/site-packages/__pycache__/libxml2.cpython-312.pyc
 drwxr-xr-x -          -                4096 ./usr/share
 drwxr-xr-x -          -                4096 ./usr/share/aclocal
 -rw-r--r-- -          -                 461 ./usr/share/aclocal/libxml.m4

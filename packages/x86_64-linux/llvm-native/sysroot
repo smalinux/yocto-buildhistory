@@ -56,7 +56,7 @@ lrwxrwxrwx -          -                  12 ./usr/bin/llvm-otool -> llvm-objdump
 -rwxr-xr-x -          -              329816 ./usr/bin/llvm-profdata
 -rwxr-xr-x -          -              383072 ./usr/bin/llvm-profgen
 lrwxrwxrwx -          -                   7 ./usr/bin/llvm-ranlib -> llvm-ar
--rwxr-xr-x -          -              223384 ./usr/bin/llvm-rc
+-rwxr-xr-x -          -              227480 ./usr/bin/llvm-rc
 lrwxrwxrwx -          -                  12 ./usr/bin/llvm-readelf -> llvm-readobj
 -rwxr-xr-x -          -             1841392 ./usr/bin/llvm-readobj
 -rwxr-xr-x -          -              112728 ./usr/bin/llvm-readtapi

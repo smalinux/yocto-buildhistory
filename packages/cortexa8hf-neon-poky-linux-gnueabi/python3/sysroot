@@ -347,7 +347,7 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/config-3.12-arm
 -rw-r--r-- -          -                1752 ./usr/lib/python3.12/config-3.12-arm-linux-gnueabihf/config.c.in
 -rwxr-xr-x -          -               15425 ./usr/lib/python3.12/config-3.12-arm-linux-gnueabihf/install-sh
 -rw-r--r-- -          -            38510860 ./usr/lib/python3.12/config-3.12-arm-linux-gnueabihf/libpython3.12.a
--rw-r--r-- -          -              184180 ./usr/lib/python3.12/config-3.12-arm-linux-gnueabihf/Makefile
+-rw-r--r-- -          -              184342 ./usr/lib/python3.12/config-3.12-arm-linux-gnueabihf/Makefile
 -rwxr-xr-x -          -                9312 ./usr/lib/python3.12/config-3.12-arm-linux-gnueabihf/makesetup
 drwxr-xr-x -          -                4096 ./usr/lib/python3.12/config-3.12-arm-linux-gnueabihf/__pycache__
 -rw-r--r-- -          -                3184 ./usr/lib/python3.12/config-3.12-arm-linux-gnueabihf/__pycache__/python-config.cpython-312.pyc
@@ -1702,7 +1702,7 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/sqlite3/__pycac
 -rw-r--r-- -          -               88725 ./usr/lib/python3.12/subprocess.py
 -rw-r--r-- -          -               18478 ./usr/lib/python3.12/sunau.py
 -rw-r--r-- -          -               12477 ./usr/lib/python3.12/symtable.py
--rw-r--r-- -          -              103272 ./usr/lib/python3.12/_sysconfigdata__linux_arm-linux-gnueabihf.py
+-rw-r--r-- -          -              105225 ./usr/lib/python3.12/_sysconfigdata__linux_arm-linux-gnueabihf.py
 -rw-r--r-- -          -               31008 ./usr/lib/python3.12/sysconfig.py
 -rwxr-xr-x -          -               11532 ./usr/lib/python3.12/tabnanny.py
 -rwxr-xr-x -          -              108582 ./usr/lib/python3.12/tarfile.py
@@ -1973,8 +1973,8 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/zoneinfo/__pyca
 -rw-r--r-- -          -                5388 ./usr/lib/python3.12/zoneinfo/_tzpath.py
 -rw-r--r-- -          -               24674 ./usr/lib/python3.12/zoneinfo/_zoneinfo.py
 drwxr-xr-x -          -                4096 ./usr/lib/python-sysconfigdata
--rw-r--r-- -          -               93602 ./usr/lib/python-sysconfigdata/_sysconfigdata.py
+-rw-r--r-- -          -               94214 ./usr/lib/python-sysconfigdata/_sysconfigdata.py
 drwxr-xr-x -          -                4096 ./usr/python-target-config
--rwxr-xr-x -          -                3737 ./usr/python-target-config/python3.12-config
--rwxr-xr-x -          -                3737 ./usr/python-target-config/python3-config
+-rwxr-xr-x -          -                3773 ./usr/python-target-config/python3.12-config
+-rwxr-xr-x -          -                3773 ./usr/python-target-config/python3-config
 drwxr-xr-x -          -                4096 ./usr/share

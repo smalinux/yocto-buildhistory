@@ -15,8 +15,8 @@ drwxr-xr-x -          -                4096 ./etc/terminfo/s
 drwxr-xr-x -          -                4096 ./etc/terminfo/v
 -rw-r--r-- -          -                1282 ./etc/terminfo/v/vt100
 -rw-r--r-- -          -                1276 ./etc/terminfo/v/vt102
--rw-r--r-- -          -                1466 ./etc/terminfo/v/vt200
--rw-r--r-- -          -                1466 ./etc/terminfo/v/vt220
+-rw-r--r-- -          -                1475 ./etc/terminfo/v/vt200
+-rw-r--r-- -          -                1475 ./etc/terminfo/v/vt220
 -rw-r--r-- -          -                 839 ./etc/terminfo/v/vt52
 drwxr-xr-x -          -                4096 ./etc/terminfo/x
 -rw-r--r-- -          -                3882 ./etc/terminfo/x/xterm-256color

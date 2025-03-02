@@ -15,7 +15,7 @@ drwxr-xr-x -          -                4096 ./usr/lib
 -rwxr-xr-x -          -              358632 ./usr/lib/libpcre2-16.so.0.12.0
 lrwxrwxrwx -          -                  21 ./usr/lib/libpcre2-16.so.0 -> libpcre2-16.so.0.12.0
 lrwxrwxrwx -          -                  21 ./usr/lib/libpcre2-16.so -> libpcre2-16.so.0.12.0
--rwxr-xr-x -          -              342248 ./usr/lib/libpcre2-32.so.0.12.0
+-rwxr-xr-x -          -              346344 ./usr/lib/libpcre2-32.so.0.12.0
 lrwxrwxrwx -          -                  21 ./usr/lib/libpcre2-32.so.0 -> libpcre2-32.so.0.12.0
 lrwxrwxrwx -          -                  21 ./usr/lib/libpcre2-32.so -> libpcre2-32.so.0.12.0
 -rwxr-xr-x -          -              399608 ./usr/lib/libpcre2-8.so.0.12.0

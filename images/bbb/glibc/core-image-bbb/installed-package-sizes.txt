@@ -29,10 +29,13 @@
 748	KiB	python3-io
 726	KiB	busybox
 682	KiB	python3-multiprocessing
+672	KiB	libarchive
 667	KiB	python3-2to3
+645	KiB	libzstd1
 641	KiB	ldconfig
 612	KiB	kernel-module-bluetooth-6.13.1
 532	KiB	python3-unittest
+522	KiB	libsolv1
 494	KiB	python3-compression
 486	KiB	openssh-keygen
 473	KiB	kernel-devicetree
@@ -61,6 +64,7 @@
 165	KiB	libncursesw5
 162	KiB	sysvinit
 162	KiB	kernel-module-dsa-core-6.13.1
+159	KiB	libopkg1
 155	KiB	python3-difflib
 153	KiB	liblzma5
 147	KiB	python3-profile
@@ -126,6 +130,7 @@
 31	KiB	python3-mime
 30	KiB	kernel-module-aes-generic-6.13.1
 29	KiB	libffi8
+29	KiB	libacl1
 29	KiB	kernel-module-flexcan-6.13.1
 29	KiB	kernel-module-edt-ft5x06-6.13.1
 29	KiB	kernel-module-adv7511-6.13.1
@@ -146,6 +151,7 @@
 23	KiB	kernel-module-onboard-usb-dev-6.13.1
 23	KiB	kernel-module-fsi-master-aspeed-6.13.1
 22	KiB	python3-mmap
+22	KiB	opkg
 22	KiB	ncurses-terminfo-base
 22	KiB	kernel-module-usb-f-ss-lb-6.13.1
 22	KiB	kernel-module-usb-f-ncm-6.13.1
@@ -377,6 +383,7 @@
 0	KiB	python3-pkgutil
 0	KiB	python3-modules
 0	KiB	packagegroup-core-boot
+0	KiB	opkg-arch-config
 0	KiB	openssh
 0	KiB	kernel-modules
 0	KiB	kernel-image-6.13.1

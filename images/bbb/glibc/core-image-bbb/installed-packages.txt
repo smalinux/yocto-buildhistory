@@ -270,6 +270,8 @@ kernel-module-xfrm-ipcomp-6.13.1_6.13.1-r0.0_bbb.ipk
 kernel-module-xts-6.13.1_6.13.1-r0.0_bbb.ipk
 kmod_31-r0.0_cortexa8hf-neon.ipk
 ldconfig_2.39+git0+e8f5217097-r0.0_cortexa8hf-neon.ipk
+libacl1_2.3.2-r0.0_cortexa8hf-neon.ipk
+libarchive_3.7.4-r0.0_cortexa8hf-neon.ipk
 libattr1_2.5.1-r0.0_cortexa8hf-neon.ipk
 libblkid1_2.39.3-r0.0_cortexa8hf-neon.ipk
 libbz2-1_1.0.8-r0.0_cortexa8hf-neon.ipk
@@ -287,14 +289,17 @@ liblzma5_5.4.6-r0.0_cortexa8hf-neon.ipk
 libncurses5_6.4-r0.0_cortexa8hf-neon.ipk
 libncursesw5_6.4-r0.0_cortexa8hf-neon.ipk
 libnsl3_2.0.1-r0.0_cortexa8hf-neon.ipk
+libopkg1_1:0.6.3-r0.0_cortexa8hf-neon.ipk
 libpanelw5_6.4-r0.0_cortexa8hf-neon.ipk
 libpython3.12-1.0_3.12.6-r0.0_cortexa8hf-neon.ipk
+libsolv1_0.7.28-r0.0_cortexa8hf-neon.ipk
 libsqlite3-0_3:3.45.1-r0.0_cortexa8hf-neon.ipk
 libssl3_3.2.3-r0.0_cortexa8hf-neon.ipk
 libtinfo5_6.4-r0.0_cortexa8hf-neon.ipk
 libtirpc3_1.3.4-r0.0_cortexa8hf-neon.ipk
 libuuid1_2.39.3-r0.0_cortexa8hf-neon.ipk
 libz1_1.3.1-r0.0_cortexa8hf-neon.ipk
+libzstd1_1.5.5-r0.0_cortexa8hf-neon.ipk
 modutils-initscripts_1.0-r0.0_cortexa8hf-neon.ipk
 ncurses-terminfo-base_6.4-r0.0_cortexa8hf-neon.ipk
 netbase_1:6.4-r0.0_all.ipk
@@ -308,6 +313,8 @@ openssl-bin_3.2.3-r0.0_cortexa8hf-neon.ipk
 openssl-conf_3.2.3-r0.0_cortexa8hf-neon.ipk
 openssl_3.2.3-r0.0_cortexa8hf-neon.ipk
 openssl-ossl-module-legacy_3.2.3-r0.0_cortexa8hf-neon.ipk
+opkg-arch-config_1.0-r0.0_bbb.ipk
+opkg_1:0.6.3-r0.0_cortexa8hf-neon.ipk
 packagegroup-core-boot_1.0-r0.0_bbb.ipk
 python3-2to3_3.12.6-r0.0_cortexa8hf-neon.ipk
 python3-asyncio_3.12.6-r0.0_cortexa8hf-neon.ipk

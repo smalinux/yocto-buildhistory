@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            13700 ./usr/bin/dumpsolv
+-rwxr-xr-x root       root            13704 ./usr/bin/installcheck
+-rwxr-xr-x root       root             9604 ./usr/bin/mergesolv
+-rwxr-xr-x root       root             9604 ./usr/bin/repo2solv
+-rwxr-xr-x root       root            17848 ./usr/bin/testsolv

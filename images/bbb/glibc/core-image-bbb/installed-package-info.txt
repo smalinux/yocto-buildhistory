@@ -29,10 +29,13 @@ libssl3 libssl openssl 3.2.3 753
 python3-io python3-io python3 3.12.6 748
 busybox busybox busybox 1.36.1 726
 python3-multiprocessing python3-multiprocessing python3 3.12.6 682
+libarchive libarchive libarchive 3.7.4 672
 python3-2to3 python3-2to3 python3 3.12.6 667
+libzstd1 libzstd zstd 1.5.5 645
 ldconfig ldconfig glibc 2.39+git 641
 kernel-module-bluetooth-6.13.1 kernel-module-bluetooth-6.13.1 linux-stable 6.13.1 612
 python3-unittest python3-unittest python3 3.12.6 532
+libsolv1 libsolv libsolv 0.7.28 522
 python3-compression python3-compression python3 3.12.6 494
 openssh-keygen openssh-keygen openssh 9.6p1 486
 kernel-devicetree kernel-devicetree linux-stable 6.13.1 473
@@ -61,6 +64,7 @@ shadow-base shadow-base shadow 4.14.2 165
 libncursesw5 ncurses-libncursesw ncurses 6.4 165
 sysvinit sysvinit sysvinit 3.04 162
 kernel-module-dsa-core-6.13.1 kernel-module-dsa-core-6.13.1 linux-stable 6.13.1 162
+libopkg1 libopkg opkg 0.6.3 159
 python3-difflib python3-difflib python3 3.12.6 155
 liblzma5 liblzma xz 5.4.6 153
 python3-profile python3-profile python3 3.12.6 147
@@ -126,6 +130,7 @@ kernel-module-hci-6.13.1 kernel-module-hci-6.13.1 linux-stable 6.13.1 33
 python3-mime python3-mime python3 3.12.6 31
 kernel-module-aes-generic-6.13.1 kernel-module-aes-generic-6.13.1 linux-stable 6.13.1 30
 libffi8 libffi libffi 3.4.6 29
+libacl1 libacl acl 2.3.2 29
 kernel-module-flexcan-6.13.1 kernel-module-flexcan-6.13.1 linux-stable 6.13.1 29
 kernel-module-edt-ft5x06-6.13.1 kernel-module-edt-ft5x06-6.13.1 linux-stable 6.13.1 29
 kernel-module-adv7511-6.13.1 kernel-module-adv7511-6.13.1 linux-stable 6.13.1 29
@@ -146,6 +151,7 @@ python3-stringold python3-stringold python3 3.12.6 23
 kernel-module-onboard-usb-dev-6.13.1 kernel-module-onboard-usb-dev-6.13.1 linux-stable 6.13.1 23
 kernel-module-fsi-master-aspeed-6.13.1 kernel-module-fsi-master-aspeed-6.13.1 linux-stable 6.13.1 23
 python3-mmap python3-mmap python3 3.12.6 22
+opkg opkg opkg 0.6.3 22
 ncurses-terminfo-base ncurses-terminfo-base ncurses 6.4 22
 kernel-module-usb-f-ss-lb-6.13.1 kernel-module-usb-f-ss-lb-6.13.1 linux-stable 6.13.1 22
 kernel-module-usb-f-ncm-6.13.1 kernel-module-usb-f-ncm-6.13.1 linux-stable 6.13.1 22
@@ -377,6 +383,7 @@ modutils-initscripts modutils-initscripts modutils-initscripts 1.0 1
 python3-pkgutil python3-pkgutil python3 3.12.6 0
 python3-modules python3-modules python3 3.12.6 0
 packagegroup-core-boot packagegroup-core-boot packagegroup-core-boot 1.0 0
+opkg-arch-config opkg-arch-config opkg-arch-config 1.0 0
 openssh openssh openssh 9.6p1 0
 kernel-modules kernel-modules linux-stable 6.13.1 0
 kernel-image-6.13.1 kernel-image linux-stable 6.13.1 0

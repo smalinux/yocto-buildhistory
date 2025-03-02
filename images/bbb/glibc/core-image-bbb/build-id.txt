@@ -18,5 +18,5 @@ meta-arm-toolchain   = "HEAD:60e31ef2c4983c0bdb8682dee6a6ec5f2e9d5f0a"
 meta-ti-bsp          
 meta-ti-extras       = "HEAD:cf6400520e0c8e370af458a71935f09673f069c5"
 meta-bbb             
-workspace            = "scarthgap:20a5ea56ab31be8bcc91187928b03621c5c3abaa"
+workspace            = "scarthgap:ca91bd80c3d687edd6b8ce5bc0e697fdaa792607"
 

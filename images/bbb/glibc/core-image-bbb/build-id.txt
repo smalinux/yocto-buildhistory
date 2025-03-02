@@ -17,5 +17,5 @@ meta-arm
 meta-arm-toolchain   = "HEAD:60e31ef2c4983c0bdb8682dee6a6ec5f2e9d5f0a"
 meta-ti-bsp          
 meta-ti-extras       = "HEAD:cf6400520e0c8e370af458a71935f09673f069c5"
-meta-bbb             = "scarthgap:2d944c4f5a66811c6e79dfa5d7866fc7dc045662"
+meta-bbb             = "scarthgap:6364e6dad7acc97bf714529993b6c52aea5ecfb8"
 

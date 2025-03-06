@@ -2,9 +2,9 @@ drwxr-xr-x -          -                4096 ./sysroot-providers
 -rw-r--r-- -          -                  15 ./sysroot-providers/libtasn1-native
 drwxr-xr-x -          -                4096 ./usr
 drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -               22624 ./usr/bin/asn1Coding
--rwxr-xr-x -          -               26720 ./usr/bin/asn1Decoding
--rwxr-xr-x -          -               14432 ./usr/bin/asn1Parser
+-rwxr-xr-x -          -               24857 ./usr/bin/asn1Coding
+-rwxr-xr-x -          -               28945 ./usr/bin/asn1Decoding
+-rwxr-xr-x -          -               16665 ./usr/bin/asn1Parser
 drwxr-xr-x -          -                4096 ./usr/include
 -rw-r--r-- -          -               18101 ./usr/include/libtasn1.h
 drwxr-xr-x -          -                4096 ./usr/lib

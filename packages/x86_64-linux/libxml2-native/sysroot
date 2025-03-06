@@ -5,9 +5,9 @@ drwxr-xr-x -          -                4096 ./usr/bin
 drwxr-xr-x -          -                4096 ./usr/bin/crossscripts
 -rwxr-xr-x -          -                 203 ./usr/bin/crossscripts/xml2-config
 -rwxr-xr-x -          -                 203 ./usr/bin/xml2-config
--rwxr-xr-x -          -               22552 ./usr/bin/xmlcatalog
+-rwxr-xr-x -          -               24841 ./usr/bin/xmlcatalog
 -rwxr-xr-x -          -                 185 ./usr/bin/xmllint
--rwxr-xr-x -          -               76720 ./usr/bin/xmllint.real
+-rwxr-xr-x -          -               78121 ./usr/bin/xmllint.real
 drwxr-xr-x -          -                4096 ./usr/include
 drwxr-xr-x -          -                4096 ./usr/include/libxml2
 drwxr-xr-x -          -                4096 ./usr/include/libxml2/libxml

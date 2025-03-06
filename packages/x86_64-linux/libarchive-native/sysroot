@@ -2,10 +2,10 @@ drwxr-xr-x -          -                4096 ./sysroot-providers
 -rw-r--r-- -          -                  17 ./sysroot-providers/libarchive-native
 drwxr-xr-x -          -                4096 ./usr
 drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -               14424 ./usr/bin/bsdcat
--rwxr-xr-x -          -               47192 ./usr/bin/bsdcpio
--rwxr-xr-x -          -               75864 ./usr/bin/bsdtar
--rwxr-xr-x -          -               34880 ./usr/bin/bsdunzip
+-rwxr-xr-x -          -               16641 ./usr/bin/bsdcat
+-rwxr-xr-x -          -               49409 ./usr/bin/bsdcpio
+-rwxr-xr-x -          -               78081 ./usr/bin/bsdtar
+-rwxr-xr-x -          -               37121 ./usr/bin/bsdunzip
 drwxr-xr-x -          -                4096 ./usr/include
 -rw-r--r-- -          -               33975 ./usr/include/archive_entry.h
 -rw-r--r-- -          -               53839 ./usr/include/archive.h

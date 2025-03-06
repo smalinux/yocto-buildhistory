@@ -2,7 +2,7 @@ drwxr-xr-x -          -                4096 ./sysroot-providers
 -rw-r--r-- -          -                  18 ./sysroot-providers/erofs-utils-native
 drwxr-xr-x -          -                4096 ./usr
 drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -              150376 ./usr/bin/dump.erofs
--rwxr-xr-x -          -              105224 ./usr/bin/fsck.erofs
--rwxr-xr-x -          -              171576 ./usr/bin/mkfs.erofs
+-rwxr-xr-x -          -              151817 ./usr/bin/dump.erofs
+-rwxr-xr-x -          -              106761 ./usr/bin/fsck.erofs
+-rwxr-xr-x -          -              172297 ./usr/bin/mkfs.erofs
 drwxr-xr-x -          -                4096 ./usr/share

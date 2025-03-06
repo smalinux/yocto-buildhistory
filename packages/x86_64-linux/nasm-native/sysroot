@@ -2,6 +2,6 @@ drwxr-xr-x -          -                4096 ./sysroot-providers
 -rw-r--r-- -          -                  11 ./sysroot-providers/nasm-native
 drwxr-xr-x -          -                4096 ./usr
 drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -             1939936 ./usr/bin/nasm
--rwxr-xr-x -          -             1439832 ./usr/bin/ndisasm
+-rwxr-xr-x -          -             1941761 ./usr/bin/nasm
+-rwxr-xr-x -          -             1442049 ./usr/bin/ndisasm
 drwxr-xr-x -          -                4096 ./usr/share

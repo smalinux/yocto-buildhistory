@@ -2,11 +2,11 @@ drwxr-xr-x -          -                4096 ./sysroot-providers
 -rw-r--r-- -          -                  13 ./sysroot-providers/nettle-native
 drwxr-xr-x -          -                4096 ./usr
 drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -               14432 ./usr/bin/nettle-hash
--rwxr-xr-x -          -               14360 ./usr/bin/nettle-lfib-stream
--rwxr-xr-x -          -               14432 ./usr/bin/nettle-pbkdf2
--rwxr-xr-x -          -               22624 ./usr/bin/pkcs1-conv
--rwxr-xr-x -          -               30816 ./usr/bin/sexp-conv
+-rwxr-xr-x -          -               16665 ./usr/bin/nettle-hash
+-rwxr-xr-x -          -               16641 ./usr/bin/nettle-lfib-stream
+-rwxr-xr-x -          -               16665 ./usr/bin/nettle-pbkdf2
+-rwxr-xr-x -          -               24849 ./usr/bin/pkcs1-conv
+-rwxr-xr-x -          -               33081 ./usr/bin/sexp-conv
 drwxr-xr-x -          -                4096 ./usr/include
 drwxr-xr-x -          -                4096 ./usr/include/nettle
 -rw-r--r-- -          -                5221 ./usr/include/nettle/aes.h

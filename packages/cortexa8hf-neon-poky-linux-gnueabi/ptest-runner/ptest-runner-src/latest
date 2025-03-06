@@ -1,10 +1,10 @@
-PV = 2.4.5+git
+PV = 2.4.4+git
 PR = r0
-PKGV = 2.4.5+git0+aea9f42f87
+PKGV = 2.4.4+git0+95f528cff0
 PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 27349
+PKGSIZE = 27298
 FILES = /usr/src/debug
-FILELIST = /usr/src/debug/ptest-runner/2.4.5+git/main.c /usr/src/debug/ptest-runner/2.4.5+git/ptest_list.c /usr/src/debug/ptest-runner/2.4.5+git/ptest_list.h /usr/src/debug/ptest-runner/2.4.5+git/utils.c /usr/src/debug/ptest-runner/2.4.5+git/utils.h
+FILELIST = /usr/src/debug/ptest-runner/2.4.4+git/main.c /usr/src/debug/ptest-runner/2.4.4+git/ptest_list.c /usr/src/debug/ptest-runner/2.4.4+git/ptest_list.h /usr/src/debug/ptest-runner/2.4.4+git/utils.c /usr/src/debug/ptest-runner/2.4.4+git/utils.h

@@ -1,9 +1,9 @@
 PV = 13.3.0
 PR = r0
-PKGR = r0.1
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = gcc glibc (>= 2.39+git1+dcaf51b41e)
-RRECOMMENDS = cpp-dev g++-dev gcc (= 13.3.0-r0.1) gcov-dev glibc-dev gmp-dev libgcc-dev libmpc-dev libstdc++-dev libzstd-dev mpfr-dev zlib-dev zstd-dev
+RDEPENDS = gcc glibc (>= 2.39+git0+e8f5217097)
+RRECOMMENDS = cpp-dev g++-dev gcc (= 13.3.0-r0.0) gcov-dev glibc-dev gmp-dev libgcc-dev libmpc-dev libstdc++-dev libzstd-dev mpfr-dev zlib-dev zstd-dev
 PKGSIZE = 178317
 FILES = /usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/lib*.so /usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/lib*.so /usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/plugin/include/ /usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/plugin/gengtype /usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/plugin/gtype.state
 FILELIST = /usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/libcc1.so /usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/libcc1plugin.so /usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/libcp1plugin.so /usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/plugin/gengtype

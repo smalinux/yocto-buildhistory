@@ -1,9 +1,9 @@
 PV = 6.7.1
 PR = r0
-PKGR = r0.1
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = btrfs-tools
-RRECOMMENDS = btrfs-tools (= 6.7.1-r0.1) e2fsprogs-dev glibc-dev libcomerr-dev libext2fs-dev libgcc-dev python3-core-dev python3-dev util-linux-dev util-linux-libblkid-dev util-linux-libuuid-dev zlib-dev
+RRECOMMENDS = btrfs-tools (= 6.7.1-r0.0) e2fsprogs-dev glibc-dev libcomerr-dev libext2fs-dev libgcc-dev python3-core-dev python3-dev util-linux-dev util-linux-libblkid-dev util-linux-libuuid-dev zlib-dev
 PKGSIZE = 208146
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/btrfs-tools/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/python3.12/site-packages/*.la
 FILELIST = /usr/include/btrfs/ctree.h /usr/include/btrfs/ioctl.h /usr/include/btrfs/kerncompat.h /usr/include/btrfs/list.h /usr/include/btrfs/rbtree.h /usr/include/btrfs/rbtree_types.h /usr/include/btrfs/send-stream.h /usr/include/btrfs/send-utils.h /usr/include/btrfs/send.h /usr/include/btrfs/version.h /usr/include/btrfsutil.h /usr/lib/libbtrfs.so /usr/lib/libbtrfsutil.so /usr/lib/pkgconfig/libbtrfsutil.pc

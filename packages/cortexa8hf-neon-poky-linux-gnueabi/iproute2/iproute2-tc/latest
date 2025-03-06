@@ -1,8 +1,8 @@
 PV = 6.7.0
 PR = r0
-PKGR = r0.1
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.39+git1+dcaf51b41e) iptables (>= 1.8.10) libcap (>= 2.69) libelf (>= 0.191) libmnl (>= 1.0.5) update-alternatives-opkg
+RDEPENDS = glibc (>= 2.39+git0+e8f5217097) iptables (>= 1.8.10) libcap (>= 2.69) libelf (>= 0.191) libmnl (>= 1.0.5) update-alternatives-opkg
 RRECOMMENDS = 
 PKGSIZE = 546303
 FILES = /sbin/tc* /usr/lib/tc/*.so

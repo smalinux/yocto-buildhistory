@@ -22,7 +22,7 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/s
 -rw-r--r-- -          -                2256 ./usr/lib/python3.12/site-packages/setuptools_scm/_file_finders/hg.py
 -rw-r--r-- -          -                3686 ./usr/lib/python3.12/site-packages/setuptools_scm/_file_finders/__init__.py
 drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/setuptools_scm/_file_finders/__pycache__
--rw-r--r-- -          -                5748 ./usr/lib/python3.12/site-packages/setuptools_scm/_file_finders/__pycache__/git.cpython-312.pyc
+-rw-r--r-- -          -                5753 ./usr/lib/python3.12/site-packages/setuptools_scm/_file_finders/__pycache__/git.cpython-312.pyc
 -rw-r--r-- -          -                3695 ./usr/lib/python3.12/site-packages/setuptools_scm/_file_finders/__pycache__/hg.cpython-312.pyc
 -rw-r--r-- -          -                5283 ./usr/lib/python3.12/site-packages/setuptools_scm/_file_finders/__pycache__/__init__.cpython-312.pyc
 -rw-r--r-- -          -                5942 ./usr/lib/python3.12/site-packages/setuptools_scm/_get_version_impl.py
@@ -57,7 +57,7 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/s
 -rw-r--r-- -          -                7078 ./usr/lib/python3.12/site-packages/setuptools_scm/__pycache__/_get_version_impl.cpython-312.pyc
 -rw-r--r-- -          -               13471 ./usr/lib/python3.12/site-packages/setuptools_scm/__pycache__/git.cpython-312.pyc
 -rw-r--r-- -          -                7761 ./usr/lib/python3.12/site-packages/setuptools_scm/__pycache__/hg.cpython-312.pyc
--rw-r--r-- -          -                7186 ./usr/lib/python3.12/site-packages/setuptools_scm/__pycache__/hg_git.cpython-312.pyc
+-rw-r--r-- -          -                7189 ./usr/lib/python3.12/site-packages/setuptools_scm/__pycache__/hg_git.cpython-312.pyc
 -rw-r--r-- -          -                 885 ./usr/lib/python3.12/site-packages/setuptools_scm/__pycache__/__init__.cpython-312.pyc
 -rw-r--r-- -          -                1502 ./usr/lib/python3.12/site-packages/setuptools_scm/__pycache__/integration.cpython-312.pyc
 -rw-r--r-- -          -                4756 ./usr/lib/python3.12/site-packages/setuptools_scm/__pycache__/_log.cpython-312.pyc

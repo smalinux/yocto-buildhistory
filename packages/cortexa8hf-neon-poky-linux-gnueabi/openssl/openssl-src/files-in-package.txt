@@ -248,7 +248,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/openssl/3.2.3/crypto
 -rw-r--r-- root       root             5937 ./usr/src/debug/openssl/3.2.3/crypto/bn/bn_exp2.c
 -rw-r--r-- root       root            49941 ./usr/src/debug/openssl/3.2.3/crypto/bn/bn_exp.c
 -rw-r--r-- root       root            19898 ./usr/src/debug/openssl/3.2.3/crypto/bn/bn_gcd.c
--rw-r--r-- root       root            30372 ./usr/src/debug/openssl/3.2.3/crypto/bn/bn_gf2m.c
+-rw-r--r-- root       root            29778 ./usr/src/debug/openssl/3.2.3/crypto/bn/bn_gf2m.c
 -rw-r--r-- root       root             5416 ./usr/src/debug/openssl/3.2.3/crypto/bn/bn_intern.c
 -rw-r--r-- root       root             3299 ./usr/src/debug/openssl/3.2.3/crypto/bn/bn_kron.c
 -rw-r--r-- root       root            28197 ./usr/src/debug/openssl/3.2.3/crypto/bn/bn_lib.c
@@ -1710,7 +1710,7 @@ drwxr-xr-x root       root            12288 ./usr/src/debug/openssl/3.2.3/test
 -rw-r--r-- root       root            12617 ./usr/src/debug/openssl/3.2.3/test/dtlsv1listentest.c
 -rw-r--r-- root       root            14983 ./usr/src/debug/openssl/3.2.3/test/ecdsatest.c
 -rw-r--r-- root       root           689738 ./usr/src/debug/openssl/3.2.3/test/ecdsatest.h
--rw-r--r-- root       root            16503 ./usr/src/debug/openssl/3.2.3/test/ec_internal_test.c
+-rw-r--r-- root       root            14909 ./usr/src/debug/openssl/3.2.3/test/ec_internal_test.c
 -rw-r--r-- root       root             4217 ./usr/src/debug/openssl/3.2.3/test/ecstresstest.c
 -rw-r--r-- root       root           128947 ./usr/src/debug/openssl/3.2.3/test/ectest.c
 -rw-r--r-- root       root            28470 ./usr/src/debug/openssl/3.2.3/test/endecoder_legacy_test.c

@@ -26,7 +26,7 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/i
 -rw-r--r-- -          -                2336 ./usr/lib/python3.12/site-packages/importlib_metadata/__pycache__/_compat.cpython-312.pyc
 -rw-r--r-- -          -                1265 ./usr/lib/python3.12/site-packages/importlib_metadata/__pycache__/diagnose.cpython-312.pyc
 -rw-r--r-- -          -                3562 ./usr/lib/python3.12/site-packages/importlib_metadata/__pycache__/_functools.cpython-312.pyc
--rw-r--r-- -          -               51437 ./usr/lib/python3.12/site-packages/importlib_metadata/__pycache__/__init__.cpython-312.pyc
+-rw-r--r-- -          -               51451 ./usr/lib/python3.12/site-packages/importlib_metadata/__pycache__/__init__.cpython-312.pyc
 -rw-r--r-- -          -                2475 ./usr/lib/python3.12/site-packages/importlib_metadata/__pycache__/_itertools.cpython-312.pyc
 -rw-r--r-- -          -                3587 ./usr/lib/python3.12/site-packages/importlib_metadata/__pycache__/_meta.cpython-312.pyc
 -rw-r--r-- -          -                1716 ./usr/lib/python3.12/site-packages/importlib_metadata/__pycache__/_py39compat.cpython-312.pyc

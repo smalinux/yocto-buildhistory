@@ -249,14 +249,14 @@ drwxr-xr-x root       root            12288 ./usr/lib/elfutils/ptest/backends
 -rw-r--r-- root       root             6301 ./usr/lib/elfutils/ptest/config.h
 drwxr-xr-x root       root             4096 ./usr/lib/elfutils/ptest/debuginfod
 -rwxr-xr-x root       root           194080 ./usr/lib/elfutils/ptest/debuginfod/debuginfod
--rw-r--r-- root       root           134540 ./usr/lib/elfutils/ptest/debuginfod/debuginfod-client.o
--rw-r--r-- root       root           133804 ./usr/lib/elfutils/ptest/debuginfod/debuginfod-client.os
+-rw-r--r-- root       root           134524 ./usr/lib/elfutils/ptest/debuginfod/debuginfod-client.o
+-rw-r--r-- root       root           133788 ./usr/lib/elfutils/ptest/debuginfod/debuginfod-client.os
 -rwxr-xr-x root       root             9692 ./usr/lib/elfutils/ptest/debuginfod/debuginfod-find
 -rw-r--r-- root       root            22260 ./usr/lib/elfutils/ptest/debuginfod/debuginfod-find.o
 -rw-r--r-- root       root             4445 ./usr/lib/elfutils/ptest/debuginfod/debuginfod.h
--rw-r--r-- root       root          3470924 ./usr/lib/elfutils/ptest/debuginfod/debuginfod.o
--rw-r--r-- root       root           135110 ./usr/lib/elfutils/ptest/debuginfod/libdebuginfod.a
--rw-r--r-- root       root           134374 ./usr/lib/elfutils/ptest/debuginfod/libdebuginfod_pic.a
+-rw-r--r-- root       root          3470912 ./usr/lib/elfutils/ptest/debuginfod/debuginfod.o
+-rw-r--r-- root       root           135094 ./usr/lib/elfutils/ptest/debuginfod/libdebuginfod.a
+-rw-r--r-- root       root           134358 ./usr/lib/elfutils/ptest/debuginfod/libdebuginfod_pic.a
 -rwxr-xr-x root       root            25896 ./usr/lib/elfutils/ptest/debuginfod/libdebuginfod.so.1
 lrwxrwxrwx root       root               18 ./usr/lib/elfutils/ptest/debuginfod/libdebuginfod.so -> libdebuginfod.so.1
 -rw-r--r-- root       root            34818 ./usr/lib/elfutils/ptest/debuginfod/Makefile
@@ -283,7 +283,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/elfutils/ptest/libdwfl
 -rw-r--r-- root       root            42654 ./usr/lib/elfutils/ptest/libdw/known-dwarf.h
 -rw-r--r-- root       root            47110 ./usr/lib/elfutils/ptest/libdw/libdw.h
 -rw-r--r-- root       root            43985 ./usr/lib/elfutils/ptest/libdw/libdwP.h
--rwxr-xr-x root       root          4215492 ./usr/lib/elfutils/ptest/libdw/libdw.so
+-rwxr-xr-x root       root          4215468 ./usr/lib/elfutils/ptest/libdw/libdw.so
 -rw-r--r-- root       root            12751 ./usr/lib/elfutils/ptest/libdw/memory-access.h
 drwxr-xr-x root       root             4096 ./usr/lib/elfutils/ptest/libebl
 -rw-r--r-- root       root           669678 ./usr/lib/elfutils/ptest/libebl/libebl.a

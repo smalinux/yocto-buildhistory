@@ -398,7 +398,7 @@ drwxr-xr-x root       root            28672 ./usr/src/debug/glib-2.0/2.78.6/gio
 -rw-r--r-- root       root             2720 ./usr/src/debug/glib-2.0/2.78.6/gio/gsocketoutputstream.h
 -rw-r--r-- root       root            12436 ./usr/src/debug/glib-2.0/2.78.6/gio/gsocketservice.c
 -rw-r--r-- root       root             3663 ./usr/src/debug/glib-2.0/2.78.6/gio/gsocketservice.h
--rw-r--r-- root       root            11541 ./usr/src/debug/glib-2.0/2.78.6/gio/gsocks4aproxy.c
+-rw-r--r-- root       root            11535 ./usr/src/debug/glib-2.0/2.78.6/gio/gsocks4aproxy.c
 -rw-r--r-- root       root             1902 ./usr/src/debug/glib-2.0/2.78.6/gio/gsocks4aproxy.h
 -rw-r--r-- root       root             1917 ./usr/src/debug/glib-2.0/2.78.6/gio/gsocks4proxy.c
 -rw-r--r-- root       root             1742 ./usr/src/debug/glib-2.0/2.78.6/gio/gsocks4proxy.h
@@ -858,7 +858,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glib-2.0/2.78.6/glib
 -rw-r--r-- root       root              996 ./usr/src/debug/glib-2.0/2.78.6/glib/tests/dir.c
 -rw-r--r-- root       root             9319 ./usr/src/debug/glib-2.0/2.78.6/glib/tests/environment.c
 -rw-r--r-- root       root            96978 ./usr/src/debug/glib-2.0/2.78.6/glib/tests/fileutils.c
--rw-r--r-- root       root           112871 ./usr/src/debug/glib-2.0/2.78.6/glib/tests/gdatetime.c
+-rw-r--r-- root       root           111931 ./usr/src/debug/glib-2.0/2.78.6/glib/tests/gdatetime.c
 -rw-r--r-- root       root             3080 ./usr/src/debug/glib-2.0/2.78.6/glib/tests/getpwuid-preload.c
 -rw-r--r-- root       root             1160 ./usr/src/debug/glib-2.0/2.78.6/glib/tests/gutils-user-database.c
 -rw-r--r-- root       root             2342 ./usr/src/debug/glib-2.0/2.78.6/glib/tests/guuid.c

@@ -1,5 +1,5 @@
 drwxr-xr-x root       root             4096 ./lib
 -r--r--r-- root       root            42612 ./lib/libcom_err.a
 -r--r--r-- root       root           226228 ./lib/libe2p.a
--r--r--r-- root       root          2765168 ./lib/libext2fs.a
--r--r--r-- root       root           134880 ./lib/libss.a
+-r--r--r-- root       root          2765136 ./lib/libext2fs.a
+-r--r--r-- root       root           134868 ./lib/libss.a

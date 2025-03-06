@@ -1,4 +1,4 @@
 drwxr-xr-x root       root             4096 ./bin
 lrwxrwxrwx root       root               14 ./bin/pidof.sysvinit -> /sbin/killall5
 drwxr-xr-x root       root             4096 ./sbin
--rwxr-xr-x root       root            17872 ./sbin/killall5
+-rwxr-xr-x root       root            21968 ./sbin/killall5

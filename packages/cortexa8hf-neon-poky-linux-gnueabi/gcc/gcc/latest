@@ -1,8 +1,8 @@
 PV = 13.3.0
 PR = r0
-PKGR = r0.0
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = cpp glibc (>= 2.39+git0+e8f5217097) gmp (>= 6.3.0) libgcc (>= 13.3.0) libmpc (>= 1.3.1) libstdc++ (>= 13.3.0) libzstd (>= 1.5.5) mpfr (>= 4.2.1) zlib (>= 1.3.1)
+RDEPENDS = cpp glibc (>= 2.39+git2+e8f5217097) gmp (>= 6.3.0) libgcc (>= 13.3.0) libmpc (>= 1.3.1) libstdc++ (>= 13.3.0) libzstd (>= 1.5.5) mpfr (>= 4.2.1) zlib (>= 1.3.1)
 RRECOMMENDS = libssp libssp-dev
 PKGSIZE = 53253617
 FILES = /usr/bin/arm-poky-linux-gnueabi-gcc* /usr/bin/arm-poky-linux-gnueabi-lto* /usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/collect2* /usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/g++-mapper-server /usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/lto* /usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/lib*.so.* /usr/libexec/gcc/arm-poky-linux-gnueabi/13.3.0/liblto*.so /usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/*.o /usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/specs /usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/lib*.so.* /usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include /usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/include-fixed /usr/lib/bfd-plugins/*.so

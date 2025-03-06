@@ -2,4 +2,4 @@ drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/python3.12
 drwxr-xr-x root       root             4096 ./usr/lib/python3.12/config-3.12-arm-linux-gnueabihf
--rw-r--r-- root       root         38589306 ./usr/lib/python3.12/config-3.12-arm-linux-gnueabihf/libpython3.12.a
+-rw-r--r-- root       root         38510860 ./usr/lib/python3.12/config-3.12-arm-linux-gnueabihf/libpython3.12.a

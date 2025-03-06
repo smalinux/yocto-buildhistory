@@ -4,7 +4,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/.debug
 -rwxr-xr-x root       root            81136 ./usr/lib/.debug/libatomic.so.1.2.0
 -rwxr-xr-x root       root          1112040 ./usr/lib/.debug/libgomp.so.1.0.0
 -rwxr-xr-x root       root           802232 ./usr/lib/.debug/libitm.so.1.0.0
--rwxr-xr-x root       root         16704368 ./usr/lib/.debug/libstdc++.so.6.0.32
+-rwxr-xr-x root       root         16694176 ./usr/lib/.debug/libstdc++.so.6.0.32
 drwxr-xr-x root       root             4096 ./usr/share
 drwxr-xr-x root       root             4096 ./usr/share/gcc-13.3.0
 drwxr-xr-x root       root             4096 ./usr/share/gcc-13.3.0/python

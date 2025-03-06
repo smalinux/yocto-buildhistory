@@ -95,7 +95,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/debug
 -rw-r--r-- root       root              997 ./usr/src/debug/glibc/2.39+git/debug/noophooks.c
 -rw-r--r-- root       root             1299 ./usr/src/debug/glibc/2.39+git/debug/obprintf_chk.c
 -rw-r--r-- root       root             2381 ./usr/src/debug/glibc/2.39+git/debug/pcprofile.c
--rw-r--r-- root       root             6456 ./usr/src/debug/glibc/2.39+git/debug/pcprofiledump.c
+-rw-r--r-- root       root             5809 ./usr/src/debug/glibc/2.39+git/debug/pcprofiledump.c
 -rw-r--r-- root       root              997 ./usr/src/debug/glibc/2.39+git/debug/poll_chk.c
 -rw-r--r-- root       root             1021 ./usr/src/debug/glibc/2.39+git/debug/pread64_chk.c
 -rw-r--r-- root       root             1010 ./usr/src/debug/glibc/2.39+git/debug/pread_chk.c
@@ -219,7 +219,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/elf
 -rw-r--r-- root       root             3956 ./usr/src/debug/glibc/2.39+git/elf/dl-minimal-malloc.c
 -rw-r--r-- root       root             5539 ./usr/src/debug/glibc/2.39+git/elf/dl-misc.c
 -rw-r--r-- root       root             7929 ./usr/src/debug/glibc/2.39+git/elf/dl-object.c
--rw-r--r-- root       root            32035 ./usr/src/debug/glibc/2.39+git/elf/dl-open.c
+-rw-r--r-- root       root            32685 ./usr/src/debug/glibc/2.39+git/elf/dl-open.c
 -rw-r--r-- root       root             7022 ./usr/src/debug/glibc/2.39+git/elf/dl-printf.c
 -rw-r--r-- root       root            19310 ./usr/src/debug/glibc/2.39+git/elf/dl-profile.c
 -rw-r--r-- root       root            12759 ./usr/src/debug/glibc/2.39+git/elf/dl-reloc.c
@@ -232,7 +232,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/elf
 -rw-r--r-- root       root             5261 ./usr/src/debug/glibc/2.39+git/elf/dl-sym.c
 -rw-r--r-- root       root             2322 ./usr/src/debug/glibc/2.39+git/elf/dl-sym-post.h
 -rw-r--r-- root       root             1879 ./usr/src/debug/glibc/2.39+git/elf/dl-sysdep-open.h
--rw-r--r-- root       root            39222 ./usr/src/debug/glibc/2.39+git/elf/dl-tls.c
+-rw-r--r-- root       root            35491 ./usr/src/debug/glibc/2.39+git/elf/dl-tls.c
 -rw-r--r-- root       root            10485 ./usr/src/debug/glibc/2.39+git/elf/dl-tunables.c
 -rw-r--r-- root       root             6104 ./usr/src/debug/glibc/2.39+git/elf/dl-tunables.h
 -rw-r--r-- root       root             2668 ./usr/src/debug/glibc/2.39+git/elf/dl-tunable-types.h
@@ -254,7 +254,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/elf
 -rw-r--r-- root       root             6079 ./usr/src/debug/glibc/2.39+git/elf/pldd-xx.c
 -rw-r--r-- root       root             6944 ./usr/src/debug/glibc/2.39+git/elf/readelflib.c
 -rw-r--r-- root       root             5003 ./usr/src/debug/glibc/2.39+git/elf/readlib.c
--rw-r--r-- root       root            88672 ./usr/src/debug/glibc/2.39+git/elf/rtld.c
+-rw-r--r-- root       root            88632 ./usr/src/debug/glibc/2.39+git/elf/rtld.c
 -rw-r--r-- root       root             3060 ./usr/src/debug/glibc/2.39+git/elf/rtld_static_init.c
 -rw-r--r-- root       root             3944 ./usr/src/debug/glibc/2.39+git/elf/setup-vdso.h
 -rw-r--r-- root       root             4277 ./usr/src/debug/glibc/2.39+git/elf/sln.c
@@ -352,9 +352,9 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/inclu
 -rw-r--r-- root       root             2040 ./usr/src/debug/glibc/2.39+git/include/ifunc-impl-list.h
 -rw-r--r-- root       root             6163 ./usr/src/debug/glibc/2.39+git/include/inline-hashtab.h
 -rw-r--r-- root       root              200 ./usr/src/debug/glibc/2.39+git/include/langinfo.h
--rw-r--r-- root       root             2170 ./usr/src/debug/glibc/2.39+git/include/libc-internal.h
+-rw-r--r-- root       root             2072 ./usr/src/debug/glibc/2.39+git/include/libc-internal.h
 -rw-r--r-- root       root             2878 ./usr/src/debug/glibc/2.39+git/include/libintl.h
--rw-r--r-- root       root            13963 ./usr/src/debug/glibc/2.39+git/include/link.h
+-rw-r--r-- root       root            13886 ./usr/src/debug/glibc/2.39+git/include/link.h
 -rw-r--r-- root       root             2788 ./usr/src/debug/glibc/2.39+git/include/list.h
 -rw-r--r-- root       root             1024 ./usr/src/debug/glibc/2.39+git/include/list_t.h
 -rw-r--r-- root       root              743 ./usr/src/debug/glibc/2.39+git/include/locale.h
@@ -550,7 +550,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/io/sy
 drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/libio
 drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/libio/bits
 -rw-r--r-- root       root             6309 ./usr/src/debug/glibc/2.39+git/libio/bits/stdio2-decl.h
--rw-r--r-- root       root             8242 ./usr/src/debug/glibc/2.39+git/libio/bits/stdio2.h
+-rw-r--r-- root       root             8202 ./usr/src/debug/glibc/2.39+git/libio/bits/stdio2.h
 -rw-r--r-- root       root             5599 ./usr/src/debug/glibc/2.39+git/libio/bits/stdio.h
 drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/libio/bits/types
 -rw-r--r-- root       root             2725 ./usr/src/debug/glibc/2.39+git/libio/bits/types/cookie_io_functions_t.h
@@ -593,7 +593,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/libio
 -rw-r--r-- root       root              889 ./usr/src/debug/glibc/2.39+git/libio/__fwritable.c
 -rw-r--r-- root       root              906 ./usr/src/debug/glibc/2.39+git/libio/__fwriting.c
 -rw-r--r-- root       root             1353 ./usr/src/debug/glibc/2.39+git/libio/fwscanf.c
--rw-r--r-- root       root            26040 ./usr/src/debug/glibc/2.39+git/libio/genops.c
+-rw-r--r-- root       root            25803 ./usr/src/debug/glibc/2.39+git/libio/genops.c
 -rw-r--r-- root       root             1769 ./usr/src/debug/glibc/2.39+git/libio/getc.c
 -rw-r--r-- root       root             1650 ./usr/src/debug/glibc/2.39+git/libio/getchar.c
 -rw-r--r-- root       root             1418 ./usr/src/debug/glibc/2.39+git/libio/getchar_u.c
@@ -647,7 +647,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/libio
 -rw-r--r-- root       root             1752 ./usr/src/debug/glibc/2.39+git/libio/iovswscanf.c
 -rw-r--r-- root       root             2230 ./usr/src/debug/glibc/2.39+git/libio/iowpadn.c
 -rw-r--r-- root       root             9791 ./usr/src/debug/glibc/2.39+git/libio/libio.h
--rw-r--r-- root       root            43992 ./usr/src/debug/glibc/2.39+git/libio/libioP.h
+-rw-r--r-- root       root            43988 ./usr/src/debug/glibc/2.39+git/libio/libioP.h
 -rw-r--r-- root       root             3113 ./usr/src/debug/glibc/2.39+git/libio/memstream.c
 -rw-r--r-- root       root             3944 ./usr/src/debug/glibc/2.39+git/libio/obprintf.c
 -rw-r--r-- root       root             6127 ./usr/src/debug/glibc/2.39+git/libio/oldfmemopen.c
@@ -821,7 +821,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/mallo
 -rw-r--r-- root       root             1401 ./usr/src/debug/glibc/2.39+git/malloc/mcheck.c
 -rw-r--r-- root       root             2435 ./usr/src/debug/glibc/2.39+git/malloc/mcheck.h
 -rw-r--r-- root       root             9645 ./usr/src/debug/glibc/2.39+git/malloc/mcheck-impl.c
--rw-r--r-- root       root            31705 ./usr/src/debug/glibc/2.39+git/malloc/memusage.c
+-rw-r--r-- root       root            31708 ./usr/src/debug/glibc/2.39+git/malloc/memusage.c
 -rw-r--r-- root       root             1326 ./usr/src/debug/glibc/2.39+git/malloc/morecore.c
 -rw-r--r-- root       root             1814 ./usr/src/debug/glibc/2.39+git/malloc/mtrace.c
 -rw-r--r-- root       root             5476 ./usr/src/debug/glibc/2.39+git/malloc/mtrace-impl.c
@@ -1223,7 +1223,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/nis/r
 -rw-r--r-- root       root             9232 ./usr/src/debug/glibc/2.39+git/nis/yp_xdr.c
 drwxr-xr-x root       root            12288 ./usr/src/debug/glibc/2.39+git/nptl
 -rw-r--r-- root       root             1415 ./usr/src/debug/glibc/2.39+git/nptl/alloca_cutoff.c
--rw-r--r-- root       root            19445 ./usr/src/debug/glibc/2.39+git/nptl/allocatestack.c
+-rw-r--r-- root       root            19444 ./usr/src/debug/glibc/2.39+git/nptl/allocatestack.c
 -rw-r--r-- root       root             2899 ./usr/src/debug/glibc/2.39+git/nptl/cancellation.c
 -rw-r--r-- root       root             2301 ./usr/src/debug/glibc/2.39+git/nptl/cleanup.c
 -rw-r--r-- root       root             2033 ./usr/src/debug/glibc/2.39+git/nptl/cleanup_compat.c
@@ -1814,12 +1814,12 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/resol
 -rw-r--r-- root       root             6656 ./usr/src/debug/glibc/2.39+git/resolv/resolv_context.h
 -rw-r--r-- root       root             2079 ./usr/src/debug/glibc/2.39+git/resolv/resolv-deprecated.c
 -rw-r--r-- root       root            12312 ./usr/src/debug/glibc/2.39+git/resolv/resolv.h
--rw-r--r-- root       root             5969 ./usr/src/debug/glibc/2.39+git/resolv/resolv-internal.h
+-rw-r--r-- root       root             5817 ./usr/src/debug/glibc/2.39+git/resolv/resolv-internal.h
 -rw-r--r-- root       root             4747 ./usr/src/debug/glibc/2.39+git/resolv/res-putget.c
 -rw-r--r-- root       root             5663 ./usr/src/debug/glibc/2.39+git/resolv/res_queriesmatch.c
 -rw-r--r-- root       root            21923 ./usr/src/debug/glibc/2.39+git/resolv/res_query.c
 -rw-r--r-- root       root             4493 ./usr/src/debug/glibc/2.39+git/resolv/res_randomid.c
--rw-r--r-- root       root            42257 ./usr/src/debug/glibc/2.39+git/resolv/res_send.c
+-rw-r--r-- root       root            41730 ./usr/src/debug/glibc/2.39+git/resolv/res_send.c
 -rw-r--r-- root       root              920 ./usr/src/debug/glibc/2.39+git/resolv/res-state.c
 drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/resource
 drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/resource/bits
@@ -2154,9 +2154,9 @@ drwxr-xr-x root       root            12288 ./usr/src/debug/glibc/2.39+git/stdli
 -rw-r--r-- root       root             1474 ./usr/src/debug/glibc/2.39+git/stdlib/strfroml.c
 -rw-r--r-- root       root             4299 ./usr/src/debug/glibc/2.39+git/stdlib/strfrom-skeleton.c
 -rw-r--r-- root       root             2914 ./usr/src/debug/glibc/2.39+git/stdlib/strtod.c
--rw-r--r-- root       root            50508 ./usr/src/debug/glibc/2.39+git/stdlib/strtod_l.c
+-rw-r--r-- root       root            50397 ./usr/src/debug/glibc/2.39+git/stdlib/strtod_l.c
 -rw-r--r-- root       root             1004 ./usr/src/debug/glibc/2.39+git/stdlib/strtod_nan.c
--rw-r--r-- root       root             2103 ./usr/src/debug/glibc/2.39+git/stdlib/strtod_nan_main.c
+-rw-r--r-- root       root             2030 ./usr/src/debug/glibc/2.39+git/stdlib/strtod_nan_main.c
 -rw-r--r-- root       root             1508 ./usr/src/debug/glibc/2.39+git/stdlib/strtof.c
 -rw-r--r-- root       root             1662 ./usr/src/debug/glibc/2.39+git/stdlib/strtof_l.c
 -rw-r--r-- root       root             1002 ./usr/src/debug/glibc/2.39+git/stdlib/strtof_nan.c
@@ -2216,7 +2216,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/strin
 -rw-r--r-- root       root             1265 ./usr/src/debug/glibc/2.39+git/string/_strerror.c
 -rw-r--r-- root       root              942 ./usr/src/debug/glibc/2.39+git/string/strerror.c
 -rw-r--r-- root       root              981 ./usr/src/debug/glibc/2.39+git/string/strerrordesc_np.c
--rw-r--r-- root       root             2215 ./usr/src/debug/glibc/2.39+git/string/strerror_l.c
+-rw-r--r-- root       root             1922 ./usr/src/debug/glibc/2.39+git/string/strerror_l.c
 -rw-r--r-- root       root              929 ./usr/src/debug/glibc/2.39+git/string/strerrorname_np.c
 -rw-r--r-- root       root             1383 ./usr/src/debug/glibc/2.39+git/string/strfry.c
 -rw-r--r-- root       root            19969 ./usr/src/debug/glibc/2.39+git/string/string.h
@@ -2233,7 +2233,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/strin
 -rw-r--r-- root       root             1305 ./usr/src/debug/glibc/2.39+git/string/strnlen.c
 -rw-r--r-- root       root             1090 ./usr/src/debug/glibc/2.39+git/string/strpbrk.c
 -rw-r--r-- root       root             1415 ./usr/src/debug/glibc/2.39+git/string/strsep.c
--rw-r--r-- root       root             1866 ./usr/src/debug/glibc/2.39+git/string/strsignal.c
+-rw-r--r-- root       root             1589 ./usr/src/debug/glibc/2.39+git/string/strsignal.c
 -rw-r--r-- root       root             2240 ./usr/src/debug/glibc/2.39+git/string/strspn.c
 -rw-r--r-- root       root             5515 ./usr/src/debug/glibc/2.39+git/string/strstr.c
 -rw-r--r-- root       root             1224 ./usr/src/debug/glibc/2.39+git/string/strtok.c
@@ -2434,7 +2434,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/sysde
 -rw-r--r-- root       root             1007 ./usr/src/debug/glibc/2.39+git/sysdeps/generic/ifreq.h
 -rw-r--r-- root       root             3435 ./usr/src/debug/glibc/2.39+git/sysdeps/generic/_itoa.h
 -rw-r--r-- root       root             3910 ./usr/src/debug/glibc/2.39+git/sysdeps/generic/ldconfig.h
--rw-r--r-- root       root            53383 ./usr/src/debug/glibc/2.39+git/sysdeps/generic/ldsodefs.h
+-rw-r--r-- root       root            53240 ./usr/src/debug/glibc/2.39+git/sysdeps/generic/ldsodefs.h
 -rw-r--r-- root       root               70 ./usr/src/debug/glibc/2.39+git/sysdeps/generic/link_map.h
 -rw-r--r-- root       root             1701 ./usr/src/debug/glibc/2.39+git/sysdeps/generic/malloc-hugepages.h
 -rw-r--r-- root       root             5094 ./usr/src/debug/glibc/2.39+git/sysdeps/generic/math_private_calls.h
@@ -3037,7 +3037,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/sysde
 -rw-r--r-- root       root             3520 ./usr/src/debug/glibc/2.39+git/sysdeps/unix/sysv/linux/mq_timedreceive.c
 -rw-r--r-- root       root             3326 ./usr/src/debug/glibc/2.39+git/sysdeps/unix/sysv/linux/mq_timedsend.c
 -rw-r--r-- root       root             1592 ./usr/src/debug/glibc/2.39+git/sysdeps/unix/sysv/linux/mq_unlink.c
--rw-r--r-- root       root             1571 ./usr/src/debug/glibc/2.39+git/sysdeps/unix/sysv/linux/mremap.c
+-rw-r--r-- root       root             1337 ./usr/src/debug/glibc/2.39+git/sysdeps/unix/sysv/linux/mremap.c
 -rw-r--r-- root       root             8516 ./usr/src/debug/glibc/2.39+git/sysdeps/unix/sysv/linux/msgctl.c
 -rw-r--r-- root       root             1212 ./usr/src/debug/glibc/2.39+git/sysdeps/unix/sysv/linux/msgget.c
 -rw-r--r-- root       root             1198 ./usr/src/debug/glibc/2.39+git/sysdeps/unix/sysv/linux/msgrcv.c
@@ -3339,7 +3339,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/wcsmb
 -rw-r--r-- root       root              135 ./usr/src/debug/glibc/2.39+git/wcsmbs/bits/types/mbstate_t.h
 -rw-r--r-- root       root              796 ./usr/src/debug/glibc/2.39+git/wcsmbs/bits/types/wint_t.h
 -rw-r--r-- root       root            11461 ./usr/src/debug/glibc/2.39+git/wcsmbs/bits/wchar2-decl.h
--rw-r--r-- root       root             9489 ./usr/src/debug/glibc/2.39+git/wcsmbs/bits/wchar2.h
+-rw-r--r-- root       root             9433 ./usr/src/debug/glibc/2.39+git/wcsmbs/bits/wchar2.h
 -rw-r--r-- root       root             2961 ./usr/src/debug/glibc/2.39+git/wcsmbs/btowc.c
 -rw-r--r-- root       root             1886 ./usr/src/debug/glibc/2.39+git/wcsmbs/c16rtomb.c
 -rw-r--r-- root       root             1067 ./usr/src/debug/glibc/2.39+git/wcsmbs/c32rtomb.c

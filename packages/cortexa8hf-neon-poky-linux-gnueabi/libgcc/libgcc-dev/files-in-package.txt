@@ -12,5 +12,5 @@ drwxr-xr-x root       root             4096 ./usr/lib/arm-poky-linux-gnueabi/13.
 -rw-r--r-- root       root             2840 ./usr/lib/arm-poky-linux-gnueabi/13.3.0/crtfastmath.o
 -rw-r--r-- root       root         10559608 ./usr/lib/arm-poky-linux-gnueabi/13.3.0/libgcc.a
 -rw-r--r-- root       root            89968 ./usr/lib/arm-poky-linux-gnueabi/13.3.0/libgcc_eh.a
--rw-r--r-- root       root           264258 ./usr/lib/arm-poky-linux-gnueabi/13.3.0/libgcov.a
+-rw-r--r-- root       root           264246 ./usr/lib/arm-poky-linux-gnueabi/13.3.0/libgcov.a
 lrwxrwxrwx root       root               22 ./usr/lib/arm-poky-linux-gnueabihf -> arm-poky-linux-gnueabi

@@ -1,9 +1,9 @@
 PV = 3.04
 PR = r0
-PKGR = r0.0
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = base-passwd-dev glibc-dev initd-functions-dev libxcrypt-dev sysvinit (= 3.04-r0.0) sysvinit-inittab-dev sysvinit-pidof-dev update-alternatives-opkg-dev
+RRECOMMENDS = base-passwd-dev glibc-dev initd-functions-dev libxcrypt-dev sysvinit (= 3.04-r0.2) sysvinit-inittab-dev sysvinit-pidof-dev update-alternatives-opkg-dev
 PKGSIZE = 2446
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/sysvinit/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/initreq.h

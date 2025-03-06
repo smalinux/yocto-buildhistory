@@ -1,21 +1,21 @@
 drwxr-xr-x -          -                4096 ./lib
--rwxr-xr-x -          -             1136596 ./lib/ld-linux-armhf.so.3
+-rwxr-xr-x -          -             1134456 ./lib/ld-linux-armhf.so.3
 -rwxr-xr-x -          -               10384 ./lib/libanl.so.1
 -rwxr-xr-x -          -               21096 ./lib/libBrokenLocale.so.1
--rwxr-xr-x -          -              197452 ./lib/libc_malloc_debug.so.0
--rwxr-xr-x -          -            11297788 ./lib/libc.so.6
+-rwxr-xr-x -          -              197420 ./lib/libc_malloc_debug.so.0
+-rwxr-xr-x -          -            11295072 ./lib/libc.so.6
 -rwxr-xr-x -          -               10488 ./lib/libdl.so.2
--rwxr-xr-x -          -               58900 ./lib/libmemusage.so
+-rwxr-xr-x -          -               58904 ./lib/libmemusage.so
 -rwxr-xr-x -          -             1372584 ./lib/libm.so.6
 -rwxr-xr-x -          -              495136 ./lib/libnsl.so.1
 -rwxr-xr-x -          -              168096 ./lib/libnss_compat.so.2
 -rwxr-xr-x -          -              143252 ./lib/libnss_db.so.2
 -rwxr-xr-x -          -                9564 ./lib/libnss_dns.so.2
 -rwxr-xr-x -          -                9564 ./lib/libnss_files.so.2
--rwxr-xr-x -          -               68164 ./lib/libnss_hesiod.so.2
+-rwxr-xr-x -          -               68156 ./lib/libnss_hesiod.so.2
 -rwxr-xr-x -          -               12928 ./lib/libpcprofile.so
 -rwxr-xr-x -          -               10884 ./lib/libpthread.so.0
--rwxr-xr-x -          -              258452 ./lib/libresolv.so.2
+-rwxr-xr-x -          -              258460 ./lib/libresolv.so.2
 -rwxr-xr-x -          -               18540 ./lib/librt.so.1
 -rwxr-xr-x -          -              259740 ./lib/libthread_db.so.1
 -rwxr-xr-x -          -               10384 ./lib/libutil.so.1
@@ -176,7 +176,7 @@ drwxr-xr-x -          -               12288 ./usr/include/bits
 -rw-r--r-- -          -                1283 ./usr/include/bits/sigstksz.h
 -rw-r--r-- -          -                1692 ./usr/include/bits/sigthread.h
 -rw-r--r-- -          -                1514 ./usr/include/bits/sockaddr.h
--rw-r--r-- -          -                3057 ./usr/include/bits/socket2.h
+-rw-r--r-- -          -                3037 ./usr/include/bits/socket2.h
 -rw-r--r-- -          -                2502 ./usr/include/bits/socket-constants.h
 -rw-r--r-- -          -               13788 ./usr/include/bits/socket.h
 -rw-r--r-- -          -                2216 ./usr/include/bits/socket_type.h
@@ -194,13 +194,13 @@ drwxr-xr-x -          -               12288 ./usr/include/bits
 -rw-r--r-- -          -                1300 ./usr/include/bits/stdint-least.h
 -rw-r--r-- -          -                1049 ./usr/include/bits/stdint-uintn.h
 -rw-r--r-- -          -                6309 ./usr/include/bits/stdio2-decl.h
--rw-r--r-- -          -                8242 ./usr/include/bits/stdio2.h
+-rw-r--r-- -          -                8202 ./usr/include/bits/stdio2.h
 -rw-r--r-- -          -                5599 ./usr/include/bits/stdio.h
 -rw-r--r-- -          -                4313 ./usr/include/bits/stdio-ldbl.h
 -rw-r--r-- -          -                1059 ./usr/include/bits/stdio_lim.h
 -rw-r--r-- -          -                1557 ./usr/include/bits/stdlib-bsearch.h
 -rw-r--r-- -          -                1115 ./usr/include/bits/stdlib-float.h
--rw-r--r-- -          -                5789 ./usr/include/bits/stdlib.h
+-rw-r--r-- -          -                5779 ./usr/include/bits/stdlib.h
 -rw-r--r-- -          -                2020 ./usr/include/bits/stdlib-ldbl.h
 -rw-r--r-- -          -                5625 ./usr/include/bits/string_fortified.h
 -rw-r--r-- -          -                1240 ./usr/include/bits/strings_fortified.h
@@ -298,7 +298,7 @@ drwxr-xr-x -          -                4096 ./usr/include/bits/types
 -rw-r--r-- -          -                1697 ./usr/include/bits/waitflags.h
 -rw-r--r-- -          -                2287 ./usr/include/bits/waitstatus.h
 -rw-r--r-- -          -               11461 ./usr/include/bits/wchar2-decl.h
--rw-r--r-- -          -                9489 ./usr/include/bits/wchar2.h
+-rw-r--r-- -          -                9433 ./usr/include/bits/wchar2.h
 -rw-r--r-- -          -                1906 ./usr/include/bits/wchar.h
 -rw-r--r-- -          -                3945 ./usr/include/bits/wchar-ldbl.h
 -rw-r--r-- -          -                6307 ./usr/include/bits/wctype-wchar.h
@@ -558,7 +558,7 @@ drwxr-xr-x -          -                4096 ./usr/include/sys
 -rw-r--r-- -          -                2502 ./usr/include/wordexp.h
 drwxr-xr-x -          -                4096 ./usr/lib
 drwxr-xr-x -          -                4096 ./usr/lib/audit
--rwxr-xr-x -          -               33496 ./usr/lib/audit/sotruss-lib.so
+-rwxr-xr-x -          -               33464 ./usr/lib/audit/sotruss-lib.so
 -rw-r--r-- -          -                5240 ./usr/lib/crt1.o
 -rw-r--r-- -          -                2332 ./usr/lib/crti.o
 -rw-r--r-- -          -                1932 ./usr/lib/crtn.o
@@ -572,7 +572,7 @@ drwxr-xr-x -          -                4096 ./usr/lib/gcc/arm-poky-linux-gnueabi
 lrwxrwxrwx -          -                  21 ./usr/lib/libanl.so -> ../../lib/libanl.so.1
 -rw-r--r-- -          -               17158 ./usr/lib/libBrokenLocale.a
 lrwxrwxrwx -          -                  30 ./usr/lib/libBrokenLocale.so -> ../../lib/libBrokenLocale.so.1
--rw-r--r-- -          -            20060602 ./usr/lib/libc.a
+-rw-r--r-- -          -            20053958 ./usr/lib/libc.a
 lrwxrwxrwx -          -                  32 ./usr/lib/libc_malloc_debug.so -> ../../lib/libc_malloc_debug.so.0
 -rw-r--r-- -          -               29402 ./usr/lib/libc_nonshared.a
 -rw-r--r-- -          -                 249 ./usr/lib/libc.so

@@ -1,11 +1,11 @@
 drwxr-xr-x root       root             4096 ./lib
 drwxr-xr-x root       root             4096 ./lib/.debug
--rwxr-xr-x root       root           103756 ./lib/.debug/libwrap.so.0.7.6
+-rwxr-xr-x root       root           103736 ./lib/.debug/libwrap.so.0.7.6
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/sbin
 drwxr-xr-x root       root             4096 ./usr/sbin/.debug
 -rwxr-xr-x root       root            17284 ./usr/sbin/.debug/safe_finger
 -rwxr-xr-x root       root            11828 ./usr/sbin/.debug/tcpd
--rwxr-xr-x root       root            49804 ./usr/sbin/.debug/tcpdchk
+-rwxr-xr-x root       root            49784 ./usr/sbin/.debug/tcpdchk
 -rwxr-xr-x root       root            42456 ./usr/sbin/.debug/tcpdmatch
 -rwxr-xr-x root       root            14032 ./usr/sbin/.debug/try-from

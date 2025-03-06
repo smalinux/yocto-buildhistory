@@ -23,7 +23,7 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/p
 drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/pyparsing/__pycache__
 -rw-r--r-- -          -                8448 ./usr/lib/python3.12/site-packages/pyparsing/__pycache__/actions.cpython-312.pyc
 -rw-r--r-- -          -               13468 ./usr/lib/python3.12/site-packages/pyparsing/__pycache__/common.cpython-312.pyc
--rw-r--r-- -          -              269132 ./usr/lib/python3.12/site-packages/pyparsing/__pycache__/core.cpython-312.pyc
+-rw-r--r-- -          -              269148 ./usr/lib/python3.12/site-packages/pyparsing/__pycache__/core.cpython-312.pyc
 -rw-r--r-- -          -               13045 ./usr/lib/python3.12/site-packages/pyparsing/__pycache__/exceptions.cpython-312.pyc
 -rw-r--r-- -          -               48539 ./usr/lib/python3.12/site-packages/pyparsing/__pycache__/helpers.cpython-312.pyc
 -rw-r--r-- -          -                7973 ./usr/lib/python3.12/site-packages/pyparsing/__pycache__/__init__.cpython-312.pyc

@@ -1,10 +1,10 @@
 PE = 1
 PV = 1.1.1
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg xorgproto-dbg
-PKGSIZE = 300288
+PKGSIZE = 300296
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
 FILELIST = /usr/lib/.debug/libICE.so.6.3.0

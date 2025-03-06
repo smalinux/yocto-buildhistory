@@ -127,7 +127,7 @@ drwxr-xr-x root       root            12288 ./usr/src/debug/curl/8.7.1/lib
 -rw-r--r-- root       root            42879 ./usr/src/debug/curl/8.7.1/lib/hostip.c
 -rw-r--r-- root       root             7808 ./usr/src/debug/curl/8.7.1/lib/hostip.h
 -rw-r--r-- root       root             2849 ./usr/src/debug/curl/8.7.1/lib/hostsyn.c
--rw-r--r-- root       root            15169 ./usr/src/debug/curl/8.7.1/lib/hsts.c
+-rw-r--r-- root       root            14960 ./usr/src/debug/curl/8.7.1/lib/hsts.c
 -rw-r--r-- root       root             2471 ./usr/src/debug/curl/8.7.1/lib/hsts.h
 -rw-r--r-- root       root             9582 ./usr/src/debug/curl/8.7.1/lib/http1.c
 -rw-r--r-- root       root             2177 ./usr/src/debug/curl/8.7.1/lib/http1.h
@@ -273,7 +273,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/curl/8.7.1/lib/vssh
 -rw-r--r-- root       root            34439 ./usr/src/debug/curl/8.7.1/lib/vssh/wolfssh.c
 drwxr-xr-x root       root             4096 ./usr/src/debug/curl/8.7.1/lib/vtls
 -rw-r--r-- root       root            39482 ./usr/src/debug/curl/8.7.1/lib/vtls/bearssl.c
--rw-r--r-- root       root            51578 ./usr/src/debug/curl/8.7.1/lib/vtls/gtls.c
+-rw-r--r-- root       root            51736 ./usr/src/debug/curl/8.7.1/lib/vtls/gtls.c
 -rw-r--r-- root       root             4330 ./usr/src/debug/curl/8.7.1/lib/vtls/hostcheck.c
 -rw-r--r-- root       root             1342 ./usr/src/debug/curl/8.7.1/lib/vtls/hostcheck.h
 -rw-r--r-- root       root             4339 ./usr/src/debug/curl/8.7.1/lib/vtls/keylog.c

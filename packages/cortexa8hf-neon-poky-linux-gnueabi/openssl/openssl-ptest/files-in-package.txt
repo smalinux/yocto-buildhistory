@@ -194,7 +194,7 @@ drwxr-xr-x root       root            32768 ./usr/lib/openssl/ptest/test
 -rw-r--r-- root       root             3845 ./usr/lib/openssl/ptest/test/bio_readbuffer_test.c
 -rwxr-xr-x root       root            58944 ./usr/lib/openssl/ptest/test/bio_tfo_test
 -rw-r--r-- root       root            13707 ./usr/lib/openssl/ptest/test/bio_tfo_test.c
--rwxr-xr-x root       root          2692644 ./usr/lib/openssl/ptest/test/bn_internal_test
+-rwxr-xr-x root       root          2688548 ./usr/lib/openssl/ptest/test/bn_internal_test
 -rw-r--r-- root       root             2688 ./usr/lib/openssl/ptest/test/bn_internal_test.c
 -rw-r--r-- root       root             2009 ./usr/lib/openssl/ptest/test/bn_rand_range.h
 -rwxr-xr-x root       root           157652 ./usr/lib/openssl/ptest/test/bntest
@@ -702,7 +702,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/openssl/ptest/test/d2i-tes
 -rw-r--r-- root       root            14983 ./usr/lib/openssl/ptest/test/ecdsatest.c
 -rw-r--r-- root       root           689738 ./usr/lib/openssl/ptest/test/ecdsatest.h
 -rwxr-xr-x root       root          2700828 ./usr/lib/openssl/ptest/test/ec_internal_test
--rw-r--r-- root       root            16503 ./usr/lib/openssl/ptest/test/ec_internal_test.c
+-rw-r--r-- root       root            14909 ./usr/lib/openssl/ptest/test/ec_internal_test.c
 -rwxr-xr-x root       root            58944 ./usr/lib/openssl/ptest/test/ecstresstest
 -rw-r--r-- root       root             4217 ./usr/lib/openssl/ptest/test/ecstresstest.c
 -rwxr-xr-x root       root          2795424 ./usr/lib/openssl/ptest/test/ectest
@@ -2324,7 +2324,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/openssl/ptest/test/testuti
 -rw-r--r-- root       root             5111 ./usr/lib/openssl/ptest/test/x509_check_cert_pkey_test.c
 -rwxr-xr-x root       root            58948 ./usr/lib/openssl/ptest/test/x509_dup_cert_test
 -rw-r--r-- root       root             1352 ./usr/lib/openssl/ptest/test/x509_dup_cert_test.c
--rwxr-xr-x root       root          2692860 ./usr/lib/openssl/ptest/test/x509_internal_test
+-rwxr-xr-x root       root          2688764 ./usr/lib/openssl/ptest/test/x509_internal_test
 -rw-r--r-- root       root             3025 ./usr/lib/openssl/ptest/test/x509_internal_test.c
 -rwxr-xr-x root       root            58956 ./usr/lib/openssl/ptest/test/x509_load_cert_file_test
 -rw-r--r-- root       root             1424 ./usr/lib/openssl/ptest/test/x509_load_cert_file_test.c

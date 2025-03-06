@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.0
+PKGR = r0.2
 RPROVIDES = kernel-module-resistive-adc-touch
 RDEPENDS = kernel-6.13.1 kernel-module-industrialio-buffer-cb-6.13.1
 RRECOMMENDS = 

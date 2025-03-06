@@ -1,8 +1,8 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 drwxr-xr-x root       root             4096 ./usr/bin/.debug
--rwxr-xr-x root       root          1055200 ./usr/bin/.debug/find.findutils
--rwxr-xr-x root       root           575100 ./usr/bin/.debug/locate
+-rwxr-xr-x root       root          1055188 ./usr/bin/.debug/find.findutils
+-rwxr-xr-x root       root           575092 ./usr/bin/.debug/locate
 -rwxr-xr-x root       root           251100 ./usr/bin/.debug/xargs.findutils
 drwxr-xr-x root       root             4096 ./usr/libexec
 drwxr-xr-x root       root             4096 ./usr/libexec/.debug

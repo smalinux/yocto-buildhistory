@@ -1,8 +1,8 @@
 PV = 1.14.10
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = bash dbus dbus-common dbus-lib (>= 1.14.10) glib-2.0 (>= 2.78.6) glibc (>= 2.39+git1+dcaf51b41e) gnome-desktop-testing make
+RDEPENDS = bash dbus dbus-common dbus-lib (>= 1.14.10) glib-2.0 (>= 2.78.6) glibc (>= 2.39+git2+e8f5217097) gnome-desktop-testing make
 RRECOMMENDS = ptest-runner
 PKGSIZE = 2565463
 FILES = /usr/lib/dbus/ptest /usr/libexec/installed-tests/ /usr/share/installed-tests/

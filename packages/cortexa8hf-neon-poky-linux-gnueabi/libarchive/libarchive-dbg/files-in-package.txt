@@ -2,9 +2,9 @@ drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 drwxr-xr-x root       root             4096 ./usr/bin/.debug
 -rwxr-xr-x root       root            23192 ./usr/bin/.debug/bsdcat
--rwxr-xr-x root       root            92436 ./usr/bin/.debug/bsdcpio
--rwxr-xr-x root       root           153644 ./usr/bin/.debug/bsdtar
--rwxr-xr-x root       root            64340 ./usr/bin/.debug/bsdunzip
+-rwxr-xr-x root       root            92424 ./usr/bin/.debug/bsdcpio
+-rwxr-xr-x root       root           153640 ./usr/bin/.debug/bsdtar
+-rwxr-xr-x root       root            64336 ./usr/bin/.debug/bsdunzip
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
--rwxr-xr-x root       root          2523764 ./usr/lib/.debug/libarchive.so.13.7.4
+-rwxr-xr-x root       root          2523540 ./usr/lib/.debug/libarchive.so.13.7.4

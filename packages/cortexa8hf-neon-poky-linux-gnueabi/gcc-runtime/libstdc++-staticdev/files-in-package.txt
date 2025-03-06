@@ -1,6 +1,6 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
--rw-r--r-- root       root         32646274 ./usr/lib/libstdc++.a
+-rw-r--r-- root       root         32628354 ./usr/lib/libstdc++.a
 -rw-r--r-- root       root          7028388 ./usr/lib/libstdc++exp.a
 -rw-r--r-- root       root          6976856 ./usr/lib/libstdc++fs.a
 -rw-r--r-- root       root          1098194 ./usr/lib/libsupc++.a

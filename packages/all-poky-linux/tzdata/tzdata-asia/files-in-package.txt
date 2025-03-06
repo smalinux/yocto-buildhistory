@@ -20,7 +20,7 @@ drwxr-xr-x root       root             4096 ./usr/share/zoneinfo/Asia
 -rw-r--r-- root       root              320 ./usr/share/zoneinfo/Asia/Brunei
 -rw-r--r-- root       root              220 ./usr/share/zoneinfo/Asia/Calcutta
 -rw-r--r-- root       root              750 ./usr/share/zoneinfo/Asia/Chita
--rw-r--r-- root       root              594 ./usr/share/zoneinfo/Asia/Choibalsan
+-rw-r--r-- root       root              619 ./usr/share/zoneinfo/Asia/Choibalsan
 -rw-r--r-- root       root              393 ./usr/share/zoneinfo/Asia/Chongqing
 -rw-r--r-- root       root              393 ./usr/share/zoneinfo/Asia/Chungking
 -rw-r--r-- root       root              247 ./usr/share/zoneinfo/Asia/Colombo

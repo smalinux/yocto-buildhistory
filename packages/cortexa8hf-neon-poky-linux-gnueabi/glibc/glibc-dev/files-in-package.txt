@@ -151,7 +151,7 @@ drwxr-xr-x root       root            12288 ./usr/include/bits
 -rw-r--r-- root       root             1283 ./usr/include/bits/sigstksz.h
 -rw-r--r-- root       root             1692 ./usr/include/bits/sigthread.h
 -rw-r--r-- root       root             1514 ./usr/include/bits/sockaddr.h
--rw-r--r-- root       root             3057 ./usr/include/bits/socket2.h
+-rw-r--r-- root       root             3037 ./usr/include/bits/socket2.h
 -rw-r--r-- root       root             2502 ./usr/include/bits/socket-constants.h
 -rw-r--r-- root       root            13788 ./usr/include/bits/socket.h
 -rw-r--r-- root       root             2216 ./usr/include/bits/socket_type.h
@@ -169,13 +169,13 @@ drwxr-xr-x root       root            12288 ./usr/include/bits
 -rw-r--r-- root       root             1300 ./usr/include/bits/stdint-least.h
 -rw-r--r-- root       root             1049 ./usr/include/bits/stdint-uintn.h
 -rw-r--r-- root       root             6309 ./usr/include/bits/stdio2-decl.h
--rw-r--r-- root       root             8242 ./usr/include/bits/stdio2.h
+-rw-r--r-- root       root             8202 ./usr/include/bits/stdio2.h
 -rw-r--r-- root       root             5599 ./usr/include/bits/stdio.h
 -rw-r--r-- root       root             4313 ./usr/include/bits/stdio-ldbl.h
 -rw-r--r-- root       root             1059 ./usr/include/bits/stdio_lim.h
 -rw-r--r-- root       root             1557 ./usr/include/bits/stdlib-bsearch.h
 -rw-r--r-- root       root             1115 ./usr/include/bits/stdlib-float.h
--rw-r--r-- root       root             5789 ./usr/include/bits/stdlib.h
+-rw-r--r-- root       root             5779 ./usr/include/bits/stdlib.h
 -rw-r--r-- root       root             2020 ./usr/include/bits/stdlib-ldbl.h
 -rw-r--r-- root       root             5625 ./usr/include/bits/string_fortified.h
 -rw-r--r-- root       root             1240 ./usr/include/bits/strings_fortified.h
@@ -273,7 +273,7 @@ drwxr-xr-x root       root             4096 ./usr/include/bits/types
 -rw-r--r-- root       root             1697 ./usr/include/bits/waitflags.h
 -rw-r--r-- root       root             2287 ./usr/include/bits/waitstatus.h
 -rw-r--r-- root       root            11461 ./usr/include/bits/wchar2-decl.h
--rw-r--r-- root       root             9489 ./usr/include/bits/wchar2.h
+-rw-r--r-- root       root             9433 ./usr/include/bits/wchar2.h
 -rw-r--r-- root       root             1906 ./usr/include/bits/wchar.h
 -rw-r--r-- root       root             3945 ./usr/include/bits/wchar-ldbl.h
 -rw-r--r-- root       root             6307 ./usr/include/bits/wctype-wchar.h

@@ -2,5 +2,5 @@ drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/python3.12
 drwxr-xr-x root       root             4096 ./usr/lib/python3.12/__pycache__
--rw-r--r-- root       root             9912 ./usr/lib/python3.12/__pycache__/zipapp.cpython-312.pyc
+-rw-r--r-- root       root             9916 ./usr/lib/python3.12/__pycache__/zipapp.cpython-312.pyc
 -rw-r--r-- root       root             7543 ./usr/lib/python3.12/zipapp.py

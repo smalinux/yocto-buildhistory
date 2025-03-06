@@ -100,7 +100,7 @@ drwxr-xr-x root       root            12288 ./usr/src/debug/libarchive/3.7.4/lib
 -rw-r--r-- root       root            85527 ./usr/src/debug/libarchive/3.7.4/libarchive/archive_read_support_format_lha.c
 -rw-r--r-- root       root            53624 ./usr/src/debug/libarchive/3.7.4/libarchive/archive_read_support_format_mtree.c
 -rw-r--r-- root       root           113773 ./usr/src/debug/libarchive/3.7.4/libarchive/archive_read_support_format_rar5.c
--rw-r--r-- root       root           107927 ./usr/src/debug/libarchive/3.7.4/libarchive/archive_read_support_format_rar.c
+-rw-r--r-- root       root           107436 ./usr/src/debug/libarchive/3.7.4/libarchive/archive_read_support_format_rar.c
 -rw-r--r-- root       root             5538 ./usr/src/debug/libarchive/3.7.4/libarchive/archive_read_support_format_raw.c
 -rw-r--r-- root       root            85901 ./usr/src/debug/libarchive/3.7.4/libarchive/archive_read_support_format_tar.c
 -rw-r--r-- root       root            21807 ./usr/src/debug/libarchive/3.7.4/libarchive/archive_read_support_format_warc.c

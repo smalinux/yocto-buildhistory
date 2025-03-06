@@ -73,6 +73,6 @@ drwxr-xr-x root       root             4096 ./usr/lib/libseccomp/ptest/tools
 drwxr-xr-x root       root             4096 ./usr/lib/libseccomp/ptest/tools/.debug
 -rwxr-xr-x root       root             8484 ./usr/lib/libseccomp/ptest/tools/.debug/scmp_api_level
 -rwxr-xr-x root       root            13436 ./usr/lib/libseccomp/ptest/tools/.debug/scmp_arch_detect
--rwxr-xr-x root       root            27540 ./usr/lib/libseccomp/ptest/tools/.debug/scmp_bpf_disasm
--rwxr-xr-x root       root            22188 ./usr/lib/libseccomp/ptest/tools/.debug/scmp_bpf_sim
+-rwxr-xr-x root       root            27532 ./usr/lib/libseccomp/ptest/tools/.debug/scmp_bpf_disasm
+-rwxr-xr-x root       root            22184 ./usr/lib/libseccomp/ptest/tools/.debug/scmp_bpf_sim
 -rwxr-xr-x root       root            12536 ./usr/lib/libseccomp/ptest/tools/.debug/scmp_sys_resolver

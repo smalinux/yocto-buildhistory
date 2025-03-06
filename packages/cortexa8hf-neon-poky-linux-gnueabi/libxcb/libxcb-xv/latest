@@ -1,9 +1,9 @@
 PV = 1.16
 PR = r0
 PKG = libxcb-xv0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = libxcb-xv (=1.16)
-RDEPENDS = glibc (>= 2.39+git1+dcaf51b41e) libxau (>= 1.0.11) libxcb (>= 1.16) libxdmcp (>= 1.1.4)
+RDEPENDS = glibc (>= 2.39+git2+e8f5217097) libxau (>= 1.0.11) libxcb (>= 1.16) libxdmcp (>= 1.1.4)
 RRECOMMENDS = 
 PKGSIZE = 25918
 FILES = /usr/lib/libxcb-xv.so.0 /usr/lib/libxcb-xv.so.0.0.0

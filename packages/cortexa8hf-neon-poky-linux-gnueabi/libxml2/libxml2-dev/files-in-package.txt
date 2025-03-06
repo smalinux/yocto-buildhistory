@@ -18,7 +18,7 @@ drwxr-xr-x root       root             4096 ./usr/include/libxml2/libxml
 -rw-r--r-- root       root             3140 ./usr/include/libxml2/libxml/list.h
 -rw-r--r-- root       root             4013 ./usr/include/libxml2/libxml/nanoftp.h
 -rw-r--r-- root       root             1869 ./usr/include/libxml2/libxml/nanohttp.h
--rw-r--r-- root       root            44395 ./usr/include/libxml2/libxml/parser.h
+-rw-r--r-- root       root            44410 ./usr/include/libxml2/libxml/parser.h
 -rw-r--r-- root       root            16604 ./usr/include/libxml2/libxml/parserInternals.h
 -rw-r--r-- root       root             2466 ./usr/include/libxml2/libxml/pattern.h
 -rw-r--r-- root       root             5830 ./usr/include/libxml2/libxml/relaxng.h
@@ -54,7 +54,7 @@ drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/cmake
 drwxr-xr-x root       root             4096 ./usr/lib/cmake/libxml2
 -rw-r--r-- root       root             5498 ./usr/lib/cmake/libxml2/libxml2-config.cmake
-lrwxrwxrwx root       root               17 ./usr/lib/libxml2.so -> libxml2.so.2.12.9
+lrwxrwxrwx root       root               17 ./usr/lib/libxml2.so -> libxml2.so.2.12.8
 drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              253 ./usr/lib/pkgconfig/libxml-2.0.pc
 drwxr-xr-x root       root             4096 ./usr/share

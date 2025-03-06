@@ -113,7 +113,7 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/h
 -rw-r--r-- -          -                 265 ./usr/lib/python3.12/site-packages/hatchling/metadata/plugin/__pycache__/__init__.cpython-312.pyc
 -rw-r--r-- -          -                2519 ./usr/lib/python3.12/site-packages/hatchling/metadata/plugin/__pycache__/interface.cpython-312.pyc
 drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/hatchling/metadata/__pycache__
--rw-r--r-- -          -               62415 ./usr/lib/python3.12/site-packages/hatchling/metadata/__pycache__/core.cpython-312.pyc
+-rw-r--r-- -          -               62420 ./usr/lib/python3.12/site-packages/hatchling/metadata/__pycache__/core.cpython-312.pyc
 -rw-r--r-- -          -                2106 ./usr/lib/python3.12/site-packages/hatchling/metadata/__pycache__/custom.cpython-312.pyc
 -rw-r--r-- -          -                 258 ./usr/lib/python3.12/site-packages/hatchling/metadata/__pycache__/__init__.cpython-312.pyc
 -rw-r--r-- -          -               13843 ./usr/lib/python3.12/site-packages/hatchling/metadata/__pycache__/spec.cpython-312.pyc

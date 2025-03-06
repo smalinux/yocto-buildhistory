@@ -879,10 +879,10 @@ lrwxrwxrwx -          -                  16 ./usr/lib/libgomp.so -> libgomp.so.1
 lrwxrwxrwx -          -                  15 ./usr/lib/libitm.so.1 -> libitm.so.1.0.0
 lrwxrwxrwx -          -                  15 ./usr/lib/libitm.so -> libitm.so.1.0.0
 -rw-r--r-- -          -                 162 ./usr/lib/libitm.spec
--rw-r--r-- -          -            32646274 ./usr/lib/libstdc++.a
+-rw-r--r-- -          -            32628354 ./usr/lib/libstdc++.a
 -rw-r--r-- -          -             7028388 ./usr/lib/libstdc++exp.a
 -rw-r--r-- -          -             6976856 ./usr/lib/libstdc++fs.a
--rwxr-xr-x -          -             2004616 ./usr/lib/libstdc++.so.6.0.32
+-rwxr-xr-x -          -             2000520 ./usr/lib/libstdc++.so.6.0.32
 lrwxrwxrwx -          -                  19 ./usr/lib/libstdc++.so.6 -> libstdc++.so.6.0.32
 lrwxrwxrwx -          -                  19 ./usr/lib/libstdc++.so -> libstdc++.so.6.0.32
 -rw-r--r-- -          -             1098194 ./usr/lib/libsupc++.a

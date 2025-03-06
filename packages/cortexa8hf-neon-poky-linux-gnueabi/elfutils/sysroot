@@ -25,7 +25,7 @@ lrwxrwxrwx -          -                  11 ./usr/lib/libasm.so -> libasm.so.1
 lrwxrwxrwx -          -                  22 ./usr/lib/libdebuginfod.so.1 -> libdebuginfod-0.191.so
 lrwxrwxrwx -          -                  22 ./usr/lib/libdebuginfod.so -> libdebuginfod-0.191.so
 -rwxr-xr-x -          -              555052 ./usr/lib/libdw-0.191.so
--rw-r--r-- -          -             7780240 ./usr/lib/libdw.a
+-rw-r--r-- -          -             7780164 ./usr/lib/libdw.a
 lrwxrwxrwx -          -                  14 ./usr/lib/libdw.so.1 -> libdw-0.191.so
 lrwxrwxrwx -          -                  10 ./usr/lib/libdw.so -> libdw.so.1
 -rwxr-xr-x -          -               91500 ./usr/lib/libelf-0.191.so

@@ -4,5 +4,5 @@ drwxr-xr-x root       root             4096 ./usr/lib/expat
 drwxr-xr-x root       root             4096 ./usr/lib/expat/ptest
 -rwxr-xr-x root       root             9604 ./usr/lib/expat/ptest/benchmark
 -rwxr-xr-x root       root              192 ./usr/lib/expat/ptest/run-ptest
--rwxr-xr-x root       root           442792 ./usr/lib/expat/ptest/runtests
+-rwxr-xr-x root       root           438696 ./usr/lib/expat/ptest/runtests
 -rwxr-xr-x root       root           459232 ./usr/lib/expat/ptest/runtests_cxx

@@ -1,8 +1,8 @@
 PV = 2.3.7
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.39+git1+dcaf51b41e) libidn2 (>= 2.3.7) libunistring (>= 1.2)
+RDEPENDS = glibc (>= 2.39+git2+e8f5217097) libidn2 (>= 2.3.7) libunistring (>= 1.2)
 RRECOMMENDS = 
 PKGSIZE = 26272
 FILES = /usr/bin/* /usr/sbin/*

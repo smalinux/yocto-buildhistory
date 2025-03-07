@@ -1,0 +1,760 @@
+digraph depends {
+    node [shape=plaintext]
+"busybox" -> "busybox-udhcpc" [style=dotted]
+"busybox-hwclock" -> "update-rc.d" [style=dotted]
+"busybox" -> "libc6"
+"busybox-syslog" -> "busybox"
+"busybox-syslog" -> "update-alternatives-opkg"
+"busybox-syslog" -> "update-rc.d" [style=dotted]
+"busybox" -> "update-alternatives-opkg"
+"eudev" -> "kmod"
+"eudev" -> "libblkid1"
+"eudev" -> "libc6"
+"eudev" -> "libkmod2"
+"eudev" -> "update-rc.d" [style=dotted]
+"init-ifupdown" -> "netbase"
+"init-ifupdown" -> "update-rc.d" [style=dotted]
+"initscripts" -> "initscripts-functions" [label="initd-functions"] [style=dashed]
+"initscripts" -> "initscripts-functions" [style=dotted]
+"initscripts" -> "init-system-helpers-service"
+"kernel-6.13.1" -> "kernel-image-6.13.1" [style=dotted]
+"kernel-image-6.13.1" -> "kernel-image-zimage-6.13.1"
+"kernel-module-adv7511-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-adv7511-6.13.1" -> "kernel-module-cec-6.13.1"
+"kernel-module-adxl34x-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-adxl34x-i2c-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-adxl34x-i2c-6.13.1" -> "kernel-module-adxl34x-6.13.1"
+"kernel-module-adxl34x-spi-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-adxl34x-spi-6.13.1" -> "kernel-module-adxl34x-6.13.1"
+"kernel-module-aes-arm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-aes-arm-6.13.1" -> "kernel-module-aes-generic-6.13.1"
+"kernel-module-aes-arm-6.13.1" -> "kernel-module-libaes-6.13.1"
+"kernel-module-aes-arm-bs-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-aes-arm-bs-6.13.1" -> "kernel-module-aes-arm-6.13.1"
+"kernel-module-aes-arm-bs-6.13.1" -> "kernel-module-crypto-simd-6.13.1"
+"kernel-module-aes-arm-bs-6.13.1" -> "kernel-module-libaes-6.13.1"
+"kernel-module-aes-arm-ce-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-aes-arm-ce-6.13.1" -> "kernel-module-crypto-simd-6.13.1"
+"kernel-module-aes-arm-ce-6.13.1" -> "kernel-module-libaes-6.13.1"
+"kernel-module-aes-generic-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-aes-generic-6.13.1" -> "kernel-module-libaes-6.13.1"
+"kernel-module-af-alg-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-ah6-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-ah6-6.13.1" -> "kernel-module-xfrm-algo-6.13.1"
+"kernel-module-algif-aead-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-algif-aead-6.13.1" -> "kernel-module-af-alg-6.13.1"
+"kernel-module-algif-aead-6.13.1" -> "kernel-module-crypto-null-6.13.1"
+"kernel-module-algif-hash-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-algif-hash-6.13.1" -> "kernel-module-af-alg-6.13.1"
+"kernel-module-algif-rng-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-algif-rng-6.13.1" -> "kernel-module-af-alg-6.13.1"
+"kernel-module-algif-skcipher-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-algif-skcipher-6.13.1" -> "kernel-module-af-alg-6.13.1"
+"kernel-module-amlogic-gxl-crypto-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-amlogic-gxl-crypto-6.13.1" -> "kernel-module-crypto-engine-6.13.1"
+"kernel-module-atmel-mxt-ts-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-authenc-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-authenc-6.13.1" -> "kernel-module-crypto-null-6.13.1"
+"kernel-module-authencesn-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-authencesn-6.13.1" -> "kernel-module-authenc-6.13.1"
+"kernel-module-authencesn-6.13.1" -> "kernel-module-crypto-null-6.13.1"
+"kernel-module-b53-common-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-b53-common-6.13.1" -> "kernel-module-dsa-core-6.13.1"
+"kernel-module-b53-mdio-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-b53-mdio-6.13.1" -> "kernel-module-b53-common-6.13.1"
+"kernel-module-b53-mdio-6.13.1" -> "kernel-module-dsa-core-6.13.1"
+"kernel-module-b53-mmap-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-b53-mmap-6.13.1" -> "kernel-module-b53-common-6.13.1"
+"kernel-module-b53-mmap-6.13.1" -> "kernel-module-dsa-core-6.13.1"
+"kernel-module-b53-serdes-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-b53-spi-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-b53-spi-6.13.1" -> "kernel-module-b53-common-6.13.1"
+"kernel-module-b53-spi-6.13.1" -> "kernel-module-dsa-core-6.13.1"
+"kernel-module-b53-srab-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-b53-srab-6.13.1" -> "kernel-module-b53-common-6.13.1"
+"kernel-module-b53-srab-6.13.1" -> "kernel-module-b53-serdes-6.13.1"
+"kernel-module-b53-srab-6.13.1" -> "kernel-module-dsa-core-6.13.1"
+"kernel-module-bcm7xxx-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-bcm-sf2-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-bcm-sf2-6.13.1" -> "kernel-module-b53-common-6.13.1"
+"kernel-module-bcm-sf2-6.13.1" -> "kernel-module-dsa-core-6.13.1"
+"kernel-module-bluetooth-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-bluetooth-6.13.1" -> "kernel-module-ecdh-generic-6.13.1"
+"kernel-module-bluetooth-6.13.1" -> "kernel-module-libaes-6.13.1"
+"kernel-module-bq27xxx-battery-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-bq27xxx-battery-i2c-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-bq27xxx-battery-i2c-6.13.1" -> "kernel-module-bq27xxx-battery-6.13.1"
+"kernel-module-brcmfmac-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-brcmfmac-6.13.1" -> "kernel-module-brcmutil-6.13.1"
+"kernel-module-brcmfmac-6.13.1" -> "kernel-module-cfg80211-6.13.1"
+"kernel-module-brcmfmac-bca-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-brcmfmac-bca-6.13.1" -> "kernel-module-brcmfmac-6.13.1"
+"kernel-module-brcmfmac-cyw-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-brcmfmac-cyw-6.13.1" -> "kernel-module-brcmfmac-6.13.1"
+"kernel-module-brcmfmac-wcc-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-brcmfmac-wcc-6.13.1" -> "kernel-module-brcmfmac-6.13.1"
+"kernel-module-brcmutil-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-btbcm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-btbcm-6.13.1" -> "kernel-module-bluetooth-6.13.1"
+"kernel-module-btmrvl-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-btmrvl-6.13.1" -> "kernel-module-bluetooth-6.13.1"
+"kernel-module-btmrvl-sdio-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-btmrvl-sdio-6.13.1" -> "kernel-module-bluetooth-6.13.1"
+"kernel-module-btmrvl-sdio-6.13.1" -> "kernel-module-btmrvl-6.13.1"
+"kernel-module-capsule-loader-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-cbc-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-c-can-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-c-can-platform-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-c-can-platform-6.13.1" -> "kernel-module-c-can-6.13.1"
+"kernel-module-ccm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-cec-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-cfg80211-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-chacha-neon-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-cm36651-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-cmac-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-counter-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-cppi41-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-cpufreq-conservative-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-cpufreq-powersave-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-cpufreq-userspace-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-crc32-arm-ce-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-crc4-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-crc-ccitt-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-crc-itu-t-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-cryptd-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-crypto-engine-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-crypto-null-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-crypto-simd-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-crypto-simd-6.13.1" -> "kernel-module-cryptd-6.13.1"
+"kernel-module-crypto-user-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-ctr-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-cyapatp-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-cyapatp-6.13.1" -> "kernel-module-crc-itu-t-6.13.1"
+"kernel-module-des-generic-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-des-generic-6.13.1" -> "kernel-module-libdes-6.13.1"
+"kernel-module-display-connector-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-drbg-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-drm-display-helper-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dsa-core-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-ecc-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-ecdh-generic-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-ecdh-generic-6.13.1" -> "kernel-module-ecc-6.13.1"
+"kernel-module-echainiv-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-echainiv-6.13.1" -> "kernel-module-geniv-6.13.1"
+"kernel-module-edt-ft5x06-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-efivarfs-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-ehci-fsl-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-elants-i2c-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-esp6-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-esp6-6.13.1" -> "kernel-module-xfrm-algo-6.13.1"
+"kernel-module-ff-memless-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-flexcan-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-fsi-core-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-fsi-core-6.13.1" -> "kernel-module-crc4-6.13.1"
+"kernel-module-fsi-master-aspeed-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-fsi-master-aspeed-6.13.1" -> "kernel-module-fsi-core-6.13.1"
+"kernel-module-fsi-master-gpio-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-fsi-master-gpio-6.13.1" -> "kernel-module-crc4-6.13.1"
+"kernel-module-fsi-master-gpio-6.13.1" -> "kernel-module-fsi-core-6.13.1"
+"kernel-module-fsi-master-hub-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-fsi-master-hub-6.13.1" -> "kernel-module-fsi-core-6.13.1"
+"kernel-module-fsi-occ-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-fsi-occ-6.13.1" -> "kernel-module-fsi-sbefifo-6.13.1"
+"kernel-module-fsi-sbefifo-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-fsi-sbefifo-6.13.1" -> "kernel-module-fsi-core-6.13.1"
+"kernel-module-fsi-scom-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-fsi-scom-6.13.1" -> "kernel-module-fsi-core-6.13.1"
+"kernel-module-fsl-mph-dr-of-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-gcm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-gcm-6.13.1" -> "kernel-module-crypto-null-6.13.1"
+"kernel-module-geniv-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-geniv-6.13.1" -> "kernel-module-crypto-null-6.13.1"
+"kernel-module-g-ether-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-g-ether-6.13.1" -> "kernel-module-libcomposite-6.13.1"
+"kernel-module-g-ether-6.13.1" -> "kernel-module-u-ether-6.13.1"
+"kernel-module-g-ether-6.13.1" -> "kernel-module-usb-f-rndis-6.13.1"
+"kernel-module-gf128mul-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-ghash-arm-ce-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-ghash-arm-ce-6.13.1" -> "kernel-module-cryptd-6.13.1"
+"kernel-module-ghash-arm-ce-6.13.1" -> "kernel-module-gf128mul-6.13.1"
+"kernel-module-ghash-arm-ce-6.13.1" -> "kernel-module-libaes-6.13.1"
+"kernel-module-ghash-generic-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-ghash-generic-6.13.1" -> "kernel-module-gf128mul-6.13.1"
+"kernel-module-governor-passive-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-gpio-charger-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-gpio-decoder-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-hci-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-hci-6.13.1" -> "kernel-module-nfc-6.13.1"
+"kernel-module-hci-uart-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-hci-uart-6.13.1" -> "kernel-module-bluetooth-6.13.1"
+"kernel-module-hci-uart-6.13.1" -> "kernel-module-btbcm-6.13.1"
+"kernel-module-hmac-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-i2c-algo-bit-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-i2c-arb-gpio-challenge-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-i2c-emev2-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-i2c-gpio-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-i2c-gpio-6.13.1" -> "kernel-module-i2c-algo-bit-6.13.1"
+"kernel-module-ina2xx-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-industrialio-buffer-cb-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-industrialio-hw-consumer-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-ip6-tunnel-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-ip6-tunnel-6.13.1" -> "kernel-module-tunnel6-6.13.1"
+"kernel-module-ipcomp6-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-ipcomp6-6.13.1" -> "kernel-module-xfrm6-tunnel-6.13.1"
+"kernel-module-ipcomp6-6.13.1" -> "kernel-module-xfrm-ipcomp-6.13.1"
+"kernel-module-jitterentropy-rng-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-lan78xx-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-lan966x-serdes-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-led-class-flash-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-leds-pca9532-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-libaes-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-libarc4-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-libcomposite-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-libdes-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-libsha256-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-lvds-codec-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-mac80211-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-mac80211-6.13.1" -> "kernel-module-cfg80211-6.13.1"
+"kernel-module-mac80211-6.13.1" -> "kernel-module-libarc4-6.13.1"
+"kernel-module-max17040-battery-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-max17042-battery-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-max8952-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-md5-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-mdio-i2c-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-mdio-mscc-miim-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-microchip-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-mip6-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-mms114-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-musb-dsps-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-musb-dsps-6.13.1" -> "kernel-module-musb-hdrc-6.13.1"
+"kernel-module-musb-hdrc-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-mwifiex-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-mwifiex-6.13.1" -> "kernel-module-cfg80211-6.13.1"
+"kernel-module-mwifiex-sdio-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-mwifiex-sdio-6.13.1" -> "kernel-module-mwifiex-6.13.1"
+"kernel-module-nci-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-nci-6.13.1" -> "kernel-module-nfc-6.13.1"
+"kernel-module-nci-spi-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-nci-spi-6.13.1" -> "kernel-module-crc-ccitt-6.13.1"
+"kernel-module-nci-uart-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-nfc-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-nfc-digital-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-nfc-digital-6.13.1" -> "kernel-module-crc-ccitt-6.13.1"
+"kernel-module-nfc-digital-6.13.1" -> "kernel-module-crc-itu-t-6.13.1"
+"kernel-module-nfc-digital-6.13.1" -> "kernel-module-nfc-6.13.1"
+"kernel-module-ntc-thermistor-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-nxp-ptn3460-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-omap2430-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-omap2430-6.13.1" -> "kernel-module-musb-hdrc-6.13.1"
+"kernel-module-omapdrm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-omapdrm-6.13.1" -> "kernel-module-cec-6.13.1"
+"kernel-module-omapdrm-6.13.1" -> "kernel-module-drm-display-helper-6.13.1"
+"kernel-module-onboard-usb-dev-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-panel-lvds-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-parade-ps8622-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-pci-endpoint-test-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-pci-epf-test-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-pci-meson-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-phy-am335x-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-phy-am335x-6.13.1" -> "kernel-module-phy-am335x-control-6.13.1"
+"kernel-module-phy-am335x-control-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-phy-cpcap-usb-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-phy-cpcap-usb-6.13.1" -> "kernel-module-musb-hdrc-6.13.1"
+"kernel-module-phy-dm816x-usb-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-phy-exynos-usb2-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-phy-twl4030-usb-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-phy-twl4030-usb-6.13.1" -> "kernel-module-musb-hdrc-6.13.1"
+"kernel-module-phy-twl6030-usb-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-phy-twl6030-usb-6.13.1" -> "kernel-module-musb-hdrc-6.13.1"
+"kernel-module-pwm-fan-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-pwm-tiecap-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-pwm-tiehrpwm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-qrtr-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-qrtr-smd-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-qrtr-smd-6.13.1" -> "kernel-module-qrtr-6.13.1"
+"kernel-module-qrtr-smd-6.13.1" -> "kernel-module-rpmsg-core-6.13.1"
+"kernel-module-qt1070-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-r8152-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-r8153-ecm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-r8153-ecm-6.13.1" -> "kernel-module-r8152-6.13.1"
+"kernel-module-r8a66597-hcd-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-regmap-spi-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-reset-ti-syscon-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-resistive-adc-touch-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-resistive-adc-touch-6.13.1" -> "kernel-module-industrialio-buffer-cb-6.13.1"
+"kernel-module-rpmsg-char-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-rpmsg-char-6.13.1" -> "kernel-module-rpmsg-core-6.13.1"
+"kernel-module-rpmsg-core-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-rpmsg-ctrl-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-rpmsg-ctrl-6.13.1" -> "kernel-module-rpmsg-char-6.13.1"
+"kernel-module-rpmsg-ctrl-6.13.1" -> "kernel-module-rpmsg-core-6.13.1"
+"kernel-module-rpmsg-ns-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-rpmsg-ns-6.13.1" -> "kernel-module-rpmsg-core-6.13.1"
+"kernel-module-rt2800lib-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-rt2800lib-6.13.1" -> "kernel-module-crc-ccitt-6.13.1"
+"kernel-module-rt2800lib-6.13.1" -> "kernel-module-mac80211-6.13.1"
+"kernel-module-rt2800lib-6.13.1" -> "kernel-module-rt2x00lib-6.13.1"
+"kernel-module-rt2800usb-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-rt2800usb-6.13.1" -> "kernel-module-mac80211-6.13.1"
+"kernel-module-rt2800usb-6.13.1" -> "kernel-module-rt2800lib-6.13.1"
+"kernel-module-rt2800usb-6.13.1" -> "kernel-module-rt2x00lib-6.13.1"
+"kernel-module-rt2800usb-6.13.1" -> "kernel-module-rt2x00usb-6.13.1"
+"kernel-module-rt2x00lib-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-rt2x00lib-6.13.1" -> "kernel-module-cfg80211-6.13.1"
+"kernel-module-rt2x00lib-6.13.1" -> "kernel-module-mac80211-6.13.1"
+"kernel-module-rt2x00usb-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-rt2x00usb-6.13.1" -> "kernel-module-mac80211-6.13.1"
+"kernel-module-rt2x00usb-6.13.1" -> "kernel-module-rt2x00lib-6.13.1"
+"kernel-module-rtc-bq32k-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-rtc-efi-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-rtc-hym8563-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-rtc-pcf85063-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-rtc-pcf85363-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-rtc-rs5c372-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-rtc-rx8581-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-rtc-s35390a-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-s3fwrn5-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-s3fwrn5-6.13.1" -> "kernel-module-nci-6.13.1"
+"kernel-module-s3fwrn5-i2c-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-s3fwrn5-i2c-6.13.1" -> "kernel-module-s3fwrn5-6.13.1"
+"kernel-module-samsung-dsim-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-samsung-keypad-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-seqiv-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-seqiv-6.13.1" -> "kernel-module-geniv-6.13.1"
+"kernel-module-sfp-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-sfp-6.13.1" -> "kernel-module-mdio-i2c-6.13.1"
+"kernel-module-sha1-arm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-sha1-arm-ce-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-sha1-arm-ce-6.13.1" -> "kernel-module-sha1-arm-6.13.1"
+"kernel-module-sha1-arm-neon-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-sha1-arm-neon-6.13.1" -> "kernel-module-sha1-arm-6.13.1"
+"kernel-module-sha256-arm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-sha256-generic-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-sha256-generic-6.13.1" -> "kernel-module-libsha256-6.13.1"
+"kernel-module-sha2-arm-ce-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-sha2-arm-ce-6.13.1" -> "kernel-module-sha256-arm-6.13.1"
+"kernel-module-sha3-generic-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-sha512-arm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-sha512-generic-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-sii902x-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-sii9234-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-simple-bridge-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-modules" -> "kernel-module-adv7511-6.13.1"
+"kernel-modules" -> "kernel-module-adxl34x-6.13.1"
+"kernel-modules" -> "kernel-module-adxl34x-i2c-6.13.1"
+"kernel-modules" -> "kernel-module-adxl34x-spi-6.13.1"
+"kernel-modules" -> "kernel-module-aes-arm-6.13.1"
+"kernel-modules" -> "kernel-module-aes-arm-bs-6.13.1"
+"kernel-modules" -> "kernel-module-aes-arm-ce-6.13.1"
+"kernel-modules" -> "kernel-module-aes-generic-6.13.1"
+"kernel-modules" -> "kernel-module-af-alg-6.13.1"
+"kernel-modules" -> "kernel-module-ah6-6.13.1"
+"kernel-modules" -> "kernel-module-algif-aead-6.13.1"
+"kernel-modules" -> "kernel-module-algif-hash-6.13.1"
+"kernel-modules" -> "kernel-module-algif-rng-6.13.1"
+"kernel-modules" -> "kernel-module-algif-skcipher-6.13.1"
+"kernel-modules" -> "kernel-module-amlogic-gxl-crypto-6.13.1"
+"kernel-modules" -> "kernel-module-atmel-mxt-ts-6.13.1"
+"kernel-modules" -> "kernel-module-authenc-6.13.1"
+"kernel-modules" -> "kernel-module-authencesn-6.13.1"
+"kernel-modules" -> "kernel-module-b53-common-6.13.1"
+"kernel-modules" -> "kernel-module-b53-mdio-6.13.1"
+"kernel-modules" -> "kernel-module-b53-mmap-6.13.1"
+"kernel-modules" -> "kernel-module-b53-serdes-6.13.1"
+"kernel-modules" -> "kernel-module-b53-spi-6.13.1"
+"kernel-modules" -> "kernel-module-b53-srab-6.13.1"
+"kernel-modules" -> "kernel-module-bcm7xxx-6.13.1"
+"kernel-modules" -> "kernel-module-bcm-sf2-6.13.1"
+"kernel-modules" -> "kernel-module-bluetooth-6.13.1"
+"kernel-modules" -> "kernel-module-bq27xxx-battery-6.13.1"
+"kernel-modules" -> "kernel-module-bq27xxx-battery-i2c-6.13.1"
+"kernel-modules" -> "kernel-module-brcmfmac-6.13.1"
+"kernel-modules" -> "kernel-module-brcmfmac-bca-6.13.1"
+"kernel-modules" -> "kernel-module-brcmfmac-cyw-6.13.1"
+"kernel-modules" -> "kernel-module-brcmfmac-wcc-6.13.1"
+"kernel-modules" -> "kernel-module-brcmutil-6.13.1"
+"kernel-modules" -> "kernel-module-btbcm-6.13.1"
+"kernel-modules" -> "kernel-module-btmrvl-6.13.1"
+"kernel-modules" -> "kernel-module-btmrvl-sdio-6.13.1"
+"kernel-modules" -> "kernel-module-capsule-loader-6.13.1"
+"kernel-modules" -> "kernel-module-cbc-6.13.1"
+"kernel-modules" -> "kernel-module-c-can-6.13.1"
+"kernel-modules" -> "kernel-module-c-can-platform-6.13.1"
+"kernel-modules" -> "kernel-module-ccm-6.13.1"
+"kernel-modules" -> "kernel-module-cec-6.13.1"
+"kernel-modules" -> "kernel-module-cfg80211-6.13.1"
+"kernel-modules" -> "kernel-module-chacha-neon-6.13.1"
+"kernel-modules" -> "kernel-module-cm36651-6.13.1"
+"kernel-modules" -> "kernel-module-cmac-6.13.1"
+"kernel-modules" -> "kernel-module-counter-6.13.1"
+"kernel-modules" -> "kernel-module-cppi41-6.13.1"
+"kernel-modules" -> "kernel-module-cpufreq-conservative-6.13.1"
+"kernel-modules" -> "kernel-module-cpufreq-powersave-6.13.1"
+"kernel-modules" -> "kernel-module-cpufreq-userspace-6.13.1"
+"kernel-modules" -> "kernel-module-crc32-arm-ce-6.13.1"
+"kernel-modules" -> "kernel-module-crc4-6.13.1"
+"kernel-modules" -> "kernel-module-crc-ccitt-6.13.1"
+"kernel-modules" -> "kernel-module-crc-itu-t-6.13.1"
+"kernel-modules" -> "kernel-module-cryptd-6.13.1"
+"kernel-modules" -> "kernel-module-crypto-engine-6.13.1"
+"kernel-modules" -> "kernel-module-crypto-null-6.13.1"
+"kernel-modules" -> "kernel-module-crypto-simd-6.13.1"
+"kernel-modules" -> "kernel-module-crypto-user-6.13.1"
+"kernel-modules" -> "kernel-module-ctr-6.13.1"
+"kernel-modules" -> "kernel-module-cyapatp-6.13.1"
+"kernel-modules" -> "kernel-module-des-generic-6.13.1"
+"kernel-modules" -> "kernel-module-display-connector-6.13.1"
+"kernel-modules" -> "kernel-module-drbg-6.13.1"
+"kernel-modules" -> "kernel-module-drm-display-helper-6.13.1"
+"kernel-modules" -> "kernel-module-dsa-core-6.13.1"
+"kernel-modules" -> "kernel-module-ecc-6.13.1"
+"kernel-modules" -> "kernel-module-ecdh-generic-6.13.1"
+"kernel-modules" -> "kernel-module-echainiv-6.13.1"
+"kernel-modules" -> "kernel-module-edt-ft5x06-6.13.1"
+"kernel-modules" -> "kernel-module-efivarfs-6.13.1"
+"kernel-modules" -> "kernel-module-ehci-fsl-6.13.1"
+"kernel-modules" -> "kernel-module-elants-i2c-6.13.1"
+"kernel-modules" -> "kernel-module-esp6-6.13.1"
+"kernel-modules" -> "kernel-module-ff-memless-6.13.1"
+"kernel-modules" -> "kernel-module-flexcan-6.13.1"
+"kernel-modules" -> "kernel-module-fsi-core-6.13.1"
+"kernel-modules" -> "kernel-module-fsi-master-aspeed-6.13.1"
+"kernel-modules" -> "kernel-module-fsi-master-gpio-6.13.1"
+"kernel-modules" -> "kernel-module-fsi-master-hub-6.13.1"
+"kernel-modules" -> "kernel-module-fsi-occ-6.13.1"
+"kernel-modules" -> "kernel-module-fsi-sbefifo-6.13.1"
+"kernel-modules" -> "kernel-module-fsi-scom-6.13.1"
+"kernel-modules" -> "kernel-module-fsl-mph-dr-of-6.13.1"
+"kernel-modules" -> "kernel-module-gcm-6.13.1"
+"kernel-modules" -> "kernel-module-geniv-6.13.1"
+"kernel-modules" -> "kernel-module-g-ether-6.13.1"
+"kernel-modules" -> "kernel-module-gf128mul-6.13.1"
+"kernel-modules" -> "kernel-module-ghash-arm-ce-6.13.1"
+"kernel-modules" -> "kernel-module-ghash-generic-6.13.1"
+"kernel-modules" -> "kernel-module-governor-passive-6.13.1"
+"kernel-modules" -> "kernel-module-gpio-charger-6.13.1"
+"kernel-modules" -> "kernel-module-gpio-decoder-6.13.1"
+"kernel-modules" -> "kernel-module-hci-6.13.1"
+"kernel-modules" -> "kernel-module-hci-uart-6.13.1"
+"kernel-modules" -> "kernel-module-hmac-6.13.1"
+"kernel-modules" -> "kernel-module-i2c-algo-bit-6.13.1"
+"kernel-modules" -> "kernel-module-i2c-arb-gpio-challenge-6.13.1"
+"kernel-modules" -> "kernel-module-i2c-emev2-6.13.1"
+"kernel-modules" -> "kernel-module-i2c-gpio-6.13.1"
+"kernel-modules" -> "kernel-module-ina2xx-6.13.1"
+"kernel-modules" -> "kernel-module-industrialio-buffer-cb-6.13.1"
+"kernel-modules" -> "kernel-module-industrialio-hw-consumer-6.13.1"
+"kernel-modules" -> "kernel-module-ip6-tunnel-6.13.1"
+"kernel-modules" -> "kernel-module-ipcomp6-6.13.1"
+"kernel-modules" -> "kernel-module-jitterentropy-rng-6.13.1"
+"kernel-modules" -> "kernel-module-lan78xx-6.13.1"
+"kernel-modules" -> "kernel-module-lan966x-serdes-6.13.1"
+"kernel-modules" -> "kernel-module-led-class-flash-6.13.1"
+"kernel-modules" -> "kernel-module-leds-pca9532-6.13.1"
+"kernel-modules" -> "kernel-module-libaes-6.13.1"
+"kernel-modules" -> "kernel-module-libarc4-6.13.1"
+"kernel-modules" -> "kernel-module-libcomposite-6.13.1"
+"kernel-modules" -> "kernel-module-libdes-6.13.1"
+"kernel-modules" -> "kernel-module-libsha256-6.13.1"
+"kernel-modules" -> "kernel-module-lvds-codec-6.13.1"
+"kernel-modules" -> "kernel-module-mac80211-6.13.1"
+"kernel-modules" -> "kernel-module-max17040-battery-6.13.1"
+"kernel-modules" -> "kernel-module-max17042-battery-6.13.1"
+"kernel-modules" -> "kernel-module-max8952-6.13.1"
+"kernel-modules" -> "kernel-module-md5-6.13.1"
+"kernel-modules" -> "kernel-module-mdio-i2c-6.13.1"
+"kernel-modules" -> "kernel-module-mdio-mscc-miim-6.13.1"
+"kernel-modules" -> "kernel-module-microchip-6.13.1"
+"kernel-modules" -> "kernel-module-mip6-6.13.1"
+"kernel-modules" -> "kernel-module-mms114-6.13.1"
+"kernel-modules" -> "kernel-module-musb-dsps-6.13.1"
+"kernel-modules" -> "kernel-module-musb-hdrc-6.13.1"
+"kernel-modules" -> "kernel-module-mwifiex-6.13.1"
+"kernel-modules" -> "kernel-module-mwifiex-sdio-6.13.1"
+"kernel-modules" -> "kernel-module-nci-6.13.1"
+"kernel-modules" -> "kernel-module-nci-spi-6.13.1"
+"kernel-modules" -> "kernel-module-nci-uart-6.13.1"
+"kernel-modules" -> "kernel-module-nfc-6.13.1"
+"kernel-modules" -> "kernel-module-nfc-digital-6.13.1"
+"kernel-modules" -> "kernel-module-ntc-thermistor-6.13.1"
+"kernel-modules" -> "kernel-module-nxp-ptn3460-6.13.1"
+"kernel-modules" -> "kernel-module-omap2430-6.13.1"
+"kernel-modules" -> "kernel-module-omapdrm-6.13.1"
+"kernel-modules" -> "kernel-module-onboard-usb-dev-6.13.1"
+"kernel-modules" -> "kernel-module-panel-lvds-6.13.1"
+"kernel-modules" -> "kernel-module-parade-ps8622-6.13.1"
+"kernel-modules" -> "kernel-module-pci-endpoint-test-6.13.1"
+"kernel-modules" -> "kernel-module-pci-epf-test-6.13.1"
+"kernel-modules" -> "kernel-module-pci-meson-6.13.1"
+"kernel-modules" -> "kernel-module-phy-am335x-6.13.1"
+"kernel-modules" -> "kernel-module-phy-am335x-control-6.13.1"
+"kernel-modules" -> "kernel-module-phy-cpcap-usb-6.13.1"
+"kernel-modules" -> "kernel-module-phy-dm816x-usb-6.13.1"
+"kernel-modules" -> "kernel-module-phy-exynos-usb2-6.13.1"
+"kernel-modules" -> "kernel-module-phy-twl4030-usb-6.13.1"
+"kernel-modules" -> "kernel-module-phy-twl6030-usb-6.13.1"
+"kernel-modules" -> "kernel-module-pwm-fan-6.13.1"
+"kernel-modules" -> "kernel-module-pwm-tiecap-6.13.1"
+"kernel-modules" -> "kernel-module-pwm-tiehrpwm-6.13.1"
+"kernel-modules" -> "kernel-module-qrtr-6.13.1"
+"kernel-modules" -> "kernel-module-qrtr-smd-6.13.1"
+"kernel-modules" -> "kernel-module-qt1070-6.13.1"
+"kernel-modules" -> "kernel-module-r8152-6.13.1"
+"kernel-modules" -> "kernel-module-r8153-ecm-6.13.1"
+"kernel-modules" -> "kernel-module-r8a66597-hcd-6.13.1"
+"kernel-modules" -> "kernel-module-regmap-spi-6.13.1"
+"kernel-modules" -> "kernel-module-reset-ti-syscon-6.13.1"
+"kernel-modules" -> "kernel-module-resistive-adc-touch-6.13.1"
+"kernel-modules" -> "kernel-module-rpmsg-char-6.13.1"
+"kernel-modules" -> "kernel-module-rpmsg-core-6.13.1"
+"kernel-modules" -> "kernel-module-rpmsg-ctrl-6.13.1"
+"kernel-modules" -> "kernel-module-rpmsg-ns-6.13.1"
+"kernel-modules" -> "kernel-module-rt2800lib-6.13.1"
+"kernel-modules" -> "kernel-module-rt2800usb-6.13.1"
+"kernel-modules" -> "kernel-module-rt2x00lib-6.13.1"
+"kernel-modules" -> "kernel-module-rt2x00usb-6.13.1"
+"kernel-modules" -> "kernel-module-rtc-bq32k-6.13.1"
+"kernel-modules" -> "kernel-module-rtc-efi-6.13.1"
+"kernel-modules" -> "kernel-module-rtc-hym8563-6.13.1"
+"kernel-modules" -> "kernel-module-rtc-pcf85063-6.13.1"
+"kernel-modules" -> "kernel-module-rtc-pcf85363-6.13.1"
+"kernel-modules" -> "kernel-module-rtc-rs5c372-6.13.1"
+"kernel-modules" -> "kernel-module-rtc-rx8581-6.13.1"
+"kernel-modules" -> "kernel-module-rtc-s35390a-6.13.1"
+"kernel-modules" -> "kernel-module-s3fwrn5-6.13.1"
+"kernel-modules" -> "kernel-module-s3fwrn5-i2c-6.13.1"
+"kernel-modules" -> "kernel-module-samsung-dsim-6.13.1"
+"kernel-modules" -> "kernel-module-samsung-keypad-6.13.1"
+"kernel-modules" -> "kernel-module-seqiv-6.13.1"
+"kernel-modules" -> "kernel-module-sfp-6.13.1"
+"kernel-modules" -> "kernel-module-sha1-arm-6.13.1"
+"kernel-modules" -> "kernel-module-sha1-arm-ce-6.13.1"
+"kernel-modules" -> "kernel-module-sha1-arm-neon-6.13.1"
+"kernel-modules" -> "kernel-module-sha256-arm-6.13.1"
+"kernel-modules" -> "kernel-module-sha256-generic-6.13.1"
+"kernel-modules" -> "kernel-module-sha2-arm-ce-6.13.1"
+"kernel-modules" -> "kernel-module-sha3-generic-6.13.1"
+"kernel-modules" -> "kernel-module-sha512-arm-6.13.1"
+"kernel-modules" -> "kernel-module-sha512-generic-6.13.1"
+"kernel-modules" -> "kernel-module-sii902x-6.13.1"
+"kernel-modules" -> "kernel-module-sii9234-6.13.1"
+"kernel-modules" -> "kernel-module-simple-bridge-6.13.1"
+"kernel-modules" -> "kernel-module-smb347-charger-6.13.1"
+"kernel-modules" -> "kernel-module-spi-gpio-6.13.1"
+"kernel-modules" -> "kernel-module-st1232-6.13.1"
+"kernel-modules" -> "kernel-module-st-accel-6.13.1"
+"kernel-modules" -> "kernel-module-st-accel-i2c-6.13.1"
+"kernel-modules" -> "kernel-module-st-gyro-6.13.1"
+"kernel-modules" -> "kernel-module-st-gyro-i2c-6.13.1"
+"kernel-modules" -> "kernel-module-st-gyro-spi-6.13.1"
+"kernel-modules" -> "kernel-module-st-sensors-6.13.1"
+"kernel-modules" -> "kernel-module-st-sensors-i2c-6.13.1"
+"kernel-modules" -> "kernel-module-st-sensors-spi-6.13.1"
+"kernel-modules" -> "kernel-module-stusb160x-6.13.1"
+"kernel-modules" -> "kernel-module-tag-brcm-6.13.1"
+"kernel-modules" -> "kernel-module-tag-none-6.13.1"
+"kernel-modules" -> "kernel-module-tag-rzn1-a5psw-6.13.1"
+"kernel-modules" -> "kernel-module-tc358764-6.13.1"
+"kernel-modules" -> "kernel-module-tc358768-6.13.1"
+"kernel-modules" -> "kernel-module-tda998x-6.13.1"
+"kernel-modules" -> "kernel-module-thermal-generic-adc-6.13.1"
+"kernel-modules" -> "kernel-module-ti-tfp410-6.13.1"
+"kernel-modules" -> "kernel-module-ti-tpd12s015-6.13.1"
+"kernel-modules" -> "kernel-module-tm2-touchkey-6.13.1"
+"kernel-modules" -> "kernel-module-tpm-6.13.1"
+"kernel-modules" -> "kernel-module-tpm-i2c-infineon-6.13.1"
+"kernel-modules" -> "kernel-module-tunnel6-6.13.1"
+"kernel-modules" -> "kernel-module-tusb6010-6.13.1"
+"kernel-modules" -> "kernel-module-typec-6.13.1"
+"kernel-modules" -> "kernel-module-typec-ucsi-6.13.1"
+"kernel-modules" -> "kernel-module-uas-6.13.1"
+"kernel-modules" -> "kernel-module-ucsi-stm32g0-6.13.1"
+"kernel-modules" -> "kernel-module-u-ether-6.13.1"
+"kernel-modules" -> "kernel-module-usb-f-acm-6.13.1"
+"kernel-modules" -> "kernel-module-usb-f-ecm-6.13.1"
+"kernel-modules" -> "kernel-module-usb-f-ecm-subset-6.13.1"
+"kernel-modules" -> "kernel-module-usb-f-eem-6.13.1"
+"kernel-modules" -> "kernel-module-usb-f-fs-6.13.1"
+"kernel-modules" -> "kernel-module-usb-f-hid-6.13.1"
+"kernel-modules" -> "kernel-module-usb-f-mass-storage-6.13.1"
+"kernel-modules" -> "kernel-module-usb-f-ncm-6.13.1"
+"kernel-modules" -> "kernel-module-usb-f-obex-6.13.1"
+"kernel-modules" -> "kernel-module-usb-f-printer-6.13.1"
+"kernel-modules" -> "kernel-module-usb-f-rndis-6.13.1"
+"kernel-modules" -> "kernel-module-usb-f-serial-6.13.1"
+"kernel-modules" -> "kernel-module-usb-f-ss-lb-6.13.1"
+"kernel-modules" -> "kernel-module-u-serial-6.13.1"
+"kernel-modules" -> "kernel-module-vf610-adc-6.13.1"
+"kernel-modules" -> "kernel-module-virtio-rpmsg-bus-6.13.1"
+"kernel-modules" -> "kernel-module-wcn36xx-6.13.1"
+"kernel-modules" -> "kernel-module-xfrm6-tunnel-6.13.1"
+"kernel-modules" -> "kernel-module-xfrm-algo-6.13.1"
+"kernel-modules" -> "kernel-module-xfrm-ipcomp-6.13.1"
+"kernel-modules" -> "kernel-module-xts-6.13.1"
+"kernel-module-smb347-charger-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-spi-gpio-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-st1232-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-st-accel-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-st-accel-6.13.1" -> "kernel-module-st-sensors-6.13.1"
+"kernel-module-st-accel-i2c-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-st-accel-i2c-6.13.1" -> "kernel-module-st-accel-6.13.1"
+"kernel-module-st-accel-i2c-6.13.1" -> "kernel-module-st-sensors-6.13.1"
+"kernel-module-st-accel-i2c-6.13.1" -> "kernel-module-st-sensors-i2c-6.13.1"
+"kernel-module-st-gyro-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-st-gyro-6.13.1" -> "kernel-module-st-sensors-6.13.1"
+"kernel-module-st-gyro-i2c-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-st-gyro-i2c-6.13.1" -> "kernel-module-st-gyro-6.13.1"
+"kernel-module-st-gyro-i2c-6.13.1" -> "kernel-module-st-sensors-6.13.1"
+"kernel-module-st-gyro-i2c-6.13.1" -> "kernel-module-st-sensors-i2c-6.13.1"
+"kernel-module-st-gyro-spi-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-st-gyro-spi-6.13.1" -> "kernel-module-st-gyro-6.13.1"
+"kernel-module-st-gyro-spi-6.13.1" -> "kernel-module-st-sensors-6.13.1"
+"kernel-module-st-gyro-spi-6.13.1" -> "kernel-module-st-sensors-spi-6.13.1"
+"kernel-module-st-sensors-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-st-sensors-i2c-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-st-sensors-spi-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-st-sensors-spi-6.13.1" -> "kernel-module-regmap-spi-6.13.1"
+"kernel-module-stusb160x-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-stusb160x-6.13.1" -> "kernel-module-typec-6.13.1"
+"kernel-module-tag-brcm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-tag-brcm-6.13.1" -> "kernel-module-dsa-core-6.13.1"
+"kernel-module-tag-none-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-tag-none-6.13.1" -> "kernel-module-dsa-core-6.13.1"
+"kernel-module-tag-rzn1-a5psw-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-tag-rzn1-a5psw-6.13.1" -> "kernel-module-dsa-core-6.13.1"
+"kernel-module-tc358764-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-tc358768-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-tda998x-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-thermal-generic-adc-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-ti-tfp410-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-ti-tpd12s015-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-tm2-touchkey-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-tpm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-tpm-i2c-infineon-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-tpm-i2c-infineon-6.13.1" -> "kernel-module-tpm-6.13.1"
+"kernel-module-tunnel6-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-tusb6010-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-tusb6010-6.13.1" -> "kernel-module-musb-hdrc-6.13.1"
+"kernel-module-typec-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-typec-ucsi-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-typec-ucsi-6.13.1" -> "kernel-module-typec-6.13.1"
+"kernel-module-uas-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-ucsi-stm32g0-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-ucsi-stm32g0-6.13.1" -> "kernel-module-typec-ucsi-6.13.1"
+"kernel-module-u-ether-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-u-ether-6.13.1" -> "kernel-module-libcomposite-6.13.1"
+"kernel-module-usb-f-acm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-usb-f-acm-6.13.1" -> "kernel-module-libcomposite-6.13.1"
+"kernel-module-usb-f-acm-6.13.1" -> "kernel-module-u-serial-6.13.1"
+"kernel-module-usb-f-ecm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-usb-f-ecm-6.13.1" -> "kernel-module-libcomposite-6.13.1"
+"kernel-module-usb-f-ecm-6.13.1" -> "kernel-module-u-ether-6.13.1"
+"kernel-module-usb-f-ecm-subset-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-usb-f-ecm-subset-6.13.1" -> "kernel-module-libcomposite-6.13.1"
+"kernel-module-usb-f-ecm-subset-6.13.1" -> "kernel-module-u-ether-6.13.1"
+"kernel-module-usb-f-eem-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-usb-f-eem-6.13.1" -> "kernel-module-libcomposite-6.13.1"
+"kernel-module-usb-f-eem-6.13.1" -> "kernel-module-u-ether-6.13.1"
+"kernel-module-usb-f-fs-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-usb-f-fs-6.13.1" -> "kernel-module-libcomposite-6.13.1"
+"kernel-module-usb-f-hid-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-usb-f-hid-6.13.1" -> "kernel-module-libcomposite-6.13.1"
+"kernel-module-usb-f-mass-storage-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-usb-f-mass-storage-6.13.1" -> "kernel-module-libcomposite-6.13.1"
+"kernel-module-usb-f-ncm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-usb-f-ncm-6.13.1" -> "kernel-module-libcomposite-6.13.1"
+"kernel-module-usb-f-ncm-6.13.1" -> "kernel-module-u-ether-6.13.1"
+"kernel-module-usb-f-obex-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-usb-f-obex-6.13.1" -> "kernel-module-libcomposite-6.13.1"
+"kernel-module-usb-f-obex-6.13.1" -> "kernel-module-u-serial-6.13.1"
+"kernel-module-usb-f-printer-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-usb-f-printer-6.13.1" -> "kernel-module-libcomposite-6.13.1"
+"kernel-module-usb-f-rndis-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-usb-f-rndis-6.13.1" -> "kernel-module-libcomposite-6.13.1"
+"kernel-module-usb-f-rndis-6.13.1" -> "kernel-module-u-ether-6.13.1"
+"kernel-module-usb-f-serial-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-usb-f-serial-6.13.1" -> "kernel-module-libcomposite-6.13.1"
+"kernel-module-usb-f-serial-6.13.1" -> "kernel-module-u-serial-6.13.1"
+"kernel-module-usb-f-ss-lb-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-usb-f-ss-lb-6.13.1" -> "kernel-module-libcomposite-6.13.1"
+"kernel-module-u-serial-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-vf610-adc-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-virtio-rpmsg-bus-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-virtio-rpmsg-bus-6.13.1" -> "kernel-module-rpmsg-core-6.13.1"
+"kernel-module-virtio-rpmsg-bus-6.13.1" -> "kernel-module-rpmsg-ns-6.13.1"
+"kernel-module-wcn36xx-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-wcn36xx-6.13.1" -> "kernel-module-cfg80211-6.13.1"
+"kernel-module-wcn36xx-6.13.1" -> "kernel-module-mac80211-6.13.1"
+"kernel-module-wcn36xx-6.13.1" -> "kernel-module-rpmsg-core-6.13.1"
+"kernel-module-xfrm6-tunnel-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-xfrm6-tunnel-6.13.1" -> "kernel-module-tunnel6-6.13.1"
+"kernel-module-xfrm-algo-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-xfrm-ipcomp-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-xfrm-ipcomp-6.13.1" -> "kernel-module-xfrm-algo-6.13.1"
+"kernel-module-xts-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kmod" -> "libc6"
+"kmod" -> "libcrypto3"
+"kmod" -> "liblzma5"
+"kmod" -> "libz1"
+"kmod" -> "update-alternatives-opkg"
+"libacl1" -> "libattr1"
+"libacl1" -> "libc6"
+"libarchive" -> "libacl1"
+"libarchive" -> "libbz2-1"
+"libarchive" -> "libc6"
+"libarchive" -> "liblzma5"
+"libarchive" -> "libz1"
+"libarchive" -> "libzstd1"
+"libattr1" -> "libc6"
+"libblkid1" -> "libc6"
+"libbz2-1" -> "libc6"
+"libc6" -> "ldconfig" [style=dotted]
+"libcrypto3" -> "libc6"
+"libcrypto3" -> "openssl-conf" [style=dotted]
+"libcrypto3" -> "openssl-ossl-module-legacy" [style=dotted]
+"libkmod2" -> "libc6"
+"libkmod2" -> "libcrypto3"
+"libkmod2" -> "liblzma5"
+"libkmod2" -> "libz1"
+"liblzma5" -> "libc6"
+"libopkg1" -> "libarchive"
+"libopkg1" -> "libc6"
+"libopkg1" -> "libsolv1"
+"libsolv1" -> "libc6"
+"libz1" -> "libc6"
+"libzstd1" -> "libc6"
+"modutils-initscripts" -> "update-rc.d" [style=dotted]
+"openssl-ossl-module-legacy" -> "libc6"
+"openssl-ossl-module-legacy" -> "libcrypto3"
+"opkg" -> "libarchive"
+"opkg" -> "libc6"
+"opkg" -> "libopkg1"
+"opkg" -> "opkg-arch-config"
+"opkg" -> "update-alternatives-opkg"
+"packagegroup-core-boot" -> "base-files"
+"packagegroup-core-boot" -> "base-passwd"
+"packagegroup-core-boot" -> "busybox"
+"packagegroup-core-boot" -> "busybox-hwclock"
+"packagegroup-core-boot" -> "busybox-syslog" [style=dotted]
+"packagegroup-core-boot" -> "eudev" [label="udev"] [style=dashed]
+"packagegroup-core-boot" -> "init-ifupdown" [style=dotted]
+"packagegroup-core-boot" -> "initscripts"
+"packagegroup-core-boot" -> "kernel-devicetree"
+"packagegroup-core-boot" -> "kernel-image-6.13.1" [label="kernel-image"] [style=dashed]
+"packagegroup-core-boot" -> "kernel-modules"
+"packagegroup-core-boot" -> "modutils-initscripts"
+"packagegroup-core-boot" -> "netbase"
+"packagegroup-core-boot" -> "sysvinit"
+"packagegroup-core-boot" -> "update-alternatives-opkg"
+"sysvinit" -> "base-passwd"
+"sysvinit" -> "initscripts-functions" [label="initd-functions"] [style=dashed]
+"sysvinit-inittab" -> "ttyrun"
+"sysvinit" -> "libc6"
+"sysvinit-pidof" -> "libc6"
+"sysvinit-pidof" -> "update-alternatives-opkg"
+"sysvinit" -> "sysvinit-inittab"
+"sysvinit" -> "sysvinit-pidof"
+"sysvinit" -> "update-alternatives-opkg"
+"ttyrun" -> "libc6"
+"util-linux-fcntl-lock" -> "libc6"
+}

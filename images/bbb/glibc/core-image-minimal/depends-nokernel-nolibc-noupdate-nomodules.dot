@@ -1,0 +1,49 @@
+digraph depends {
+    node [shape=plaintext]
+"busybox" -> "busybox-udhcpc" [style=dotted]
+"busybox-syslog" -> "busybox"
+"eudev" -> "kmod"
+"eudev" -> "libblkid1"
+"eudev" -> "libkmod2"
+"init-ifupdown" -> "netbase"
+"initscripts" -> "initscripts-functions" [label="initd-functions"] [style=dashed]
+"initscripts" -> "initscripts-functions" [style=dotted]
+"initscripts" -> "init-system-helpers-service"
+"kmod" -> "libcrypto3"
+"kmod" -> "liblzma5"
+"kmod" -> "libz1"
+"libacl1" -> "libattr1"
+"libarchive" -> "libacl1"
+"libarchive" -> "libbz2-1"
+"libarchive" -> "liblzma5"
+"libarchive" -> "libz1"
+"libarchive" -> "libzstd1"
+"libcrypto3" -> "openssl-conf" [style=dotted]
+"libcrypto3" -> "openssl-ossl-module-legacy" [style=dotted]
+"libkmod2" -> "libcrypto3"
+"libkmod2" -> "liblzma5"
+"libkmod2" -> "libz1"
+"libopkg1" -> "libarchive"
+"libopkg1" -> "libsolv1"
+"openssl-ossl-module-legacy" -> "libcrypto3"
+"opkg" -> "libarchive"
+"opkg" -> "libopkg1"
+"opkg" -> "opkg-arch-config"
+"packagegroup-core-boot" -> "base-files"
+"packagegroup-core-boot" -> "base-passwd"
+"packagegroup-core-boot" -> "busybox"
+"packagegroup-core-boot" -> "busybox-hwclock"
+"packagegroup-core-boot" -> "busybox-syslog" [style=dotted]
+"packagegroup-core-boot" -> "eudev" [label="udev"] [style=dashed]
+"packagegroup-core-boot" -> "init-ifupdown" [style=dotted]
+"packagegroup-core-boot" -> "initscripts"
+"packagegroup-core-boot" -> "kernel-devicetree"
+"packagegroup-core-boot" -> "modutils-initscripts"
+"packagegroup-core-boot" -> "netbase"
+"packagegroup-core-boot" -> "sysvinit"
+"sysvinit" -> "base-passwd"
+"sysvinit" -> "initscripts-functions" [label="initd-functions"] [style=dashed]
+"sysvinit-inittab" -> "ttyrun"
+"sysvinit" -> "sysvinit-inittab"
+"sysvinit" -> "sysvinit-pidof"
+}

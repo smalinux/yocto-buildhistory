@@ -139,7 +139,7 @@ lrwxrwxrwx root       root                8 ./etc/init.d/stop-bootlogd -> bootlo
 -rwxr-xr-x root       root              585 ./etc/init.d/umountfs
 -rwxr-xr-x root       root              756 ./etc/init.d/umountnfs.sh
 -rwxr-xr-x root       root             1518 ./etc/init.d/urandom
--rw-r--r-- root       root             1110 ./etc/inittab
+-rw-r--r-- root       root             1268 ./etc/inittab
 drwxr-xr-x root       root             4096 ./etc/inittab.d
 -rw-r--r-- root       root               51 ./etc/issue
 -rw-r--r-- root       root               48 ./etc/issue.net

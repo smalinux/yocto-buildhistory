@@ -374,10 +374,10 @@
 3	KiB	init-ifupdown
 3	KiB	busybox-udhcpc
 3	KiB	busybox-syslog
+2	KiB	sysvinit-inittab
 2	KiB	shadow-securetty
 2	KiB	initscripts-functions
 2	KiB	busybox-hwclock
-1	KiB	sysvinit-inittab
 1	KiB	openssl
 1	KiB	modutils-initscripts
 0	KiB	python3-pkgutil

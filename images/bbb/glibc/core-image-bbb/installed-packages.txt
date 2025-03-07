@@ -379,7 +379,7 @@ python3-zoneinfo_3.12.6-r0.0_cortexa8hf-neon.ipk
 shadow-base_4.14.2-r0.2_cortexa8hf-neon.ipk
 shadow-securetty_4.6-r0.0_bbb.ipk
 shadow_4.14.2-r0.2_cortexa8hf-neon.ipk
-sysvinit-inittab_2.88dsf-r0.0_bbb.ipk
+sysvinit-inittab_2.88dsf-r0.1_bbb.ipk
 sysvinit-pidof_3.04-r0.2_cortexa8hf-neon.ipk
 sysvinit_3.04-r0.2_cortexa8hf-neon.ipk
 ttyrun_2.31.0-r0.2_cortexa8hf-neon.ipk

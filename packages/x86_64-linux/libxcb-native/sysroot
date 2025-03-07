@@ -91,7 +91,7 @@ lrwxrwxrwx -          -                  20 ./usr/lib/libxcb-sync.so -> libxcb-s
 -rwxr-xr-x -          -               18520 ./usr/lib/libxcb-xf86dri.so.0.0.0
 lrwxrwxrwx -          -                  23 ./usr/lib/libxcb-xf86dri.so.0 -> libxcb-xf86dri.so.0.0.0
 lrwxrwxrwx -          -                  23 ./usr/lib/libxcb-xf86dri.so -> libxcb-xf86dri.so.0.0.0
--rwxr-xr-x -          -               34888 ./usr/lib/libxcb-xfixes.so.0.0.0
+-rwxr-xr-x -          -               38984 ./usr/lib/libxcb-xfixes.so.0.0.0
 lrwxrwxrwx -          -                  22 ./usr/lib/libxcb-xfixes.so.0 -> libxcb-xfixes.so.0.0.0
 lrwxrwxrwx -          -                  22 ./usr/lib/libxcb-xfixes.so -> libxcb-xfixes.so.0.0.0
 -rwxr-xr-x -          -               14408 ./usr/lib/libxcb-xinerama.so.0.0.0

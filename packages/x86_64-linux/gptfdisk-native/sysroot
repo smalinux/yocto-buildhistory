@@ -2,7 +2,7 @@ drwxr-xr-x -          -                4096 ./sysroot-providers
 -rw-r--r-- -          -                  15 ./sysroot-providers/gptfdisk-native
 drwxr-xr-x -          -                4096 ./usr
 drwxr-xr-x -          -                4096 ./usr/sbin
--rwxr-xr-x -          -              225697 ./usr/sbin/cgdisk
--rwxr-xr-x -          -               82329 ./usr/sbin/fixparts
--rwxr-xr-x -          -              229785 ./usr/sbin/gdisk
--rwxr-xr-x -          -              217561 ./usr/sbin/sgdisk
+-rwxr-xr-x -          -              223432 ./usr/sbin/cgdisk
+-rwxr-xr-x -          -               80072 ./usr/sbin/fixparts
+-rwxr-xr-x -          -              227528 ./usr/sbin/gdisk
+-rwxr-xr-x -          -              215240 ./usr/sbin/sgdisk

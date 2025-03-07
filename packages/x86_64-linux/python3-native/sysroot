@@ -12,7 +12,7 @@ lrwxrwxrwx -          -                   9 ./usr/bin/python3-native/2to3 -> 2to
 lrwxrwxrwx -          -                   8 ./usr/bin/python3-native/idle3 -> idle3.12
 -rwxr-xr-x -          -                  80 ./usr/bin/python3-native/pydoc3.12
 lrwxrwxrwx -          -                   9 ./usr/bin/python3-native/pydoc3 -> pydoc3.12
--rwxr-xr-x -          -               16681 ./usr/bin/python3-native/python3.12
+-rwxr-xr-x -          -               14360 ./usr/bin/python3-native/python3.12
 lrwxrwxrwx -          -                  10 ./usr/bin/python3-native/python3 -> python3.12
 drwxr-xr-x -          -                4096 ./usr/include
 drwxr-xr-x -          -                4096 ./usr/include/python3.12
@@ -317,12 +317,12 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/config-3.12-x86
 -rw-r--r-- -          -                3427 ./usr/lib/python3.12/config-3.12-x86_64-linux-gnu/config.c
 -rw-r--r-- -          -                1752 ./usr/lib/python3.12/config-3.12-x86_64-linux-gnu/config.c.in
 -rwxr-xr-x -          -               15425 ./usr/lib/python3.12/config-3.12-x86_64-linux-gnu/install-sh
--rw-r--r-- -          -            58998560 ./usr/lib/python3.12/config-3.12-x86_64-linux-gnu/libpython3.12.a
--rw-r--r-- -          -              183424 ./usr/lib/python3.12/config-3.12-x86_64-linux-gnu/Makefile
+-rw-r--r-- -          -            59000488 ./usr/lib/python3.12/config-3.12-x86_64-linux-gnu/libpython3.12.a
+-rw-r--r-- -          -              183436 ./usr/lib/python3.12/config-3.12-x86_64-linux-gnu/Makefile
 -rwxr-xr-x -          -                9312 ./usr/lib/python3.12/config-3.12-x86_64-linux-gnu/makesetup
 drwxr-xr-x -          -                4096 ./usr/lib/python3.12/config-3.12-x86_64-linux-gnu/__pycache__
 -rwxr-xr-x -          -                2039 ./usr/lib/python3.12/config-3.12-x86_64-linux-gnu/python-config.py
--rw-r--r-- -          -                4912 ./usr/lib/python3.12/config-3.12-x86_64-linux-gnu/python.o
+-rw-r--r-- -          -                4920 ./usr/lib/python3.12/config-3.12-x86_64-linux-gnu/python.o
 -rw-r--r-- -          -               11525 ./usr/lib/python3.12/config-3.12-x86_64-linux-gnu/Setup
 -rw-r--r-- -          -                 902 ./usr/lib/python3.12/config-3.12-x86_64-linux-gnu/Setup.bootstrap
 -rw-r--r-- -          -                  22 ./usr/lib/python3.12/config-3.12-x86_64-linux-gnu/Setup.local
@@ -1064,7 +1064,7 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/sqlite3/__pycac
 -rw-r--r-- -          -               88725 ./usr/lib/python3.12/subprocess.py
 -rw-r--r-- -          -               18478 ./usr/lib/python3.12/sunau.py
 -rw-r--r-- -          -               12477 ./usr/lib/python3.12/symtable.py
--rw-r--r-- -          -               77007 ./usr/lib/python3.12/_sysconfigdata__linux_x86_64-linux-gnu.py
+-rw-r--r-- -          -               77103 ./usr/lib/python3.12/_sysconfigdata__linux_x86_64-linux-gnu.py
 -rw-r--r-- -          -               31296 ./usr/lib/python3.12/sysconfig.py
 -rwxr-xr-x -          -               11532 ./usr/lib/python3.12/tabnanny.py
 -rwxr-xr-x -          -              108582 ./usr/lib/python3.12/tarfile.py
@@ -1235,5 +1235,5 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/zoneinfo/__pyca
 -rw-r--r-- -          -                5388 ./usr/lib/python3.12/zoneinfo/_tzpath.py
 -rw-r--r-- -          -               24674 ./usr/lib/python3.12/zoneinfo/_zoneinfo.py
 drwxr-xr-x -          -                4096 ./usr/lib/python-sysconfigdata
--rw-r--r-- -          -               77007 ./usr/lib/python-sysconfigdata/_sysconfigdata.py
+-rw-r--r-- -          -               77103 ./usr/lib/python-sysconfigdata/_sysconfigdata.py
 drwxr-xr-x -          -                4096 ./usr/share

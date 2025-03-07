@@ -15,8 +15,8 @@ drwxr-xr-x -          -                4096 ./etc/terminfo/s
 drwxr-xr-x -          -                4096 ./etc/terminfo/v
 -rw-r--r-- -          -                1282 ./etc/terminfo/v/vt100
 -rw-r--r-- -          -                1276 ./etc/terminfo/v/vt102
--rw-r--r-- -          -                1475 ./etc/terminfo/v/vt200
--rw-r--r-- -          -                1475 ./etc/terminfo/v/vt220
+-rw-r--r-- -          -                1481 ./etc/terminfo/v/vt200
+-rw-r--r-- -          -                1481 ./etc/terminfo/v/vt220
 -rw-r--r-- -          -                 839 ./etc/terminfo/v/vt52
 drwxr-xr-x -          -                4096 ./etc/terminfo/x
 -rw-r--r-- -          -                3882 ./etc/terminfo/x/xterm-256color
@@ -28,24 +28,24 @@ drwxr-xr-x -          -                4096 ./sysroot-providers
 drwxr-xr-x -          -                4096 ./usr
 drwxr-xr-x -          -                4096 ./usr/bin
 lrwxrwxrwx -          -                   3 ./usr/bin/captoinfo -> tic
--rwxr-xr-x -          -               16625 ./usr/bin/clear
+-rwxr-xr-x -          -               14368 ./usr/bin/clear
 drwxr-xr-x -          -                4096 ./usr/bin/crossscripts
 -rwxr-xr-x -          -                 211 ./usr/bin/crossscripts/ncurses5-config
 -rwxr-xr-x -          -                 211 ./usr/bin/crossscripts/ncurses6-config
 -rwxr-xr-x -          -                 213 ./usr/bin/crossscripts/ncursesw5-config
 -rwxr-xr-x -          -                 213 ./usr/bin/crossscripts/ncursesw6-config
--rwxr-xr-x -          -               65777 ./usr/bin/infocmp
+-rwxr-xr-x -          -               63592 ./usr/bin/infocmp
 lrwxrwxrwx -          -                   3 ./usr/bin/infotocap -> tic
 -rwxr-xr-x -          -                 211 ./usr/bin/ncurses5-config
 -rwxr-xr-x -          -                 211 ./usr/bin/ncurses6-config
 -rwxr-xr-x -          -                 213 ./usr/bin/ncursesw5-config
 -rwxr-xr-x -          -                 213 ./usr/bin/ncursesw6-config
 lrwxrwxrwx -          -                   4 ./usr/bin/reset -> tset
--rwxr-xr-x -          -               24817 ./usr/bin/tabs
--rwxr-xr-x -          -               98545 ./usr/bin/tic
--rwxr-xr-x -          -               24817 ./usr/bin/toe
--rwxr-xr-x -          -               28913 ./usr/bin/tput
--rwxr-xr-x -          -               33009 ./usr/bin/tset
+-rwxr-xr-x -          -               22552 ./usr/bin/tabs
+-rwxr-xr-x -          -               96392 ./usr/bin/tic
+-rwxr-xr-x -          -               22552 ./usr/bin/toe
+-rwxr-xr-x -          -               26680 ./usr/bin/tput
+-rwxr-xr-x -          -               30752 ./usr/bin/tset
 drwxr-xr-x -          -                4096 ./usr/include
 lrwxrwxrwx -          -                  19 ./usr/include/cursesapp.h -> ncurses/cursesapp.h
 lrwxrwxrwx -          -                  17 ./usr/include/cursesf.h -> ncurses/cursesf.h

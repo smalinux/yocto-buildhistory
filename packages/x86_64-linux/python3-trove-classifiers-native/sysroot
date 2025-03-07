@@ -14,6 +14,6 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/t
 -rw-r--r-- -          -               41013 ./usr/lib/python3.12/site-packages/trove_classifiers/__init__.py
 -rw-r--r-- -          -                 110 ./usr/lib/python3.12/site-packages/trove_classifiers/__main__.py
 drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/trove_classifiers/__pycache__
--rw-r--r-- -          -               36196 ./usr/lib/python3.12/site-packages/trove_classifiers/__pycache__/__init__.cpython-312.pyc
--rw-r--r-- -          -                 398 ./usr/lib/python3.12/site-packages/trove_classifiers/__pycache__/__main__.cpython-312.pyc
+-rw-r--r-- -          -               36202 ./usr/lib/python3.12/site-packages/trove_classifiers/__pycache__/__init__.cpython-312.pyc
+-rw-r--r-- -          -                 404 ./usr/lib/python3.12/site-packages/trove_classifiers/__pycache__/__main__.cpython-312.pyc
 -rw-r--r-- -          -                   0 ./usr/lib/python3.12/site-packages/trove_classifiers/py.typed

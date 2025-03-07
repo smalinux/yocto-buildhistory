@@ -15,9 +15,9 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/m
 -rwxr-xr-x -          -              143045 ./usr/lib/python3.12/site-packages/more_itertools/more.py
 -rw-r--r-- -          -               21044 ./usr/lib/python3.12/site-packages/more_itertools/more.pyi
 drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/more_itertools/__pycache__
--rw-r--r-- -          -                 419 ./usr/lib/python3.12/site-packages/more_itertools/__pycache__/__init__.cpython-312.pyc
--rw-r--r-- -          -              167091 ./usr/lib/python3.12/site-packages/more_itertools/__pycache__/more.cpython-312.pyc
--rw-r--r-- -          -               35477 ./usr/lib/python3.12/site-packages/more_itertools/__pycache__/recipes.cpython-312.pyc
+-rw-r--r-- -          -                 426 ./usr/lib/python3.12/site-packages/more_itertools/__pycache__/__init__.cpython-312.pyc
+-rw-r--r-- -          -              167098 ./usr/lib/python3.12/site-packages/more_itertools/__pycache__/more.cpython-312.pyc
+-rw-r--r-- -          -               35484 ./usr/lib/python3.12/site-packages/more_itertools/__pycache__/recipes.cpython-312.pyc
 -rw-r--r-- -          -                   0 ./usr/lib/python3.12/site-packages/more_itertools/py.typed
 -rw-r--r-- -          -               27548 ./usr/lib/python3.12/site-packages/more_itertools/recipes.py
 -rw-r--r-- -          -                4436 ./usr/lib/python3.12/site-packages/more_itertools/recipes.pyi

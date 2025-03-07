@@ -15,5 +15,5 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/c
 -rw-r--r-- -          -                   0 ./usr/lib/python3.12/site-packages/calver/__init__.py
 -rw-r--r-- -          -                1058 ./usr/lib/python3.12/site-packages/calver/integration.py
 drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/calver/__pycache__
--rw-r--r-- -          -                 252 ./usr/lib/python3.12/site-packages/calver/__pycache__/__init__.cpython-312.pyc
--rw-r--r-- -          -                2649 ./usr/lib/python3.12/site-packages/calver/__pycache__/integration.cpython-312.pyc
+-rw-r--r-- -          -                 259 ./usr/lib/python3.12/site-packages/calver/__pycache__/__init__.cpython-312.pyc
+-rw-r--r-- -          -                2656 ./usr/lib/python3.12/site-packages/calver/__pycache__/integration.cpython-312.pyc

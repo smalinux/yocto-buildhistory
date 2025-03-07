@@ -2,9 +2,9 @@ drwxr-xr-x -          -                4096 ./sysroot-providers
 -rw-r--r-- -          -                  10 ./sysroot-providers/acl-native
 drwxr-xr-x -          -                4096 ./usr
 drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -               14360 ./usr/bin/chacl
--rwxr-xr-x -          -               30880 ./usr/bin/getfacl
--rwxr-xr-x -          -               39016 ./usr/bin/setfacl
+-rwxr-xr-x -          -               16649 ./usr/bin/chacl
+-rwxr-xr-x -          -               33057 ./usr/bin/getfacl
+-rwxr-xr-x -          -               41257 ./usr/bin/setfacl
 drwxr-xr-x -          -                4096 ./usr/include
 drwxr-xr-x -          -                4096 ./usr/include/acl
 -rw-r--r-- -          -                2625 ./usr/include/acl/libacl.h

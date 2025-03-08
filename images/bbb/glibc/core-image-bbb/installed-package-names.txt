@@ -286,12 +286,14 @@ libgdbm6
 libgdbm-compat4
 libkmod2
 liblzma5
+libmount1
 libncurses5
 libncursesw5
 libnsl3
 libopkg1
 libpanelw5
 libpython3.12-1.0
+libsmartcols1
 libsolv1
 libsqlite3-0
 libssl3
@@ -386,5 +388,6 @@ ttyrun
 update-alternatives-opkg
 update-rc.d
 util-linux-fcntl-lock
+util-linux-lsblk
 util-linux-sulogin
 vim-tiny

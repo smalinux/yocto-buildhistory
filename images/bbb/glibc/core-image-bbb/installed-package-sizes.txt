@@ -40,6 +40,7 @@
 486	KiB	openssh-keygen
 473	KiB	kernel-devicetree
 439	KiB	python3-pickle
+394	KiB	libmount1
 385	KiB	python3-logging
 329	KiB	kernel-module-mwifiex-6.13.1
 318	KiB	libblkid1
@@ -48,6 +49,7 @@
 244	KiB	python3-crypt
 242	KiB	kernel-module-omapdrm-6.13.1
 221	KiB	python3-debugger
+221	KiB	libsmartcols1
 211	KiB	python3-html
 207	KiB	python3-doctest
 202	KiB	ca-certificates
@@ -56,6 +58,7 @@
 193	KiB	python3-datetime
 191	KiB	python3-audio
 186	KiB	python3-mailbox
+177	KiB	util-linux-lsblk
 176	KiB	python3-xmlrpc
 171	KiB	python3-curses
 169	KiB	libedit0

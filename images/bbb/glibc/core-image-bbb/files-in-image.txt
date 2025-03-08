@@ -143,7 +143,7 @@ lrwxrwxrwx root       root                8 ./etc/init.d/stop-bootlogd -> bootlo
 drwxr-xr-x root       root             4096 ./etc/inittab.d
 -rw-r--r-- root       root               51 ./etc/issue
 -rw-r--r-- root       root               48 ./etc/issue.net
--rw-r--r-- root       root             2676 ./etc/ld.so.cache
+-rw-r--r-- root       root             2798 ./etc/ld.so.cache
 -rw-r--r-- root       root               33 ./etc/ld.so.conf
 -rw-r--r-- root       root              827 ./etc/limits
 -rw-r--r-- root       root             1999 ./etc/login.access
@@ -564,6 +564,8 @@ lrwxrwxrwx root       root               17 ./lib/libblkid.so.1 -> libblkid.so.1
 -rwxr-xr-x root       root          1429660 ./lib/libc.so.6
 -rwxr-xr-x root       root             5460 ./lib/libdl.so.2
 -rw-r--r-- root       root           111956 ./lib/libgcc_s.so.1
+-rwxr-xr-x root       root           403184 ./lib/libmount.so.1.1.0
+lrwxrwxrwx root       root               17 ./lib/libmount.so.1 -> libmount.so.1.1.0
 -rwxr-xr-x root       root           275856 ./lib/libm.so.6
 -rwxr-xr-x root       root           120056 ./lib/libncurses.so.5.9
 lrwxrwxrwx root       root               17 ./lib/libncurses.so.5 -> libncurses.so.5.9
@@ -576,6 +578,8 @@ lrwxrwxrwx root       root               18 ./lib/libncursesw.so.5 -> libncurses
 -rwxr-xr-x root       root             5464 ./lib/libpthread.so.0
 -rwxr-xr-x root       root            50640 ./lib/libresolv.so.2
 -rwxr-xr-x root       root             5512 ./lib/librt.so.1
+-rwxr-xr-x root       root           226760 ./lib/libsmartcols.so.1.1.0
+lrwxrwxrwx root       root               21 ./lib/libsmartcols.so.1 -> libsmartcols.so.1.1.0
 -rwxr-xr-x root       root           141280 ./lib/libtinfo.so.5.9
 lrwxrwxrwx root       root               15 ./lib/libtinfo.so.5 -> libtinfo.so.5.9
 -rwxr-xr-x root       root             5464 ./lib/libutil.so.1
@@ -1133,6 +1137,7 @@ lrwxrwxrwx root       root               22 ./usr/bin/last -> /usr/bin/last.sysv
 lrwxrwxrwx root       root               19 ./usr/bin/less -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/bin/logger -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/bin/logname -> /bin/busybox.nosuid
+-rwxr-xr-x root       root           181692 ./usr/bin/lsblk
 lrwxrwxrwx root       root               19 ./usr/bin/lzcat -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/bin/md5sum -> /bin/busybox.nosuid
 -rwxr-xr-x root       root             5516 ./usr/bin/mesg.sysvinit
@@ -6073,6 +6078,9 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              576 ./var/lib/opkg/info/liblzma5.control
 -rw-r--r-- root       root              109 ./var/lib/opkg/info/liblzma5.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/liblzma5.postinst
+-rw-r--r-- root       root              432 ./var/lib/opkg/info/libmount1.control
+-rw-r--r-- root       root               88 ./var/lib/opkg/info/libmount1.list
+-rwxr-xr-x root       root               97 ./var/lib/opkg/info/libmount1.postinst
 -rw-r--r-- root       root              420 ./var/lib/opkg/info/libncurses5.control
 -rw-r--r-- root       root               90 ./var/lib/opkg/info/libncurses5.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libncurses5.postinst
@@ -6091,6 +6099,9 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              492 ./var/lib/opkg/info/libpython3.12-1.0.control
 -rw-r--r-- root       root               66 ./var/lib/opkg/info/libpython3.12-1.0.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libpython3.12-1.0.postinst
+-rw-r--r-- root       root              425 ./var/lib/opkg/info/libsmartcols1.control
+-rw-r--r-- root       root              100 ./var/lib/opkg/info/libsmartcols1.list
+-rwxr-xr-x root       root               97 ./var/lib/opkg/info/libsmartcols1.postinst
 -rw-r--r-- root       root              525 ./var/lib/opkg/info/libsolv1.control
 -rw-r--r-- root       root               58 ./var/lib/opkg/info/libsolv1.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libsolv1.postinst
@@ -6313,6 +6324,8 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root               59 ./var/lib/opkg/info/update-rc.d.list
 -rw-r--r-- root       root              381 ./var/lib/opkg/info/util-linux-fcntl-lock.control
 -rw-r--r-- root       root               56 ./var/lib/opkg/info/util-linux-fcntl-lock.list
+-rw-r--r-- root       root              542 ./var/lib/opkg/info/util-linux-lsblk.control
+-rw-r--r-- root       root               51 ./var/lib/opkg/info/util-linux-lsblk.list
 -rw-r--r-- root       root              524 ./var/lib/opkg/info/util-linux-sulogin.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/util-linux-sulogin.list
 -rwxr-xr-x root       root               98 ./var/lib/opkg/info/util-linux-sulogin.postinst
@@ -6321,7 +6334,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root               54 ./var/lib/opkg/info/vim-tiny.list
 -rwxr-xr-x root       root              149 ./var/lib/opkg/info/vim-tiny.postinst
 -rwxr-xr-x root       root              122 ./var/lib/opkg/info/vim-tiny.prerm
--rw-r--r-- root       root           109563 ./var/lib/opkg/status
+-rw-r--r-- root       root           110347 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/urandom
 drwxr-xr-x root       root             4096 ./var/local
 lrwxrwxrwx root       root               11 ./var/lock -> ../run/lock

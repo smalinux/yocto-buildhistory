@@ -141,10 +141,9 @@ lrwxrwxrwx root       root                8 ./etc/init.d/stop-bootlogd -> bootlo
 -rwxr-xr-x root       root             1518 ./etc/init.d/urandom
 -rw-r--r-- root       root             1268 ./etc/inittab
 drwxr-xr-x root       root             4096 ./etc/inittab.d
--rw-r--r-- root       root             1633 ./etc/inputrc
 -rw-r--r-- root       root               51 ./etc/issue
 -rw-r--r-- root       root               48 ./etc/issue.net
--rw-r--r-- root       root             2930 ./etc/ld.so.cache
+-rw-r--r-- root       root             2798 ./etc/ld.so.cache
 -rw-r--r-- root       root               33 ./etc/ld.so.conf
 -rw-r--r-- root       root              827 ./etc/limits
 -rw-r--r-- root       root             1999 ./etc/login.access
@@ -1088,8 +1087,6 @@ lrwxrwxrwx root       root                9 ./usr/bin/2to3 -> 2to3-3.12
 lrwxrwxrwx root       root               19 ./usr/bin/ascii -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/bin/awk -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/bin/basename -> /bin/busybox.nosuid
--rwxr-xr-x root       root            83672 ./usr/bin/bc.bc
-lrwxrwxrwx root       root               14 ./usr/bin/bc -> /usr/bin/bc.bc
 lrwxrwxrwx root       root               19 ./usr/bin/[ -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/bin/[[ -> /bin/busybox.nosuid
 -rwxr-xr-x root       root             9648 ./usr/bin/bsdcat
@@ -1107,8 +1104,7 @@ lrwxrwxrwx root       root               19 ./usr/bin/clear -> /bin/busybox.nosu
 lrwxrwxrwx root       root               19 ./usr/bin/cmp -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/bin/crc32 -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/bin/cut -> /bin/busybox.nosuid
--rwxr-xr-x root       root            42440 ./usr/bin/dc.bc
-lrwxrwxrwx root       root               14 ./usr/bin/dc -> /usr/bin/dc.bc
+lrwxrwxrwx root       root               19 ./usr/bin/dc -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/bin/deallocvt -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/bin/diff -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/bin/dirname -> /bin/busybox.nosuid
@@ -1255,8 +1251,6 @@ lrwxrwxrwx root       root               15 ./usr/lib/libffi.so.8 -> libffi.so.8
 lrwxrwxrwx root       root               23 ./usr/lib/libgdbm_compat.so.4 -> libgdbm_compat.so.4.0.0
 -rwxr-xr-x root       root            58784 ./usr/lib/libgdbm.so.6.0.0
 lrwxrwxrwx root       root               16 ./usr/lib/libgdbm.so.6 -> libgdbm.so.6.0.0
--rwxr-xr-x root       root            38148 ./usr/lib/libhistory.so.8.2
-lrwxrwxrwx root       root               17 ./usr/lib/libhistory.so.8 -> libhistory.so.8.2
 -rwxr-xr-x root       root            71056 ./usr/lib/libkmod.so.2.4.1
 lrwxrwxrwx root       root               16 ./usr/lib/libkmod.so.2 -> libkmod.so.2.4.1
 -rwxr-xr-x root       root           157020 ./usr/lib/liblzma.so.5.4.6
@@ -1268,8 +1262,6 @@ lrwxrwxrwx root       root               16 ./usr/lib/libopkg.so.1 -> libopkg.so
 -rwxr-xr-x root       root             9456 ./usr/lib/libpanelw.so.5.9
 lrwxrwxrwx root       root               16 ./usr/lib/libpanelw.so.5 -> libpanelw.so.5.9
 -rwxr-xr-x root       root          4950232 ./usr/lib/libpython3.12.so.1.0
--rwxr-xr-x root       root           274264 ./usr/lib/libreadline.so.8.2
-lrwxrwxrwx root       root               18 ./usr/lib/libreadline.so.8 -> libreadline.so.8.2
 -rwxr-xr-x root       root           534896 ./usr/lib/libsolv.so.1
 -rwxr-xr-x root       root          1247572 ./usr/lib/libsqlite3.so.0.8.6
 lrwxrwxrwx root       root               19 ./usr/lib/libsqlite3.so.0 -> libsqlite3.so.0.8.6
@@ -1294,7 +1286,6 @@ drwxr-xr-x root       root             4096 ./usr/lib/opkg/alternatives
 -rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/awk
 -rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/base32
 -rw-r--r-- root       root               41 ./usr/lib/opkg/alternatives/basename
--rw-r--r-- root       root               31 ./usr/lib/opkg/alternatives/bc
 -rw-r--r-- root       root               30 ./usr/lib/opkg/alternatives/bin-lsmod
 -rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/blkid
 -rw-r--r-- root       root               40 ./usr/lib/opkg/alternatives/bunzip2
@@ -1317,7 +1308,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/opkg/alternatives
 -rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/crc32
 -rw-r--r-- root       root               36 ./usr/lib/opkg/alternatives/cut
 -rw-r--r-- root       root               33 ./usr/lib/opkg/alternatives/date
--rw-r--r-- root       root               54 ./usr/lib/opkg/alternatives/dc
+-rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/dc
 -rw-r--r-- root       root               31 ./usr/lib/opkg/alternatives/dd
 -rw-r--r-- root       root               42 ./usr/lib/opkg/alternatives/deallocvt
 -rw-r--r-- root       root               42 ./usr/lib/opkg/alternatives/delgroup
@@ -4969,10 +4960,6 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              513 ./var/lib/opkg/info/base-passwd.control
 -rw-r--r-- root       root                0 ./var/lib/opkg/info/base-passwd.list
 -rwxr-xr-x root       root             1439 ./var/lib/opkg/info/base-passwd.preinst
--rw-r--r-- root       root              574 ./var/lib/opkg/info/bc.control
--rw-r--r-- root       root               74 ./var/lib/opkg/info/bc.list
--rwxr-xr-x root       root              147 ./var/lib/opkg/info/bc.postinst
--rwxr-xr-x root       root              115 ./var/lib/opkg/info/bc.prerm
 -rw-r--r-- root       root              967 ./var/lib/opkg/info/busybox.control
 -rw-r--r-- root       root              905 ./var/lib/opkg/info/busybox-hwclock.control
 -rw-r--r-- root       root               62 ./var/lib/opkg/info/busybox-hwclock.list
@@ -6112,10 +6099,6 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              492 ./var/lib/opkg/info/libpython3.12-1.0.control
 -rw-r--r-- root       root               66 ./var/lib/opkg/info/libpython3.12-1.0.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libpython3.12-1.0.postinst
--rw-r--r-- root       root               13 ./var/lib/opkg/info/libreadline8.conffiles
--rw-r--r-- root       root              825 ./var/lib/opkg/info/libreadline8.control
--rw-r--r-- root       root              236 ./var/lib/opkg/info/libreadline8.list
--rwxr-xr-x root       root               97 ./var/lib/opkg/info/libreadline8.postinst
 -rw-r--r-- root       root              425 ./var/lib/opkg/info/libsmartcols1.control
 -rw-r--r-- root       root              100 ./var/lib/opkg/info/libsmartcols1.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libsmartcols1.postinst
@@ -6351,7 +6334,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root               54 ./var/lib/opkg/info/vim-tiny.list
 -rwxr-xr-x root       root              149 ./var/lib/opkg/info/vim-tiny.postinst
 -rwxr-xr-x root       root              122 ./var/lib/opkg/info/vim-tiny.prerm
--rw-r--r-- root       root           110888 ./var/lib/opkg/status
+-rw-r--r-- root       root           110347 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/urandom
 drwxr-xr-x root       root             4096 ./var/local
 lrwxrwxrwx root       root               11 ./var/lock -> ../run/lock

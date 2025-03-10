@@ -44,6 +44,7 @@ libmount1 util-linux-libmount util-linux 2.39.3 394
 python3-logging python3-logging python3 3.12.6 385
 kernel-module-mwifiex-6.13.1 kernel-module-mwifiex-6.13.1 linux-stable 6.13.1 329
 libblkid1 util-linux-libblkid util-linux 2.39.3 318
+libreadline8 readline readline 8.2 307
 kernel-module-brcmfmac-6.13.1 kernel-module-brcmfmac-6.13.1 linux-stable 6.13.1 307
 python3-ctypes python3-ctypes python3 3.12.6 247
 python3-crypt python3-crypt python3 3.12.6 244
@@ -80,6 +81,7 @@ python3-netserver python3-netserver python3 3.12.6 133
 kernel-6.13.1 kernel-base linux-stable 6.13.1 131
 python3-json python3-json python3 3.12.6 126
 kmod kmod kmod 31 126
+bc bc bc 1.07.1 123
 python3-sqlite3 python3-sqlite3 python3 3.12.6 121
 libncurses5 ncurses-libncurses ncurses 6.4 117
 kernel-module-r8152-6.13.1 kernel-module-r8152-6.13.1 linux-stable 6.13.1 114

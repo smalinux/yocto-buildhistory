@@ -1,5 +1,6 @@
 digraph depends {
     node [shape=plaintext]
+"bc" -> "libreadline8"
 "busybox" -> "busybox-udhcpc" [style=dotted]
 "busybox-syslog" -> "busybox"
 "ca-certificates" -> "openssl"
@@ -36,6 +37,7 @@ digraph depends {
 "libopkg1" -> "libsolv1"
 "libpanelw5" -> "libncursesw5"
 "libpanelw5" -> "libtinfo5"
+"libreadline8" -> "libtinfo5"
 "libssl3" -> "libcrypto3"
 "libtinfo5" -> "ncurses-terminfo-base" [style=dotted]
 "openssh-keygen" -> "libcrypto3"

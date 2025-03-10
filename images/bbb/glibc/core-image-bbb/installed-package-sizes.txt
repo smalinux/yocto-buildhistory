@@ -44,6 +44,7 @@
 385	KiB	python3-logging
 329	KiB	kernel-module-mwifiex-6.13.1
 318	KiB	libblkid1
+307	KiB	libreadline8
 307	KiB	kernel-module-brcmfmac-6.13.1
 247	KiB	python3-ctypes
 244	KiB	python3-crypt
@@ -80,6 +81,7 @@
 131	KiB	kernel-6.13.1
 126	KiB	python3-json
 126	KiB	kmod
+123	KiB	bc
 121	KiB	python3-sqlite3
 117	KiB	libncurses5
 114	KiB	kernel-module-r8152-6.13.1

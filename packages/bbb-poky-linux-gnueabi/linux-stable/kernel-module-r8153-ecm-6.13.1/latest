@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = kernel-module-r8153-ecm
 RDEPENDS = kernel-6.13.1 kernel-module-r8152-6.13.1
 RRECOMMENDS = 

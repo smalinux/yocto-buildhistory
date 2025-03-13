@@ -1,7 +1,7 @@
 13535	KiB	python3-pip
 8960	KiB	python3-core
 8253	KiB	udev-hwdb
-7905	KiB	kernel-image-zimage-6.13.1
+7921	KiB	kernel-image-zimage-6.13.1
 6695	KiB	systemd
 4834	KiB	libpython3.12-1.0
 4437	KiB	python3-setuptools

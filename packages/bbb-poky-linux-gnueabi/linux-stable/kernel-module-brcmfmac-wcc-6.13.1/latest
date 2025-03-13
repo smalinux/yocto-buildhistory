@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = kernel-module-brcmfmac-wcc
 RDEPENDS = kernel-6.13.1 kernel-module-brcmfmac-6.13.1
 RRECOMMENDS = 

@@ -7,7 +7,7 @@ drwxr-xr-x root       root             4096 ./boot
 -rw-r--r-- root       root            68663 ./boot/am335x-bonegreen-wireless.dtb
 -rw-r--r-- root       root            68601 ./boot/am335x-pocketbeagle.dtb
 -rw-r--r-- root       root            69525 ./boot/bbb-gen4-4dcape70t.dtb
--rw-r--r-- root       root          8094208 ./boot/zImage-6.13.1
+-rw-r--r-- root       root          8110592 ./boot/zImage-6.13.1
 lrwxrwxrwx root       root               13 ./boot/zImage -> zImage-6.13.1
 drwxr-xr-x root       root             4096 ./data
 drwxr-xr-x root       root             4096 ./dev
@@ -1309,10 +1309,10 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/net/
 -rw-r--r-- root       root             9556 ./usr/lib/modules/6.13.1/kernel/net/xfrm/xfrm_ipcomp.ko
 -rw-r--r-- root       root            64858 ./usr/lib/modules/6.13.1/modules.alias
 -rw-r--r-- root       root            76143 ./usr/lib/modules/6.13.1/modules.alias.bin
--rw-r--r-- root       root            17231 ./usr/lib/modules/6.13.1/modules.builtin
--rw-r--r-- root       root            10797 ./usr/lib/modules/6.13.1/modules.builtin.alias.bin
--rw-r--r-- root       root            19477 ./usr/lib/modules/6.13.1/modules.builtin.bin
--rw-r--r-- root       root           115688 ./usr/lib/modules/6.13.1/modules.builtin.modinfo
+-rw-r--r-- root       root            17262 ./usr/lib/modules/6.13.1/modules.builtin
+-rw-r--r-- root       root            10822 ./usr/lib/modules/6.13.1/modules.builtin.alias.bin
+-rw-r--r-- root       root            19493 ./usr/lib/modules/6.13.1/modules.builtin.bin
+-rw-r--r-- root       root           115898 ./usr/lib/modules/6.13.1/modules.builtin.modinfo
 -rw-r--r-- root       root            17103 ./usr/lib/modules/6.13.1/modules.dep
 -rw-r--r-- root       root            28708 ./usr/lib/modules/6.13.1/modules.dep.bin
 -rw-r--r-- root       root                0 ./usr/lib/modules/6.13.1/modules.devname

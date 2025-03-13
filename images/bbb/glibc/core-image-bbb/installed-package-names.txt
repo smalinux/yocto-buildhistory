@@ -1,6 +1,5 @@
 base-files
 base-passwd
-bc
 busybox
 busybox-hwclock
 busybox-syslog
@@ -308,7 +307,6 @@ libopkg1
 libpanelw5
 libpcre2
 libpython3.12-1.0
-libreadline8
 libsmartcols1
 libsolv1
 libsqlite3-0

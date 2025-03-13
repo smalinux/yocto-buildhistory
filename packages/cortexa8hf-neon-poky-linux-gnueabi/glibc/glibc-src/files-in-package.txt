@@ -1037,11 +1037,11 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/math/
 -rw-r--r-- root       root               63 ./usr/src/debug/glibc/2.39+git/math/w_jnf.c
 -rw-r--r-- root       root             1887 ./usr/src/debug/glibc/2.39+git/math/w_jnf_compat.c
 -rw-r--r-- root       root             1612 ./usr/src/debug/glibc/2.39+git/math/w_jn_template.c
--rw-r--r-- root       root               68 ./usr/src/debug/glibc/2.39+git/math/w_lgamma.c
+-rw-r--r-- root       root              257 ./usr/src/debug/glibc/2.39+git/math/w_lgamma.c
 -rw-r--r-- root       root               51 ./usr/src/debug/glibc/2.39+git/math/w_lgamma_compat2.c
 -rw-r--r-- root       root               51 ./usr/src/debug/glibc/2.39+git/math/w_lgamma_compat.c
 -rw-r--r-- root       root               52 ./usr/src/debug/glibc/2.39+git/math/w_lgamma_compatf.c
--rw-r--r-- root       root               67 ./usr/src/debug/glibc/2.39+git/math/w_lgammaf.c
+-rw-r--r-- root       root              166 ./usr/src/debug/glibc/2.39+git/math/w_lgammaf.c
 -rw-r--r-- root       root               52 ./usr/src/debug/glibc/2.39+git/math/w_lgammaf_compat2.c
 -rw-r--r-- root       root             1217 ./usr/src/debug/glibc/2.39+git/math/w_lgammaf_main.c
 -rw-r--r-- root       root               69 ./usr/src/debug/glibc/2.39+git/math/w_lgammaf_r.c
@@ -1068,9 +1068,9 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/glibc/2.39+git/math/
 -rw-r--r-- root       root             1440 ./usr/src/debug/glibc/2.39+git/math/w_logf_compat.c
 -rw-r--r-- root       root             2303 ./usr/src/debug/glibc/2.39+git/math/w_pow_compat.c
 -rw-r--r-- root       root             1875 ./usr/src/debug/glibc/2.39+git/math/w_powf_compat.c
--rw-r--r-- root       root               71 ./usr/src/debug/glibc/2.39+git/math/w_remainder.c
+-rw-r--r-- root       root              199 ./usr/src/debug/glibc/2.39+git/math/w_remainder.c
 -rw-r--r-- root       root             1380 ./usr/src/debug/glibc/2.39+git/math/w_remainder_compat.c
--rw-r--r-- root       root               70 ./usr/src/debug/glibc/2.39+git/math/w_remainderf.c
+-rw-r--r-- root       root              137 ./usr/src/debug/glibc/2.39+git/math/w_remainderf.c
 -rw-r--r-- root       root             1321 ./usr/src/debug/glibc/2.39+git/math/w_remainderf_compat.c
 -rw-r--r-- root       root             1548 ./usr/src/debug/glibc/2.39+git/math/w_remainder_template.c
 -rw-r--r-- root       root               67 ./usr/src/debug/glibc/2.39+git/math/w_scalb.c

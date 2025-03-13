@@ -1,0 +1,9 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  11 ./sysroot-providers/rauc-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/bin
+-rwxr-xr-x -          -              391536 ./usr/bin/rauc
+drwxr-xr-x -          -                4096 ./usr/share
+drwxr-xr-x -          -                4096 ./usr/share/dbus-1
+drwxr-xr-x -          -                4096 ./usr/share/dbus-1/interfaces
+-rw-r--r-- -          -                5103 ./usr/share/dbus-1/interfaces/de.pengutronix.rauc.Installer.xml

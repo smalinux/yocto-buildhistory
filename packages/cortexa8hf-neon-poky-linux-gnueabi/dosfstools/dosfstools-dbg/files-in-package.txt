@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+drwxr-xr-x root       root             4096 ./usr/sbin/.debug
+-rwxr-xr-x root       root           111484 ./usr/sbin/.debug/fatlabel
+-rwxr-xr-x root       root           186208 ./usr/sbin/.debug/fsck.fat
+-rwxr-xr-x root       root           122204 ./usr/sbin/.debug/mkfs.fat

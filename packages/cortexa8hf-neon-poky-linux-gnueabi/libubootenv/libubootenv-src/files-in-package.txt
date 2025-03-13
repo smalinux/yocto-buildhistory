@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/libubootenv
+drwxr-xr-x root       root             4096 ./usr/src/debug/libubootenv/0.3.5
+drwxr-xr-x root       root             4096 ./usr/src/debug/libubootenv/0.3.5/src
+-rw-r--r-- root       root             5452 ./usr/src/debug/libubootenv/0.3.5/src/fw_printenv.c
+-rw-r--r-- root       root             5812 ./usr/src/debug/libubootenv/0.3.5/src/libuboot.h
+-rw-r--r-- root       root            42506 ./usr/src/debug/libubootenv/0.3.5/src/uboot_env.c
+-rw-r--r-- root       root             3208 ./usr/src/debug/libubootenv/0.3.5/src/uboot_private.h

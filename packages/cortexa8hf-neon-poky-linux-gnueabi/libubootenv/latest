@@ -1,0 +1,8 @@
+PV = 0.3.5
+PR = r0
+DEPENDS = cmake-native libyaml ninja-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc zlib
+PACKAGES = libubootenv-src libubootenv-dbg libubootenv-staticdev libubootenv-dev libubootenv-doc libubootenv-locale libubootenv-bin libubootenv
+LAYER = core
+LICENSE = LGPL-2.1-or-later
+CONFIG = 
+SRC_URI = git://github.com/sbabic/libubootenv;protocol=https;branch=master

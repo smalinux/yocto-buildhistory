@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0
+DEPENDS = 
+PACKAGES = rauc-conf-src rauc-conf-dbg rauc-conf-staticdev rauc-conf-dev rauc-conf-doc rauc-conf-locale rauc-conf
+LAYER = rauc
+LICENSE = MIT
+CONFIG = 
+SRC_URI = file://system.conf file:///home/smalinux/repos/yocto/meta-rauc-bbb/files/rauc-example-keys/ca.cert.pem

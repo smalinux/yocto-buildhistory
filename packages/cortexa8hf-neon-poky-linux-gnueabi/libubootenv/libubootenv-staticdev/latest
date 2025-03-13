@@ -1,0 +1,9 @@
+PV = 0.3.5
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = libubootenv-dev (= 0.3.5-r0.0)
+RRECOMMENDS = 
+PKGSIZE = 100818
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/libubootenv/*.a
+FILELIST = /usr/lib/libubootenv.a

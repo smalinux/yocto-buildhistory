@@ -1,0 +1,9 @@
+PV = 0.3.5
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 56978
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/libubootenv/0.3.5/src/fw_printenv.c /usr/src/debug/libubootenv/0.3.5/src/libuboot.h /usr/src/debug/libubootenv/0.3.5/src/uboot_env.c /usr/src/debug/libubootenv/0.3.5/src/uboot_private.h

@@ -1,5 +1,8 @@
 digraph depends {
     node [shape=plaintext]
+"bc" -> "libc6"
+"bc" -> "libreadline8"
+"bc" -> "update-alternatives-opkg"
 "busybox" -> "busybox-udhcpc" [style=dotted]
 "busybox" -> "libc6"
 "busybox-syslog" -> "busybox"
@@ -790,6 +793,8 @@ digraph depends {
 "libpcre2" -> "libc6"
 "libpython3.12-1.0" -> "libc6"
 "libpython3.12-1.0" -> "libgcc1" [label="libgcc"] [style=dashed]
+"libreadline8" -> "libc6"
+"libreadline8" -> "libtinfo5"
 "libseccomp" -> "libc6"
 "libsmartcols1" -> "libc6"
 "libsolv1" -> "libc6"

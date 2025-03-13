@@ -1,5 +1,6 @@
 base-files
 base-passwd
+bc
 busybox
 busybox-syslog
 busybox-udhcpc
@@ -310,6 +311,7 @@ libpam-runtime
 libpanelw5
 libpcre2
 libpython3.12-1.0
+libreadline8
 libseccomp
 libsmartcols1
 libsolv1

@@ -3,7 +3,7 @@ set -e
 mkdir -p $D/etc
 if [ ! -e $D/etc/passwd ]; then
 	cat << 'EOF' > $D/etc/passwd
-root::0:0:root:/home/root:/bin/sh
+root::0:0:root:/root:/bin/sh
 daemon:*:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:*:2:2:bin:/bin:/usr/sbin/nologin
 sys:*:3:3:sys:/dev:/usr/sbin/nologin

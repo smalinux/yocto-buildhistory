@@ -1,9 +1,3 @@
-drwxr-xr-x root       root             4096 ./etc
-drwxr-xr-x root       root             4096 ./etc/default
-drwxr-xr-x root       root             4096 ./etc/default/volatiles
--rw-r--r-- root       root               44 ./etc/default/volatiles/99_dbus
-drwxr-xr-x root       root             4096 ./etc/init.d
--rwxr-xr-x root       root             2893 ./etc/init.d/dbus-1
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 -rwxr-xr-x root       root             9616 ./usr/bin/dbus-cleanup-sockets

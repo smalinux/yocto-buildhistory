@@ -1,9 +1,9 @@
 PV = 2021.1
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glib-2.0-dev glibc-dev gnome-desktop-testing (= 2021.1-r0.3) libsystemd-dev systemd-dev
+RRECOMMENDS = glib-2.0-dev glibc-dev gnome-desktop-testing (= 2021.1-r0.4) libsystemd-dev systemd-dev
 PKGSIZE = 0
 FILES = /usr/include /usr/lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /usr/lib/*.o /usr/lib/gnome-desktop-testing/*.la /usr/lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = 

@@ -1,8 +1,6 @@
 drwxr-xr-x root       root             4096 ./etc
 drwx------ root       root             4096 ./etc/credstore
 drwx------ root       root             4096 ./etc/credstore.encrypted
-drwxr-xr-x root       root             4096 ./etc/init.d
--rw-r--r-- root       root             1152 ./etc/init.d/README
 drwxr-xr-x root       root             4096 ./etc/modules-load.d
 drwxr-xr-x root       root             4096 ./etc/profile.d
 -rw-r--r-- root       root              288 ./etc/profile.d/systemd-pager.sh
@@ -144,7 +142,6 @@ lrwxrwxrwx root       root               16 ./usr/lib/systemd/system/default.tar
 -rwxr-xr-x root       root             9612 ./usr/lib/systemd/systemd-sulogin-shell
 -rwxr-xr-x root       root            17948 ./usr/lib/systemd/systemd-sysctl
 lrwxrwxrwx root       root               41 ./usr/lib/systemd/systemd-sysroot-fstab-check -> system-generators/systemd-fstab-generator
--rwxr-xr-x root       root             1293 ./usr/lib/systemd/systemd-sysv-install
 -rwxr-xr-x root       root            34288 ./usr/lib/systemd/systemd-timedated
 -rwxr-xr-x root       root            54716 ./usr/lib/systemd/systemd-timesyncd
 -rwxr-xr-x root       root            13708 ./usr/lib/systemd/systemd-time-wait-sync
@@ -388,7 +385,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/systemd/user-preset
 -rw-r--r-- root       root              728 ./usr/lib/systemd/user/systemd-tmpfiles-setup.service
 -rw-r--r-- root       root              453 ./usr/lib/systemd/user/timers.target
 drwxr-xr-x root       root             4096 ./usr/lib/sysusers.d
--rw-r--r-- root       root             1289 ./usr/lib/sysusers.d/basic.conf
+-rw-r--r-- root       root             1284 ./usr/lib/sysusers.d/basic.conf
 -rw-r--r-- root       root              359 ./usr/lib/sysusers.d/README
 -rw-r--r-- root       root              314 ./usr/lib/sysusers.d/systemd-journal.conf
 -rw-r--r-- root       root              341 ./usr/lib/sysusers.d/systemd-network.conf

@@ -1,6 +1,4 @@
 drwxr-xr-x root       root             4096 ./etc
-drwxr-xr-x root       root             4096 ./etc/init.d
--rwxr-xr-x root       root             3191 ./etc/init.d/systemd-udevd
 drwxr-xr-x root       root             4096 ./etc/udev
 drwxr-xr-x root       root             4096 ./etc/udev/hwdb.d
 -rw-r--r-- root       root              865 ./etc/udev/iocost.conf
@@ -9,8 +7,8 @@ drwxr-xr-x root       root             4096 ./etc/udev/rules.d
 -rw-r--r-- root       root              305 ./etc/udev/udev.conf
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root           173972 ./usr/bin/systemd-hwdb
--rwxr-xr-x root       root          1335584 ./usr/bin/udevadm
+-rwxr-xr-x root       root             9656 ./usr/bin/systemd-hwdb
+-rwxr-xr-x root       root           489424 ./usr/bin/udevadm
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/systemd
 drwxr-xr-x root       root             4096 ./usr/lib/systemd/network
@@ -31,12 +29,12 @@ lrwxrwxrwx root       root               31 ./usr/lib/systemd/system/sysinit.tar
 -rw-r--r-- root       root              863 ./usr/lib/systemd/system/systemd-udev-settle.service
 -rw-r--r-- root       root              758 ./usr/lib/systemd/system/systemd-udev-trigger.service
 drwxr-xr-x root       root             4096 ./usr/lib/udev
--rwxr-xr-x root       root           100024 ./usr/lib/udev/ata_id
--rwxr-xr-x root       root           112320 ./usr/lib/udev/cdrom_id
--rwxr-xr-x root       root           104128 ./usr/lib/udev/dmi_memory_id
--rwxr-xr-x root       root           161544 ./usr/lib/udev/fido_id
--rwxr-xr-x root       root           190312 ./usr/lib/udev/iocost
--rwxr-xr-x root       root            46760 ./usr/lib/udev/mtd_probe
+-rwxr-xr-x root       root            13744 ./usr/lib/udev/ata_id
+-rwxr-xr-x root       root            21940 ./usr/lib/udev/cdrom_id
+-rwxr-xr-x root       root            17848 ./usr/lib/udev/dmi_memory_id
+-rwxr-xr-x root       root            13744 ./usr/lib/udev/fido_id
+-rwxr-xr-x root       root            17920 ./usr/lib/udev/iocost
+-rwxr-xr-x root       root             9652 ./usr/lib/udev/mtd_probe
 drwxr-xr-x root       root             4096 ./usr/lib/udev/rules.d
 -rw-r--r-- root       root             5361 ./usr/lib/udev/rules.d/50-udev-default.rules
 -rw-r--r-- root       root              704 ./usr/lib/udev/rules.d/60-autosuspend.rules
@@ -72,8 +70,8 @@ drwxr-xr-x root       root             4096 ./usr/lib/udev/rules.d
 -rw-r--r-- root       root              769 ./usr/lib/udev/rules.d/90-iocost.rules
 -rw-r--r-- root       root              518 ./usr/lib/udev/rules.d/90-vconsole.rules
 -rw-r--r-- root       root              435 ./usr/lib/udev/rules.d/README
--rwxr-xr-x root       root           108728 ./usr/lib/udev/scsi_id
--rwxr-xr-x root       root            46756 ./usr/lib/udev/v4l_id
+-rwxr-xr-x root       root            26548 ./usr/lib/udev/scsi_id
+-rwxr-xr-x root       root             9648 ./usr/lib/udev/v4l_id
 drwxr-xr-x root       root             4096 ./usr/sbin
 lrwxrwxrwx root       root               16 ./usr/sbin/udevadm -> /usr/bin/udevadm
 lrwxrwxrwx root       root               30 ./usr/sbin/udevd -> /usr/lib/systemd/systemd-udevd

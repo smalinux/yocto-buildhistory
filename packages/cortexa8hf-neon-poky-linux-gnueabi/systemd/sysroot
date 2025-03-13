@@ -148,7 +148,6 @@ lrwxrwxrwx -          -                  16 ./usr/lib/systemd/system/default.tar
 -rwxr-xr-x -          -                9528 ./usr/lib/systemd/systemd-sulogin-shell
 -rwxr-xr-x -          -               17872 ./usr/lib/systemd/systemd-sysctl
 lrwxrwxrwx -          -                  41 ./usr/lib/systemd/systemd-sysroot-fstab-check -> system-generators/systemd-fstab-generator
--rwxr-xr-x -          -                1293 ./usr/lib/systemd/systemd-sysv-install
 -rwxr-xr-x -          -               34208 ./usr/lib/systemd/systemd-timedated
 -rwxr-xr-x -          -               54636 ./usr/lib/systemd/systemd-timesyncd
 -rwxr-xr-x -          -               13624 ./usr/lib/systemd/systemd-time-wait-sync
@@ -433,7 +432,7 @@ drwxr-xr-x -          -                4096 ./usr/lib/systemd/user-preset
 -rw-r--r-- -          -                 728 ./usr/lib/systemd/user/systemd-tmpfiles-setup.service
 -rw-r--r-- -          -                 453 ./usr/lib/systemd/user/timers.target
 drwxr-xr-x -          -                4096 ./usr/lib/sysusers.d
--rw-r--r-- -          -                1289 ./usr/lib/sysusers.d/basic.conf
+-rw-r--r-- -          -                1284 ./usr/lib/sysusers.d/basic.conf
 -rw-r--r-- -          -                 359 ./usr/lib/sysusers.d/README
 -rw-r--r-- -          -                 314 ./usr/lib/sysusers.d/systemd-journal.conf
 -rw-r--r-- -          -                 341 ./usr/lib/sysusers.d/systemd-network.conf
@@ -458,10 +457,10 @@ drwxr-xr-x -          -                4096 ./usr/lib/tmpfiles.d
 -rw-r--r-- -          -                 568 ./usr/lib/tmpfiles.d/var.conf
 -rw-r--r-- -          -                 617 ./usr/lib/tmpfiles.d/x11.conf
 drwxr-xr-x -          -                4096 ./usr/lib/udev
--rwxr-xr-x -          -               99956 ./usr/lib/udev/ata_id
--rwxr-xr-x -          -              112248 ./usr/lib/udev/cdrom_id
--rwxr-xr-x -          -              104052 ./usr/lib/udev/dmi_memory_id
--rwxr-xr-x -          -              161476 ./usr/lib/udev/fido_id
+-rwxr-xr-x -          -               13676 ./usr/lib/udev/ata_id
+-rwxr-xr-x -          -               21868 ./usr/lib/udev/cdrom_id
+-rwxr-xr-x -          -               17772 ./usr/lib/udev/dmi_memory_id
+-rwxr-xr-x -          -               13676 ./usr/lib/udev/fido_id
 drwxr-xr-x -          -                4096 ./usr/lib/udev/hwdb.d
 -rw-r--r-- -          -              155058 ./usr/lib/udev/hwdb.d/20-acpi-vendor.hwdb
 -rw-r--r-- -          -              140340 ./usr/lib/udev/hwdb.d/20-bluetooth-vendor-product.hwdb
@@ -494,8 +493,8 @@ drwxr-xr-x -          -                4096 ./usr/lib/udev/hwdb.d
 -rw-r--r-- -          -                2072 ./usr/lib/udev/hwdb.d/70-touchpad.hwdb
 -rw-r--r-- -          -               50309 ./usr/lib/udev/hwdb.d/80-ieee1394-unit-function.hwdb
 -rw-r--r-- -          -                 518 ./usr/lib/udev/hwdb.d/README
--rwxr-xr-x -          -              190244 ./usr/lib/udev/iocost
--rwxr-xr-x -          -               46688 ./usr/lib/udev/mtd_probe
+-rwxr-xr-x -          -               17852 ./usr/lib/udev/iocost
+-rwxr-xr-x -          -                9580 ./usr/lib/udev/mtd_probe
 drwxr-xr-x -          -                4096 ./usr/lib/udev/rules.d
 -rw-r--r-- -          -                5361 ./usr/lib/udev/rules.d/50-udev-default.rules
 -rw-r--r-- -          -                 704 ./usr/lib/udev/rules.d/60-autosuspend.rules
@@ -535,8 +534,8 @@ drwxr-xr-x -          -                4096 ./usr/lib/udev/rules.d
 -rw-r--r-- -          -                 518 ./usr/lib/udev/rules.d/90-vconsole.rules
 -rw-r--r-- -          -                5103 ./usr/lib/udev/rules.d/99-systemd.rules
 -rw-r--r-- -          -                 435 ./usr/lib/udev/rules.d/README
--rwxr-xr-x -          -              108660 ./usr/lib/udev/scsi_id
--rwxr-xr-x -          -               46688 ./usr/lib/udev/v4l_id
+-rwxr-xr-x -          -               26480 ./usr/lib/udev/scsi_id
+-rwxr-xr-x -          -                9580 ./usr/lib/udev/v4l_id
 drwxr-xr-x -          -                4096 ./usr/share
 drwxr-xr-x -          -                4096 ./usr/share/dbus-1
 drwxr-xr-x -          -                4096 ./usr/share/dbus-1/services

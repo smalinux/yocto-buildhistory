@@ -1,0 +1,9 @@
+PV = 1.35
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.39+git2+e8f5217097) tar
+RRECOMMENDS = ptest-runner
+PKGSIZE = 1508398
+FILES = /usr/lib/tar/ptest
+FILELIST = /usr/lib/tar/ptest/run-ptest /usr/lib/tar/ptest/tests/atconfig /usr/lib/tar/ptest/tests/atlocal /usr/lib/tar/ptest/tests/checkseekhole /usr/lib/tar/ptest/tests/ckmtime /usr/lib/tar/ptest/tests/genfile /usr/lib/tar/ptest/tests/testsuite

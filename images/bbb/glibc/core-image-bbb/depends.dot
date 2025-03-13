@@ -15,6 +15,7 @@ digraph depends {
 "dbus-1" -> "libc6"
 "dbus-1" -> "libdbus-1-3"
 "dbus-1" -> "libexpat1"
+"dbus-1" -> "libsystemd0"
 "dbus-1" -> "libx11-6"
 "dbus-1" -> "update-rc.d" [style=dotted]
 "dbus-common" -> "base-files"
@@ -22,17 +23,18 @@ digraph depends {
 "dbus-common" -> "shadow"
 "dbus-tools" -> "libc6"
 "dbus-tools" -> "libdbus-1-3"
-"eudev" -> "kmod"
-"eudev" -> "libblkid1"
-"eudev" -> "libc6"
-"eudev" -> "libkmod2"
-"eudev" -> "update-rc.d" [style=dotted]
+"e2fsprogs-e2fsck" -> "libblkid1"
+"e2fsprogs-e2fsck" -> "libc6"
+"e2fsprogs-e2fsck" -> "libcom-err2"
+"e2fsprogs-e2fsck" -> "libe2p2"
+"e2fsprogs-e2fsck" -> "libext2fs2"
+"e2fsprogs-e2fsck" -> "libuuid1"
 "hello" -> "libc6"
 "init-ifupdown" -> "netbase"
 "init-ifupdown" -> "update-rc.d" [style=dotted]
-"initscripts" -> "initscripts-functions" [label="initd-functions"] [style=dashed]
-"initscripts" -> "initscripts-functions" [style=dotted]
-"initscripts" -> "init-system-helpers-service"
+"kbd-keymaps" -> "kbd-keymaps-pine" [style=dotted]
+"kbd" -> "libc6"
+"kbd" -> "update-alternatives-opkg"
 "kernel-6.13.1" -> "kernel-image-6.13.1" [style=dotted]
 "kernel-image-6.13.1" -> "kernel-image-zimage-6.13.1"
 "kernel-module-adv7511-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
@@ -725,6 +727,8 @@ digraph depends {
 "libblkid1" -> "libc6"
 "libbz2-1" -> "libc6"
 "libc6" -> "ldconfig" [style=dotted]
+"libcap" -> "libc6"
+"libcom-err2" -> "libc6"
 "libcrypt2" -> "libc6"
 "libcrypto3" -> "libc6"
 "libcrypto3" -> "openssl-conf" [style=dotted]
@@ -738,10 +742,15 @@ digraph depends {
 "libcurl4" -> "libz1"
 "libdbus-1-3" -> "dbus" [style=dotted]
 "libdbus-1-3" -> "libc6"
+"libdbus-1-3" -> "libsystemd0"
+"libe2p2" -> "libc6"
 "libedit0" -> "libc6"
 "libedit0" -> "libncurses5"
 "libedit0" -> "libtinfo5"
 "libexpat1" -> "libc6"
+"libext2fs2" -> "libblkid1"
+"libext2fs2" -> "libc6"
+"libext2fs2" -> "libcom-err2"
 "libfdisk1" -> "libblkid1"
 "libfdisk1" -> "libc6"
 "libfdisk1" -> "libuuid1"
@@ -779,15 +788,31 @@ digraph depends {
 "libnl-genl-3-200" -> "libnl-3-200"
 "libnsl3" -> "libc6"
 "libnsl3" -> "libtirpc3"
+"libnss-myhostname2" -> "libc6"
+"libnss-myhostname2" -> "libcap"
+"libnss-systemd2" -> "libc6"
+"libnss-systemd2" -> "libcap"
+"libnss-systemd2" -> "libcrypt2"
 "libopkg1" -> "libarchive"
 "libopkg1" -> "libc6"
 "libopkg1" -> "libsolv1"
+"libpam" -> "libc6"
+"libpam" -> "libpam-runtime-suffix" [style=dotted]
+"libpam-runtime" -> "libc6"
+"libpam-runtime" -> "libcrypt2"
+"libpam-runtime" -> "libpam"
+"libpam-runtime" -> "libpam" [label="libpam-suffix"] [style=dashed]
+"libpam-runtime" -> "pam-plugin-deny" [label="pam-plugin-deny-suffix"] [style=dashed]
+"libpam-runtime" -> "pam-plugin-permit" [label="pam-plugin-permit-suffix"] [style=dashed]
+"libpam-runtime" -> "pam-plugin-unix" [label="pam-plugin-unix-suffix"] [style=dashed]
+"libpam-runtime" -> "pam-plugin-warn" [label="pam-plugin-warn-suffix"] [style=dashed]
 "libpanelw5" -> "libc6"
 "libpanelw5" -> "libncursesw5"
 "libpanelw5" -> "libtinfo5"
 "libpcre2" -> "libc6"
 "libpython3.12-1.0" -> "libc6"
 "libpython3.12-1.0" -> "libgcc1" [label="libgcc"] [style=dashed]
+"libseccomp" -> "libc6"
 "libsmartcols1" -> "libc6"
 "libsolv1" -> "libc6"
 "libsqlite3-0" -> "libc6"
@@ -795,6 +820,18 @@ digraph depends {
 "libssl3" -> "libcrypto3"
 "libstdc++6" -> "libc6"
 "libstdc++6" -> "libgcc1"
+"libsystemd0" -> "libc6"
+"libsystemd0" -> "libcap"
+"libsystemd0" -> "libzstd1"
+"libsystemd-shared" -> "libacl1"
+"libsystemd-shared" -> "libblkid1"
+"libsystemd-shared" -> "libc6"
+"libsystemd-shared" -> "libcap"
+"libsystemd-shared" -> "libcrypt2"
+"libsystemd-shared" -> "libkmod2"
+"libsystemd-shared" -> "libmount1"
+"libsystemd-shared" -> "libseccomp"
+"libsystemd-shared" -> "libzstd1"
 "libtinfo5" -> "libc6"
 "libtinfo5" -> "ncurses-terminfo-base" [style=dotted]
 "libtirpc3" -> "libc6"
@@ -859,16 +896,31 @@ digraph depends {
 "packagegroup-core-boot" -> "busybox"
 "packagegroup-core-boot" -> "busybox-hwclock"
 "packagegroup-core-boot" -> "busybox-syslog" [style=dotted]
-"packagegroup-core-boot" -> "eudev" [label="udev"] [style=dashed]
 "packagegroup-core-boot" -> "init-ifupdown" [style=dotted]
-"packagegroup-core-boot" -> "initscripts"
 "packagegroup-core-boot" -> "kernel-devicetree"
 "packagegroup-core-boot" -> "kernel-image-6.13.1" [label="kernel-image"] [style=dashed]
 "packagegroup-core-boot" -> "kernel-modules"
 "packagegroup-core-boot" -> "modutils-initscripts"
 "packagegroup-core-boot" -> "netbase"
-"packagegroup-core-boot" -> "sysvinit"
+"packagegroup-core-boot" -> "systemd"
+"packagegroup-core-boot" -> "systemd-compat-units"
+"packagegroup-core-boot" -> "udev"
 "packagegroup-core-boot" -> "update-alternatives-opkg"
+"pam-plugin-deny" -> "libpam"
+"pam-plugin-deny" -> "libpam" [label="libpam-suffix"] [style=dashed]
+"pam-plugin-permit" -> "libc6"
+"pam-plugin-permit" -> "libpam"
+"pam-plugin-permit" -> "libpam" [label="libpam-suffix"] [style=dashed]
+"pam-plugin-umask" -> "libc6"
+"pam-plugin-umask" -> "libpam"
+"pam-plugin-umask" -> "libpam" [label="libpam-suffix"] [style=dashed]
+"pam-plugin-unix" -> "libc6"
+"pam-plugin-unix" -> "libcrypt2"
+"pam-plugin-unix" -> "libpam"
+"pam-plugin-unix" -> "libpam" [label="libpam-suffix"] [style=dashed]
+"pam-plugin-warn" -> "libc6"
+"pam-plugin-warn" -> "libpam"
+"pam-plugin-warn" -> "libpam" [label="libpam-suffix"] [style=dashed]
 "python3-2to3" -> "python3-core"
 "python3-asyncio" -> "libc6"
 "python3-asyncio" -> "python3-core"
@@ -1213,24 +1265,93 @@ digraph depends {
 "squashfs-tools" -> "libz1"
 "squashfs-tools" -> "libzstd1"
 "squashfs-tools" -> "lz4"
-"sysvinit" -> "base-passwd"
-"sysvinit" -> "initscripts-functions" [label="initd-functions"] [style=dashed]
-"sysvinit-inittab" -> "ttyrun"
-"sysvinit" -> "libc6"
-"sysvinit-pidof" -> "libc6"
-"sysvinit-pidof" -> "update-alternatives-opkg"
-"sysvinit" -> "sysvinit-inittab"
-"sysvinit" -> "sysvinit-pidof"
-"sysvinit" -> "update-alternatives-opkg"
-"ttyrun" -> "libc6"
+"systemd" -> "base-files"
+"systemd" -> "base-passwd"
+"systemd-compat-units" -> "systemd"
+"systemd" -> "dbus-1" [label="dbus"] [style=dashed]
+"systemd" -> "e2fsprogs-e2fsck" [style=dotted]
+"systemd-extra-utils" -> "libc6"
+"systemd-extra-utils" -> "libsystemd-shared"
+"systemd" -> "kernel-module-autofs4" [style=dotted]
+"systemd" -> "kernel-module-ipv6" [style=dotted]
+"systemd" -> "kernel-module-sch-fq-codel" [style=dotted]
+"systemd" -> "kernel-module-unix" [style=dotted]
+"systemd" -> "kmod"
+"systemd" -> "ldconfig"
+"systemd" -> "libacl1"
+"systemd" -> "libc6"
+"systemd" -> "libkmod2"
+"systemd" -> "libmount1"
+"systemd" -> "libnss-myhostname2" [label="libnss-myhostname"] [style=dashed]
+"systemd" -> "libnss-systemd2" [label="libnss-systemd"] [style=dashed]
+"systemd" -> "libseccomp"
+"systemd" -> "libsystemd-shared"
+"systemd" -> "os-release" [style=dotted]
+"systemd" -> "pam-plugin-umask" [style=dotted]
+"systemd" -> "shadow"
+"systemd" -> "systemd-compat-units"
+"systemd" -> "systemd-conf" [style=dotted]
+"systemd" -> "systemd-crypt" [style=dotted]
+"systemd" -> "systemd-extra-utils" [style=dotted]
+"systemd" -> "systemd-serialgetty"
+"systemd" -> "systemd-udev-rules"
+"systemd" -> "systemd-vconsole-setup"
+"systemd" -> "udev"
+"systemd" -> "udev-hwdb" [style=dotted]
+"systemd" -> "update-alternatives-opkg"
+"systemd" -> "update-rc.d"
+"systemd" -> "util-linux-agetty"
+"systemd" -> "util-linux-fsck"
+"systemd" -> "util-linux-mount"
+"systemd" -> "util-linux-swaponoff"
+"systemd" -> "util-linux-umount"
+"systemd-vconsole-setup" -> "kbd"
+"systemd-vconsole-setup" -> "kbd-consolefonts"
+"systemd-vconsole-setup" -> "kbd-keymaps"
+"systemd-vconsole-setup" -> "libc6"
+"systemd-vconsole-setup" -> "libsystemd-shared"
+"systemd" -> "volatile-binds"
+"udev" -> "base-files"
+"udev" -> "base-passwd"
+"udev-hwdb" -> "udev"
+"udev" -> "libacl1"
+"udev" -> "libblkid1"
+"udev" -> "libc6"
+"udev" -> "libcap"
+"udev" -> "libkmod2"
+"udev" -> "shadow"
+"udev" -> "update-rc.d" [style=dotted]
+"util-linux-agetty" -> "libc6"
+"util-linux-agetty" -> "update-alternatives-opkg"
 "util-linux-fcntl-lock" -> "libc6"
+"util-linux-fsck" -> "libblkid1"
+"util-linux-fsck" -> "libc6"
+"util-linux-fsck" -> "libmount1"
+"util-linux-fsck" -> "update-alternatives-opkg"
 "util-linux-lsblk" -> "libblkid1"
 "util-linux-lsblk" -> "libc6"
 "util-linux-lsblk" -> "libmount1"
 "util-linux-lsblk" -> "libsmartcols1"
+"util-linux-mount" -> "libc6"
+"util-linux-mount" -> "libmount1"
+"util-linux-mount" -> "update-alternatives-opkg"
 "util-linux-sulogin" -> "libc6"
 "util-linux-sulogin" -> "libcrypt2"
 "util-linux-sulogin" -> "update-alternatives-opkg"
+"util-linux-swapoff" -> "libblkid1"
+"util-linux-swapoff" -> "libc6"
+"util-linux-swapoff" -> "libmount1"
+"util-linux-swapoff" -> "update-alternatives-opkg"
+"util-linux-swapon" -> "libblkid1"
+"util-linux-swapon" -> "libc6"
+"util-linux-swapon" -> "libmount1"
+"util-linux-swapon" -> "libsmartcols1"
+"util-linux-swaponoff" -> "util-linux-swapoff"
+"util-linux-swaponoff" -> "util-linux-swapon"
+"util-linux-swapon" -> "update-alternatives-opkg"
+"util-linux-umount" -> "libc6"
+"util-linux-umount" -> "libmount1"
+"util-linux-umount" -> "update-alternatives-opkg"
 "vim-tiny" -> "libc6"
 "vim-tiny" -> "libtinfo5"
 "vim-tiny" -> "update-alternatives-opkg"

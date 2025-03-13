@@ -1,9 +1,9 @@
 PV = 3.6.3
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
-PKGSIZE = 59460
+PKGSIZE = 59468
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
 FILELIST = /usr/sbin/.debug/update-passwd

@@ -1,11 +1,9 @@
-drwxr-xr-x root       root             4096 ./bin
--rwxr-xr-x root       root            13752 ./bin/kill.procps
--rwxr-xr-x root       root            13756 ./bin/pidof.procps
--rwxr-xr-x root       root            22172 ./bin/watch.procps
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 -rwxr-xr-x root       root            17848 ./usr/bin/free.procps
+-rwxr-xr-x root       root            13752 ./usr/bin/kill.procps
 -rwxr-xr-x root       root            30216 ./usr/bin/pgrep.procps
+-rwxr-xr-x root       root            13756 ./usr/bin/pidof.procps
 -rwxr-xr-x root       root            30208 ./usr/bin/pidwait
 -rwxr-xr-x root       root            30216 ./usr/bin/pkill.procps
 -rwxr-xr-x root       root            26064 ./usr/bin/pmap.procps
@@ -17,4 +15,5 @@ drwxr-xr-x root       root             4096 ./usr/bin
 -rwxr-xr-x root       root           133388 ./usr/bin/top.procps
 -rwxr-xr-x root       root             9660 ./usr/bin/uptime.procps
 -rwxr-xr-x root       root            30460 ./usr/bin/vmstat
--rwxr-xr-x root       root            17864 ./usr/bin/w.procps
+-rwxr-xr-x root       root            22172 ./usr/bin/watch.procps
+-rwxr-xr-x root       root            21960 ./usr/bin/w.procps

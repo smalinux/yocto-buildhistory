@@ -1,9 +1,9 @@
 PV = 31
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libcrypto-dbg liblzma-dbg zlib-dbg
-PKGSIZE = 876680
+PKGSIZE = 876688
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /bin/.debug/kmod /usr/lib/.debug/libkmod.so.2.4.1
+FILELIST = /usr/bin/.debug/kmod /usr/lib/.debug/libkmod.so.2.4.1

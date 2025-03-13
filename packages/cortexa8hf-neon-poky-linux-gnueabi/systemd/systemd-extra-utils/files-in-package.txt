@@ -1,0 +1,45 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            13860 ./usr/bin/systemd-ask-password
+-rwxr-xr-x root       root            13760 ./usr/bin/systemd-cat
+-rwxr-xr-x root       root            13836 ./usr/bin/systemd-cgls
+-rwxr-xr-x root       root            30180 ./usr/bin/systemd-cgtop
+-rwxr-xr-x root       root            30336 ./usr/bin/systemd-creds
+-rwxr-xr-x root       root            17852 ./usr/bin/systemd-delta
+-rwxr-xr-x root       root             9660 ./usr/bin/systemd-detect-virt
+-rwxr-xr-x root       root            63100 ./usr/bin/systemd-dissect
+-rwxr-xr-x root       root            13752 ./usr/bin/systemd-escape
+-rwxr-xr-x root       root            13764 ./usr/bin/systemd-inhibit
+-rwxr-xr-x root       root            13752 ./usr/bin/systemd-path
+-rwxr-xr-x root       root            59044 ./usr/bin/systemd-run
+-rwxr-xr-x root       root            13764 ./usr/bin/systemd-stdio-bridge
+-rwxr-xr-x root       root            21964 ./usr/bin/systemd-tty-ask-password-agent
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/systemd
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/system
+-rwxr-xr-x root       root             5516 ./usr/lib/systemd/systemd-cgroups-agent
+-rwxr-xr-x root       root            13752 ./usr/lib/systemd/systemd-initctl
+-rwxr-xr-x root       root             9612 ./usr/lib/systemd/systemd-reply-password
+-rwxr-xr-x root       root            34236 ./usr/lib/systemd/systemd-sleep
+-rwxr-xr-x root       root            21968 ./usr/lib/systemd/systemd-socket-proxyd
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/system-generators
+-rwxr-xr-x root       root            22040 ./usr/lib/systemd/system-generators/systemd-gpt-auto-generator
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/system/multi-user.target.wants
+lrwxrwxrwx root       root               33 ./usr/lib/systemd/system/multi-user.target.wants/systemd-ask-password-wall.path -> ../systemd-ask-password-wall.path
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/system-sleep
+-rw-r--r-- root       root              468 ./usr/lib/systemd/system/sleep.target
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/system/sockets.target.wants
+lrwxrwxrwx root       root               25 ./usr/lib/systemd/system/sockets.target.wants/systemd-initctl.socket -> ../systemd-initctl.socket
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/system/sysinit.target.wants
+lrwxrwxrwx root       root               36 ./usr/lib/systemd/system/sysinit.target.wants/systemd-ask-password-console.path -> ../systemd-ask-password-console.path
+-rw-r--r-- root       root              771 ./usr/lib/systemd/system/systemd-ask-password-console.path
+-rw-r--r-- root       root              834 ./usr/lib/systemd/system/systemd-ask-password-console.service
+-rw-r--r-- root       root              695 ./usr/lib/systemd/system/systemd-ask-password-wall.path
+-rw-r--r-- root       root              747 ./usr/lib/systemd/system/systemd-ask-password-wall.service
+-rw-r--r-- root       root              562 ./usr/lib/systemd/system/systemd-hibernate.service
+-rw-r--r-- root       root              583 ./usr/lib/systemd/system/systemd-hybrid-sleep.service
+-rw-r--r-- root       root              578 ./usr/lib/systemd/system/systemd-initctl.service
+-rw-r--r-- root       root              553 ./usr/lib/systemd/system/systemd-initctl.socket
+-rw-r--r-- root       root              556 ./usr/lib/systemd/system/systemd-suspend.service
+drwxr-xr-x root       root             4096 ./usr/sbin
+lrwxrwxrwx root       root               22 ./usr/sbin/mount.ddi -> ../bin/systemd-dissect

@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/udev
+drwxr-xr-x root       root             4096 ./usr/lib/udev/rules.d
+-rw-r--r-- root       root             3311 ./usr/lib/udev/rules.d/70-uaccess.rules
+-rw-r--r-- root       root             3818 ./usr/lib/udev/rules.d/71-seat.rules
+-rw-r--r-- root       root              643 ./usr/lib/udev/rules.d/73-seat-late.rules
+-rw-r--r-- root       root             5103 ./usr/lib/udev/rules.d/99-systemd.rules

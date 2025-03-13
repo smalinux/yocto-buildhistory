@@ -1,3 +1,10 @@
 drwxr-xr-x root       root             4096 ./etc
 drwxr-xr-x root       root             4096 ./etc/init.d
 -rwxr-xr-x root       root              397 ./etc/init.d/rauc-mark-good
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/systemd
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/system
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/system-preset
+-rw-r--r-- root       root               30 ./usr/lib/systemd/system-preset/98-rauc-mark-good.preset
+-rw-r--r-- root       root              333 ./usr/lib/systemd/system/rauc-mark-good.service

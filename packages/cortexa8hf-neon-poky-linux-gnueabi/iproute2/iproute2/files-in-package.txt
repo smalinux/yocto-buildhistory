@@ -1,6 +1,7 @@
-drwxr-xr-x root       root             4096 ./sbin
--rwxr-xr-x root       root           144928 ./sbin/bridge
--rwxr-xr-x root       root            91632 ./sbin/rtmon
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root           144928 ./usr/sbin/bridge
+-rwxr-xr-x root       root            91632 ./usr/sbin/rtmon
 drwxr-xr-x root       root             4096 ./var
 drwxr-xr-x root       root             4096 ./var/lib
 drwxr-xr-x root       root             4096 ./var/lib/arpd

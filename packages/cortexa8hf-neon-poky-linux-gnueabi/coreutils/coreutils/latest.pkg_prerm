@@ -71,32 +71,32 @@ set -e
 	update-alternatives --remove  who /usr/bin/who.coreutils
 	update-alternatives --remove  whoami /usr/bin/whoami.coreutils
 	update-alternatives --remove  yes /usr/bin/yes.coreutils
-	update-alternatives --remove  cat /bin/cat.coreutils
-	update-alternatives --remove  chgrp /bin/chgrp.coreutils
-	update-alternatives --remove  chmod /bin/chmod.coreutils
-	update-alternatives --remove  chown /bin/chown.coreutils
-	update-alternatives --remove  cp /bin/cp.coreutils
-	update-alternatives --remove  date /bin/date.coreutils
-	update-alternatives --remove  dd /bin/dd.coreutils
-	update-alternatives --remove  echo /bin/echo.coreutils
-	update-alternatives --remove  false /bin/false.coreutils
-	update-alternatives --remove  hostname /bin/hostname.coreutils
-	update-alternatives --remove  kill /bin/kill.coreutils
-	update-alternatives --remove  ln /bin/ln.coreutils
-	update-alternatives --remove  ls /bin/ls.coreutils
-	update-alternatives --remove  mkdir /bin/mkdir.coreutils
-	update-alternatives --remove  mknod /bin/mknod.coreutils
-	update-alternatives --remove  mv /bin/mv.coreutils
-	update-alternatives --remove  pwd /bin/pwd.coreutils
-	update-alternatives --remove  rm /bin/rm.coreutils
-	update-alternatives --remove  rmdir /bin/rmdir.coreutils
-	update-alternatives --remove  sleep /bin/sleep.coreutils
-	update-alternatives --remove  stty /bin/stty.coreutils
-	update-alternatives --remove  sync /bin/sync.coreutils
-	update-alternatives --remove  touch /bin/touch.coreutils
-	update-alternatives --remove  true /bin/true.coreutils
-	update-alternatives --remove  uname /bin/uname.coreutils
-	update-alternatives --remove  stat /bin/stat.coreutils
+	update-alternatives --remove  cat /usr/bin/cat.coreutils
+	update-alternatives --remove  chgrp /usr/bin/chgrp.coreutils
+	update-alternatives --remove  chmod /usr/bin/chmod.coreutils
+	update-alternatives --remove  chown /usr/bin/chown.coreutils
+	update-alternatives --remove  cp /usr/bin/cp.coreutils
+	update-alternatives --remove  date /usr/bin/date.coreutils
+	update-alternatives --remove  dd /usr/bin/dd.coreutils
+	update-alternatives --remove  echo /usr/bin/echo.coreutils
+	update-alternatives --remove  false /usr/bin/false.coreutils
+	update-alternatives --remove  hostname /usr/bin/hostname.coreutils
+	update-alternatives --remove  kill /usr/bin/kill.coreutils
+	update-alternatives --remove  ln /usr/bin/ln.coreutils
+	update-alternatives --remove  ls /usr/bin/ls.coreutils
+	update-alternatives --remove  mkdir /usr/bin/mkdir.coreutils
+	update-alternatives --remove  mknod /usr/bin/mknod.coreutils
+	update-alternatives --remove  mv /usr/bin/mv.coreutils
+	update-alternatives --remove  pwd /usr/bin/pwd.coreutils
+	update-alternatives --remove  rm /usr/bin/rm.coreutils
+	update-alternatives --remove  rmdir /usr/bin/rmdir.coreutils
+	update-alternatives --remove  sleep /usr/bin/sleep.coreutils
+	update-alternatives --remove  stty /usr/bin/stty.coreutils
+	update-alternatives --remove  sync /usr/bin/sync.coreutils
+	update-alternatives --remove  touch /usr/bin/touch.coreutils
+	update-alternatives --remove  true /usr/bin/true.coreutils
+	update-alternatives --remove  uname /usr/bin/uname.coreutils
+	update-alternatives --remove  stat /usr/bin/stat.coreutils
 	update-alternatives --remove  chroot /usr/sbin/chroot.coreutils
 	update-alternatives --remove  base32 /usr/bin/base32.coreutils
 	update-alternatives --remove  base64 /usr/bin/base64.coreutils

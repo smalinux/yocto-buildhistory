@@ -1,7 +1,7 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 drwxr-xr-x root       root             4096 ./usr/bin/.debug
--rwxr-xr-x root       root          1101168 ./usr/bin/.debug/lz4
+-rwxr-xr-x root       root          1101176 ./usr/bin/.debug/lz4
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
 -rwxr-xr-x root       root           845480 ./usr/lib/.debug/liblz4.so.1.9.4
@@ -9,4 +9,4 @@ drwxr-xr-x root       root             4096 ./usr/lib/lz4
 drwxr-xr-x root       root             4096 ./usr/lib/lz4/ptest
 drwxr-xr-x root       root             4096 ./usr/lib/lz4/ptest/tests
 drwxr-xr-x root       root             4096 ./usr/lib/lz4/ptest/tests/.debug
--rwxr-xr-x root       root           965976 ./usr/lib/lz4/ptest/tests/.debug/frametest
+-rwxr-xr-x root       root           965984 ./usr/lib/lz4/ptest/tests/.debug/frametest

@@ -1,0 +1,15 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root             4096 ./usr/bin/.debug
+-rwxr-xr-x root       root          1729712 ./usr/bin/.debug/tar.tar
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/tar
+drwxr-xr-x root       root             4096 ./usr/lib/tar/ptest
+drwxr-xr-x root       root             4096 ./usr/lib/tar/ptest/tests
+drwxr-xr-x root       root             4096 ./usr/lib/tar/ptest/tests/.debug
+-rwxr-xr-x root       root            10744 ./usr/lib/tar/ptest/tests/.debug/checkseekhole
+-rwxr-xr-x root       root            17268 ./usr/lib/tar/ptest/tests/.debug/ckmtime
+-rwxr-xr-x root       root           349044 ./usr/lib/tar/ptest/tests/.debug/genfile
+drwxr-xr-x root       root             4096 ./usr/sbin
+drwxr-xr-x root       root             4096 ./usr/sbin/.debug
+-rwxr-xr-x root       root           197544 ./usr/sbin/.debug/rmt.tar

@@ -1,7 +1,7 @@
 PV = 1.23
 PR = r0
 PKG = libgdbm-ptest
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = gdbm-ptest (=1.23)
 RDEPENDS = diffutils gdbm (>= 1.23) gdbm-bin gdbm-compat (>= 1.23) glibc (>= 2.39+git2+e8f5217097)
 RRECOMMENDS = ptest-runner

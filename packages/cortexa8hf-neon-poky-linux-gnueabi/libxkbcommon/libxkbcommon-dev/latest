@@ -1,0 +1,9 @@
+PV = 1.6.0
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = libxkbcommon libxkbcommon-x11 libxkbregistry
+RRECOMMENDS = bash-completion-dev glibc-dev libx11-locale-dev libxcb-dev libxcb-xkb-dev libxkbcommon (= 1.6.0-r0.0) libxkbcommon-x11-dev libxkbregistry-dev libxml2-dev wayland-dev wayland-protocols-dev xkeyboard-config-dev
+PKGSIZE = 374017
+FILES = /usr/include /usr/lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /usr/lib/*.o /usr/lib/libxkbcommon/*.la /usr/lib/*.la /usr/lib/cmake /usr/share/cmake
+FILELIST = /usr/include/xkbcommon/xkbcommon-compat.h /usr/include/xkbcommon/xkbcommon-compose.h /usr/include/xkbcommon/xkbcommon-keysyms.h /usr/include/xkbcommon/xkbcommon-names.h /usr/include/xkbcommon/xkbcommon-x11.h /usr/include/xkbcommon/xkbcommon.h /usr/include/xkbcommon/xkbregistry.h /usr/lib/libxkbcommon-x11.so /usr/lib/libxkbcommon.so /usr/lib/libxkbregistry.so /usr/lib/pkgconfig/xkbcommon-x11.pc /usr/lib/pkgconfig/xkbcommon.pc /usr/lib/pkgconfig/xkbregistry.pc

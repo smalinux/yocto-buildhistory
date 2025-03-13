@@ -1,10 +1,10 @@
 PV = 0.15.2
 PR = r0
 PKG = libcheck0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = libcheck (=0.15.2)
 RDEPENDS = glibc (>= 2.39+git2+e8f5217097)
 RRECOMMENDS = 
 PKGSIZE = 34133
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libcheck /usr/lib/libcheck/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /usr/bin/* /usr/sbin/* /usr/lib/*.so.* /lib/udev /usr/lib/udev /usr/lib/udev /usr/lib/udev /usr/share/libcheck /usr/lib/libcheck/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libcheck.so.0 /usr/lib/libcheck.so.0.0.0

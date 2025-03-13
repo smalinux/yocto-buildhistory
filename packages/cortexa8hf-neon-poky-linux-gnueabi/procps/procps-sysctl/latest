@@ -1,9 +1,9 @@
 PV = 4.0.4
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.39+git2+e8f5217097) procps-lib update-alternatives-opkg
 RRECOMMENDS = 
-PKGSIZE = 24100
-FILES = /sbin/sysctl.procps /etc/sysctl.conf /etc/sysctl.d
-FILELIST = /etc/sysctl.conf /sbin/sysctl.procps
+PKGSIZE = 24114
+FILES = /usr/sbin/sysctl.procps /etc/sysctl.conf /etc/sysctl.d
+FILELIST = /etc/sysctl.conf /etc/sysctl.d/99-sysctl.conf /usr/sbin/sysctl.procps

@@ -9,8 +9,16 @@ drwxr-xr-x root       root             4096 ./etc/ssh
 -rw-r--r-- root       root             3217 ./etc/ssh/sshd_config
 -rw-r--r-- root       root             3226 ./etc/ssh/sshd_config_readonly
 drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/libexec
 drwxr-xr-x root       root             4096 ./usr/libexec/openssh
 -rwxr-xr-x root       root             2109 ./usr/libexec/openssh/sshd_check_keys
+drwxr-xr-x root       root             4096 ./usr/lib/systemd
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/system
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/system-preset
+-rw-r--r-- root       root               19 ./usr/lib/systemd/system-preset/98-openssh-sshd.preset
+-rw-r--r-- root       root              169 ./usr/lib/systemd/system/sshdgenkeys.service
+-rw-r--r-- root       root              223 ./usr/lib/systemd/system/sshd@.service
+-rw-r--r-- root       root              173 ./usr/lib/systemd/system/sshd.socket
 drwxr-xr-x root       root             4096 ./usr/sbin
 -rwxr-xr-x root       root           886792 ./usr/sbin/sshd

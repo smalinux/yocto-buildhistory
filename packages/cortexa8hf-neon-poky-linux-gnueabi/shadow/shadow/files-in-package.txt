@@ -5,10 +5,6 @@ drwxr-xr-x root       root             4096 ./etc/default
 -rw-r--r-- root       root             1999 ./etc/login.access
 -rw-r--r-- root       root                0 ./etc/subgid
 -rw-r--r-- root       root                0 ./etc/subuid
-drwxr-xr-x root       root             4096 ./sbin
--rwxr-xr-x root       root             5512 ./sbin/nologin.shadow
-lrwxrwxrwx root       root               11 ./sbin/vigr.shadow -> vipw.shadow
--rwxr-xr-x root       root            47576 ./sbin/vipw.shadow
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 -rwsr-xr-x root       root            82640 ./usr/bin/chage
@@ -36,12 +32,15 @@ drwxr-xr-x root       root             4096 ./usr/sbin
 -rwxr-xr-x root       root            41224 ./usr/sbin/grpunconv
 -rwxr-xr-x root       root             9604 ./usr/sbin/logoutd
 -rwxr-xr-x root       root            82512 ./usr/sbin/newusers
+-rwxr-xr-x root       root             5512 ./usr/sbin/nologin.shadow
 -rwxr-xr-x root       root            45384 ./usr/sbin/pwck
 -rwxr-xr-x root       root            37120 ./usr/sbin/pwconv
 -rwxr-xr-x root       root            37128 ./usr/sbin/pwunconv
 -rwxr-xr-x root       root           123940 ./usr/sbin/useradd
 -rwxr-xr-x root       root            78416 ./usr/sbin/userdel
 -rwxr-xr-x root       root           111548 ./usr/sbin/usermod
+lrwxrwxrwx root       root               11 ./usr/sbin/vigr.shadow -> vipw.shadow
+-rwxr-xr-x root       root            47576 ./usr/sbin/vipw.shadow
 drwxr-xr-x root       root             4096 ./var
 drwxr-xr-x root       root             4096 ./var/spool
 drwxrwxr-x root       mail             4096 ./var/spool/mail

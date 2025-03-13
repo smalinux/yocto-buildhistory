@@ -1,0 +1,9 @@
+PV = 1.22.0
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = expat (>= 2.6.3) glibc (>= 2.39+git2+e8f5217097) libxml2 (>= 2.12.8)
+RRECOMMENDS = 
+PKGSIZE = 38368
+FILES = /usr/bin/wayland-scanner
+FILELIST = /usr/bin/wayland-scanner

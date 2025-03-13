@@ -5,8 +5,8 @@ drwxr-xr-x root       root             4096 ./usr/lib/.debug
 drwxr-xr-x root       root             4096 ./usr/lib/lzo
 drwxr-xr-x root       root             4096 ./usr/lib/lzo/ptest
 drwxr-xr-x root       root             4096 ./usr/lib/lzo/ptest/.debug
--rwxr-xr-x root       root            13132 ./usr/lib/lzo/ptest/.debug/align
--rwxr-xr-x root       root            10328 ./usr/lib/lzo/ptest/.debug/chksum
--rwxr-xr-x root       root           115436 ./usr/lib/lzo/ptest/.debug/lzotest
--rwxr-xr-x root       root            12740 ./usr/lib/lzo/ptest/.debug/simple
--rwxr-xr-x root       root            33924 ./usr/lib/lzo/ptest/.debug/testmini
+-rwxr-xr-x root       root            13140 ./usr/lib/lzo/ptest/.debug/align
+-rwxr-xr-x root       root            10336 ./usr/lib/lzo/ptest/.debug/chksum
+-rwxr-xr-x root       root           115444 ./usr/lib/lzo/ptest/.debug/lzotest
+-rwxr-xr-x root       root            12748 ./usr/lib/lzo/ptest/.debug/simple
+-rwxr-xr-x root       root            33932 ./usr/lib/lzo/ptest/.debug/testmini

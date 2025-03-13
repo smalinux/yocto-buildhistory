@@ -5,8 +5,15 @@ set -e
 			/etc/init.d/syslog stop || :
 		fi
 	fi
-	update-alternatives --remove  klogd /bin/busybox.nosuid
-	update-alternatives --remove  syslogd /bin/busybox.nosuid
-if true && [ -z "$D" -a -x "/etc/init.d/syslog" ]; then
+	update-alternatives --remove  klogd /usr/bin/busybox.nosuid
+	update-alternatives --remove  syslogd /usr/bin/busybox.nosuid
+if [ -n "$D" -o ! -d /run/systemd/system ] && [ -z "$D" -a -x "/etc/init.d/syslog" ]; then
 	/etc/init.d/syslog stop || :
+fi
+if systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop busybox-syslog.service
+
+		systemctl disable busybox-syslog.service
+	fi
 fi

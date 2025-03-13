@@ -1,9 +1,9 @@
 PV = 4.0.4
 PR = r0
 PKG = libproc2-0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = procps-lib (=4.0.4)
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097)
+RDEPENDS = glibc (>= 2.39+git2+e8f5217097) libsystemd (>= 255.4)
 RRECOMMENDS = 
 PKGSIZE = 124645
 FILES = /usr/lib

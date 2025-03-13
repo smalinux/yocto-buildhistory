@@ -1,5 +1,12 @@
 #!/bin/sh
 set -e
-if true && [ -z "$D" -a -x "/etc/init.d/sshd" ]; then
+if systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop sshd.socket
+
+		systemctl disable sshd.socket
+	fi
+fi
+if [ -n "$D" -o ! -d /run/systemd/system ] && [ -z "$D" -a -x "/etc/init.d/sshd" ]; then
 	/etc/init.d/sshd stop || :
 fi

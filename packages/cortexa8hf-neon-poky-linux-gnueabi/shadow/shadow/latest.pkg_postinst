@@ -3,9 +3,9 @@ set -e
 	update-alternatives --install /usr/bin/chfn chfn /usr/bin/chfn.shadow 200
 	update-alternatives --install /usr/bin/chsh chsh /usr/bin/chsh.shadow 200
 	update-alternatives --install /usr/sbin/chpasswd chpasswd /usr/sbin/chpasswd.shadow 200
-	update-alternatives --install /sbin/vipw vipw /sbin/vipw.shadow 200
-	update-alternatives --install /sbin/vigr vigr /sbin/vigr.shadow 200
-	update-alternatives --install /sbin/nologin nologin /sbin/nologin.shadow 200
+	update-alternatives --install /usr/sbin/vipw vipw /usr/sbin/vipw.shadow 200
+	update-alternatives --install /usr/sbin/vigr vigr /usr/sbin/vigr.shadow 200
+	update-alternatives --install /usr/sbin/nologin nologin /usr/sbin/nologin.shadow 200
 	if [ "x$D" != "x" ]; then
 	  rootarg="--root $D"
 	else

@@ -1,7 +1,7 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 drwxr-xr-x root       root             4096 ./usr/bin/.debug
--rwxr-xr-x root       root            17372 ./usr/bin/.debug/fw_printenv
+-rwxr-xr-x root       root            17380 ./usr/bin/.debug/fw_printenv
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
 -rwxr-xr-x root       root            70020 ./usr/lib/.debug/libubootenv.so.0.3.5

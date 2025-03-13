@@ -1,0 +1,8 @@
+PV = 1.6.0
+PR = r0
+DEPENDS = bash-completion bison-native flex-native libxcb libxml2 meson-native ninja-native pkgconfig-native python3-native qemu-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc wayland wayland-native wayland-protocols xkeyboard-config
+PACKAGES = libxkbcommon-src libxkbcommon-dbg libxkbcommon-staticdev libxkbcommon-dev libxkbcommon-doc libxkbcommon-locale xkbcli libxkbcommon libxkbcommon-bash-completion libxkbcommon-x11 libxkbregistry
+LAYER = core
+LICENSE = MIT & MIT
+CONFIG = wayland x11 xkbregistry
+SRC_URI = http://xkbcommon.org/download/libxkbcommon-1.6.0.tar.xz

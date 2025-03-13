@@ -1,9 +1,9 @@
 PV = 2021.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.78.6) glibc (>= 2.39+git2+e8f5217097)
+RDEPENDS = glib-2.0 (>= 2.78.6) glibc (>= 2.39+git2+e8f5217097) libsystemd (>= 255.4)
 RRECOMMENDS = 
-PKGSIZE = 26380
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/gnome-desktop-testing /usr/lib/gnome-desktop-testing/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+PKGSIZE = 26432
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /usr/bin/* /usr/sbin/* /usr/lib/*.so.* /lib/udev /usr/lib/udev /usr/lib/udev /usr/lib/udev /usr/share/gnome-desktop-testing /usr/lib/gnome-desktop-testing/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/ginsttest-runner /usr/bin/gnome-desktop-testing-runner

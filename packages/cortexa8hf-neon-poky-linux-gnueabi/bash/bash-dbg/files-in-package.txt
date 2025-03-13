@@ -1,7 +1,7 @@
-drwxr-xr-x root       root             4096 ./bin
-drwxr-xr-x root       root             4096 ./bin/.debug
--rwxr-xr-x root       root          3278392 ./bin/.debug/bash.bash
 drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root             4096 ./usr/bin/.debug
+-rwxr-xr-x root       root          3278400 ./usr/bin/.debug/bash.bash
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/bash
 drwxr-xr-x root       root             4096 ./usr/lib/bash/.debug
@@ -44,7 +44,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/bash/.debug
 drwxr-xr-x root       root             4096 ./usr/lib/bash/ptest
 drwxr-xr-x root       root             4096 ./usr/lib/bash/ptest/tests
 drwxr-xr-x root       root             4096 ./usr/lib/bash/ptest/tests/.debug
--rwxr-xr-x root       root             9032 ./usr/lib/bash/ptest/tests/.debug/printenv
--rwxr-xr-x root       root            11208 ./usr/lib/bash/ptest/tests/.debug/recho
--rwxr-xr-x root       root            12672 ./usr/lib/bash/ptest/tests/.debug/xcase
--rwxr-xr-x root       root            10100 ./usr/lib/bash/ptest/tests/.debug/zecho
+-rwxr-xr-x root       root             9040 ./usr/lib/bash/ptest/tests/.debug/printenv
+-rwxr-xr-x root       root            11216 ./usr/lib/bash/ptest/tests/.debug/recho
+-rwxr-xr-x root       root            12680 ./usr/lib/bash/ptest/tests/.debug/xcase
+-rwxr-xr-x root       root            10108 ./usr/lib/bash/ptest/tests/.debug/zecho

@@ -9,8 +9,8 @@ drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.38.2
 drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.38.2/arm-linux
 -r--r--r-- root       root              409 ./usr/lib/perl5/5.38.2/arm-linux/Config_git.pl
 lrwxrwxrwx root       root               15 ./usr/lib/perl5/5.38.2/arm-linux/Config_heavy-target.pl -> Config_heavy.pl
--r--r--r-- root       root             3388 ./usr/lib/perl5/5.38.2/arm-linux/Config.pm
--rwxr-xr-x root       root             3388 ./usr/lib/perl5/5.38.2/Config.pm
+-r--r--r-- root       root             3392 ./usr/lib/perl5/5.38.2/arm-linux/Config.pm
+-rwxr-xr-x root       root             3392 ./usr/lib/perl5/5.38.2/Config.pm
 drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.38.2/ExtUtils
 -r--r--r-- root       root             1198 ./usr/lib/perl5/5.38.2/ExtUtils/MANIFEST.SKIP
 -rwxr-xr-x root       root            12352 ./usr/lib/perl5/5.38.2/ExtUtils/typemap
@@ -20,7 +20,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.38.2/ExtUtils
 drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.38.2/warnings
 -r--r--r-- root       root            57069 ./usr/lib/perl5/5.38.2/warnings.pm
 -r--r--r-- root       root              733 ./usr/lib/perl5/5.38.2/warnings/register.pm
--rwxr-xr-x root       root            37534 ./usr/lib/perl5/config.sh
+-rwxr-xr-x root       root            37550 ./usr/lib/perl5/config.sh
 drwxr-xr-x root       root             4096 ./usr/lib/perl5/site_perl
 drwxr-xr-x root       root             4096 ./usr/lib/perl5/site_perl/5.38.2
 drwxr-xr-x root       root             4096 ./usr/lib/perl5/site_perl/5.38.2/arm-linux

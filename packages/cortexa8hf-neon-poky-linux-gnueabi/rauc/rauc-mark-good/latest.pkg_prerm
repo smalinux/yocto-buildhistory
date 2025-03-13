@@ -1,5 +1,12 @@
 #!/bin/sh
 set -e
-if true && [ -z "$D" -a -x "/etc/init.d/rauc-mark-good" ]; then
+if [ -n "$D" -o ! -d /run/systemd/system ] && [ -z "$D" -a -x "/etc/init.d/rauc-mark-good" ]; then
 	/etc/init.d/rauc-mark-good stop || :
+fi
+if systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop rauc-mark-good.service
+
+		systemctl disable rauc-mark-good.service
+	fi
 fi

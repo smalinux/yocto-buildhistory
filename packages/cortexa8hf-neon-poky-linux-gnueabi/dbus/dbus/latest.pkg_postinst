@@ -1,6 +1,6 @@
 set -e
 	# If both systemd and sysvinit are enabled, mask the dbus-1 init script
-        if false; then
+        if true; then
 		if [ -n "$D" ]; then
 			OPTS="--root=$D"
 		fi

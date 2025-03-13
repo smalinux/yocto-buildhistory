@@ -4,6 +4,6 @@ set -e
 	update-alternatives --remove  chfn /usr/bin/chfn.shadow
 	update-alternatives --remove  chsh /usr/bin/chsh.shadow
 	update-alternatives --remove  chpasswd /usr/sbin/chpasswd.shadow
-	update-alternatives --remove  vipw /sbin/vipw.shadow
-	update-alternatives --remove  vigr /sbin/vigr.shadow
-	update-alternatives --remove  nologin /sbin/nologin.shadow
+	update-alternatives --remove  vipw /usr/sbin/vipw.shadow
+	update-alternatives --remove  vigr /usr/sbin/vigr.shadow
+	update-alternatives --remove  nologin /usr/sbin/nologin.shadow

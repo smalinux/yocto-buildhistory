@@ -1,7 +1,7 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 drwxr-xr-x root       root             4096 ./usr/bin/.debug
--rwxr-xr-x root       root            48984 ./usr/bin/.debug/perl
+-rwxr-xr-x root       root            48992 ./usr/bin/.debug/perl
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
 -rwxr-xr-x root       root          6827116 ./usr/lib/.debug/libperl.so.5.38.0
@@ -184,7 +184,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.38.2/arm-linux/aut
 -rwxr-xr-x root       root           162040 ./usr/lib/perl5/5.38.2/arm-linux/auto/Unicode/Normalize/.debug/Normalize.so
 drwxr-xr-x root       root             4096 ./usr/lib/perl/ptest
 drwxr-xr-x root       root             4096 ./usr/lib/perl/ptest/.debug
--rwxr-xr-x root       root            48984 ./usr/lib/perl/ptest/.debug/perl
+-rwxr-xr-x root       root            48992 ./usr/lib/perl/ptest/.debug/perl
 drwxr-xr-x root       root             4096 ./usr/lib/perl/ptest/lib
 drwxr-xr-x root       root             4096 ./usr/lib/perl/ptest/lib/auto
 drwxr-xr-x root       root             4096 ./usr/lib/perl/ptest/lib/auto/attributes

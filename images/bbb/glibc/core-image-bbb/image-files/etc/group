@@ -40,6 +40,11 @@ games:x:60:
 shutdown:x:70:
 wheel:x:80:
 users:x:100:
-sshd:x:998:
+systemd-timesync:x:993:
+systemd-resolve:x:994:
+systemd-network:x:995:
+systemd-journal:x:996:
+sshd:x:997:
+render:x:998:
 messagebus:x:999:
 nogroup:x:65534:

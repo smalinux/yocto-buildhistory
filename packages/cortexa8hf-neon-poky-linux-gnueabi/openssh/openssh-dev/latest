@@ -1,9 +1,9 @@
 PV = 9.6p1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = base-files-dev base-passwd-dev coreutils-dev glibc-dev initscripts-dev libcrypto-dev libxcrypt-dev make-dev openssh (= 9.6p1-r0.2) openssh-keygen-dev openssh-misc-dev openssh-scp-dev openssh-sftp-dev openssh-sftp-server-dev openssh-ssh-dev openssh-sshd-dev openssl-bin-dev openssl-dev sed-dev shadow-dev shadow-sysroot-dev update-alternatives-opkg-dev update-rc.d-dev zlib-dev
+RRECOMMENDS = base-files-dev base-passwd-dev coreutils-dev glibc-dev initscripts-dev libcrypto-dev libxcrypt-dev make-dev openssh (= 9.6p1-r0.3) openssh-keygen-dev openssh-misc-dev openssh-scp-dev openssh-sftp-dev openssh-sftp-server-dev openssh-ssh-dev openssh-sshd-dev openssl-bin-dev openssl-dev sed-dev shadow-dev shadow-sysroot-dev update-alternatives-opkg-dev update-rc.d-dev zlib-dev
 PKGSIZE = 0
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/openssh/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILES = /usr/include /usr/lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /usr/lib/*.o /usr/lib/openssh/*.la /usr/lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = 

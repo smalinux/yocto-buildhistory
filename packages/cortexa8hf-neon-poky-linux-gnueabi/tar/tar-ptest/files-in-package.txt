@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/tar
+drwxr-xr-x root       root             4096 ./usr/lib/tar/ptest
+-rwxr-xr-x root       root              208 ./usr/lib/tar/ptest/run-ptest
+drwxr-xr-x root       root             4096 ./usr/lib/tar/ptest/tests
+-rwxr-xr-x root       root              498 ./usr/lib/tar/ptest/tests/atconfig
+-rwxr-xr-x root       root             1797 ./usr/lib/tar/ptest/tests/atlocal
+-rwxr-xr-x root       root             5512 ./usr/lib/tar/ptest/tests/checkseekhole
+-rwxr-xr-x root       root             9600 ./usr/lib/tar/ptest/tests/ckmtime
+-rwxr-xr-x root       root            96616 ./usr/lib/tar/ptest/tests/genfile
+-rwxr-xr-x root       root          1394167 ./usr/lib/tar/ptest/tests/testsuite

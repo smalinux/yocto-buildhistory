@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = kernel-module-elants-i2c
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 

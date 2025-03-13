@@ -1,0 +1,9 @@
+PV = 1.13
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = dbus
+RRECOMMENDS = 
+PKGSIZE = 3950
+FILES = /lib/systemd/system/rauc.service /usr/share/dbus-1/system.d/de.pengutronix.rauc.conf /usr/share/dbus-1/system-services/de.pengutronix.rauc.service /usr/lib/systemd/catalog
+FILELIST = /usr/lib/systemd/catalog/rauc.catalog /usr/share/dbus-1/system-services/de.pengutronix.rauc.service /usr/share/dbus-1/system.d/de.pengutronix.rauc.conf

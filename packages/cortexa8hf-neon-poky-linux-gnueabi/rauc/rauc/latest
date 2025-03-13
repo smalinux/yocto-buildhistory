@@ -1,0 +1,9 @@
+PV = 1.13
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glib-2.0 (>= 2.78.6) glibc (>= 2.39+git2+e8f5217097) json-glib (>= 1.8.0) libcrypto (>= 3.2.3) libcurl (>= 8.7.1) libnl (>= 3.9.0) libnl-genl (>= 3.9.0) rauc-service u-boot-env u-boot-fw-utils util-linux-libfdisk (>= 2.39.3)
+RRECOMMENDS = rauc-mark-good squashfs-tools virtual-rauc-conf
+PKGSIZE = 396486
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/rauc /usr/lib/rauc/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/rauc /usr/libexec/rauc-service.sh

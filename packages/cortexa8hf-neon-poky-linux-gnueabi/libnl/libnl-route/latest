@@ -4,7 +4,7 @@ PR = r0
 PKG = libnl-route-3-200
 PKGR = r0.0
 RPROVIDES = libnl-route (=3.9.0)
-RDEPENDS = glibc (>= 2.39+git0+e8f5217097) libnl (>= 3.9.0)
+RDEPENDS = glibc (>= 2.39+git2+e8f5217097) libnl (>= 3.9.0)
 RRECOMMENDS = 
 PKGSIZE = 484065
 FILES = /usr/lib/libnl-route-3.so.*

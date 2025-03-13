@@ -1,0 +1,9 @@
+PV = 4.6.1
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 18027
+FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILELIST = /usr/share/man/man1/mksquashfs.1.gz /usr/share/man/man1/sqfscat.1.gz /usr/share/man/man1/sqfstar.1.gz /usr/share/man/man1/unsquashfs.1.gz

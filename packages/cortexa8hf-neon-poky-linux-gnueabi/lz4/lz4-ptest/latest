@@ -1,0 +1,10 @@
+PE = 1
+PV = 1.9.4
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = bash glibc (>= 2.39+git2+e8f5217097) lz4
+RRECOMMENDS = ptest-runner
+PKGSIZE = 149164
+FILES = /usr/lib/lz4/ptest
+FILELIST = /usr/lib/lz4/ptest/run-ptest /usr/lib/lz4/ptest/tests/frametest

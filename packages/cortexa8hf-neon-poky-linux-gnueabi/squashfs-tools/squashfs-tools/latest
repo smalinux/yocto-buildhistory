@@ -1,0 +1,9 @@
+PV = 4.6.1
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.39+git2+e8f5217097) liblzma (>= 5.4.6) libzstd (>= 1.5.5) lz4 (>= 1.9.4) lzo (>= 2.10) zlib (>= 1.3.1)
+RRECOMMENDS = 
+PKGSIZE = 424796
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/squashfs-tools /usr/lib/squashfs-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/mksquashfs /usr/bin/sqfscat /usr/bin/sqfstar /usr/bin/unsquashfs

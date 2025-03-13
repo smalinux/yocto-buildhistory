@@ -1,0 +1,20 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/parted
+-rw-r--r-- root       root             2774 ./usr/include/parted/constraint.h
+-rw-r--r-- root       root             2478 ./usr/include/parted/debug.h
+-rw-r--r-- root       root             6241 ./usr/include/parted/device.h
+-rw-r--r-- root       root            18288 ./usr/include/parted/disk.h
+-rw-r--r-- root       root             4177 ./usr/include/parted/exception.h
+-rw-r--r-- root       root             3466 ./usr/include/parted/filesys.h
+-rw-r--r-- root       root             3588 ./usr/include/parted/geom.h
+-rw-r--r-- root       root             4196 ./usr/include/parted/natmath.h
+-rw-r--r-- root       root             1705 ./usr/include/parted/parted.h
+-rw-r--r-- root       root             2167 ./usr/include/parted/timer.h
+-rw-r--r-- root       root             2927 ./usr/include/parted/unit.h
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               28 ./usr/lib/libparted-fs-resize.so -> libparted-fs-resize.so.0.0.5
+lrwxrwxrwx root       root               18 ./usr/lib/libparted.so -> libparted.so.2.0.5
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              231 ./usr/lib/pkgconfig/libparted-fs-resize.pc
+-rw-r--r-- root       root              211 ./usr/lib/pkgconfig/libparted.pc

@@ -1,0 +1,8 @@
+PV = 1.13
+PR = r0
+DEPENDS = curl dbus gettext-native glib-2.0 glib-2.0-native initscripts json-glib libnl meson-native ninja-native openssl pkgconfig-native python3-native qemu-native update-rc.d util-linux virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+PACKAGES = rauc-src rauc-dbg rauc-service rauc-mark-good rauc-staticdev rauc-dev rauc-doc rauc-locale rauc rauc-grow-data-part
+LAYER = rauc
+LICENSE = LGPL-2.1-or-later
+CONFIG = gpt json network nocreate service streaming
+SRC_URI = https://github.com/rauc/rauc/releases/download/v1.13/rauc-1.13.tar.xz file://rauc-mark-good.service file://rauc-mark-good.init file://rauc-grow-data-partition.service

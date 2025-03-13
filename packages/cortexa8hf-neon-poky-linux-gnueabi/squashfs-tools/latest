@@ -1,0 +1,8 @@
+PV = 4.6.1
+PR = r0
+DEPENDS = attr lz4 lzo virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc xz xz zlib zstd
+PACKAGES = squashfs-tools-src squashfs-tools-dbg squashfs-tools-staticdev squashfs-tools-dev squashfs-tools-doc squashfs-tools-locale squashfs-tools
+LAYER = core
+LICENSE = GPL-2.0-only
+CONFIG = gzip lz4 lzma lzo reproducible xattr xz zstd
+SRC_URI = git://github.com/plougher/squashfs-tools.git;protocol=https;branch=v6.1.1

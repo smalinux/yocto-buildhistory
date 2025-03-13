@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/.debug
+-rwxr-xr-x root       root           465508 ./usr/lib/.debug/liblzo2.so.2.0.0
+drwxr-xr-x root       root             4096 ./usr/lib/lzo
+drwxr-xr-x root       root             4096 ./usr/lib/lzo/ptest
+drwxr-xr-x root       root             4096 ./usr/lib/lzo/ptest/.debug
+-rwxr-xr-x root       root            13132 ./usr/lib/lzo/ptest/.debug/align
+-rwxr-xr-x root       root            10328 ./usr/lib/lzo/ptest/.debug/chksum
+-rwxr-xr-x root       root           115436 ./usr/lib/lzo/ptest/.debug/lzotest
+-rwxr-xr-x root       root            12740 ./usr/lib/lzo/ptest/.debug/simple
+-rwxr-xr-x root       root            33924 ./usr/lib/lzo/ptest/.debug/testmini

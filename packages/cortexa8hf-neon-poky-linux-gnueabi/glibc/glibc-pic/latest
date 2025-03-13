@@ -2,7 +2,7 @@ PV = 2.39+git
 PR = r0
 PKG = libc6-pic
 PKGV = 2.39+git2+e8f5217097
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = eglibc-pic glibc-pic (=2.39+git2+e8f5217097)
 RDEPENDS = 
 RRECOMMENDS = 

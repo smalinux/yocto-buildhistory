@@ -1,4 +1,3 @@
-drwxr-xr-x -          -                4096 ./lib
 drwxr-xr-x -          -                4096 ./sysroot-providers
 -rw-r--r-- -          -                  14 ./sysroot-providers/libgcc-initial
 drwxr-xr-x -          -                4096 ./usr

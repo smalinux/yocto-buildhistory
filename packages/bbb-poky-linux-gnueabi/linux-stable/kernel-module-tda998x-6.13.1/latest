@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-tda998x
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 27724
-FILES = /lib/modules/6.13.1/kernel/drivers/gpu/drm/i2c/.debug/tda998x.ko /lib/modules/6.13.1/kernel/drivers/gpu/drm/i2c/tda998x.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/gpu/drm/i2c/tda998x.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/i2c/.debug/tda998x.ko /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/i2c/tda998x.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/i2c/tda998x.ko

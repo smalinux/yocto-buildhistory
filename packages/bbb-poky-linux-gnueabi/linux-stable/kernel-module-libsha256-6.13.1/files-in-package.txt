@@ -1,7 +1,8 @@
-drwxr-xr-x root       root             4096 ./lib
-drwxr-xr-x root       root             4096 ./lib/modules
-drwxr-xr-x root       root             4096 ./lib/modules/6.13.1
-drwxr-xr-x root       root             4096 ./lib/modules/6.13.1/kernel
-drwxr-xr-x root       root             4096 ./lib/modules/6.13.1/kernel/lib
-drwxr-xr-x root       root             4096 ./lib/modules/6.13.1/kernel/lib/crypto
--rw-r--r-- root       root             6924 ./lib/modules/6.13.1/kernel/lib/crypto/libsha256.ko
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/modules
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/lib
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/lib/crypto
+-rw-r--r-- root       root             6924 ./usr/lib/modules/6.13.1/kernel/lib/crypto/libsha256.ko

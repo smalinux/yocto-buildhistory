@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-fsi-master-aspeed
 RDEPENDS = kernel-6.13.1 kernel-module-fsi-core-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 23548
-FILES = /lib/modules/6.13.1/kernel/drivers/fsi/.debug/fsi-master-aspeed.ko /lib/modules/6.13.1/kernel/drivers/fsi/fsi-master-aspeed.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/fsi/fsi-master-aspeed.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/fsi/.debug/fsi-master-aspeed.ko /usr/lib/modules/6.13.1/kernel/drivers/fsi/fsi-master-aspeed.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/fsi/fsi-master-aspeed.ko

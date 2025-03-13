@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-phy-cpcap-usb
 RDEPENDS = kernel-6.13.1 kernel-module-musb-hdrc-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 12328
-FILES = /lib/modules/6.13.1/kernel/drivers/phy/motorola/.debug/phy-cpcap-usb.ko /lib/modules/6.13.1/kernel/drivers/phy/motorola/phy-cpcap-usb.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/phy/motorola/phy-cpcap-usb.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/phy/motorola/.debug/phy-cpcap-usb.ko /usr/lib/modules/6.13.1/kernel/drivers/phy/motorola/phy-cpcap-usb.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/phy/motorola/phy-cpcap-usb.ko

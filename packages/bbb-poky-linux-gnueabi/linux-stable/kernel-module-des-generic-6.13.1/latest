@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-des-generic
 RDEPENDS = kernel-6.13.1 kernel-module-libdes-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 6548
-FILES = /lib/modules/6.13.1/kernel/crypto/.debug/des_generic.ko /lib/modules/6.13.1/kernel/crypto/des_generic.ko
-FILELIST = /lib/modules/6.13.1/kernel/crypto/des_generic.ko
+FILES = /usr/lib/modules/6.13.1/kernel/crypto/.debug/des_generic.ko /usr/lib/modules/6.13.1/kernel/crypto/des_generic.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/des_generic.ko

@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-gcm
 RDEPENDS = kernel-6.13.1 kernel-module-crypto-null-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 18796
-FILES = /lib/modules/6.13.1/kernel/crypto/.debug/gcm.ko /lib/modules/6.13.1/kernel/crypto/gcm.ko
-FILELIST = /lib/modules/6.13.1/kernel/crypto/gcm.ko
+FILES = /usr/lib/modules/6.13.1/kernel/crypto/.debug/gcm.ko /usr/lib/modules/6.13.1/kernel/crypto/gcm.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/gcm.ko

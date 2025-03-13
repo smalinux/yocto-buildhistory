@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-ehci-fsl
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 10192
-FILES = /lib/modules/6.13.1/kernel/drivers/usb/host/.debug/ehci-fsl.ko /lib/modules/6.13.1/kernel/drivers/usb/host/ehci-fsl.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/usb/host/ehci-fsl.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/usb/host/.debug/ehci-fsl.ko /usr/lib/modules/6.13.1/kernel/drivers/usb/host/ehci-fsl.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/usb/host/ehci-fsl.ko

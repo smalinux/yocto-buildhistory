@@ -1,10 +1,10 @@
 PV = 7.6
 PR = r0
 PKG = libwrap0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = libwrap (=7.6)
 RDEPENDS = glibc (>= 2.39+git2+e8f5217097)
 RRECOMMENDS = 
 PKGSIZE = 30536
-FILES = /lib/lib*.so.*
-FILELIST = /lib/libwrap.so.0 /lib/libwrap.so.0.7.6
+FILES = /usr/lib/lib*.so.*
+FILELIST = /usr/lib/libwrap.so.0 /usr/lib/libwrap.so.0.7.6

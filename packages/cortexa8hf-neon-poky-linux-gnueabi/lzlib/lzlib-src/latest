@@ -1,7 +1,7 @@
 PV = 1.14
 PR = r0
 PKG = liblz-src
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = lzlib-src (=1.14)
 RDEPENDS = 
 RRECOMMENDS = 

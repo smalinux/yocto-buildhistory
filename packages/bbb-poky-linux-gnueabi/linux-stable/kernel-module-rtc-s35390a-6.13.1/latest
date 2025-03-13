@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-rtc-s35390a
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 10276
-FILES = /lib/modules/6.13.1/kernel/drivers/rtc/.debug/rtc-s35390a.ko /lib/modules/6.13.1/kernel/drivers/rtc/rtc-s35390a.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/rtc/rtc-s35390a.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/rtc/.debug/rtc-s35390a.ko /usr/lib/modules/6.13.1/kernel/drivers/rtc/rtc-s35390a.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/rtc/rtc-s35390a.ko

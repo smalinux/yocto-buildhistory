@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-capsule-loader
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 8704
-FILES = /lib/modules/6.13.1/kernel/drivers/firmware/efi/.debug/capsule-loader.ko /lib/modules/6.13.1/kernel/drivers/firmware/efi/capsule-loader.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/firmware/efi/capsule-loader.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/firmware/efi/.debug/capsule-loader.ko /usr/lib/modules/6.13.1/kernel/drivers/firmware/efi/capsule-loader.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/firmware/efi/capsule-loader.ko

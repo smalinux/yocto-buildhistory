@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-ah6
 RDEPENDS = kernel-6.13.1 kernel-module-xfrm-algo-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 12812
-FILES = /lib/modules/6.13.1/kernel/net/ipv6/.debug/ah6.ko /lib/modules/6.13.1/kernel/net/ipv6/ah6.ko
-FILELIST = /lib/modules/6.13.1/kernel/net/ipv6/ah6.ko
+FILES = /usr/lib/modules/6.13.1/kernel/net/ipv6/.debug/ah6.ko /usr/lib/modules/6.13.1/kernel/net/ipv6/ah6.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/net/ipv6/ah6.ko

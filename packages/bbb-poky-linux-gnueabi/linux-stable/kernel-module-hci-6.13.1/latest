@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-hci
 RDEPENDS = kernel-6.13.1 kernel-module-nfc-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 34124
-FILES = /lib/modules/6.13.1/kernel/net/nfc/hci/.debug/hci.ko /lib/modules/6.13.1/kernel/net/nfc/hci/hci.ko
-FILELIST = /lib/modules/6.13.1/kernel/net/nfc/hci/hci.ko
+FILES = /usr/lib/modules/6.13.1/kernel/net/nfc/hci/.debug/hci.ko /usr/lib/modules/6.13.1/kernel/net/nfc/hci/hci.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/net/nfc/hci/hci.ko

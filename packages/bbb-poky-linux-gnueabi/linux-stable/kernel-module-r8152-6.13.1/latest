@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-r8152
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 116668
-FILES = /lib/modules/6.13.1/kernel/drivers/net/usb/.debug/r8152.ko /lib/modules/6.13.1/kernel/drivers/net/usb/r8152.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/net/usb/r8152.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/net/usb/.debug/r8152.ko /usr/lib/modules/6.13.1/kernel/drivers/net/usb/r8152.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/net/usb/r8152.ko

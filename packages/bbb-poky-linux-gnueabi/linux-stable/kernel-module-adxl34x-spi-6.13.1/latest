@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-adxl34x-spi
 RDEPENDS = kernel-6.13.1 kernel-module-adxl34x-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 6056
-FILES = /lib/modules/6.13.1/kernel/drivers/input/misc/.debug/adxl34x-spi.ko /lib/modules/6.13.1/kernel/drivers/input/misc/adxl34x-spi.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/input/misc/adxl34x-spi.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/input/misc/.debug/adxl34x-spi.ko /usr/lib/modules/6.13.1/kernel/drivers/input/misc/adxl34x-spi.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/input/misc/adxl34x-spi.ko

@@ -1,10 +1,10 @@
 PV = 2.39+git
 PR = r0
 PKGV = 2.39+git2+e8f5217097
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
 RDEPENDS = glibc
 RRECOMMENDS = 
-PKGSIZE = 29
+PKGSIZE = 26
 FILES = /usr/bin/ld.so
 FILELIST = /usr/bin/ld.so

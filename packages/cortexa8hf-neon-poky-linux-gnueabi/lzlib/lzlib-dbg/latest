@@ -1,7 +1,7 @@
 PV = 1.14
 PR = r0
 PKG = liblz-dbg
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = lzlib-dbg (=1.14)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg

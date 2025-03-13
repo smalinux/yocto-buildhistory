@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-ipcomp6
 RDEPENDS = kernel-6.13.1 kernel-module-xfrm-ipcomp-6.13.1 kernel-module-xfrm6-tunnel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 7968
-FILES = /lib/modules/6.13.1/kernel/net/ipv6/.debug/ipcomp6.ko /lib/modules/6.13.1/kernel/net/ipv6/ipcomp6.ko
-FILELIST = /lib/modules/6.13.1/kernel/net/ipv6/ipcomp6.ko
+FILES = /usr/lib/modules/6.13.1/kernel/net/ipv6/.debug/ipcomp6.ko /usr/lib/modules/6.13.1/kernel/net/ipv6/ipcomp6.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/net/ipv6/ipcomp6.ko

@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-vf610-adc
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 16420
-FILES = /lib/modules/6.13.1/kernel/drivers/iio/adc/.debug/vf610_adc.ko /lib/modules/6.13.1/kernel/drivers/iio/adc/vf610_adc.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/iio/adc/vf610_adc.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/iio/adc/.debug/vf610_adc.ko /usr/lib/modules/6.13.1/kernel/drivers/iio/adc/vf610_adc.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/iio/adc/vf610_adc.ko

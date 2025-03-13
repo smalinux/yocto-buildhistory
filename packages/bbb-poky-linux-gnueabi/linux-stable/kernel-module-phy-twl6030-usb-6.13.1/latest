@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-phy-twl6030-usb
 RDEPENDS = kernel-6.13.1 kernel-module-musb-hdrc-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 11724
-FILES = /lib/modules/6.13.1/kernel/drivers/usb/phy/.debug/phy-twl6030-usb.ko /lib/modules/6.13.1/kernel/drivers/usb/phy/phy-twl6030-usb.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/usb/phy/phy-twl6030-usb.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/usb/phy/.debug/phy-twl6030-usb.ko /usr/lib/modules/6.13.1/kernel/drivers/usb/phy/phy-twl6030-usb.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/usb/phy/phy-twl6030-usb.ko

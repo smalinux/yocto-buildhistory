@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-parade-ps8622
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 11196
-FILES = /lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/.debug/parade-ps8622.ko /lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/parade-ps8622.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/parade-ps8622.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/.debug/parade-ps8622.ko /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/parade-ps8622.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/parade-ps8622.ko

@@ -1,6 +1,6 @@
 PV = 1.66
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = init-system-helpers-invoke-rc.d init-system-helpers-service

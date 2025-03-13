@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-usb-f-serial
 RDEPENDS = kernel-6.13.1 kernel-module-libcomposite-6.13.1 kernel-module-u-serial-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 8464
-FILES = /lib/modules/6.13.1/kernel/drivers/usb/gadget/function/.debug/usb_f_serial.ko /lib/modules/6.13.1/kernel/drivers/usb/gadget/function/usb_f_serial.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/usb/gadget/function/usb_f_serial.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/usb/gadget/function/.debug/usb_f_serial.ko /usr/lib/modules/6.13.1/kernel/drivers/usb/gadget/function/usb_f_serial.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/usb/gadget/function/usb_f_serial.ko

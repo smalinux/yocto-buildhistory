@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-adv7511
 RDEPENDS = kernel-6.13.1 kernel-module-cec-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 29276
-FILES = /lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/adv7511/.debug/adv7511.ko /lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/adv7511/adv7511.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/adv7511/adv7511.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/adv7511/.debug/adv7511.ko /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/adv7511/adv7511.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/adv7511/adv7511.ko

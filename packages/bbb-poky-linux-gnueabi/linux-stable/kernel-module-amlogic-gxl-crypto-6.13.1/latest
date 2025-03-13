@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-amlogic-gxl-crypto
 RDEPENDS = kernel-6.13.1 kernel-module-crypto-engine-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 15812
-FILES = /lib/modules/6.13.1/kernel/drivers/crypto/amlogic/.debug/amlogic-gxl-crypto.ko /lib/modules/6.13.1/kernel/drivers/crypto/amlogic/amlogic-gxl-crypto.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/crypto/amlogic/amlogic-gxl-crypto.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/crypto/amlogic/.debug/amlogic-gxl-crypto.ko /usr/lib/modules/6.13.1/kernel/drivers/crypto/amlogic/amlogic-gxl-crypto.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/crypto/amlogic/amlogic-gxl-crypto.ko

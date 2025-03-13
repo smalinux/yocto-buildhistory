@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/systemd
+drwxr-xr-x root       root             4096 ./etc/systemd/system
+drwxr-xr-x root       root             4096 ./etc/systemd/system/getty.target.wants
+lrwxrwxrwx root       root               45 ./etc/systemd/system/getty.target.wants/serial-getty@ttyAMA0.service -> /usr/lib/systemd/system/serial-getty@.service
+lrwxrwxrwx root       root               45 ./etc/systemd/system/getty.target.wants/serial-getty@ttyO0.service -> /usr/lib/systemd/system/serial-getty@.service
+lrwxrwxrwx root       root               45 ./etc/systemd/system/getty.target.wants/serial-getty@ttyS0.service -> /usr/lib/systemd/system/serial-getty@.service
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/systemd
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/system
+-rw-r--r-- root       root             1331 ./usr/lib/systemd/system/serial-getty@.service

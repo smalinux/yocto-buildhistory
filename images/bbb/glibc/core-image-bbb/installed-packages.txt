@@ -1,5 +1,6 @@
 base-files_3.0.14-r0.3_bbb.ipk
 base-passwd_3.6.3-r0.2_cortexa8hf-neon.ipk
+bc_1.07.1-r0.2_cortexa8hf-neon.ipk
 busybox_1.36.1-r0.2_cortexa8hf-neon.ipk
 busybox-hwclock_1.36.1-r0.2_cortexa8hf-neon.ipk
 busybox-syslog_1.36.1-r0.2_cortexa8hf-neon.ipk
@@ -307,6 +308,7 @@ libopkg1_1:0.6.3-r0.2_cortexa8hf-neon.ipk
 libpanelw5_6.4-r0.2_cortexa8hf-neon.ipk
 libpcre2_10.43-r0.2_cortexa8hf-neon.ipk
 libpython3.12-1.0_3.12.6-r0.0_cortexa8hf-neon.ipk
+libreadline8_8.2-r0.2_cortexa8hf-neon.ipk
 libsmartcols1_2.39.3-r0.2_cortexa8hf-neon.ipk
 libsolv1_0.7.28-r0.2_cortexa8hf-neon.ipk
 libsqlite3-0_3:3.45.1-r0.0_cortexa8hf-neon.ipk

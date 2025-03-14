@@ -2,9 +2,9 @@ drwxr-xr-x -          -                4096 ./sysroot-providers
 -rw-r--r-- -          -                  11 ./sysroot-providers/zstd-native
 drwxr-xr-x -          -                4096 ./usr
 drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -              782649 ./usr/bin/pzstd
+-rwxr-xr-x -          -              780472 ./usr/bin/pzstd
 lrwxrwxrwx -          -                   4 ./usr/bin/unzstd -> zstd
--rwxr-xr-x -          -              954641 ./usr/bin/zstd
+-rwxr-xr-x -          -              952688 ./usr/bin/zstd
 lrwxrwxrwx -          -                   4 ./usr/bin/zstdcat -> zstd
 -rwxr-xr-x -          -                3869 ./usr/bin/zstdgrep
 -rwxr-xr-x -          -                 197 ./usr/bin/zstdless

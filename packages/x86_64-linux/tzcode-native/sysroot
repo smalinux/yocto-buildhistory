@@ -3,5 +3,5 @@ drwxr-xr-x -          -                4096 ./sysroot-providers
 drwxr-xr-x -          -                4096 ./usr
 drwxr-xr-x -          -                4096 ./usr/bin
 -rwxr-xr-x -          -               22350 ./usr/bin/tzselect
--rwxr-xr-x -          -               53801 ./usr/bin/zdump
--rwxr-xr-x -          -               61737 ./usr/bin/zic
+-rwxr-xr-x -          -               51296 ./usr/bin/zdump
+-rwxr-xr-x -          -               59528 ./usr/bin/zic

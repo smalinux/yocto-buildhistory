@@ -2,18 +2,18 @@ drwxr-xr-x -          -                4096 ./sysroot-providers
 -rw-r--r-- -          -                  15 ./sysroot-providers/cdrtools-native
 drwxr-xr-x -          -                4096 ./usr
 drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -              217393 ./usr/bin/btcflash
--rwx--x--x -          -              581937 ./usr/bin/cdrecord
--rwxr-xr-x -          -              164145 ./usr/bin/devdump
--rwxr-xr-x -          -              164145 ./usr/bin/isodebug
--rwxr-xr-x -          -              172337 ./usr/bin/isodump
--rwxr-xr-x -          -              242017 ./usr/bin/isoinfo
--rwxr-xr-x -          -              168241 ./usr/bin/isovfy
+-rwxr-xr-x -          -              213160 ./usr/bin/btcflash
+-rwx--x--x -          -              577704 ./usr/bin/cdrecord
+-rwxr-xr-x -          -              163800 ./usr/bin/devdump
+-rwxr-xr-x -          -              163800 ./usr/bin/isodebug
+-rwxr-xr-x -          -              171992 ./usr/bin/isodump
+-rwxr-xr-x -          -              238440 ./usr/bin/isoinfo
+-rwxr-xr-x -          -              167896 ./usr/bin/isovfy
 lrwxrwxrwx -          -                   7 ./usr/bin/mkhybrid -> mkisofs
--rwxr-xr-x -          -              512353 ./usr/bin/mkisofs
--rwx--x--x -          -              344369 ./usr/bin/readcd
--rwxr-xr-x -          -              213297 ./usr/bin/scgcheck
--rwxr-xr-x -          -              213297 ./usr/bin/scgskeleton
+-rwxr-xr-x -          -              508424 ./usr/bin/mkisofs
+-rwx--x--x -          -              340360 ./usr/bin/readcd
+-rwxr-xr-x -          -              212784 ./usr/bin/scgcheck
+-rwxr-xr-x -          -              209064 ./usr/bin/scgskeleton
 drwxr-xr-x -          -                4096 ./usr/include
 drwxr-xr-x -          -                4096 ./usr/include/scg
 -r--r--r-- -          -                5285 ./usr/include/scg/aspi-dos.h
@@ -225,5 +225,5 @@ drwxr-xr-x -          -                4096 ./usr/lib/siconv
 -r--r--r-- -          -               11204 ./usr/lib/siconv/koi8-r
 -r--r--r-- -          -               11267 ./usr/lib/siconv/koi8-u
 drwxr-xr-x -          -                4096 ./usr/sbin
--rwx--x--x -          -              139569 ./usr/sbin/rscsi
+-rwx--x--x -          -              138576 ./usr/sbin/rscsi
 drwxr-xr-x -          -                4096 ./usr/share

@@ -2,16 +2,16 @@ drwxr-xr-x -          -                4096 ./sysroot-providers
 -rw-r--r-- -          -                  18 ./sysroot-providers/btrfs-tools-native
 drwxr-xr-x -          -                4096 ./usr
 drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -             1208361 ./usr/bin/btrfs
+-rwxr-xr-x -          -             1197072 ./usr/bin/btrfs
 lrwxrwxrwx -          -                   5 ./usr/bin/btrfsck -> btrfs
--rwxr-xr-x -          -              691441 ./usr/bin/btrfs-convert
--rwxr-xr-x -          -              625809 ./usr/bin/btrfs-find-root
--rwxr-xr-x -          -              666801 ./usr/bin/btrfs-image
--rwxr-xr-x -          -              625801 ./usr/bin/btrfs-map-logical
--rwxr-xr-x -          -              621705 ./usr/bin/btrfs-select-super
--rwxr-xr-x -          -              662713 ./usr/bin/btrfstune
+-rwxr-xr-x -          -              684024 ./usr/bin/btrfs-convert
+-rwxr-xr-x -          -              618488 ./usr/bin/btrfs-find-root
+-rwxr-xr-x -          -              659448 ./usr/bin/btrfs-image
+-rwxr-xr-x -          -              618488 ./usr/bin/btrfs-map-logical
+-rwxr-xr-x -          -              614392 ./usr/bin/btrfs-select-super
+-rwxr-xr-x -          -              655352 ./usr/bin/btrfstune
 -rwxr-xr-x -          -                1185 ./usr/bin/fsck.btrfs
--rwxr-xr-x -          -              674993 ./usr/bin/mkfs.btrfs
+-rwxr-xr-x -          -              667640 ./usr/bin/mkfs.btrfs
 drwxr-xr-x -          -                4096 ./usr/include
 drwxr-xr-x -          -                4096 ./usr/include/btrfs
 -rw-r--r-- -          -               83909 ./usr/include/btrfs/ctree.h

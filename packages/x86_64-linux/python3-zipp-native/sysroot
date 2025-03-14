@@ -15,6 +15,6 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/z
 -rw-r--r-- -          -               11164 ./usr/lib/python3.12/site-packages/zipp/__init__.py
 -rw-r--r-- -          -                 219 ./usr/lib/python3.12/site-packages/zipp/py310compat.py
 drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/zipp/__pycache__
--rw-r--r-- -          -                1648 ./usr/lib/python3.12/site-packages/zipp/__pycache__/glob.cpython-312.pyc
--rw-r--r-- -          -               19496 ./usr/lib/python3.12/site-packages/zipp/__pycache__/__init__.cpython-312.pyc
--rw-r--r-- -          -                 569 ./usr/lib/python3.12/site-packages/zipp/__pycache__/py310compat.cpython-312.pyc
+-rw-r--r-- -          -                1641 ./usr/lib/python3.12/site-packages/zipp/__pycache__/glob.cpython-312.pyc
+-rw-r--r-- -          -               19489 ./usr/lib/python3.12/site-packages/zipp/__pycache__/__init__.cpython-312.pyc
+-rw-r--r-- -          -                 562 ./usr/lib/python3.12/site-packages/zipp/__pycache__/py310compat.cpython-312.pyc

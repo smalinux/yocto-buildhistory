@@ -2,11 +2,11 @@ drwxr-xr-x -          -                4096 ./sysroot-providers
 -rw-r--r-- -          -                  14 ./sysroot-providers/libsolv-native
 drwxr-xr-x -          -                4096 ./usr
 drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -               24961 ./usr/bin/dumpsolv
--rwxr-xr-x -          -               24953 ./usr/bin/installcheck
--rwxr-xr-x -          -               20849 ./usr/bin/mergesolv
--rwxr-xr-x -          -               16817 ./usr/bin/repo2solv
--rwxr-xr-x -          -               25001 ./usr/bin/testsolv
+-rwxr-xr-x -          -               22552 ./usr/bin/dumpsolv
+-rwxr-xr-x -          -               22552 ./usr/bin/installcheck
+-rwxr-xr-x -          -               18456 ./usr/bin/mergesolv
+-rwxr-xr-x -          -               14360 ./usr/bin/repo2solv
+-rwxr-xr-x -          -               22624 ./usr/bin/testsolv
 drwxr-xr-x -          -                4096 ./usr/include
 drwxr-xr-x -          -                4096 ./usr/include/solv
 -rw-r--r-- -          -                1555 ./usr/include/solv/bitmap.h

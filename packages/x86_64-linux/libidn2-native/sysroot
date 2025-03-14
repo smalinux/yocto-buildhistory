@@ -2,7 +2,7 @@ drwxr-xr-x -          -                4096 ./sysroot-providers
 -rw-r--r-- -          -                  14 ./sysroot-providers/libidn2-native
 drwxr-xr-x -          -                4096 ./usr
 drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -               28953 ./usr/bin/idn2
+-rwxr-xr-x -          -               27216 ./usr/bin/idn2
 drwxr-xr-x -          -                4096 ./usr/include
 -rw-r--r-- -          -               14191 ./usr/include/idn2.h
 drwxr-xr-x -          -                4096 ./usr/lib

@@ -1,6 +1,6 @@
 drwxr-xr-x root       root             4096 ./boot
 drwxr-xr-x root       root             4096 ./boot/.debug
--rwxr-xr-x root       root          8917508 ./boot/.debug/vmlinux-6.13.1
+-rwxr-xr-x root       root          8771388 ./boot/.debug/vmlinux-6.13.1
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/modules
@@ -30,10 +30,14 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/cryp
 -rw-r--r-- root       root             7444 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/algif_hash.ko
 -rw-r--r-- root       root             5492 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/algif_rng.ko
 -rw-r--r-- root       root             7320 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/algif_skcipher.ko
+-rw-r--r-- root       root             6468 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/authencesn.ko
+-rw-r--r-- root       root             6428 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/authenc.ko
+-rw-r--r-- root       root             4404 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/cbc.ko
 -rw-r--r-- root       root             9004 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/ccm.ko
 -rw-r--r-- root       root             5192 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/cmac.ko
 -rw-r--r-- root       root            14100 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/cryptd.ko
 -rw-r--r-- root       root            11856 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/crypto_engine.ko
+-rw-r--r-- root       root             6348 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/crypto_null.ko
 -rw-r--r-- root       root             6108 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/crypto_simd.ko
 -rw-r--r-- root       root             7596 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/crypto_user.ko
 -rw-r--r-- root       root             5596 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/ctr.ko

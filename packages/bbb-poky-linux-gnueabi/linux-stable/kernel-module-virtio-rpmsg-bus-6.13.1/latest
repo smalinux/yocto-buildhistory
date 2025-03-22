@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = kernel-module-virtio-rpmsg-bus
 RDEPENDS = kernel-6.13.1 kernel-module-rpmsg-core-6.13.1 kernel-module-rpmsg-ns-6.13.1
 RRECOMMENDS = 

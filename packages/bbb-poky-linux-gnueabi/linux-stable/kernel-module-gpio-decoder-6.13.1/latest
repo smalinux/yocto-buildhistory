@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-gpio-decoder
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 7012
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/input/misc/.debug/gpio_decoder.ko /usr/lib/modules/6.13.1/kernel/drivers/input/misc/gpio_decoder.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/input/misc/gpio_decoder.ko
+FILES = /lib/modules/6.13.1/kernel/drivers/input/misc/.debug/gpio_decoder.ko /lib/modules/6.13.1/kernel/drivers/input/misc/gpio_decoder.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/input/misc/gpio_decoder.ko

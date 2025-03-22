@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-usb-f-rndis
 RDEPENDS = kernel-6.13.1 kernel-module-libcomposite-6.13.1 kernel-module-u-ether-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 26284
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/usb/gadget/function/.debug/usb_f_rndis.ko /usr/lib/modules/6.13.1/kernel/drivers/usb/gadget/function/usb_f_rndis.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/usb/gadget/function/usb_f_rndis.ko
+FILES = /lib/modules/6.13.1/kernel/drivers/usb/gadget/function/.debug/usb_f_rndis.ko /lib/modules/6.13.1/kernel/drivers/usb/gadget/function/usb_f_rndis.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/usb/gadget/function/usb_f_rndis.ko

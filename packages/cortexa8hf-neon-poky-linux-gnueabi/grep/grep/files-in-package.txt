@@ -1,5 +1,4 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root              102 ./usr/bin/egrep.grep
--rwxr-xr-x root       root              102 ./usr/bin/fgrep.grep
--rwxr-xr-x root       root           218704 ./usr/bin/grep.grep
+drwxr-xr-x root       root             4096 ./bin
+-rwxr-xr-x root       root              102 ./bin/egrep.grep
+-rwxr-xr-x root       root              102 ./bin/fgrep.grep
+-rwxr-xr-x root       root           218704 ./bin/grep.grep

@@ -2104,7 +2104,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/openssl/ptest/test/smime-e
 -rw-r--r-- root       root             5259 ./usr/lib/openssl/ptest/test/smime-eml/SignedInvalidMappingFromanyPolicyTest7.eml
 -rwxr-xr-x root       root          2692644 ./usr/lib/openssl/ptest/test/sparse_array_test
 -rw-r--r-- root       root             5693 ./usr/lib/openssl/ptest/test/sparse_array_test.c
--rwxr-xr-x root       root            67128 ./usr/lib/openssl/ptest/test/srptest
+-rwxr-xr-x root       root            63032 ./usr/lib/openssl/ptest/test/srptest
 -rw-r--r-- root       root             8294 ./usr/lib/openssl/ptest/test/srptest.c
 -rwxr-xr-x root       root          3649568 ./usr/lib/openssl/ptest/test/sslapitest
 -rw-r--r-- root       root           420229 ./usr/lib/openssl/ptest/test/sslapitest.c

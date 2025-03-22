@@ -1,10 +1,10 @@
 PV = 2.39+git
 PR = r0
 PKGV = 2.39+git2+e8f5217097
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
 PKGSIZE = 422432
-FILES = /usr/sbin/sln
-FILELIST = /usr/sbin/sln
+FILES = /sbin/sln
+FILELIST = /sbin/sln

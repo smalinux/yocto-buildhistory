@@ -254,10 +254,10 @@ drwxr-xr-x root       root            53248 ./usr/lib/gawk/ptest/test
 -rw-r--r-- root       root              158 ./usr/lib/gawk/ptest/test/exitval2.w32
 -rw-r--r-- root       root               31 ./usr/lib/gawk/ptest/test/exitval3.awk
 -rw-r--r-- root       root               14 ./usr/lib/gawk/ptest/test/exitval3.ok
--rw-r--r-- root       root              364 ./usr/lib/gawk/ptest/test/fcall_exit2.awk
+-rw-r--r-- root       root              368 ./usr/lib/gawk/ptest/test/fcall_exit2.awk
 -rw-r--r-- root       root               17 ./usr/lib/gawk/ptest/test/fcall_exit2.in
 -rw-r--r-- root       root               71 ./usr/lib/gawk/ptest/test/fcall_exit2.ok
--rw-r--r-- root       root              436 ./usr/lib/gawk/ptest/test/fcall_exit.awk
+-rw-r--r-- root       root              440 ./usr/lib/gawk/ptest/test/fcall_exit.awk
 -rw-r--r-- root       root               56 ./usr/lib/gawk/ptest/test/fcall_exit.ok
 -rw-r--r-- root       root               64 ./usr/lib/gawk/ptest/test/fflush.ok
 -rwxr-xr-x root       root              674 ./usr/lib/gawk/ptest/test/fflush.sh
@@ -619,7 +619,7 @@ drwxr-xr-x root       root            53248 ./usr/lib/gawk/ptest/test
 -rw-r--r-- root       root               89 ./usr/lib/gawk/ptest/test/mdim6.ok
 -rw-r--r-- root       root              114 ./usr/lib/gawk/ptest/test/mdim7.awk
 -rw-r--r-- root       root                0 ./usr/lib/gawk/ptest/test/mdim7.ok
--rw-r--r-- root       root            11092 ./usr/lib/gawk/ptest/test/mdim8.awk
+-rw-r--r-- root       root            11096 ./usr/lib/gawk/ptest/test/mdim8.awk
 -rw-r--r-- root       root            37658 ./usr/lib/gawk/ptest/test/mdim8.in
 -rw-r--r-- root       root            68639 ./usr/lib/gawk/ptest/test/mdim8.ok
 -rw-r--r-- root       root               20 ./usr/lib/gawk/ptest/test/membug1.awk

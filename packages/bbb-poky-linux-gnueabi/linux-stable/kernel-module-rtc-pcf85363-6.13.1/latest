@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-rtc-pcf85363
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 11512
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/rtc/.debug/rtc-pcf85363.ko /usr/lib/modules/6.13.1/kernel/drivers/rtc/rtc-pcf85363.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/rtc/rtc-pcf85363.ko
+FILES = /lib/modules/6.13.1/kernel/drivers/rtc/.debug/rtc-pcf85363.ko /lib/modules/6.13.1/kernel/drivers/rtc/rtc-pcf85363.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/rtc/rtc-pcf85363.ko

@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-jitterentropy-rng
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 14268
-FILES = /usr/lib/modules/6.13.1/kernel/crypto/.debug/jitterentropy_rng.ko /usr/lib/modules/6.13.1/kernel/crypto/jitterentropy_rng.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/jitterentropy_rng.ko
+FILES = /lib/modules/6.13.1/kernel/crypto/.debug/jitterentropy_rng.ko /lib/modules/6.13.1/kernel/crypto/jitterentropy_rng.ko
+FILELIST = /lib/modules/6.13.1/kernel/crypto/jitterentropy_rng.ko

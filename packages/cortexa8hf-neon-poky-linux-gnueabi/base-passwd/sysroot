@@ -6,4 +6,4 @@ drwxr-xr-x -          -                4096 ./usr/bin
 drwxr-xr-x -          -                4096 ./usr/share
 drwxr-xr-x -          -                4096 ./usr/share/base-passwd
 -rw-r--r-- -          -                 493 ./usr/share/base-passwd/group.master
--rw-r--r-- -          -                 836 ./usr/share/base-passwd/passwd.master
+-rw-r--r-- -          -                 777 ./usr/share/base-passwd/passwd.master

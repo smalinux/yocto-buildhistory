@@ -1,10 +1,10 @@
 PV = 6.4
 PR = r0
 PKG = libtic5
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = ncurses-libtic (=6.4)
 RDEPENDS = glibc (>= 2.39+git2+e8f5217097) ncurses-libtinfo (>= 6.4)
 RRECOMMENDS = 
 PKGSIZE = 58673
-FILES = /usr/lib/libtic.so.5 /usr/lib/libtic.so.5.9 /usr/lib/libtic.so.5 /usr/lib/libtic.so.5.9
+FILES = /usr/lib/libtic.so.5 /usr/lib/libtic.so.5.9
 FILELIST = /usr/lib/libtic.so.5 /usr/lib/libtic.so.5.9

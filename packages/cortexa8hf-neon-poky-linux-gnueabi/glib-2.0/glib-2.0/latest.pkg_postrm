@@ -6,7 +6,7 @@ if [ "x$D" != "x" ]; then
             binprefix= \
             libdir=/usr/lib \
             libexecdir=/usr/libexec \
-            base_libdir=/usr/lib \
+            base_libdir=/lib \
             bindir=/usr/bin
 else
     /usr/libexec/gio-querymodules /usr/lib/gio/modules/

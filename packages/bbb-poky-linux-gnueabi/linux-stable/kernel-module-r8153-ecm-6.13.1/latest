@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-r8153-ecm
 RDEPENDS = kernel-6.13.1 kernel-module-r8152-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 6764
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/net/usb/.debug/r8153_ecm.ko /usr/lib/modules/6.13.1/kernel/drivers/net/usb/r8153_ecm.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/net/usb/r8153_ecm.ko
+FILES = /lib/modules/6.13.1/kernel/drivers/net/usb/.debug/r8153_ecm.ko /lib/modules/6.13.1/kernel/drivers/net/usb/r8153_ecm.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/net/usb/r8153_ecm.ko

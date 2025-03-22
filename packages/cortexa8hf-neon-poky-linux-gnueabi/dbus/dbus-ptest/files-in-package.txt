@@ -168,7 +168,7 @@ drwxr-xr-x root       root             4096 ./usr/libexec/installed-tests/dbus/i
 -rwxr-xr-x root       root            21896 ./usr/libexec/installed-tests/dbus/manual-dir-iter
 -rwxr-xr-x root       root             5508 ./usr/libexec/installed-tests/dbus/manual-tcp
 -rwxr-xr-x root       root            54744 ./usr/libexec/installed-tests/dbus/manual-test-thread-blocking
--rwxr-xr-x root       root            91660 ./usr/libexec/installed-tests/dbus/test-apparmor-activation
+-rwxr-xr-x root       root            87564 ./usr/libexec/installed-tests/dbus/test-apparmor-activation
 -rwxr-xr-x root       root             2028 ./usr/libexec/installed-tests/dbus/test-apparmor-activation.sh
 -rwxr-xr-x root       root            54732 ./usr/libexec/installed-tests/dbus/test-assertions
 -rwxr-xr-x root       root            38348 ./usr/libexec/installed-tests/dbus/test-atomic
@@ -189,15 +189,15 @@ drwxr-xr-x root       root             4096 ./usr/libexec/installed-tests/dbus/i
 -rwxr-xr-x root       root            13700 ./usr/libexec/installed-tests/dbus/test-printf
 -rwxr-xr-x root       root            62936 ./usr/libexec/installed-tests/dbus/test-refs
 -rwxr-xr-x root       root            58824 ./usr/libexec/installed-tests/dbus/test-relay
--rwxr-xr-x root       root            91652 ./usr/libexec/installed-tests/dbus/test-sd-activation
+-rwxr-xr-x root       root            87556 ./usr/libexec/installed-tests/dbus/test-sd-activation
 -rwxr-xr-x root       root            54732 ./usr/libexec/installed-tests/dbus/test-server-oom
 -rwxr-xr-x root       root            42448 ./usr/libexec/installed-tests/dbus/test-service
 -rwxr-xr-x root       root            13700 ./usr/libexec/installed-tests/dbus/test-shell
 -rwxr-xr-x root       root             5516 ./usr/libexec/installed-tests/dbus/test-sleep-forever
--rwxr-xr-x root       root            58876 ./usr/libexec/installed-tests/dbus/test-syntax
+-rwxr-xr-x root       root            54780 ./usr/libexec/installed-tests/dbus/test-syntax
 -rwxr-xr-x root       root            54732 ./usr/libexec/installed-tests/dbus/test-sysdeps
 -rwxr-xr-x root       root            54728 ./usr/libexec/installed-tests/dbus/test-syslog
--rwxr-xr-x root       root            58872 ./usr/libexec/installed-tests/dbus/test-uid-permissions
+-rwxr-xr-x root       root            54776 ./usr/libexec/installed-tests/dbus/test-uid-permissions
 -rwxr-xr-x root       root            54728 ./usr/libexec/installed-tests/dbus/test-userdb
 -rwxr-xr-x root       root            67020 ./usr/libexec/installed-tests/dbus/test-variant
 drwxr-xr-x root       root             4096 ./usr/share

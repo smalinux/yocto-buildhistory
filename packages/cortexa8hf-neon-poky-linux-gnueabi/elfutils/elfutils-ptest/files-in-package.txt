@@ -350,7 +350,7 @@ drwxr-xr-x root       root            57344 ./usr/lib/elfutils/ptest/tests
 -rwxr-xr-x root       root             9652 ./usr/lib/elfutils/ptest/tests/allregs
 -rw-r--r-- root       root             5029 ./usr/lib/elfutils/ptest/tests/allregs.c
 -rw-r--r-- root       root            21676 ./usr/lib/elfutils/ptest/tests/allregs.o
--rwxr-xr-x root       root             9604 ./usr/lib/elfutils/ptest/tests/arextract
+-rwxr-xr-x root       root             5508 ./usr/lib/elfutils/ptest/tests/arextract
 -rw-r--r-- root       root             3651 ./usr/lib/elfutils/ptest/tests/arextract.c
 -rw-r--r-- root       root            13672 ./usr/lib/elfutils/ptest/tests/arextract.o
 -rwxr-xr-x root       root             5504 ./usr/lib/elfutils/ptest/tests/arls

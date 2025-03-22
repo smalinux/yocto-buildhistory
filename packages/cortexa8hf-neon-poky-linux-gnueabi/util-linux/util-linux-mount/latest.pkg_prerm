@@ -1,3 +1,3 @@
 #!/bin/sh
 set -e
-	update-alternatives --remove  mount /usr/bin/mount.util-linux
+	update-alternatives --remove  mount /bin/mount.util-linux

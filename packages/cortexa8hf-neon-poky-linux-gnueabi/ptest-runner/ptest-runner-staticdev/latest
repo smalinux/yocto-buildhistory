@@ -1,10 +1,10 @@
 PV = 2.4.4+git
 PR = r0
 PKGV = 2.4.4+git0+95f528cff0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = ptest-runner-dev (= 2.4.4+git0+95f528cff0-r0.2)
+RDEPENDS = ptest-runner-dev (= 2.4.4+git0+95f528cff0-r0.3)
 RRECOMMENDS = 
 PKGSIZE = 0
-FILES = /usr/lib/*.a /usr/lib/*.a /usr/lib/ptest-runner/*.a
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/ptest-runner/*.a
 FILELIST = 

@@ -1,7 +1,7 @@
 PV = 3.8.4
 PR = r0
 PKG = libgnutls-ptest
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = gnutls-ptest (=3.8.4)
 RDEPENDS = glibc (>= 2.39+git2+e8f5217097) gnutls (>= 3.8.4) gnutls-openssl (>= 3.8.4) nettle (>= 3.9.1) python3
 RRECOMMENDS = ptest-runner

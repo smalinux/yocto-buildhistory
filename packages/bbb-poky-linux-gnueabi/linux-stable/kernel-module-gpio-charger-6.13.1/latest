@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-gpio-charger
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 10468
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/power/supply/.debug/gpio-charger.ko /usr/lib/modules/6.13.1/kernel/drivers/power/supply/gpio-charger.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/power/supply/gpio-charger.ko
+FILES = /lib/modules/6.13.1/kernel/drivers/power/supply/.debug/gpio-charger.ko /lib/modules/6.13.1/kernel/drivers/power/supply/gpio-charger.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/power/supply/gpio-charger.ko

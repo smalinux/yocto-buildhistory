@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-atmel-mxt-ts
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 36624
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/input/touchscreen/.debug/atmel_mxt_ts.ko /usr/lib/modules/6.13.1/kernel/drivers/input/touchscreen/atmel_mxt_ts.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/input/touchscreen/atmel_mxt_ts.ko
+FILES = /lib/modules/6.13.1/kernel/drivers/input/touchscreen/.debug/atmel_mxt_ts.ko /lib/modules/6.13.1/kernel/drivers/input/touchscreen/atmel_mxt_ts.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/input/touchscreen/atmel_mxt_ts.ko

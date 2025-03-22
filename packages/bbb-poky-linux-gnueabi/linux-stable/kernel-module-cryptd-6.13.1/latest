@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-cryptd
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 21168
-FILES = /usr/lib/modules/6.13.1/kernel/crypto/.debug/cryptd.ko /usr/lib/modules/6.13.1/kernel/crypto/cryptd.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/cryptd.ko
+FILES = /lib/modules/6.13.1/kernel/crypto/.debug/cryptd.ko /lib/modules/6.13.1/kernel/crypto/cryptd.ko
+FILELIST = /lib/modules/6.13.1/kernel/crypto/cryptd.ko

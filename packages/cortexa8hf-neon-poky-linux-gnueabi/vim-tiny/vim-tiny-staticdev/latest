@@ -1,9 +1,9 @@
 PV = 9.1.0698
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = vim-tiny-dev (= 9.1.0698-r0.1)
+RDEPENDS = vim-tiny-dev (= 9.1.0698-r0.2)
 RRECOMMENDS = 
 PKGSIZE = 0
-FILES = /usr/lib/*.a /usr/lib/*.a /usr/lib/vim-tiny/*.a
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/vim-tiny/*.a
 FILELIST = 

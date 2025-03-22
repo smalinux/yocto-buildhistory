@@ -1,9 +1,9 @@
 PV = 9.6p1
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libcrypto-dbg libxcrypt-dbg zlib-dbg
-PKGSIZE = 19919416
+PKGSIZE = 19919184
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
 FILELIST = /usr/bin/.debug/scp.openssh /usr/bin/.debug/sftp /usr/bin/.debug/ssh-add /usr/bin/.debug/ssh-agent /usr/bin/.debug/ssh-keygen /usr/bin/.debug/ssh-keyscan /usr/bin/.debug/ssh.openssh /usr/lib/openssh/ptest/regress/.debug/check-perm /usr/lib/openssh/ptest/regress/.debug/mkdtemp /usr/lib/openssh/ptest/regress/.debug/modpipe /usr/lib/openssh/ptest/regress/.debug/netcat /usr/lib/openssh/ptest/regress/.debug/setuid-allowed /usr/lib/openssh/ptest/regress/.debug/timestamp /usr/lib/openssh/ptest/regress/unittests/authopt/.debug/test_authopt /usr/lib/openssh/ptest/regress/unittests/bitmap/.debug/test_bitmap /usr/lib/openssh/ptest/regress/unittests/conversion/.debug/test_conversion /usr/lib/openssh/ptest/regress/unittests/hostkeys/.debug/test_hostkeys /usr/lib/openssh/ptest/regress/unittests/kex/.debug/test_kex /usr/lib/openssh/ptest/regress/unittests/match/.debug/test_match /usr/lib/openssh/ptest/regress/unittests/misc/.debug/test_misc /usr/lib/openssh/ptest/regress/unittests/sshbuf/.debug/test_sshbuf /usr/lib/openssh/ptest/regress/unittests/sshkey/.debug/test_sshkey /usr/lib/openssh/ptest/regress/unittests/sshsig/.debug/test_sshsig /usr/lib/openssh/ptest/regress/unittests/utf8/.debug/test_utf8 /usr/libexec/.debug/sftp-server /usr/libexec/.debug/ssh-keysign /usr/libexec/.debug/ssh-pkcs11-helper /usr/libexec/.debug/ssh-sk-helper /usr/sbin/.debug/sshd

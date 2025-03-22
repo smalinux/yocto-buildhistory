@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-pwm-tiehrpwm
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 10696
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/pwm/.debug/pwm-tiehrpwm.ko /usr/lib/modules/6.13.1/kernel/drivers/pwm/pwm-tiehrpwm.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/pwm/pwm-tiehrpwm.ko
+FILES = /lib/modules/6.13.1/kernel/drivers/pwm/.debug/pwm-tiehrpwm.ko /lib/modules/6.13.1/kernel/drivers/pwm/pwm-tiehrpwm.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/pwm/pwm-tiehrpwm.ko

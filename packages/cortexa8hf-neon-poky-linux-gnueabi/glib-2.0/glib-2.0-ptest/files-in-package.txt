@@ -256,7 +256,7 @@ drwxr-xr-x root       root             4096 ./usr/libexec/installed-tests/glib/d
 -rwxr-xr-x root       root            58924 ./usr/libexec/installed-tests/glib/mainloop
 -rwxr-xr-x root       root            13700 ./usr/libexec/installed-tests/glib/mappedfile
 -rwxr-xr-x root       root            13696 ./usr/libexec/installed-tests/glib/mapping
--rwxr-xr-x root       root             9620 ./usr/libexec/installed-tests/glib/markup
+-rwxr-xr-x root       root             5524 ./usr/libexec/installed-tests/glib/markup
 -rwxr-xr-x root       root            14064 ./usr/libexec/installed-tests/glib/markup-collect
 -rwxr-xr-x root       root             9928 ./usr/libexec/installed-tests/glib/markup-escape
 -rwxr-xr-x root       root            13756 ./usr/libexec/installed-tests/glib/markup-parse

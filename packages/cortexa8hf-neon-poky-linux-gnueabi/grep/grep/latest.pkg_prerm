@@ -1,5 +1,5 @@
 #!/bin/sh
 set -e
-	update-alternatives --remove  grep /usr/bin/grep.grep
-	update-alternatives --remove  egrep /usr/bin/egrep.grep
-	update-alternatives --remove  fgrep /usr/bin/fgrep.grep
+	update-alternatives --remove  grep /bin/grep.grep
+	update-alternatives --remove  egrep /bin/egrep.grep
+	update-alternatives --remove  fgrep /bin/fgrep.grep

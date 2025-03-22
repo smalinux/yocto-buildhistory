@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-omapdrm
 RDEPENDS = kernel-6.13.1 kernel-module-cec-6.13.1 kernel-module-drm-display-helper-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 247796
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/omapdrm/.debug/omapdrm.ko /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/omapdrm/omapdrm.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/omapdrm/omapdrm.ko
+FILES = /lib/modules/6.13.1/kernel/drivers/gpu/drm/omapdrm/.debug/omapdrm.ko /lib/modules/6.13.1/kernel/drivers/gpu/drm/omapdrm/omapdrm.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/gpu/drm/omapdrm/omapdrm.ko

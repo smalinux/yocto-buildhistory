@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-b53-mdio
 RDEPENDS = kernel-6.13.1 kernel-module-b53-common-6.13.1 kernel-module-dsa-core-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 11920
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/net/dsa/b53/.debug/b53_mdio.ko /usr/lib/modules/6.13.1/kernel/drivers/net/dsa/b53/b53_mdio.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/net/dsa/b53/b53_mdio.ko
+FILES = /lib/modules/6.13.1/kernel/drivers/net/dsa/b53/.debug/b53_mdio.ko /lib/modules/6.13.1/kernel/drivers/net/dsa/b53/b53_mdio.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/net/dsa/b53/b53_mdio.ko

@@ -1,3 +1,5 @@
+drwxr-xr-x root       root             4096 ./lib
+-rw-r--r-- root       root              132 ./lib/libgcc_s.so
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/arm-poky-linux-gnueabi
@@ -12,4 +14,3 @@ drwxr-xr-x root       root             4096 ./usr/lib/arm-poky-linux-gnueabi/13.
 -rw-r--r-- root       root            89968 ./usr/lib/arm-poky-linux-gnueabi/13.3.0/libgcc_eh.a
 -rw-r--r-- root       root           264246 ./usr/lib/arm-poky-linux-gnueabi/13.3.0/libgcov.a
 lrwxrwxrwx root       root               22 ./usr/lib/arm-poky-linux-gnueabihf -> arm-poky-linux-gnueabi
--rw-r--r-- root       root              132 ./usr/lib/libgcc_s.so

@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-ctr
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 8012
-FILES = /usr/lib/modules/6.13.1/kernel/crypto/.debug/ctr.ko /usr/lib/modules/6.13.1/kernel/crypto/ctr.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/ctr.ko
+FILES = /lib/modules/6.13.1/kernel/crypto/.debug/ctr.ko /lib/modules/6.13.1/kernel/crypto/ctr.ko
+FILELIST = /lib/modules/6.13.1/kernel/crypto/ctr.ko

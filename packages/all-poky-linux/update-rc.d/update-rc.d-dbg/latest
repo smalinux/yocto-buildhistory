@@ -1,7 +1,7 @@
 PV = 0.8+git
 PR = r0
 PKGV = 0.8+git0+b8f9501050
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 

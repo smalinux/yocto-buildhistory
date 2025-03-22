@@ -1,8 +1,8 @@
 PV = 1.14.10
 PR = r0
-DEPENDS = autoconf-archive-native autoconf-native automake-native base-files base-passwd expat gettext-native glib-2.0 libsm libtool-cross libtool-native pkgconfig-native shadow shadow-native shadow-sysroot systemd virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc virtual/libintl virtual/libx11
+DEPENDS = autoconf-archive-native autoconf-native automake-native base-files base-passwd expat gettext-native glib-2.0 initscripts libsm libtool-cross libtool-native pkgconfig-native shadow shadow-native shadow-sysroot update-rc.d virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc virtual/libintl virtual/libx11
 PACKAGES = dbus-src dbus-dbg dbus-lib dbus-common dbus-tools dbus-ptest dbus-staticdev dbus-dev dbus-doc dbus-locale dbus
 LAYER = core
 LICENSE = AFL-2.1 | GPL-2.0-or-later
-CONFIG = systemd user-session x11
+CONFIG = user-session x11
 SRC_URI = https://dbus.freedesktop.org/releases/dbus/dbus-1.14.10.tar.xz file://run-ptest file://tmpdir.patch file://dbus-1.init

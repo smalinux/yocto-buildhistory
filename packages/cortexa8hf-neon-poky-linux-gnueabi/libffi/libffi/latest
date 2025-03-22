@@ -1,10 +1,10 @@
 PV = 3.4.6
 PR = r0
 PKG = libffi8
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = libffi (=3.4.6)
 RDEPENDS = glibc (>= 2.39+git2+e8f5217097) libgcc (>= 13.3.0)
 RRECOMMENDS = 
 PKGSIZE = 30187
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /usr/bin/* /usr/sbin/* /usr/lib/*.so.* /lib/udev /usr/lib/udev /usr/lib/udev /usr/lib/udev /usr/share/libffi /usr/lib/libffi/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libffi /usr/lib/libffi/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libffi.so.8 /usr/lib/libffi.so.8.1.4

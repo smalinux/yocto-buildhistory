@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-crc4
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 3412
-FILES = /usr/lib/modules/6.13.1/kernel/lib/.debug/crc4.ko /usr/lib/modules/6.13.1/kernel/lib/crc4.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/lib/crc4.ko
+FILES = /lib/modules/6.13.1/kernel/lib/.debug/crc4.ko /lib/modules/6.13.1/kernel/lib/crc4.ko
+FILELIST = /lib/modules/6.13.1/kernel/lib/crc4.ko

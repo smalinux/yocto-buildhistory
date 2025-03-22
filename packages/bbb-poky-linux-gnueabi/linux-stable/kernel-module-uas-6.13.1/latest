@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-uas
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 24316
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/usb/storage/.debug/uas.ko /usr/lib/modules/6.13.1/kernel/drivers/usb/storage/uas.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/usb/storage/uas.ko
+FILES = /lib/modules/6.13.1/kernel/drivers/usb/storage/.debug/uas.ko /lib/modules/6.13.1/kernel/drivers/usb/storage/uas.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/usb/storage/uas.ko

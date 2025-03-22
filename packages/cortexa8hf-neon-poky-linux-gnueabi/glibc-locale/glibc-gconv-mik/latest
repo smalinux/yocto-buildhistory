@@ -1,6 +1,6 @@
 PV = 2.39+git
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.39+git2+e8f5217097) glibc-gconv
 RRECOMMENDS = 

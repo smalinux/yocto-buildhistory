@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-rtc-efi
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 8728
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/rtc/.debug/rtc-efi.ko /usr/lib/modules/6.13.1/kernel/drivers/rtc/rtc-efi.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/rtc/rtc-efi.ko
+FILES = /lib/modules/6.13.1/kernel/drivers/rtc/.debug/rtc-efi.ko /lib/modules/6.13.1/kernel/drivers/rtc/rtc-efi.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/rtc/rtc-efi.ko

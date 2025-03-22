@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-crc-itu-t
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 4040
-FILES = /usr/lib/modules/6.13.1/kernel/lib/.debug/crc-itu-t.ko /usr/lib/modules/6.13.1/kernel/lib/crc-itu-t.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/lib/crc-itu-t.ko
+FILES = /lib/modules/6.13.1/kernel/lib/.debug/crc-itu-t.ko /lib/modules/6.13.1/kernel/lib/crc-itu-t.ko
+FILELIST = /lib/modules/6.13.1/kernel/lib/crc-itu-t.ko

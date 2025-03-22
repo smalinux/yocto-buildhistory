@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-sfp
 RDEPENDS = kernel-6.13.1 kernel-module-mdio-i2c-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 37444
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/net/phy/.debug/sfp.ko /usr/lib/modules/6.13.1/kernel/drivers/net/phy/sfp.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/net/phy/sfp.ko
+FILES = /lib/modules/6.13.1/kernel/drivers/net/phy/.debug/sfp.ko /lib/modules/6.13.1/kernel/drivers/net/phy/sfp.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/net/phy/sfp.ko

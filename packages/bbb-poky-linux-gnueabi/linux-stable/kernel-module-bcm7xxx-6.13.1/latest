@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-bcm7xxx
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 22384
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/net/phy/.debug/bcm7xxx.ko /usr/lib/modules/6.13.1/kernel/drivers/net/phy/bcm7xxx.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/net/phy/bcm7xxx.ko
+FILES = /lib/modules/6.13.1/kernel/drivers/net/phy/.debug/bcm7xxx.ko /lib/modules/6.13.1/kernel/drivers/net/phy/bcm7xxx.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/net/phy/bcm7xxx.ko

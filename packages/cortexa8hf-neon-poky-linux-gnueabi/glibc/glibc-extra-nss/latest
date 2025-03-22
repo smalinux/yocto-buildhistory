@@ -2,10 +2,10 @@ PV = 2.39+git
 PR = r0
 PKG = libc6-extra-nss
 PKGV = 2.39+git2+e8f5217097
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = eglibc-extra-nss glibc-extra-nss (=2.39+git2+e8f5217097)
 RDEPENDS = glibc (>= 2.39+git2+e8f5217097)
 RRECOMMENDS = 
 PKGSIZE = 13660
-FILES = /usr/lib/libnss_*-*.so /usr/lib/libnss_*.so.*
-FILELIST = /usr/lib/libnss_hesiod.so.2
+FILES = /lib/libnss_*-*.so /lib/libnss_*.so.*
+FILELIST = /lib/libnss_hesiod.so.2

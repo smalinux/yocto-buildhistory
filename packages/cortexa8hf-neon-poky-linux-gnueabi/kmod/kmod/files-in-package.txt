@@ -1,18 +1,17 @@
+drwxr-xr-x root       root             4096 ./bin
+-rwxr-xr-x root       root           128504 ./bin/kmod
+lrwxrwxrwx root       root                4 ./bin/lsmod.kmod -> kmod
 drwxr-xr-x root       root             4096 ./etc
 drwxr-xr-x root       root             4096 ./etc/depmod.d
 drwxr-xr-x root       root             4096 ./etc/modprobe.d
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root           128504 ./usr/bin/kmod
-lrwxrwxrwx root       root                4 ./usr/bin/lsmod.kmod -> kmod
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/depmod.d
--rw-r--r-- root       root               15 ./usr/lib/depmod.d/exclude.conf
--rw-r--r-- root       root               71 ./usr/lib/depmod.d/search.conf
-drwxr-xr-x root       root             4096 ./usr/lib/modprobe.d
-drwxr-xr-x root       root             4096 ./usr/sbin
-lrwxrwxrwx root       root               11 ./usr/sbin/depmod.kmod -> ../bin/kmod
-lrwxrwxrwx root       root               11 ./usr/sbin/insmod.kmod -> ../bin/kmod
-lrwxrwxrwx root       root               11 ./usr/sbin/modinfo.kmod -> ../bin/kmod
-lrwxrwxrwx root       root               11 ./usr/sbin/modprobe.kmod -> ../bin/kmod
-lrwxrwxrwx root       root               11 ./usr/sbin/rmmod.kmod -> ../bin/kmod
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/depmod.d
+-rw-r--r-- root       root               15 ./lib/depmod.d/exclude.conf
+-rw-r--r-- root       root               71 ./lib/depmod.d/search.conf
+drwxr-xr-x root       root             4096 ./lib/modprobe.d
+drwxr-xr-x root       root             4096 ./sbin
+lrwxrwxrwx root       root               11 ./sbin/depmod.kmod -> ../bin/kmod
+lrwxrwxrwx root       root               11 ./sbin/insmod.kmod -> ../bin/kmod
+lrwxrwxrwx root       root               11 ./sbin/modinfo.kmod -> ../bin/kmod
+lrwxrwxrwx root       root               11 ./sbin/modprobe.kmod -> ../bin/kmod
+lrwxrwxrwx root       root               11 ./sbin/rmmod.kmod -> ../bin/kmod

@@ -25,10 +25,6 @@ drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
 -rw-r--r-- -          -                 214 ./usr/lib/pkgconfig/libip6tc.pc
 -rw-r--r-- -          -                 191 ./usr/lib/pkgconfig/libiptc.pc
 -rw-r--r-- -          -                 262 ./usr/lib/pkgconfig/xtables.pc
-drwxr-xr-x -          -                4096 ./usr/lib/systemd
-drwxr-xr-x -          -                4096 ./usr/lib/systemd/system
--rw-r--r-- -          -                 333 ./usr/lib/systemd/system/ip6tables.service
--rw-r--r-- -          -                 329 ./usr/lib/systemd/system/iptables.service
 drwxr-xr-x -          -                4096 ./usr/lib/xtables
 -rwxr-xr-x -          -                5432 ./usr/lib/xtables/libip6t_ah.so
 -rwxr-xr-x -          -                5436 ./usr/lib/xtables/libip6t_DNPT.so

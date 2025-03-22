@@ -1,5 +1,5 @@
 #!/bin/sh
 set -e
-	update-alternatives --install /usr/bin/grep grep /usr/bin/grep.grep 100
-	update-alternatives --install /usr/bin/egrep egrep /usr/bin/egrep.grep 100
-	update-alternatives --install /usr/bin/fgrep fgrep /usr/bin/fgrep.grep 100
+	update-alternatives --install /bin/grep grep /bin/grep.grep 100
+	update-alternatives --install /bin/egrep egrep /bin/egrep.grep 100
+	update-alternatives --install /bin/fgrep fgrep /bin/fgrep.grep 100

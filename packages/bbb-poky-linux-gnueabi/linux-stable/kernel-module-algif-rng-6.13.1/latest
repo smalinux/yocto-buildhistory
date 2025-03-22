@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-algif-rng
 RDEPENDS = kernel-6.13.1 kernel-module-af-alg-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 6884
-FILES = /usr/lib/modules/6.13.1/kernel/crypto/.debug/algif_rng.ko /usr/lib/modules/6.13.1/kernel/crypto/algif_rng.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/algif_rng.ko
+FILES = /lib/modules/6.13.1/kernel/crypto/.debug/algif_rng.ko /lib/modules/6.13.1/kernel/crypto/algif_rng.ko
+FILELIST = /lib/modules/6.13.1/kernel/crypto/algif_rng.ko

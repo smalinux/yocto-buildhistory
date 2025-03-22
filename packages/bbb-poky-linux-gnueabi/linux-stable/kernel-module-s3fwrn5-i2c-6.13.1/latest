@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-s3fwrn5-i2c
 RDEPENDS = kernel-6.13.1 kernel-module-s3fwrn5-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 8896
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/nfc/s3fwrn5/.debug/s3fwrn5_i2c.ko /usr/lib/modules/6.13.1/kernel/drivers/nfc/s3fwrn5/s3fwrn5_i2c.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/nfc/s3fwrn5/s3fwrn5_i2c.ko
+FILES = /lib/modules/6.13.1/kernel/drivers/nfc/s3fwrn5/.debug/s3fwrn5_i2c.ko /lib/modules/6.13.1/kernel/drivers/nfc/s3fwrn5/s3fwrn5_i2c.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/nfc/s3fwrn5/s3fwrn5_i2c.ko

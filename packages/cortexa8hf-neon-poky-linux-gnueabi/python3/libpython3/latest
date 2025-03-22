@@ -1,7 +1,7 @@
 PV = 3.12.6
 PR = r0
 PKG = libpython3.12-1.0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = libpython3 (=3.12.6)
 RDEPENDS = glibc (>= 2.39+git2+e8f5217097) libgcc
 RRECOMMENDS = 

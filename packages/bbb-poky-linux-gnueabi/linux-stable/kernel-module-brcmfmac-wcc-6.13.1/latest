@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = kernel-module-brcmfmac-wcc
 RDEPENDS = kernel-6.13.1 kernel-module-brcmfmac-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 4764
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/wcc/.debug/brcmfmac-wcc.ko /usr/lib/modules/6.13.1/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/wcc/brcmfmac-wcc.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/wcc/brcmfmac-wcc.ko
+FILES = /lib/modules/6.13.1/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/wcc/.debug/brcmfmac-wcc.ko /lib/modules/6.13.1/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/wcc/brcmfmac-wcc.ko
+FILELIST = /lib/modules/6.13.1/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/wcc/brcmfmac-wcc.ko

@@ -1,9 +1,9 @@
 PV = 6.7.0
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.39+git2+e8f5217097)
 RRECOMMENDS = 
 PKGSIZE = 17980
-FILES = /sbin/lnstat /sbin/ctstat /sbin/rtstat
-FILELIST = /sbin/ctstat /sbin/lnstat /sbin/rtstat
+FILES = /usr/sbin/lnstat /usr/sbin/ctstat /usr/sbin/rtstat
+FILELIST = /usr/sbin/ctstat /usr/sbin/lnstat /usr/sbin/rtstat

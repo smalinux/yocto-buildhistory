@@ -1,7 +1,6 @@
-drwxr-xr-x root       root             4096 ./lib
--rwxr-xr-x root       root            34152 ./lib/libcap.so.2.69
-lrwxrwxrwx root       root               14 ./lib/libcap.so.2 -> libcap.so.2.69
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            34152 ./usr/lib/libcap.so.2.69
+lrwxrwxrwx root       root               14 ./usr/lib/libcap.so.2 -> libcap.so.2.69
 -rwxr-xr-x root       root            13596 ./usr/lib/libpsx.so.2.69
 lrwxrwxrwx root       root               14 ./usr/lib/libpsx.so.2 -> libpsx.so.2.69

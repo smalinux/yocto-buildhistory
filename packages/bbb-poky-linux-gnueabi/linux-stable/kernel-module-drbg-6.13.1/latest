@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = kernel-module-drbg
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 13828
-FILES = /lib/modules/6.13.1/kernel/crypto/.debug/drbg.ko /lib/modules/6.13.1/kernel/crypto/drbg.ko
-FILELIST = /lib/modules/6.13.1/kernel/crypto/drbg.ko
+FILES = /usr/lib/modules/6.13.1/kernel/crypto/.debug/drbg.ko /usr/lib/modules/6.13.1/kernel/crypto/drbg.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/drbg.ko

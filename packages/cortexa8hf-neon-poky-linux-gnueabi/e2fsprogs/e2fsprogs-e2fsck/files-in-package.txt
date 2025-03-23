@@ -1,5 +1,6 @@
-drwxr-xr-x root       root             4096 ./sbin
--rwxr-xr-x root       root           313004 ./sbin/e2fsck
--rwxr-xr-x root       root           313004 ./sbin/fsck.ext2
--rwxr-xr-x root       root           313004 ./sbin/fsck.ext3
--rwxr-xr-x root       root           313004 ./sbin/fsck.ext4
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root           313004 ./usr/sbin/e2fsck
+-rwxr-xr-x root       root           313004 ./usr/sbin/fsck.ext2
+-rwxr-xr-x root       root           313004 ./usr/sbin/fsck.ext3
+-rwxr-xr-x root       root           313004 ./usr/sbin/fsck.ext4

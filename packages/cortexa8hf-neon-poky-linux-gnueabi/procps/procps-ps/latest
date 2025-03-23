@@ -1,9 +1,9 @@
 PV = 4.0.4
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.39+git2+e8f5217097) procps-lib (>= 4.0.4) update-alternatives-opkg
 RRECOMMENDS = 
 PKGSIZE = 129012
-FILES = /bin/ps.procps
-FILELIST = /bin/ps.procps
+FILES = /usr/bin/ps.procps
+FILELIST = /usr/bin/ps.procps

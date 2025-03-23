@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = kernel-module-cppi41
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 16604
-FILES = /lib/modules/6.13.1/kernel/drivers/dma/ti/.debug/cppi41.ko /lib/modules/6.13.1/kernel/drivers/dma/ti/cppi41.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/dma/ti/cppi41.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/dma/ti/.debug/cppi41.ko /usr/lib/modules/6.13.1/kernel/drivers/dma/ti/cppi41.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/dma/ti/cppi41.ko

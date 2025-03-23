@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = kernel-module-display-connector
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 12520
-FILES = /lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/.debug/display-connector.ko /lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/display-connector.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/display-connector.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/.debug/display-connector.ko /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/display-connector.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/display-connector.ko

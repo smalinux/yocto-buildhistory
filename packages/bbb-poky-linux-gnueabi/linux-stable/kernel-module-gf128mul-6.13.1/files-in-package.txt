@@ -1,7 +1,8 @@
-drwxr-xr-x root       root             4096 ./lib
-drwxr-xr-x root       root             4096 ./lib/modules
-drwxr-xr-x root       root             4096 ./lib/modules/6.13.1
-drwxr-xr-x root       root             4096 ./lib/modules/6.13.1/kernel
-drwxr-xr-x root       root             4096 ./lib/modules/6.13.1/kernel/lib
-drwxr-xr-x root       root             4096 ./lib/modules/6.13.1/kernel/lib/crypto
--rw-r--r-- root       root            10784 ./lib/modules/6.13.1/kernel/lib/crypto/gf128mul.ko
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/modules
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/lib
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/lib/crypto
+-rw-r--r-- root       root            10784 ./usr/lib/modules/6.13.1/kernel/lib/crypto/gf128mul.ko

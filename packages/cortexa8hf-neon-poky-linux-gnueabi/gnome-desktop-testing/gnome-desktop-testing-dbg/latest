@@ -1,9 +1,9 @@
 PV = 2021.1
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glib-2.0-dbg glibc-dbg
-PKGSIZE = 76284
+RRECOMMENDS = glib-2.0-dbg glibc-dbg libsystemd-dbg
+PKGSIZE = 76584
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
 FILELIST = /usr/bin/.debug/gnome-desktop-testing-runner

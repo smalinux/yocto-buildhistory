@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = kernel-module-algif-hash
 RDEPENDS = kernel-6.13.1 kernel-module-af-alg-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 10964
-FILES = /lib/modules/6.13.1/kernel/crypto/.debug/algif_hash.ko /lib/modules/6.13.1/kernel/crypto/algif_hash.ko
-FILELIST = /lib/modules/6.13.1/kernel/crypto/algif_hash.ko
+FILES = /usr/lib/modules/6.13.1/kernel/crypto/.debug/algif_hash.ko /usr/lib/modules/6.13.1/kernel/crypto/algif_hash.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/algif_hash.ko

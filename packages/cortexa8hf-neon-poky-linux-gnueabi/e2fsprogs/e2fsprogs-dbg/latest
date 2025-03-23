@@ -1,9 +1,9 @@
 PV = 1.47.0
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libcomerr-dbg libe2p-dbg libext2fs-dbg libss-dbg util-linux-libblkid-dbg util-linux-libuuid-dbg
-PKGSIZE = 5423092
+PKGSIZE = 5423252
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /bin/.debug/chattr.e2fsprogs /bin/.debug/lsattr.e2fsprogs /lib/.debug/libcom_err.so.2.1 /lib/.debug/libe2p.so.2.3 /lib/.debug/libext2fs.so.2.4 /lib/.debug/libss.so.2.0 /sbin/.debug/badblocks /sbin/.debug/debugfs /sbin/.debug/dumpe2fs /sbin/.debug/e2freefrag /sbin/.debug/e2fsck /sbin/.debug/e2image /sbin/.debug/e2label /sbin/.debug/e2undo /sbin/.debug/e4crypt /sbin/.debug/e4defrag /sbin/.debug/filefrag /sbin/.debug/logsave /sbin/.debug/mke2fs.e2fsprogs /sbin/.debug/mklost+found /sbin/.debug/resize2fs /usr/lib/.debug/e2initrd_helper /usr/lib/e2fsprogs/ptest/test/progs/.debug/crcsum /usr/lib/e2fsprogs/ptest/test/progs/.debug/test_icount
+FILELIST = /usr/bin/.debug/chattr.e2fsprogs /usr/bin/.debug/lsattr.e2fsprogs /usr/lib/.debug/e2initrd_helper /usr/lib/.debug/libcom_err.so.2.1 /usr/lib/.debug/libe2p.so.2.3 /usr/lib/.debug/libext2fs.so.2.4 /usr/lib/.debug/libss.so.2.0 /usr/lib/e2fsprogs/ptest/test/progs/.debug/crcsum /usr/lib/e2fsprogs/ptest/test/progs/.debug/test_icount /usr/sbin/.debug/badblocks /usr/sbin/.debug/debugfs /usr/sbin/.debug/dumpe2fs /usr/sbin/.debug/e2freefrag /usr/sbin/.debug/e2fsck /usr/sbin/.debug/e2image /usr/sbin/.debug/e2label /usr/sbin/.debug/e2undo /usr/sbin/.debug/e4crypt /usr/sbin/.debug/e4defrag /usr/sbin/.debug/filefrag /usr/sbin/.debug/logsave /usr/sbin/.debug/mke2fs.e2fsprogs /usr/sbin/.debug/mklost+found /usr/sbin/.debug/resize2fs

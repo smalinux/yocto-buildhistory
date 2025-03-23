@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = kernel-module-s3fwrn5
 RDEPENDS = kernel-6.13.1 kernel-module-nci-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 14320
-FILES = /lib/modules/6.13.1/kernel/drivers/nfc/s3fwrn5/.debug/s3fwrn5.ko /lib/modules/6.13.1/kernel/drivers/nfc/s3fwrn5/s3fwrn5.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/nfc/s3fwrn5/s3fwrn5.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/nfc/s3fwrn5/.debug/s3fwrn5.ko /usr/lib/modules/6.13.1/kernel/drivers/nfc/s3fwrn5/s3fwrn5.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/nfc/s3fwrn5/s3fwrn5.ko

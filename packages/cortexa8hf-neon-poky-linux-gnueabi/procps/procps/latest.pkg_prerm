@@ -10,6 +10,6 @@ set -e
 	update-alternatives --remove  top /usr/bin/top.procps
 	update-alternatives --remove  uptime /usr/bin/uptime.procps
 	update-alternatives --remove  w /usr/bin/w.procps
-	update-alternatives --remove  kill /bin/kill.procps
-	update-alternatives --remove  pidof /bin/pidof.procps
-	update-alternatives --remove  watch /bin/watch.procps
+	update-alternatives --remove  kill /usr/bin/kill.procps
+	update-alternatives --remove  pidof /usr/bin/pidof.procps
+	update-alternatives --remove  watch /usr/bin/watch.procps

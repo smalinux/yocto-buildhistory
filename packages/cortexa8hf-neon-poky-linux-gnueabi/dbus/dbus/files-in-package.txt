@@ -1,9 +1,3 @@
-drwxr-xr-x root       root             4096 ./etc
-drwxr-xr-x root       root             4096 ./etc/default
-drwxr-xr-x root       root             4096 ./etc/default/volatiles
--rw-r--r-- root       root               44 ./etc/default/volatiles/99_dbus
-drwxr-xr-x root       root             4096 ./etc/init.d
--rwxr-xr-x root       root             2893 ./etc/init.d/dbus-1
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 -rwxr-xr-x root       root             9616 ./usr/bin/dbus-cleanup-sockets
@@ -14,8 +8,16 @@ drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/libexec
 -rwsr-xr-x root       messagebus      46532 ./usr/libexec/dbus-daemon-launch-helper
 drwxr-xr-x root       root             4096 ./usr/lib/systemd
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/system
+-rw-r--r-- root       root              410 ./usr/lib/systemd/system/dbus.service
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/system/dbus.target.wants
+lrwxrwxrwx root       root               14 ./usr/lib/systemd/system/dbus.target.wants/dbus.socket -> ../dbus.socket
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/system/multi-user.target.wants
+lrwxrwxrwx root       root               15 ./usr/lib/systemd/system/multi-user.target.wants/dbus.service -> ../dbus.service
 drwxr-xr-x root       root             4096 ./usr/lib/systemd/user
 -rw-r--r-- root       root              410 ./usr/lib/systemd/user/dbus.service
+drwxr-xr-x root       root             4096 ./usr/lib/tmpfiles.d
+-rw-r--r-- root       root              545 ./usr/lib/tmpfiles.d/dbus.conf
 drwxr-xr-x root       root             4096 ./var
 drwxr-xr-x root       root             4096 ./var/lib
 drwxr-xr-x messagebus messagebus       4096 ./var/lib/dbus

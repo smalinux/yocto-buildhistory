@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = kernel-module-md5
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 9008
-FILES = /lib/modules/6.13.1/kernel/crypto/.debug/md5.ko /lib/modules/6.13.1/kernel/crypto/md5.ko
-FILELIST = /lib/modules/6.13.1/kernel/crypto/md5.ko
+FILES = /usr/lib/modules/6.13.1/kernel/crypto/.debug/md5.ko /usr/lib/modules/6.13.1/kernel/crypto/md5.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/md5.ko

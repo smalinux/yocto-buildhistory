@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = kernel-module-fsi-master-gpio
 RDEPENDS = kernel-6.13.1 kernel-module-crc4-6.13.1 kernel-module-fsi-core-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 39376
-FILES = /lib/modules/6.13.1/kernel/drivers/fsi/.debug/fsi-master-gpio.ko /lib/modules/6.13.1/kernel/drivers/fsi/fsi-master-gpio.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/fsi/fsi-master-gpio.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/fsi/.debug/fsi-master-gpio.ko /usr/lib/modules/6.13.1/kernel/drivers/fsi/fsi-master-gpio.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/fsi/fsi-master-gpio.ko

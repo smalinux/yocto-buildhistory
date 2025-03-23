@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = kernel-module-nci
 RDEPENDS = kernel-6.13.1 kernel-module-nfc-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 49864
-FILES = /lib/modules/6.13.1/kernel/net/nfc/nci/.debug/nci.ko /lib/modules/6.13.1/kernel/net/nfc/nci/nci.ko
-FILELIST = /lib/modules/6.13.1/kernel/net/nfc/nci/nci.ko
+FILES = /usr/lib/modules/6.13.1/kernel/net/nfc/nci/.debug/nci.ko /usr/lib/modules/6.13.1/kernel/net/nfc/nci/nci.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/net/nfc/nci/nci.ko

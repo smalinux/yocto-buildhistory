@@ -1,9 +1,9 @@
 PV = 6.7.0
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
 RDEPENDS = python3-core
 RRECOMMENDS = 
 PKGSIZE = 1658
-FILES = /sbin/routel
-FILELIST = /sbin/routel
+FILES = /usr/sbin/routel
+FILELIST = /usr/sbin/routel

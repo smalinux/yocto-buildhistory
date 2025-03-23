@@ -1,8 +1,8 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = kernel-base (= 6.13.1-r0.7)
+RDEPENDS = kernel-base (= 6.13.1-r0.8)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = 

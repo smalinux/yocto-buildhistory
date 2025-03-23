@@ -1,9 +1,9 @@
 PV = 5.38.2
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
 RDEPENDS = perl
 RRECOMMENDS = 
-PKGSIZE = 45787
+PKGSIZE = 45803
 FILES = /usr/lib/perl5/5.38.2/arm-linux/Config_heavy.pl
 FILELIST = /usr/lib/perl5/5.38.2/arm-linux/Config_heavy.pl

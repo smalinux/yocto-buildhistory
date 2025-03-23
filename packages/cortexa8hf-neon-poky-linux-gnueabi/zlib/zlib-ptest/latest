@@ -1,7 +1,7 @@
 PV = 1.3.1
 PR = r0
 PKG = libz-ptest
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = zlib-ptest (=1.3.1)
 RDEPENDS = glibc (>= 2.39+git2+e8f5217097) make zlib (>= 1.3.1)
 RRECOMMENDS = ptest-runner

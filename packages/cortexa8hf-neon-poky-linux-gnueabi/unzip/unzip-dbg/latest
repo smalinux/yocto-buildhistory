@@ -1,10 +1,10 @@
 PE = 1
 PV = 6.0
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
-PKGSIZE = 762348
+PKGSIZE = 762372
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
 FILELIST = /usr/bin/.debug/funzip /usr/bin/.debug/unzip.unzip /usr/bin/.debug/unzipsfx

@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = kernel-module-aes-arm
 RDEPENDS = kernel-6.13.1 kernel-module-aes-generic-6.13.1 kernel-module-libaes-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 8484
-FILES = /lib/modules/6.13.1/kernel/arch/arm/crypto/.debug/aes-arm.ko /lib/modules/6.13.1/kernel/arch/arm/crypto/aes-arm.ko
-FILELIST = /lib/modules/6.13.1/kernel/arch/arm/crypto/aes-arm.ko
+FILES = /usr/lib/modules/6.13.1/kernel/arch/arm/crypto/.debug/aes-arm.ko /usr/lib/modules/6.13.1/kernel/arch/arm/crypto/aes-arm.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/arch/arm/crypto/aes-arm.ko

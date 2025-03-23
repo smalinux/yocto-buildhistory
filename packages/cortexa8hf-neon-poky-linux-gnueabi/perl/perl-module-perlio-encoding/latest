@@ -1,6 +1,6 @@
 PV = 5.38.2
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.39+git2+e8f5217097) perl perl-module-strict perl-module-xsloader
 RRECOMMENDS = 

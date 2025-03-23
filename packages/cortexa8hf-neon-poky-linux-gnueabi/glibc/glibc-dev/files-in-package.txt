@@ -542,21 +542,21 @@ drwxr-xr-x root       root             4096 ./usr/lib/gcc/arm-poky-linux-gnueabi
 -rw-r--r-- root       root              941 ./usr/lib/gcc/arm-poky-linux-gnueabi/13.3.0/finclude/math-vector-fortran.h
 -rw-r--r-- root       root             7784 ./usr/lib/gcrt1.o
 -rw-r--r-- root       root                8 ./usr/lib/libanl.a
-lrwxrwxrwx root       root               21 ./usr/lib/libanl.so -> ../../lib/libanl.so.1
-lrwxrwxrwx root       root               30 ./usr/lib/libBrokenLocale.so -> ../../lib/libBrokenLocale.so.1
-lrwxrwxrwx root       root               32 ./usr/lib/libc_malloc_debug.so -> ../../lib/libc_malloc_debug.so.0
+lrwxrwxrwx root       root               11 ./usr/lib/libanl.so -> libanl.so.1
+lrwxrwxrwx root       root               20 ./usr/lib/libBrokenLocale.so -> libBrokenLocale.so.1
+lrwxrwxrwx root       root               22 ./usr/lib/libc_malloc_debug.so -> libc_malloc_debug.so.0
 -rw-r--r-- root       root            29402 ./usr/lib/libc_nonshared.a
--rw-r--r-- root       root              249 ./usr/lib/libc.so
+-rw-r--r-- root       root              257 ./usr/lib/libc.so
 -rw-r--r-- root       root                8 ./usr/lib/libdl.a
-lrwxrwxrwx root       root               19 ./usr/lib/libm.so -> ../../lib/libm.so.6
-lrwxrwxrwx root       root               28 ./usr/lib/libnss_compat.so -> ../../lib/libnss_compat.so.2
-lrwxrwxrwx root       root               24 ./usr/lib/libnss_db.so -> ../../lib/libnss_db.so.2
-lrwxrwxrwx root       root               28 ./usr/lib/libnss_hesiod.so -> ../../lib/libnss_hesiod.so.2
+lrwxrwxrwx root       root                9 ./usr/lib/libm.so -> libm.so.6
+lrwxrwxrwx root       root               18 ./usr/lib/libnss_compat.so -> libnss_compat.so.2
+lrwxrwxrwx root       root               14 ./usr/lib/libnss_db.so -> libnss_db.so.2
+lrwxrwxrwx root       root               18 ./usr/lib/libnss_hesiod.so -> libnss_hesiod.so.2
 -rw-r--r-- root       root                8 ./usr/lib/libpthread.a
-lrwxrwxrwx root       root               25 ./usr/lib/libpthread.so -> ../../lib/libpthread.so.0
-lrwxrwxrwx root       root               24 ./usr/lib/libresolv.so -> ../../lib/libresolv.so.2
-lrwxrwxrwx root       root               20 ./usr/lib/librt.so -> ../../lib/librt.so.1
-lrwxrwxrwx root       root               27 ./usr/lib/libthread_db.so -> ../../lib/libthread_db.so.1
+lrwxrwxrwx root       root               15 ./usr/lib/libpthread.so -> libpthread.so.0
+lrwxrwxrwx root       root               14 ./usr/lib/libresolv.so -> libresolv.so.2
+lrwxrwxrwx root       root               10 ./usr/lib/librt.so -> librt.so.1
+lrwxrwxrwx root       root               17 ./usr/lib/libthread_db.so -> libthread_db.so.1
 -rw-r--r-- root       root                8 ./usr/lib/libutil.a
 -rw-r--r-- root       root             1228 ./usr/lib/Mcrt1.o
 -rw-r--r-- root       root             4848 ./usr/lib/Scrt1.o

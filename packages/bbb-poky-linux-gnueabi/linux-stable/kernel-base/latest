@@ -1,10 +1,10 @@
 PV = 6.13.1
 PR = r0
 PKG = kernel-6.13.1
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = kernel-6.13.1 kernel-base (=6.13.1)
 RDEPENDS = 
-RRECOMMENDS = kernel-image (= 6.13.1-r0.7)
+RRECOMMENDS = kernel-image (= 6.13.1-r0.8)
 PKGSIZE = 134248
-FILES = /lib/modules/6.13.1/modules.order /lib/modules/6.13.1/modules.builtin /lib/modules/6.13.1/modules.builtin.modinfo
-FILELIST = /lib/modules/6.13.1/modules.builtin /lib/modules/6.13.1/modules.builtin.modinfo /lib/modules/6.13.1/modules.order
+FILES = /usr/lib/modules/6.13.1/modules.order /usr/lib/modules/6.13.1/modules.builtin /usr/lib/modules/6.13.1/modules.builtin.modinfo
+FILELIST = /usr/lib/modules/6.13.1/modules.builtin /usr/lib/modules/6.13.1/modules.builtin.modinfo /usr/lib/modules/6.13.1/modules.order

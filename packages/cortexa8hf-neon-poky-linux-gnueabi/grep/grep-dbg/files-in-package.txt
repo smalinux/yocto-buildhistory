@@ -1,3 +1,4 @@
-drwxr-xr-x root       root             4096 ./bin
-drwxr-xr-x root       root             4096 ./bin/.debug
--rwxr-xr-x root       root           885900 ./bin/.debug/grep.grep
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root             4096 ./usr/bin/.debug
+-rwxr-xr-x root       root           885908 ./usr/bin/.debug/grep.grep

@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = kernel-module-wcn36xx
 RDEPENDS = kernel-6.13.1 kernel-module-cfg80211-6.13.1 kernel-module-mac80211-6.13.1 kernel-module-rpmsg-core-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 103192
-FILES = /lib/modules/6.13.1/kernel/drivers/net/wireless/ath/wcn36xx/.debug/wcn36xx.ko /lib/modules/6.13.1/kernel/drivers/net/wireless/ath/wcn36xx/wcn36xx.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/net/wireless/ath/wcn36xx/wcn36xx.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/net/wireless/ath/wcn36xx/.debug/wcn36xx.ko /usr/lib/modules/6.13.1/kernel/drivers/net/wireless/ath/wcn36xx/wcn36xx.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/net/wireless/ath/wcn36xx/wcn36xx.ko

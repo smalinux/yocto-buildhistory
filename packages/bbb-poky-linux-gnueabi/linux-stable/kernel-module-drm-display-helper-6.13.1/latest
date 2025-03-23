@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = kernel-module-drm-display-helper
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 21628
-FILES = /lib/modules/6.13.1/kernel/drivers/gpu/drm/display/.debug/drm_display_helper.ko /lib/modules/6.13.1/kernel/drivers/gpu/drm/display/drm_display_helper.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/gpu/drm/display/drm_display_helper.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/display/.debug/drm_display_helper.ko /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/display/drm_display_helper.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/display/drm_display_helper.ko

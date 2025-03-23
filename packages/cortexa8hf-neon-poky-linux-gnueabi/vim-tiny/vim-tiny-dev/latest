@@ -1,9 +1,9 @@
 PV = 9.1.0698
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = desktop-file-utils-dev glibc-dev ncurses-dev ncurses-libtinfo-dev update-alternatives-opkg-dev vim-tiny (= 9.1.0698-r0.2)
+RRECOMMENDS = desktop-file-utils-dev glibc-dev ncurses-dev ncurses-libtinfo-dev update-alternatives-opkg-dev vim-tiny (= 9.1.0698-r0.3)
 PKGSIZE = 0
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/vim-tiny/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILES = /usr/include /usr/lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /usr/lib/*.o /usr/lib/vim-tiny/*.la /usr/lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = 

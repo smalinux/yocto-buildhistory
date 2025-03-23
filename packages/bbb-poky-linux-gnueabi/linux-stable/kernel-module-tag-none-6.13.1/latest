@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = kernel-module-tag-none
 RDEPENDS = kernel-6.13.1 kernel-module-dsa-core-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 4804
-FILES = /lib/modules/6.13.1/kernel/net/dsa/.debug/tag_none.ko /lib/modules/6.13.1/kernel/net/dsa/tag_none.ko
-FILELIST = /lib/modules/6.13.1/kernel/net/dsa/tag_none.ko
+FILES = /usr/lib/modules/6.13.1/kernel/net/dsa/.debug/tag_none.ko /usr/lib/modules/6.13.1/kernel/net/dsa/tag_none.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/net/dsa/tag_none.ko

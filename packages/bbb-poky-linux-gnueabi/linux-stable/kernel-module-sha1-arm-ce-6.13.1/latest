@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = kernel-module-sha1-arm-ce
 RDEPENDS = kernel-6.13.1 kernel-module-sha1-arm-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 7304
-FILES = /lib/modules/6.13.1/kernel/arch/arm/crypto/.debug/sha1-arm-ce.ko /lib/modules/6.13.1/kernel/arch/arm/crypto/sha1-arm-ce.ko
-FILELIST = /lib/modules/6.13.1/kernel/arch/arm/crypto/sha1-arm-ce.ko
+FILES = /usr/lib/modules/6.13.1/kernel/arch/arm/crypto/.debug/sha1-arm-ce.ko /usr/lib/modules/6.13.1/kernel/arch/arm/crypto/sha1-arm-ce.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/arch/arm/crypto/sha1-arm-ce.ko

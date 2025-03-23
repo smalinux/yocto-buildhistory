@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = kernel-module-crypto-user
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 11704
-FILES = /lib/modules/6.13.1/kernel/crypto/.debug/crypto_user.ko /lib/modules/6.13.1/kernel/crypto/crypto_user.ko
-FILELIST = /lib/modules/6.13.1/kernel/crypto/crypto_user.ko
+FILES = /usr/lib/modules/6.13.1/kernel/crypto/.debug/crypto_user.ko /usr/lib/modules/6.13.1/kernel/crypto/crypto_user.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/crypto_user.ko

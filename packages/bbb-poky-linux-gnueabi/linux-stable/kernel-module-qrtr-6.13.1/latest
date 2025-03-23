@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = kernel-module-qrtr
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 40864
-FILES = /lib/modules/6.13.1/kernel/net/qrtr/.debug/qrtr.ko /lib/modules/6.13.1/kernel/net/qrtr/qrtr.ko
-FILELIST = /lib/modules/6.13.1/kernel/net/qrtr/qrtr.ko
+FILES = /usr/lib/modules/6.13.1/kernel/net/qrtr/.debug/qrtr.ko /usr/lib/modules/6.13.1/kernel/net/qrtr/qrtr.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/net/qrtr/qrtr.ko

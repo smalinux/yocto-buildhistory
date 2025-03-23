@@ -1,9 +1,9 @@
 PV = 2.21
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glibc-dev update-alternatives-opkg-dev which (= 2.21-r0.4)
+RRECOMMENDS = glibc-dev update-alternatives-opkg-dev which (= 2.21-r0.5)
 PKGSIZE = 0
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/which/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILES = /usr/include /usr/lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /usr/lib/*.o /usr/lib/which/*.la /usr/lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = 

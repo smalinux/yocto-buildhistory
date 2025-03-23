@@ -18,5 +18,5 @@ meta-arm-toolchain   = "HEAD:60e31ef2c4983c0bdb8682dee6a6ec5f2e9d5f0a"
 meta-ti-bsp          
 meta-ti-extras       = "HEAD:cf6400520e0c8e370af458a71935f09673f069c5"
 meta-bbb             
-workspace            = "HEAD:7bb6eec046b507a57177ab6263f913c24e50702f"
+workspace            = "HEAD:3fd23b55060857355280eb40ab7c3881475642c9"
 

@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = kernel-module-rtc-hym8563
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 11704
-FILES = /lib/modules/6.13.1/kernel/drivers/rtc/.debug/rtc-hym8563.ko /lib/modules/6.13.1/kernel/drivers/rtc/rtc-hym8563.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/rtc/rtc-hym8563.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/rtc/.debug/rtc-hym8563.ko /usr/lib/modules/6.13.1/kernel/drivers/rtc/rtc-hym8563.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/rtc/rtc-hym8563.ko

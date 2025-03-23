@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = kernel-module-echainiv
 RDEPENDS = kernel-6.13.1 kernel-module-geniv-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 5940
-FILES = /lib/modules/6.13.1/kernel/crypto/.debug/echainiv.ko /lib/modules/6.13.1/kernel/crypto/echainiv.ko
-FILELIST = /lib/modules/6.13.1/kernel/crypto/echainiv.ko
+FILES = /usr/lib/modules/6.13.1/kernel/crypto/.debug/echainiv.ko /usr/lib/modules/6.13.1/kernel/crypto/echainiv.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/echainiv.ko

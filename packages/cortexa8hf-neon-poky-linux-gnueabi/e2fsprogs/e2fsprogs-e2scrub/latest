@@ -1,9 +1,9 @@
 PV = 1.47.0
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
 RDEPENDS = bash
 RRECOMMENDS = 
-PKGSIZE = 12688
-FILES = /sbin/e2scrub*
-FILELIST = /sbin/e2scrub /sbin/e2scrub_all
+PKGSIZE = 12708
+FILES = /usr/sbin/e2scrub*
+FILELIST = /usr/sbin/e2scrub /usr/sbin/e2scrub_all

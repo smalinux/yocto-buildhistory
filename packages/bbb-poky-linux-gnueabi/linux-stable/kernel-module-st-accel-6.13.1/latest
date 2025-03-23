@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = kernel-module-st-accel
 RDEPENDS = kernel-6.13.1 kernel-module-st-sensors-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 14900
-FILES = /lib/modules/6.13.1/kernel/drivers/iio/accel/.debug/st_accel.ko /lib/modules/6.13.1/kernel/drivers/iio/accel/st_accel.ko
-FILELIST = /lib/modules/6.13.1/kernel/drivers/iio/accel/st_accel.ko
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/iio/accel/.debug/st_accel.ko /usr/lib/modules/6.13.1/kernel/drivers/iio/accel/st_accel.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/iio/accel/st_accel.ko

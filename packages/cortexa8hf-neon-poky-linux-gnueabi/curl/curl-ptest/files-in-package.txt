@@ -90,7 +90,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/curl/ptest/tests/certs/scr
 -rw-r--r-- root       root             1045 ./usr/lib/curl/ptest/tests/config.in
 drwxr-xr-x root       root            57344 ./usr/lib/curl/ptest/tests/data
 -rw-r--r-- root       root             1234 ./usr/lib/curl/ptest/tests/data/CMakeLists.txt
--rw-r--r-- root       root             4984 ./usr/lib/curl/ptest/tests/data/DISABLED
+-rw-r--r-- root       root             4020 ./usr/lib/curl/ptest/tests/data/DISABLED
 -rw-r--r-- root       root             1155 ./usr/lib/curl/ptest/tests/data/Makefile.am
 -rw-r--r-- root       root            32544 ./usr/lib/curl/ptest/tests/data/Makefile.in
 -rw-r--r-- root       root            15834 ./usr/lib/curl/ptest/tests/data/Makefile.inc

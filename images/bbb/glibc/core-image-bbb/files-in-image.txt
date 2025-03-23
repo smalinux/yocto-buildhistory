@@ -39,9 +39,10 @@ drwxr-xr-x root       root             4096 ./etc/depmod.d
 -rw-r--r-- root       root               26 ./etc/host.conf
 -rw-r--r-- root       root                4 ./etc/hostname
 -rw-r--r-- root       root              228 ./etc/hosts
+-rw-r--r-- root       root             1633 ./etc/inputrc
 -rw-r--r-- root       root               51 ./etc/issue
 -rw-r--r-- root       root               48 ./etc/issue.net
--rw-r--r-- root       root             4990 ./etc/ld.so.cache
+-rw-r--r-- root       root             5114 ./etc/ld.so.cache
 -rw-r--r-- root       root               33 ./etc/ld.so.conf
 drwxr-xr-x root       root             4096 ./etc/libnl
 -rw-r--r-- root       root             1130 ./etc/libnl/classid
@@ -483,6 +484,8 @@ lrwxrwxrwx root       root               23 ./usr/bin/ash -> /usr/bin/busybox.no
 lrwxrwxrwx root       root               23 ./usr/bin/awk -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root               23 ./usr/bin/base32 -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root               23 ./usr/bin/basename -> /usr/bin/busybox.nosuid
+-rwxr-xr-x root       root            83672 ./usr/bin/bc.bc
+lrwxrwxrwx root       root               14 ./usr/bin/bc -> /usr/bin/bc.bc
 -rwxr-xr-x root       root            67252 ./usr/bin/bootctl
 -rwxr-xr-x root       root             9648 ./usr/bin/bsdcat
 -rwxr-xr-x root       root            26004 ./usr/bin/bsdunzip
@@ -520,7 +523,8 @@ lrwxrwxrwx root       root               23 ./usr/bin/date -> /usr/bin/busybox.n
 -rwxr-xr-x root       root            21892 ./usr/bin/dbus-send
 -rwxr-xr-x root       root             9628 ./usr/bin/dbus-update-activation-environment
 -rwxr-xr-x root       root             9608 ./usr/bin/dbus-uuidgen
-lrwxrwxrwx root       root               23 ./usr/bin/dc -> /usr/bin/busybox.nosuid
+-rwxr-xr-x root       root            42440 ./usr/bin/dc.bc
+lrwxrwxrwx root       root               14 ./usr/bin/dc -> /usr/bin/dc.bc
 lrwxrwxrwx root       root               23 ./usr/bin/dd -> /usr/bin/busybox.nosuid
 -rwxr-xr-x root       root             9708 ./usr/bin/deallocvt.kbd
 lrwxrwxrwx root       root               22 ./usr/bin/deallocvt -> /usr/bin/deallocvt.kbd
@@ -838,6 +842,8 @@ lrwxrwxrwx root       root               26 ./usr/lib/libgmodule-2.0.so.0 -> lib
 lrwxrwxrwx root       root               26 ./usr/lib/libgobject-2.0.so.0 -> libgobject-2.0.so.0.7800.6
 -rwxr-xr-x root       root             5260 ./usr/lib/libgthread-2.0.so.0.7800.6
 lrwxrwxrwx root       root               26 ./usr/lib/libgthread-2.0.so.0 -> libgthread-2.0.so.0.7800.6
+-rwxr-xr-x root       root            38148 ./usr/lib/libhistory.so.8.2
+lrwxrwxrwx root       root               17 ./usr/lib/libhistory.so.8 -> libhistory.so.8.2
 -rwxr-xr-x root       root           193936 ./usr/lib/libidn2.so.0.4.0
 lrwxrwxrwx root       root               16 ./usr/lib/libidn2.so.0 -> libidn2.so.0.4.0
 -rwxr-xr-x root       root           148836 ./usr/lib/libjson-glib-1.0.so.0.800.0
@@ -889,6 +895,8 @@ lrwxrwxrwx root       root               23 ./usr/lib/libpcre2-posix.so.3 -> lib
 lrwxrwxrwx root       root               14 ./usr/lib/libpsx.so.2 -> libpsx.so.2.69
 -rwxr-xr-x root       root             5464 ./usr/lib/libpthread.so.0
 -rwxr-xr-x root       root          4950232 ./usr/lib/libpython3.12.so.1.0
+-rwxr-xr-x root       root           274264 ./usr/lib/libreadline.so.8.2
+lrwxrwxrwx root       root               18 ./usr/lib/libreadline.so.8 -> libreadline.so.8.2
 -rwxr-xr-x root       root            50640 ./usr/lib/libresolv.so.2
 -rwxr-xr-x root       root             5512 ./usr/lib/librt.so.1
 -rwxr-xr-x root       root           124244 ./usr/lib/libseccomp.so.2.5.5
@@ -1335,6 +1343,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/opkg/alternatives
 -rw-r--r-- root       root               40 ./usr/lib/opkg/alternatives/awk
 -rw-r--r-- root       root               43 ./usr/lib/opkg/alternatives/base32
 -rw-r--r-- root       root               45 ./usr/lib/opkg/alternatives/basename
+-rw-r--r-- root       root               31 ./usr/lib/opkg/alternatives/bc
 -rw-r--r-- root       root               38 ./usr/lib/opkg/alternatives/bin-lsmod
 -rw-r--r-- root       root               43 ./usr/lib/opkg/alternatives/blkid
 -rw-r--r-- root       root               44 ./usr/lib/opkg/alternatives/bunzip2
@@ -1357,7 +1366,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/opkg/alternatives
 -rw-r--r-- root       root               42 ./usr/lib/opkg/alternatives/crc32
 -rw-r--r-- root       root               40 ./usr/lib/opkg/alternatives/cut
 -rw-r--r-- root       root               41 ./usr/lib/opkg/alternatives/date
--rw-r--r-- root       root               39 ./usr/lib/opkg/alternatives/dc
+-rw-r--r-- root       root               58 ./usr/lib/opkg/alternatives/dc
 -rw-r--r-- root       root               39 ./usr/lib/opkg/alternatives/dd
 -rw-r--r-- root       root               73 ./usr/lib/opkg/alternatives/deallocvt
 -rw-r--r-- root       root               46 ./usr/lib/opkg/alternatives/delgroup
@@ -7116,7 +7125,7 @@ drwxr-xr-x root       root             4096 ./var/lib
 drwxr-xr-x messagebus messagebus       4096 ./var/lib/dbus
 drwxr-xr-x root       root             4096 ./var/lib/misc
 drwxr-xr-x root       root             4096 ./var/lib/opkg
-drwxr-xr-x root       root            90112 ./var/lib/opkg/info
+drwxr-xr-x root       root            94208 ./var/lib/opkg/info
 -rw-r--r-- root       root               90 ./var/lib/opkg/info/base-files.conffiles
 -rw-r--r-- root       root              408 ./var/lib/opkg/info/base-files.control
 -rw-r--r-- root       root              997 ./var/lib/opkg/info/base-files.list
@@ -7124,6 +7133,10 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 -rw-r--r-- root       root              513 ./var/lib/opkg/info/base-passwd.control
 -rw-r--r-- root       root                0 ./var/lib/opkg/info/base-passwd.list
 -rwxr-xr-x root       root             1498 ./var/lib/opkg/info/base-passwd.preinst
+-rw-r--r-- root       root              574 ./var/lib/opkg/info/bc.control
+-rw-r--r-- root       root               74 ./var/lib/opkg/info/bc.list
+-rwxr-xr-x root       root              147 ./var/lib/opkg/info/bc.postinst
+-rwxr-xr-x root       root              115 ./var/lib/opkg/info/bc.prerm
 -rw-r--r-- root       root              995 ./var/lib/opkg/info/busybox.control
 -rw-r--r-- root       root              243 ./var/lib/opkg/info/busybox.list
 -rwxr-xr-x root       root            16647 ./var/lib/opkg/info/busybox.postinst
@@ -8315,6 +8328,10 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 -rw-r--r-- root       root              492 ./var/lib/opkg/info/libpython3.12-1.0.control
 -rw-r--r-- root       root               66 ./var/lib/opkg/info/libpython3.12-1.0.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libpython3.12-1.0.postinst
+-rw-r--r-- root       root               13 ./var/lib/opkg/info/libreadline8.conffiles
+-rw-r--r-- root       root              825 ./var/lib/opkg/info/libreadline8.control
+-rw-r--r-- root       root              236 ./var/lib/opkg/info/libreadline8.list
+-rwxr-xr-x root       root               97 ./var/lib/opkg/info/libreadline8.postinst
 -rw-r--r-- root       root              517 ./var/lib/opkg/info/libseccomp.control
 -rw-r--r-- root       root              169 ./var/lib/opkg/info/libseccomp.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libseccomp.postinst
@@ -8657,7 +8674,7 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 -rw-r--r-- root       root              631 ./var/lib/opkg/info/volatile-binds.list
 -rwxr-xr-x root       root              680 ./var/lib/opkg/info/volatile-binds.postinst
 -rwxr-xr-x root       root              334 ./var/lib/opkg/info/volatile-binds.prerm
--rw-r--r-- root       root           127151 ./var/lib/opkg/status
+-rw-r--r-- root       root           127692 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/local
 lrwxrwxrwx root       root               11 ./var/lock -> ../run/lock

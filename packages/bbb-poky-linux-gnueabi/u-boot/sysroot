@@ -1,6 +1,4 @@
 drwxr-xr-x -          -                4096 ./boot
--rw-r--r-- -          -                1650 ./boot/boot-bbb-2024.01-r0.scr
-lrwxrwxrwx -          -                  23 ./boot/boot.scr -> boot-bbb-2024.01-r0.scr
 -rw-r--r-- -          -              110000 ./boot/MLO-bbb-2024.01-r0
 lrwxrwxrwx -          -                  18 ./boot/MLO -> MLO-bbb-2024.01-r0
 -rw-r--r-- -          -             1452408 ./boot/u-boot-bbb-2024.01-r0.img

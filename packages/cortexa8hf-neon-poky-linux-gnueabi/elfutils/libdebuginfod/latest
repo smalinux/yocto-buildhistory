@@ -1,7 +1,7 @@
 PV = 0.191
 PR = r0
 PKG = libdebuginfod1
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = libdebuginfod (=0.191)
 RDEPENDS = glibc (>= 2.39+git2+e8f5217097) libcurl (>= 8.7.1) libelf (>= 0.191)
 RRECOMMENDS = 

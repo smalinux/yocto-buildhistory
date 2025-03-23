@@ -1,6 +1,6 @@
 PV = 2.42
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libbfd-dbg libdebuginfod-dbg libgcc-dbg libopcodes-dbg libstdc++-dbg libzstd-dbg zlib-dbg

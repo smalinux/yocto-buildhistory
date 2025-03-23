@@ -1,6 +1,6 @@
 PV = 0.191
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.39+git2+e8f5217097) libarchive (>= 3.7.4) libasm (>= 0.191) libdebuginfod (>= 0.191) libdw (>= 0.191) libelf (>= 0.191) libgcc (>= 13.3.0) libmicrohttpd (>= 1.0.1) libsqlite3 (>= 3.45.1) libstdc++ (>= 13.3.0)
 RRECOMMENDS = 

@@ -1,7 +1,7 @@
 PE = 1
 PV = 2024.01
 PR = r0
-DEPENDS = bc-native bison-native dtc-native flex-native kern-tools-native openssl-native pkgconfig-native python3-native python3-pyelftools-native python3-setuptools-native swig-native u-boot-mkimage-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+DEPENDS = bc-native bison-native dtc-native flex-native kern-tools-native openssl-native pkgconfig-native python3-native python3-pyelftools-native python3-setuptools-native swig-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
 PACKAGES = u-boot-src u-boot-dbg u-boot-staticdev u-boot-dev u-boot-doc u-boot-locale u-boot-env u-boot-extlinux u-boot
 LAYER = core
 LICENSE = GPL-2.0-or-later

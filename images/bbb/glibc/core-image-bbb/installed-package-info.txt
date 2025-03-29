@@ -48,10 +48,10 @@ kbd-keymaps kbd-keymaps kbd 2.6.4 555
 python3-unittest python3-unittest python3 3.12.6 532
 libsolv1 libsolv libsolv 0.7.28 522
 kbd kbd kbd 2.6.4 521
-libcurl4 libcurl curl 8.7.1 515
 python3-compression python3-compression python3 3.12.6 494
 openssh-keygen openssh-keygen openssh 9.6p1 486
 kernel-devicetree kernel-devicetree linux-stable 6.13.1 473
+libcurl4 libcurl curl 8.7.1 471
 kbd-consolefonts kbd-consolefonts kbd 2.6.4 457
 libfdisk1 util-linux-libfdisk util-linux 2.39.3 441
 python3-pickle python3-pickle python3 3.12.6 439
@@ -97,7 +97,6 @@ kernel-module-dsa-core-6.13.1 kernel-module-dsa-core-6.13.1 linux-stable 6.13.1 
 libopkg1 libopkg opkg 0.6.3 159
 python3-difflib python3-difflib python3 3.12.6 155
 liblzma5 liblzma xz 5.4.6 153
-libnghttp2-14 libnghttp2 nghttp2 1.61.0 149
 python3-profile python3-profile python3 3.12.6 147
 openssh-sftp-server openssh-sftp-server openssh 9.6p1 141
 libexpat1 expat expat 2.6.3 141

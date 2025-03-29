@@ -264,4 +264,4 @@ drwxr-xr-x root       root             4096 ./usr/lib/curl/ptest/tests/server/.d
 -rwxr-xr-x root       root           167728 ./usr/lib/curl/ptest/tests/server/.debug/sws
 -rwxr-xr-x root       root           146848 ./usr/lib/curl/ptest/tests/server/.debug/tftpd
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
--rwxr-xr-x root       root          3024908 ./usr/lib/.debug/libcurl.so.4.8.0
+-rwxr-xr-x root       root          2833888 ./usr/lib/.debug/libcurl.so.4.8.0

@@ -1,6 +1,6 @@
 PV = 0.191
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libarchive-dbg libasm-dbg libcurl-dbg libdebuginfod-dbg libdw-dbg libelf-dbg libgcc-dbg libmicrohttpd-dbg libsqlite3-dbg libstdc++-dbg zlib-dbg

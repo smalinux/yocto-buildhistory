@@ -282,7 +282,7 @@ libcap_2.69-r0.5_cortexa8hf-neon.ipk
 libcom-err2_1.47.0-r0.5_cortexa8hf-neon.ipk
 libcrypt2_4.4.36-r0.5_cortexa8hf-neon.ipk
 libcrypto3_3.2.3-r0.5_cortexa8hf-neon.ipk
-libcurl4_8.7.1-r0.8_cortexa8hf-neon.ipk
+libcurl4_8.7.1-r0.9_cortexa8hf-neon.ipk
 libdbus-1-3_1.14.10-r0.6_cortexa8hf-neon.ipk
 libe2p2_1.47.0-r0.5_cortexa8hf-neon.ipk
 libedit0_20230828-3.1-r1.5_cortexa8hf-neon.ipk
@@ -302,6 +302,7 @@ liblzo2-2_2.10-r0.1_cortexa8hf-neon.ipk
 libmount1_2.39.3-r0.5_cortexa8hf-neon.ipk
 libncurses5_6.4-r0.5_cortexa8hf-neon.ipk
 libncursesw5_6.4-r0.5_cortexa8hf-neon.ipk
+libnghttp2-14_1.61.0-r0.1_cortexa8hf-neon.ipk
 libnl-3-200_1:3.9.0-r0.1_cortexa8hf-neon.ipk
 libnl-genl-3-200_1:3.9.0-r0.1_cortexa8hf-neon.ipk
 libnsl3_2.0.1-r0.5_cortexa8hf-neon.ipk
@@ -418,9 +419,9 @@ python3-xml_3.12.6-r0.3_cortexa8hf-neon.ipk
 python3-xmlrpc_3.12.6-r0.3_cortexa8hf-neon.ipk
 python3-zoneinfo_3.12.6-r0.3_cortexa8hf-neon.ipk
 rauc-conf_1.0-r0.1_cortexa8hf-neon.ipk
-rauc-mark-good_1.13-r0.3_cortexa8hf-neon.ipk
-rauc_1.13-r0.3_cortexa8hf-neon.ipk
-rauc-service_1.13-r0.3_cortexa8hf-neon.ipk
+rauc-mark-good_1.13-r0.4_cortexa8hf-neon.ipk
+rauc_1.13-r0.4_cortexa8hf-neon.ipk
+rauc-service_1.13-r0.4_cortexa8hf-neon.ipk
 shadow-base_4.14.2-r0.5_cortexa8hf-neon.ipk
 shadow-securetty_4.6-r0.3_bbb.ipk
 shadow_4.14.2-r0.5_cortexa8hf-neon.ipk

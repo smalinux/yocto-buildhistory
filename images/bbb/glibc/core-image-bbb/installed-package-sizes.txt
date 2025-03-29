@@ -48,10 +48,10 @@
 532	KiB	python3-unittest
 522	KiB	libsolv1
 521	KiB	kbd
+515	KiB	libcurl4
 494	KiB	python3-compression
 486	KiB	openssh-keygen
 473	KiB	kernel-devicetree
-471	KiB	libcurl4
 457	KiB	kbd-consolefonts
 441	KiB	libfdisk1
 439	KiB	python3-pickle
@@ -97,6 +97,7 @@
 159	KiB	libopkg1
 155	KiB	python3-difflib
 153	KiB	liblzma5
+149	KiB	libnghttp2-14
 147	KiB	python3-profile
 141	KiB	openssh-sftp-server
 141	KiB	libexpat1

@@ -729,7 +729,6 @@ digraph depends {
 "libcurl4" -> "libc6"
 "libcurl4" -> "libcrypto3"
 "libcurl4" -> "libidn2-0"
-"libcurl4" -> "libnghttp2-14"
 "libcurl4" -> "libssl3"
 "libcurl4" -> "libz1"
 "libdbus-1-3" -> "dbus" [style=dotted]
@@ -774,7 +773,6 @@ digraph depends {
 "libncurses5" -> "libtinfo5"
 "libncursesw5" -> "libc6"
 "libncursesw5" -> "libtinfo5"
-"libnghttp2-14" -> "libc6"
 "libnl-3-200" -> "libc6"
 "libnl-genl-3-200" -> "libc6"
 "libnl-genl-3-200" -> "libnl-3-200"

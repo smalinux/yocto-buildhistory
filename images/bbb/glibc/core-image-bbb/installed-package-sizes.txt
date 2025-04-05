@@ -1,7 +1,7 @@
 13535	KiB	python3-pip
 8960	KiB	python3-core
 8253	KiB	udev-hwdb
-7733	KiB	kernel-image-zimage-6.13.1
+7845	KiB	kernel-image-zimage-6.13.1
 6695	KiB	systemd
 4834	KiB	libpython3.12-1.0
 4437	KiB	python3-setuptools
@@ -110,10 +110,10 @@
 139	KiB	libpam-runtime
 138	KiB	libtinfo5
 138	KiB	kernel-module-rt2800lib-6.13.1
+136	KiB	kernel-6.13.1
 135	KiB	libtirpc3
 133	KiB	python3-netserver
 133	KiB	libxcb1
-131	KiB	kernel-6.13.1
 127	KiB	libseccomp
 126	KiB	python3-json
 126	KiB	kmod
@@ -339,7 +339,6 @@
 10	KiB	kernel-module-gpio-charger-6.13.1
 10	KiB	kernel-module-fsi-scom-6.13.1
 10	KiB	kernel-module-ehci-fsl-6.13.1
-10	KiB	kernel-module-authencesn-6.13.1
 10	KiB	kernel-module-algif-skcipher-6.13.1
 9	KiB	util-linux-fcntl-lock
 9	KiB	pam-plugin-umask
@@ -364,11 +363,9 @@
 9	KiB	kernel-module-governor-passive-6.13.1
 9	KiB	kernel-module-ecdh-generic-6.13.1
 9	KiB	kernel-module-crypto-simd-6.13.1
-9	KiB	kernel-module-crypto-null-6.13.1
 9	KiB	kernel-module-crc32-arm-ce-6.13.1
 9	KiB	kernel-module-cpufreq-conservative-6.13.1
 9	KiB	kernel-module-capsule-loader-6.13.1
-9	KiB	kernel-module-authenc-6.13.1
 8	KiB	u-boot-env
 8	KiB	kernel-module-usb-f-serial-6.13.1
 8	KiB	kernel-module-usb-f-obex-6.13.1
@@ -417,7 +414,6 @@
 6	KiB	kernel-module-echainiv-6.13.1
 6	KiB	kernel-module-des-generic-6.13.1
 6	KiB	kernel-module-cpufreq-userspace-6.13.1
-6	KiB	kernel-module-cbc-6.13.1
 6	KiB	kernel-module-adxl34x-spi-6.13.1
 5	KiB	update-alternatives-opkg
 5	KiB	rauc-conf

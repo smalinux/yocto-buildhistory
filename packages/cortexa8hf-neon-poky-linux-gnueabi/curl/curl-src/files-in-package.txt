@@ -30,7 +30,6 @@ drwxr-xr-x root       root            12288 ./usr/src/debug/curl/8.7.1/lib
 -rw-r--r-- root       root            32449 ./usr/src/debug/curl/8.7.1/lib/cf-h1-proxy.c
 -rw-r--r-- root       root             1465 ./usr/src/debug/curl/8.7.1/lib/cf-h1-proxy.h
 -rw-r--r-- root       root            48737 ./usr/src/debug/curl/8.7.1/lib/cf-h2-proxy.c
--rw-r--r-- root       root             1469 ./usr/src/debug/curl/8.7.1/lib/cf-h2-proxy.h
 -rw-r--r-- root       root             6621 ./usr/src/debug/curl/8.7.1/lib/cf-haproxy.c
 -rw-r--r-- root       root             1438 ./usr/src/debug/curl/8.7.1/lib/cf-haproxy.h
 -rw-r--r-- root       root            15227 ./usr/src/debug/curl/8.7.1/lib/cf-https-connect.c
@@ -133,7 +132,6 @@ drwxr-xr-x root       root            12288 ./usr/src/debug/curl/8.7.1/lib
 -rw-r--r-- root       root             9582 ./usr/src/debug/curl/8.7.1/lib/http1.c
 -rw-r--r-- root       root             2177 ./usr/src/debug/curl/8.7.1/lib/http1.h
 -rw-r--r-- root       root            88028 ./usr/src/debug/curl/8.7.1/lib/http2.c
--rw-r--r-- root       root             2789 ./usr/src/debug/curl/8.7.1/lib/http2.h
 -rw-r--r-- root       root            24167 ./usr/src/debug/curl/8.7.1/lib/http_aws_sigv4.c
 -rw-r--r-- root       root             1310 ./usr/src/debug/curl/8.7.1/lib/http_aws_sigv4.h
 -rw-r--r-- root       root           139158 ./usr/src/debug/curl/8.7.1/lib/http.c

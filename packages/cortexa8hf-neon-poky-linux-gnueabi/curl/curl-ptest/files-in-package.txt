@@ -2,7 +2,7 @@ drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/curl
 drwxr-xr-x root       root             4096 ./usr/lib/curl/ptest
--rwxr-xr-x root       root             7698 ./usr/lib/curl/ptest/curl-config
+-rwxr-xr-x root       root             7721 ./usr/lib/curl/ptest/curl-config
 -rwxr-xr-x root       root              382 ./usr/lib/curl/ptest/run-ptest
 drwxr-xr-x root       root             4096 ./usr/lib/curl/ptest/src
 lrwxrwxrwx root       root               13 ./usr/lib/curl/ptest/src/curl -> /usr/bin/curl
@@ -90,7 +90,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/curl/ptest/tests/certs/scr
 -rw-r--r-- root       root             1045 ./usr/lib/curl/ptest/tests/config.in
 drwxr-xr-x root       root            57344 ./usr/lib/curl/ptest/tests/data
 -rw-r--r-- root       root             1234 ./usr/lib/curl/ptest/tests/data/CMakeLists.txt
--rw-r--r-- root       root             4984 ./usr/lib/curl/ptest/tests/data/DISABLED
+-rw-r--r-- root       root             4020 ./usr/lib/curl/ptest/tests/data/DISABLED
 -rw-r--r-- root       root             1155 ./usr/lib/curl/ptest/tests/data/Makefile.am
 -rw-r--r-- root       root            32544 ./usr/lib/curl/ptest/tests/data/Makefile.in
 -rw-r--r-- root       root            15834 ./usr/lib/curl/ptest/tests/data/Makefile.inc

@@ -12,6 +12,10 @@ lrwxrwxrwx root       root               13 ./boot/zImage -> zImage-6.13.1
 drwxr-xr-x root       root             4096 ./data
 drwxr-xr-x root       root             4096 ./dev
 drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/alsa
+drwxr-xr-x root       root             4096 ./etc/alsa/conf.d
+lrwxrwxrwx root       root               46 ./etc/alsa/conf.d/50-pulseaudio.conf -> /usr/share/alsa/alsa.conf.d/50-pulseaudio.conf
+lrwxrwxrwx root       root               54 ./etc/alsa/conf.d/99-pulseaudio-default.conf -> /usr/share/alsa/alsa.conf.d/99-pulseaudio-default.conf
 -rw-r--r-- root       root              535 ./etc/bindresvport.blacklist
 -rw-r--r-- root       root             2792 ./etc/busybox.links.nosuid
 -rw-r--r-- root       root              107 ./etc/busybox.links.suid
@@ -29,19 +33,20 @@ drwxr-xr-x root       root             4096 ./etc/default
 -rw-r--r-- root       root               52 ./etc/default/postinst
 -rw-r--r-- root       root              115 ./etc/default/useradd
 drwxr-xr-x root       root             4096 ./etc/default/volatiles
+-rw-r--r-- root       root               91 ./etc/default/volatiles/04_pulse
 -rw-r--r-- root       root               75 ./etc/default/volatiles/99_sshd
 drwxr-xr-x root       root             4096 ./etc/depmod.d
 -rw-r--r-- root       root             1853 ./etc/ethertypes
 -rw-r--r-- root       root              709 ./etc/fstab
 -rw-r--r-- root       root               32 ./etc/fw_env.config
--rw-r--r-- root       root              630 ./etc/group
--r-------- root       root              529 ./etc/gshadow
+-rw-r--r-- root       root              653 ./etc/group
+-r-------- root       root              549 ./etc/gshadow
 -rw-r--r-- root       root               26 ./etc/host.conf
 -rw-r--r-- root       root                4 ./etc/hostname
 -rw-r--r-- root       root              228 ./etc/hosts
 -rw-r--r-- root       root               51 ./etc/issue
 -rw-r--r-- root       root               48 ./etc/issue.net
--rw-r--r-- root       root             5657 ./etc/ld.so.cache
+-rw-r--r-- root       root             6215 ./etc/ld.so.cache
 -rw-r--r-- root       root               33 ./etc/ld.so.conf
 drwxr-xr-x root       root             4096 ./etc/libnl
 -rw-r--r-- root       root             1130 ./etc/libnl/classid
@@ -67,13 +72,16 @@ drwxr-xr-x root       root             4096 ./etc/pam.d
 -rw-r--r-- root       root              851 ./etc/pam.d/common-session
 -rw-r--r-- root       root              818 ./etc/pam.d/common-session-noninteractive
 -rw-r--r-- root       root              816 ./etc/pam.d/other
--rw-r--r-- root       root             1055 ./etc/passwd
+-rw-r--r-- root       root             1098 ./etc/passwd
 -rw-r--r-- root       root             1932 ./etc/profile
 drwxr-xr-x root       root             4096 ./etc/profile.d
 -rw-r--r-- root       root              288 ./etc/profile.d/systemd-pager.sh
 -rw-r--r-- root       root             3144 ./etc/protocols
 drwxr-xr-x root       root             4096 ./etc/pulse
 -rw-r--r-- root       root             1233 ./etc/pulse/client.conf
+-rw-r--r-- root       root             2426 ./etc/pulse/daemon.conf
+-rw-r--r-- root       root             5019 ./etc/pulse/default.pa
+-rw-r--r-- root       root             2163 ./etc/pulse/system.pa
 drwxr-xr-x root       root             4096 ./etc/rauc
 -rw-r--r-- root       root             4387 ./etc/rauc/ca.cert.pem
 -rw-r--r-- root       root              234 ./etc/rauc/system.conf
@@ -94,7 +102,7 @@ drwxr-xr-x root       root             4096 ./etc/security/namespace.d
 -rw-r--r-- root       root              517 ./etc/security/pwhistory.conf
 -rw-r--r-- root       root             2179 ./etc/security/time.conf
 -rw-r--r-- root       root            12813 ./etc/services
--r-------- root       root              643 ./etc/shadow
+-r-------- root       root              670 ./etc/shadow
 -rw-r--r-- root       root               42 ./etc/shells
 drwxr-xr-x root       root             4096 ./etc/skel
 -rwxr-xr-x root       root              410 ./etc/skel/.bashrc
@@ -463,8 +471,12 @@ drwxr-xr-x root       root             4096 ./etc/X11/xinit/xinitrc.d
 -rwxr-xr-x root       root              538 ./etc/X11/xinit/xinitrc.d/50-systemd-user.sh
 -rw-r--r-- root       root              681 ./etc/xattr.conf
 drwxr-xr-x root       root             4096 ./etc/xdg
+drwxr-xr-x root       root             4096 ./etc/xdg/autostart
+-rw-r--r-- root       root             5370 ./etc/xdg/autostart/pulseaudio.desktop
 drwxr-xr-x root       root             4096 ./etc/xdg/systemd
 lrwxrwxrwx root       root               18 ./etc/xdg/systemd/user -> ../../systemd/user
+drwxr-xr-x root       root             4096 ./etc/xdg/Xwayland-session.d
+-rwxr-xr-x root       root             2159 ./etc/xdg/Xwayland-session.d/00-pulseaudio-x11
 drwxr-xr-x root       root             4096 ./home
 lrwxrwxrwx root       root                7 ./lib -> usr/lib
 drwxr-xr-x root       root             4096 ./media
@@ -628,6 +640,7 @@ lrwxrwxrwx root       root               19 ./usr/bin/openvt -> /usr/bin/openvt.
 -rwxr-xr-x root       root            18656 ./usr/bin/opkg
 -rwxr-xr-x root       root             1887 ./usr/bin/opkg-check-config
 -rwxr-xr-x root       root            64568 ./usr/bin/out123
+-rwxr-xr-x root       root            83396 ./usr/bin/pactl
 -rwsr-xr-x root       root            82728 ./usr/bin/passwd.shadow
 lrwxrwxrwx root       root               22 ./usr/bin/passwd -> /usr/bin/passwd.shadow
 lrwxrwxrwx root       root               23 ./usr/bin/patch -> /usr/bin/busybox.nosuid
@@ -643,6 +656,7 @@ lrwxrwxrwx root       root                9 ./usr/bin/psfgettable -> psfxtable
 lrwxrwxrwx root       root                9 ./usr/bin/psfstriptable -> psfxtable
 -rwxr-xr-x root       root            21944 ./usr/bin/psfxtable
 lrwxrwxrwx root       root               23 ./usr/bin/ps -> /usr/bin/busybox.nosuid
+-rwxr-xr-x root       root            79324 ./usr/bin/pulseaudio
 lrwxrwxrwx root       root               23 ./usr/bin/pwd -> /usr/bin/busybox.nosuid
 -rwxr-xr-x root       root               79 ./usr/bin/pydoc3.12
 lrwxrwxrwx root       root                9 ./usr/bin/pydoc3 -> pydoc3.12
@@ -685,6 +699,7 @@ lrwxrwxrwx root       root               10 ./usr/bin/sqfstar -> mksquashfs
 -rwxr-xr-x root       root           497208 ./usr/bin/ssh-keygen
 -rwxr-xr-x root       root           849692 ./usr/bin/ssh.openssh
 lrwxrwxrwx root       root               20 ./usr/bin/ssh -> /usr/bin/ssh.openssh
+-rwxr-xr-x root       root             2159 ./usr/bin/start-pulseaudio-x11
 lrwxrwxrwx root       root               23 ./usr/bin/stat -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root               23 ./usr/bin/strings -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root               23 ./usr/bin/stty -> /usr/bin/busybox.nosuid
@@ -772,6 +787,10 @@ drwxr-xr-x root       root             4096 ./usr/include/python3.12
 -rw-r--r-- root       root            56123 ./usr/include/python3.12/pyconfig-32.h
 -rw-r--r-- root       root              564 ./usr/include/python3.12/pyconfig.h
 drwxr-xr-x root       root            12288 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/alsa-lib
+-rwxr-xr-x root       root             5372 ./usr/lib/alsa-lib/libasound_module_conf_pulse.so
+-rwxr-xr-x root       root            17712 ./usr/lib/alsa-lib/libasound_module_ctl_pulse.so
+-rwxr-xr-x root       root            21808 ./usr/lib/alsa-lib/libasound_module_pcm_pulse.so
 drwxr-xr-x root       root             4096 ./usr/lib/credstore
 drwxr-xr-x root       root             4096 ./usr/lib/depmod.d
 -rw-r--r-- root       root               15 ./usr/lib/depmod.d/exclude.conf
@@ -797,6 +816,8 @@ lrwxrwxrwx root       root               18 ./usr/lib/libacl.so.1 -> libacl.so.1
 -rwxr-xr-x root       root             5460 ./usr/lib/libanl.so.1
 -rwxr-xr-x root       root           652652 ./usr/lib/libarchive.so.13.7.4
 lrwxrwxrwx root       root               20 ./usr/lib/libarchive.so.13 -> libarchive.so.13.7.4
+-rwxr-xr-x root       root           911028 ./usr/lib/libasound.so.2.0.0
+lrwxrwxrwx root       root               18 ./usr/lib/libasound.so.2 -> libasound.so.2.0.0
 -rwxr-xr-x root       root            17704 ./usr/lib/libattr.so.1.1.2501
 lrwxrwxrwx root       root               19 ./usr/lib/libattr.so.1 -> libattr.so.1.1.2501
 -rwxr-xr-x root       root           325544 ./usr/lib/libblkid.so.1.1.0
@@ -846,12 +867,16 @@ lrwxrwxrwx root       root               26 ./usr/lib/libgmodule-2.0.so.0 -> lib
 lrwxrwxrwx root       root               26 ./usr/lib/libgobject-2.0.so.0 -> libgobject-2.0.so.0.7800.6
 -rwxr-xr-x root       root             5260 ./usr/lib/libgthread-2.0.so.0.7800.6
 lrwxrwxrwx root       root               26 ./usr/lib/libgthread-2.0.so.0 -> libgthread-2.0.so.0.7800.6
+-rwxr-xr-x root       root            83636 ./usr/lib/libICE.so.6.3.0
+lrwxrwxrwx root       root               15 ./usr/lib/libICE.so.6 -> libICE.so.6.3.0
 -rwxr-xr-x root       root           193936 ./usr/lib/libidn2.so.0.4.0
 lrwxrwxrwx root       root               16 ./usr/lib/libidn2.so.0 -> libidn2.so.0.4.0
 -rwxr-xr-x root       root           148836 ./usr/lib/libjson-glib-1.0.so.0.800.0
 lrwxrwxrwx root       root               27 ./usr/lib/libjson-glib-1.0.so.0 -> libjson-glib-1.0.so.0.800.0
 -rwxr-xr-x root       root            71056 ./usr/lib/libkmod.so.2.4.1
 lrwxrwxrwx root       root               16 ./usr/lib/libkmod.so.2 -> libkmod.so.2.4.1
+-rwxr-xr-x root       root            29996 ./usr/lib/libltdl.so.7.3.2
+lrwxrwxrwx root       root               16 ./usr/lib/libltdl.so.7 -> libltdl.so.7.3.2
 -rwxr-xr-x root       root           124192 ./usr/lib/liblz4.so.1.9.4
 lrwxrwxrwx root       root               15 ./usr/lib/liblz4.so.1 -> liblz4.so.1.9.4
 -rwxr-xr-x root       root           157020 ./usr/lib/liblzma.so.5.4.6
@@ -913,9 +938,13 @@ lrwxrwxrwx root       root               18 ./usr/lib/libpulse.so.0 -> libpulse.
 lrwxrwxrwx root       root               19 ./usr/lib/libseccomp.so.2 -> libseccomp.so.2.5.5
 -rwxr-xr-x root       root           226760 ./usr/lib/libsmartcols.so.1.1.0
 lrwxrwxrwx root       root               21 ./usr/lib/libsmartcols.so.1 -> libsmartcols.so.1.1.0
+-rwxr-xr-x root       root            34060 ./usr/lib/libSM.so.6.0.1
+lrwxrwxrwx root       root               14 ./usr/lib/libSM.so.6 -> libSM.so.6.0.1
 -rwxr-xr-x root       root           465120 ./usr/lib/libsndfile.so.1.0.37
 lrwxrwxrwx root       root               20 ./usr/lib/libsndfile.so.1 -> libsndfile.so.1.0.37
 -rwxr-xr-x root       root           534896 ./usr/lib/libsolv.so.1
+-rwxr-xr-x root       root            62760 ./usr/lib/libspeexdsp.so.1.5.2
+lrwxrwxrwx root       root               20 ./usr/lib/libspeexdsp.so.1 -> libspeexdsp.so.1.5.2
 -rwxr-xr-x root       root          1247572 ./usr/lib/libsqlite3.so.0.8.6
 lrwxrwxrwx root       root               19 ./usr/lib/libsqlite3.so.0 -> libsqlite3.so.0.8.6
 -rwxr-xr-x root       root           771120 ./usr/lib/libssl.so.3
@@ -933,6 +962,8 @@ lrwxrwxrwx root       root               15 ./usr/lib/libtinfo.so.5 -> libtinfo.
 lrwxrwxrwx root       root               17 ./usr/lib/libtirpc.so.3 -> libtirpc.so.3.0.0
 -rwxr-xr-x root       root            21748 ./usr/lib/libubootenv.so.0.3.5
 lrwxrwxrwx root       root               20 ./usr/lib/libubootenv.so.0 -> libubootenv.so.0.3.5
+-rwxr-xr-x root       root           235252 ./usr/lib/libudev.so.1.7.8
+lrwxrwxrwx root       root               16 ./usr/lib/libudev.so.1 -> libudev.so.1.7.8
 -rwxr-xr-x root       root          1717584 ./usr/lib/libunistring.so.5.1.0
 lrwxrwxrwx root       root               21 ./usr/lib/libunistring.so.5 -> libunistring.so.5.1.0
 -rwxr-xr-x root       root             5464 ./usr/lib/libutil.so.1
@@ -946,14 +977,22 @@ lrwxrwxrwx root       root               22 ./usr/lib/libvorbisfile.so.3 -> libv
 lrwxrwxrwx root       root               18 ./usr/lib/libvorbis.so.0 -> libvorbis.so.0.4.9
 -rwxr-xr-x root       root          1138376 ./usr/lib/libX11.so.6.4.0
 lrwxrwxrwx root       root               15 ./usr/lib/libX11.so.6 -> libX11.so.6.4.0
+-rwxr-xr-x root       root             5252 ./usr/lib/libX11-xcb.so.1.0.0
+lrwxrwxrwx root       root               19 ./usr/lib/libX11-xcb.so.1 -> libX11-xcb.so.1.0.0
 -rwxr-xr-x root       root             9452 ./usr/lib/libXau.so.6.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libXau.so.6 -> libXau.so.6.0.0
 -rwxr-xr-x root       root           136512 ./usr/lib/libxcb.so.1.1.0
 lrwxrwxrwx root       root               15 ./usr/lib/libxcb.so.1 -> libxcb.so.1.1.0
 -rwxr-xr-x root       root            17648 ./usr/lib/libXdmcp.so.6.0.0
 lrwxrwxrwx root       root               17 ./usr/lib/libXdmcp.so.6 -> libXdmcp.so.6.0.0
+-rwxr-xr-x root       root            59252 ./usr/lib/libXext.so.6.4.0
+lrwxrwxrwx root       root               16 ./usr/lib/libXext.so.6 -> libXext.so.6.4.0
+-rwxr-xr-x root       root            58700 ./usr/lib/libXi.so.6.1.0
+lrwxrwxrwx root       root               14 ./usr/lib/libXi.so.6 -> libXi.so.6.1.0
 -rwxr-xr-x root       root          1173744 ./usr/lib/libxml2.so.2.12.8
 lrwxrwxrwx root       root               17 ./usr/lib/libxml2.so.2 -> libxml2.so.2.12.8
+-rwxr-xr-x root       root            17744 ./usr/lib/libXtst.so.6.1.0
+lrwxrwxrwx root       root               16 ./usr/lib/libXtst.so.6 -> libXtst.so.6.1.0
 -rwxr-xr-x root       root           107808 ./usr/lib/libyaml-0.so.2.0.9
 lrwxrwxrwx root       root               18 ./usr/lib/libyaml-0.so.2 -> libyaml-0.so.2.0.9
 -rwxr-xr-x root       root            79244 ./usr/lib/libz.so.1.3.1
@@ -1568,6 +1607,36 @@ drwxr-xr-x root       root             4096 ./usr/lib/pam.d
 -rw-r--r-- root       root              394 ./usr/lib/pam.d/systemd-user
 drwxr-xr-x root       root             4096 ./usr/lib/pulseaudio
 -rwxr-xr-x root       root           476608 ./usr/lib/pulseaudio/libpulsecommon-17.0.so
+-rwxr-xr-x root       root           689860 ./usr/lib/pulseaudio/libpulsecore-17.0.so
+drwxr-xr-x root       root             4096 ./usr/lib/pulseaudio/modules
+-rwxr-xr-x root       root           297228 ./usr/lib/pulseaudio/modules/libalsa-util.so
+-rwxr-xr-x root       root           132392 ./usr/lib/pulseaudio/modules/libprotocol-native.so
+-rwxr-xr-x root       root            29988 ./usr/lib/pulseaudio/modules/module-alsa-card.so
+-rwxr-xr-x root       root             9508 ./usr/lib/pulseaudio/modules/module-alsa-sink.so
+-rwxr-xr-x root       root             9512 ./usr/lib/pulseaudio/modules/module-alsa-source.so
+-rwxr-xr-x root       root             9512 ./usr/lib/pulseaudio/modules/module-always-sink.so
+-rwxr-xr-x root       root            13676 ./usr/lib/pulseaudio/modules/module-augment-properties.so
+-rwxr-xr-x root       root            21800 ./usr/lib/pulseaudio/modules/module-card-restore.so
+-rwxr-xr-x root       root             9472 ./usr/lib/pulseaudio/modules/module-default-device-restore.so
+-rwxr-xr-x root       root             9508 ./usr/lib/pulseaudio/modules/module-detect.so
+-rwxr-xr-x root       root            34092 ./usr/lib/pulseaudio/modules/module-device-manager.so
+-rwxr-xr-x root       root            34092 ./usr/lib/pulseaudio/modules/module-device-restore.so
+-rwxr-xr-x root       root            25896 ./usr/lib/pulseaudio/modules/module-filter-apply.so
+-rwxr-xr-x root       root             9464 ./usr/lib/pulseaudio/modules/module-filter-heuristics.so
+-rwxr-xr-x root       root            13612 ./usr/lib/pulseaudio/modules/module-intended-roles.so
+-rwxr-xr-x root       root             9520 ./usr/lib/pulseaudio/modules/module-native-protocol-unix.so
+-rwxr-xr-x root       root            17700 ./usr/lib/pulseaudio/modules/module-null-sink.so
+-rwxr-xr-x root       root             9468 ./usr/lib/pulseaudio/modules/module-position-event-sounds.so
+-rwxr-xr-x root       root             5368 ./usr/lib/pulseaudio/modules/module-rescue-streams.so
+-rwxr-xr-x root       root            25892 ./usr/lib/pulseaudio/modules/module-role-cork.so
+-rwxr-xr-x root       root            63204 ./usr/lib/pulseaudio/modules/module-stream-restore.so
+-rwxr-xr-x root       root            21856 ./usr/lib/pulseaudio/modules/module-suspend-on-idle.so
+-rwxr-xr-x root       root            13568 ./usr/lib/pulseaudio/modules/module-switch-on-port-available.so
+-rwxr-xr-x root       root             9460 ./usr/lib/pulseaudio/modules/module-systemd-login.so
+-rwxr-xr-x root       root            21852 ./usr/lib/pulseaudio/modules/module-udev-detect.so
+-rwxr-xr-x root       root             9516 ./usr/lib/pulseaudio/modules/module-x11-cork-request.so
+-rwxr-xr-x root       root            13608 ./usr/lib/pulseaudio/modules/module-x11-publish.so
+-rwxr-xr-x root       root            13604 ./usr/lib/pulseaudio/modules/module-x11-xsmp.so
 drwxr-xr-x root       root             4096 ./usr/lib/python3.12
 -rw-r--r-- root       root             6538 ./usr/lib/python3.12/abc.py
 -rw-r--r-- root       root            34211 ./usr/lib/python3.12/aifc.py
@@ -5238,6 +5307,9 @@ drwxr-xr-x root       root             4096 ./usr/lib/systemd/user-generators
 drwxr-xr-x root       root             4096 ./usr/lib/systemd/user-preset
 -rw-r--r-- root       root              580 ./usr/lib/systemd/user-preset/90-systemd.preset
 -rw-r--r-- root       root              425 ./usr/lib/systemd/user/printer.target
+-rw-r--r-- root       root             1121 ./usr/lib/systemd/user/pulseaudio.service
+-rw-r--r-- root       root              147 ./usr/lib/systemd/user/pulseaudio.socket
+-rw-r--r-- root       root              424 ./usr/lib/systemd/user/pulseaudio-x11.service
 -rw-r--r-- root       root              443 ./usr/lib/systemd/user/session.slice
 -rw-r--r-- root       root              450 ./usr/lib/systemd/user/shutdown.target
 -rw-r--r-- root       root              428 ./usr/lib/systemd/user/smartcard.target
@@ -5352,6 +5424,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/udev/rules.d
 -rw-r--r-- root       root              295 ./usr/lib/udev/rules.d/80-net-setup-link.rules
 -rw-r--r-- root       root              528 ./usr/lib/udev/rules.d/81-net-dhcp.rules
 -rw-r--r-- root       root              769 ./usr/lib/udev/rules.d/90-iocost.rules
+-rw-r--r-- root       root            12915 ./usr/lib/udev/rules.d/90-pulseaudio.rules
 -rw-r--r-- root       root              518 ./usr/lib/udev/rules.d/90-vconsole.rules
 -rw-r--r-- root       root             5103 ./usr/lib/udev/rules.d/99-systemd.rules
 -rw-r--r-- root       root              435 ./usr/lib/udev/rules.d/README
@@ -5462,6 +5535,807 @@ lrwxrwxrwx root       root               21 ./usr/sbin/vigr -> /usr/sbin/vigr.sh
 -rwxr-xr-x root       root            47576 ./usr/sbin/vipw.shadow
 lrwxrwxrwx root       root               21 ./usr/sbin/vipw -> /usr/sbin/vipw.shadow
 drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/alsa
+-rw-r--r-- root       root            10119 ./usr/share/alsa/alsa.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/alsa.conf.d
+-rw-r--r-- root       root              402 ./usr/share/alsa/alsa.conf.d/50-pulseaudio.conf
+-rw-r--r-- root       root              201 ./usr/share/alsa/alsa.conf.d/99-pulseaudio-default.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/cards
+-rw-r--r-- root       root              669 ./usr/share/alsa/cards/AACI.conf
+-rw-r--r-- root       root             1487 ./usr/share/alsa/cards/aliases.conf
+-rw-r--r-- root       root             2483 ./usr/share/alsa/cards/ATIIXP.conf
+-rw-r--r-- root       root              302 ./usr/share/alsa/cards/ATIIXP-MODEM.conf
+-rw-r--r-- root       root             2237 ./usr/share/alsa/cards/ATIIXP-SPDMA.conf
+-rw-r--r-- root       root              437 ./usr/share/alsa/cards/AU8810.conf
+-rw-r--r-- root       root              159 ./usr/share/alsa/cards/AU8820.conf
+-rw-r--r-- root       root              520 ./usr/share/alsa/cards/AU8830.conf
+-rw-r--r-- root       root             5554 ./usr/share/alsa/cards/Audigy2.conf
+-rw-r--r-- root       root             4098 ./usr/share/alsa/cards/Audigy.conf
+-rw-r--r-- root       root             2369 ./usr/share/alsa/cards/Aureon51.conf
+-rw-r--r-- root       root             2499 ./usr/share/alsa/cards/Aureon71.conf
+-rw-r--r-- root       root             3848 ./usr/share/alsa/cards/CA0106.conf
+-rw-r--r-- root       root             1911 ./usr/share/alsa/cards/CMI8338.conf
+-rw-r--r-- root       root             1784 ./usr/share/alsa/cards/CMI8338-SWIEC.conf
+-rw-r--r-- root       root             2131 ./usr/share/alsa/cards/CMI8738-MC6.conf
+-rw-r--r-- root       root             2982 ./usr/share/alsa/cards/CMI8738-MC8.conf
+-rw-r--r-- root       root             1641 ./usr/share/alsa/cards/CMI8788.conf
+-rw-r--r-- root       root             2945 ./usr/share/alsa/cards/CS46xx.conf
+-rw-r--r-- root       root             4399 ./usr/share/alsa/cards/Echo_Echo3G.conf
+-rw-r--r-- root       root             4420 ./usr/share/alsa/cards/EMU10K1.conf
+-rw-r--r-- root       root             2754 ./usr/share/alsa/cards/EMU10K1X.conf
+-rw-r--r-- root       root             1367 ./usr/share/alsa/cards/ENS1370.conf
+-rw-r--r-- root       root             1806 ./usr/share/alsa/cards/ENS1371.conf
+-rw-r--r-- root       root              152 ./usr/share/alsa/cards/ES1968.conf
+-rw-r--r-- root       root              702 ./usr/share/alsa/cards/FireWave.conf
+-rw-r--r-- root       root             1227 ./usr/share/alsa/cards/FM801.conf
+-rw-r--r-- root       root              333 ./usr/share/alsa/cards/FWSpeakers.conf
+-rw-r--r-- root       root              217 ./usr/share/alsa/cards/GUS.conf
+-rw-r--r-- root       root             8074 ./usr/share/alsa/cards/HDA-Intel.conf
+-rw-r--r-- root       root             1509 ./usr/share/alsa/cards/HdmiLpeAudio.conf
+-rw-r--r-- root       root             2409 ./usr/share/alsa/cards/ICE1712.conf
+-rw-r--r-- root       root             2891 ./usr/share/alsa/cards/ICE1724.conf
+-rw-r--r-- root       root             2886 ./usr/share/alsa/cards/ICH4.conf
+-rw-r--r-- root       root             3054 ./usr/share/alsa/cards/ICH.conf
+-rw-r--r-- root       root              192 ./usr/share/alsa/cards/ICH-MODEM.conf
+-rw-r--r-- root       root             1272 ./usr/share/alsa/cards/Loopback.conf
+-rw-r--r-- root       root              558 ./usr/share/alsa/cards/Maestro3.conf
+-rw-r--r-- root       root             4803 ./usr/share/alsa/cards/NFORCE.conf
+-rw-r--r-- root       root              657 ./usr/share/alsa/cards/PC-Speaker.conf
+-rw-r--r-- root       root             1889 ./usr/share/alsa/cards/pistachio-card.conf
+-rw-r--r-- root       root              486 ./usr/share/alsa/cards/PMac.conf
+-rw-r--r-- root       root              705 ./usr/share/alsa/cards/PMacToonie.conf
+-rw-r--r-- root       root             1152 ./usr/share/alsa/cards/PS3.conf
+-rw-r--r-- root       root              780 ./usr/share/alsa/cards/RME9636.conf
+-rw-r--r-- root       root              780 ./usr/share/alsa/cards/RME9652.conf
+-rw-r--r-- root       root             1502 ./usr/share/alsa/cards/SB-XFi.conf
+-rw-r--r-- root       root             2278 ./usr/share/alsa/cards/SI7018.conf
+-rw-r--r-- root       root             1792 ./usr/share/alsa/cards/TRID4DWAVENX.conf
+-rw-r--r-- root       root             9771 ./usr/share/alsa/cards/USB-Audio.conf
+-rw-r--r-- root       root             1428 ./usr/share/alsa/cards/vc4-hdmi.conf
+-rw-r--r-- root       root             1199 ./usr/share/alsa/cards/VIA686A.conf
+-rw-r--r-- root       root             2812 ./usr/share/alsa/cards/VIA8233A.conf
+-rw-r--r-- root       root             2756 ./usr/share/alsa/cards/VIA8233.conf
+-rw-r--r-- root       root             2586 ./usr/share/alsa/cards/VIA8237.conf
+-rw-r--r-- root       root              830 ./usr/share/alsa/cards/VX222.conf
+-rw-r--r-- root       root             1480 ./usr/share/alsa/cards/VXPocket440.conf
+-rw-r--r-- root       root              839 ./usr/share/alsa/cards/VXPocket.conf
+-rw-r--r-- root       root             1357 ./usr/share/alsa/cards/YMF744.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ctl
+-rw-r--r-- root       root              539 ./usr/share/alsa/ctl/default.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/pcm
+-rw-r--r-- root       root              803 ./usr/share/alsa/pcm/center_lfe.conf
+-rw-r--r-- root       root              760 ./usr/share/alsa/pcm/default.conf
+-rw-r--r-- root       root             1708 ./usr/share/alsa/pcm/dmix.conf
+-rw-r--r-- root       root              645 ./usr/share/alsa/pcm/dpl.conf
+-rw-r--r-- root       root             1590 ./usr/share/alsa/pcm/dsnoop.conf
+-rw-r--r-- root       root              802 ./usr/share/alsa/pcm/front.conf
+-rw-r--r-- root       root             1186 ./usr/share/alsa/pcm/hdmi.conf
+-rw-r--r-- root       root             1218 ./usr/share/alsa/pcm/iec958.conf
+-rw-r--r-- root       root             1312 ./usr/share/alsa/pcm/modem.conf
+-rw-r--r-- root       root              742 ./usr/share/alsa/pcm/rear.conf
+-rw-r--r-- root       root              742 ./usr/share/alsa/pcm/side.conf
+-rw-r--r-- root       root              923 ./usr/share/alsa/pcm/surround21.conf
+-rw-r--r-- root       root              901 ./usr/share/alsa/pcm/surround40.conf
+-rw-r--r-- root       root             1004 ./usr/share/alsa/pcm/surround41.conf
+-rw-r--r-- root       root             1003 ./usr/share/alsa/pcm/surround50.conf
+-rw-r--r-- root       root              954 ./usr/share/alsa/pcm/surround51.conf
+-rw-r--r-- root       root             1002 ./usr/share/alsa/pcm/surround71.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Allwinner
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Allwinner/A64
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Allwinner/A64/PinePhone
+-rw-r--r-- root       root             1906 ./usr/share/alsa/ucm2/Allwinner/A64/PinePhone/HiFi.conf
+-rw-r--r-- root       root             2479 ./usr/share/alsa/ucm2/Allwinner/A64/PinePhone/PinePhone.conf
+-rw-r--r-- root       root             1993 ./usr/share/alsa/ucm2/Allwinner/A64/PinePhone/VoiceCall.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/AMD
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/AMD/acp3xalc5682m98
+-rw-r--r-- root       root             1740 ./usr/share/alsa/ucm2/AMD/acp3xalc5682m98/acp3xalc5682m98.conf
+-rw-r--r-- root       root             2990 ./usr/share/alsa/ucm2/AMD/acp3xalc5682m98/HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/AMD/acp3x-es83xx
+-rw-r--r-- root       root              853 ./usr/share/alsa/ucm2/AMD/acp3x-es83xx/acp3x-es83xx.conf
+-rw-r--r-- root       root             1500 ./usr/share/alsa/ucm2/AMD/acp3x-es83xx/HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/AMD/acp5x
+-rw-r--r-- root       root             2255 ./usr/share/alsa/ucm2/AMD/acp5x/acp5x.conf
+-rw-r--r-- root       root             2635 ./usr/share/alsa/ucm2/AMD/acp5x/HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/AMD/acpd7219m98357
+-rw-r--r-- root       root              125 ./usr/share/alsa/ucm2/AMD/acpd7219m98357/acpd7219m98357.conf
+-rw-r--r-- root       root              906 ./usr/share/alsa/ucm2/AMD/acpd7219m98357/HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Amlogic
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Amlogic/p241
+-rw-r--r-- root       root              818 ./usr/share/alsa/ucm2/Amlogic/p241/p241.conf
+-rw-r--r-- root       root              733 ./usr/share/alsa/ucm2/Amlogic/p241/p241-HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/cs42l43
+-rw-r--r-- root       root              364 ./usr/share/alsa/ucm2/codecs/cs42l43/init.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/cx2072x
+-rw-r--r-- root       root              212 ./usr/share/alsa/ucm2/codecs/cx2072x/DisableSeq.conf
+-rw-r--r-- root       root              382 ./usr/share/alsa/ucm2/codecs/cx2072x/EnableSeq.conf
+-rw-r--r-- root       root              383 ./usr/share/alsa/ucm2/codecs/cx2072x/HeadPhones.conf
+-rw-r--r-- root       root              426 ./usr/share/alsa/ucm2/codecs/cx2072x/HeadsetMic.conf
+-rw-r--r-- root       root              386 ./usr/share/alsa/ucm2/codecs/cx2072x/InternalMic.conf
+-rw-r--r-- root       root              346 ./usr/share/alsa/ucm2/codecs/cx2072x/Speaker.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/da7219
+-rw-r--r-- root       root              802 ./usr/share/alsa/ucm2/codecs/da7219/init.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/es8316
+-rw-r--r-- root       root              900 ./usr/share/alsa/ucm2/codecs/es8316/EnableSeq.conf
+-rw-r--r-- root       root              392 ./usr/share/alsa/ucm2/codecs/es8316/HeadPhones.conf
+-rw-r--r-- root       root              419 ./usr/share/alsa/ucm2/codecs/es8316/IN1-HeadsetMic.conf
+-rw-r--r-- root       root              389 ./usr/share/alsa/ucm2/codecs/es8316/IN1-InternalMic.conf
+-rw-r--r-- root       root              419 ./usr/share/alsa/ucm2/codecs/es8316/IN2-HeadsetMic.conf
+-rw-r--r-- root       root              389 ./usr/share/alsa/ucm2/codecs/es8316/IN2-InternalMic.conf
+-rw-r--r-- root       root             1290 ./usr/share/alsa/ucm2/codecs/es8316/MonoSpeaker.conf
+-rw-r--r-- root       root              426 ./usr/share/alsa/ucm2/codecs/es8316/Speaker.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/hda
+-rw-r--r-- root       root              732 ./usr/share/alsa/ucm2/codecs/hda/hdmi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/max98090
+-rw-r--r-- root       root              820 ./usr/share/alsa/ucm2/codecs/max98090/EnableSeq.conf
+-rw-r--r-- root       root              472 ./usr/share/alsa/ucm2/codecs/max98090/Headphones.conf
+-rw-r--r-- root       root              675 ./usr/share/alsa/ucm2/codecs/max98090/HeadsetMic.conf
+-rw-r--r-- root       root              447 ./usr/share/alsa/ucm2/codecs/max98090/InternalMic.conf
+-rw-r--r-- root       root              426 ./usr/share/alsa/ucm2/codecs/max98090/Speaker.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/nau8824
+-rw-r--r-- root       root              600 ./usr/share/alsa/ucm2/codecs/nau8824/DMIC1_2.conf
+-rw-r--r-- root       root              573 ./usr/share/alsa/ucm2/codecs/nau8824/EnableSeq.conf
+-rw-r--r-- root       root              304 ./usr/share/alsa/ucm2/codecs/nau8824/HeadPhones.conf
+-rw-r--r-- root       root              544 ./usr/share/alsa/ucm2/codecs/nau8824/HeadsetMic.conf
+-rw-r--r-- root       root              496 ./usr/share/alsa/ucm2/codecs/nau8824/InternalMic.conf
+-rw-r--r-- root       root              589 ./usr/share/alsa/ucm2/codecs/nau8824/MonoSpeaker.conf
+-rw-r--r-- root       root              440 ./usr/share/alsa/ucm2/codecs/nau8824/Speaker.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/qcom-lpass
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/qcom-lpass/rx-macro
+-rw-r--r-- root       root              373 ./usr/share/alsa/ucm2/codecs/qcom-lpass/rx-macro/HeadphoneDisableSeq.conf
+-rw-r--r-- root       root              406 ./usr/share/alsa/ucm2/codecs/qcom-lpass/rx-macro/HeadphoneEnableSeq.conf
+-rw-r--r-- root       root              150 ./usr/share/alsa/ucm2/codecs/qcom-lpass/rx-macro/init.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro
+-rw-r--r-- root       root               93 ./usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/DMIC0DisableSeq.conf
+-rw-r--r-- root       root              271 ./usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/DMIC0EnableSeq.conf
+-rw-r--r-- root       root              129 ./usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/HeadphoneMicDisableSeq.conf
+-rw-r--r-- root       root              196 ./usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/HeadphoneMicEnableSeq.conf
+-rw-r--r-- root       root              165 ./usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/SoundwireMic0EnableSeq.conf
+-rw-r--r-- root       root              202 ./usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/SoundwireMic1EnableSeq.conf
+-rw-r--r-- root       root               93 ./usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/SoundwireMicDisableSeq.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/qcom-lpass/va-macro
+-rw-r--r-- root       root              125 ./usr/share/alsa/ucm2/codecs/qcom-lpass/va-macro/DMIC0DisableSeq.conf
+-rw-r--r-- root       root              162 ./usr/share/alsa/ucm2/codecs/qcom-lpass/va-macro/DMIC0EnableSeq.conf
+-rw-r--r-- root       root              125 ./usr/share/alsa/ucm2/codecs/qcom-lpass/va-macro/DMIC1DisableSeq.conf
+-rw-r--r-- root       root              162 ./usr/share/alsa/ucm2/codecs/qcom-lpass/va-macro/DMIC1EnableSeq.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/four-speakers
+-rw-r--r-- root       root              253 ./usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/four-speakers/init.conf
+-rw-r--r-- root       root              153 ./usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/init.conf
+-rw-r--r-- root       root              218 ./usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/SpeakerDisableSeq.conf
+-rw-r--r-- root       root              221 ./usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/SpeakerEnableSeq.conf
+-rw-r--r-- root       root              332 ./usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/Wsa1SpeakerDisableSeq.conf
+-rw-r--r-- root       root              337 ./usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/Wsa1SpeakerEnableSeq.conf
+-rw-r--r-- root       root              340 ./usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/Wsa2SpeakerDisableSeq.conf
+-rw-r--r-- root       root              345 ./usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/Wsa2SpeakerEnableSeq.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/rt5640
+-rw-r--r-- root       root             1201 ./usr/share/alsa/ucm2/codecs/rt5640/DigitalMics.conf
+-rw-r--r-- root       root             2901 ./usr/share/alsa/ucm2/codecs/rt5640/EnableSeq.conf
+-rw-r--r-- root       root              895 ./usr/share/alsa/ucm2/codecs/rt5640/HeadPhones2.conf
+-rw-r--r-- root       root              941 ./usr/share/alsa/ucm2/codecs/rt5640/HeadPhones.conf
+-rw-r--r-- root       root             1109 ./usr/share/alsa/ucm2/codecs/rt5640/HeadsetMic2-IN1.conf
+-rw-r--r-- root       root             1201 ./usr/share/alsa/ucm2/codecs/rt5640/HeadsetMic.conf
+-rw-r--r-- root       root             1175 ./usr/share/alsa/ucm2/codecs/rt5640/IN1-InternalMic.conf
+-rw-r--r-- root       root             1175 ./usr/share/alsa/ucm2/codecs/rt5640/IN3-InternalMic.conf
+-rw-r--r-- root       root              745 ./usr/share/alsa/ucm2/codecs/rt5640/init.conf
+-rw-r--r-- root       root              994 ./usr/share/alsa/ucm2/codecs/rt5640/MonoSpeaker.conf
+-rw-r--r-- root       root             1001 ./usr/share/alsa/ucm2/codecs/rt5640/Speaker.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/rt5645
+-rw-r--r-- root       root              964 ./usr/share/alsa/ucm2/codecs/rt5645/AnalogMic.conf
+-rw-r--r-- root       root              234 ./usr/share/alsa/ucm2/codecs/rt5645/DigitalMicDisableSeq.conf
+-rw-r--r-- root       root              409 ./usr/share/alsa/ucm2/codecs/rt5645/DigitalMicEnableSeq.conf
+-rw-r--r-- root       root              559 ./usr/share/alsa/ucm2/codecs/rt5645/DisableSeq.conf
+-rw-r--r-- root       root             1509 ./usr/share/alsa/ucm2/codecs/rt5645/EnableSeq.conf
+-rw-r--r-- root       root              272 ./usr/share/alsa/ucm2/codecs/rt5645/HeadphonesEnableSeq.conf
+-rw-r--r-- root       root              227 ./usr/share/alsa/ucm2/codecs/rt5645/HSMicDisableSeq.conf
+-rw-r--r-- root       root              222 ./usr/share/alsa/ucm2/codecs/rt5645/HSMicEnableSeq.conf
+-rw-r--r-- root       root              305 ./usr/share/alsa/ucm2/codecs/rt5645/init.conf
+-rw-r--r-- root       root              216 ./usr/share/alsa/ucm2/codecs/rt5645/SpeakerEnableSeq.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/rt5651
+-rw-r--r-- root       root              517 ./usr/share/alsa/ucm2/codecs/rt5651/DigitalMic.conf
+-rw-r--r-- root       root             2150 ./usr/share/alsa/ucm2/codecs/rt5651/EnableSeq.conf
+-rw-r--r-- root       root              753 ./usr/share/alsa/ucm2/codecs/rt5651/HeadPhones.conf
+-rw-r--r-- root       root             1042 ./usr/share/alsa/ucm2/codecs/rt5651/HeadPhones-swapped.conf
+-rw-r--r-- root       root              768 ./usr/share/alsa/ucm2/codecs/rt5651/IN12-InternalMic.conf
+-rw-r--r-- root       root              601 ./usr/share/alsa/ucm2/codecs/rt5651/IN1-InternalMic.conf
+-rw-r--r-- root       root              668 ./usr/share/alsa/ucm2/codecs/rt5651/IN2-HeadsetMic.conf
+-rw-r--r-- root       root              601 ./usr/share/alsa/ucm2/codecs/rt5651/IN2-InternalMic.conf
+-rw-r--r-- root       root              668 ./usr/share/alsa/ucm2/codecs/rt5651/IN3-HeadsetMic.conf
+-rw-r--r-- root       root              347 ./usr/share/alsa/ucm2/codecs/rt5651/init.conf
+-rw-r--r-- root       root             1526 ./usr/share/alsa/ucm2/codecs/rt5651/MonoSpeaker.conf
+-rw-r--r-- root       root              728 ./usr/share/alsa/ucm2/codecs/rt5651/Speaker.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/rt5672
+-rw-r--r-- root       root              759 ./usr/share/alsa/ucm2/codecs/rt5672/DMIC1.conf
+-rw-r--r-- root       root              759 ./usr/share/alsa/ucm2/codecs/rt5672/DMIC2.conf
+-rw-r--r-- root       root             1751 ./usr/share/alsa/ucm2/codecs/rt5672/EnableSeq.conf
+-rw-r--r-- root       root              409 ./usr/share/alsa/ucm2/codecs/rt5672/HeadPhones.conf
+-rw-r--r-- root       root              765 ./usr/share/alsa/ucm2/codecs/rt5672/HeadsetMic.conf
+-rw-r--r-- root       root              709 ./usr/share/alsa/ucm2/codecs/rt5672/MonoSpeaker.conf
+-rw-r--r-- root       root              514 ./usr/share/alsa/ucm2/codecs/rt5672/Speaker.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/rt5682
+-rw-r--r-- root       root              734 ./usr/share/alsa/ucm2/codecs/rt5682/init.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/rt700
+-rw-r--r-- root       root              236 ./usr/share/alsa/ucm2/codecs/rt700/init.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/rt711
+-rw-r--r-- root       root              273 ./usr/share/alsa/ucm2/codecs/rt711/init.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/rt711-sdca
+-rw-r--r-- root       root              235 ./usr/share/alsa/ucm2/codecs/rt711-sdca/init.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/rt713-dmic
+-rw-r--r-- root       root              157 ./usr/share/alsa/ucm2/codecs/rt713-dmic/init.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/rt713-sdca
+-rw-r--r-- root       root              235 ./usr/share/alsa/ucm2/codecs/rt713-sdca/init.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/rt715
+-rw-r--r-- root       root              700 ./usr/share/alsa/ucm2/codecs/rt715/init.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/rt715-sdca
+-rw-r--r-- root       root              430 ./usr/share/alsa/ucm2/codecs/rt715-sdca/init.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/wcd934x
+-rw-r--r-- root       root              203 ./usr/share/alsa/ucm2/codecs/wcd934x/DefaultDisableSeq.conf
+-rw-r--r-- root       root              241 ./usr/share/alsa/ucm2/codecs/wcd934x/DefaultEnableSeq.conf
+-rw-r--r-- root       root              252 ./usr/share/alsa/ucm2/codecs/wcd934x/HeadphoneDisableSeq.conf
+-rw-r--r-- root       root              245 ./usr/share/alsa/ucm2/codecs/wcd934x/HeadphoneEnableSeq.conf
+-rw-r--r-- root       root               79 ./usr/share/alsa/ucm2/codecs/wcd934x/HeadphoneMicDisableSeq.conf
+-rw-r--r-- root       root               78 ./usr/share/alsa/ucm2/codecs/wcd934x/HeadphoneMicEnableSeq.conf
+-rw-r--r-- root       root              582 ./usr/share/alsa/ucm2/codecs/wcd934x/init.conf
+-rw-r--r-- root       root              160 ./usr/share/alsa/ucm2/codecs/wcd934x/SpeakerDisableSeq.conf
+-rw-r--r-- root       root              157 ./usr/share/alsa/ucm2/codecs/wcd934x/SpeakerEnableSeq.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/wcd938x
+-rw-r--r-- root       root              202 ./usr/share/alsa/ucm2/codecs/wcd938x/HeadphoneDisableSeq.conf
+-rw-r--r-- root       root              269 ./usr/share/alsa/ucm2/codecs/wcd938x/HeadphoneEnableSeq.conf
+-rw-r--r-- root       root               84 ./usr/share/alsa/ucm2/codecs/wcd938x/HeadphoneMicDisableSeq.conf
+-rw-r--r-- root       root              146 ./usr/share/alsa/ucm2/codecs/wcd938x/HeadphoneMicEnableSeq.conf
+-rw-r--r-- root       root              240 ./usr/share/alsa/ucm2/codecs/wcd938x/init.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/wcd939x
+-rw-r--r-- root       root              179 ./usr/share/alsa/ucm2/codecs/wcd939x/AnalogMic1EnableSeq.conf
+-rw-r--r-- root       root              179 ./usr/share/alsa/ucm2/codecs/wcd939x/AnalogMic3EnableSeq.conf
+-rw-r--r-- root       root              179 ./usr/share/alsa/ucm2/codecs/wcd939x/AnalogMic4EnableSeq.conf
+-rw-r--r-- root       root              179 ./usr/share/alsa/ucm2/codecs/wcd939x/AnalogMic5EnableSeq.conf
+-rw-r--r-- root       root              125 ./usr/share/alsa/ucm2/codecs/wcd939x/AnalogMicDisableSeq.conf
+-rw-r--r-- root       root               79 ./usr/share/alsa/ucm2/codecs/wcd939x/DefaultEnableSeq.conf
+-rw-r--r-- root       root              243 ./usr/share/alsa/ucm2/codecs/wcd939x/HeadphoneDisableSeq.conf
+-rw-r--r-- root       root              242 ./usr/share/alsa/ucm2/codecs/wcd939x/HeadphoneEnableSeq.conf
+-rw-r--r-- root       root              154 ./usr/share/alsa/ucm2/codecs/wcd939x/HeadphoneMicDisableSeq.conf
+-rw-r--r-- root       root              207 ./usr/share/alsa/ucm2/codecs/wcd939x/HeadphoneMicEnableSeq.conf
+-rw-r--r-- root       root              318 ./usr/share/alsa/ucm2/codecs/wcd939x/init.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/wm5102
+-rw-r--r-- root       root              583 ./usr/share/alsa/ucm2/codecs/wm5102/EnableSeq.conf
+-rw-r--r-- root       root              387 ./usr/share/alsa/ucm2/codecs/wm5102/HeadPhones.conf
+-rw-r--r-- root       root              350 ./usr/share/alsa/ucm2/codecs/wm5102/HPOut2-Speaker.conf
+-rw-r--r-- root       root              384 ./usr/share/alsa/ucm2/codecs/wm5102/IN1-HeadsetMic.conf
+-rw-r--r-- root       root              354 ./usr/share/alsa/ucm2/codecs/wm5102/IN1-InternalMic.conf
+-rw-r--r-- root       root              384 ./usr/share/alsa/ucm2/codecs/wm5102/IN2-HeadsetMic.conf
+-rw-r--r-- root       root              354 ./usr/share/alsa/ucm2/codecs/wm5102/IN3-InternalMic.conf
+-rw-r--r-- root       root              352 ./usr/share/alsa/ucm2/codecs/wm5102/Speaker.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/wsa881x
+-rw-r--r-- root       root              333 ./usr/share/alsa/ucm2/codecs/wsa881x/DefaultEnableSeq.conf
+-rw-r--r-- root       root              334 ./usr/share/alsa/ucm2/codecs/wsa881x/SpeakerDisableSeq.conf
+-rw-r--r-- root       root              408 ./usr/share/alsa/ucm2/codecs/wsa881x/SpeakerEnableSeq.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/wsa883x
+-rw-r--r-- root       root              404 ./usr/share/alsa/ucm2/codecs/wsa883x/DefaultEnableSeq.conf
+-rw-r--r-- root       root              260 ./usr/share/alsa/ucm2/codecs/wsa883x/init.conf
+-rw-r--r-- root       root              334 ./usr/share/alsa/ucm2/codecs/wsa883x/SpeakerDisableSeq.conf
+-rw-r--r-- root       root              404 ./usr/share/alsa/ucm2/codecs/wsa883x/SpeakerEnableSeq.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/wsa884x
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/wsa884x/four-speakers
+-rw-r--r-- root       root              999 ./usr/share/alsa/ucm2/codecs/wsa884x/four-speakers/DefaultEnableSeq.conf
+-rw-r--r-- root       root              379 ./usr/share/alsa/ucm2/codecs/wsa884x/four-speakers/init.conf
+-rw-r--r-- root       root             2008 ./usr/share/alsa/ucm2/codecs/wsa884x/four-speakers/SpeakerSeq.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/codecs/wsa884x/two-speakers
+-rw-r--r-- root       root              404 ./usr/share/alsa/ucm2/codecs/wsa884x/two-speakers/DefaultEnableSeq.conf
+-rw-r--r-- root       root              289 ./usr/share/alsa/ucm2/codecs/wsa884x/two-speakers/init.conf
+-rw-r--r-- root       root              964 ./usr/share/alsa/ucm2/codecs/wsa884x/two-speakers/SpeakerSeq.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/common
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/common/ctl
+-rw-r--r-- root       root             1071 ./usr/share/alsa/ucm2/common/ctl/remap.conf
+-rw-r--r-- root       root              221 ./usr/share/alsa/ucm2/common/direct.conf
+-rw-r--r-- root       root              500 ./usr/share/alsa/ucm2/common/direct-verb.conf
+-rw-r--r-- root       root               52 ./usr/share/alsa/ucm2/common/linked-card.conf
+-rw-r--r-- root       root               28 ./usr/share/alsa/ucm2/common/linked.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/common/pcm
+-rw-r--r-- root       root             8561 ./usr/share/alsa/ucm2/common/pcm/split.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/acp
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/acp3xalc5682m98
+lrwxrwxrwx root       root               46 ./usr/share/alsa/ucm2/conf.d/acp3xalc5682m98/acp3xalc5682m98.conf -> ../../AMD/acp3xalc5682m98/acp3xalc5682m98.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/acp3x-es83xx
+lrwxrwxrwx root       root               40 ./usr/share/alsa/ucm2/conf.d/acp3x-es83xx/acp3x-es83xx.conf -> ../../AMD/acp3x-es83xx/acp3x-es83xx.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/acp5x
+lrwxrwxrwx root       root               26 ./usr/share/alsa/ucm2/conf.d/acp5x/Valve-Jupiter-1.conf -> ../../AMD/acp5x/acp5x.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/acp62
+lrwxrwxrwx root       root               29 ./usr/share/alsa/ucm2/conf.d/acp62/acp62.conf -> ../../common/linked-card.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/acp63
+lrwxrwxrwx root       root               29 ./usr/share/alsa/ucm2/conf.d/acp63/acp63.conf -> ../../common/linked-card.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/acp6x
+lrwxrwxrwx root       root               29 ./usr/share/alsa/ucm2/conf.d/acp6x/acp6x.conf -> ../../common/linked-card.conf
+lrwxrwxrwx root       root               29 ./usr/share/alsa/ucm2/conf.d/acp/acp.conf -> ../../common/linked-card.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/acpd7219m98357
+lrwxrwxrwx root       root               44 ./usr/share/alsa/ucm2/conf.d/acpd7219m98357/acpd7219m98357.conf -> ../../AMD/acpd7219m98357/acpd7219m98357.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/bdw-rt5677
+lrwxrwxrwx root       root               38 ./usr/share/alsa/ucm2/conf.d/bdw-rt5677/bdw-rt5677.conf -> ../../Intel/bdw-rt5677/bdw-rt5677.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/broadwell-rt286
+lrwxrwxrwx root       root               48 ./usr/share/alsa/ucm2/conf.d/broadwell-rt286/broadwell-rt286.conf -> ../../Intel/broadwell-rt286/broadwell-rt286.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/broxton-rt298
+lrwxrwxrwx root       root               44 ./usr/share/alsa/ucm2/conf.d/broxton-rt298/broxton-rt298.conf -> ../../Intel/broxton-rt298/broxton-rt298.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/bytcht-cx2072x
+lrwxrwxrwx root       root               46 ./usr/share/alsa/ucm2/conf.d/bytcht-cx2072x/bytcht-cx2072x.conf -> ../../Intel/bytcht-cx2072x/bytcht-cx2072x.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/bytcht-es8316
+lrwxrwxrwx root       root               44 ./usr/share/alsa/ucm2/conf.d/bytcht-es8316/bytcht-es8316.conf -> ../../Intel/bytcht-es8316/bytcht-es8316.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/bytcr-rt5640
+lrwxrwxrwx root       root               42 ./usr/share/alsa/ucm2/conf.d/bytcr-rt5640/bytcr-rt5640.conf -> ../../Intel/bytcr-rt5640/bytcr-rt5640.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/bytcr-rt5651
+lrwxrwxrwx root       root               42 ./usr/share/alsa/ucm2/conf.d/bytcr-rt5651/bytcr-rt5651.conf -> ../../Intel/bytcr-rt5651/bytcr-rt5651.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/bytcr-wm5102
+lrwxrwxrwx root       root               42 ./usr/share/alsa/ucm2/conf.d/bytcr-wm5102/bytcr-wm5102.conf -> ../../Intel/bytcr-wm5102/bytcr-wm5102.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/cht-bsw-rt5672
+lrwxrwxrwx root       root               46 ./usr/share/alsa/ucm2/conf.d/cht-bsw-rt5672/cht-bsw-rt5672.conf -> ../../Intel/cht-bsw-rt5672/cht-bsw-rt5672.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/chtmax98090
+lrwxrwxrwx root       root               40 ./usr/share/alsa/ucm2/conf.d/chtmax98090/chtmax98090.conf -> ../../Intel/chtmax98090/chtmax98090.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/chtnau8824
+lrwxrwxrwx root       root               38 ./usr/share/alsa/ucm2/conf.d/chtnau8824/chtnau8824.conf -> ../../Intel/chtnau8824/chtnau8824.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/chtrt5645
+lrwxrwxrwx root       root               36 ./usr/share/alsa/ucm2/conf.d/chtrt5645/chtrt5645.conf -> ../../Intel/chtrt5645/chtrt5645.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/chtrt5650
+lrwxrwxrwx root       root               36 ./usr/share/alsa/ucm2/conf.d/chtrt5650/chtrt5650.conf -> ../../Intel/chtrt5650/chtrt5650.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/DB410c
+lrwxrwxrwx root       root               43 ./usr/share/alsa/ucm2/conf.d/DB410c/DB410c.conf -> ../../Qualcomm/apq8016-sbc/apq8016-sbc.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/DB820c
+lrwxrwxrwx root       root               35 ./usr/share/alsa/ucm2/conf.d/DB820c/DB820c.conf -> ../../Qualcomm/apq8096/apq8096.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/gx-sound-card
+lrwxrwxrwx root       root               28 ./usr/share/alsa/ucm2/conf.d/gx-sound-card/GXL-P241.conf -> ../../Amlogic/p241/p241.conf
+lrwxrwxrwx root       root               28 ./usr/share/alsa/ucm2/conf.d/gx-sound-card/LIBRETECH-CC.conf -> ../../Amlogic/p241/p241.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/hda-dsp
+lrwxrwxrwx root       root               32 ./usr/share/alsa/ucm2/conf.d/hda-dsp/hda-dsp.conf -> ../../Intel/hda-dsp/hda-dsp.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/HDA-Intel
+lrwxrwxrwx root       root               18 ./usr/share/alsa/ucm2/conf.d/HDA-Intel/HDA-Intel.conf -> ../../HDA/HDA.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/kblrt5660
+lrwxrwxrwx root       root               36 ./usr/share/alsa/ucm2/conf.d/kblrt5660/kblrt5660.conf -> ../../Intel/kblrt5660/kblrt5660.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/mt8192_mt6359
+lrwxrwxrwx root       root               77 ./usr/share/alsa/ucm2/conf.d/mt8192_mt6359/mt8192_mt6359_rt1015p_rt5682.conf -> ../../MediaTek/mt8192/mt6359-rt1015p-rt5682/mt8192_mt6359_rt1015p_rt5682.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/mt8195_demo
+lrwxrwxrwx root       root               43 ./usr/share/alsa/ucm2/conf.d/mt8195_demo/mt8195_demo.conf -> ../../MediaTek/mt8195_demo/mt8195_demo.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/mt8365-evk
+lrwxrwxrwx root       root               41 ./usr/share/alsa/ucm2/conf.d/mt8365-evk/mt8365-evk.conf -> ../../MediaTek/mt8365-evk/mt8365-evk.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/mt8370-evk
+lrwxrwxrwx root       root               41 ./usr/share/alsa/ucm2/conf.d/mt8370-evk/mt8370-evk.conf -> ../../MediaTek/mt8370-evk/mt8370-evk.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/mt8390-evk
+lrwxrwxrwx root       root               41 ./usr/share/alsa/ucm2/conf.d/mt8390-evk/mt8390-evk.conf -> ../../MediaTek/mt8390-evk/mt8390-evk.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/mt8395-evk
+lrwxrwxrwx root       root               41 ./usr/share/alsa/ucm2/conf.d/mt8395-evk/mt8395-evk.conf -> ../../MediaTek/mt8395-evk/mt8395-evk.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/mtk-rt5650
+lrwxrwxrwx root       root               41 ./usr/share/alsa/ucm2/conf.d/mtk-rt5650/mtk-rt5650.conf -> ../../MediaTek/mtk-rt5650/mtk-rt5650.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/rk3399-gru-soun
+lrwxrwxrwx root       root               53 ./usr/share/alsa/ucm2/conf.d/rk3399-gru-soun/rk3399-gru-soun.conf -> ../../Rockchip/rk3399-gru-sound/rk3399-gru-sound.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/rk3588-es8316
+lrwxrwxrwx root       root               47 ./usr/share/alsa/ucm2/conf.d/rk3588-es8316/rk3588-es8316.conf -> ../../Rockchip/rk3588-es8316/rk3588-es8316.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/rockchip_es8316
+lrwxrwxrwx root       root               33 ./usr/share/alsa/ucm2/conf.d/rockchip_es8316/rockchip_es8316.conf -> ../../Rockchip/es8316/es8316.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/SC7180
+lrwxrwxrwx root       root               72 ./usr/share/alsa/ucm2/conf.d/SC7180/sc7180-rt5682-max98357a-1mic.conf -> ../../Qualcomm/sc7180/rt5682-max98357a/sc7180-rt5682-max98357a-1mic.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/sc8280xp
+lrwxrwxrwx root       root               37 ./usr/share/alsa/ucm2/conf.d/sc8280xp/sc8280xp.conf -> ../../Qualcomm/sc8280xp/sc8280xp.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/sdm845
+lrwxrwxrwx root       root               33 ./usr/share/alsa/ucm2/conf.d/sdm845/DB845c.conf -> ../../Qualcomm/sdm845/sdm845.conf
+lrwxrwxrwx root       root               49 ./usr/share/alsa/ucm2/conf.d/sdm845/LENOVO-81JL-LenovoYOGAC630_13Q50-LNVNB161216.conf -> ../../Qualcomm/sdm845/Lenovo-YOGA-C630-13Q50.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/simple-card
+lrwxrwxrwx root       root               37 ./usr/share/alsa/ucm2/conf.d/simple-card/Librem 5.conf -> ../../NXP/iMX8/Librem_5/Librem 5.conf
+lrwxrwxrwx root       root               51 ./usr/share/alsa/ucm2/conf.d/simple-card/Librem 5 Devkit.conf -> ../../NXP/iMX8/Librem_5_Devkit/Librem 5 Devkit.conf
+lrwxrwxrwx root       root               44 ./usr/share/alsa/ucm2/conf.d/simple-card/PinePhone.conf -> ../../Allwinner/A64/PinePhone/PinePhone.conf
+lrwxrwxrwx root       root               43 ./usr/share/alsa/ucm2/conf.d/simple-card/rk817_ext.conf -> ../../Rockchip/rk817-sound/rk817-sound.conf
+lrwxrwxrwx root       root               43 ./usr/share/alsa/ucm2/conf.d/simple-card/rk817_int.conf -> ../../Rockchip/rk817-sound/rk817-sound.conf
+lrwxrwxrwx root       root               33 ./usr/share/alsa/ucm2/conf.d/simple-card/rockchip,es8316-codec.conf -> ../../Rockchip/es8316/es8316.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/skylake-rt286
+lrwxrwxrwx root       root               44 ./usr/share/alsa/ucm2/conf.d/skylake-rt286/skylake-rt286.conf -> ../../Intel/skylake-rt286/skylake-rt286.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/sm8250
+lrwxrwxrwx root       root               62 ./usr/share/alsa/ucm2/conf.d/sm8250/Qualcomm-RB5-WSA8815-Speakers-DMIC0.conf -> ../../Qualcomm/sm8250/Qualcomm-RB5-WSA8815-Speakers-DMIC0.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/sm8650
+lrwxrwxrwx root       root               41 ./usr/share/alsa/ucm2/conf.d/sm8650/SM8650-MTP.conf -> ../../Qualcomm/sm8650/MTP/SM8650-MTP.conf
+lrwxrwxrwx root       root               41 ./usr/share/alsa/ucm2/conf.d/sm8650/SM8650-QRD.conf -> ../../Qualcomm/sm8650/QRD/SM8650-QRD.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/SOF
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/sof-ehl-rt5660
+lrwxrwxrwx root       root               46 ./usr/share/alsa/ucm2/conf.d/sof-ehl-rt5660/sof-ehl-rt5660.conf -> ../../Intel/sof-ehl-rt5660/sof-ehl-rt5660.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/sof-essx8336
+lrwxrwxrwx root       root               42 ./usr/share/alsa/ucm2/conf.d/sof-essx8336/sof-essx8336.conf -> ../../Intel/sof-essx8336/sof-essx8336.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/sof-glkda7219ma
+lrwxrwxrwx root       root               50 ./usr/share/alsa/ucm2/conf.d/sof-glkda7219ma/sof-glkda7219ma.conf -> ../../Intel/sof-glkda7219max/sof-glkda7219max.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/sof-hda-dsp
+lrwxrwxrwx root       root               40 ./usr/share/alsa/ucm2/conf.d/sof-hda-dsp/sof-hda-dsp.conf -> ../../Intel/sof-hda-dsp/sof-hda-dsp.conf
+lrwxrwxrwx root       root               40 ./usr/share/alsa/ucm2/conf.d/sof-hda-dsp/sof-skl_hda_card.conf -> ../../Intel/sof-hda-dsp/sof-hda-dsp.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/sof-mt8195_r101
+lrwxrwxrwx root       root               83 ./usr/share/alsa/ucm2/conf.d/sof-mt8195_r101/sof-mt8195_r1019_5682.conf -> ../../MediaTek/mt8195-sof/mt6359-rt1019-rt5682/sof-mt8195-mt6359-rt1019-rt5682.conf
+lrwxrwxrwx root       root               11 ./usr/share/alsa/ucm2/conf.d/sof-skl_hda_card -> sof-hda-dsp
+lrwxrwxrwx root       root               24 ./usr/share/alsa/ucm2/conf.d/SOF/SOF.conf -> ../../Intel/SOF/SOF.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/sof-soundwire
+lrwxrwxrwx root       root               38 ./usr/share/alsa/ucm2/conf.d/sof-soundwire/sof-soundwire.conf -> ../../sof-soundwire/sof-soundwire.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/tegra
+lrwxrwxrwx root       root               33 ./usr/share/alsa/ucm2/conf.d/tegra/Acer Iconia Tab A500 WM8903.conf -> ../../Tegra/wm8903/Acer-A500.conf
+lrwxrwxrwx root       root               40 ./usr/share/alsa/ucm2/conf.d/tegra/Asus EeePad Slider WM8903.conf -> ../../Tegra/wm8903/Asus-Transformer.conf
+lrwxrwxrwx root       root               40 ./usr/share/alsa/ucm2/conf.d/tegra/Asus EeePad Transformer WM8903.conf -> ../../Tegra/wm8903/Asus-Transformer.conf
+lrwxrwxrwx root       root               38 ./usr/share/alsa/ucm2/conf.d/tegra/ASUS Google Nexus 7 ALC5642.conf -> ../../Tegra/rt5640/Google-Nexus-7.conf
+lrwxrwxrwx root       root               40 ./usr/share/alsa/ucm2/conf.d/tegra/Asus Transformer Infinity TF700T RT5631.conf -> ../../Tegra/rt5631/Asus-Transformer.conf
+lrwxrwxrwx root       root               40 ./usr/share/alsa/ucm2/conf.d/tegra/Asus Transformer Pad TF300TG RT5631.conf -> ../../Tegra/rt5631/Asus-Transformer.conf
+lrwxrwxrwx root       root               40 ./usr/share/alsa/ucm2/conf.d/tegra/Asus Transformer Pad TF300TL RT5631.conf -> ../../Tegra/rt5631/Asus-Transformer.conf
+lrwxrwxrwx root       root               40 ./usr/share/alsa/ucm2/conf.d/tegra/Asus Transformer Pad TF300T WM8903.conf -> ../../Tegra/wm8903/Asus-Transformer.conf
+lrwxrwxrwx root       root               40 ./usr/share/alsa/ucm2/conf.d/tegra/Asus Transformer Prime TF201 RT5631.conf -> ../../Tegra/rt5631/Asus-Transformer.conf
+lrwxrwxrwx root       root               32 ./usr/share/alsa/ucm2/conf.d/tegra/Compal PAZ00.conf -> ../../Tegra/alc5632/alc5632.conf
+lrwxrwxrwx root       root               34 ./usr/share/alsa/ucm2/conf.d/tegra/GoogleNyanBig.conf -> ../../Tegra/max98090/max98090.conf
+lrwxrwxrwx root       root               34 ./usr/share/alsa/ucm2/conf.d/tegra/GoogleNyanBlaze.conf -> ../../Tegra/max98090/max98090.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/tegra-hda
+lrwxrwxrwx root       root               36 ./usr/share/alsa/ucm2/conf.d/tegra-hda/tegra-hda.conf -> ../../Tegra/tegra-hda/tegra-hda.conf
+lrwxrwxrwx root       root               32 ./usr/share/alsa/ucm2/conf.d/tegra/LG Optimus 4X HD MAX98089.conf -> ../../Tegra/max98089/lge-x3.conf
+lrwxrwxrwx root       root               32 ./usr/share/alsa/ucm2/conf.d/tegra/LG Optimus Vu MAX98089.conf -> ../../Tegra/max98089/lge-x3.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/USB-Audio
+lrwxrwxrwx root       root               30 ./usr/share/alsa/ucm2/conf.d/USB-Audio/USB-Audio.conf -> ../../USB-Audio/USB-Audio.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/VEYRON-I2S
+lrwxrwxrwx root       root               37 ./usr/share/alsa/ucm2/conf.d/VEYRON-I2S/VEYRON-I2S.conf -> ../../Rockchip/max98090/max98090.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.d/x1e80100
+lrwxrwxrwx root       root               41 ./usr/share/alsa/ucm2/conf.d/x1e80100/X1E80100-CRD.conf -> ../../Qualcomm/x1e80100/X1E80100-CRD.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/conf.virt.d
+-rw-r--r-- root       root                0 ./usr/share/alsa/ucm2/conf.virt.d/.gitignore
+-rw-r--r-- root       root             4645 ./usr/share/alsa/ucm2/DEBUG.md
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/HDA
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/HDA/DualCodecs
+-rw-r--r-- root       root              389 ./usr/share/alsa/ucm2/HDA/DualCodecs/DualCodecs.conf
+-rw-r--r-- root       root             2794 ./usr/share/alsa/ucm2/HDA/DualCodecs/HiFi.conf
+-rw-r--r-- root       root              115 ./usr/share/alsa/ucm2/HDA/HDA-Capture-value.conf
+-rw-r--r-- root       root             1360 ./usr/share/alsa/ucm2/HDA/HDA.conf
+-rw-r--r-- root       root              730 ./usr/share/alsa/ucm2/HDA/Hdmi.conf
+-rw-r--r-- root       root              203 ./usr/share/alsa/ucm2/HDA/HiFi-acp.conf
+-rw-r--r-- root       root             5990 ./usr/share/alsa/ucm2/HDA/HiFi-analog.conf
+-rw-r--r-- root       root              537 ./usr/share/alsa/ucm2/HDA/HiFi.conf
+-rw-r--r-- root       root              916 ./usr/share/alsa/ucm2/HDA/init.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/bdw-rt5677
+-rw-r--r-- root       root              182 ./usr/share/alsa/ucm2/Intel/bdw-rt5677/bdw-rt5677.conf
+-rw-r--r-- root       root             4598 ./usr/share/alsa/ucm2/Intel/bdw-rt5677/HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/broadwell-rt286
+-rw-r--r-- root       root              112 ./usr/share/alsa/ucm2/Intel/broadwell-rt286/broadwell-rt286.conf
+-rw-r--r-- root       root             1689 ./usr/share/alsa/ucm2/Intel/broadwell-rt286/HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/broxton-rt298
+-rw-r--r-- root       root             1319 ./usr/share/alsa/ucm2/Intel/broxton-rt298/broxton-rt298.conf
+-rw-r--r-- root       root              782 ./usr/share/alsa/ucm2/Intel/broxton-rt298/Hdmi.conf
+-rw-r--r-- root       root             2099 ./usr/share/alsa/ucm2/Intel/broxton-rt298/HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/bytcht-cx2072x
+-rw-r--r-- root       root              111 ./usr/share/alsa/ucm2/Intel/bytcht-cx2072x/bytcht-cx2072x.conf
+-rw-r--r-- root       root              589 ./usr/share/alsa/ucm2/Intel/bytcht-cx2072x/HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/bytcht-es8316
+-rw-r--r-- root       root              110 ./usr/share/alsa/ucm2/Intel/bytcht-es8316/bytcht-es8316.conf
+-rw-r--r-- root       root              793 ./usr/share/alsa/ucm2/Intel/bytcht-es8316/HiFi-Components.conf
+-rw-r--r-- root       root              557 ./usr/share/alsa/ucm2/Intel/bytcht-es8316/HiFi.conf
+-rw-r--r-- root       root              781 ./usr/share/alsa/ucm2/Intel/bytcht-es8316/HiFi-LongName.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/bytcr-rt5640
+-rw-r--r-- root       root              477 ./usr/share/alsa/ucm2/Intel/bytcr-rt5640/bytcr-rt5640.conf
+-rw-r--r-- root       root             1122 ./usr/share/alsa/ucm2/Intel/bytcr-rt5640/HiFi-Components.conf
+-rw-r--r-- root       root             3973 ./usr/share/alsa/ucm2/Intel/bytcr-rt5640/HiFi.conf
+-rw-r--r-- root       root              665 ./usr/share/alsa/ucm2/Intel/bytcr-rt5640/HiFi-LongName.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/bytcr-rt5651
+-rw-r--r-- root       root              325 ./usr/share/alsa/ucm2/Intel/bytcr-rt5651/bytcr-rt5651.conf
+-rw-r--r-- root       root             1419 ./usr/share/alsa/ucm2/Intel/bytcr-rt5651/HiFi-Components.conf
+-rw-r--r-- root       root              645 ./usr/share/alsa/ucm2/Intel/bytcr-rt5651/HiFi.conf
+-rw-r--r-- root       root             1316 ./usr/share/alsa/ucm2/Intel/bytcr-rt5651/HiFi-LongName.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/bytcr-wm5102
+-rw-r--r-- root       root              109 ./usr/share/alsa/ucm2/Intel/bytcr-wm5102/bytcr-wm5102.conf
+-rw-r--r-- root       root             1098 ./usr/share/alsa/ucm2/Intel/bytcr-wm5102/HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/cht-bsw-rt5672
+-rw-r--r-- root       root              408 ./usr/share/alsa/ucm2/Intel/cht-bsw-rt5672/cht-bsw-rt5672.conf
+-rw-r--r-- root       root             2939 ./usr/share/alsa/ucm2/Intel/cht-bsw-rt5672/HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/chtmax98090
+-rw-r--r-- root       root              107 ./usr/share/alsa/ucm2/Intel/chtmax98090/chtmax98090.conf
+-rw-r--r-- root       root              746 ./usr/share/alsa/ucm2/Intel/chtmax98090/HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/chtnau8824
+-rw-r--r-- root       root              127 ./usr/share/alsa/ucm2/Intel/chtnau8824/chtnau8824.conf
+-rw-r--r-- root       root             1898 ./usr/share/alsa/ucm2/Intel/chtnau8824/HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/chtrt5645
+-rw-r--r-- root       root              265 ./usr/share/alsa/ucm2/Intel/chtrt5645/chtrt5645.conf
+-rw-r--r-- root       root             3979 ./usr/share/alsa/ucm2/Intel/chtrt5645/HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/chtrt5650
+-rw-r--r-- root       root              122 ./usr/share/alsa/ucm2/Intel/chtrt5650/chtrt5650.conf
+-rw-r--r-- root       root             2312 ./usr/share/alsa/ucm2/Intel/chtrt5650/HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/hda-dsp
+-rw-r--r-- root       root              385 ./usr/share/alsa/ucm2/Intel/hda-dsp/hda-dsp.conf
+-rw-r--r-- root       root              454 ./usr/share/alsa/ucm2/Intel/hda-dsp/Hdmi1.conf
+-rw-r--r-- root       root              453 ./usr/share/alsa/ucm2/Intel/hda-dsp/Hdmi2.conf
+-rw-r--r-- root       root             1707 ./usr/share/alsa/ucm2/Intel/hda-dsp/HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/kblrt5660
+-rw-r--r-- root       root              453 ./usr/share/alsa/ucm2/Intel/kblrt5660/Hdmi1.conf
+-rw-r--r-- root       root              453 ./usr/share/alsa/ucm2/Intel/kblrt5660/Hdmi2.conf
+-rw-r--r-- root       root             2072 ./usr/share/alsa/ucm2/Intel/kblrt5660/HiFi.conf
+-rw-r--r-- root       root              383 ./usr/share/alsa/ucm2/Intel/kblrt5660/kblrt5660.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/skylake-rt286
+-rw-r--r-- root       root              489 ./usr/share/alsa/ucm2/Intel/skylake-rt286/Hdmi1.conf
+-rw-r--r-- root       root              525 ./usr/share/alsa/ucm2/Intel/skylake-rt286/Hdmi2.conf
+-rw-r--r-- root       root             2272 ./usr/share/alsa/ucm2/Intel/skylake-rt286/HiFi.conf
+-rw-r--r-- root       root             1439 ./usr/share/alsa/ucm2/Intel/skylake-rt286/skylake-rt286.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/SOF
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/sof-ehl-rt5660
+-rw-r--r-- root       root             1466 ./usr/share/alsa/ucm2/Intel/sof-ehl-rt5660/Hdmi.conf
+-rw-r--r-- root       root             1107 ./usr/share/alsa/ucm2/Intel/sof-ehl-rt5660/HiFi.conf
+-rw-r--r-- root       root              496 ./usr/share/alsa/ucm2/Intel/sof-ehl-rt5660/sof-ehl-rt5660.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/sof-essx8336
+-rw-r--r-- root       root              413 ./usr/share/alsa/ucm2/Intel/sof-essx8336/Hdmi.conf
+-rw-r--r-- root       root             2618 ./usr/share/alsa/ucm2/Intel/sof-essx8336/HiFi.conf
+-rw-r--r-- root       root             1163 ./usr/share/alsa/ucm2/Intel/sof-essx8336/sof-essx8336.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/sof-glkda7219max
+-rw-r--r-- root       root              419 ./usr/share/alsa/ucm2/Intel/sof-glkda7219max/Hdmi.conf
+-rw-r--r-- root       root             1562 ./usr/share/alsa/ucm2/Intel/sof-glkda7219max/HiFi.conf
+-rw-r--r-- root       root              176 ./usr/share/alsa/ucm2/Intel/sof-glkda7219max/sof-glkda7219max.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Intel/sof-hda-dsp
+-rw-r--r-- root       root              414 ./usr/share/alsa/ucm2/Intel/sof-hda-dsp/Hdmi.conf
+-rw-r--r-- root       root             1059 ./usr/share/alsa/ucm2/Intel/sof-hda-dsp/HiFi.conf
+-rw-r--r-- root       root             2165 ./usr/share/alsa/ucm2/Intel/sof-hda-dsp/sof-hda-dsp.conf
+-rw-r--r-- root       root             2048 ./usr/share/alsa/ucm2/Intel/SOF/HiFi.conf
+-rw-r--r-- root       root              191 ./usr/share/alsa/ucm2/Intel/SOF/SOF.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/lib
+-rw-r--r-- root       root              216 ./usr/share/alsa/ucm2/lib/card-init.conf
+-rw-r--r-- root       root              334 ./usr/share/alsa/ucm2/lib/ctl-remap.conf
+-rw-r--r-- root       root              452 ./usr/share/alsa/ucm2/lib/generic.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/MediaTek
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/MediaTek/mt8192
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/MediaTek/mt8192/mt6359-rt1015p-rt5682
+-rw-r--r-- root       root             1476 ./usr/share/alsa/ucm2/MediaTek/mt8192/mt6359-rt1015p-rt5682/HiFi.conf
+-rw-r--r-- root       root              577 ./usr/share/alsa/ucm2/MediaTek/mt8192/mt6359-rt1015p-rt5682/init.conf
+-rw-r--r-- root       root              246 ./usr/share/alsa/ucm2/MediaTek/mt8192/mt6359-rt1015p-rt5682/mt8192_mt6359_rt1015p_rt5682.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/MediaTek/mt8195_demo
+-rw-r--r-- root       root             2715 ./usr/share/alsa/ucm2/MediaTek/mt8195_demo/HiFi.conf
+-rw-r--r-- root       root             1462 ./usr/share/alsa/ucm2/MediaTek/mt8195_demo/mt8195_demo.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/MediaTek/mt8195-sof
+-rw-r--r-- root       root              485 ./usr/share/alsa/ucm2/MediaTek/mt8195-sof/init.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/MediaTek/mt8195-sof/mt6359-rt1019-rt5682
+-rw-r--r-- root       root             1734 ./usr/share/alsa/ucm2/MediaTek/mt8195-sof/mt6359-rt1019-rt5682/HiFi.conf
+-rw-r--r-- root       root              700 ./usr/share/alsa/ucm2/MediaTek/mt8195-sof/mt6359-rt1019-rt5682/init.conf
+-rw-r--r-- root       root              392 ./usr/share/alsa/ucm2/MediaTek/mt8195-sof/mt6359-rt1019-rt5682/sof-mt8195-mt6359-rt1019-rt5682.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/MediaTek/mt8365-evk
+-rw-r--r-- root       root             2441 ./usr/share/alsa/ucm2/MediaTek/mt8365-evk/HiFi.conf
+-rw-r--r-- root       root              875 ./usr/share/alsa/ucm2/MediaTek/mt8365-evk/mt8365-evk.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/MediaTek/mt8370-evk
+-rw-r--r-- root       root             2234 ./usr/share/alsa/ucm2/MediaTek/mt8370-evk/HiFi.conf
+-rw-r--r-- root       root             1448 ./usr/share/alsa/ucm2/MediaTek/mt8370-evk/mt8370-evk.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/MediaTek/mt8390-evk
+-rw-r--r-- root       root             2234 ./usr/share/alsa/ucm2/MediaTek/mt8390-evk/HiFi.conf
+-rw-r--r-- root       root             1448 ./usr/share/alsa/ucm2/MediaTek/mt8390-evk/mt8390-evk.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/MediaTek/mt8395-evk
+-rw-r--r-- root       root             2311 ./usr/share/alsa/ucm2/MediaTek/mt8395-evk/HiFi.conf
+-rw-r--r-- root       root             1442 ./usr/share/alsa/ucm2/MediaTek/mt8395-evk/mt8395-evk.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/MediaTek/mtk-rt5650
+-rw-r--r-- root       root              151 ./usr/share/alsa/ucm2/MediaTek/mtk-rt5650/HDMI.conf
+-rw-r--r-- root       root             1584 ./usr/share/alsa/ucm2/MediaTek/mtk-rt5650/HiFi.conf
+-rw-r--r-- root       root              437 ./usr/share/alsa/ucm2/MediaTek/mtk-rt5650/init.conf
+-rw-r--r-- root       root              332 ./usr/share/alsa/ucm2/MediaTek/mtk-rt5650/mtk-rt5650.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/module
+lrwxrwxrwx root       root               40 ./usr/share/alsa/ucm2/module/snd_soc_apq8016_sbc.conf -> ../Qualcomm/apq8016-sbc/apq8016-sbc.conf
+lrwxrwxrwx root       root               32 ./usr/share/alsa/ucm2/module/snd_soc_apq8096.conf -> ../Qualcomm/apq8096/apq8096.conf
+lrwxrwxrwx root       root               36 ./usr/share/alsa/ucm2/module/snd_soc_omap_abe_twl6040.conf -> ../OMAP/abe-twl6040/abe-twl6040.conf
+lrwxrwxrwx root       root               50 ./usr/share/alsa/ucm2/module/snd_soc_rk3399_gru_sound.conf -> ../Rockchip/rk3399-gru-sound/rk3399-gru-sound.conf
+lrwxrwxrwx root       root               34 ./usr/share/alsa/ucm2/module/snd_soc_rockchip_max98090.conf -> ../Rockchip/max98090/max98090.conf
+lrwxrwxrwx root       root               30 ./usr/share/alsa/ucm2/module/snd_soc_sdm845.conf -> ../Qualcomm/sdm845/sdm845.conf
+lrwxrwxrwx root       root               25 ./usr/share/alsa/ucm2/module/snd_soc_snow.conf -> ../Samsung/snow/snow.conf
+lrwxrwxrwx root       root               29 ./usr/share/alsa/ucm2/module/snd_soc_tegra_alc5632.conf -> ../Tegra/alc5632/alc5632.conf
+lrwxrwxrwx root       root               31 ./usr/share/alsa/ucm2/module/snd_soc_tegra_max98090.conf -> ../Tegra/max98090/max98090.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/NXP
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/NXP/iMX8
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/NXP/iMX8/Librem_5
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/NXP/iMX8/Librem_5_Devkit
+-rw-r--r-- root       root             1677 ./usr/share/alsa/ucm2/NXP/iMX8/Librem_5_Devkit/HiFi.conf
+-rw-r--r-- root       root               54 ./usr/share/alsa/ucm2/NXP/iMX8/Librem_5_Devkit/Librem 5 Devkit.conf
+-rw-r--r-- root       root             2825 ./usr/share/alsa/ucm2/NXP/iMX8/Librem_5/HiFi.conf
+-rw-r--r-- root       root              700 ./usr/share/alsa/ucm2/NXP/iMX8/Librem_5/Librem 5.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/OMAP
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/OMAP/abe-twl6040
+-rw-r--r-- root       root              285 ./usr/share/alsa/ucm2/OMAP/abe-twl6040/abe-twl6040.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard
+-rw-r--r-- root       root              883 ./usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/FMAnalog.conf
+-rw-r--r-- root       root             1356 ./usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/HiFi.conf
+-rw-r--r-- root       root             1003 ./usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/HiFiLP.conf
+-rw-r--r-- root       root             1027 ./usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/Pandaboard.conf
+-rw-r--r-- root       root              980 ./usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/Record.conf
+-rw-r--r-- root       root             1739 ./usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/VoiceCall.conf
+-rw-r--r-- root       root              993 ./usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/Voice.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430
+-rw-r--r-- root       root              817 ./usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/FMAnalog.conf
+-rw-r--r-- root       root             1392 ./usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/HiFi.conf
+-rw-r--r-- root       root              969 ./usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/HiFiLP.conf
+-rw-r--r-- root       root              899 ./usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/Record.conf
+-rw-r--r-- root       root              996 ./usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/SDP4430.conf
+-rw-r--r-- root       root             1705 ./usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/VoiceCall.conf
+-rw-r--r-- root       root              959 ./usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/Voice.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/platforms
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/platforms/bytcr
+-rw-r--r-- root       root              725 ./usr/share/alsa/ucm2/platforms/bytcr/PlatformDisableSeq.conf
+-rw-r--r-- root       root             4690 ./usr/share/alsa/ucm2/platforms/bytcr/PlatformEnableSeq.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Qualcomm
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Qualcomm/apq8016-sbc
+-rw-r--r-- root       root              200 ./usr/share/alsa/ucm2/Qualcomm/apq8016-sbc/apq8016-sbc.conf
+-rw-r--r-- root       root              297 ./usr/share/alsa/ucm2/Qualcomm/apq8016-sbc/HDMI.conf
+-rw-r--r-- root       root             2731 ./usr/share/alsa/ucm2/Qualcomm/apq8016-sbc/HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Qualcomm/apq8096
+-rw-r--r-- root       root              188 ./usr/share/alsa/ucm2/Qualcomm/apq8096/apq8096.conf
+-rw-r--r-- root       root              530 ./usr/share/alsa/ucm2/Qualcomm/apq8096/HDMI.conf
+-rw-r--r-- root       root             2659 ./usr/share/alsa/ucm2/Qualcomm/apq8096/HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Qualcomm/sc7180
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Qualcomm/sc7180/rt5682-max98357a
+-rw-r--r-- root       root             2194 ./usr/share/alsa/ucm2/Qualcomm/sc7180/rt5682-max98357a/HiFi.conf
+-rw-r--r-- root       root              759 ./usr/share/alsa/ucm2/Qualcomm/sc7180/rt5682-max98357a/init.conf
+-rw-r--r-- root       root              325 ./usr/share/alsa/ucm2/Qualcomm/sc7180/rt5682-max98357a/sc7180-rt5682-max98357a-1mic.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Qualcomm/sc8280xp
+-rw-r--r-- root       root             2320 ./usr/share/alsa/ucm2/Qualcomm/sc8280xp/HiFi.conf
+-rw-r--r-- root       root              602 ./usr/share/alsa/ucm2/Qualcomm/sc8280xp/LENOVO-X13s.conf
+-rw-r--r-- root       root              391 ./usr/share/alsa/ucm2/Qualcomm/sc8280xp/sc8280xp.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Qualcomm/sdm845
+-rw-r--r-- root       root              445 ./usr/share/alsa/ucm2/Qualcomm/sdm845/HDMI.conf
+-rw-r--r-- root       root              914 ./usr/share/alsa/ucm2/Qualcomm/sdm845/HiFi.conf
+-rw-r--r-- root       root             1827 ./usr/share/alsa/ucm2/Qualcomm/sdm845/HiFi-MM1.conf
+-rw-r--r-- root       root              249 ./usr/share/alsa/ucm2/Qualcomm/sdm845/Lenovo-YOGA-C630-13Q50.conf
+-rw-r--r-- root       root              188 ./usr/share/alsa/ucm2/Qualcomm/sdm845/sdm845.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Qualcomm/sm8250
+-rw-r--r-- root       root              442 ./usr/share/alsa/ucm2/Qualcomm/sm8250/HDMI.conf
+-rw-r--r-- root       root             1134 ./usr/share/alsa/ucm2/Qualcomm/sm8250/HiFi.conf
+-rw-r--r-- root       root              188 ./usr/share/alsa/ucm2/Qualcomm/sm8250/Qualcomm-RB5-WSA8815-Speakers-DMIC0.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Qualcomm/sm8650
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Qualcomm/sm8650/MTP
+-rw-r--r-- root       root              600 ./usr/share/alsa/ucm2/Qualcomm/sm8650/MTP/HiFi.conf
+-rw-r--r-- root       root              327 ./usr/share/alsa/ucm2/Qualcomm/sm8650/MTP/SM8650-MTP.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Qualcomm/sm8650/QRD
+-rw-r--r-- root       root             2758 ./usr/share/alsa/ucm2/Qualcomm/sm8650/QRD/HiFi.conf
+-rw-r--r-- root       root              443 ./usr/share/alsa/ucm2/Qualcomm/sm8650/QRD/SM8650-QRD.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Qualcomm/x1e80100
+-rw-r--r-- root       root             1737 ./usr/share/alsa/ucm2/Qualcomm/x1e80100/HiFi.conf
+-rw-r--r-- root       root              557 ./usr/share/alsa/ucm2/Qualcomm/x1e80100/X1E80100-CRD.conf
+-rw-r--r-- root       root             1814 ./usr/share/alsa/ucm2/README.md
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Rockchip
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Rockchip/es8316
+-rw-r--r-- root       root              741 ./usr/share/alsa/ucm2/Rockchip/es8316/es8316.conf
+-rw-r--r-- root       root             1339 ./usr/share/alsa/ucm2/Rockchip/es8316/HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Rockchip/max98090
+-rw-r--r-- root       root             2887 ./usr/share/alsa/ucm2/Rockchip/max98090/HiFi.conf
+-rw-r--r-- root       root              124 ./usr/share/alsa/ucm2/Rockchip/max98090/max98090.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Rockchip/rk3399-gru-sound
+-rw-r--r-- root       root             2270 ./usr/share/alsa/ucm2/Rockchip/rk3399-gru-sound/HiFi.conf
+-rw-r--r-- root       root              129 ./usr/share/alsa/ucm2/Rockchip/rk3399-gru-sound/rk3399-gru-sound.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Rockchip/rk3588-es8316
+-rw-r--r-- root       root              850 ./usr/share/alsa/ucm2/Rockchip/rk3588-es8316/HiFi.conf
+-rw-r--r-- root       root              690 ./usr/share/alsa/ucm2/Rockchip/rk3588-es8316/rk3588-es8316.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Rockchip/rk817-sound
+-rw-r--r-- root       root             1108 ./usr/share/alsa/ucm2/Rockchip/rk817-sound/HiFi.conf
+-rw-r--r-- root       root              111 ./usr/share/alsa/ucm2/Rockchip/rk817-sound/rk817-sound.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Samsung
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Samsung/snow
+-rw-r--r-- root       root             1592 ./usr/share/alsa/ucm2/Samsung/snow/HiFi.conf
+-rw-r--r-- root       root              112 ./usr/share/alsa/ucm2/Samsung/snow/snow.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/sof-soundwire
+-rw-r--r-- root       root              928 ./usr/share/alsa/ucm2/sof-soundwire/cs35l56.conf
+-rw-r--r-- root       root             1027 ./usr/share/alsa/ucm2/sof-soundwire/cs42l43.conf
+-rw-r--r-- root       root              502 ./usr/share/alsa/ucm2/sof-soundwire/cs42l43-dmic.conf
+-rw-r--r-- root       root              472 ./usr/share/alsa/ucm2/sof-soundwire/dmic.conf
+-rw-r--r-- root       root              416 ./usr/share/alsa/ucm2/sof-soundwire/Hdmi.conf
+-rw-r--r-- root       root              574 ./usr/share/alsa/ucm2/sof-soundwire/HiFi.conf
+-rw-r--r-- root       root              994 ./usr/share/alsa/ucm2/sof-soundwire/rt1308.conf
+-rw-r--r-- root       root             1387 ./usr/share/alsa/ucm2/sof-soundwire/rt1316.conf
+-rw-r--r-- root       root              930 ./usr/share/alsa/ucm2/sof-soundwire/rt1318.conf
+-rw-r--r-- root       root             1199 ./usr/share/alsa/ucm2/sof-soundwire/rt5682.conf
+-rw-r--r-- root       root              929 ./usr/share/alsa/ucm2/sof-soundwire/rt700.conf
+-rw-r--r-- root       root              717 ./usr/share/alsa/ucm2/sof-soundwire/rt711.conf
+-rw-r--r-- root       root              741 ./usr/share/alsa/ucm2/sof-soundwire/rt711-sdca.conf
+-rw-r--r-- root       root              449 ./usr/share/alsa/ucm2/sof-soundwire/rt713-dmic.conf
+-rw-r--r-- root       root              741 ./usr/share/alsa/ucm2/sof-soundwire/rt713-sdca.conf
+-rw-r--r-- root       root              648 ./usr/share/alsa/ucm2/sof-soundwire/rt715.conf
+-rw-r--r-- root       root              477 ./usr/share/alsa/ucm2/sof-soundwire/rt715-sdca.conf
+-rw-r--r-- root       root             1950 ./usr/share/alsa/ucm2/sof-soundwire/sof-soundwire.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Tegra
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Tegra/alc5632
+-rw-r--r-- root       root             1199 ./usr/share/alsa/ucm2/Tegra/alc5632/alc5632.conf
+-rw-r--r-- root       root              928 ./usr/share/alsa/ucm2/Tegra/alc5632/HiFi.conf
+-rw-r--r-- root       root             1502 ./usr/share/alsa/ucm2/Tegra/alc5632/Record.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Tegra/max98089
+-rw-r--r-- root       root             1204 ./usr/share/alsa/ucm2/Tegra/max98089/lge-x3.conf
+-rw-r--r-- root       root             3117 ./usr/share/alsa/ucm2/Tegra/max98089/lge-x3-HiFi.conf
+-rw-r--r-- root       root             3057 ./usr/share/alsa/ucm2/Tegra/max98089/lge-x3-VoiceCall.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Tegra/max98090
+-rw-r--r-- root       root             1538 ./usr/share/alsa/ucm2/Tegra/max98090/HiFi.conf
+-rw-r--r-- root       root             1485 ./usr/share/alsa/ucm2/Tegra/max98090/max98090.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Tegra/rt5631
+-rw-r--r-- root       root             1835 ./usr/share/alsa/ucm2/Tegra/rt5631/Asus-Transformer.conf
+-rw-r--r-- root       root             1529 ./usr/share/alsa/ucm2/Tegra/rt5631/Asus-Transformer-HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Tegra/rt5640
+-rw-r--r-- root       root              175 ./usr/share/alsa/ucm2/Tegra/rt5640/Google-Nexus-7.conf
+-rw-r--r-- root       root              398 ./usr/share/alsa/ucm2/Tegra/rt5640/Google-Nexus-7-HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Tegra/tegra-hda
+-rw-r--r-- root       root              153 ./usr/share/alsa/ucm2/Tegra/tegra-hda/tegra-hda.conf
+-rw-r--r-- root       root              151 ./usr/share/alsa/ucm2/Tegra/tegra-hda/tegra-hda-HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/Tegra/wm8903
+-rw-r--r-- root       root              164 ./usr/share/alsa/ucm2/Tegra/wm8903/Acer-A500.conf
+-rw-r--r-- root       root             2404 ./usr/share/alsa/ucm2/Tegra/wm8903/Acer-A500-HiFi.conf
+-rw-r--r-- root       root              895 ./usr/share/alsa/ucm2/Tegra/wm8903/Asus-Transformer.conf
+-rw-r--r-- root       root             1692 ./usr/share/alsa/ucm2/Tegra/wm8903/Asus-Transformer-HiFi.conf
+-rw-r--r-- root       root             3599 ./usr/share/alsa/ucm2/ucm.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/AllenAndHeath
+-rw-r--r-- root       root              319 ./usr/share/alsa/ucm2/USB-Audio/AllenAndHeath/Zedi10.conf
+-rw-r--r-- root       root             2650 ./usr/share/alsa/ucm2/USB-Audio/AllenAndHeath/Zedi10-Hifi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/Arturia
+-rw-r--r-- root       root              243 ./usr/share/alsa/ucm2/USB-Audio/Arturia/Minifuse-12.conf
+-rw-r--r-- root       root             2839 ./usr/share/alsa/ucm2/USB-Audio/Arturia/Minifuse-12-HiFi.conf
+-rw-r--r-- root       root              240 ./usr/share/alsa/ucm2/USB-Audio/Arturia/Minifuse-4.conf
+-rw-r--r-- root       root             2803 ./usr/share/alsa/ucm2/USB-Audio/Arturia/Minifuse-4-HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/Audient
+-rw-r--r-- root       root              249 ./usr/share/alsa/ucm2/USB-Audio/Audient/Audient-iD4-0003.conf
+-rw-r--r-- root       root              249 ./usr/share/alsa/ucm2/USB-Audio/Audient/Audient-iD4-0009.conf
+-rw-r--r-- root       root              767 ./usr/share/alsa/ucm2/USB-Audio/Audient/Audient-iD4-HiFi-0003.conf
+-rw-r--r-- root       root             1447 ./usr/share/alsa/ucm2/USB-Audio/Audient/Audient-iD4-HiFi-0009.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/Behringer
+-rw-r--r-- root       root              330 ./usr/share/alsa/ucm2/USB-Audio/Behringer/Flow8-Recording.conf
+-rw-r--r-- root       root             4110 ./usr/share/alsa/ucm2/USB-Audio/Behringer/Flow8-Recording-Hifi.conf
+-rw-r--r-- root       root              328 ./usr/share/alsa/ucm2/USB-Audio/Behringer/Flow8-Streaming.conf
+-rw-r--r-- root       root             1155 ./usr/share/alsa/ucm2/USB-Audio/Behringer/Flow8-Streaming-Hifi.conf
+-rw-r--r-- root       root              227 ./usr/share/alsa/ucm2/USB-Audio/Behringer/UMC202HD.conf
+-rw-r--r-- root       root             1357 ./usr/share/alsa/ucm2/USB-Audio/Behringer/UMC202HD-HiFi.conf
+-rw-r--r-- root       root              227 ./usr/share/alsa/ucm2/USB-Audio/Behringer/UMC204HD.conf
+-rw-r--r-- root       root             2300 ./usr/share/alsa/ucm2/USB-Audio/Behringer/UMC204HD-HiFi.conf
+-rw-r--r-- root       root              227 ./usr/share/alsa/ucm2/USB-Audio/Behringer/UMC404HD.conf
+-rw-r--r-- root       root             3096 ./usr/share/alsa/ucm2/USB-Audio/Behringer/UMC404HD-HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/Common
+-rw-r--r-- root       root              119 ./usr/share/alsa/ucm2/USB-Audio/Common/HeadphonesOnly.conf
+-rw-r--r-- root       root              122 ./usr/share/alsa/ucm2/USB-Audio/Common/HeadphonesOnly-HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/Dell
+-rw-r--r-- root       root              185 ./usr/share/alsa/ucm2/USB-Audio/Dell/Desktop-Front.conf
+-rw-r--r-- root       root              564 ./usr/share/alsa/ucm2/USB-Audio/Dell/Desktop-Front-Speaker-Headset.conf
+-rw-r--r-- root       root              150 ./usr/share/alsa/ucm2/USB-Audio/Dell/Desktop-Rear.conf
+-rw-r--r-- root       root              171 ./usr/share/alsa/ucm2/USB-Audio/Dell/Desktop-Rear-Line.conf
+-rw-r--r-- root       root              147 ./usr/share/alsa/ucm2/USB-Audio/Dell/WD15-Dock.conf
+-rw-r--r-- root       root             1163 ./usr/share/alsa/ucm2/USB-Audio/Dell/WD15-Dock-HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/Digidesign
+-rw-r--r-- root       root              243 ./usr/share/alsa/ucm2/USB-Audio/Digidesign/Digidesign-Mbox-3.conf
+-rw-r--r-- root       root             1832 ./usr/share/alsa/ucm2/USB-Audio/Digidesign/Digidesign-Mbox-3-HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/Focusrite
+-rw-r--r-- root       root             1139 ./usr/share/alsa/ucm2/USB-Audio/Focusrite/Scarlett-2i.conf
+-rw-r--r-- root       root             1842 ./usr/share/alsa/ucm2/USB-Audio/Focusrite/Scarlett-2i-HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/Gigabyte
+-rw-r--r-- root       root              162 ./usr/share/alsa/ucm2/USB-Audio/Gigabyte/Aorus-Master-Main-Audio.conf
+-rw-r--r-- root       root             1154 ./usr/share/alsa/ucm2/USB-Audio/Gigabyte/Aorus-Master-Main-Audio-HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/GoXLR
+-rw-r--r-- root       root              232 ./usr/share/alsa/ucm2/USB-Audio/GoXLR/GoXLR.conf
+-rw-r--r-- root       root             2982 ./usr/share/alsa/ucm2/USB-Audio/GoXLR/GoXLR-HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/Lenovo
+-rw-r--r-- root       root              163 ./usr/share/alsa/ucm2/USB-Audio/Lenovo/ThinkStation-P620-Main.conf
+-rw-r--r-- root       root              472 ./usr/share/alsa/ucm2/USB-Audio/Lenovo/ThinkStation-P620-Main-HiFi.conf
+-rw-r--r-- root       root              163 ./usr/share/alsa/ucm2/USB-Audio/Lenovo/ThinkStation-P620-Rear.conf
+-rw-r--r-- root       root              481 ./usr/share/alsa/ucm2/USB-Audio/Lenovo/ThinkStation-P620-Rear-HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/MOTU
+-rw-r--r-- root       root              229 ./usr/share/alsa/ucm2/USB-Audio/MOTU/M2.conf
+-rw-r--r-- root       root             1201 ./usr/share/alsa/ucm2/USB-Audio/MOTU/M2-HiFi.conf
+-rw-r--r-- root       root              229 ./usr/share/alsa/ucm2/USB-Audio/MOTU/M4.conf
+-rw-r--r-- root       root             2601 ./usr/share/alsa/ucm2/USB-Audio/MOTU/M4-HiFi.conf
+-rw-r--r-- root       root              229 ./usr/share/alsa/ucm2/USB-Audio/MOTU/M6.conf
+-rw-r--r-- root       root             3425 ./usr/share/alsa/ucm2/USB-Audio/MOTU/M6-HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/NativeInstruments
+-rw-r--r-- root       root              217 ./usr/share/alsa/ucm2/USB-Audio/NativeInstruments/Traktor-Kontrol-Z1.conf
+-rw-r--r-- root       root              750 ./usr/share/alsa/ucm2/USB-Audio/NativeInstruments/Traktor-Kontrol-Z1-Mixer.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/Rane
+-rw-r--r-- root       root              118 ./usr/share/alsa/ucm2/USB-Audio/Rane/SL-1.conf
+-rw-r--r-- root       root              577 ./usr/share/alsa/ucm2/USB-Audio/Rane/SL-1-HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/Realtek
+-rw-r--r-- root       root              164 ./usr/share/alsa/ucm2/USB-Audio/Realtek/ALC1220-VB-Desktop.conf
+-rw-r--r-- root       root             1303 ./usr/share/alsa/ucm2/USB-Audio/Realtek/ALC1220-VB-Desktop-HiFi.conf
+-rw-r--r-- root       root              271 ./usr/share/alsa/ucm2/USB-Audio/Realtek/ALC4080.conf
+-rw-r--r-- root       root             5965 ./usr/share/alsa/ucm2/USB-Audio/Realtek/ALC4080-HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/Roland
+-rw-r--r-- root       root              147 ./usr/share/alsa/ucm2/USB-Audio/Roland/BridgeCast.conf
+-rw-r--r-- root       root             2288 ./usr/share/alsa/ucm2/USB-Audio/Roland/BridgeCast-Hifi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/SolidStateLabs
+-rw-r--r-- root       root              229 ./usr/share/alsa/ucm2/USB-Audio/SolidStateLabs/SSL2.conf
+-rw-r--r-- root       root              769 ./usr/share/alsa/ucm2/USB-Audio/SolidStateLabs/SSL2-HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/Sony
+-rw-r--r-- root       root              136 ./usr/share/alsa/ucm2/USB-Audio/Sony/Inzone-H9-H7.conf
+-rw-r--r-- root       root              228 ./usr/share/alsa/ucm2/USB-Audio/Sony/Inzone-H9-H7-HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/Steinberg
+-rw-r--r-- root       root              228 ./usr/share/alsa/ucm2/USB-Audio/Steinberg/UR24C.conf
+-rw-r--r-- root       root             1465 ./usr/share/alsa/ucm2/USB-Audio/Steinberg/UR24C-HiFi.conf
+-rw-r--r-- root       root              229 ./usr/share/alsa/ucm2/USB-Audio/Steinberg/UR44.conf
+-rw-r--r-- root       root             2451 ./usr/share/alsa/ucm2/USB-Audio/Steinberg/UR44-HiFi.conf
+drwxr-xr-x root       root             4096 ./usr/share/alsa/ucm2/USB-Audio/UniversalAudio
+-rw-r--r-- root       root              233 ./usr/share/alsa/ucm2/USB-Audio/UniversalAudio/Volt2.conf
+-rw-r--r-- root       root              765 ./usr/share/alsa/ucm2/USB-Audio/UniversalAudio/Volt2-HiFi.conf
+-rw-r--r-- root       root             8486 ./usr/share/alsa/ucm2/USB-Audio/USB-Audio.conf
+-rw-r--r-- root       root              198 ./usr/share/alsa/ucm/README.md
 drwxr-xr-x root       root             4096 ./usr/share/ca-certificates
 drwxr-xr-x root       root            12288 ./usr/share/ca-certificates/mozilla
 -rw-r--r-- root       root             2772 ./usr/share/ca-certificates/mozilla/ACCVRAIZ1.crt
@@ -5856,6 +6730,7 @@ drwxr-xr-x root       root             4096 ./usr/share/dbus-1/system.d
 -rw-r--r-- root       root            21419 ./usr/share/dbus-1/system.d/org.freedesktop.systemd1.conf
 -rw-r--r-- root       root              994 ./usr/share/dbus-1/system.d/org.freedesktop.timedate1.conf
 -rw-r--r-- root       root             1818 ./usr/share/dbus-1/system.d/org.freedesktop.timesync1.conf
+-rw-r--r-- root       root             1084 ./usr/share/dbus-1/system.d/pulseaudio-system.conf
 drwxr-xr-x root       root             4096 ./usr/share/dbus-1/system-services
 -rw-r--r-- root       root              113 ./usr/share/dbus-1/system-services/de.pengutronix.rauc.service
 -rw-r--r-- root       root              432 ./usr/share/dbus-1/system-services/org.freedesktop.hostname1.service
@@ -7128,6 +8003,80 @@ drwxr-xr-x root       root             4096 ./usr/share/polkit-1/actions
 -rw-r--r-- root       root             4385 ./usr/share/polkit-1/actions/org.freedesktop.systemd1.policy
 -rw-r--r-- root       root             3104 ./usr/share/polkit-1/actions/org.freedesktop.timedate1.policy
 -rw-r--r-- root       root             1342 ./usr/share/polkit-1/actions/org.freedesktop.timesync1.policy
+drwxr-xr-x root       root             4096 ./usr/share/pulseaudio
+drwxr-xr-x root       root             4096 ./usr/share/pulseaudio/alsa-mixer
+drwxr-xr-x root       root             4096 ./usr/share/pulseaudio/alsa-mixer/paths
+-rw-r--r-- root       root             1415 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-aux.conf
+-rw-r--r-- root       root             2056 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input.conf
+-rw-r--r-- root       root             5769 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input.conf.common
+-rw-r--r-- root       root             2185 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-dock-mic.conf
+-rw-r--r-- root       root             1420 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-fm.conf
+-rw-r--r-- root       root             2196 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-front-mic.conf
+-rw-r--r-- root       root             2298 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-headphone-mic.conf
+-rw-r--r-- root       root             2360 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-headset-mic.conf
+-rw-r--r-- root       root             2797 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic-always.conf
+-rw-r--r-- root       root             3155 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic.conf
+-rw-r--r-- root       root             2609 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-linein.conf
+-rw-r--r-- root       root             2797 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-mic.conf
+-rw-r--r-- root       root             1330 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-mic.conf.common
+-rw-r--r-- root       root             1457 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-mic-line.conf
+-rw-r--r-- root       root             2229 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-rear-mic.conf
+-rw-r--r-- root       root             1425 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-tvtuner.conf
+-rw-r--r-- root       root             1385 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-video.conf
+-rw-r--r-- root       root              309 ./usr/share/pulseaudio/alsa-mixer/paths/analog-output-chat.conf
+-rw-r--r-- root       root             2040 ./usr/share/pulseaudio/alsa-mixer/paths/analog-output.conf
+-rw-r--r-- root       root            11778 ./usr/share/pulseaudio/alsa-mixer/paths/analog-output.conf.common
+-rw-r--r-- root       root             2540 ./usr/share/pulseaudio/alsa-mixer/paths/analog-output-headphones-2.conf
+-rw-r--r-- root       root             3683 ./usr/share/pulseaudio/alsa-mixer/paths/analog-output-headphones.conf
+-rw-r--r-- root       root             4123 ./usr/share/pulseaudio/alsa-mixer/paths/analog-output-lineout.conf
+-rw-r--r-- root       root             2044 ./usr/share/pulseaudio/alsa-mixer/paths/analog-output-mono.conf
+-rw-r--r-- root       root             3887 ./usr/share/pulseaudio/alsa-mixer/paths/analog-output-speaker-always.conf
+-rw-r--r-- root       root             4952 ./usr/share/pulseaudio/alsa-mixer/paths/analog-output-speaker.conf
+-rw-r--r-- root       root              193 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-0.conf
+-rw-r--r-- root       root              196 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-10.conf
+-rw-r--r-- root       root              195 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-1.conf
+-rw-r--r-- root       root              195 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-2.conf
+-rw-r--r-- root       root              195 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-3.conf
+-rw-r--r-- root       root              195 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-4.conf
+-rw-r--r-- root       root              195 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-5.conf
+-rw-r--r-- root       root              195 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-6.conf
+-rw-r--r-- root       root              195 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-7.conf
+-rw-r--r-- root       root              195 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-8.conf
+-rw-r--r-- root       root              196 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-9.conf
+-rw-r--r-- root       root              789 ./usr/share/pulseaudio/alsa-mixer/paths/iec958-stereo-input.conf
+-rw-r--r-- root       root              712 ./usr/share/pulseaudio/alsa-mixer/paths/iec958-stereo-output.conf
+-rw-r--r-- root       root             1072 ./usr/share/pulseaudio/alsa-mixer/paths/steelseries-arctis-output-chat-common.conf
+-rw-r--r-- root       root             1064 ./usr/share/pulseaudio/alsa-mixer/paths/steelseries-arctis-output-game-common.conf
+-rw-r--r-- root       root             1273 ./usr/share/pulseaudio/alsa-mixer/paths/usb-gaming-headset-input.conf
+-rw-r--r-- root       root             1262 ./usr/share/pulseaudio/alsa-mixer/paths/usb-gaming-headset-output-mono.conf
+-rw-r--r-- root       root             1259 ./usr/share/pulseaudio/alsa-mixer/paths/usb-gaming-headset-output-stereo.conf
+-rw-r--r-- root       root              102 ./usr/share/pulseaudio/alsa-mixer/paths/virtual-surround-7.1.conf
+drwxr-xr-x root       root             4096 ./usr/share/pulseaudio/alsa-mixer/profile-sets
+-rw-r--r-- root       root             2778 ./usr/share/pulseaudio/alsa-mixer/profile-sets/asus-xonar-se.conf
+-rw-r--r-- root       root             3909 ./usr/share/pulseaudio/alsa-mixer/profile-sets/audigy.conf
+-rw-r--r-- root       root             2867 ./usr/share/pulseaudio/alsa-mixer/profile-sets/cmedia-high-speed-true-hdaudio.conf
+-rw-r--r-- root       root            22299 ./usr/share/pulseaudio/alsa-mixer/profile-sets/default.conf
+-rw-r--r-- root       root             1579 ./usr/share/pulseaudio/alsa-mixer/profile-sets/dell-dock-tb16-usb-audio.conf
+-rw-r--r-- root       root             5491 ./usr/share/pulseaudio/alsa-mixer/profile-sets/force-speaker-and-int-mic.conf
+-rw-r--r-- root       root             5456 ./usr/share/pulseaudio/alsa-mixer/profile-sets/force-speaker.conf
+-rw-r--r-- root       root             1315 ./usr/share/pulseaudio/alsa-mixer/profile-sets/hp-tbt-dock-120w-g2.conf
+-rw-r--r-- root       root             1395 ./usr/share/pulseaudio/alsa-mixer/profile-sets/hp-tbt-dock-audio-module.conf
+-rw-r--r-- root       root             1284 ./usr/share/pulseaudio/alsa-mixer/profile-sets/kinect-audio.conf
+-rw-r--r-- root       root             2714 ./usr/share/pulseaudio/alsa-mixer/profile-sets/maudio-fasttrack-pro.conf
+-rw-r--r-- root       root             2769 ./usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-audio4dj.conf
+-rw-r--r-- root       root             4999 ./usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-audio8dj.conf
+-rw-r--r-- root       root             3380 ./usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-komplete-audio6.conf
+-rw-r--r-- root       root             2713 ./usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-korecontroller.conf
+-rw-r--r-- root       root             3778 ./usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio10.conf
+-rw-r--r-- root       root             1583 ./usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio2.conf
+-rw-r--r-- root       root             2741 ./usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio6.conf
+-rw-r--r-- root       root             2419 ./usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktorkontrol-s4.conf
+-rw-r--r-- root       root             3536 ./usr/share/pulseaudio/alsa-mixer/profile-sets/sb-omni-surround-5.1.conf
+-rw-r--r-- root       root             1958 ./usr/share/pulseaudio/alsa-mixer/profile-sets/sennheiser-gsx.conf
+-rw-r--r-- root       root             2121 ./usr/share/pulseaudio/alsa-mixer/profile-sets/simple-headphones-mic.conf
+-rw-r--r-- root       root              606 ./usr/share/pulseaudio/alsa-mixer/profile-sets/steelseries-arctis-common-usb-audio.conf
+-rw-r--r-- root       root             2427 ./usr/share/pulseaudio/alsa-mixer/profile-sets/texas-instruments-pcm2902.conf
+-rw-r--r-- root       root             2095 ./usr/share/pulseaudio/alsa-mixer/profile-sets/usb-gaming-headset.conf
 drwxr-xr-x root       root             4096 ./usr/share/systemd
 -rw-r--r-- root       root             3809 ./usr/share/systemd/kbd-model-map
 -rw-r--r-- root       root              218 ./usr/share/systemd/language-fallback-map
@@ -7145,7 +8094,13 @@ drwxr-xr-x root       root             4096 ./var/lib
 drwxr-xr-x messagebus messagebus       4096 ./var/lib/dbus
 drwxr-xr-x root       root             4096 ./var/lib/misc
 drwxr-xr-x root       root             4096 ./var/lib/opkg
-drwxr-xr-x root       root            90112 ./var/lib/opkg/info
+drwxr-xr-x root       root           102400 ./var/lib/opkg/info
+-rw-r--r-- root       root              553 ./var/lib/opkg/info/alsa-conf.control
+-rw-r--r-- root       root             3427 ./var/lib/opkg/info/alsa-conf.list
+-rw-r--r-- root       root              634 ./var/lib/opkg/info/alsa-plugins-pulseaudio-conf.control
+-rw-r--r-- root       root              457 ./var/lib/opkg/info/alsa-plugins-pulseaudio-conf.list
+-rw-r--r-- root       root              480 ./var/lib/opkg/info/alsa-ucm-conf.control
+-rw-r--r-- root       root            45376 ./var/lib/opkg/info/alsa-ucm-conf.list
 -rw-r--r-- root       root               90 ./var/lib/opkg/info/base-files.conffiles
 -rw-r--r-- root       root              409 ./var/lib/opkg/info/base-files.control
 -rw-r--r-- root       root              997 ./var/lib/opkg/info/base-files.list
@@ -8207,6 +9162,15 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 -rw-r--r-- root       root              570 ./var/lib/opkg/info/libarchive.control
 -rw-r--r-- root       root              187 ./var/lib/opkg/info/libarchive.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libarchive.postinst
+-rw-r--r-- root       root              616 ./var/lib/opkg/info/libasound2.control
+-rw-r--r-- root       root               87 ./var/lib/opkg/info/libasound2.list
+-rwxr-xr-x root       root               97 ./var/lib/opkg/info/libasound2.postinst
+-rw-r--r-- root       root              466 ./var/lib/opkg/info/libasound-module-conf-pulse.control
+-rw-r--r-- root       root              110 ./var/lib/opkg/info/libasound-module-conf-pulse.list
+-rw-r--r-- root       root              463 ./var/lib/opkg/info/libasound-module-ctl-pulse.control
+-rw-r--r-- root       root              109 ./var/lib/opkg/info/libasound-module-ctl-pulse.list
+-rw-r--r-- root       root              463 ./var/lib/opkg/info/libasound-module-pcm-pulse.control
+-rw-r--r-- root       root              109 ./var/lib/opkg/info/libasound-module-pcm-pulse.list
 -rw-r--r-- root       root              500 ./var/lib/opkg/info/libattr1.control
 -rw-r--r-- root       root              151 ./var/lib/opkg/info/libattr1.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libattr1.postinst
@@ -8271,6 +9235,9 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 -rw-r--r-- root       root              817 ./var/lib/opkg/info/libglib-2.0-0.list
 -rwxr-xr-x root       root              445 ./var/lib/opkg/info/libglib-2.0-0.postinst
 -rwxr-xr-x root       root              365 ./var/lib/opkg/info/libglib-2.0-0.postrm
+-rw-r--r-- root       root              657 ./var/lib/opkg/info/libice6.control
+-rw-r--r-- root       root              106 ./var/lib/opkg/info/libice6.list
+-rwxr-xr-x root       root               97 ./var/lib/opkg/info/libice6.postinst
 -rw-r--r-- root       root              590 ./var/lib/opkg/info/libidn2-0.control
 -rw-r--r-- root       root              109 ./var/lib/opkg/info/libidn2-0.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libidn2-0.postinst
@@ -8280,6 +9247,9 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 -rw-r--r-- root       root              612 ./var/lib/opkg/info/libkmod2.control
 -rw-r--r-- root       root              109 ./var/lib/opkg/info/libkmod2.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libkmod2.postinst
+-rw-r--r-- root       root              579 ./var/lib/opkg/info/libltdl7.control
+-rw-r--r-- root       root              109 ./var/lib/opkg/info/libltdl7.list
+-rwxr-xr-x root       root               97 ./var/lib/opkg/info/libltdl7.postinst
 -rw-r--r-- root       root              576 ./var/lib/opkg/info/liblzma5.control
 -rw-r--r-- root       root              109 ./var/lib/opkg/info/liblzma5.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/liblzma5.postinst
@@ -8337,6 +9307,8 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libpulse0.postinst
 -rw-r--r-- root       root              648 ./var/lib/opkg/info/libpulsecommon.control
 -rw-r--r-- root       root              106 ./var/lib/opkg/info/libpulsecommon.list
+-rw-r--r-- root       root              744 ./var/lib/opkg/info/libpulsecore.control
+-rw-r--r-- root       root              104 ./var/lib/opkg/info/libpulsecore.list
 -rw-r--r-- root       root              630 ./var/lib/opkg/info/libpulse-simple0.control
 -rw-r--r-- root       root              133 ./var/lib/opkg/info/libpulse-simple0.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libpulse-simple0.postinst
@@ -8346,6 +9318,9 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 -rw-r--r-- root       root              517 ./var/lib/opkg/info/libseccomp.control
 -rw-r--r-- root       root              169 ./var/lib/opkg/info/libseccomp.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libseccomp.postinst
+-rw-r--r-- root       root              660 ./var/lib/opkg/info/libsm6.control
+-rw-r--r-- root       root              103 ./var/lib/opkg/info/libsm6.list
+-rwxr-xr-x root       root               97 ./var/lib/opkg/info/libsm6.postinst
 -rw-r--r-- root       root              425 ./var/lib/opkg/info/libsmartcols1.control
 -rw-r--r-- root       root              124 ./var/lib/opkg/info/libsmartcols1.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libsmartcols1.postinst
@@ -8355,6 +9330,9 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 -rw-r--r-- root       root              525 ./var/lib/opkg/info/libsolv1.control
 -rw-r--r-- root       root               58 ./var/lib/opkg/info/libsolv1.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libsolv1.postinst
+-rw-r--r-- root       root              451 ./var/lib/opkg/info/libspeexdsp1.control
+-rw-r--r-- root       root              121 ./var/lib/opkg/info/libspeexdsp1.list
+-rwxr-xr-x root       root               97 ./var/lib/opkg/info/libspeexdsp1.postinst
 -rw-r--r-- root       root              664 ./var/lib/opkg/info/libsqlite3-0.control
 -rw-r--r-- root       root              118 ./var/lib/opkg/info/libsqlite3-0.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libsqlite3-0.postinst
@@ -8380,6 +9358,9 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libubootenv0.postinst
 -rw-r--r-- root       root              624 ./var/lib/opkg/info/libubootenv-bin.control
 -rw-r--r-- root       root               96 ./var/lib/opkg/info/libubootenv-bin.list
+-rw-r--r-- root       root              439 ./var/lib/opkg/info/libudev1.control
+-rw-r--r-- root       root              109 ./var/lib/opkg/info/libudev1.list
+-rwxr-xr-x root       root               97 ./var/lib/opkg/info/libudev1.postinst
 -rw-r--r-- root       root             1100 ./var/lib/opkg/info/libunistring5.control
 -rw-r--r-- root       root              124 ./var/lib/opkg/info/libunistring5.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libunistring5.postinst
@@ -8392,6 +9373,9 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 -rw-r--r-- root       root              585 ./var/lib/opkg/info/libx11-6.control
 -rw-r--r-- root       root              210 ./var/lib/opkg/info/libx11-6.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libx11-6.postinst
+-rw-r--r-- root       root              532 ./var/lib/opkg/info/libx11-xcb1.control
+-rw-r--r-- root       root              118 ./var/lib/opkg/info/libx11-xcb1.list
+-rwxr-xr-x root       root               97 ./var/lib/opkg/info/libx11-xcb1.postinst
 -rw-r--r-- root       root              503 ./var/lib/opkg/info/libxau6.control
 -rw-r--r-- root       root              106 ./var/lib/opkg/info/libxau6.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libxau6.postinst
@@ -8401,9 +9385,18 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 -rw-r--r-- root       root              656 ./var/lib/opkg/info/libxdmcp6.control
 -rw-r--r-- root       root              112 ./var/lib/opkg/info/libxdmcp6.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libxdmcp6.postinst
+-rw-r--r-- root       root              781 ./var/lib/opkg/info/libxext6.control
+-rw-r--r-- root       root              109 ./var/lib/opkg/info/libxext6.list
+-rwxr-xr-x root       root               97 ./var/lib/opkg/info/libxext6.postinst
+-rw-r--r-- root       root              633 ./var/lib/opkg/info/libxi6.control
+-rw-r--r-- root       root              103 ./var/lib/opkg/info/libxi6.list
+-rwxr-xr-x root       root               97 ./var/lib/opkg/info/libxi6.postinst
 -rw-r--r-- root       root              782 ./var/lib/opkg/info/libxml2.control
 -rw-r--r-- root       root              111 ./var/lib/opkg/info/libxml2.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libxml2.postinst
+-rw-r--r-- root       root              544 ./var/lib/opkg/info/libxtst6.control
+-rw-r--r-- root       root              109 ./var/lib/opkg/info/libxtst6.list
+-rwxr-xr-x root       root               97 ./var/lib/opkg/info/libxtst6.postinst
 -rw-r--r-- root       root              500 ./var/lib/opkg/info/libyaml-0-2.control
 -rw-r--r-- root       root              115 ./var/lib/opkg/info/libyaml-0-2.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libyaml-0-2.postinst
@@ -8473,6 +9466,69 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 -rw-r--r-- root       root               91 ./var/lib/opkg/info/pam-plugin-unix.list
 -rw-r--r-- root       root              453 ./var/lib/opkg/info/pam-plugin-warn.control
 -rw-r--r-- root       root               91 ./var/lib/opkg/info/pam-plugin-warn.list
+-rw-r--r-- root       root              510 ./var/lib/opkg/info/pulseaudio.control
+-rw-r--r-- root       root              575 ./var/lib/opkg/info/pulseaudio-lib-alsa-util.control
+-rw-r--r-- root       root              142 ./var/lib/opkg/info/pulseaudio-lib-alsa-util.list
+-rw-r--r-- root       root              522 ./var/lib/opkg/info/pulseaudio-lib-protocol-native.control
+-rw-r--r-- root       root              148 ./var/lib/opkg/info/pulseaudio-lib-protocol-native.list
+-rw-r--r-- root       root                0 ./var/lib/opkg/info/pulseaudio.list
+-rw-r--r-- root       root              565 ./var/lib/opkg/info/pulseaudio-module-alsa-card.control
+-rw-r--r-- root       root             5702 ./var/lib/opkg/info/pulseaudio-module-alsa-card.list
+-rw-r--r-- root       root              520 ./var/lib/opkg/info/pulseaudio-module-alsa-sink.control
+-rw-r--r-- root       root              146 ./var/lib/opkg/info/pulseaudio-module-alsa-sink.list
+-rw-r--r-- root       root              526 ./var/lib/opkg/info/pulseaudio-module-alsa-source.control
+-rw-r--r-- root       root              148 ./var/lib/opkg/info/pulseaudio-module-alsa-source.list
+-rw-r--r-- root       root              511 ./var/lib/opkg/info/pulseaudio-module-always-sink.control
+-rw-r--r-- root       root              148 ./var/lib/opkg/info/pulseaudio-module-always-sink.list
+-rw-r--r-- root       root              532 ./var/lib/opkg/info/pulseaudio-module-augment-properties.control
+-rw-r--r-- root       root              155 ./var/lib/opkg/info/pulseaudio-module-augment-properties.list
+-rw-r--r-- root       root              514 ./var/lib/opkg/info/pulseaudio-module-card-restore.control
+-rw-r--r-- root       root              149 ./var/lib/opkg/info/pulseaudio-module-card-restore.list
+-rw-r--r-- root       root              544 ./var/lib/opkg/info/pulseaudio-module-default-device-restore.control
+-rw-r--r-- root       root              159 ./var/lib/opkg/info/pulseaudio-module-default-device-restore.list
+-rw-r--r-- root       root              475 ./var/lib/opkg/info/pulseaudio-module-detect.control
+-rw-r--r-- root       root              143 ./var/lib/opkg/info/pulseaudio-module-detect.list
+-rw-r--r-- root       root              562 ./var/lib/opkg/info/pulseaudio-module-device-manager.control
+-rw-r--r-- root       root              151 ./var/lib/opkg/info/pulseaudio-module-device-manager.list
+-rw-r--r-- root       root              562 ./var/lib/opkg/info/pulseaudio-module-device-restore.control
+-rw-r--r-- root       root              151 ./var/lib/opkg/info/pulseaudio-module-device-restore.list
+-rw-r--r-- root       root              514 ./var/lib/opkg/info/pulseaudio-module-filter-apply.control
+-rw-r--r-- root       root              149 ./var/lib/opkg/info/pulseaudio-module-filter-apply.list
+-rw-r--r-- root       root              529 ./var/lib/opkg/info/pulseaudio-module-filter-heuristics.control
+-rw-r--r-- root       root              154 ./var/lib/opkg/info/pulseaudio-module-filter-heuristics.list
+-rw-r--r-- root       root              520 ./var/lib/opkg/info/pulseaudio-module-intended-roles.control
+-rw-r--r-- root       root              151 ./var/lib/opkg/info/pulseaudio-module-intended-roles.list
+-rw-r--r-- root       root              580 ./var/lib/opkg/info/pulseaudio-module-native-protocol-unix.control
+-rw-r--r-- root       root              157 ./var/lib/opkg/info/pulseaudio-module-native-protocol-unix.list
+-rw-r--r-- root       root              505 ./var/lib/opkg/info/pulseaudio-module-null-sink.control
+-rw-r--r-- root       root              146 ./var/lib/opkg/info/pulseaudio-module-null-sink.list
+-rw-r--r-- root       root              541 ./var/lib/opkg/info/pulseaudio-module-position-event-sounds.control
+-rw-r--r-- root       root              158 ./var/lib/opkg/info/pulseaudio-module-position-event-sounds.list
+-rw-r--r-- root       root              499 ./var/lib/opkg/info/pulseaudio-module-rescue-streams.control
+-rw-r--r-- root       root              151 ./var/lib/opkg/info/pulseaudio-module-rescue-streams.list
+-rw-r--r-- root       root              505 ./var/lib/opkg/info/pulseaudio-module-role-cork.control
+-rw-r--r-- root       root              146 ./var/lib/opkg/info/pulseaudio-module-role-cork.list
+-rw-r--r-- root       root              588 ./var/lib/opkg/info/pulseaudio-module-stream-restore.control
+-rw-r--r-- root       root              151 ./var/lib/opkg/info/pulseaudio-module-stream-restore.list
+-rw-r--r-- root       root              523 ./var/lib/opkg/info/pulseaudio-module-suspend-on-idle.control
+-rw-r--r-- root       root              152 ./var/lib/opkg/info/pulseaudio-module-suspend-on-idle.list
+-rw-r--r-- root       root              550 ./var/lib/opkg/info/pulseaudio-module-switch-on-port-available.control
+-rw-r--r-- root       root              161 ./var/lib/opkg/info/pulseaudio-module-switch-on-port-available.list
+-rw-r--r-- root       root              541 ./var/lib/opkg/info/pulseaudio-module-systemd-login.control
+-rw-r--r-- root       root              150 ./var/lib/opkg/info/pulseaudio-module-systemd-login.list
+-rw-r--r-- root       root              532 ./var/lib/opkg/info/pulseaudio-module-udev-detect.control
+-rw-r--r-- root       root              148 ./var/lib/opkg/info/pulseaudio-module-udev-detect.list
+-rw-r--r-- root       root              568 ./var/lib/opkg/info/pulseaudio-module-x11-cork-request.control
+-rw-r--r-- root       root              153 ./var/lib/opkg/info/pulseaudio-module-x11-cork-request.list
+-rw-r--r-- root       root              572 ./var/lib/opkg/info/pulseaudio-module-x11-publish.control
+-rw-r--r-- root       root              148 ./var/lib/opkg/info/pulseaudio-module-x11-publish.list
+-rw-r--r-- root       root              541 ./var/lib/opkg/info/pulseaudio-module-x11-xsmp.control
+-rw-r--r-- root       root              145 ./var/lib/opkg/info/pulseaudio-module-x11-xsmp.list
+-rw-r--r-- root       root               66 ./var/lib/opkg/info/pulseaudio-server.conffiles
+-rw-r--r-- root       root             1717 ./var/lib/opkg/info/pulseaudio-server.control
+-rw-r--r-- root       root              958 ./var/lib/opkg/info/pulseaudio-server.list
+-rwxr-xr-x root       root              143 ./var/lib/opkg/info/pulseaudio-server.postinst
+-rwxr-xr-x root       root             5362 ./var/lib/opkg/info/pulseaudio-server.preinst
 -rw-r--r-- root       root              454 ./var/lib/opkg/info/python3-2to3.control
 -rw-r--r-- root       root            10497 ./var/lib/opkg/info/python3-2to3.list
 -rw-r--r-- root       root              551 ./var/lib/opkg/info/python3-asyncio.control
@@ -8694,7 +9750,7 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 -rw-r--r-- root       root              631 ./var/lib/opkg/info/volatile-binds.list
 -rwxr-xr-x root       root              680 ./var/lib/opkg/info/volatile-binds.postinst
 -rwxr-xr-x root       root              334 ./var/lib/opkg/info/volatile-binds.prerm
--rw-r--r-- root       root           128316 ./var/lib/opkg/status
+-rw-r--r-- root       root           143323 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/local
 lrwxrwxrwx root       root               11 ./var/lock -> ../run/lock

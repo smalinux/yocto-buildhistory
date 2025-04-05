@@ -343,6 +343,15 @@ kernel-module-sii9234-6.13.1
 kernel-module-simple-bridge-6.13.1
 kernel-modules
 kernel-module-smb347-charger-6.13.1
+kernel-module-snd-6.13.1
+kernel-module-snd-hwdep-6.13.1
+kernel-module-snd-pcm-6.13.1
+kernel-module-snd-rawmidi-6.13.1
+kernel-module-snd-timer-6.13.1
+kernel-module-snd-ump-6.13.1
+kernel-module-snd-usb-audio-6.13.1
+kernel-module-snd-usbmidi-lib-6.13.1
+kernel-module-soundcore-6.13.1
 kernel-module-spi-gpio-6.13.1
 kernel-module-st1232-6.13.1
 kernel-module-st-accel-6.13.1

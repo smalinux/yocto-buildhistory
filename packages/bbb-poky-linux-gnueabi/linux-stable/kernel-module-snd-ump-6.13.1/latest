@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.14
+RPROVIDES = kernel-module-snd-ump
+RDEPENDS = kernel-6.13.1 kernel-module-snd-rawmidi-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 14876
+FILES = /usr/lib/modules/6.13.1/kernel/sound/core/.debug/snd-ump.ko /usr/lib/modules/6.13.1/kernel/sound/core/snd-ump.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/sound/core/snd-ump.ko

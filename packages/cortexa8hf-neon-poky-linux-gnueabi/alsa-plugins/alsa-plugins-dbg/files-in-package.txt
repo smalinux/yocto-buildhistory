@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/alsa-lib
+drwxr-xr-x root       root             4096 ./usr/lib/alsa-lib/.debug
+-rwxr-xr-x root       root            10052 ./usr/lib/alsa-lib/.debug/libasound_module_conf_pulse.so
+-rwxr-xr-x root       root            53772 ./usr/lib/alsa-lib/.debug/libasound_module_ctl_arcam_av.so
+-rwxr-xr-x root       root            23856 ./usr/lib/alsa-lib/.debug/libasound_module_ctl_oss.so
+-rwxr-xr-x root       root            55160 ./usr/lib/alsa-lib/.debug/libasound_module_ctl_pulse.so
+-rwxr-xr-x root       root            28380 ./usr/lib/alsa-lib/.debug/libasound_module_pcm_oss.so
+-rwxr-xr-x root       root            61768 ./usr/lib/alsa-lib/.debug/libasound_module_pcm_pulse.so
+-rwxr-xr-x root       root            24200 ./usr/lib/alsa-lib/.debug/libasound_module_pcm_speex.so
+-rwxr-xr-x root       root            31368 ./usr/lib/alsa-lib/.debug/libasound_module_pcm_upmix.so
+-rwxr-xr-x root       root            32360 ./usr/lib/alsa-lib/.debug/libasound_module_pcm_usb_stream.so
+-rwxr-xr-x root       root            20820 ./usr/lib/alsa-lib/.debug/libasound_module_pcm_vdownmix.so
+-rwxr-xr-x root       root            23688 ./usr/lib/alsa-lib/.debug/libasound_module_rate_samplerate.so
+-rwxr-xr-x root       root            17760 ./usr/lib/alsa-lib/.debug/libasound_module_rate_speexrate.so

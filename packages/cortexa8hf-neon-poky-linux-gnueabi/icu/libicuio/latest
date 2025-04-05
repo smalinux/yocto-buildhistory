@@ -1,0 +1,10 @@
+PV = 74-2
+PR = r0
+PKG = libicuio74
+PKGR = r0.0
+RPROVIDES = libicuio (=74-2)
+RDEPENDS = glibc (>= 2.39+git2+e8f5217097) libgcc (>= 13.3.0) libicudata (>= 74-2) libicui18n (>= 74-2) libicuuc (>= 74-2) libstdc++ (>= 13.3.0)
+RRECOMMENDS = 
+PKGSIZE = 46492
+FILES = /usr/lib/libicuio.so.*
+FILELIST = /usr/lib/libicuio.so.74 /usr/lib/libicuio.so.74.2

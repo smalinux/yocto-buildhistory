@@ -1,0 +1,10 @@
+PE = 1
+PV = 6.0.1
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 51344
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/libxfixes/6.0.1/include/X11/extensions/Xfixes.h /usr/src/debug/libxfixes/6.0.1/src/Cursor.c /usr/src/debug/libxfixes/6.0.1/src/Disconnect.c /usr/src/debug/libxfixes/6.0.1/src/Region.c /usr/src/debug/libxfixes/6.0.1/src/SaveSet.c /usr/src/debug/libxfixes/6.0.1/src/Selection.c /usr/src/debug/libxfixes/6.0.1/src/Xfixes.c /usr/src/debug/libxfixes/6.0.1/src/Xfixesint.h

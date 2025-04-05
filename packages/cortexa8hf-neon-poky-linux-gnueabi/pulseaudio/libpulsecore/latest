@@ -1,0 +1,9 @@
+PV = 17.0
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = dbus-lib (>= 1.14.10) glibc (>= 2.39+git2+e8f5217097) libltdl (>= 2.4.7) libpulsecommon (>= 17.0) libsndfile1 (>= 1.2.2) libsystemd (>= 255.4) libx11 (>= 1.8.9) libx11-xcb (>= 1.8.9) speexdsp (>= 1.2.1)
+RRECOMMENDS = 
+PKGSIZE = 689860
+FILES = /usr/lib/pulseaudio/libpulsecore*.so
+FILELIST = /usr/lib/pulseaudio/libpulsecore-17.0.so

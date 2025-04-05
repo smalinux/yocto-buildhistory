@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root             4096 ./usr/bin/.debug
+-rwxr-xr-x root       root           419984 ./usr/bin/.debug/mpg123
+-rwxr-xr-x root       root            64660 ./usr/bin/.debug/mpg123-id3dump
+-rwxr-xr-x root       root            47004 ./usr/bin/.debug/mpg123-strip
+-rwxr-xr-x root       root           174884 ./usr/bin/.debug/out123
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/.debug
+-rwxr-xr-x root       root           747680 ./usr/lib/.debug/libmpg123.so.0.48.2
+-rwxr-xr-x root       root           205460 ./usr/lib/.debug/libout123.so.0.5.1
+-rwxr-xr-x root       root           508312 ./usr/lib/.debug/libsyn123.so.0.2.3
+drwxr-xr-x root       root             4096 ./usr/lib/mpg123
+drwxr-xr-x root       root             4096 ./usr/lib/mpg123/.debug
+-rwxr-xr-x root       root            13348 ./usr/lib/mpg123/.debug/output_dummy.so
+-rwxr-xr-x root       root            30716 ./usr/lib/mpg123/.debug/output_pulse.so

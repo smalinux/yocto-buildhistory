@@ -1,0 +1,8 @@
+PV = 0.64
+PR = r0
+DEPENDS = autoconf-native automake-native dbus libtool-cross libtool-native pkgconfig-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+PACKAGES = ell-src ell-dbg ell-staticdev ell-dev ell-doc ell-locale ell
+LAYER = core
+LICENSE = LGPL-2.1-only
+CONFIG = 
+SRC_URI = https://mirrors.edge.kernel.org/pub/linux/libs/ell/ell-0.64.tar.xz

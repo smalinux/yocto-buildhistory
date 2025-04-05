@@ -1,0 +1,10 @@
+PV = 0.64
+PR = r0
+PKG = libell-locale
+PKGR = r0.0
+RPROVIDES = ell-locale (=0.64)
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/share/locale
+FILELIST = 

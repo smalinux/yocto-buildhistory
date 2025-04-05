@@ -1,0 +1,9 @@
+PE = 1
+PV = 1.2.4
+PR = r0
+DEPENDS = autoconf-native automake-native libtool-cross libtool-native libxext libxi pkgconfig-native util-macros virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc xorgproto
+PACKAGES = libxtst-src libxtst-dbg libxtst-staticdev libxtst-dev libxtst-doc libxtst-locale libxtst
+LAYER = core
+LICENSE = MIT
+CONFIG = 
+SRC_URI = https://www.x.org/releases//individual/lib/libXtst-1.2.4.tar.xz

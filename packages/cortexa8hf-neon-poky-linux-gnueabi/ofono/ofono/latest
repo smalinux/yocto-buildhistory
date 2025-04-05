@@ -1,0 +1,9 @@
+PV = 2.4
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = dbus dbus-lib (>= 1.14.10) ell (>= 0.64) glib-2.0 (>= 2.78.6) glibc (>= 2.39+git2+e8f5217097) libudev (>= 255.4)
+RRECOMMENDS = kernel-module-tun mobile-broadband-provider-info
+PKGSIZE = 1872864
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /usr/bin/* /usr/sbin/* /usr/lib/*.so.* /lib/udev /usr/lib/udev /usr/lib/udev /usr/lib/udev /usr/share/ofono /usr/lib/ofono/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/systemd /usr/lib/systemd/system-preset/98-ofono.preset /usr/lib/systemd/system/ofono.service
+FILELIST = /etc/dbus-1/system.d/ofono.conf /etc/ofono/phonesim.conf /usr/lib/systemd/system-preset/98-ofono.preset /usr/lib/systemd/system/ofono.service /usr/sbin/ofonod /usr/share/ofono/provision.db

@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxfixes
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxfixes/6.0.1
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxfixes/6.0.1/include
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxfixes/6.0.1/include/X11
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxfixes/6.0.1/include/X11/extensions
+-rw-r--r-- root       root             7750 ./usr/src/debug/libxfixes/6.0.1/include/X11/extensions/Xfixes.h
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxfixes/6.0.1/src
+-rw-r--r-- root       root            10568 ./usr/src/debug/libxfixes/6.0.1/src/Cursor.c
+-rw-r--r-- root       root             3819 ./usr/src/debug/libxfixes/6.0.1/src/Disconnect.c
+-rw-r--r-- root       root            13538 ./usr/src/debug/libxfixes/6.0.1/src/Region.c
+-rw-r--r-- root       root             1827 ./usr/src/debug/libxfixes/6.0.1/src/SaveSet.c
+-rw-r--r-- root       root             1898 ./usr/src/debug/libxfixes/6.0.1/src/Selection.c
+-rw-r--r-- root       root             9438 ./usr/src/debug/libxfixes/6.0.1/src/Xfixes.c
+-rw-r--r-- root       root             2506 ./usr/src/debug/libxfixes/6.0.1/src/Xfixesint.h

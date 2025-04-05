@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/.debug
+-rwxr-xr-x root       root           517160 ./usr/lib/.debug/libical_cxx.so.3.0.17
+-rwxr-xr-x root       root          1189740 ./usr/lib/.debug/libical-glib.so.3.0.17
+-rwxr-xr-x root       root           842556 ./usr/lib/.debug/libical.so.3.0.17
+-rwxr-xr-x root       root            55000 ./usr/lib/.debug/libicalss_cxx.so.3.0.17
+-rwxr-xr-x root       root           231896 ./usr/lib/.debug/libicalss.so.3.0.17
+-rwxr-xr-x root       root           148004 ./usr/lib/.debug/libicalvcal.so.3.0.17
+drwxr-xr-x root       root             4096 ./usr/libexec
+drwxr-xr-x root       root             4096 ./usr/libexec/libical
+drwxr-xr-x root       root             4096 ./usr/libexec/libical/.debug
+-rwxr-xr-x root       root           163888 ./usr/libexec/libical/.debug/ical-glib-src-generator

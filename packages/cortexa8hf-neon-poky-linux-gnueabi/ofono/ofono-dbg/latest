@@ -1,0 +1,9 @@
+PV = 2.4
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = dbus-dbg dbus-lib-dbg ell-dbg glib-2.0-dbg glibc-dbg libudev-dbg
+PKGSIZE = 6430324
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/sbin/.debug/ofonod

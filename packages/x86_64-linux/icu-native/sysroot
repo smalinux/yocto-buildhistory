@@ -216,7 +216,7 @@ drwxr-xr-x -          -                4096 ./usr/lib
 drwxr-xr-x -          -                4096 ./usr/lib/icu
 drwxr-xr-x -          -                4096 ./usr/lib/icu/74.2
 -rw-r--r-- -          -                9972 ./usr/lib/icu/74.2/Makefile.inc
--rw-r--r-- -          -                1332 ./usr/lib/icu/74.2/pkgdata.inc
+-rw-r--r-- -          -                1347 ./usr/lib/icu/74.2/pkgdata.inc
 lrwxrwxrwx -          -                   4 ./usr/lib/icu/current -> 74.2
 lrwxrwxrwx -          -                  20 ./usr/lib/icu/Makefile.inc -> current/Makefile.inc
 lrwxrwxrwx -          -                  19 ./usr/lib/icu/pkgdata.inc -> current/pkgdata.inc

@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.12
+RPROVIDES = kernel-module-dm-cache-smq
+RDEPENDS = kernel-6.13.1 kernel-module-dm-cache-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 25860
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/md/.debug/dm-cache-smq.ko /usr/lib/modules/6.13.1/kernel/drivers/md/dm-cache-smq.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/md/dm-cache-smq.ko

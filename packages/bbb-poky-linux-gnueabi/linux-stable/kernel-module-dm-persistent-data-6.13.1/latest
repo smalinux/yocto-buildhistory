@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.12
+RPROVIDES = kernel-module-dm-persistent-data
+RDEPENDS = kernel-6.13.1 kernel-module-dm-bufio-6.13.1 kernel-module-libcrc32c-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 92576
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/md/persistent-data/.debug/dm-persistent-data.ko /usr/lib/modules/6.13.1/kernel/drivers/md/persistent-data/dm-persistent-data.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/md/persistent-data/dm-persistent-data.ko

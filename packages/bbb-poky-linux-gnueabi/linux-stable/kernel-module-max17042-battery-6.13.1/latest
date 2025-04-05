@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = kernel-module-max17042-battery
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 

@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.12
+RPROVIDES = kernel-module-dm-cache
+RDEPENDS = kernel-6.13.1 kernel-module-dm-bio-prison-6.13.1 kernel-module-dm-mod-6.13.1 kernel-module-dm-persistent-data-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 77948
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/md/.debug/dm-cache.ko /usr/lib/modules/6.13.1/kernel/drivers/md/dm-cache.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/md/dm-cache.ko

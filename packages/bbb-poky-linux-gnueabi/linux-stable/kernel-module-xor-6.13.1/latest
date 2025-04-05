@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.12
+RPROVIDES = kernel-module-xor
+RDEPENDS = kernel-6.13.1 kernel-module-xor-neon-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 10888
+FILES = /usr/lib/modules/6.13.1/kernel/crypto/.debug/xor.ko /usr/lib/modules/6.13.1/kernel/crypto/xor.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/xor.ko

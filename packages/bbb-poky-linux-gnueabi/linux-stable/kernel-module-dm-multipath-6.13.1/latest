@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.12
+RPROVIDES = kernel-module-dm-multipath
+RDEPENDS = kernel-6.13.1 kernel-module-dm-mod-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 35380
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/md/.debug/dm-multipath.ko /usr/lib/modules/6.13.1/kernel/drivers/md/dm-multipath.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/md/dm-multipath.ko

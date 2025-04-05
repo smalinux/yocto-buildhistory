@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.12
+RPROVIDES = kernel-module-dm-region-hash
+RDEPENDS = kernel-6.13.1 kernel-module-dm-log-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 17516
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/md/.debug/dm-region-hash.ko /usr/lib/modules/6.13.1/kernel/drivers/md/dm-region-hash.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/md/dm-region-hash.ko

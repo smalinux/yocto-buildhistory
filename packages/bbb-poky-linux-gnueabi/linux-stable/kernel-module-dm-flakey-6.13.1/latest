@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.12
+RPROVIDES = kernel-module-dm-flakey
+RDEPENDS = kernel-6.13.1 kernel-module-dm-mod-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 15804
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/md/.debug/dm-flakey.ko /usr/lib/modules/6.13.1/kernel/drivers/md/dm-flakey.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/md/dm-flakey.ko

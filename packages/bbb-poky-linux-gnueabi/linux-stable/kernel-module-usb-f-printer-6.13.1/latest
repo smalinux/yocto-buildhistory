@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = kernel-module-usb-f-printer
 RDEPENDS = kernel-6.13.1 kernel-module-libcomposite-6.13.1
 RRECOMMENDS = 

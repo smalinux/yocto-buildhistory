@@ -62,6 +62,10 @@ digraph depends {
 "kernel-module-algif-skcipher-6.13.1" -> "kernel-module-af-alg-6.13.1"
 "kernel-module-amlogic-gxl-crypto-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-amlogic-gxl-crypto-6.13.1" -> "kernel-module-crypto-engine-6.13.1"
+"kernel-module-async-tx-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-async-xor-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-async-xor-6.13.1" -> "kernel-module-async-tx-6.13.1"
+"kernel-module-async-xor-6.13.1" -> "kernel-module-xor-6.13.1"
 "kernel-module-atmel-mxt-ts-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-authenc-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-authenc-6.13.1" -> "kernel-module-crypto-null-6.13.1"
@@ -122,6 +126,7 @@ digraph depends {
 "kernel-module-chacha-neon-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-cm36651-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-cmac-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-cn-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-counter-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-cppi41-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-cpufreq-conservative-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
@@ -143,6 +148,71 @@ digraph depends {
 "kernel-module-des-generic-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-des-generic-6.13.1" -> "kernel-module-libdes-6.13.1"
 "kernel-module-display-connector-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-bio-prison-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-bufio-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-bufio-6.13.1" -> "kernel-module-dm-mod-6.13.1"
+"kernel-module-dm-cache-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-cache-6.13.1" -> "kernel-module-dm-bio-prison-6.13.1"
+"kernel-module-dm-cache-6.13.1" -> "kernel-module-dm-mod-6.13.1"
+"kernel-module-dm-cache-6.13.1" -> "kernel-module-dm-persistent-data-6.13.1"
+"kernel-module-dm-cache-smq-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-cache-smq-6.13.1" -> "kernel-module-dm-cache-6.13.1"
+"kernel-module-dm-clone-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-clone-6.13.1" -> "kernel-module-dm-mod-6.13.1"
+"kernel-module-dm-clone-6.13.1" -> "kernel-module-dm-persistent-data-6.13.1"
+"kernel-module-dm-crypt-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-crypt-6.13.1" -> "kernel-module-dm-mod-6.13.1"
+"kernel-module-dm-delay-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-delay-6.13.1" -> "kernel-module-dm-mod-6.13.1"
+"kernel-module-dm-dust-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-dust-6.13.1" -> "kernel-module-dm-mod-6.13.1"
+"kernel-module-dm-era-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-era-6.13.1" -> "kernel-module-dm-mod-6.13.1"
+"kernel-module-dm-era-6.13.1" -> "kernel-module-dm-persistent-data-6.13.1"
+"kernel-module-dm-flakey-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-flakey-6.13.1" -> "kernel-module-dm-mod-6.13.1"
+"kernel-module-dm-integrity-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-integrity-6.13.1" -> "kernel-module-async-xor-6.13.1"
+"kernel-module-dm-integrity-6.13.1" -> "kernel-module-dm-bufio-6.13.1"
+"kernel-module-dm-integrity-6.13.1" -> "kernel-module-dm-mod-6.13.1"
+"kernel-module-dm-log-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-log-6.13.1" -> "kernel-module-dm-mod-6.13.1"
+"kernel-module-dm-log-userspace-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-log-userspace-6.13.1" -> "kernel-module-cn-6.13.1"
+"kernel-module-dm-log-userspace-6.13.1" -> "kernel-module-dm-log-6.13.1"
+"kernel-module-dm-log-userspace-6.13.1" -> "kernel-module-dm-mod-6.13.1"
+"kernel-module-dm-log-writes-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-log-writes-6.13.1" -> "kernel-module-dm-mod-6.13.1"
+"kernel-module-dm-mirror-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-mirror-6.13.1" -> "kernel-module-dm-log-6.13.1"
+"kernel-module-dm-mirror-6.13.1" -> "kernel-module-dm-mod-6.13.1"
+"kernel-module-dm-mirror-6.13.1" -> "kernel-module-dm-region-hash-6.13.1"
+"kernel-module-dm-mod-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-multipath-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-multipath-6.13.1" -> "kernel-module-dm-mod-6.13.1"
+"kernel-module-dm-persistent-data-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-persistent-data-6.13.1" -> "kernel-module-dm-bufio-6.13.1"
+"kernel-module-dm-persistent-data-6.13.1" -> "kernel-module-libcrc32c-6.13.1"
+"kernel-module-dm-region-hash-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-region-hash-6.13.1" -> "kernel-module-dm-log-6.13.1"
+"kernel-module-dm-round-robin-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-round-robin-6.13.1" -> "kernel-module-dm-multipath-6.13.1"
+"kernel-module-dm-snapshot-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-snapshot-6.13.1" -> "kernel-module-dm-bufio-6.13.1"
+"kernel-module-dm-snapshot-6.13.1" -> "kernel-module-dm-mod-6.13.1"
+"kernel-module-dm-switch-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-switch-6.13.1" -> "kernel-module-dm-mod-6.13.1"
+"kernel-module-dm-thin-pool-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-thin-pool-6.13.1" -> "kernel-module-dm-bio-prison-6.13.1"
+"kernel-module-dm-thin-pool-6.13.1" -> "kernel-module-dm-mod-6.13.1"
+"kernel-module-dm-thin-pool-6.13.1" -> "kernel-module-dm-persistent-data-6.13.1"
+"kernel-module-dm-verity-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-verity-6.13.1" -> "kernel-module-dm-bufio-6.13.1"
+"kernel-module-dm-verity-6.13.1" -> "kernel-module-dm-mod-6.13.1"
+"kernel-module-dm-writecache-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-writecache-6.13.1" -> "kernel-module-dm-mod-6.13.1"
+"kernel-module-dm-zero-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-dm-zero-6.13.1" -> "kernel-module-dm-mod-6.13.1"
 "kernel-module-drbg-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-drm-display-helper-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-dsa-core-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
@@ -157,6 +227,8 @@ digraph depends {
 "kernel-module-elants-i2c-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-esp6-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-esp6-6.13.1" -> "kernel-module-xfrm-algo-6.13.1"
+"kernel-module-essiv-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-essiv-6.13.1" -> "kernel-module-authenc-6.13.1"
 "kernel-module-ff-memless-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-flexcan-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-fsi-core-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
@@ -220,6 +292,7 @@ digraph depends {
 "kernel-module-libaes-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-libarc4-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-libcomposite-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-libcrc32c-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-libdes-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-libsha256-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-lvds-codec-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
@@ -364,6 +437,8 @@ digraph depends {
 "kernel-modules" -> "kernel-module-algif-rng-6.13.1"
 "kernel-modules" -> "kernel-module-algif-skcipher-6.13.1"
 "kernel-modules" -> "kernel-module-amlogic-gxl-crypto-6.13.1"
+"kernel-modules" -> "kernel-module-async-tx-6.13.1"
+"kernel-modules" -> "kernel-module-async-xor-6.13.1"
 "kernel-modules" -> "kernel-module-atmel-mxt-ts-6.13.1"
 "kernel-modules" -> "kernel-module-authenc-6.13.1"
 "kernel-modules" -> "kernel-module-authencesn-6.13.1"
@@ -396,6 +471,7 @@ digraph depends {
 "kernel-modules" -> "kernel-module-chacha-neon-6.13.1"
 "kernel-modules" -> "kernel-module-cm36651-6.13.1"
 "kernel-modules" -> "kernel-module-cmac-6.13.1"
+"kernel-modules" -> "kernel-module-cn-6.13.1"
 "kernel-modules" -> "kernel-module-counter-6.13.1"
 "kernel-modules" -> "kernel-module-cppi41-6.13.1"
 "kernel-modules" -> "kernel-module-cpufreq-conservative-6.13.1"
@@ -414,6 +490,32 @@ digraph depends {
 "kernel-modules" -> "kernel-module-cyapatp-6.13.1"
 "kernel-modules" -> "kernel-module-des-generic-6.13.1"
 "kernel-modules" -> "kernel-module-display-connector-6.13.1"
+"kernel-modules" -> "kernel-module-dm-bio-prison-6.13.1"
+"kernel-modules" -> "kernel-module-dm-bufio-6.13.1"
+"kernel-modules" -> "kernel-module-dm-cache-6.13.1"
+"kernel-modules" -> "kernel-module-dm-cache-smq-6.13.1"
+"kernel-modules" -> "kernel-module-dm-clone-6.13.1"
+"kernel-modules" -> "kernel-module-dm-crypt-6.13.1"
+"kernel-modules" -> "kernel-module-dm-delay-6.13.1"
+"kernel-modules" -> "kernel-module-dm-dust-6.13.1"
+"kernel-modules" -> "kernel-module-dm-era-6.13.1"
+"kernel-modules" -> "kernel-module-dm-flakey-6.13.1"
+"kernel-modules" -> "kernel-module-dm-integrity-6.13.1"
+"kernel-modules" -> "kernel-module-dm-log-6.13.1"
+"kernel-modules" -> "kernel-module-dm-log-userspace-6.13.1"
+"kernel-modules" -> "kernel-module-dm-log-writes-6.13.1"
+"kernel-modules" -> "kernel-module-dm-mirror-6.13.1"
+"kernel-modules" -> "kernel-module-dm-mod-6.13.1"
+"kernel-modules" -> "kernel-module-dm-multipath-6.13.1"
+"kernel-modules" -> "kernel-module-dm-persistent-data-6.13.1"
+"kernel-modules" -> "kernel-module-dm-region-hash-6.13.1"
+"kernel-modules" -> "kernel-module-dm-round-robin-6.13.1"
+"kernel-modules" -> "kernel-module-dm-snapshot-6.13.1"
+"kernel-modules" -> "kernel-module-dm-switch-6.13.1"
+"kernel-modules" -> "kernel-module-dm-thin-pool-6.13.1"
+"kernel-modules" -> "kernel-module-dm-verity-6.13.1"
+"kernel-modules" -> "kernel-module-dm-writecache-6.13.1"
+"kernel-modules" -> "kernel-module-dm-zero-6.13.1"
 "kernel-modules" -> "kernel-module-drbg-6.13.1"
 "kernel-modules" -> "kernel-module-drm-display-helper-6.13.1"
 "kernel-modules" -> "kernel-module-dsa-core-6.13.1"
@@ -425,6 +527,7 @@ digraph depends {
 "kernel-modules" -> "kernel-module-ehci-fsl-6.13.1"
 "kernel-modules" -> "kernel-module-elants-i2c-6.13.1"
 "kernel-modules" -> "kernel-module-esp6-6.13.1"
+"kernel-modules" -> "kernel-module-essiv-6.13.1"
 "kernel-modules" -> "kernel-module-ff-memless-6.13.1"
 "kernel-modules" -> "kernel-module-flexcan-6.13.1"
 "kernel-modules" -> "kernel-module-fsi-core-6.13.1"
@@ -464,6 +567,7 @@ digraph depends {
 "kernel-modules" -> "kernel-module-libaes-6.13.1"
 "kernel-modules" -> "kernel-module-libarc4-6.13.1"
 "kernel-modules" -> "kernel-module-libcomposite-6.13.1"
+"kernel-modules" -> "kernel-module-libcrc32c-6.13.1"
 "kernel-modules" -> "kernel-module-libdes-6.13.1"
 "kernel-modules" -> "kernel-module-libsha256-6.13.1"
 "kernel-modules" -> "kernel-module-lvds-codec-6.13.1"
@@ -600,6 +704,8 @@ digraph depends {
 "kernel-modules" -> "kernel-module-xfrm6-tunnel-6.13.1"
 "kernel-modules" -> "kernel-module-xfrm-algo-6.13.1"
 "kernel-modules" -> "kernel-module-xfrm-ipcomp-6.13.1"
+"kernel-modules" -> "kernel-module-xor-6.13.1"
+"kernel-modules" -> "kernel-module-xor-neon-6.13.1"
 "kernel-modules" -> "kernel-module-xts-6.13.1"
 "kernel-module-smb347-charger-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-spi-gpio-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
@@ -701,6 +807,9 @@ digraph depends {
 "kernel-module-xfrm-algo-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-xfrm-ipcomp-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-xfrm-ipcomp-6.13.1" -> "kernel-module-xfrm-algo-6.13.1"
+"kernel-module-xor-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-xor-6.13.1" -> "kernel-module-xor-neon-6.13.1"
+"kernel-module-xor-neon-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-xts-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kmod" -> "libc6"
 "kmod" -> "libcrypto3"

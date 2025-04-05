@@ -138,6 +138,7 @@ python3-html python3-html python3 3.12.6 211
 python3-doctest python3-doctest python3 3.12.6 207
 ca-certificates ca-certificates ca-certificates 20211016 202
 libcrypt2 libxcrypt libxcrypt 4.4.36 201
+usbutils usbutils usbutils 017 198
 openssh-scp openssh-scp openssh 9.6p1 198
 gstreamer1.0-plugins-good-rtsp gstreamer1.0-plugins-good-rtsp gstreamer1.0-plugins-good 1.22.12 194
 gstreamer1.0-plugins-good-multifile gstreamer1.0-plugins-good-multifile gstreamer1.0-plugins-good 1.22.12 194
@@ -201,6 +202,7 @@ gstreamer1.0-plugins-base-typefindfunctions gstreamer1.0-plugins-base-typefindfu
 python3-math python3-math python3 3.12.6 106
 python3-zoneinfo python3-zoneinfo python3 3.12.6 105
 libyaml-0-2 libyaml libyaml 0.2.5 105
+libusb-1.0-0 libusb1 libusb1 1.0.27 105
 libfribidi0 fribidi fribidi 1.0.14 105
 libatopology2 libatopology alsa-lib 1.2.11 102
 kernel-module-wcn36xx-6.13.1 kernel-module-wcn36xx-6.13.1 linux-stable 6.13.1 101

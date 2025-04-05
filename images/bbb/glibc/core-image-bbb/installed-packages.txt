@@ -508,6 +508,7 @@ libubootenv0_0.3.5-r0.1_cortexa8hf-neon.ipk
 libubootenv-bin_0.3.5-r0.1_cortexa8hf-neon.ipk
 libudev1_1:255.4-r0.1_cortexa8hf-neon.ipk
 libunistring5_1.2-r0.5_cortexa8hf-neon.ipk
+libusb-1.0-0_1.0.27-r0.0_cortexa8hf-neon.ipk
 libuuid1_2.39.3-r0.5_cortexa8hf-neon.ipk
 libvorbis_1.3.7-r0.0_cortexa8hf-neon.ipk
 libx11-6_1:1.8.9-r0.5_cortexa8hf-neon.ipk
@@ -650,6 +651,7 @@ udev-hwdb_1:255.4-r0.1_cortexa8hf-neon.ipk
 udev_1:255.4-r0.1_cortexa8hf-neon.ipk
 update-alternatives-opkg_0.6.3-r0.5_cortexa8hf-neon.ipk
 update-rc.d_0.8+git0+b8f9501050-r0.3_all.ipk
+usbutils_017-r0.0_cortexa8hf-neon.ipk
 util-linux-agetty_2.39.3-r0.5_cortexa8hf-neon.ipk
 util-linux-fcntl-lock_2.39.3-r0.5_cortexa8hf-neon.ipk
 util-linux-fsck_2.39.3-r0.5_cortexa8hf-neon.ipk

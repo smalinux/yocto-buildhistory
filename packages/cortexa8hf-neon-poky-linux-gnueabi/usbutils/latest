@@ -1,0 +1,8 @@
+PV = 017
+PR = r0
+DEPENDS = autoconf-native automake-native libtool-cross libtool-native libusb1 pkgconfig-native udev virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc virtual/libiconv virtual/update-alternatives
+PACKAGES = usbutils-src usbutils-dbg usbutils-staticdev usbutils-dev usbutils-doc usbutils-locale usbutils-python usbutils
+LAYER = core
+LICENSE = GPL-2.0-or-later & (GPL-2.0-only | GPL-3.0-only)
+CONFIG = 
+SRC_URI = https://cdn.kernel.org/pub/linux/utils/usb/usbutils/usbutils-017.tar.gz file://0001-usbutils.pc.in-Fix-Cflags-entry.patch

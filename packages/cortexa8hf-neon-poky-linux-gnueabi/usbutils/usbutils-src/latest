@@ -1,0 +1,9 @@
+PV = 017
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 361837
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/usbutils/017/desc-defs.c /usr/src/debug/usbutils/017/desc-defs.h /usr/src/debug/usbutils/017/desc-dump.c /usr/src/debug/usbutils/017/desc-dump.h /usr/src/debug/usbutils/017/list.h /usr/src/debug/usbutils/017/lsusb-t.c /usr/src/debug/usbutils/017/lsusb.c /usr/src/debug/usbutils/017/lsusb.h /usr/src/debug/usbutils/017/names.c /usr/src/debug/usbutils/017/names.h /usr/src/debug/usbutils/017/sysfs.c /usr/src/debug/usbutils/017/sysfs.h /usr/src/debug/usbutils/017/usb-spec.h /usr/src/debug/usbutils/017/usbhid-dump/src/dev.c /usr/src/debug/usbutils/017/usbhid-dump/src/dev.h /usr/src/debug/usbutils/017/usbhid-dump/src/dev_list.c /usr/src/debug/usbutils/017/usbhid-dump/src/dev_list.h /usr/src/debug/usbutils/017/usbhid-dump/src/iface.c /usr/src/debug/usbutils/017/usbhid-dump/src/iface.h /usr/src/debug/usbutils/017/usbhid-dump/src/iface_list.c /usr/src/debug/usbutils/017/usbhid-dump/src/iface_list.h /usr/src/debug/usbutils/017/usbhid-dump/src/misc.h /usr/src/debug/usbutils/017/usbhid-dump/src/usbhid-dump.c /usr/src/debug/usbutils/017/usbmisc.c /usr/src/debug/usbutils/017/usbmisc.h

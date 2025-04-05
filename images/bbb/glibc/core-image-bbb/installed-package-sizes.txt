@@ -138,6 +138,7 @@
 207	KiB	python3-doctest
 202	KiB	ca-certificates
 201	KiB	libcrypt2
+198	KiB	usbutils
 198	KiB	openssh-scp
 194	KiB	gstreamer1.0-plugins-good-rtsp
 194	KiB	gstreamer1.0-plugins-good-multifile
@@ -201,6 +202,7 @@
 106	KiB	python3-math
 105	KiB	python3-zoneinfo
 105	KiB	libyaml-0-2
+105	KiB	libusb-1.0-0
 105	KiB	libfribidi0
 102	KiB	libatopology2
 101	KiB	kernel-module-wcn36xx-6.13.1

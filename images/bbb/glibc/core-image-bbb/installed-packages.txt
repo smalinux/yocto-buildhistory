@@ -290,7 +290,6 @@ libexpat1_2.6.3-r0.3_cortexa8hf-neon.ipk
 libext2fs2_1.47.0-r0.5_cortexa8hf-neon.ipk
 libfdisk1_2.39.3-r0.5_cortexa8hf-neon.ipk
 libffi8_3.4.6-r0.5_cortexa8hf-neon.ipk
-libflac12_1.4.3-r0.0_cortexa8hf-neon.ipk
 libgcc1_13.3.0-r0.5_cortexa8hf-neon.ipk
 libgdbm6_1.23-r0.5_cortexa8hf-neon.ipk
 libgdbm-compat4_1.23-r0.5_cortexa8hf-neon.ipk
@@ -309,19 +308,14 @@ libnl-genl-3-200_1:3.9.0-r0.1_cortexa8hf-neon.ipk
 libnsl3_2.0.1-r0.5_cortexa8hf-neon.ipk
 libnss-myhostname2_1:255.4-r0.1_cortexa8hf-neon.ipk
 libnss-systemd2_1:255.4-r0.1_cortexa8hf-neon.ipk
-libogg0_1.3.5-r0.0_cortexa8hf-neon.ipk
 libopkg1_1:0.6.3-r0.5_cortexa8hf-neon.ipk
 libpam_1.5.3-r0.1_cortexa8hf-neon.ipk
 libpam-runtime_1.5.3-r0.1_cortexa8hf-neon.ipk
 libpanelw5_6.4-r0.5_cortexa8hf-neon.ipk
 libpcre2_10.43-r0.5_cortexa8hf-neon.ipk
-libpulse0_17.0-r0.0_cortexa8hf-neon.ipk
-libpulsecommon_17.0-r0.0_cortexa8hf-neon.ipk
-libpulse-simple0_17.0-r0.0_cortexa8hf-neon.ipk
 libpython3.12-1.0_3.12.6-r0.3_cortexa8hf-neon.ipk
 libseccomp_2.5.5-r0.5_cortexa8hf-neon.ipk
 libsmartcols1_2.39.3-r0.5_cortexa8hf-neon.ipk
-libsndfile1_1.2.2-r0.0_cortexa8hf-neon.ipk
 libsolv1_0.7.28-r0.5_cortexa8hf-neon.ipk
 libsqlite3-0_3:3.45.1-r0.3_cortexa8hf-neon.ipk
 libssl3_3.2.3-r0.5_cortexa8hf-neon.ipk
@@ -334,7 +328,6 @@ libubootenv0_0.3.5-r0.1_cortexa8hf-neon.ipk
 libubootenv-bin_0.3.5-r0.1_cortexa8hf-neon.ipk
 libunistring5_1.2-r0.5_cortexa8hf-neon.ipk
 libuuid1_2.39.3-r0.5_cortexa8hf-neon.ipk
-libvorbis_1.3.7-r0.0_cortexa8hf-neon.ipk
 libx11-6_1:1.8.9-r0.5_cortexa8hf-neon.ipk
 libxau6_1:1.0.11-r0.5_cortexa8hf-neon.ipk
 libxcb1_1.16-r0.5_cortexa8hf-neon.ipk
@@ -344,7 +337,6 @@ libyaml-0-2_0.2.5-r0.1_cortexa8hf-neon.ipk
 libz1_1.3.1-r0.6_cortexa8hf-neon.ipk
 libzstd1_1.5.5-r0.5_cortexa8hf-neon.ipk
 lz4_1:1.9.4-r0.1_cortexa8hf-neon.ipk
-mpg123_1.32.6-r0.0_cortexa8hf-neon.ipk
 ncurses-terminfo-base_6.4-r0.5_cortexa8hf-neon.ipk
 netbase_1:6.4-r0.3_all.ipk
 openssh-keygen_9.6p1-r0.6_cortexa8hf-neon.ipk

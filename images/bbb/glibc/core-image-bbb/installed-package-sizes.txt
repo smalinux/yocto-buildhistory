@@ -34,11 +34,9 @@
 821	KiB	python3-numbers
 815	KiB	openssl-bin
 768	KiB	python3-xml
-767	KiB	mpg123
 753	KiB	libssl3
 748	KiB	python3-io
 726	KiB	busybox
-704	KiB	libvorbis
 682	KiB	python3-multiprocessing
 672	KiB	libarchive
 667	KiB	udev
@@ -54,9 +52,7 @@
 494	KiB	python3-compression
 486	KiB	openssh-keygen
 473	KiB	kernel-devicetree
-465	KiB	libpulsecommon
 457	KiB	kbd-consolefonts
-454	KiB	libsndfile1
 441	KiB	libfdisk1
 439	KiB	python3-pickle
 432	KiB	systemd-extra-utils
@@ -72,8 +68,6 @@
 307	KiB	kernel-module-brcmfmac-6.13.1
 306	KiB	e2fsprogs-e2fsck
 303	KiB	lz4
-299	KiB	libpulse0
-281	KiB	libflac12
 273	KiB	libdbus-1-3
 273	KiB	dbus-1
 247	KiB	python3-ctypes
@@ -196,7 +190,6 @@
 26	KiB	kernel-module-chacha-neon-6.13.1
 25	KiB	util-linux-umount
 25	KiB	libuuid1
-25	KiB	libogg0
 25	KiB	kernel-module-usb-f-hid-6.13.1
 24	KiB	openssl-conf
 24	KiB	kernel-module-uas-6.13.1
@@ -281,7 +274,6 @@
 14	KiB	kernel-module-drbg-6.13.1
 13	KiB	util-linux-swapoff
 13	KiB	systemd-udev-rules
-13	KiB	libpulse-simple0
 13	KiB	kernel-module-tpm-i2c-infineon-6.13.1
 13	KiB	kernel-module-stusb160x-6.13.1
 13	KiB	kernel-module-sha512-generic-6.13.1

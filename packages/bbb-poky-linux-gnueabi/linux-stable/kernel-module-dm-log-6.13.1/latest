@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.12
-RPROVIDES = kernel-module-dm-log
-RDEPENDS = kernel-6.13.1 kernel-module-dm-mod-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 16820
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/md/.debug/dm-log.ko /usr/lib/modules/6.13.1/kernel/drivers/md/dm-log.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/md/dm-log.ko

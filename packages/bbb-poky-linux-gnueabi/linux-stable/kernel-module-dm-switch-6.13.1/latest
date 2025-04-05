@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.12
-RPROVIDES = kernel-module-dm-switch
-RDEPENDS = kernel-6.13.1 kernel-module-dm-mod-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 11032
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/md/.debug/dm-switch.ko /usr/lib/modules/6.13.1/kernel/drivers/md/dm-switch.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/md/dm-switch.ko

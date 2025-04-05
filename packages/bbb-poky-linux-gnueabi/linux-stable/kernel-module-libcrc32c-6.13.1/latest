@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.12
-RPROVIDES = kernel-module-libcrc32c
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 5432
-FILES = /usr/lib/modules/6.13.1/kernel/lib/.debug/libcrc32c.ko /usr/lib/modules/6.13.1/kernel/lib/libcrc32c.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/lib/libcrc32c.ko

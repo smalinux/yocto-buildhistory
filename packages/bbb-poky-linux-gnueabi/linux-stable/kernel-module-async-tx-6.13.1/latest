@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.12
-RPROVIDES = kernel-module-async-tx
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 6880
-FILES = /usr/lib/modules/6.13.1/kernel/crypto/async_tx/.debug/async_tx.ko /usr/lib/modules/6.13.1/kernel/crypto/async_tx/async_tx.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/async_tx/async_tx.ko

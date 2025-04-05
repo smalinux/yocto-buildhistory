@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.12
-RPROVIDES = kernel-module-dm-thin-pool
-RDEPENDS = kernel-6.13.1 kernel-module-dm-bio-prison-6.13.1 kernel-module-dm-mod-6.13.1 kernel-module-dm-persistent-data-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 87080
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/md/.debug/dm-thin-pool.ko /usr/lib/modules/6.13.1/kernel/drivers/md/dm-thin-pool.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/md/dm-thin-pool.ko

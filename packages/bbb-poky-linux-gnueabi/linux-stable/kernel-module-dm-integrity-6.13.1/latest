@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.12
-RPROVIDES = kernel-module-dm-integrity
-RDEPENDS = kernel-6.13.1 kernel-module-async-xor-6.13.1 kernel-module-dm-bufio-6.13.1 kernel-module-dm-mod-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 85544
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/md/.debug/dm-integrity.ko /usr/lib/modules/6.13.1/kernel/drivers/md/dm-integrity.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/md/dm-integrity.ko

@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.12
-RPROVIDES = kernel-module-dm-verity
-RDEPENDS = kernel-6.13.1 kernel-module-dm-bufio-6.13.1 kernel-module-dm-mod-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 46568
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/md/.debug/dm-verity.ko /usr/lib/modules/6.13.1/kernel/drivers/md/dm-verity.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/md/dm-verity.ko

@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.12
-RPROVIDES = kernel-module-dm-round-robin
-RDEPENDS = kernel-6.13.1 kernel-module-dm-multipath-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 7528
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/md/.debug/dm-round-robin.ko /usr/lib/modules/6.13.1/kernel/drivers/md/dm-round-robin.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/md/dm-round-robin.ko

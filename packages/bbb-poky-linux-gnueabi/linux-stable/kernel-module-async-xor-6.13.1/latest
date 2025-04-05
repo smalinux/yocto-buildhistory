@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.12
-RPROVIDES = kernel-module-async-xor
-RDEPENDS = kernel-6.13.1 kernel-module-async-tx-6.13.1 kernel-module-xor-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 8228
-FILES = /usr/lib/modules/6.13.1/kernel/crypto/async_tx/.debug/async_xor.ko /usr/lib/modules/6.13.1/kernel/crypto/async_tx/async_xor.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/async_tx/async_xor.ko

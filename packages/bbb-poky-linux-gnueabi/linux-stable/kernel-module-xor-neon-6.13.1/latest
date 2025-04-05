@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.12
-RPROVIDES = kernel-module-xor-neon
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 4168
-FILES = /usr/lib/modules/6.13.1/kernel/arch/arm/lib/.debug/xor-neon.ko /usr/lib/modules/6.13.1/kernel/arch/arm/lib/xor-neon.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/arch/arm/lib/xor-neon.ko

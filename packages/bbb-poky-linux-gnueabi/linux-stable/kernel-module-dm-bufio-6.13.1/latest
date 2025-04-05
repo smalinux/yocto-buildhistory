@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.12
-RPROVIDES = kernel-module-dm-bufio
-RDEPENDS = kernel-6.13.1 kernel-module-dm-mod-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 47964
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/md/.debug/dm-bufio.ko /usr/lib/modules/6.13.1/kernel/drivers/md/dm-bufio.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/md/dm-bufio.ko

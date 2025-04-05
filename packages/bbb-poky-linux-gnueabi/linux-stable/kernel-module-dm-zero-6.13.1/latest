@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.12
-RPROVIDES = kernel-module-dm-zero
-RDEPENDS = kernel-6.13.1 kernel-module-dm-mod-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 5056
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/md/.debug/dm-zero.ko /usr/lib/modules/6.13.1/kernel/drivers/md/dm-zero.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/md/dm-zero.ko

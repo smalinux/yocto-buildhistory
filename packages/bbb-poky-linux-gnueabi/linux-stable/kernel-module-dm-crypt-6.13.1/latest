@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.12
-RPROVIDES = kernel-module-dm-crypt
-RDEPENDS = kernel-6.13.1 kernel-module-dm-mod-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 55168
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/md/.debug/dm-crypt.ko /usr/lib/modules/6.13.1/kernel/drivers/md/dm-crypt.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/md/dm-crypt.ko

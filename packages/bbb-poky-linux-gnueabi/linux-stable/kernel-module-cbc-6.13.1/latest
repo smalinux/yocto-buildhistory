@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.12
-RPROVIDES = kernel-module-cbc
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 5944
-FILES = /usr/lib/modules/6.13.1/kernel/crypto/.debug/cbc.ko /usr/lib/modules/6.13.1/kernel/crypto/cbc.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/cbc.ko

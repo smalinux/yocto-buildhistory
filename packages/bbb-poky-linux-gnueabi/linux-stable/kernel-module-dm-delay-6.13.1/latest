@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.12
-RPROVIDES = kernel-module-dm-delay
-RDEPENDS = kernel-6.13.1 kernel-module-dm-mod-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 10760
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/md/.debug/dm-delay.ko /usr/lib/modules/6.13.1/kernel/drivers/md/dm-delay.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/md/dm-delay.ko

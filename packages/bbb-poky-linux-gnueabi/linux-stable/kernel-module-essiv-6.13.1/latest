@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.12
-RPROVIDES = kernel-module-essiv
-RDEPENDS = kernel-6.13.1 kernel-module-authenc-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 12128
-FILES = /usr/lib/modules/6.13.1/kernel/crypto/.debug/essiv.ko /usr/lib/modules/6.13.1/kernel/crypto/essiv.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/essiv.ko

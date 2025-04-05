@@ -12,10 +12,6 @@ lrwxrwxrwx root       root               13 ./boot/zImage -> zImage-6.13.1
 drwxr-xr-x root       root             4096 ./data
 drwxr-xr-x root       root             4096 ./dev
 drwxr-xr-x root       root             4096 ./etc
-drwxr-xr-x root       root             4096 ./etc/alsa
-drwxr-xr-x root       root             4096 ./etc/alsa/conf.d
-lrwxrwxrwx root       root               46 ./etc/alsa/conf.d/50-pulseaudio.conf -> /usr/share/alsa/alsa.conf.d/50-pulseaudio.conf
-lrwxrwxrwx root       root               54 ./etc/alsa/conf.d/99-pulseaudio-default.conf -> /usr/share/alsa/alsa.conf.d/99-pulseaudio-default.conf
 -rw-r--r-- root       root              535 ./etc/bindresvport.blacklist
 -rw-r--r-- root       root             2792 ./etc/busybox.links.nosuid
 -rw-r--r-- root       root              107 ./etc/busybox.links.suid
@@ -33,20 +29,19 @@ drwxr-xr-x root       root             4096 ./etc/default
 -rw-r--r-- root       root               52 ./etc/default/postinst
 -rw-r--r-- root       root              115 ./etc/default/useradd
 drwxr-xr-x root       root             4096 ./etc/default/volatiles
--rw-r--r-- root       root               91 ./etc/default/volatiles/04_pulse
 -rw-r--r-- root       root               75 ./etc/default/volatiles/99_sshd
 drwxr-xr-x root       root             4096 ./etc/depmod.d
 -rw-r--r-- root       root             1853 ./etc/ethertypes
 -rw-r--r-- root       root              709 ./etc/fstab
 -rw-r--r-- root       root               32 ./etc/fw_env.config
--rw-r--r-- root       root              653 ./etc/group
--r-------- root       root              549 ./etc/gshadow
+-rw-r--r-- root       root              630 ./etc/group
+-r-------- root       root              529 ./etc/gshadow
 -rw-r--r-- root       root               26 ./etc/host.conf
 -rw-r--r-- root       root                4 ./etc/hostname
 -rw-r--r-- root       root              228 ./etc/hosts
 -rw-r--r-- root       root               51 ./etc/issue
 -rw-r--r-- root       root               48 ./etc/issue.net
--rw-r--r-- root       root             6215 ./etc/ld.so.cache
+-rw-r--r-- root       root             5716 ./etc/ld.so.cache
 -rw-r--r-- root       root               33 ./etc/ld.so.conf
 drwxr-xr-x root       root             4096 ./etc/libnl
 -rw-r--r-- root       root             1130 ./etc/libnl/classid
@@ -72,16 +67,13 @@ drwxr-xr-x root       root             4096 ./etc/pam.d
 -rw-r--r-- root       root              851 ./etc/pam.d/common-session
 -rw-r--r-- root       root              818 ./etc/pam.d/common-session-noninteractive
 -rw-r--r-- root       root              816 ./etc/pam.d/other
--rw-r--r-- root       root             1098 ./etc/passwd
+-rw-r--r-- root       root             1055 ./etc/passwd
 -rw-r--r-- root       root             1932 ./etc/profile
 drwxr-xr-x root       root             4096 ./etc/profile.d
 -rw-r--r-- root       root              288 ./etc/profile.d/systemd-pager.sh
 -rw-r--r-- root       root             3144 ./etc/protocols
 drwxr-xr-x root       root             4096 ./etc/pulse
 -rw-r--r-- root       root             1233 ./etc/pulse/client.conf
--rw-r--r-- root       root             2426 ./etc/pulse/daemon.conf
--rw-r--r-- root       root             5019 ./etc/pulse/default.pa
--rw-r--r-- root       root             2163 ./etc/pulse/system.pa
 drwxr-xr-x root       root             4096 ./etc/rauc
 -rw-r--r-- root       root             4387 ./etc/rauc/ca.cert.pem
 -rw-r--r-- root       root              234 ./etc/rauc/system.conf
@@ -102,7 +94,7 @@ drwxr-xr-x root       root             4096 ./etc/security/namespace.d
 -rw-r--r-- root       root              517 ./etc/security/pwhistory.conf
 -rw-r--r-- root       root             2179 ./etc/security/time.conf
 -rw-r--r-- root       root            12813 ./etc/services
--r-------- root       root              670 ./etc/shadow
+-r-------- root       root              643 ./etc/shadow
 -rw-r--r-- root       root               42 ./etc/shells
 drwxr-xr-x root       root             4096 ./etc/skel
 -rwxr-xr-x root       root              410 ./etc/skel/.bashrc
@@ -471,12 +463,8 @@ drwxr-xr-x root       root             4096 ./etc/X11/xinit/xinitrc.d
 -rwxr-xr-x root       root              538 ./etc/X11/xinit/xinitrc.d/50-systemd-user.sh
 -rw-r--r-- root       root              681 ./etc/xattr.conf
 drwxr-xr-x root       root             4096 ./etc/xdg
-drwxr-xr-x root       root             4096 ./etc/xdg/autostart
--rw-r--r-- root       root             5370 ./etc/xdg/autostart/pulseaudio.desktop
 drwxr-xr-x root       root             4096 ./etc/xdg/systemd
 lrwxrwxrwx root       root               18 ./etc/xdg/systemd/user -> ../../systemd/user
-drwxr-xr-x root       root             4096 ./etc/xdg/Xwayland-session.d
--rwxr-xr-x root       root             2159 ./etc/xdg/Xwayland-session.d/00-pulseaudio-x11
 drwxr-xr-x root       root             4096 ./home
 lrwxrwxrwx root       root                7 ./lib -> usr/lib
 drwxr-xr-x root       root             4096 ./media
@@ -640,7 +628,6 @@ lrwxrwxrwx root       root               19 ./usr/bin/openvt -> /usr/bin/openvt.
 -rwxr-xr-x root       root            18656 ./usr/bin/opkg
 -rwxr-xr-x root       root             1887 ./usr/bin/opkg-check-config
 -rwxr-xr-x root       root            64568 ./usr/bin/out123
--rwxr-xr-x root       root            83396 ./usr/bin/pactl
 -rwsr-xr-x root       root            82728 ./usr/bin/passwd.shadow
 lrwxrwxrwx root       root               22 ./usr/bin/passwd -> /usr/bin/passwd.shadow
 lrwxrwxrwx root       root               23 ./usr/bin/patch -> /usr/bin/busybox.nosuid
@@ -656,7 +643,6 @@ lrwxrwxrwx root       root                9 ./usr/bin/psfgettable -> psfxtable
 lrwxrwxrwx root       root                9 ./usr/bin/psfstriptable -> psfxtable
 -rwxr-xr-x root       root            21944 ./usr/bin/psfxtable
 lrwxrwxrwx root       root               23 ./usr/bin/ps -> /usr/bin/busybox.nosuid
--rwxr-xr-x root       root            79324 ./usr/bin/pulseaudio
 lrwxrwxrwx root       root               23 ./usr/bin/pwd -> /usr/bin/busybox.nosuid
 -rwxr-xr-x root       root               79 ./usr/bin/pydoc3.12
 lrwxrwxrwx root       root                9 ./usr/bin/pydoc3 -> pydoc3.12
@@ -699,7 +685,6 @@ lrwxrwxrwx root       root               10 ./usr/bin/sqfstar -> mksquashfs
 -rwxr-xr-x root       root           497208 ./usr/bin/ssh-keygen
 -rwxr-xr-x root       root           849692 ./usr/bin/ssh.openssh
 lrwxrwxrwx root       root               20 ./usr/bin/ssh -> /usr/bin/ssh.openssh
--rwxr-xr-x root       root             2159 ./usr/bin/start-pulseaudio-x11
 lrwxrwxrwx root       root               23 ./usr/bin/stat -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root               23 ./usr/bin/strings -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root               23 ./usr/bin/stty -> /usr/bin/busybox.nosuid
@@ -787,10 +772,6 @@ drwxr-xr-x root       root             4096 ./usr/include/python3.12
 -rw-r--r-- root       root            56123 ./usr/include/python3.12/pyconfig-32.h
 -rw-r--r-- root       root              564 ./usr/include/python3.12/pyconfig.h
 drwxr-xr-x root       root            12288 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/alsa-lib
--rwxr-xr-x root       root             5372 ./usr/lib/alsa-lib/libasound_module_conf_pulse.so
--rwxr-xr-x root       root            17712 ./usr/lib/alsa-lib/libasound_module_ctl_pulse.so
--rwxr-xr-x root       root            21808 ./usr/lib/alsa-lib/libasound_module_pcm_pulse.so
 drwxr-xr-x root       root             4096 ./usr/lib/credstore
 drwxr-xr-x root       root             4096 ./usr/lib/depmod.d
 -rw-r--r-- root       root               15 ./usr/lib/depmod.d/exclude.conf
@@ -867,16 +848,12 @@ lrwxrwxrwx root       root               26 ./usr/lib/libgmodule-2.0.so.0 -> lib
 lrwxrwxrwx root       root               26 ./usr/lib/libgobject-2.0.so.0 -> libgobject-2.0.so.0.7800.6
 -rwxr-xr-x root       root             5260 ./usr/lib/libgthread-2.0.so.0.7800.6
 lrwxrwxrwx root       root               26 ./usr/lib/libgthread-2.0.so.0 -> libgthread-2.0.so.0.7800.6
--rwxr-xr-x root       root            83636 ./usr/lib/libICE.so.6.3.0
-lrwxrwxrwx root       root               15 ./usr/lib/libICE.so.6 -> libICE.so.6.3.0
 -rwxr-xr-x root       root           193936 ./usr/lib/libidn2.so.0.4.0
 lrwxrwxrwx root       root               16 ./usr/lib/libidn2.so.0 -> libidn2.so.0.4.0
 -rwxr-xr-x root       root           148836 ./usr/lib/libjson-glib-1.0.so.0.800.0
 lrwxrwxrwx root       root               27 ./usr/lib/libjson-glib-1.0.so.0 -> libjson-glib-1.0.so.0.800.0
 -rwxr-xr-x root       root            71056 ./usr/lib/libkmod.so.2.4.1
 lrwxrwxrwx root       root               16 ./usr/lib/libkmod.so.2 -> libkmod.so.2.4.1
--rwxr-xr-x root       root            29996 ./usr/lib/libltdl.so.7.3.2
-lrwxrwxrwx root       root               16 ./usr/lib/libltdl.so.7 -> libltdl.so.7.3.2
 -rwxr-xr-x root       root           124192 ./usr/lib/liblz4.so.1.9.4
 lrwxrwxrwx root       root               15 ./usr/lib/liblz4.so.1 -> liblz4.so.1.9.4
 -rwxr-xr-x root       root           157020 ./usr/lib/liblzma.so.5.4.6
@@ -938,13 +915,9 @@ lrwxrwxrwx root       root               18 ./usr/lib/libpulse.so.0 -> libpulse.
 lrwxrwxrwx root       root               19 ./usr/lib/libseccomp.so.2 -> libseccomp.so.2.5.5
 -rwxr-xr-x root       root           226760 ./usr/lib/libsmartcols.so.1.1.0
 lrwxrwxrwx root       root               21 ./usr/lib/libsmartcols.so.1 -> libsmartcols.so.1.1.0
--rwxr-xr-x root       root            34060 ./usr/lib/libSM.so.6.0.1
-lrwxrwxrwx root       root               14 ./usr/lib/libSM.so.6 -> libSM.so.6.0.1
 -rwxr-xr-x root       root           465120 ./usr/lib/libsndfile.so.1.0.37
 lrwxrwxrwx root       root               20 ./usr/lib/libsndfile.so.1 -> libsndfile.so.1.0.37
 -rwxr-xr-x root       root           534896 ./usr/lib/libsolv.so.1
--rwxr-xr-x root       root            62760 ./usr/lib/libspeexdsp.so.1.5.2
-lrwxrwxrwx root       root               20 ./usr/lib/libspeexdsp.so.1 -> libspeexdsp.so.1.5.2
 -rwxr-xr-x root       root          1247572 ./usr/lib/libsqlite3.so.0.8.6
 lrwxrwxrwx root       root               19 ./usr/lib/libsqlite3.so.0 -> libsqlite3.so.0.8.6
 -rwxr-xr-x root       root           771120 ./usr/lib/libssl.so.3
@@ -962,8 +935,6 @@ lrwxrwxrwx root       root               15 ./usr/lib/libtinfo.so.5 -> libtinfo.
 lrwxrwxrwx root       root               17 ./usr/lib/libtirpc.so.3 -> libtirpc.so.3.0.0
 -rwxr-xr-x root       root            21748 ./usr/lib/libubootenv.so.0.3.5
 lrwxrwxrwx root       root               20 ./usr/lib/libubootenv.so.0 -> libubootenv.so.0.3.5
--rwxr-xr-x root       root           235252 ./usr/lib/libudev.so.1.7.8
-lrwxrwxrwx root       root               16 ./usr/lib/libudev.so.1 -> libudev.so.1.7.8
 -rwxr-xr-x root       root          1717584 ./usr/lib/libunistring.so.5.1.0
 lrwxrwxrwx root       root               21 ./usr/lib/libunistring.so.5 -> libunistring.so.5.1.0
 -rwxr-xr-x root       root             5464 ./usr/lib/libutil.so.1
@@ -977,22 +948,14 @@ lrwxrwxrwx root       root               22 ./usr/lib/libvorbisfile.so.3 -> libv
 lrwxrwxrwx root       root               18 ./usr/lib/libvorbis.so.0 -> libvorbis.so.0.4.9
 -rwxr-xr-x root       root          1138376 ./usr/lib/libX11.so.6.4.0
 lrwxrwxrwx root       root               15 ./usr/lib/libX11.so.6 -> libX11.so.6.4.0
--rwxr-xr-x root       root             5252 ./usr/lib/libX11-xcb.so.1.0.0
-lrwxrwxrwx root       root               19 ./usr/lib/libX11-xcb.so.1 -> libX11-xcb.so.1.0.0
 -rwxr-xr-x root       root             9452 ./usr/lib/libXau.so.6.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libXau.so.6 -> libXau.so.6.0.0
 -rwxr-xr-x root       root           136512 ./usr/lib/libxcb.so.1.1.0
 lrwxrwxrwx root       root               15 ./usr/lib/libxcb.so.1 -> libxcb.so.1.1.0
 -rwxr-xr-x root       root            17648 ./usr/lib/libXdmcp.so.6.0.0
 lrwxrwxrwx root       root               17 ./usr/lib/libXdmcp.so.6 -> libXdmcp.so.6.0.0
--rwxr-xr-x root       root            59252 ./usr/lib/libXext.so.6.4.0
-lrwxrwxrwx root       root               16 ./usr/lib/libXext.so.6 -> libXext.so.6.4.0
--rwxr-xr-x root       root            58700 ./usr/lib/libXi.so.6.1.0
-lrwxrwxrwx root       root               14 ./usr/lib/libXi.so.6 -> libXi.so.6.1.0
 -rwxr-xr-x root       root          1173744 ./usr/lib/libxml2.so.2.12.8
 lrwxrwxrwx root       root               17 ./usr/lib/libxml2.so.2 -> libxml2.so.2.12.8
--rwxr-xr-x root       root            17744 ./usr/lib/libXtst.so.6.1.0
-lrwxrwxrwx root       root               16 ./usr/lib/libXtst.so.6 -> libXtst.so.6.1.0
 -rwxr-xr-x root       root           107808 ./usr/lib/libyaml-0.so.2.0.9
 lrwxrwxrwx root       root               18 ./usr/lib/libyaml-0.so.2 -> libyaml-0.so.2.0.9
 -rwxr-xr-x root       root            79244 ./usr/lib/libz.so.1.3.1
@@ -1607,36 +1570,6 @@ drwxr-xr-x root       root             4096 ./usr/lib/pam.d
 -rw-r--r-- root       root              394 ./usr/lib/pam.d/systemd-user
 drwxr-xr-x root       root             4096 ./usr/lib/pulseaudio
 -rwxr-xr-x root       root           476608 ./usr/lib/pulseaudio/libpulsecommon-17.0.so
--rwxr-xr-x root       root           689860 ./usr/lib/pulseaudio/libpulsecore-17.0.so
-drwxr-xr-x root       root             4096 ./usr/lib/pulseaudio/modules
--rwxr-xr-x root       root           297228 ./usr/lib/pulseaudio/modules/libalsa-util.so
--rwxr-xr-x root       root           132392 ./usr/lib/pulseaudio/modules/libprotocol-native.so
--rwxr-xr-x root       root            29988 ./usr/lib/pulseaudio/modules/module-alsa-card.so
--rwxr-xr-x root       root             9508 ./usr/lib/pulseaudio/modules/module-alsa-sink.so
--rwxr-xr-x root       root             9512 ./usr/lib/pulseaudio/modules/module-alsa-source.so
--rwxr-xr-x root       root             9512 ./usr/lib/pulseaudio/modules/module-always-sink.so
--rwxr-xr-x root       root            13676 ./usr/lib/pulseaudio/modules/module-augment-properties.so
--rwxr-xr-x root       root            21800 ./usr/lib/pulseaudio/modules/module-card-restore.so
--rwxr-xr-x root       root             9472 ./usr/lib/pulseaudio/modules/module-default-device-restore.so
--rwxr-xr-x root       root             9508 ./usr/lib/pulseaudio/modules/module-detect.so
--rwxr-xr-x root       root            34092 ./usr/lib/pulseaudio/modules/module-device-manager.so
--rwxr-xr-x root       root            34092 ./usr/lib/pulseaudio/modules/module-device-restore.so
--rwxr-xr-x root       root            25896 ./usr/lib/pulseaudio/modules/module-filter-apply.so
--rwxr-xr-x root       root             9464 ./usr/lib/pulseaudio/modules/module-filter-heuristics.so
--rwxr-xr-x root       root            13612 ./usr/lib/pulseaudio/modules/module-intended-roles.so
--rwxr-xr-x root       root             9520 ./usr/lib/pulseaudio/modules/module-native-protocol-unix.so
--rwxr-xr-x root       root            17700 ./usr/lib/pulseaudio/modules/module-null-sink.so
--rwxr-xr-x root       root             9468 ./usr/lib/pulseaudio/modules/module-position-event-sounds.so
--rwxr-xr-x root       root             5368 ./usr/lib/pulseaudio/modules/module-rescue-streams.so
--rwxr-xr-x root       root            25892 ./usr/lib/pulseaudio/modules/module-role-cork.so
--rwxr-xr-x root       root            63204 ./usr/lib/pulseaudio/modules/module-stream-restore.so
--rwxr-xr-x root       root            21856 ./usr/lib/pulseaudio/modules/module-suspend-on-idle.so
--rwxr-xr-x root       root            13568 ./usr/lib/pulseaudio/modules/module-switch-on-port-available.so
--rwxr-xr-x root       root             9460 ./usr/lib/pulseaudio/modules/module-systemd-login.so
--rwxr-xr-x root       root            21852 ./usr/lib/pulseaudio/modules/module-udev-detect.so
--rwxr-xr-x root       root             9516 ./usr/lib/pulseaudio/modules/module-x11-cork-request.so
--rwxr-xr-x root       root            13608 ./usr/lib/pulseaudio/modules/module-x11-publish.so
--rwxr-xr-x root       root            13604 ./usr/lib/pulseaudio/modules/module-x11-xsmp.so
 drwxr-xr-x root       root             4096 ./usr/lib/python3.12
 -rw-r--r-- root       root             6538 ./usr/lib/python3.12/abc.py
 -rw-r--r-- root       root            34211 ./usr/lib/python3.12/aifc.py
@@ -5307,9 +5240,6 @@ drwxr-xr-x root       root             4096 ./usr/lib/systemd/user-generators
 drwxr-xr-x root       root             4096 ./usr/lib/systemd/user-preset
 -rw-r--r-- root       root              580 ./usr/lib/systemd/user-preset/90-systemd.preset
 -rw-r--r-- root       root              425 ./usr/lib/systemd/user/printer.target
--rw-r--r-- root       root             1121 ./usr/lib/systemd/user/pulseaudio.service
--rw-r--r-- root       root              147 ./usr/lib/systemd/user/pulseaudio.socket
--rw-r--r-- root       root              424 ./usr/lib/systemd/user/pulseaudio-x11.service
 -rw-r--r-- root       root              443 ./usr/lib/systemd/user/session.slice
 -rw-r--r-- root       root              450 ./usr/lib/systemd/user/shutdown.target
 -rw-r--r-- root       root              428 ./usr/lib/systemd/user/smartcard.target
@@ -5424,7 +5354,6 @@ drwxr-xr-x root       root             4096 ./usr/lib/udev/rules.d
 -rw-r--r-- root       root              295 ./usr/lib/udev/rules.d/80-net-setup-link.rules
 -rw-r--r-- root       root              528 ./usr/lib/udev/rules.d/81-net-dhcp.rules
 -rw-r--r-- root       root              769 ./usr/lib/udev/rules.d/90-iocost.rules
--rw-r--r-- root       root            12915 ./usr/lib/udev/rules.d/90-pulseaudio.rules
 -rw-r--r-- root       root              518 ./usr/lib/udev/rules.d/90-vconsole.rules
 -rw-r--r-- root       root             5103 ./usr/lib/udev/rules.d/99-systemd.rules
 -rw-r--r-- root       root              435 ./usr/lib/udev/rules.d/README
@@ -5537,9 +5466,6 @@ lrwxrwxrwx root       root               21 ./usr/sbin/vipw -> /usr/sbin/vipw.sh
 drwxr-xr-x root       root             4096 ./usr/share
 drwxr-xr-x root       root             4096 ./usr/share/alsa
 -rw-r--r-- root       root            10119 ./usr/share/alsa/alsa.conf
-drwxr-xr-x root       root             4096 ./usr/share/alsa/alsa.conf.d
--rw-r--r-- root       root              402 ./usr/share/alsa/alsa.conf.d/50-pulseaudio.conf
--rw-r--r-- root       root              201 ./usr/share/alsa/alsa.conf.d/99-pulseaudio-default.conf
 drwxr-xr-x root       root             4096 ./usr/share/alsa/cards
 -rw-r--r-- root       root              669 ./usr/share/alsa/cards/AACI.conf
 -rw-r--r-- root       root             1487 ./usr/share/alsa/cards/aliases.conf
@@ -6730,7 +6656,6 @@ drwxr-xr-x root       root             4096 ./usr/share/dbus-1/system.d
 -rw-r--r-- root       root            21419 ./usr/share/dbus-1/system.d/org.freedesktop.systemd1.conf
 -rw-r--r-- root       root              994 ./usr/share/dbus-1/system.d/org.freedesktop.timedate1.conf
 -rw-r--r-- root       root             1818 ./usr/share/dbus-1/system.d/org.freedesktop.timesync1.conf
--rw-r--r-- root       root             1084 ./usr/share/dbus-1/system.d/pulseaudio-system.conf
 drwxr-xr-x root       root             4096 ./usr/share/dbus-1/system-services
 -rw-r--r-- root       root              113 ./usr/share/dbus-1/system-services/de.pengutronix.rauc.service
 -rw-r--r-- root       root              432 ./usr/share/dbus-1/system-services/org.freedesktop.hostname1.service
@@ -8003,80 +7928,6 @@ drwxr-xr-x root       root             4096 ./usr/share/polkit-1/actions
 -rw-r--r-- root       root             4385 ./usr/share/polkit-1/actions/org.freedesktop.systemd1.policy
 -rw-r--r-- root       root             3104 ./usr/share/polkit-1/actions/org.freedesktop.timedate1.policy
 -rw-r--r-- root       root             1342 ./usr/share/polkit-1/actions/org.freedesktop.timesync1.policy
-drwxr-xr-x root       root             4096 ./usr/share/pulseaudio
-drwxr-xr-x root       root             4096 ./usr/share/pulseaudio/alsa-mixer
-drwxr-xr-x root       root             4096 ./usr/share/pulseaudio/alsa-mixer/paths
--rw-r--r-- root       root             1415 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-aux.conf
--rw-r--r-- root       root             2056 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input.conf
--rw-r--r-- root       root             5769 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input.conf.common
--rw-r--r-- root       root             2185 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-dock-mic.conf
--rw-r--r-- root       root             1420 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-fm.conf
--rw-r--r-- root       root             2196 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-front-mic.conf
--rw-r--r-- root       root             2298 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-headphone-mic.conf
--rw-r--r-- root       root             2360 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-headset-mic.conf
--rw-r--r-- root       root             2797 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic-always.conf
--rw-r--r-- root       root             3155 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic.conf
--rw-r--r-- root       root             2609 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-linein.conf
--rw-r--r-- root       root             2797 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-mic.conf
--rw-r--r-- root       root             1330 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-mic.conf.common
--rw-r--r-- root       root             1457 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-mic-line.conf
--rw-r--r-- root       root             2229 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-rear-mic.conf
--rw-r--r-- root       root             1425 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-tvtuner.conf
--rw-r--r-- root       root             1385 ./usr/share/pulseaudio/alsa-mixer/paths/analog-input-video.conf
--rw-r--r-- root       root              309 ./usr/share/pulseaudio/alsa-mixer/paths/analog-output-chat.conf
--rw-r--r-- root       root             2040 ./usr/share/pulseaudio/alsa-mixer/paths/analog-output.conf
--rw-r--r-- root       root            11778 ./usr/share/pulseaudio/alsa-mixer/paths/analog-output.conf.common
--rw-r--r-- root       root             2540 ./usr/share/pulseaudio/alsa-mixer/paths/analog-output-headphones-2.conf
--rw-r--r-- root       root             3683 ./usr/share/pulseaudio/alsa-mixer/paths/analog-output-headphones.conf
--rw-r--r-- root       root             4123 ./usr/share/pulseaudio/alsa-mixer/paths/analog-output-lineout.conf
--rw-r--r-- root       root             2044 ./usr/share/pulseaudio/alsa-mixer/paths/analog-output-mono.conf
--rw-r--r-- root       root             3887 ./usr/share/pulseaudio/alsa-mixer/paths/analog-output-speaker-always.conf
--rw-r--r-- root       root             4952 ./usr/share/pulseaudio/alsa-mixer/paths/analog-output-speaker.conf
--rw-r--r-- root       root              193 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-0.conf
--rw-r--r-- root       root              196 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-10.conf
--rw-r--r-- root       root              195 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-1.conf
--rw-r--r-- root       root              195 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-2.conf
--rw-r--r-- root       root              195 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-3.conf
--rw-r--r-- root       root              195 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-4.conf
--rw-r--r-- root       root              195 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-5.conf
--rw-r--r-- root       root              195 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-6.conf
--rw-r--r-- root       root              195 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-7.conf
--rw-r--r-- root       root              195 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-8.conf
--rw-r--r-- root       root              196 ./usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-9.conf
--rw-r--r-- root       root              789 ./usr/share/pulseaudio/alsa-mixer/paths/iec958-stereo-input.conf
--rw-r--r-- root       root              712 ./usr/share/pulseaudio/alsa-mixer/paths/iec958-stereo-output.conf
--rw-r--r-- root       root             1072 ./usr/share/pulseaudio/alsa-mixer/paths/steelseries-arctis-output-chat-common.conf
--rw-r--r-- root       root             1064 ./usr/share/pulseaudio/alsa-mixer/paths/steelseries-arctis-output-game-common.conf
--rw-r--r-- root       root             1273 ./usr/share/pulseaudio/alsa-mixer/paths/usb-gaming-headset-input.conf
--rw-r--r-- root       root             1262 ./usr/share/pulseaudio/alsa-mixer/paths/usb-gaming-headset-output-mono.conf
--rw-r--r-- root       root             1259 ./usr/share/pulseaudio/alsa-mixer/paths/usb-gaming-headset-output-stereo.conf
--rw-r--r-- root       root              102 ./usr/share/pulseaudio/alsa-mixer/paths/virtual-surround-7.1.conf
-drwxr-xr-x root       root             4096 ./usr/share/pulseaudio/alsa-mixer/profile-sets
--rw-r--r-- root       root             2778 ./usr/share/pulseaudio/alsa-mixer/profile-sets/asus-xonar-se.conf
--rw-r--r-- root       root             3909 ./usr/share/pulseaudio/alsa-mixer/profile-sets/audigy.conf
--rw-r--r-- root       root             2867 ./usr/share/pulseaudio/alsa-mixer/profile-sets/cmedia-high-speed-true-hdaudio.conf
--rw-r--r-- root       root            22299 ./usr/share/pulseaudio/alsa-mixer/profile-sets/default.conf
--rw-r--r-- root       root             1579 ./usr/share/pulseaudio/alsa-mixer/profile-sets/dell-dock-tb16-usb-audio.conf
--rw-r--r-- root       root             5491 ./usr/share/pulseaudio/alsa-mixer/profile-sets/force-speaker-and-int-mic.conf
--rw-r--r-- root       root             5456 ./usr/share/pulseaudio/alsa-mixer/profile-sets/force-speaker.conf
--rw-r--r-- root       root             1315 ./usr/share/pulseaudio/alsa-mixer/profile-sets/hp-tbt-dock-120w-g2.conf
--rw-r--r-- root       root             1395 ./usr/share/pulseaudio/alsa-mixer/profile-sets/hp-tbt-dock-audio-module.conf
--rw-r--r-- root       root             1284 ./usr/share/pulseaudio/alsa-mixer/profile-sets/kinect-audio.conf
--rw-r--r-- root       root             2714 ./usr/share/pulseaudio/alsa-mixer/profile-sets/maudio-fasttrack-pro.conf
--rw-r--r-- root       root             2769 ./usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-audio4dj.conf
--rw-r--r-- root       root             4999 ./usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-audio8dj.conf
--rw-r--r-- root       root             3380 ./usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-komplete-audio6.conf
--rw-r--r-- root       root             2713 ./usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-korecontroller.conf
--rw-r--r-- root       root             3778 ./usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio10.conf
--rw-r--r-- root       root             1583 ./usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio2.conf
--rw-r--r-- root       root             2741 ./usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio6.conf
--rw-r--r-- root       root             2419 ./usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktorkontrol-s4.conf
--rw-r--r-- root       root             3536 ./usr/share/pulseaudio/alsa-mixer/profile-sets/sb-omni-surround-5.1.conf
--rw-r--r-- root       root             1958 ./usr/share/pulseaudio/alsa-mixer/profile-sets/sennheiser-gsx.conf
--rw-r--r-- root       root             2121 ./usr/share/pulseaudio/alsa-mixer/profile-sets/simple-headphones-mic.conf
--rw-r--r-- root       root              606 ./usr/share/pulseaudio/alsa-mixer/profile-sets/steelseries-arctis-common-usb-audio.conf
--rw-r--r-- root       root             2427 ./usr/share/pulseaudio/alsa-mixer/profile-sets/texas-instruments-pcm2902.conf
--rw-r--r-- root       root             2095 ./usr/share/pulseaudio/alsa-mixer/profile-sets/usb-gaming-headset.conf
 drwxr-xr-x root       root             4096 ./usr/share/systemd
 -rw-r--r-- root       root             3809 ./usr/share/systemd/kbd-model-map
 -rw-r--r-- root       root              218 ./usr/share/systemd/language-fallback-map
@@ -8094,11 +7945,9 @@ drwxr-xr-x root       root             4096 ./var/lib
 drwxr-xr-x messagebus messagebus       4096 ./var/lib/dbus
 drwxr-xr-x root       root             4096 ./var/lib/misc
 drwxr-xr-x root       root             4096 ./var/lib/opkg
-drwxr-xr-x root       root           102400 ./var/lib/opkg/info
+drwxr-xr-x root       root            94208 ./var/lib/opkg/info
 -rw-r--r-- root       root              553 ./var/lib/opkg/info/alsa-conf.control
 -rw-r--r-- root       root             3427 ./var/lib/opkg/info/alsa-conf.list
--rw-r--r-- root       root              634 ./var/lib/opkg/info/alsa-plugins-pulseaudio-conf.control
--rw-r--r-- root       root              457 ./var/lib/opkg/info/alsa-plugins-pulseaudio-conf.list
 -rw-r--r-- root       root              480 ./var/lib/opkg/info/alsa-ucm-conf.control
 -rw-r--r-- root       root            45376 ./var/lib/opkg/info/alsa-ucm-conf.list
 -rw-r--r-- root       root               90 ./var/lib/opkg/info/base-files.conffiles
@@ -9165,12 +9014,6 @@ drwxr-xr-x root       root           102400 ./var/lib/opkg/info
 -rw-r--r-- root       root              616 ./var/lib/opkg/info/libasound2.control
 -rw-r--r-- root       root               87 ./var/lib/opkg/info/libasound2.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libasound2.postinst
--rw-r--r-- root       root              466 ./var/lib/opkg/info/libasound-module-conf-pulse.control
--rw-r--r-- root       root              110 ./var/lib/opkg/info/libasound-module-conf-pulse.list
--rw-r--r-- root       root              463 ./var/lib/opkg/info/libasound-module-ctl-pulse.control
--rw-r--r-- root       root              109 ./var/lib/opkg/info/libasound-module-ctl-pulse.list
--rw-r--r-- root       root              463 ./var/lib/opkg/info/libasound-module-pcm-pulse.control
--rw-r--r-- root       root              109 ./var/lib/opkg/info/libasound-module-pcm-pulse.list
 -rw-r--r-- root       root              500 ./var/lib/opkg/info/libattr1.control
 -rw-r--r-- root       root              151 ./var/lib/opkg/info/libattr1.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libattr1.postinst
@@ -9235,9 +9078,6 @@ drwxr-xr-x root       root           102400 ./var/lib/opkg/info
 -rw-r--r-- root       root              817 ./var/lib/opkg/info/libglib-2.0-0.list
 -rwxr-xr-x root       root              445 ./var/lib/opkg/info/libglib-2.0-0.postinst
 -rwxr-xr-x root       root              365 ./var/lib/opkg/info/libglib-2.0-0.postrm
--rw-r--r-- root       root              657 ./var/lib/opkg/info/libice6.control
--rw-r--r-- root       root              106 ./var/lib/opkg/info/libice6.list
--rwxr-xr-x root       root               97 ./var/lib/opkg/info/libice6.postinst
 -rw-r--r-- root       root              590 ./var/lib/opkg/info/libidn2-0.control
 -rw-r--r-- root       root              109 ./var/lib/opkg/info/libidn2-0.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libidn2-0.postinst
@@ -9247,9 +9087,6 @@ drwxr-xr-x root       root           102400 ./var/lib/opkg/info
 -rw-r--r-- root       root              612 ./var/lib/opkg/info/libkmod2.control
 -rw-r--r-- root       root              109 ./var/lib/opkg/info/libkmod2.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libkmod2.postinst
--rw-r--r-- root       root              579 ./var/lib/opkg/info/libltdl7.control
--rw-r--r-- root       root              109 ./var/lib/opkg/info/libltdl7.list
--rwxr-xr-x root       root               97 ./var/lib/opkg/info/libltdl7.postinst
 -rw-r--r-- root       root              576 ./var/lib/opkg/info/liblzma5.control
 -rw-r--r-- root       root              109 ./var/lib/opkg/info/liblzma5.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/liblzma5.postinst
@@ -9307,8 +9144,6 @@ drwxr-xr-x root       root           102400 ./var/lib/opkg/info
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libpulse0.postinst
 -rw-r--r-- root       root              648 ./var/lib/opkg/info/libpulsecommon.control
 -rw-r--r-- root       root              106 ./var/lib/opkg/info/libpulsecommon.list
--rw-r--r-- root       root              744 ./var/lib/opkg/info/libpulsecore.control
--rw-r--r-- root       root              104 ./var/lib/opkg/info/libpulsecore.list
 -rw-r--r-- root       root              630 ./var/lib/opkg/info/libpulse-simple0.control
 -rw-r--r-- root       root              133 ./var/lib/opkg/info/libpulse-simple0.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libpulse-simple0.postinst
@@ -9318,9 +9153,6 @@ drwxr-xr-x root       root           102400 ./var/lib/opkg/info
 -rw-r--r-- root       root              517 ./var/lib/opkg/info/libseccomp.control
 -rw-r--r-- root       root              169 ./var/lib/opkg/info/libseccomp.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libseccomp.postinst
--rw-r--r-- root       root              660 ./var/lib/opkg/info/libsm6.control
--rw-r--r-- root       root              103 ./var/lib/opkg/info/libsm6.list
--rwxr-xr-x root       root               97 ./var/lib/opkg/info/libsm6.postinst
 -rw-r--r-- root       root              425 ./var/lib/opkg/info/libsmartcols1.control
 -rw-r--r-- root       root              124 ./var/lib/opkg/info/libsmartcols1.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libsmartcols1.postinst
@@ -9330,9 +9162,6 @@ drwxr-xr-x root       root           102400 ./var/lib/opkg/info
 -rw-r--r-- root       root              525 ./var/lib/opkg/info/libsolv1.control
 -rw-r--r-- root       root               58 ./var/lib/opkg/info/libsolv1.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libsolv1.postinst
--rw-r--r-- root       root              451 ./var/lib/opkg/info/libspeexdsp1.control
--rw-r--r-- root       root              121 ./var/lib/opkg/info/libspeexdsp1.list
--rwxr-xr-x root       root               97 ./var/lib/opkg/info/libspeexdsp1.postinst
 -rw-r--r-- root       root              664 ./var/lib/opkg/info/libsqlite3-0.control
 -rw-r--r-- root       root              118 ./var/lib/opkg/info/libsqlite3-0.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libsqlite3-0.postinst
@@ -9358,9 +9187,6 @@ drwxr-xr-x root       root           102400 ./var/lib/opkg/info
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libubootenv0.postinst
 -rw-r--r-- root       root              624 ./var/lib/opkg/info/libubootenv-bin.control
 -rw-r--r-- root       root               96 ./var/lib/opkg/info/libubootenv-bin.list
--rw-r--r-- root       root              439 ./var/lib/opkg/info/libudev1.control
--rw-r--r-- root       root              109 ./var/lib/opkg/info/libudev1.list
--rwxr-xr-x root       root               97 ./var/lib/opkg/info/libudev1.postinst
 -rw-r--r-- root       root             1100 ./var/lib/opkg/info/libunistring5.control
 -rw-r--r-- root       root              124 ./var/lib/opkg/info/libunistring5.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libunistring5.postinst
@@ -9373,9 +9199,6 @@ drwxr-xr-x root       root           102400 ./var/lib/opkg/info
 -rw-r--r-- root       root              585 ./var/lib/opkg/info/libx11-6.control
 -rw-r--r-- root       root              210 ./var/lib/opkg/info/libx11-6.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libx11-6.postinst
--rw-r--r-- root       root              532 ./var/lib/opkg/info/libx11-xcb1.control
--rw-r--r-- root       root              118 ./var/lib/opkg/info/libx11-xcb1.list
--rwxr-xr-x root       root               97 ./var/lib/opkg/info/libx11-xcb1.postinst
 -rw-r--r-- root       root              503 ./var/lib/opkg/info/libxau6.control
 -rw-r--r-- root       root              106 ./var/lib/opkg/info/libxau6.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libxau6.postinst
@@ -9385,18 +9208,9 @@ drwxr-xr-x root       root           102400 ./var/lib/opkg/info
 -rw-r--r-- root       root              656 ./var/lib/opkg/info/libxdmcp6.control
 -rw-r--r-- root       root              112 ./var/lib/opkg/info/libxdmcp6.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libxdmcp6.postinst
--rw-r--r-- root       root              781 ./var/lib/opkg/info/libxext6.control
--rw-r--r-- root       root              109 ./var/lib/opkg/info/libxext6.list
--rwxr-xr-x root       root               97 ./var/lib/opkg/info/libxext6.postinst
--rw-r--r-- root       root              633 ./var/lib/opkg/info/libxi6.control
--rw-r--r-- root       root              103 ./var/lib/opkg/info/libxi6.list
--rwxr-xr-x root       root               97 ./var/lib/opkg/info/libxi6.postinst
 -rw-r--r-- root       root              782 ./var/lib/opkg/info/libxml2.control
 -rw-r--r-- root       root              111 ./var/lib/opkg/info/libxml2.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libxml2.postinst
--rw-r--r-- root       root              544 ./var/lib/opkg/info/libxtst6.control
--rw-r--r-- root       root              109 ./var/lib/opkg/info/libxtst6.list
--rwxr-xr-x root       root               97 ./var/lib/opkg/info/libxtst6.postinst
 -rw-r--r-- root       root              500 ./var/lib/opkg/info/libyaml-0-2.control
 -rw-r--r-- root       root              115 ./var/lib/opkg/info/libyaml-0-2.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libyaml-0-2.postinst
@@ -9466,69 +9280,6 @@ drwxr-xr-x root       root           102400 ./var/lib/opkg/info
 -rw-r--r-- root       root               91 ./var/lib/opkg/info/pam-plugin-unix.list
 -rw-r--r-- root       root              453 ./var/lib/opkg/info/pam-plugin-warn.control
 -rw-r--r-- root       root               91 ./var/lib/opkg/info/pam-plugin-warn.list
--rw-r--r-- root       root              510 ./var/lib/opkg/info/pulseaudio.control
--rw-r--r-- root       root              575 ./var/lib/opkg/info/pulseaudio-lib-alsa-util.control
--rw-r--r-- root       root              142 ./var/lib/opkg/info/pulseaudio-lib-alsa-util.list
--rw-r--r-- root       root              522 ./var/lib/opkg/info/pulseaudio-lib-protocol-native.control
--rw-r--r-- root       root              148 ./var/lib/opkg/info/pulseaudio-lib-protocol-native.list
--rw-r--r-- root       root                0 ./var/lib/opkg/info/pulseaudio.list
--rw-r--r-- root       root              565 ./var/lib/opkg/info/pulseaudio-module-alsa-card.control
--rw-r--r-- root       root             5702 ./var/lib/opkg/info/pulseaudio-module-alsa-card.list
--rw-r--r-- root       root              520 ./var/lib/opkg/info/pulseaudio-module-alsa-sink.control
--rw-r--r-- root       root              146 ./var/lib/opkg/info/pulseaudio-module-alsa-sink.list
--rw-r--r-- root       root              526 ./var/lib/opkg/info/pulseaudio-module-alsa-source.control
--rw-r--r-- root       root              148 ./var/lib/opkg/info/pulseaudio-module-alsa-source.list
--rw-r--r-- root       root              511 ./var/lib/opkg/info/pulseaudio-module-always-sink.control
--rw-r--r-- root       root              148 ./var/lib/opkg/info/pulseaudio-module-always-sink.list
--rw-r--r-- root       root              532 ./var/lib/opkg/info/pulseaudio-module-augment-properties.control
--rw-r--r-- root       root              155 ./var/lib/opkg/info/pulseaudio-module-augment-properties.list
--rw-r--r-- root       root              514 ./var/lib/opkg/info/pulseaudio-module-card-restore.control
--rw-r--r-- root       root              149 ./var/lib/opkg/info/pulseaudio-module-card-restore.list
--rw-r--r-- root       root              544 ./var/lib/opkg/info/pulseaudio-module-default-device-restore.control
--rw-r--r-- root       root              159 ./var/lib/opkg/info/pulseaudio-module-default-device-restore.list
--rw-r--r-- root       root              475 ./var/lib/opkg/info/pulseaudio-module-detect.control
--rw-r--r-- root       root              143 ./var/lib/opkg/info/pulseaudio-module-detect.list
--rw-r--r-- root       root              562 ./var/lib/opkg/info/pulseaudio-module-device-manager.control
--rw-r--r-- root       root              151 ./var/lib/opkg/info/pulseaudio-module-device-manager.list
--rw-r--r-- root       root              562 ./var/lib/opkg/info/pulseaudio-module-device-restore.control
--rw-r--r-- root       root              151 ./var/lib/opkg/info/pulseaudio-module-device-restore.list
--rw-r--r-- root       root              514 ./var/lib/opkg/info/pulseaudio-module-filter-apply.control
--rw-r--r-- root       root              149 ./var/lib/opkg/info/pulseaudio-module-filter-apply.list
--rw-r--r-- root       root              529 ./var/lib/opkg/info/pulseaudio-module-filter-heuristics.control
--rw-r--r-- root       root              154 ./var/lib/opkg/info/pulseaudio-module-filter-heuristics.list
--rw-r--r-- root       root              520 ./var/lib/opkg/info/pulseaudio-module-intended-roles.control
--rw-r--r-- root       root              151 ./var/lib/opkg/info/pulseaudio-module-intended-roles.list
--rw-r--r-- root       root              580 ./var/lib/opkg/info/pulseaudio-module-native-protocol-unix.control
--rw-r--r-- root       root              157 ./var/lib/opkg/info/pulseaudio-module-native-protocol-unix.list
--rw-r--r-- root       root              505 ./var/lib/opkg/info/pulseaudio-module-null-sink.control
--rw-r--r-- root       root              146 ./var/lib/opkg/info/pulseaudio-module-null-sink.list
--rw-r--r-- root       root              541 ./var/lib/opkg/info/pulseaudio-module-position-event-sounds.control
--rw-r--r-- root       root              158 ./var/lib/opkg/info/pulseaudio-module-position-event-sounds.list
--rw-r--r-- root       root              499 ./var/lib/opkg/info/pulseaudio-module-rescue-streams.control
--rw-r--r-- root       root              151 ./var/lib/opkg/info/pulseaudio-module-rescue-streams.list
--rw-r--r-- root       root              505 ./var/lib/opkg/info/pulseaudio-module-role-cork.control
--rw-r--r-- root       root              146 ./var/lib/opkg/info/pulseaudio-module-role-cork.list
--rw-r--r-- root       root              588 ./var/lib/opkg/info/pulseaudio-module-stream-restore.control
--rw-r--r-- root       root              151 ./var/lib/opkg/info/pulseaudio-module-stream-restore.list
--rw-r--r-- root       root              523 ./var/lib/opkg/info/pulseaudio-module-suspend-on-idle.control
--rw-r--r-- root       root              152 ./var/lib/opkg/info/pulseaudio-module-suspend-on-idle.list
--rw-r--r-- root       root              550 ./var/lib/opkg/info/pulseaudio-module-switch-on-port-available.control
--rw-r--r-- root       root              161 ./var/lib/opkg/info/pulseaudio-module-switch-on-port-available.list
--rw-r--r-- root       root              541 ./var/lib/opkg/info/pulseaudio-module-systemd-login.control
--rw-r--r-- root       root              150 ./var/lib/opkg/info/pulseaudio-module-systemd-login.list
--rw-r--r-- root       root              532 ./var/lib/opkg/info/pulseaudio-module-udev-detect.control
--rw-r--r-- root       root              148 ./var/lib/opkg/info/pulseaudio-module-udev-detect.list
--rw-r--r-- root       root              568 ./var/lib/opkg/info/pulseaudio-module-x11-cork-request.control
--rw-r--r-- root       root              153 ./var/lib/opkg/info/pulseaudio-module-x11-cork-request.list
--rw-r--r-- root       root              572 ./var/lib/opkg/info/pulseaudio-module-x11-publish.control
--rw-r--r-- root       root              148 ./var/lib/opkg/info/pulseaudio-module-x11-publish.list
--rw-r--r-- root       root              541 ./var/lib/opkg/info/pulseaudio-module-x11-xsmp.control
--rw-r--r-- root       root              145 ./var/lib/opkg/info/pulseaudio-module-x11-xsmp.list
--rw-r--r-- root       root               66 ./var/lib/opkg/info/pulseaudio-server.conffiles
--rw-r--r-- root       root             1717 ./var/lib/opkg/info/pulseaudio-server.control
--rw-r--r-- root       root              958 ./var/lib/opkg/info/pulseaudio-server.list
--rwxr-xr-x root       root              143 ./var/lib/opkg/info/pulseaudio-server.postinst
--rwxr-xr-x root       root             5362 ./var/lib/opkg/info/pulseaudio-server.preinst
 -rw-r--r-- root       root              454 ./var/lib/opkg/info/python3-2to3.control
 -rw-r--r-- root       root            10497 ./var/lib/opkg/info/python3-2to3.list
 -rw-r--r-- root       root              551 ./var/lib/opkg/info/python3-asyncio.control
@@ -9750,7 +9501,7 @@ drwxr-xr-x root       root           102400 ./var/lib/opkg/info
 -rw-r--r-- root       root              631 ./var/lib/opkg/info/volatile-binds.list
 -rwxr-xr-x root       root              680 ./var/lib/opkg/info/volatile-binds.postinst
 -rwxr-xr-x root       root              334 ./var/lib/opkg/info/volatile-binds.prerm
--rw-r--r-- root       root           143323 ./var/lib/opkg/status
+-rw-r--r-- root       root           129013 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/local
 lrwxrwxrwx root       root               11 ./var/lock -> ../run/lock

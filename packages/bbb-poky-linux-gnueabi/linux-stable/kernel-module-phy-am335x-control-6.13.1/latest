@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = kernel-module-phy-am335x-control
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 

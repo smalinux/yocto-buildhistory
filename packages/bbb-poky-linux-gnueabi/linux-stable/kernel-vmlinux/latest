@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 17686028
+PKGSIZE = 17732272
 FILES = /boot/vmlinux-6.13.1
 FILELIST = /boot/vmlinux-6.13.1

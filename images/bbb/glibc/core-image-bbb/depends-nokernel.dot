@@ -37,17 +37,11 @@ digraph depends {
 "kernel-module-adxl34x-spi-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-adxl34x-spi-6.13.1" -> "kernel-module-adxl34x-6.13.1"
 "kernel-module-aes-arm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-aes-arm-6.13.1" -> "kernel-module-aes-generic-6.13.1"
-"kernel-module-aes-arm-6.13.1" -> "kernel-module-libaes-6.13.1"
 "kernel-module-aes-arm-bs-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-aes-arm-bs-6.13.1" -> "kernel-module-aes-arm-6.13.1"
 "kernel-module-aes-arm-bs-6.13.1" -> "kernel-module-crypto-simd-6.13.1"
-"kernel-module-aes-arm-bs-6.13.1" -> "kernel-module-libaes-6.13.1"
 "kernel-module-aes-arm-ce-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-aes-arm-ce-6.13.1" -> "kernel-module-crypto-simd-6.13.1"
-"kernel-module-aes-arm-ce-6.13.1" -> "kernel-module-libaes-6.13.1"
-"kernel-module-aes-generic-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-aes-generic-6.13.1" -> "kernel-module-libaes-6.13.1"
 "kernel-module-af-alg-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-ah6-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-ah6-6.13.1" -> "kernel-module-xfrm-algo-6.13.1"
@@ -84,7 +78,6 @@ digraph depends {
 "kernel-module-bcm-sf2-6.13.1" -> "kernel-module-dsa-core-6.13.1"
 "kernel-module-bluetooth-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-bluetooth-6.13.1" -> "kernel-module-ecdh-generic-6.13.1"
-"kernel-module-bluetooth-6.13.1" -> "kernel-module-libaes-6.13.1"
 "kernel-module-bq27xxx-battery-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-bq27xxx-battery-i2c-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-bq27xxx-battery-i2c-6.13.1" -> "kernel-module-bq27xxx-battery-6.13.1"
@@ -177,7 +170,6 @@ digraph depends {
 "kernel-module-ghash-arm-ce-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-ghash-arm-ce-6.13.1" -> "kernel-module-cryptd-6.13.1"
 "kernel-module-ghash-arm-ce-6.13.1" -> "kernel-module-gf128mul-6.13.1"
-"kernel-module-ghash-arm-ce-6.13.1" -> "kernel-module-libaes-6.13.1"
 "kernel-module-ghash-generic-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-ghash-generic-6.13.1" -> "kernel-module-gf128mul-6.13.1"
 "kernel-module-governor-passive-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
@@ -207,7 +199,6 @@ digraph depends {
 "kernel-module-lan966x-serdes-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-led-class-flash-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-leds-pca9532-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-libaes-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-libarc4-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-libcomposite-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-libdes-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
@@ -346,7 +337,6 @@ digraph depends {
 "kernel-modules" -> "kernel-module-aes-arm-6.13.1"
 "kernel-modules" -> "kernel-module-aes-arm-bs-6.13.1"
 "kernel-modules" -> "kernel-module-aes-arm-ce-6.13.1"
-"kernel-modules" -> "kernel-module-aes-generic-6.13.1"
 "kernel-modules" -> "kernel-module-af-alg-6.13.1"
 "kernel-modules" -> "kernel-module-ah6-6.13.1"
 "kernel-modules" -> "kernel-module-algif-aead-6.13.1"
@@ -447,7 +437,6 @@ digraph depends {
 "kernel-modules" -> "kernel-module-lan966x-serdes-6.13.1"
 "kernel-modules" -> "kernel-module-led-class-flash-6.13.1"
 "kernel-modules" -> "kernel-module-leds-pca9532-6.13.1"
-"kernel-modules" -> "kernel-module-libaes-6.13.1"
 "kernel-modules" -> "kernel-module-libarc4-6.13.1"
 "kernel-modules" -> "kernel-module-libcomposite-6.13.1"
 "kernel-modules" -> "kernel-module-libdes-6.13.1"

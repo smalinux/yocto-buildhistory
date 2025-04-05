@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.9
-RPROVIDES = kernel-module-aes-generic
-RDEPENDS = kernel-6.13.1 kernel-module-libaes-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 30420
-FILES = /usr/lib/modules/6.13.1/kernel/crypto/.debug/aes_generic.ko /usr/lib/modules/6.13.1/kernel/crypto/aes_generic.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/aes_generic.ko

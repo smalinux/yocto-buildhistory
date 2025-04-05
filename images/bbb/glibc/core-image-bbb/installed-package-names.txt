@@ -24,7 +24,6 @@ kernel-module-adxl34x-spi-6.13.1
 kernel-module-aes-arm-6.13.1
 kernel-module-aes-arm-bs-6.13.1
 kernel-module-aes-arm-ce-6.13.1
-kernel-module-aes-generic-6.13.1
 kernel-module-af-alg-6.13.1
 kernel-module-ah6-6.13.1
 kernel-module-algif-aead-6.13.1
@@ -125,7 +124,6 @@ kernel-module-lan78xx-6.13.1
 kernel-module-lan966x-serdes-6.13.1
 kernel-module-led-class-flash-6.13.1
 kernel-module-leds-pca9532-6.13.1
-kernel-module-libaes-6.13.1
 kernel-module-libarc4-6.13.1
 kernel-module-libcomposite-6.13.1
 kernel-module-libdes-6.13.1

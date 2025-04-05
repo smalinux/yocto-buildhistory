@@ -1,6 +1,6 @@
 drwxr-xr-x root       root             4096 ./boot
 drwxr-xr-x root       root             4096 ./boot/.debug
--rwxr-xr-x root       root          8870592 ./boot/.debug/vmlinux-6.13.1
+-rwxr-xr-x root       root          8895388 ./boot/.debug/vmlinux-6.13.1
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/modules
@@ -24,7 +24,6 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/arch
 -rw-r--r-- root       root             5904 ./usr/lib/modules/6.13.1/kernel/arch/arm/crypto/.debug/sha512-arm.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/crypto
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/crypto/.debug
--rw-r--r-- root       root             5112 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/aes_generic.ko
 -rw-r--r-- root       root            12316 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/af_alg.ko
 -rw-r--r-- root       root             7460 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/algif_aead.ko
 -rw-r--r-- root       root             7444 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/algif_hash.ko
@@ -411,7 +410,6 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/lib
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/lib/crypto
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/lib/crypto/.debug
 -rw-r--r-- root       root             4944 ./usr/lib/modules/6.13.1/kernel/lib/crypto/.debug/gf128mul.ko
--rw-r--r-- root       root             3632 ./usr/lib/modules/6.13.1/kernel/lib/crypto/.debug/libaes.ko
 -rw-r--r-- root       root             2712 ./usr/lib/modules/6.13.1/kernel/lib/crypto/.debug/libarc4.ko
 -rw-r--r-- root       root             4064 ./usr/lib/modules/6.13.1/kernel/lib/crypto/.debug/libdes.ko
 -rw-r--r-- root       root             3580 ./usr/lib/modules/6.13.1/kernel/lib/crypto/.debug/libsha256.ko

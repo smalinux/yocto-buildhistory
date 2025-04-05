@@ -286,6 +286,7 @@ libexpat1
 libext2fs2
 libfdisk1
 libffi8
+libflac12
 libgcc1
 libgdbm6
 libgdbm-compat4
@@ -304,14 +305,19 @@ libnl-genl-3-200
 libnsl3
 libnss-myhostname2
 libnss-systemd2
+libogg0
 libopkg1
 libpam
 libpam-runtime
 libpanelw5
 libpcre2
+libpulse0
+libpulsecommon
+libpulse-simple0
 libpython3.12-1.0
 libseccomp
 libsmartcols1
+libsndfile1
 libsolv1
 libsqlite3-0
 libssl3
@@ -324,6 +330,7 @@ libubootenv0
 libubootenv-bin
 libunistring5
 libuuid1
+libvorbis
 libx11-6
 libxau6
 libxcb1
@@ -333,6 +340,7 @@ libyaml-0-2
 libz1
 libzstd1
 lz4
+mpg123
 ncurses-terminfo-base
 netbase
 openssh-keygen

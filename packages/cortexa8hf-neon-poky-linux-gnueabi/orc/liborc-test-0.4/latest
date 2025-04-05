@@ -1,0 +1,10 @@
+PV = 0.4.39
+PR = r0
+PKG = liborc-test-0.4-0
+PKGR = r0.0
+RPROVIDES = liborc-test-0.4 (=0.4.39)
+RDEPENDS = glibc (>= 2.39+git2+e8f5217097) liborc-0.4 (>= 0.4.39)
+RRECOMMENDS = 
+PKGSIZE = 29969
+FILES = /usr/lib/liborc-test-0.4.so /usr/lib/liborc-test-0.4.so.0 /usr/lib/liborc-test-0.4.so.0.39.0
+FILELIST = /usr/lib/liborc-test-0.4.so.0 /usr/lib/liborc-test-0.4.so.0.39.0

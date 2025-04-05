@@ -1,0 +1,9 @@
+PV = 3.24.41
+PR = r0
+PKGR = r0.0
+RPROVIDES = ab-translation gtk+3-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ab
+PKGSIZE = 27738
+FILES = /usr/share/locale/ab
+FILELIST = /usr/share/locale/ab/LC_MESSAGES/gtk30-properties.mo /usr/share/locale/ab/LC_MESSAGES/gtk30.mo

@@ -1,0 +1,9 @@
+PE = 1
+PV = 1.5.4
+PR = r0
+DEPENDS = autoconf-native automake-native libtool-cross libtool-native libxext libxrender pkgconfig-native util-macros virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc virtual/libx11 xorgproto
+PACKAGES = libxrandr-src libxrandr-dbg libxrandr-staticdev libxrandr-dev libxrandr-doc libxrandr-locale libxrandr
+LAYER = core
+LICENSE = MIT
+CONFIG = 
+SRC_URI = https://www.x.org/releases//individual/lib/libXrandr-1.5.4.tar.xz

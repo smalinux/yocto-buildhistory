@@ -1,0 +1,9 @@
+PV = 1.0.12
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 40058
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/libxv/1.0.12/include/X11/extensions/Xvlib.h /usr/src/debug/libxv/1.0.12/src/Xv.c

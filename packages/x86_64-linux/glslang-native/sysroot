@@ -1,0 +1,52 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  14 ./sysroot-providers/glslang-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/bin
+-rwxr-xr-x -          -              108648 ./usr/bin/glslang
+lrwxrwxrwx -          -                   7 ./usr/bin/glslangValidator -> glslang
+-rwxr-xr-x -          -               39008 ./usr/bin/spirv-remap
+drwxr-xr-x -          -                4096 ./usr/include
+drwxr-xr-x -          -                4096 ./usr/include/glslang
+-rw-r--r-- -          -                2895 ./usr/include/glslang/build_info.h
+drwxr-xr-x -          -                4096 ./usr/include/glslang/Include
+-rw-r--r-- -          -               11752 ./usr/include/glslang/Include/glslang_c_interface.h
+-rw-r--r-- -          -                8791 ./usr/include/glslang/Include/glslang_c_shader_types.h
+-rw-r--r-- -          -                5664 ./usr/include/glslang/Include/ResourceLimits.h
+drwxr-xr-x -          -                4096 ./usr/include/glslang/MachineIndependent
+-rw-r--r-- -          -               24757 ./usr/include/glslang/MachineIndependent/Versions.h
+drwxr-xr-x -          -                4096 ./usr/include/glslang/Public
+-rw-r--r-- -          -                2295 ./usr/include/glslang/Public/resource_limits_c.h
+-rw-r--r-- -          -                2438 ./usr/include/glslang/Public/ResourceLimits.h
+-rw-r--r-- -          -               43741 ./usr/include/glslang/Public/ShaderLang.h
+drwxr-xr-x -          -                4096 ./usr/include/glslang/SPIRV
+-rw-r--r-- -          -                1926 ./usr/include/glslang/SPIRV/disassemble.h
+-rw-r--r-- -          -                2666 ./usr/include/glslang/SPIRV/GlslangToSpv.h
+-rw-r--r-- -          -                2685 ./usr/include/glslang/SPIRV/Logger.h
+-rw-r--r-- -          -              139701 ./usr/include/glslang/SPIRV/spirv.hpp
+-rw-r--r-- -          -               11638 ./usr/include/glslang/SPIRV/SPVRemapper.h
+drwxr-xr-x -          -                4096 ./usr/lib
+drwxr-xr-x -          -                4096 ./usr/lib/cmake
+drwxr-xr-x -          -                4096 ./usr/lib/cmake/glslang
+-rw-r--r-- -          -                 430 ./usr/lib/cmake/glslang-default-resource-limitsTargets.cmake
+-rw-r--r-- -          -                1132 ./usr/lib/cmake/glslang/glslang-config.cmake
+-rw-r--r-- -          -                2765 ./usr/lib/cmake/glslang/glslang-config-version.cmake
+-rw-r--r-- -          -                5041 ./usr/lib/cmake/glslang/glslang-targets.cmake
+-rw-r--r-- -          -                3455 ./usr/lib/cmake/glslang/glslang-targets-release.cmake
+-rw-r--r-- -          -                 377 ./usr/lib/cmake/glslang-standaloneTargets.cmake
+-rw-r--r-- -          -                 373 ./usr/lib/cmake/spirv-remapTargets.cmake
+-rw-r--r-- -          -                 325 ./usr/lib/cmake/SPIRVTargets.cmake
+-rw-r--r-- -          -                 373 ./usr/lib/cmake/SPVRemapperTargets.cmake
+-rwxr-xr-x -          -               34984 ./usr/lib/libglslang-default-resource-limits.so.14.0.0
+lrwxrwxrwx -          -                  44 ./usr/lib/libglslang-default-resource-limits.so.14 -> libglslang-default-resource-limits.so.14.0.0
+lrwxrwxrwx -          -                  40 ./usr/lib/libglslang-default-resource-limits.so -> libglslang-default-resource-limits.so.14
+-rwxr-xr-x -          -             2602920 ./usr/lib/libglslang.so.14.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libglslang.so.14 -> libglslang.so.14.0.0
+lrwxrwxrwx -          -                  16 ./usr/lib/libglslang.so -> libglslang.so.14
+-rwxr-xr-x -          -             3170760 ./usr/lib/libSPIRV.so.14.0.0
+lrwxrwxrwx -          -                  18 ./usr/lib/libSPIRV.so.14 -> libSPIRV.so.14.0.0
+lrwxrwxrwx -          -                  14 ./usr/lib/libSPIRV.so -> libSPIRV.so.14
+-rwxr-xr-x -          -              199272 ./usr/lib/libSPVRemapper.so.14.0.0
+lrwxrwxrwx -          -                  24 ./usr/lib/libSPVRemapper.so.14 -> libSPVRemapper.so.14.0.0
+lrwxrwxrwx -          -                  20 ./usr/lib/libSPVRemapper.so -> libSPVRemapper.so.14
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 305 ./usr/lib/pkgconfig/glslang.pc

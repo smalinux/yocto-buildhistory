@@ -1,0 +1,9 @@
+PV = 3.24.41
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glib-2.0 (>= 2.78.6) glibc (>= 2.39+git2+e8f5217097) gtk+3 (>= 3.24.41) pango (>= 1.52.1) wayland (>= 1.22.0)
+RRECOMMENDS = 
+PKGSIZE = 17736
+FILES = /usr/lib/gtk-3.0/3.0.0/immodules/im-wayland.so
+FILELIST = /usr/lib/gtk-3.0/3.0.0/immodules/im-wayland.so

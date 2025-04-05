@@ -1,0 +1,9 @@
+PE = 1
+PV = 1.1.5
+PR = r0
+DEPENDS = autoconf-native automake-native libtool-cross libtool-native libxext pkgconfig-native util-macros virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc xorgproto
+PACKAGES = libxxf86vm-src libxxf86vm-dbg libxxf86vm-staticdev libxxf86vm-dev libxxf86vm-doc libxxf86vm-locale libxxf86vm
+LAYER = core
+LICENSE = MIT
+CONFIG = 
+SRC_URI = https://www.x.org/releases//individual/lib/libXxf86vm-1.1.5.tar.xz

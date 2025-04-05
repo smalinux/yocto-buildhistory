@@ -1,0 +1,14 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/.debug
+-rwxr-xr-x root       root           482224 ./usr/lib/.debug/libatk-1.0.so.0.25010.1
+-rwxr-xr-x root       root           588300 ./usr/lib/.debug/libatk-bridge-2.0.so.0.0.0
+-rwxr-xr-x root       root           638032 ./usr/lib/.debug/libatspi.so.0.0.1
+drwxr-xr-x root       root             4096 ./usr/libexec
+drwxr-xr-x root       root             4096 ./usr/libexec/.debug
+-rwxr-xr-x root       root           236712 ./usr/libexec/.debug/at-spi2-registryd
+-rwxr-xr-x root       root            51912 ./usr/libexec/.debug/at-spi-bus-launcher
+drwxr-xr-x root       root             4096 ./usr/lib/gtk-2.0
+drwxr-xr-x root       root             4096 ./usr/lib/gtk-2.0/modules
+drwxr-xr-x root       root             4096 ./usr/lib/gtk-2.0/modules/.debug
+-rwxr-xr-x root       root             6776 ./usr/lib/gtk-2.0/modules/.debug/libatk-bridge.so

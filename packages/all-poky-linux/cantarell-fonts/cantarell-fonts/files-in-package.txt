@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/fonts
+drwxr-xr-x root       root             4096 ./usr/share/fonts/cantarell
+-rw-r--r-- root       root           170588 ./usr/share/fonts/cantarell/Cantarell-VF.otf

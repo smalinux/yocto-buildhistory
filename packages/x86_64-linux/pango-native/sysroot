@@ -1,0 +1,68 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  12 ./sysroot-providers/pango-native
+drwxr-xr-x -          -                4096 ./usr
+drwxr-xr-x -          -                4096 ./usr/bin
+-rwxr-xr-x -          -               18456 ./usr/bin/pango-list
+-rwxr-xr-x -          -               18528 ./usr/bin/pango-segmentation
+-rwxr-xr-x -          -               71992 ./usr/bin/pango-view
+drwxr-xr-x -          -                4096 ./usr/include
+drwxr-xr-x -          -                4096 ./usr/include/pango-1.0
+drwxr-xr-x -          -                4096 ./usr/include/pango-1.0/pango
+-rw-r--r-- -          -               32222 ./usr/include/pango-1.0/pango/pango-attributes.h
+-rw-r--r-- -          -                3633 ./usr/include/pango-1.0/pango/pango-bidi-type.h
+-rw-r--r-- -          -                6787 ./usr/include/pango-1.0/pango/pango-break.h
+-rw-r--r-- -          -                7935 ./usr/include/pango-1.0/pango/pangocairo.h
+-rw-r--r-- -          -                2140 ./usr/include/pango-1.0/pango/pango-color.h
+-rw-r--r-- -          -                6511 ./usr/include/pango-1.0/pango/pango-context.h
+-rw-r--r-- -          -                3813 ./usr/include/pango-1.0/pango/pango-coverage.h
+-rw-r--r-- -          -                2658 ./usr/include/pango-1.0/pango/pango-direction.h
+-rw-r--r-- -          -               15282 ./usr/include/pango-1.0/pango/pango-engine.h
+-rw-r--r-- -          -                4693 ./usr/include/pango-1.0/pango/pango-enum-types.h
+-rw-r--r-- -          -                4674 ./usr/include/pango-1.0/pango/pangofc-decoder.h
+-rw-r--r-- -          -                4143 ./usr/include/pango-1.0/pango/pangofc-font.h
+-rw-r--r-- -          -                7738 ./usr/include/pango-1.0/pango/pangofc-fontmap.h
+-rw-r--r-- -          -                 212 ./usr/include/pango-1.0/pango/pango-features.h
+-rw-r--r-- -          -               27692 ./usr/include/pango-1.0/pango/pango-font.h
+-rw-r--r-- -          -                5846 ./usr/include/pango-1.0/pango/pango-fontmap.h
+-rw-r--r-- -          -                4851 ./usr/include/pango-1.0/pango/pango-fontset.h
+-rw-r--r-- -          -                2299 ./usr/include/pango-1.0/pango/pango-fontset-simple.h
+-rw-r--r-- -          -                5661 ./usr/include/pango-1.0/pango/pangoft2.h
+-rw-r--r-- -          -               11939 ./usr/include/pango-1.0/pango/pango-glyph.h
+-rw-r--r-- -          -                6066 ./usr/include/pango-1.0/pango/pango-glyph-item.h
+-rw-r--r-- -          -                4692 ./usr/include/pango-1.0/pango/pango-gravity.h
+-rw-r--r-- -          -                1810 ./usr/include/pango-1.0/pango/pango.h
+-rw-r--r-- -          -                5349 ./usr/include/pango-1.0/pango/pango-item.h
+-rw-r--r-- -          -                2651 ./usr/include/pango-1.0/pango/pango-language.h
+-rw-r--r-- -          -               21593 ./usr/include/pango-1.0/pango/pango-layout.h
+-rw-r--r-- -          -                2156 ./usr/include/pango-1.0/pango/pango-markup.h
+-rw-r--r-- -          -                3775 ./usr/include/pango-1.0/pango/pango-matrix.h
+-rw-r--r-- -          -                2646 ./usr/include/pango-1.0/pango/pango-modules.h
+-rw-r--r-- -          -               15564 ./usr/include/pango-1.0/pango/pango-ot.h
+-rw-r--r-- -          -               11952 ./usr/include/pango-1.0/pango/pango-renderer.h
+-rw-r--r-- -          -               15188 ./usr/include/pango-1.0/pango/pango-script.h
+-rw-r--r-- -          -                4534 ./usr/include/pango-1.0/pango/pango-tabs.h
+-rw-r--r-- -          -                6683 ./usr/include/pango-1.0/pango/pango-types.h
+-rw-r--r-- -          -                5964 ./usr/include/pango-1.0/pango/pango-utils.h
+-rw-r--r-- -          -               24563 ./usr/include/pango-1.0/pango/pango-version-macros.h
+-rw-r--r-- -          -                5597 ./usr/include/pango-1.0/pango/pangoxft.h
+-rw-r--r-- -          -                5688 ./usr/include/pango-1.0/pango/pangoxft-render.h
+drwxr-xr-x -          -                4096 ./usr/lib
+-rwxr-xr-x -          -              437880 ./usr/lib/libpango-1.0.so.0.5200.1
+lrwxrwxrwx -          -                  24 ./usr/lib/libpango-1.0.so.0 -> libpango-1.0.so.0.5200.1
+lrwxrwxrwx -          -                  17 ./usr/lib/libpango-1.0.so -> libpango-1.0.so.0
+-rwxr-xr-x -          -               67576 ./usr/lib/libpangocairo-1.0.so.0.5200.1
+lrwxrwxrwx -          -                  29 ./usr/lib/libpangocairo-1.0.so.0 -> libpangocairo-1.0.so.0.5200.1
+lrwxrwxrwx -          -                  22 ./usr/lib/libpangocairo-1.0.so -> libpangocairo-1.0.so.0
+-rwxr-xr-x -          -              108408 ./usr/lib/libpangoft2-1.0.so.0.5200.1
+lrwxrwxrwx -          -                  27 ./usr/lib/libpangoft2-1.0.so.0 -> libpangoft2-1.0.so.0.5200.1
+lrwxrwxrwx -          -                  20 ./usr/lib/libpangoft2-1.0.so -> libpangoft2-1.0.so.0
+-rwxr-xr-x -          -               38776 ./usr/lib/libpangoxft-1.0.so.0.5200.1
+lrwxrwxrwx -          -                  27 ./usr/lib/libpangoxft-1.0.so.0 -> libpangoxft-1.0.so.0.5200.1
+lrwxrwxrwx -          -                  20 ./usr/lib/libpangoxft-1.0.so -> libpangoxft-1.0.so.0
+drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
+-rw-r--r-- -          -                 470 ./usr/lib/pkgconfig/pangocairo.pc
+-rw-r--r-- -          -                 189 ./usr/lib/pkgconfig/pangofc.pc
+-rw-r--r-- -          -                 486 ./usr/lib/pkgconfig/pangoft2.pc
+-rw-r--r-- -          -                 205 ./usr/lib/pkgconfig/pangoot.pc
+-rw-r--r-- -          -                 440 ./usr/lib/pkgconfig/pango.pc
+-rw-r--r-- -          -                 459 ./usr/lib/pkgconfig/pangoxft.pc

@@ -1,0 +1,9 @@
+PV = 3.24.41
+PR = r0
+PKGR = r0.0
+RPROVIDES = gtk+3-locale ie-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ie
+PKGSIZE = 59987
+FILES = /usr/share/locale/ie
+FILELIST = /usr/share/locale/ie/LC_MESSAGES/gtk30-properties.mo /usr/share/locale/ie/LC_MESSAGES/gtk30.mo

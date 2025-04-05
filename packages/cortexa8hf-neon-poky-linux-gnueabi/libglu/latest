@@ -1,0 +1,9 @@
+PE = 2
+PV = 9.0.3
+PR = r0
+DEPENDS = meson-native ninja-native pkgconfig-native python3-native qemu-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc virtual/libgl
+PACKAGES = libglu-src libglu-dbg libglu-staticdev libglu-dev libglu-doc libglu-locale libglu
+LAYER = core
+LICENSE = MIT
+CONFIG = 
+SRC_URI = https://mesa.freedesktop.org/archive/glu/glu-9.0.3.tar.xz

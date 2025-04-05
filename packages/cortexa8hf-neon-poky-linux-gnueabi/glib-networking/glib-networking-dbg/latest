@@ -1,0 +1,9 @@
+PV = 2.78.1
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glib-2.0-dbg glibc-dbg gnutls-dbg
+PKGSIZE = 826896
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/lib/gio/modules/.debug/libgioenvironmentproxy.so /usr/lib/gio/modules/.debug/libgiognutls.so /usr/libexec/installed-tests/glib-networking/.debug/certificate-gnutls /usr/libexec/installed-tests/glib-networking/.debug/connection-gnutls /usr/libexec/installed-tests/glib-networking/.debug/environment /usr/libexec/installed-tests/glib-networking/.debug/file-database-gnutls /usr/libexec/installed-tests/glib-networking/.debug/mock-pkcs11.so

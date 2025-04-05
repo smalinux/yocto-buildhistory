@@ -1,0 +1,21 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root             9604 ./usr/bin/pango-list
+-rwxr-xr-x root       root             9612 ./usr/bin/pango-segmentation
+-rwxr-xr-x root       root            50736 ./usr/bin/pango-view
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/girepository-1.0
+-rw-r--r-- root       root            76908 ./usr/lib/girepository-1.0/Pango-1.0.typelib
+-rw-r--r-- root       root             4412 ./usr/lib/girepository-1.0/PangoCairo-1.0.typelib
+-rw-r--r-- root       root             3928 ./usr/lib/girepository-1.0/PangoFc-1.0.typelib
+-rw-r--r-- root       root             2856 ./usr/lib/girepository-1.0/PangoFT2-1.0.typelib
+-rw-r--r-- root       root             5584 ./usr/lib/girepository-1.0/PangoOT-1.0.typelib
+-rw-r--r-- root       root             4280 ./usr/lib/girepository-1.0/PangoXft-1.0.typelib
+-rwxr-xr-x root       root           358484 ./usr/lib/libpango-1.0.so.0.5200.1
+lrwxrwxrwx root       root               24 ./usr/lib/libpango-1.0.so.0 -> libpango-1.0.so.0.5200.1
+-rwxr-xr-x root       root            46400 ./usr/lib/libpangocairo-1.0.so.0.5200.1
+lrwxrwxrwx root       root               29 ./usr/lib/libpangocairo-1.0.so.0 -> libpangocairo-1.0.so.0.5200.1
+-rwxr-xr-x root       root            75000 ./usr/lib/libpangoft2-1.0.so.0.5200.1
+lrwxrwxrwx root       root               27 ./usr/lib/libpangoft2-1.0.so.0 -> libpangoft2-1.0.so.0.5200.1
+-rwxr-xr-x root       root            25848 ./usr/lib/libpangoxft-1.0.so.0.5200.1
+lrwxrwxrwx root       root               27 ./usr/lib/libpangoxft-1.0.so.0 -> libpangoxft-1.0.so.0.5200.1

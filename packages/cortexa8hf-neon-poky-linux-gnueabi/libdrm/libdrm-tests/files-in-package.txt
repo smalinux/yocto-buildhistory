@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            13704 ./usr/bin/amdgpu_stress
+-rwxr-xr-x root       root             9604 ./usr/bin/drmdevice
+-rwxr-xr-x root       root             9608 ./usr/bin/etnaviv_2d_test
+-rwxr-xr-x root       root             5520 ./usr/bin/etnaviv_bo_cache_test
+-rwxr-xr-x root       root             5520 ./usr/bin/etnaviv_cmd_stream_test
+-rwxr-xr-x root       root            13752 ./usr/bin/modeprint
+-rwxr-xr-x root       root            79320 ./usr/bin/modetest
+-rwxr-xr-x root       root            13752 ./usr/bin/proptest
+-rwxr-xr-x root       root             9660 ./usr/bin/vbltest

@@ -1,0 +1,10 @@
+PV = 1.3.275.0
+PR = r0
+PKG = libvulkan1
+PKGR = r0.0
+RPROVIDES = vulkan-loader (=1.3.275.0)
+RDEPENDS = glibc (>= 2.39+git2+e8f5217097)
+RRECOMMENDS = mesa-vulkan-drivers
+PKGSIZE = 492920
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /usr/bin/* /usr/sbin/* /usr/lib/*.so.* /lib/udev /usr/lib/udev /usr/lib/udev /usr/lib/udev /usr/share/vulkan-loader /usr/lib/vulkan-loader/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libvulkan.so.1 /usr/lib/libvulkan.so.1.3.275

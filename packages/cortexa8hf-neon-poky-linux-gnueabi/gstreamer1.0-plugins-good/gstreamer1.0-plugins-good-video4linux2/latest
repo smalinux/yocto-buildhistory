@@ -1,0 +1,9 @@
+PV = 1.22.12
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glib-2.0 (>= 2.78.6) glibc (>= 2.39+git2+e8f5217097) gstreamer1.0 (>= 1.22.12) libgstallocators-1.0 (>= 1.22.12) libgstvideo-1.0 (>= 1.22.12) libgudev (>= 238)
+RRECOMMENDS = 
+PKGSIZE = 325192
+FILES = /usr/lib/gstreamer-1.0/libgstvideo4linux2.so
+FILELIST = /usr/lib/gstreamer-1.0/libgstvideo4linux2.so

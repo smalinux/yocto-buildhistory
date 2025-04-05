@@ -1,0 +1,8 @@
+PV = 1.5.10
+PR = r0
+DEPENDS = meson-native ninja-native pkgconfig-native python3-native qemu-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/egl virtual/libc virtual/libgl virtual/libx11
+PACKAGES = libepoxy-src libepoxy-dbg libepoxy-staticdev libepoxy-dev libepoxy-doc libepoxy-locale libepoxy
+LAYER = core
+LICENSE = MIT
+CONFIG = egl x11
+SRC_URI = git://github.com/anholt/libepoxy;branch=master;protocol=https

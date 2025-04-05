@@ -1,0 +1,8 @@
+PV = 1.0.12
+PR = r0
+DEPENDS = autoconf-native automake-native libtool-cross libtool-native libxext pkgconfig-native util-macros virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc xorgproto
+PACKAGES = libxv-src libxv-dbg libxv-staticdev libxv-dev libxv-doc libxv-locale libxv
+LAYER = core
+LICENSE = MIT
+CONFIG = 
+SRC_URI = https://www.x.org/releases//individual/lib/libXv-1.0.12.tar.xz

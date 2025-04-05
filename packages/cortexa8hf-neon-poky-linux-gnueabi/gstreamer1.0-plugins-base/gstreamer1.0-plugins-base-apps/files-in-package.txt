@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            13764 ./usr/bin/gst-device-monitor-1.0
+-rwxr-xr-x root       root            21900 ./usr/bin/gst-discoverer-1.0
+-rwxr-xr-x root       root            38332 ./usr/bin/gst-play-1.0

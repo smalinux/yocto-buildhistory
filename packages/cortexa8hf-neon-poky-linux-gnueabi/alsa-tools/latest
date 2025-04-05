@@ -1,0 +1,8 @@
+PV = 1.2.11
+PR = r0
+DEPENDS = alsa-lib autoconf-native automake-native glib-2.0 gtk+3 libtool-cross libtool-native pkgconfig-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+PACKAGES = alsa-tools-src alsa-tools-dbg alsa-tools-staticdev alsa-tools-dev alsa-tools-doc alsa-tools-locale alsa-tools
+LAYER = core
+LICENSE = GPL-2.0-only & LGPL-2.0-or-later
+CONFIG = as10k1 hda-verb hdajackretask hdajacksensetest hdsploader ld10k1 mixartloader pcxhrloader sb16_csp seq--sbiload sscape_ctl us428control usx2yloader vxloader
+SRC_URI = https://www.alsa-project.org/files/pub/tools/alsa-tools-1.2.11.tar.bz2

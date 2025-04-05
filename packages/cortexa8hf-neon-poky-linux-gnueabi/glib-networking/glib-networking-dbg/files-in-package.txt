@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/libexec
+drwxr-xr-x root       root             4096 ./usr/libexec/installed-tests
+drwxr-xr-x root       root             4096 ./usr/libexec/installed-tests/glib-networking
+drwxr-xr-x root       root             4096 ./usr/libexec/installed-tests/glib-networking/.debug
+-rwxr-xr-x root       root            63024 ./usr/libexec/installed-tests/glib-networking/.debug/certificate-gnutls
+-rwxr-xr-x root       root           165528 ./usr/libexec/installed-tests/glib-networking/.debug/connection-gnutls
+-rwxr-xr-x root       root            24080 ./usr/libexec/installed-tests/glib-networking/.debug/environment
+-rwxr-xr-x root       root            42160 ./usr/libexec/installed-tests/glib-networking/.debug/file-database-gnutls
+-rwxr-xr-x root       root            81072 ./usr/libexec/installed-tests/glib-networking/.debug/mock-pkcs11.so
+drwxr-xr-x root       root             4096 ./usr/lib/gio
+drwxr-xr-x root       root             4096 ./usr/lib/gio/modules
+drwxr-xr-x root       root             4096 ./usr/lib/gio/modules/.debug
+-rwxr-xr-x root       root            25040 ./usr/lib/gio/modules/.debug/libgioenvironmentproxy.so
+-rwxr-xr-x root       root           425992 ./usr/lib/gio/modules/.debug/libgiognutls.so

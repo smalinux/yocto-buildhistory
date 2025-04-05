@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/libpsl
+drwxr-xr-x root       root             4096 ./usr/src/debug/libpsl/0.21.5
+drwxr-xr-x root       root             4096 ./usr/src/debug/libpsl/0.21.5/include
+-rw-r--r-- root       root             5792 ./usr/src/debug/libpsl/0.21.5/include/libpsl.h
+drwxr-xr-x root       root             4096 ./usr/src/debug/libpsl/0.21.5/src
+-rw-r--r-- root       root             7580 ./usr/src/debug/libpsl/0.21.5/src/lookup_string_in_fixed_set.c
+-rw-r--r-- root       root            53562 ./usr/src/debug/libpsl/0.21.5/src/psl.c
+-rw-r--r-- root       root           323835 ./usr/src/debug/libpsl/0.21.5/src/suffixes_dafsa.h
+drwxr-xr-x root       root             4096 ./usr/src/debug/libpsl/0.21.5/tools
+-rw-r--r-- root       root            10268 ./usr/src/debug/libpsl/0.21.5/tools/psl.c

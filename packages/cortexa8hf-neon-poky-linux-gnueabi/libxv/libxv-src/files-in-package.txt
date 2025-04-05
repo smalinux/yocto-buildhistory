@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxv
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxv/1.0.12
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxv/1.0.12/include
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxv/1.0.12/include/X11
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxv/1.0.12/include/X11/extensions
+-rw-r--r-- root       root            10991 ./usr/src/debug/libxv/1.0.12/include/X11/extensions/Xvlib.h
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxv/1.0.12/src
+-rw-r--r-- root       root            29067 ./usr/src/debug/libxv/1.0.12/src/Xv.c

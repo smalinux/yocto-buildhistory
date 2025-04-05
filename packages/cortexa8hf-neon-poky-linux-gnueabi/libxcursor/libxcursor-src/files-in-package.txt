@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/debug
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxcursor
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxcursor/1.2.2
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxcursor/1.2.2/include
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxcursor/1.2.2/include/X11
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxcursor/1.2.2/include/X11/Xcursor
+-rw-r--r-- root       root            13046 ./usr/src/debug/libxcursor/1.2.2/include/X11/Xcursor/Xcursor.h
+drwxr-xr-x root       root             4096 ./usr/src/debug/libxcursor/1.2.2/src
+-rw-r--r-- root       root            21545 ./usr/src/debug/libxcursor/1.2.2/src/cursor.c
+-rw-r--r-- root       root             8488 ./usr/src/debug/libxcursor/1.2.2/src/display.c
+-rw-r--r-- root       root            27087 ./usr/src/debug/libxcursor/1.2.2/src/file.c
+-rw-r--r-- root       root            12752 ./usr/src/debug/libxcursor/1.2.2/src/library.c
+-rw-r--r-- root       root             3419 ./usr/src/debug/libxcursor/1.2.2/src/xcursorint.h
+-rw-r--r-- root       root            10656 ./usr/src/debug/libxcursor/1.2.2/src/xlib.c

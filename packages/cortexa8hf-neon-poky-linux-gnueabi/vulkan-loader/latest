@@ -1,0 +1,8 @@
+PV = 1.3.275.0
+PR = r0
+DEPENDS = cmake-native libx11 libxcb libxrandr ninja-native pkgconfig-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc vulkan-headers wayland
+PACKAGES = vulkan-loader-src vulkan-loader-dbg vulkan-loader-staticdev vulkan-loader-dev vulkan-loader-doc vulkan-loader-locale vulkan-loader
+LAYER = core
+LICENSE = Apache-2.0
+CONFIG = wayland x11
+SRC_URI = git://github.com/KhronosGroup/Vulkan-Loader.git;branch=vulkan-sdk-1.3.275;protocol=https

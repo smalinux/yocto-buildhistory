@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.22
-RPROVIDES = kernel-module-snd-soc-twl4030
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 65844
-FILES = /usr/lib/modules/6.13.1/kernel/sound/soc/codecs/.debug/snd-soc-twl4030.ko /usr/lib/modules/6.13.1/kernel/sound/soc/codecs/snd-soc-twl4030.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/sound/soc/codecs/snd-soc-twl4030.ko

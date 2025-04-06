@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = kernel-module-cpufreq-powersave
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 

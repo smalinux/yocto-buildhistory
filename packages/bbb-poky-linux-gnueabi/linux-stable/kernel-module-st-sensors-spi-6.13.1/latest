@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = kernel-module-st-sensors-spi
-RDEPENDS = kernel-6.13.1
+RDEPENDS = kernel-6.13.1 kernel-module-regmap-spi-6.13.1
 RRECOMMENDS = 
-PKGSIZE = 4872
+PKGSIZE = 4936
 FILES = /usr/lib/modules/6.13.1/kernel/drivers/iio/common/st_sensors/.debug/st_sensors_spi.ko /usr/lib/modules/6.13.1/kernel/drivers/iio/common/st_sensors/st_sensors_spi.ko
 FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/iio/common/st_sensors/st_sensors_spi.ko

@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = kernel-module-fsi-occ
 RDEPENDS = kernel-6.13.1 kernel-module-fsi-sbefifo-6.13.1
 RRECOMMENDS = 

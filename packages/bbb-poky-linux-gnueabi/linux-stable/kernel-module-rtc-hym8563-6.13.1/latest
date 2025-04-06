@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = kernel-module-rtc-hym8563
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 

@@ -1,6 +1,6 @@
 drwxr-xr-x root       root             4096 ./boot
 drwxr-xr-x root       root             4096 ./boot/.debug
--rwxr-xr-x root       root          9331720 ./boot/.debug/vmlinux-6.13.1
+-rwxr-xr-x root       root          8930428 ./boot/.debug/vmlinux-6.13.1
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/modules
@@ -49,11 +49,14 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/cryp
 -rw-r--r-- root       root             7288 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/jitterentropy_rng.ko
 -rw-r--r-- root       root             4684 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/md5.ko
 -rw-r--r-- root       root             4644 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/seqiv.ko
--rw-r--r-- root       root             5732 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/sha256_generic.ko
 -rw-r--r-- root       root             5700 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/sha3_generic.ko
 -rw-r--r-- root       root             5876 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/sha512_generic.ko
 -rw-r--r-- root       root             6168 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/xts.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/base
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/base/regmap
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/base/regmap/.debug
+-rw-r--r-- root       root             3956 ./usr/lib/modules/6.13.1/kernel/drivers/base/regmap/.debug/regmap-spi.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/bluetooth
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/bluetooth/.debug
 -rw-r--r-- root       root             9392 ./usr/lib/modules/6.13.1/kernel/drivers/bluetooth/.debug/btbcm.ko
@@ -410,7 +413,6 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/lib/
 -rw-r--r-- root       root             3632 ./usr/lib/modules/6.13.1/kernel/lib/crypto/.debug/libaes.ko
 -rw-r--r-- root       root             2712 ./usr/lib/modules/6.13.1/kernel/lib/crypto/.debug/libarc4.ko
 -rw-r--r-- root       root             4064 ./usr/lib/modules/6.13.1/kernel/lib/crypto/.debug/libdes.ko
--rw-r--r-- root       root             3580 ./usr/lib/modules/6.13.1/kernel/lib/crypto/.debug/libsha256.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/lib/.debug
 -rw-r--r-- root       root             2708 ./usr/lib/modules/6.13.1/kernel/lib/.debug/crc4.ko
 -rw-r--r-- root       root             2888 ./usr/lib/modules/6.13.1/kernel/lib/.debug/crc-ccitt.ko
@@ -460,12 +462,3 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/net/
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/net/xfrm/.debug
 -rw-r--r-- root       root             6644 ./usr/lib/modules/6.13.1/kernel/net/xfrm/.debug/xfrm_algo.ko
 -rw-r--r-- root       root             6124 ./usr/lib/modules/6.13.1/kernel/net/xfrm/.debug/xfrm_ipcomp.ko
-drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound
-drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/soc
-drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/soc/codecs
-drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/soc/codecs/.debug
--rw-r--r-- root       root             7916 ./usr/lib/modules/6.13.1/kernel/sound/soc/codecs/.debug/snd-soc-hdmi-codec.ko
--rw-r--r-- root       root            22056 ./usr/lib/modules/6.13.1/kernel/sound/soc/codecs/.debug/snd-soc-twl4030.ko
-drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/soc/ti
-drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/soc/ti/.debug
--rw-r--r-- root       root             3316 ./usr/lib/modules/6.13.1/kernel/sound/soc/ti/.debug/snd-soc-omap3pandora.ko

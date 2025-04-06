@@ -354,7 +354,6 @@ kernel-module-snd-timer-6.13.1
 kernel-module-snd-ump-6.13.1
 kernel-module-snd-usb-audio-6.13.1
 kernel-module-snd-usbmidi-lib-6.13.1
-kernel-module-soundcore-6.13.1
 kernel-module-spi-gpio-6.13.1
 kernel-module-st1232-6.13.1
 kernel-module-st-accel-6.13.1
@@ -372,6 +371,7 @@ kernel-module-tag-rzn1-a5psw-6.13.1
 kernel-module-tc358764-6.13.1
 kernel-module-tc358768-6.13.1
 kernel-module-tda998x-6.13.1
+kernel-module-test-xarray-6.13.1
 kernel-module-thermal-generic-adc-6.13.1
 kernel-module-ti-tfp410-6.13.1
 kernel-module-ti-tpd12s015-6.13.1

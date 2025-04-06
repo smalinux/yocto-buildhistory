@@ -211,6 +211,7 @@
 89	KiB	libgstsdp-1.0-0
 89	KiB	kernel-module-nfc-6.13.1
 89	KiB	gstreamer1.0-plugins-base-alsa
+87	KiB	kernel-module-test-xarray-6.13.1
 85	KiB	openssl-ossl-module-legacy
 85	KiB	libxcb-glx0
 85	KiB	gstreamer1.0-plugins-good-soup
@@ -634,7 +635,6 @@
 5	KiB	libx11-xcb1
 5	KiB	kernel-module-tag-none-6.13.1
 5	KiB	kernel-module-st-sensors-spi-6.13.1
-5	KiB	kernel-module-soundcore-6.13.1
 5	KiB	kernel-module-geniv-6.13.1
 5	KiB	kernel-module-brcmfmac-wcc-6.13.1
 5	KiB	kernel-module-brcmfmac-cyw-6.13.1

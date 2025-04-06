@@ -1,6 +1,6 @@
 drwxr-xr-x root       root             4096 ./boot
 drwxr-xr-x root       root             4096 ./boot/.debug
--rwxr-xr-x root       root          8918384 ./boot/.debug/vmlinux-6.13.1
+-rwxr-xr-x root       root          8918876 ./boot/.debug/vmlinux-6.13.1
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/modules
@@ -424,6 +424,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/lib/
 -rw-r--r-- root       root             2708 ./usr/lib/modules/6.13.1/kernel/lib/.debug/crc4.ko
 -rw-r--r-- root       root             2888 ./usr/lib/modules/6.13.1/kernel/lib/.debug/crc-ccitt.ko
 -rw-r--r-- root       root             2888 ./usr/lib/modules/6.13.1/kernel/lib/.debug/crc-itu-t.ko
+-rw-r--r-- root       root            34996 ./usr/lib/modules/6.13.1/kernel/lib/.debug/test_xarray.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/net
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/net/bluetooth
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/net/bluetooth/.debug
@@ -478,8 +479,6 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/soun
 -rw-r--r-- root       root            17084 ./usr/lib/modules/6.13.1/kernel/sound/core/.debug/snd-rawmidi.ko
 -rw-r--r-- root       root            17756 ./usr/lib/modules/6.13.1/kernel/sound/core/.debug/snd-timer.ko
 -rw-r--r-- root       root             8140 ./usr/lib/modules/6.13.1/kernel/sound/core/.debug/snd-ump.ko
-drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/.debug
--rw-r--r-- root       root             4372 ./usr/lib/modules/6.13.1/kernel/sound/.debug/soundcore.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/usb
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/usb/.debug
 -rw-r--r-- root       root           147316 ./usr/lib/modules/6.13.1/kernel/sound/usb/.debug/snd-usb-audio.ko

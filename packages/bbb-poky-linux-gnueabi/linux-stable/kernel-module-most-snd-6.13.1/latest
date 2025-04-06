@@ -1,8 +1,8 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 RPROVIDES = kernel-module-most-snd
-RDEPENDS = kernel-6.13.1 kernel-module-most-core-6.13.1 kernel-module-snd-6.13.1 kernel-module-snd-pcm-6.13.1
+RDEPENDS = kernel-6.13.1 kernel-module-most-core-6.13.1
 RRECOMMENDS = 
 PKGSIZE = 13620
 FILES = /usr/lib/modules/6.13.1/kernel/drivers/most/.debug/most_snd.ko /usr/lib/modules/6.13.1/kernel/drivers/most/most_snd.ko

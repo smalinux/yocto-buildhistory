@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.16
-RPROVIDES = kernel-module-snd-timer
-RDEPENDS = kernel-6.13.1 kernel-module-snd-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 36940
-FILES = /usr/lib/modules/6.13.1/kernel/sound/core/.debug/snd-timer.ko /usr/lib/modules/6.13.1/kernel/sound/core/snd-timer.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/sound/core/snd-timer.ko

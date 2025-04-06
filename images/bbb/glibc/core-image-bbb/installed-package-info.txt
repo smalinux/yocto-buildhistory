@@ -4,7 +4,7 @@ mesa-megadriver mesa-megadriver mesa 24.0.7 12232
 libgtk-3.0 gtk+3 gtk+3 3.24.41 12206
 python3-core python3-core python3 3.12.6 8960
 udev-hwdb udev-hwdb systemd 255.4 8253
-kernel-image-zimage-6.13.1 kernel-image-zimage linux-stable 6.13.1 7925
+kernel-image-zimage-6.13.1 kernel-image-zimage linux-stable 6.13.1 8201
 systemd systemd systemd 255.4 6695
 libpython3.12-1.0 libpython3 python3 3.12.6 4834
 python3-setuptools python3-setuptools python3-setuptools 69.1.1 4437
@@ -101,8 +101,8 @@ libgl-mesa libgl-mesa mesa 24.0.7 398
 libmount1 util-linux-libmount util-linux 2.39.3 394
 libfontconfig1 fontconfig fontconfig 2.15.0 392
 libgmp10 gmp gmp 6.3.0 389
+kernel-module-snd-usb-audio-6.13.1 kernel-module-snd-usb-audio-6.13.1 linux-stable 6.13.1 389
 alsa-ucm-conf alsa-ucm-conf alsa-ucm-conf 1.2.11 389
-kernel-module-snd-usb-audio-6.13.1 kernel-module-snd-usb-audio-6.13.1 linux-stable 6.13.1 388
 rauc rauc rauc 1.13 387
 python3-logging python3-logging python3 3.12.6 385
 libext2fs2 libext2fs e2fsprogs 1.47.0 384
@@ -165,13 +165,13 @@ libopkg1 libopkg opkg 0.6.3 159
 python3-difflib python3-difflib python3 3.12.6 155
 liblzma5 liblzma xz 5.4.6 153
 libgstrtp-1.0-0 libgstrtp-1.0 gstreamer1.0-plugins-base 1.22.12 153
+kernel-6.13.1 kernel-base linux-stable 6.13.1 151
 libnghttp2-14 libnghttp2 nghttp2 1.61.0 149
 python3-profile python3-profile python3 3.12.6 147
 alsa-conf alsa-conf alsa-lib 1.2.11 147
 alsa-utils-aplay alsa-utils-aplay alsa-utils 1.2.11 143
 openssh-sftp-server openssh-sftp-server openssh 9.6p1 141
 libexpat1 expat expat 2.6.3 141
-kernel-6.13.1 kernel-base linux-stable 6.13.1 140
 libpam-runtime libpam-runtime libpam 1.5.3 139
 libtinfo5 ncurses-libtinfo ncurses 6.4 138
 kernel-module-rt2800lib-6.13.1 kernel-module-rt2800lib-6.13.1 linux-stable 6.13.1 138
@@ -186,7 +186,6 @@ libseccomp libseccomp libseccomp 2.5.5 127
 python3-json python3-json python3 3.12.6 126
 kmod kmod kmod 31 126
 libgstrtsp-1.0-0 libgstrtsp-1.0 gstreamer1.0-plugins-base 1.22.12 125
-kernel-module-snd-pcm-6.13.1 kernel-module-snd-pcm-6.13.1 linux-stable 6.13.1 124
 python3-sqlite3 python3-sqlite3 python3 3.12.6 121
 gstreamer1.0-plugins-good-audiofx gstreamer1.0-plugins-good-audiofx gstreamer1.0-plugins-good 1.22.12 121
 alsa-utils-alsatplg alsa-utils-alsatplg alsa-utils 1.2.11 119
@@ -223,7 +222,6 @@ gstreamer1.0-plugins-base-encoding gstreamer1.0-plugins-base-encoding gstreamer1
 libspeex1 speex speex 1.2.1 81
 gstreamer1.0-plugins-good-goom gstreamer1.0-plugins-good-goom gstreamer1.0-plugins-good 1.22.12 79
 python3-shell python3-shell python3 3.12.6 78
-kernel-module-snd-6.13.1 kernel-module-snd-6.13.1 linux-stable 6.13.1 78
 libz1 zlib zlib 1.3.1 77
 libxft2 libxft libxft 2.3.8 77
 kernel-module-tpm-6.13.1 kernel-module-tpm-6.13.1 linux-stable 6.13.1 77
@@ -318,11 +316,9 @@ kernel-module-r8a66597-hcd-6.13.1 kernel-module-r8a66597-hcd-6.13.1 linux-stable
 gstreamer1.0-plugins-good-ximagesrc gstreamer1.0-plugins-good-ximagesrc gstreamer1.0-plugins-good 1.22.12 37
 gstreamer1.0-plugins-good-replaygain gstreamer1.0-plugins-good-replaygain gstreamer1.0-plugins-good 1.22.12 37
 gstreamer1.0-plugins-base-audiomixer gstreamer1.0-plugins-base-audiomixer gstreamer1.0-plugins-base 1.22.12 37
-kernel-module-snd-timer-6.13.1 kernel-module-snd-timer-6.13.1 linux-stable 6.13.1 36
 kernel-module-ip6-tunnel-6.13.1 kernel-module-ip6-tunnel-6.13.1 linux-stable 6.13.1 36
 kernel-module-ecc-6.13.1 kernel-module-ecc-6.13.1 linux-stable 6.13.1 36
 kernel-module-atmel-mxt-ts-6.13.1 kernel-module-atmel-mxt-ts-6.13.1 linux-stable 6.13.1 36
-kernel-module-snd-rawmidi-6.13.1 kernel-module-snd-rawmidi-6.13.1 linux-stable 6.13.1 35
 kernel-module-bcm-sf2-6.13.1 kernel-module-bcm-sf2-6.13.1 linux-stable 6.13.1 35
 libe2p2 libe2p e2fsprogs 1.47.0 34
 libxrender1 libxrender libxrender 0.9.11 33
@@ -369,6 +365,7 @@ gstreamer1.0-plugins-base-volume gstreamer1.0-plugins-base-volume gstreamer1.0-p
 gstreamer1.0-plugins-base-audioconvert gstreamer1.0-plugins-base-audioconvert gstreamer1.0-plugins-base 1.22.12 25
 openssl-conf openssl-conf openssl 3.2.3 24
 kernel-module-uas-6.13.1 kernel-module-uas-6.13.1 linux-stable 6.13.1 24
+kernel-module-snd-ua101-6.13.1 kernel-module-snd-ua101-6.13.1 linux-stable 6.13.1 24
 python3-stringold python3-stringold python3 3.12.6 23
 kernel-module-onboard-usb-dev-6.13.1 kernel-module-onboard-usb-dev-6.13.1 linux-stable 6.13.1 23
 kernel-module-fsi-master-aspeed-6.13.1 kernel-module-fsi-master-aspeed-6.13.1 linux-stable 6.13.1 23
@@ -459,6 +456,7 @@ kernel-module-cppi41-6.13.1 kernel-module-cppi41-6.13.1 linux-stable 6.13.1 16
 kernel-module-ccm-6.13.1 kernel-module-ccm-6.13.1 linux-stable 6.13.1 16
 kernel-module-st-accel-6.13.1 kernel-module-st-accel-6.13.1 linux-stable 6.13.1 15
 kernel-module-snd-ump-6.13.1 kernel-module-snd-ump-6.13.1 linux-stable 6.13.1 15
+kernel-module-snd-soc-hdmi-codec-6.13.1 kernel-module-snd-soc-hdmi-codec-6.13.1 linux-stable 6.13.1 15
 kernel-module-phy-twl4030-usb-6.13.1 kernel-module-phy-twl4030-usb-6.13.1 linux-stable 6.13.1 15
 kernel-module-mms114-6.13.1 kernel-module-mms114-6.13.1 linux-stable 6.13.1 15
 kernel-module-max17040-battery-6.13.1 kernel-module-max17040-battery-6.13.1 linux-stable 6.13.1 15
@@ -497,7 +495,6 @@ kernel-module-usb-f-eem-6.13.1 kernel-module-usb-f-eem-6.13.1 linux-stable 6.13.
 kernel-module-usb-f-acm-6.13.1 kernel-module-usb-f-acm-6.13.1 linux-stable 6.13.1 12
 kernel-module-ti-tfp410-6.13.1 kernel-module-ti-tfp410-6.13.1 linux-stable 6.13.1 12
 kernel-module-spi-gpio-6.13.1 kernel-module-spi-gpio-6.13.1 linux-stable 6.13.1 12
-kernel-module-snd-hwdep-6.13.1 kernel-module-snd-hwdep-6.13.1 linux-stable 6.13.1 12
 kernel-module-sha3-generic-6.13.1 kernel-module-sha3-generic-6.13.1 linux-stable 6.13.1 12
 kernel-module-phy-cpcap-usb-6.13.1 kernel-module-phy-cpcap-usb-6.13.1 linux-stable 6.13.1 12
 kernel-module-mdio-mscc-miim-6.13.1 kernel-module-mdio-mscc-miim-6.13.1 linux-stable 6.13.1 12
@@ -531,6 +528,7 @@ dbus-common dbus-common dbus 1.14.10 11
 libubootenv-bin libubootenv-bin libubootenv 0.3.5 10
 kernel-module-xts-6.13.1 kernel-module-xts-6.13.1 linux-stable 6.13.1 10
 kernel-module-st-gyro-spi-6.13.1 kernel-module-st-gyro-spi-6.13.1 linux-stable 6.13.1 10
+kernel-module-snd-seq-ump-client-6.13.1 kernel-module-snd-seq-ump-client-6.13.1 linux-stable 6.13.1 10
 kernel-module-simple-bridge-6.13.1 kernel-module-simple-bridge-6.13.1 linux-stable 6.13.1 10
 kernel-module-sha1-arm-neon-6.13.1 kernel-module-sha1-arm-neon-6.13.1 linux-stable 6.13.1 10
 kernel-module-rtc-s35390a-6.13.1 kernel-module-rtc-s35390a-6.13.1 linux-stable 6.13.1 10
@@ -616,7 +614,6 @@ kernel-module-adxl34x-i2c-6.13.1 kernel-module-adxl34x-i2c-6.13.1 linux-stable 6
 update-rc.d update-rc.d update-rc.d 0.8+git 6
 kernel-module-tag-rzn1-a5psw-6.13.1 kernel-module-tag-rzn1-a5psw-6.13.1 linux-stable 6.13.1 6
 kernel-module-seqiv-6.13.1 kernel-module-seqiv-6.13.1 linux-stable 6.13.1 6
-kernel-module-regmap-spi-6.13.1 kernel-module-regmap-spi-6.13.1 linux-stable 6.13.1 6
 kernel-module-qrtr-smd-6.13.1 kernel-module-qrtr-smd-6.13.1 linux-stable 6.13.1 6
 kernel-module-nci-spi-6.13.1 kernel-module-nci-spi-6.13.1 linux-stable 6.13.1 6
 kernel-module-industrialio-hw-consumer-6.13.1 kernel-module-industrialio-hw-consumer-6.13.1 linux-stable 6.13.1 6

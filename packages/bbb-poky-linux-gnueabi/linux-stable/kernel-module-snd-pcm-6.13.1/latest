@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.16
-RPROVIDES = kernel-module-snd-pcm
-RDEPENDS = kernel-6.13.1 kernel-module-snd-6.13.1 kernel-module-snd-timer-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 127336
-FILES = /usr/lib/modules/6.13.1/kernel/sound/core/.debug/snd-pcm.ko /usr/lib/modules/6.13.1/kernel/sound/core/snd-pcm.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/sound/core/snd-pcm.ko

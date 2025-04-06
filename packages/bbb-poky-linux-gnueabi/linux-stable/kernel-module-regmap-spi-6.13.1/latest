@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.16
-RPROVIDES = kernel-module-regmap-spi
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 5744
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/base/regmap/.debug/regmap-spi.ko /usr/lib/modules/6.13.1/kernel/drivers/base/regmap/regmap-spi.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/base/regmap/regmap-spi.ko

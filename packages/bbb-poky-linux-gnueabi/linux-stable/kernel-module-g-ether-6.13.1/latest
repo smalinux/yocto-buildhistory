@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 RPROVIDES = kernel-module-g-ether
 RDEPENDS = kernel-6.13.1 kernel-module-libcomposite-6.13.1 kernel-module-u-ether-6.13.1 kernel-module-usb-f-rndis-6.13.1
 RRECOMMENDS = 

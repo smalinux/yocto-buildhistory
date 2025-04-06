@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 RPROVIDES = kernel-module-ghash-arm-ce
 RDEPENDS = kernel-6.13.1 kernel-module-cryptd-6.13.1 kernel-module-gf128mul-6.13.1 kernel-module-libaes-6.13.1
 RRECOMMENDS = 

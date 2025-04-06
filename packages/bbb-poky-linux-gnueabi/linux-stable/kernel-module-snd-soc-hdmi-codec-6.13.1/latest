@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.17
+RPROVIDES = kernel-module-snd-soc-hdmi-codec
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 15352
+FILES = /usr/lib/modules/6.13.1/kernel/sound/soc/codecs/.debug/snd-soc-hdmi-codec.ko /usr/lib/modules/6.13.1/kernel/sound/soc/codecs/snd-soc-hdmi-codec.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/sound/soc/codecs/snd-soc-hdmi-codec.ko

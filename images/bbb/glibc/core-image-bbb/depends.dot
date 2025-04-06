@@ -268,7 +268,6 @@ digraph depends {
 "kernel-module-gcm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-geniv-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-g-ether-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-g-ether-6.13.1" -> "kernel-module-libcomposite-6.13.1"
 "kernel-module-g-ether-6.13.1" -> "kernel-module-u-ether-6.13.1"
 "kernel-module-g-ether-6.13.1" -> "kernel-module-usb-f-rndis-6.13.1"
 "kernel-module-gf128mul-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
@@ -307,7 +306,6 @@ digraph depends {
 "kernel-module-leds-pca9532-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-libaes-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-libarc4-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-libcomposite-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-libdes-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-lvds-codec-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-mac80211-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
@@ -543,7 +541,6 @@ digraph depends {
 "kernel-modules" -> "kernel-module-leds-pca9532-6.13.1"
 "kernel-modules" -> "kernel-module-libaes-6.13.1"
 "kernel-modules" -> "kernel-module-libarc4-6.13.1"
-"kernel-modules" -> "kernel-module-libcomposite-6.13.1"
 "kernel-modules" -> "kernel-module-libdes-6.13.1"
 "kernel-modules" -> "kernel-module-lvds-codec-6.13.1"
 "kernel-modules" -> "kernel-module-mac80211-6.13.1"
@@ -730,41 +727,27 @@ digraph depends {
 "kernel-module-ucsi-stm32g0-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-ucsi-stm32g0-6.13.1" -> "kernel-module-typec-ucsi-6.13.1"
 "kernel-module-u-ether-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-u-ether-6.13.1" -> "kernel-module-libcomposite-6.13.1"
 "kernel-module-usb-f-acm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-usb-f-acm-6.13.1" -> "kernel-module-libcomposite-6.13.1"
 "kernel-module-usb-f-acm-6.13.1" -> "kernel-module-u-serial-6.13.1"
 "kernel-module-usb-f-ecm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-usb-f-ecm-6.13.1" -> "kernel-module-libcomposite-6.13.1"
 "kernel-module-usb-f-ecm-6.13.1" -> "kernel-module-u-ether-6.13.1"
 "kernel-module-usb-f-ecm-subset-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-usb-f-ecm-subset-6.13.1" -> "kernel-module-libcomposite-6.13.1"
 "kernel-module-usb-f-ecm-subset-6.13.1" -> "kernel-module-u-ether-6.13.1"
 "kernel-module-usb-f-eem-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-usb-f-eem-6.13.1" -> "kernel-module-libcomposite-6.13.1"
 "kernel-module-usb-f-eem-6.13.1" -> "kernel-module-u-ether-6.13.1"
 "kernel-module-usb-f-fs-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-usb-f-fs-6.13.1" -> "kernel-module-libcomposite-6.13.1"
 "kernel-module-usb-f-hid-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-usb-f-hid-6.13.1" -> "kernel-module-libcomposite-6.13.1"
 "kernel-module-usb-f-mass-storage-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-usb-f-mass-storage-6.13.1" -> "kernel-module-libcomposite-6.13.1"
 "kernel-module-usb-f-ncm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-usb-f-ncm-6.13.1" -> "kernel-module-libcomposite-6.13.1"
 "kernel-module-usb-f-ncm-6.13.1" -> "kernel-module-u-ether-6.13.1"
 "kernel-module-usb-f-obex-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-usb-f-obex-6.13.1" -> "kernel-module-libcomposite-6.13.1"
 "kernel-module-usb-f-obex-6.13.1" -> "kernel-module-u-serial-6.13.1"
 "kernel-module-usb-f-printer-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-usb-f-printer-6.13.1" -> "kernel-module-libcomposite-6.13.1"
 "kernel-module-usb-f-rndis-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-usb-f-rndis-6.13.1" -> "kernel-module-libcomposite-6.13.1"
 "kernel-module-usb-f-rndis-6.13.1" -> "kernel-module-u-ether-6.13.1"
 "kernel-module-usb-f-serial-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-usb-f-serial-6.13.1" -> "kernel-module-libcomposite-6.13.1"
 "kernel-module-usb-f-serial-6.13.1" -> "kernel-module-u-serial-6.13.1"
 "kernel-module-usb-f-ss-lb-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-usb-f-ss-lb-6.13.1" -> "kernel-module-libcomposite-6.13.1"
 "kernel-module-u-serial-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-vf610-adc-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-virtio-rpmsg-bus-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]

@@ -1,2 +1,2 @@
 drwxr-xr-x root       root             4096 ./boot
--rw-r--r-- root       root          8446464 ./boot/zImage-6.13.1
+-rw-r--r-- root       root          8483328 ./boot/zImage-6.13.1

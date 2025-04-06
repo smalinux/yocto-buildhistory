@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.24
+PKGR = r0.25
 RPROVIDES = kernel-module-brcmfmac-cyw
 RDEPENDS = kernel-6.13.1 kernel-module-brcmfmac-6.13.1
 RRECOMMENDS = 

@@ -23,5 +23,5 @@ meta-multimedia      = "scarthgap:4f11a12b2352bbdfafb6b7d956bf424af4992977"
 meta-rauc            = "scarthgap:76b97796be1d0303436835e56d85d7316a1029d9"
 meta-rauc-bbb        
 meta-bbb             
-workspace            = "usb-audio:b82c83d61678b7fb0b2c2b2b99782f32c2a93701"
+workspace            = "usb-audio:5fc363ea6a284eb5e4825ac5761312f243c22b21"
 

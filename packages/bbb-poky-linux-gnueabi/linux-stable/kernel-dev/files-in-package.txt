@@ -1,4 +1,4 @@
 drwxr-xr-x root       root             4096 ./boot
--rw-r--r-- root       root           188731 ./boot/config-6.13.1
--rw-r--r-- root       root           822036 ./boot/Module.symvers-6.13.1
--rw-r--r-- root       root          3452104 ./boot/System.map-6.13.1
+-rw-r--r-- root       root           188793 ./boot/config-6.13.1
+-rw-r--r-- root       root           821958 ./boot/Module.symvers-6.13.1
+-rw-r--r-- root       root          3471459 ./boot/System.map-6.13.1

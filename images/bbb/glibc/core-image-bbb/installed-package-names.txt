@@ -159,7 +159,6 @@ kernel-module-led-class-flash-6.13.1
 kernel-module-leds-pca9532-6.13.1
 kernel-module-libaes-6.13.1
 kernel-module-libarc4-6.13.1
-kernel-module-libcomposite-6.13.1
 kernel-module-libdes-6.13.1
 kernel-module-lvds-codec-6.13.1
 kernel-module-mac80211-6.13.1

@@ -1,6 +1,6 @@
 drwxr-xr-x root       root             4096 ./boot
 drwxr-xr-x root       root             4096 ./boot/.debug
--rwxr-xr-x root       root          9356548 ./boot/.debug/vmlinux-6.13.1
+-rwxr-xr-x root       root          9399664 ./boot/.debug/vmlinux-6.13.1
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/modules
@@ -346,8 +346,6 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/driv
 -rw-r--r-- root       root             5424 ./usr/lib/modules/6.13.1/kernel/drivers/thermal/.debug/thermal-generic-adc.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/usb
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/usb/gadget
-drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/usb/gadget/.debug
--rw-r--r-- root       root            33224 ./usr/lib/modules/6.13.1/kernel/drivers/usb/gadget/.debug/libcomposite.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/usb/gadget/function
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/usb/gadget/function/.debug
 -rw-r--r-- root       root            11248 ./usr/lib/modules/6.13.1/kernel/drivers/usb/gadget/function/.debug/u_ether.ko

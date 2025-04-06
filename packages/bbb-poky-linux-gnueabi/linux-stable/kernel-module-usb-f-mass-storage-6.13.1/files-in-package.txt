@@ -7,4 +7,4 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/driv
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/usb
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/usb/gadget
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/usb/gadget/function
--rw-r--r-- root       root            53688 ./usr/lib/modules/6.13.1/kernel/drivers/usb/gadget/function/usb_f_mass_storage.ko
+-rw-r--r-- root       root            53624 ./usr/lib/modules/6.13.1/kernel/drivers/usb/gadget/function/usb_f_mass_storage.ko

@@ -400,6 +400,9 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/fs
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/fs/efivarfs
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/fs/efivarfs/.debug
 -rw-r--r-- root       root            11236 ./usr/lib/modules/6.13.1/kernel/fs/efivarfs/.debug/efivarfs.ko
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/kernel
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/kernel/.debug
+-rw-r--r-- root       root             4252 ./usr/lib/modules/6.13.1/kernel/kernel/.debug/configs.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/lib
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/lib/crypto
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/lib/crypto/.debug

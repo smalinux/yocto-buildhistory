@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.25
+PKGR = r0.26
 RPROVIDES = kernel-module-ti-tpd12s015
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 

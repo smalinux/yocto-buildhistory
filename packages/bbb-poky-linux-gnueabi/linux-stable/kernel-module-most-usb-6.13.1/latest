@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.15
+RPROVIDES = kernel-module-most-usb
+RDEPENDS = kernel-6.13.1 kernel-module-most-core-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 18600
+FILES = /usr/lib/modules/6.13.1/kernel/drivers/most/.debug/most_usb.ko /usr/lib/modules/6.13.1/kernel/drivers/most/most_usb.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/most/most_usb.ko

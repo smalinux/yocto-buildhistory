@@ -302,6 +302,7 @@
 41	KiB	pam-plugin-unix
 41	KiB	libxcb-render0
 41	KiB	kernel-module-rt2800usb-6.13.1
+41	KiB	kernel-module-most-core-6.13.1
 41	KiB	kernel-module-hci-uart-6.13.1
 41	KiB	gstreamer1.0-plugins-good-jpeg
 41	KiB	gstreamer1.0-plugins-base-videoconvertscale
@@ -417,6 +418,7 @@
 18	KiB	kernel-module-u-serial-6.13.1
 18	KiB	kernel-module-rt2x00usb-6.13.1
 18	KiB	kernel-module-musb-dsps-6.13.1
+18	KiB	kernel-module-most-usb-6.13.1
 18	KiB	kernel-module-gcm-6.13.1
 18	KiB	kernel-module-fsi-sbefifo-6.13.1
 18	KiB	kernel-module-aes-arm-ce-6.13.1
@@ -481,6 +483,7 @@
 13	KiB	kernel-module-stusb160x-6.13.1
 13	KiB	kernel-module-sha512-generic-6.13.1
 13	KiB	kernel-module-rpmsg-char-6.13.1
+13	KiB	kernel-module-most-snd-6.13.1
 13	KiB	kernel-module-leds-pca9532-6.13.1
 13	KiB	kernel-module-fsi-occ-6.13.1
 13	KiB	kernel-module-c-can-platform-6.13.1

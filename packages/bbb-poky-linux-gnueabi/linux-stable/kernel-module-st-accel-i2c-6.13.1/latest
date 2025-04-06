@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = kernel-module-st-accel-i2c
 RDEPENDS = kernel-6.13.1 kernel-module-st-accel-6.13.1 kernel-module-st-sensors-6.13.1 kernel-module-st-sensors-i2c-6.13.1
 RRECOMMENDS = 

@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = kernel-module-snd-usb-audio
 RDEPENDS = kernel-6.13.1 kernel-module-snd-6.13.1 kernel-module-snd-hwdep-6.13.1 kernel-module-snd-pcm-6.13.1 kernel-module-snd-ump-6.13.1 kernel-module-snd-usbmidi-lib-6.13.1
 RRECOMMENDS = 

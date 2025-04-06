@@ -269,6 +269,9 @@ kernel-module-mdio-mscc-miim-6.13.1
 kernel-module-microchip-6.13.1
 kernel-module-mip6-6.13.1
 kernel-module-mms114-6.13.1
+kernel-module-most-core-6.13.1
+kernel-module-most-snd-6.13.1
+kernel-module-most-usb-6.13.1
 kernel-module-musb-dsps-6.13.1
 kernel-module-musb-hdrc-6.13.1
 kernel-module-mwifiex-6.13.1

@@ -211,6 +211,11 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/driv
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/misc
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/misc/.debug
 -rw-r--r-- root       root            10960 ./usr/lib/modules/6.13.1/kernel/drivers/misc/.debug/pci_endpoint_test.ko
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/most
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/most/.debug
+-rw-r--r-- root       root            24048 ./usr/lib/modules/6.13.1/kernel/drivers/most/.debug/most_core.ko
+-rw-r--r-- root       root             8424 ./usr/lib/modules/6.13.1/kernel/drivers/most/.debug/most_snd.ko
+-rw-r--r-- root       root            10464 ./usr/lib/modules/6.13.1/kernel/drivers/most/.debug/most_usb.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/net
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/net/can
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/net/can/c_can

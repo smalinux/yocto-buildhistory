@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = kernel-module-fsi-scom
 RDEPENDS = kernel-6.13.1 kernel-module-fsi-core-6.13.1
 RRECOMMENDS = 

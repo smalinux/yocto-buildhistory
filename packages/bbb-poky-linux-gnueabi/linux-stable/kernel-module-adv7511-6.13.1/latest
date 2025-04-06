@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.28
+PKGR = r0.29
 RPROVIDES = kernel-module-adv7511
 RDEPENDS = kernel-6.13.1 kernel-module-cec-6.13.1
 RRECOMMENDS = 

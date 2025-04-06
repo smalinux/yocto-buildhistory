@@ -211,7 +211,6 @@ digraph depends {
 "kernel-module-chacha-neon-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-cm36651-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-cmac-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-configs-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-counter-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-cppi41-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-cpufreq-conservative-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
@@ -474,7 +473,6 @@ digraph depends {
 "kernel-modules" -> "kernel-module-chacha-neon-6.13.1"
 "kernel-modules" -> "kernel-module-cm36651-6.13.1"
 "kernel-modules" -> "kernel-module-cmac-6.13.1"
-"kernel-modules" -> "kernel-module-configs-6.13.1"
 "kernel-modules" -> "kernel-module-counter-6.13.1"
 "kernel-modules" -> "kernel-module-cppi41-6.13.1"
 "kernel-modules" -> "kernel-module-cpufreq-conservative-6.13.1"

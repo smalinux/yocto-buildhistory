@@ -7,7 +7,7 @@ drwxr-xr-x root       root             4096 ./boot
 -rw-r--r-- root       root            68663 ./boot/am335x-bonegreen-wireless.dtb
 -rw-r--r-- root       root            68601 ./boot/am335x-pocketbeagle.dtb
 -rw-r--r-- root       root            69525 ./boot/bbb-gen4-4dcape70t.dtb
--rw-r--r-- root       root          8462848 ./boot/zImage-6.13.1
+-rw-r--r-- root       root          8507904 ./boot/zImage-6.13.1
 lrwxrwxrwx root       root               13 ./boot/zImage -> zImage-6.13.1
 drwxr-xr-x root       root             4096 ./data
 drwxr-xr-x root       root             4096 ./dev
@@ -1548,8 +1548,6 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/driv
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/fs
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/fs/efivarfs
 -rw-r--r-- root       root            20332 ./usr/lib/modules/6.13.1/kernel/fs/efivarfs/efivarfs.ko
-drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/kernel
--rw-r--r-- root       root            46396 ./usr/lib/modules/6.13.1/kernel/kernel/configs.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/lib
 -rw-r--r-- root       root             3412 ./usr/lib/modules/6.13.1/kernel/lib/crc4.ko
 -rw-r--r-- root       root             4040 ./usr/lib/modules/6.13.1/kernel/lib/crc-ccitt.ko
@@ -1600,14 +1598,14 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/soun
 -rw-r--r-- root       root            15352 ./usr/lib/modules/6.13.1/kernel/sound/soc/codecs/snd-soc-hdmi-codec.ko
 -rw-r--r-- root       root            64625 ./usr/lib/modules/6.13.1/modules.alias
 -rw-r--r-- root       root            75916 ./usr/lib/modules/6.13.1/modules.alias.bin
--rw-r--r-- root       root            17958 ./usr/lib/modules/6.13.1/modules.builtin
+-rw-r--r-- root       root            17983 ./usr/lib/modules/6.13.1/modules.builtin
 -rw-r--r-- root       root            11525 ./usr/lib/modules/6.13.1/modules.builtin.alias.bin
--rw-r--r-- root       root            20096 ./usr/lib/modules/6.13.1/modules.builtin.bin
--rw-r--r-- root       root           125019 ./usr/lib/modules/6.13.1/modules.builtin.modinfo
--rw-r--r-- root       root            16283 ./usr/lib/modules/6.13.1/modules.dep
--rw-r--r-- root       root            27755 ./usr/lib/modules/6.13.1/modules.dep.bin
+-rw-r--r-- root       root            20163 ./usr/lib/modules/6.13.1/modules.builtin.bin
+-rw-r--r-- root       root           125169 ./usr/lib/modules/6.13.1/modules.builtin.modinfo
+-rw-r--r-- root       root            16257 ./usr/lib/modules/6.13.1/modules.dep
+-rw-r--r-- root       root            27683 ./usr/lib/modules/6.13.1/modules.dep.bin
 -rw-r--r-- root       root                0 ./usr/lib/modules/6.13.1/modules.devname
--rw-r--r-- root       root             9505 ./usr/lib/modules/6.13.1/modules.order
+-rw-r--r-- root       root             9480 ./usr/lib/modules/6.13.1/modules.order
 -rw-r--r-- root       root               76 ./usr/lib/modules/6.13.1/modules.softdep
 -rw-r--r-- root       root            58585 ./usr/lib/modules/6.13.1/modules.symbols
 -rw-r--r-- root       root            73065 ./usr/lib/modules/6.13.1/modules.symbols.bin
@@ -9992,10 +9990,6 @@ drwxr-xr-x root       root           106496 ./var/lib/opkg/info
 -rw-r--r-- root       root              220 ./var/lib/opkg/info/kernel-module-cmac-6.13.1.list
 -rwxr-xr-x root       root              173 ./var/lib/opkg/info/kernel-module-cmac-6.13.1.postinst
 -rwxr-xr-x root       root              103 ./var/lib/opkg/info/kernel-module-cmac-6.13.1.postrm
--rw-r--r-- root       root              409 ./var/lib/opkg/info/kernel-module-configs-6.13.1.control
--rw-r--r-- root       root              223 ./var/lib/opkg/info/kernel-module-configs-6.13.1.list
--rwxr-xr-x root       root              173 ./var/lib/opkg/info/kernel-module-configs-6.13.1.postinst
--rwxr-xr-x root       root              103 ./var/lib/opkg/info/kernel-module-configs-6.13.1.postrm
 -rw-r--r-- root       root              380 ./var/lib/opkg/info/kernel-module-counter-6.13.1.control
 -rw-r--r-- root       root              287 ./var/lib/opkg/info/kernel-module-counter-6.13.1.list
 -rwxr-xr-x root       root              173 ./var/lib/opkg/info/kernel-module-counter-6.13.1.postinst
@@ -10536,7 +10530,7 @@ drwxr-xr-x root       root           106496 ./var/lib/opkg/info
 -rw-r--r-- root       root              360 ./var/lib/opkg/info/kernel-module-samsung-keypad-6.13.1.list
 -rwxr-xr-x root       root              173 ./var/lib/opkg/info/kernel-module-samsung-keypad-6.13.1.postinst
 -rwxr-xr-x root       root              103 ./var/lib/opkg/info/kernel-module-samsung-keypad-6.13.1.postrm
--rw-r--r-- root       root             8406 ./var/lib/opkg/info/kernel-modules.control
+-rw-r--r-- root       root             8376 ./var/lib/opkg/info/kernel-modules.control
 -rw-r--r-- root       root              403 ./var/lib/opkg/info/kernel-module-seqiv-6.13.1.control
 -rw-r--r-- root       root              221 ./var/lib/opkg/info/kernel-module-seqiv-6.13.1.list
 -rwxr-xr-x root       root              173 ./var/lib/opkg/info/kernel-module-seqiv-6.13.1.postinst
@@ -11442,7 +11436,7 @@ drwxr-xr-x root       root           106496 ./var/lib/opkg/info
 -rw-r--r-- root       root              766 ./var/lib/opkg/info/wayland.control
 -rw-r--r-- root       root              593 ./var/lib/opkg/info/wayland.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/wayland.postinst
--rw-r--r-- root       root           149991 ./var/lib/opkg/status
+-rw-r--r-- root       root           149729 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/local
 lrwxrwxrwx root       root               11 ./var/lock -> ../run/lock

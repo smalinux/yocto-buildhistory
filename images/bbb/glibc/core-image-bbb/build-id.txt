@@ -17,8 +17,11 @@ meta-arm
 meta-arm-toolchain   = "HEAD:60e31ef2c4983c0bdb8682dee6a6ec5f2e9d5f0a"
 meta-ti-bsp          
 meta-ti-extras       = "HEAD:cf6400520e0c8e370af458a71935f09673f069c5"
+meta-oe              
+meta-python          
+meta-multimedia      = "scarthgap:4f11a12b2352bbdfafb6b7d956bf424af4992977"
 meta-rauc            = "scarthgap:76b97796be1d0303436835e56d85d7316a1029d9"
 meta-rauc-bbb        
 meta-bbb             
-workspace            = "rauc:c6862f66b8b1f551e8508bc5cf07f4ad77f74c4c"
+workspace            = "scarthgap:ece3fe8d4f9a01f0e0641771b77d52e3e2a97cda"
 

@@ -2,9 +2,9 @@ drwxr-xr-x -          -                4096 ./sysroot-providers
 -rw-r--r-- -          -                   5 ./sysroot-providers/avahi
 drwxr-xr-x -          -                4096 ./usr
 drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -               18470 ./usr/bin/postinst-useradd-01group-avahi
--rwxr-xr-x -          -               18467 ./usr/bin/postinst-useradd-02user-avahi
--rwxr-xr-x -          -               18482 ./usr/bin/postinst-useradd-03groupmems-avahi
+-rwxr-xr-x -          -               18668 ./usr/bin/postinst-useradd-01group-avahi
+-rwxr-xr-x -          -               18665 ./usr/bin/postinst-useradd-02user-avahi
+-rwxr-xr-x -          -               18680 ./usr/bin/postinst-useradd-03groupmems-avahi
 drwxr-xr-x -          -                4096 ./usr/include
 drwxr-xr-x -          -                4096 ./usr/include/avahi-client
 -rw-r--r-- -          -                5119 ./usr/include/avahi-client/client.h

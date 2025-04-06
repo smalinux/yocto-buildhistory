@@ -1,6 +1,6 @@
 drwxr-xr-x root       root             4096 ./boot
 drwxr-xr-x root       root             4096 ./boot/.debug
--rwxr-xr-x root       root          8930428 ./boot/.debug/vmlinux-6.13.1
+-rwxr-xr-x root       root          9356548 ./boot/.debug/vmlinux-6.13.1
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/modules
@@ -53,10 +53,6 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/cryp
 -rw-r--r-- root       root             5876 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/sha512_generic.ko
 -rw-r--r-- root       root             6168 ./usr/lib/modules/6.13.1/kernel/crypto/.debug/xts.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers
-drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/base
-drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/base/regmap
-drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/base/regmap/.debug
--rw-r--r-- root       root             3956 ./usr/lib/modules/6.13.1/kernel/drivers/base/regmap/.debug/regmap-spi.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/bluetooth
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/drivers/bluetooth/.debug
 -rw-r--r-- root       root             9392 ./usr/lib/modules/6.13.1/kernel/drivers/bluetooth/.debug/btbcm.ko
@@ -462,3 +458,8 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/net/
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/net/xfrm/.debug
 -rw-r--r-- root       root             6644 ./usr/lib/modules/6.13.1/kernel/net/xfrm/.debug/xfrm_algo.ko
 -rw-r--r-- root       root             6124 ./usr/lib/modules/6.13.1/kernel/net/xfrm/.debug/xfrm_ipcomp.ko
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/soc
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/soc/codecs
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/soc/codecs/.debug
+-rw-r--r-- root       root             7916 ./usr/lib/modules/6.13.1/kernel/sound/soc/codecs/.debug/snd-soc-hdmi-codec.ko

@@ -207,7 +207,6 @@ kernel-module-qt1070-6.13.1
 kernel-module-r8152-6.13.1
 kernel-module-r8153-ecm-6.13.1
 kernel-module-r8a66597-hcd-6.13.1
-kernel-module-regmap-spi-6.13.1
 kernel-module-reset-ti-syscon-6.13.1
 kernel-module-resistive-adc-touch-6.13.1
 kernel-module-rpmsg-char-6.13.1
@@ -245,6 +244,7 @@ kernel-module-sii9234-6.13.1
 kernel-module-simple-bridge-6.13.1
 kernel-modules
 kernel-module-smb347-charger-6.13.1
+kernel-module-snd-soc-hdmi-codec-6.13.1
 kernel-module-spi-gpio-6.13.1
 kernel-module-st1232-6.13.1
 kernel-module-st-accel-6.13.1

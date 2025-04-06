@@ -2,7 +2,7 @@
 12206	KiB	libgtk-3.0
 8960	KiB	python3-core
 8253	KiB	udev-hwdb
-7937	KiB	kernel-image-zimage-6.13.1
+8249	KiB	kernel-image-zimage-6.13.1
 6695	KiB	systemd
 4834	KiB	libpython3.12-1.0
 4437	KiB	python3-setuptools
@@ -129,12 +129,12 @@
 155	KiB	python3-difflib
 153	KiB	liblzma5
 149	KiB	libnghttp2-14
+149	KiB	kernel-6.13.1
 147	KiB	python3-profile
 147	KiB	alsa-conf
 143	KiB	alsa-utils-aplay
 141	KiB	openssh-sftp-server
 141	KiB	libexpat1
-140	KiB	kernel-6.13.1
 139	KiB	libpam-runtime
 138	KiB	libtinfo5
 138	KiB	kernel-module-rt2800lib-6.13.1
@@ -325,6 +325,7 @@
 16	KiB	kernel-module-cppi41-6.13.1
 16	KiB	kernel-module-ccm-6.13.1
 15	KiB	kernel-module-st-accel-6.13.1
+15	KiB	kernel-module-snd-soc-hdmi-codec-6.13.1
 15	KiB	kernel-module-phy-twl4030-usb-6.13.1
 15	KiB	kernel-module-mms114-6.13.1
 15	KiB	kernel-module-max17040-battery-6.13.1
@@ -477,7 +478,6 @@
 6	KiB	update-rc.d
 6	KiB	kernel-module-tag-rzn1-a5psw-6.13.1
 6	KiB	kernel-module-seqiv-6.13.1
-6	KiB	kernel-module-regmap-spi-6.13.1
 6	KiB	kernel-module-qrtr-smd-6.13.1
 6	KiB	kernel-module-nci-spi-6.13.1
 6	KiB	kernel-module-industrialio-hw-consumer-6.13.1

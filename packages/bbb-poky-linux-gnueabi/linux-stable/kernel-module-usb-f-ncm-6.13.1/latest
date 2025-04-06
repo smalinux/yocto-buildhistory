@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.23
+PKGR = r0.24
 RPROVIDES = kernel-module-usb-f-ncm
 RDEPENDS = kernel-6.13.1 kernel-module-libcomposite-6.13.1 kernel-module-u-ether-6.13.1
 RRECOMMENDS = 

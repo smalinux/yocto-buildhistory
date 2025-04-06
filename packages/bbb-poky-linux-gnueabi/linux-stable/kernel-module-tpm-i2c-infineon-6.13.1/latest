@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.23
+PKGR = r0.24
 RPROVIDES = kernel-module-tpm-i2c-infineon
 RDEPENDS = kernel-6.13.1 kernel-module-tpm-6.13.1
 RRECOMMENDS = 

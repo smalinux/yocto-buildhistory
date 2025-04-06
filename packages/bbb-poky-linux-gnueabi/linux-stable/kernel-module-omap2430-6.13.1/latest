@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.23
+PKGR = r0.24
 RPROVIDES = kernel-module-omap2430
 RDEPENDS = kernel-6.13.1 kernel-module-musb-hdrc-6.13.1
 RRECOMMENDS = 

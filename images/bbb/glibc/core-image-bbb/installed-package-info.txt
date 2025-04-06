@@ -2,7 +2,7 @@ python3-pip python3-pip python3-pip 24.0 13535
 libgtk-3.0 gtk+3 gtk+3 3.24.41 12206
 python3-core python3-core python3 3.12.6 8960
 udev-hwdb udev-hwdb systemd 255.4 8253
-kernel-image-zimage-6.13.1 kernel-image-zimage linux-stable 6.13.1 7937
+kernel-image-zimage-6.13.1 kernel-image-zimage linux-stable 6.13.1 8249
 systemd systemd systemd 255.4 6695
 libpython3.12-1.0 libpython3 python3 3.12.6 4834
 python3-setuptools python3-setuptools python3-setuptools 69.1.1 4437
@@ -129,12 +129,12 @@ libopkg1 libopkg opkg 0.6.3 159
 python3-difflib python3-difflib python3 3.12.6 155
 liblzma5 liblzma xz 5.4.6 153
 libnghttp2-14 libnghttp2 nghttp2 1.61.0 149
+kernel-6.13.1 kernel-base linux-stable 6.13.1 149
 python3-profile python3-profile python3 3.12.6 147
 alsa-conf alsa-conf alsa-lib 1.2.11 147
 alsa-utils-aplay alsa-utils-aplay alsa-utils 1.2.11 143
 openssh-sftp-server openssh-sftp-server openssh 9.6p1 141
 libexpat1 expat expat 2.6.3 141
-kernel-6.13.1 kernel-base linux-stable 6.13.1 140
 libpam-runtime libpam-runtime libpam 1.5.3 139
 libtinfo5 ncurses-libtinfo ncurses 6.4 138
 kernel-module-rt2800lib-6.13.1 kernel-module-rt2800lib-6.13.1 linux-stable 6.13.1 138
@@ -325,6 +325,7 @@ kernel-module-crypto-engine-6.13.1 kernel-module-crypto-engine-6.13.1 linux-stab
 kernel-module-cppi41-6.13.1 kernel-module-cppi41-6.13.1 linux-stable 6.13.1 16
 kernel-module-ccm-6.13.1 kernel-module-ccm-6.13.1 linux-stable 6.13.1 16
 kernel-module-st-accel-6.13.1 kernel-module-st-accel-6.13.1 linux-stable 6.13.1 15
+kernel-module-snd-soc-hdmi-codec-6.13.1 kernel-module-snd-soc-hdmi-codec-6.13.1 linux-stable 6.13.1 15
 kernel-module-phy-twl4030-usb-6.13.1 kernel-module-phy-twl4030-usb-6.13.1 linux-stable 6.13.1 15
 kernel-module-mms114-6.13.1 kernel-module-mms114-6.13.1 linux-stable 6.13.1 15
 kernel-module-max17040-battery-6.13.1 kernel-module-max17040-battery-6.13.1 linux-stable 6.13.1 15
@@ -477,7 +478,6 @@ kernel-module-adxl34x-i2c-6.13.1 kernel-module-adxl34x-i2c-6.13.1 linux-stable 6
 update-rc.d update-rc.d update-rc.d 0.8+git 6
 kernel-module-tag-rzn1-a5psw-6.13.1 kernel-module-tag-rzn1-a5psw-6.13.1 linux-stable 6.13.1 6
 kernel-module-seqiv-6.13.1 kernel-module-seqiv-6.13.1 linux-stable 6.13.1 6
-kernel-module-regmap-spi-6.13.1 kernel-module-regmap-spi-6.13.1 linux-stable 6.13.1 6
 kernel-module-qrtr-smd-6.13.1 kernel-module-qrtr-smd-6.13.1 linux-stable 6.13.1 6
 kernel-module-nci-spi-6.13.1 kernel-module-nci-spi-6.13.1 linux-stable 6.13.1 6
 kernel-module-industrialio-hw-consumer-6.13.1 kernel-module-industrialio-hw-consumer-6.13.1 linux-stable 6.13.1 6

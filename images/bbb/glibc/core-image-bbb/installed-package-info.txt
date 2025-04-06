@@ -4,7 +4,7 @@ mesa-megadriver mesa-megadriver mesa 24.0.7 12232
 libgtk-3.0 gtk+3 gtk+3 3.24.41 12206
 python3-core python3-core python3 3.12.6 8960
 udev-hwdb udev-hwdb systemd 255.4 8253
-kernel-image-zimage-6.13.1 kernel-image-zimage linux-stable 6.13.1 7921
+kernel-image-zimage-6.13.1 kernel-image-zimage linux-stable 6.13.1 8213
 systemd systemd systemd 255.4 6695
 libpython3.12-1.0 libpython3 python3 3.12.6 4834
 python3-setuptools python3-setuptools python3-setuptools 69.1.1 4437
@@ -166,12 +166,12 @@ liblzma5 liblzma xz 5.4.6 153
 libgstrtp-1.0-0 libgstrtp-1.0 gstreamer1.0-plugins-base 1.22.12 153
 libnghttp2-14 libnghttp2 nghttp2 1.61.0 149
 python3-profile python3-profile python3 3.12.6 147
+kernel-6.13.1 kernel-base linux-stable 6.13.1 147
 alsa-conf alsa-conf alsa-lib 1.2.11 147
 alsa-utils-aplay alsa-utils-aplay alsa-utils 1.2.11 143
 openssh-sftp-server openssh-sftp-server openssh 9.6p1 141
 libexpat1 expat expat 2.6.3 141
 libpam-runtime libpam-runtime libpam 1.5.3 139
-kernel-6.13.1 kernel-base linux-stable 6.13.1 139
 libtinfo5 ncurses-libtinfo ncurses 6.4 138
 kernel-module-rt2800lib-6.13.1 kernel-module-rt2800lib-6.13.1 linux-stable 6.13.1 138
 libtirpc3 libtirpc libtirpc 1.3.4 135
@@ -240,6 +240,7 @@ libpsl5 libpsl libpsl 0.21.5 65
 kernel-module-libcomposite-6.13.1 kernel-module-libcomposite-6.13.1 linux-stable 6.13.1 65
 gstreamer1.0-plugins-base-xvimagesink gstreamer1.0-plugins-base-xvimagesink gstreamer1.0-plugins-base 1.22.12 65
 libbz2-1 libbz2 bzip2 1.0.8 64
+kernel-module-snd-soc-twl4030-6.13.1 kernel-module-snd-soc-twl4030-6.13.1 linux-stable 6.13.1 64
 alsa-utils-scripts alsa-utils-scripts alsa-utils 1.2.11 63
 gstreamer1.0-plugins-good-smpte gstreamer1.0-plugins-good-smpte gstreamer1.0-plugins-good 1.22.12 62
 gstreamer1.0-plugins-good-flac gstreamer1.0-plugins-good-flac gstreamer1.0-plugins-good 1.22.12 62
@@ -449,6 +450,7 @@ kernel-module-crypto-engine-6.13.1 kernel-module-crypto-engine-6.13.1 linux-stab
 kernel-module-cppi41-6.13.1 kernel-module-cppi41-6.13.1 linux-stable 6.13.1 16
 kernel-module-ccm-6.13.1 kernel-module-ccm-6.13.1 linux-stable 6.13.1 16
 kernel-module-st-accel-6.13.1 kernel-module-st-accel-6.13.1 linux-stable 6.13.1 15
+kernel-module-snd-soc-hdmi-codec-6.13.1 kernel-module-snd-soc-hdmi-codec-6.13.1 linux-stable 6.13.1 15
 kernel-module-phy-twl4030-usb-6.13.1 kernel-module-phy-twl4030-usb-6.13.1 linux-stable 6.13.1 15
 kernel-module-mms114-6.13.1 kernel-module-mms114-6.13.1 linux-stable 6.13.1 15
 kernel-module-max17040-battery-6.13.1 kernel-module-max17040-battery-6.13.1 linux-stable 6.13.1 15
@@ -604,7 +606,6 @@ kernel-module-adxl34x-i2c-6.13.1 kernel-module-adxl34x-i2c-6.13.1 linux-stable 6
 update-rc.d update-rc.d update-rc.d 0.8+git 6
 kernel-module-tag-rzn1-a5psw-6.13.1 kernel-module-tag-rzn1-a5psw-6.13.1 linux-stable 6.13.1 6
 kernel-module-seqiv-6.13.1 kernel-module-seqiv-6.13.1 linux-stable 6.13.1 6
-kernel-module-regmap-spi-6.13.1 kernel-module-regmap-spi-6.13.1 linux-stable 6.13.1 6
 kernel-module-qrtr-smd-6.13.1 kernel-module-qrtr-smd-6.13.1 linux-stable 6.13.1 6
 kernel-module-nci-spi-6.13.1 kernel-module-nci-spi-6.13.1 linux-stable 6.13.1 6
 kernel-module-industrialio-hw-consumer-6.13.1 kernel-module-industrialio-hw-consumer-6.13.1 linux-stable 6.13.1 6
@@ -633,6 +634,7 @@ gstreamer1.0-plugins-base-app gstreamer1.0-plugins-base-app gstreamer1.0-plugins
 volatile-binds volatile-binds volatile-binds 1.0 4
 rauc-service rauc-service rauc 1.13 4
 kernel-module-st-sensors-i2c-6.13.1 kernel-module-st-sensors-i2c-6.13.1 linux-stable 6.13.1 4
+kernel-module-snd-soc-omap3pandora-6.13.1 kernel-module-snd-soc-omap3pandora-6.13.1 linux-stable 6.13.1 4
 kernel-module-crc-itu-t-6.13.1 kernel-module-crc-itu-t-6.13.1 linux-stable 6.13.1 4
 kernel-module-crc-ccitt-6.13.1 kernel-module-crc-ccitt-6.13.1 linux-stable 6.13.1 4
 kernel-module-cpufreq-powersave-6.13.1 kernel-module-cpufreq-powersave-6.13.1 linux-stable 6.13.1 4

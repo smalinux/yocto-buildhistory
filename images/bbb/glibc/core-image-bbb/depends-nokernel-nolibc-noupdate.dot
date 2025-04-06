@@ -805,7 +805,6 @@ digraph depends {
 "kernel-module-r8153-ecm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-r8153-ecm-6.13.1" -> "kernel-module-r8152-6.13.1"
 "kernel-module-r8a66597-hcd-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-regmap-spi-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-reset-ti-syscon-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-resistive-adc-touch-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-resistive-adc-touch-6.13.1" -> "kernel-module-industrialio-buffer-cb-6.13.1"
@@ -1025,7 +1024,6 @@ digraph depends {
 "kernel-modules" -> "kernel-module-r8152-6.13.1"
 "kernel-modules" -> "kernel-module-r8153-ecm-6.13.1"
 "kernel-modules" -> "kernel-module-r8a66597-hcd-6.13.1"
-"kernel-modules" -> "kernel-module-regmap-spi-6.13.1"
 "kernel-modules" -> "kernel-module-reset-ti-syscon-6.13.1"
 "kernel-modules" -> "kernel-module-resistive-adc-touch-6.13.1"
 "kernel-modules" -> "kernel-module-rpmsg-char-6.13.1"
@@ -1063,6 +1061,9 @@ digraph depends {
 "kernel-modules" -> "kernel-module-sii9234-6.13.1"
 "kernel-modules" -> "kernel-module-simple-bridge-6.13.1"
 "kernel-modules" -> "kernel-module-smb347-charger-6.13.1"
+"kernel-modules" -> "kernel-module-snd-soc-hdmi-codec-6.13.1"
+"kernel-modules" -> "kernel-module-snd-soc-omap3pandora-6.13.1"
+"kernel-modules" -> "kernel-module-snd-soc-twl4030-6.13.1"
 "kernel-modules" -> "kernel-module-spi-gpio-6.13.1"
 "kernel-modules" -> "kernel-module-st1232-6.13.1"
 "kernel-modules" -> "kernel-module-st-accel-6.13.1"
@@ -1115,6 +1116,9 @@ digraph depends {
 "kernel-modules" -> "kernel-module-xfrm-ipcomp-6.13.1"
 "kernel-modules" -> "kernel-module-xts-6.13.1"
 "kernel-module-smb347-charger-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-snd-soc-hdmi-codec-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-snd-soc-omap3pandora-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-snd-soc-twl4030-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-spi-gpio-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-st1232-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-st-accel-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
@@ -1136,7 +1140,6 @@ digraph depends {
 "kernel-module-st-sensors-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-st-sensors-i2c-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-st-sensors-spi-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
-"kernel-module-st-sensors-spi-6.13.1" -> "kernel-module-regmap-spi-6.13.1"
 "kernel-module-stusb160x-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-stusb160x-6.13.1" -> "kernel-module-typec-6.13.1"
 "kernel-module-tag-brcm-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]

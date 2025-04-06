@@ -4,7 +4,7 @@
 12206	KiB	libgtk-3.0
 8960	KiB	python3-core
 8253	KiB	udev-hwdb
-7921	KiB	kernel-image-zimage-6.13.1
+8213	KiB	kernel-image-zimage-6.13.1
 6695	KiB	systemd
 4834	KiB	libpython3.12-1.0
 4437	KiB	python3-setuptools
@@ -166,12 +166,12 @@
 153	KiB	libgstrtp-1.0-0
 149	KiB	libnghttp2-14
 147	KiB	python3-profile
+147	KiB	kernel-6.13.1
 147	KiB	alsa-conf
 143	KiB	alsa-utils-aplay
 141	KiB	openssh-sftp-server
 141	KiB	libexpat1
 139	KiB	libpam-runtime
-139	KiB	kernel-6.13.1
 138	KiB	libtinfo5
 138	KiB	kernel-module-rt2800lib-6.13.1
 135	KiB	libtirpc3
@@ -240,6 +240,7 @@
 65	KiB	kernel-module-libcomposite-6.13.1
 65	KiB	gstreamer1.0-plugins-base-xvimagesink
 64	KiB	libbz2-1
+64	KiB	kernel-module-snd-soc-twl4030-6.13.1
 63	KiB	alsa-utils-scripts
 62	KiB	gstreamer1.0-plugins-good-smpte
 62	KiB	gstreamer1.0-plugins-good-flac
@@ -449,6 +450,7 @@
 16	KiB	kernel-module-cppi41-6.13.1
 16	KiB	kernel-module-ccm-6.13.1
 15	KiB	kernel-module-st-accel-6.13.1
+15	KiB	kernel-module-snd-soc-hdmi-codec-6.13.1
 15	KiB	kernel-module-phy-twl4030-usb-6.13.1
 15	KiB	kernel-module-mms114-6.13.1
 15	KiB	kernel-module-max17040-battery-6.13.1
@@ -604,7 +606,6 @@
 6	KiB	update-rc.d
 6	KiB	kernel-module-tag-rzn1-a5psw-6.13.1
 6	KiB	kernel-module-seqiv-6.13.1
-6	KiB	kernel-module-regmap-spi-6.13.1
 6	KiB	kernel-module-qrtr-smd-6.13.1
 6	KiB	kernel-module-nci-spi-6.13.1
 6	KiB	kernel-module-industrialio-hw-consumer-6.13.1
@@ -633,6 +634,7 @@
 4	KiB	volatile-binds
 4	KiB	rauc-service
 4	KiB	kernel-module-st-sensors-i2c-6.13.1
+4	KiB	kernel-module-snd-soc-omap3pandora-6.13.1
 4	KiB	kernel-module-crc-itu-t-6.13.1
 4	KiB	kernel-module-crc-ccitt-6.13.1
 4	KiB	kernel-module-cpufreq-powersave-6.13.1

@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.19
+PKGR = r0.20
 RPROVIDES = kernel-module-fsi-core
 RDEPENDS = kernel-6.13.1 kernel-module-crc4-6.13.1
 RRECOMMENDS = 

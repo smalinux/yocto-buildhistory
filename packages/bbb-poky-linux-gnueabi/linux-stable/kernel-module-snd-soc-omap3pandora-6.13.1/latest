@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.20
+RPROVIDES = kernel-module-snd-soc-omap3pandora
+RDEPENDS = kernel-6.13.1
+RRECOMMENDS = 
+PKGSIZE = 3900
+FILES = /usr/lib/modules/6.13.1/kernel/sound/soc/ti/.debug/snd-soc-omap3pandora.ko /usr/lib/modules/6.13.1/kernel/sound/soc/ti/snd-soc-omap3pandora.ko
+FILELIST = /usr/lib/modules/6.13.1/kernel/sound/soc/ti/snd-soc-omap3pandora.ko

@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.29
+PKGR = r0.30
 RPROVIDES = kernel-module-ipcomp6
 RDEPENDS = kernel-6.13.1 kernel-module-xfrm-ipcomp-6.13.1 kernel-module-xfrm6-tunnel-6.13.1
 RRECOMMENDS = 

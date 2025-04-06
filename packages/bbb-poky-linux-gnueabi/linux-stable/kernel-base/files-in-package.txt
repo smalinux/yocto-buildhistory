@@ -2,6 +2,6 @@ drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/modules
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1
--rw-r--r-- root       root            17983 ./usr/lib/modules/6.13.1/modules.builtin
--rw-r--r-- root       root           125169 ./usr/lib/modules/6.13.1/modules.builtin.modinfo
+-rw-r--r-- root       root            17922 ./usr/lib/modules/6.13.1/modules.builtin
+-rw-r--r-- root       root           122719 ./usr/lib/modules/6.13.1/modules.builtin.modinfo
 -rw-r--r-- root       root             9480 ./usr/lib/modules/6.13.1/modules.order

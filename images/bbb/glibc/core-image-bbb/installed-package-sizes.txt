@@ -1,8 +1,8 @@
 13535	KiB	python3-pip
 12206	KiB	libgtk-3.0
 8960	KiB	python3-core
-8309	KiB	kernel-image-zimage-6.13.1
 8253	KiB	udev-hwdb
+8185	KiB	kernel-image-zimage-6.13.1
 6695	KiB	systemd
 4834	KiB	libpython3.12-1.0
 4437	KiB	python3-setuptools
@@ -131,8 +131,8 @@
 155	KiB	python3-difflib
 153	KiB	liblzma5
 149	KiB	libnghttp2-14
-149	KiB	kernel-6.13.1
 147	KiB	python3-profile
+147	KiB	kernel-6.13.1
 147	KiB	alsa-conf
 143	KiB	alsa-utils-aplay
 141	KiB	openssh-sftp-server

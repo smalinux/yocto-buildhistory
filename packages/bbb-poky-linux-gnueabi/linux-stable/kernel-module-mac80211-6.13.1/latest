@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.26
+PKGR = r0.27
 RPROVIDES = kernel-module-mac80211
 RDEPENDS = kernel-6.13.1 kernel-module-cfg80211-6.13.1 kernel-module-libarc4-6.13.1
 RRECOMMENDS = 

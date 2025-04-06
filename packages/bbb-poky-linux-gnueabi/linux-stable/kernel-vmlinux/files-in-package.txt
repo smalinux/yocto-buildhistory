@@ -1,2 +1,2 @@
 drwxr-xr-x root       root             4096 ./boot
--rw-r--r-- root       root         18652936 ./boot/vmlinux-6.13.1
+-rw-r--r-- root       root         18570568 ./boot/vmlinux-6.13.1

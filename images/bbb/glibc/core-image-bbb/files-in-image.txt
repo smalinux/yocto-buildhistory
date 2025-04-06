@@ -7,7 +7,7 @@ drwxr-xr-x root       root             4096 ./boot
 -rw-r--r-- root       root            68663 ./boot/am335x-bonegreen-wireless.dtb
 -rw-r--r-- root       root            68601 ./boot/am335x-pocketbeagle.dtb
 -rw-r--r-- root       root            69525 ./boot/bbb-gen4-4dcape70t.dtb
--rw-r--r-- root       root          8483328 ./boot/zImage-6.13.1
+-rw-r--r-- root       root          8466944 ./boot/zImage-6.13.1
 lrwxrwxrwx root       root               13 ./boot/zImage -> zImage-6.13.1
 drwxr-xr-x root       root             4096 ./data
 drwxr-xr-x root       root             4096 ./dev
@@ -1600,10 +1600,10 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/soun
 -rw-r--r-- root       root            15352 ./usr/lib/modules/6.13.1/kernel/sound/soc/codecs/snd-soc-hdmi-codec.ko
 -rw-r--r-- root       root            64625 ./usr/lib/modules/6.13.1/modules.alias
 -rw-r--r-- root       root            75916 ./usr/lib/modules/6.13.1/modules.alias.bin
--rw-r--r-- root       root            18209 ./usr/lib/modules/6.13.1/modules.builtin
--rw-r--r-- root       root            11622 ./usr/lib/modules/6.13.1/modules.builtin.alias.bin
--rw-r--r-- root       root            20596 ./usr/lib/modules/6.13.1/modules.builtin.bin
--rw-r--r-- root       root           126607 ./usr/lib/modules/6.13.1/modules.builtin.modinfo
+-rw-r--r-- root       root            17958 ./usr/lib/modules/6.13.1/modules.builtin
+-rw-r--r-- root       root            11525 ./usr/lib/modules/6.13.1/modules.builtin.alias.bin
+-rw-r--r-- root       root            20096 ./usr/lib/modules/6.13.1/modules.builtin.bin
+-rw-r--r-- root       root           125019 ./usr/lib/modules/6.13.1/modules.builtin.modinfo
 -rw-r--r-- root       root            16283 ./usr/lib/modules/6.13.1/modules.dep
 -rw-r--r-- root       root            27755 ./usr/lib/modules/6.13.1/modules.dep.bin
 -rw-r--r-- root       root                0 ./usr/lib/modules/6.13.1/modules.devname

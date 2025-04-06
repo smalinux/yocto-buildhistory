@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.20
+PKGR = r0.21
 RPROVIDES = kernel-module-usb-f-serial
 RDEPENDS = kernel-6.13.1 kernel-module-libcomposite-6.13.1 kernel-module-u-serial-6.13.1
 RRECOMMENDS = 

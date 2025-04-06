@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.20
+PKGR = r0.21
 RPROVIDES = kernel-module-musb-hdrc
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 

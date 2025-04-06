@@ -1061,9 +1061,14 @@ digraph depends {
 "kernel-modules" -> "kernel-module-sii9234-6.13.1"
 "kernel-modules" -> "kernel-module-simple-bridge-6.13.1"
 "kernel-modules" -> "kernel-module-smb347-charger-6.13.1"
+"kernel-modules" -> "kernel-module-snd-hwdep-6.13.1"
+"kernel-modules" -> "kernel-module-snd-rawmidi-6.13.1"
 "kernel-modules" -> "kernel-module-snd-soc-hdmi-codec-6.13.1"
 "kernel-modules" -> "kernel-module-snd-soc-omap3pandora-6.13.1"
 "kernel-modules" -> "kernel-module-snd-soc-twl4030-6.13.1"
+"kernel-modules" -> "kernel-module-snd-ump-6.13.1"
+"kernel-modules" -> "kernel-module-snd-usb-audio-6.13.1"
+"kernel-modules" -> "kernel-module-snd-usbmidi-lib-6.13.1"
 "kernel-modules" -> "kernel-module-spi-gpio-6.13.1"
 "kernel-modules" -> "kernel-module-st1232-6.13.1"
 "kernel-modules" -> "kernel-module-st-accel-6.13.1"
@@ -1116,9 +1121,19 @@ digraph depends {
 "kernel-modules" -> "kernel-module-xfrm-ipcomp-6.13.1"
 "kernel-modules" -> "kernel-module-xts-6.13.1"
 "kernel-module-smb347-charger-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-snd-hwdep-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-snd-rawmidi-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-snd-soc-hdmi-codec-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-snd-soc-omap3pandora-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-snd-soc-twl4030-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-snd-ump-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-snd-ump-6.13.1" -> "kernel-module-snd-rawmidi-6.13.1"
+"kernel-module-snd-usb-audio-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-snd-usb-audio-6.13.1" -> "kernel-module-snd-hwdep-6.13.1"
+"kernel-module-snd-usb-audio-6.13.1" -> "kernel-module-snd-ump-6.13.1"
+"kernel-module-snd-usb-audio-6.13.1" -> "kernel-module-snd-usbmidi-lib-6.13.1"
+"kernel-module-snd-usbmidi-lib-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
+"kernel-module-snd-usbmidi-lib-6.13.1" -> "kernel-module-snd-rawmidi-6.13.1"
 "kernel-module-spi-gpio-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-st1232-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]
 "kernel-module-st-accel-6.13.1" -> "kernel-6.13.1" [label="kernel-6.13.1"] [style=dashed]

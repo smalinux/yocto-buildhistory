@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = kernel-module-xfrm-ipcomp
 RDEPENDS = kernel-6.13.1 kernel-module-xfrm-algo-6.13.1
 RRECOMMENDS = 

@@ -102,12 +102,14 @@ libxkbcommon0 libxkbcommon libxkbcommon 1.6.0 253
 python3-ctypes python3-ctypes python3 3.12.6 247
 python3-crypt python3-crypt python3 3.12.6 244
 kernel-module-omapdrm-6.13.1 kernel-module-omapdrm-6.13.1 linux-stable 6.13.1 242
+libudev1 libudev systemd 255.4 230
 python3-debugger python3-debugger python3 3.12.6 221
 libsmartcols1 util-linux-libsmartcols util-linux 2.39.3 221
 python3-html python3-html python3 3.12.6 211
 python3-doctest python3-doctest python3 3.12.6 207
 ca-certificates ca-certificates ca-certificates 20211016 202
 libcrypt2 libxcrypt libxcrypt 4.4.36 201
+usbutils usbutils usbutils 017 198
 openssh-scp openssh-scp openssh 9.6p1 198
 python3-datetime python3-datetime python3 3.12.6 193
 python3-audio python3-audio python3 3.12.6 191
@@ -156,6 +158,7 @@ libgcc1 libgcc libgcc 13.3.0 109
 python3-math python3-math python3 3.12.6 106
 python3-zoneinfo python3-zoneinfo python3 3.12.6 105
 libyaml-0-2 libyaml libyaml 0.2.5 105
+libusb-1.0-0 libusb1 libusb1 1.0.27 105
 libfribidi0 fribidi fribidi 1.0.14 105
 libatopology2 libatopology alsa-lib 1.2.11 102
 kernel-module-wcn36xx-6.13.1 kernel-module-wcn36xx-6.13.1 linux-stable 6.13.1 101

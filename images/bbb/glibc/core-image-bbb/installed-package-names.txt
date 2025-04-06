@@ -390,7 +390,9 @@ libtinfo5
 libtirpc3
 libubootenv0
 libubootenv-bin
+libudev1
 libunistring5
+libusb-1.0-0
 libuuid1
 libvorbis
 libx11-6
@@ -519,6 +521,7 @@ udev-hwdb
 udev
 update-alternatives-opkg
 update-rc.d
+usbutils
 util-linux-agetty
 util-linux-fcntl-lock
 util-linux-fsck

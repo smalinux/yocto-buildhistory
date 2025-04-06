@@ -257,6 +257,8 @@ digraph depends {
 "libubootenv0" -> "libyaml-0-2"
 "libubootenv0" -> "libz1"
 "libubootenv-bin" -> "libubootenv0"
+"libudev1" -> "libcap"
+"libusb-1.0-0" -> "libudev1"
 "libvorbis" -> "libogg0"
 "libx11-6" -> "libxcb1"
 "libxcb1" -> "libxau6"
@@ -691,6 +693,9 @@ digraph depends {
 "udev" -> "libkmod2"
 "udev" -> "libsystemd-shared"
 "udev" -> "shadow"
+"usbutils" -> "libudev1"
+"usbutils" -> "libusb-1.0-0"
+"usbutils" -> "udev-hwdb" [style=dotted]
 "util-linux-fsck" -> "libblkid1"
 "util-linux-fsck" -> "libmount1"
 "util-linux-lsblk" -> "libblkid1"

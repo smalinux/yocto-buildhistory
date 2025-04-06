@@ -1,6 +1,6 @@
 drwxr-xr-x root       root             4096 ./boot
 drwxr-xr-x root       root             4096 ./boot/.debug
--rwxr-xr-x root       root          9161608 ./boot/.debug/vmlinux-6.13.1
+-rwxr-xr-x root       root          9331720 ./boot/.debug/vmlinux-6.13.1
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/modules
@@ -461,11 +461,6 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/net/
 -rw-r--r-- root       root             6644 ./usr/lib/modules/6.13.1/kernel/net/xfrm/.debug/xfrm_algo.ko
 -rw-r--r-- root       root             6124 ./usr/lib/modules/6.13.1/kernel/net/xfrm/.debug/xfrm_ipcomp.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound
-drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/core
-drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/core/.debug
--rw-r--r-- root       root             7592 ./usr/lib/modules/6.13.1/kernel/sound/core/.debug/snd-hwdep.ko
--rw-r--r-- root       root            17084 ./usr/lib/modules/6.13.1/kernel/sound/core/.debug/snd-rawmidi.ko
--rw-r--r-- root       root             8140 ./usr/lib/modules/6.13.1/kernel/sound/core/.debug/snd-ump.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/soc
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/soc/codecs
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/soc/codecs/.debug
@@ -474,7 +469,3 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/soun
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/soc/ti
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/soc/ti/.debug
 -rw-r--r-- root       root             3316 ./usr/lib/modules/6.13.1/kernel/sound/soc/ti/.debug/snd-soc-omap3pandora.ko
-drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/usb
-drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/sound/usb/.debug
--rw-r--r-- root       root           147316 ./usr/lib/modules/6.13.1/kernel/sound/usb/.debug/snd-usb-audio.ko
--rw-r--r-- root       root            13300 ./usr/lib/modules/6.13.1/kernel/sound/usb/.debug/snd-usbmidi-lib.ko

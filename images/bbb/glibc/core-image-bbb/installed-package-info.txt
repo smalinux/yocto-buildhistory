@@ -4,7 +4,7 @@ mesa-megadriver mesa-megadriver mesa 24.0.7 12232
 libgtk-3.0 gtk+3 gtk+3 3.24.41 12206
 python3-core python3-core python3 3.12.6 8960
 udev-hwdb udev-hwdb systemd 255.4 8253
-kernel-image-zimage-6.13.1 kernel-image-zimage linux-stable 6.13.1 8085
+kernel-image-zimage-6.13.1 kernel-image-zimage linux-stable 6.13.1 8209
 systemd systemd systemd 255.4 6695
 libpython3.12-1.0 libpython3 python3 3.12.6 4834
 python3-setuptools python3-setuptools python3-setuptools 69.1.1 4437
@@ -102,7 +102,6 @@ libmount1 util-linux-libmount util-linux 2.39.3 394
 libfontconfig1 fontconfig fontconfig 2.15.0 392
 libgmp10 gmp gmp 6.3.0 389
 alsa-ucm-conf alsa-ucm-conf alsa-ucm-conf 1.2.11 389
-kernel-module-snd-usb-audio-6.13.1 kernel-module-snd-usb-audio-6.13.1 linux-stable 6.13.1 388
 rauc rauc rauc 1.13 387
 python3-logging python3-logging python3 3.12.6 385
 libext2fs2 libext2fs e2fsprogs 1.47.0 384
@@ -167,8 +166,8 @@ liblzma5 liblzma xz 5.4.6 153
 libgstrtp-1.0-0 libgstrtp-1.0 gstreamer1.0-plugins-base 1.22.12 153
 libnghttp2-14 libnghttp2 nghttp2 1.61.0 149
 python3-profile python3-profile python3 3.12.6 147
+kernel-6.13.1 kernel-base linux-stable 6.13.1 147
 alsa-conf alsa-conf alsa-lib 1.2.11 147
-kernel-6.13.1 kernel-base linux-stable 6.13.1 145
 alsa-utils-aplay alsa-utils-aplay alsa-utils 1.2.11 143
 openssh-sftp-server openssh-sftp-server openssh 9.6p1 141
 libexpat1 expat expat 2.6.3 141
@@ -318,7 +317,6 @@ gstreamer1.0-plugins-base-audiomixer gstreamer1.0-plugins-base-audiomixer gstrea
 kernel-module-ip6-tunnel-6.13.1 kernel-module-ip6-tunnel-6.13.1 linux-stable 6.13.1 36
 kernel-module-ecc-6.13.1 kernel-module-ecc-6.13.1 linux-stable 6.13.1 36
 kernel-module-atmel-mxt-ts-6.13.1 kernel-module-atmel-mxt-ts-6.13.1 linux-stable 6.13.1 36
-kernel-module-snd-rawmidi-6.13.1 kernel-module-snd-rawmidi-6.13.1 linux-stable 6.13.1 35
 kernel-module-bcm-sf2-6.13.1 kernel-module-bcm-sf2-6.13.1 linux-stable 6.13.1 35
 libe2p2 libe2p e2fsprogs 1.47.0 34
 libxrender1 libxrender libxrender 0.9.11 33
@@ -332,7 +330,6 @@ kernel-module-aes-generic-6.13.1 kernel-module-aes-generic-6.13.1 linux-stable 6
 gstreamer1.0-plugins-good-wavenc gstreamer1.0-plugins-good-wavenc gstreamer1.0-plugins-good 1.22.12 30
 libffi8 libffi libffi 3.4.6 29
 libacl1 libacl acl 2.3.2 29
-kernel-module-snd-usbmidi-lib-6.13.1 kernel-module-snd-usbmidi-lib-6.13.1 linux-stable 6.13.1 29
 kernel-module-flexcan-6.13.1 kernel-module-flexcan-6.13.1 linux-stable 6.13.1 29
 kernel-module-edt-ft5x06-6.13.1 kernel-module-edt-ft5x06-6.13.1 linux-stable 6.13.1 29
 kernel-module-adv7511-6.13.1 kernel-module-adv7511-6.13.1 linux-stable 6.13.1 29
@@ -453,7 +450,6 @@ kernel-module-crypto-engine-6.13.1 kernel-module-crypto-engine-6.13.1 linux-stab
 kernel-module-cppi41-6.13.1 kernel-module-cppi41-6.13.1 linux-stable 6.13.1 16
 kernel-module-ccm-6.13.1 kernel-module-ccm-6.13.1 linux-stable 6.13.1 16
 kernel-module-st-accel-6.13.1 kernel-module-st-accel-6.13.1 linux-stable 6.13.1 15
-kernel-module-snd-ump-6.13.1 kernel-module-snd-ump-6.13.1 linux-stable 6.13.1 15
 kernel-module-snd-soc-hdmi-codec-6.13.1 kernel-module-snd-soc-hdmi-codec-6.13.1 linux-stable 6.13.1 15
 kernel-module-phy-twl4030-usb-6.13.1 kernel-module-phy-twl4030-usb-6.13.1 linux-stable 6.13.1 15
 kernel-module-mms114-6.13.1 kernel-module-mms114-6.13.1 linux-stable 6.13.1 15
@@ -492,7 +488,6 @@ kernel-module-usb-f-eem-6.13.1 kernel-module-usb-f-eem-6.13.1 linux-stable 6.13.
 kernel-module-usb-f-acm-6.13.1 kernel-module-usb-f-acm-6.13.1 linux-stable 6.13.1 12
 kernel-module-ti-tfp410-6.13.1 kernel-module-ti-tfp410-6.13.1 linux-stable 6.13.1 12
 kernel-module-spi-gpio-6.13.1 kernel-module-spi-gpio-6.13.1 linux-stable 6.13.1 12
-kernel-module-snd-hwdep-6.13.1 kernel-module-snd-hwdep-6.13.1 linux-stable 6.13.1 12
 kernel-module-sha3-generic-6.13.1 kernel-module-sha3-generic-6.13.1 linux-stable 6.13.1 12
 kernel-module-phy-cpcap-usb-6.13.1 kernel-module-phy-cpcap-usb-6.13.1 linux-stable 6.13.1 12
 kernel-module-mdio-mscc-miim-6.13.1 kernel-module-mdio-mscc-miim-6.13.1 linux-stable 6.13.1 12

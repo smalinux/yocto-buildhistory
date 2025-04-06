@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.21
+PKGR = r0.22
 RPROVIDES = kernel-module-md5
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 

@@ -269,9 +269,6 @@ kernel-module-mdio-mscc-miim-6.13.1
 kernel-module-microchip-6.13.1
 kernel-module-mip6-6.13.1
 kernel-module-mms114-6.13.1
-kernel-module-most-core-6.13.1
-kernel-module-most-snd-6.13.1
-kernel-module-most-usb-6.13.1
 kernel-module-musb-dsps-6.13.1
 kernel-module-musb-hdrc-6.13.1
 kernel-module-mwifiex-6.13.1
@@ -307,6 +304,7 @@ kernel-module-qt1070-6.13.1
 kernel-module-r8152-6.13.1
 kernel-module-r8153-ecm-6.13.1
 kernel-module-r8a66597-hcd-6.13.1
+kernel-module-regmap-spi-6.13.1
 kernel-module-reset-ti-syscon-6.13.1
 kernel-module-resistive-adc-touch-6.13.1
 kernel-module-rpmsg-char-6.13.1
@@ -345,12 +343,6 @@ kernel-module-sii9234-6.13.1
 kernel-module-simple-bridge-6.13.1
 kernel-modules
 kernel-module-smb347-charger-6.13.1
-kernel-module-snd-seq-ump-client-6.13.1
-kernel-module-snd-soc-hdmi-codec-6.13.1
-kernel-module-snd-ua101-6.13.1
-kernel-module-snd-ump-6.13.1
-kernel-module-snd-usb-audio-6.13.1
-kernel-module-snd-usbmidi-lib-6.13.1
 kernel-module-spi-gpio-6.13.1
 kernel-module-st1232-6.13.1
 kernel-module-st-accel-6.13.1
@@ -368,7 +360,6 @@ kernel-module-tag-rzn1-a5psw-6.13.1
 kernel-module-tc358764-6.13.1
 kernel-module-tc358768-6.13.1
 kernel-module-tda998x-6.13.1
-kernel-module-test-xarray-6.13.1
 kernel-module-thermal-generic-adc-6.13.1
 kernel-module-ti-tfp410-6.13.1
 kernel-module-ti-tpd12s015-6.13.1

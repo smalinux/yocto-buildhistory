@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.17
-RPROVIDES = kernel-module-test-xarray
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 88924
-FILES = /usr/lib/modules/6.13.1/kernel/lib/.debug/test_xarray.ko /usr/lib/modules/6.13.1/kernel/lib/test_xarray.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/lib/test_xarray.ko

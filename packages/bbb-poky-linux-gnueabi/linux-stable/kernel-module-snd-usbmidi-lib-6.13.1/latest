@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.17
-RPROVIDES = kernel-module-snd-usbmidi-lib
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 29812
-FILES = /usr/lib/modules/6.13.1/kernel/sound/usb/.debug/snd-usbmidi-lib.ko /usr/lib/modules/6.13.1/kernel/sound/usb/snd-usbmidi-lib.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/sound/usb/snd-usbmidi-lib.ko

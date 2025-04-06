@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.17
+PKGR = r0.18
 RPROVIDES = kernel-module-tunnel6
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 

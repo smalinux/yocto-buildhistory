@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.17
-RPROVIDES = kernel-module-snd-ua101
-RDEPENDS = kernel-6.13.1 kernel-module-snd-usbmidi-lib-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 24548
-FILES = /usr/lib/modules/6.13.1/kernel/sound/usb/misc/.debug/snd-ua101.ko /usr/lib/modules/6.13.1/kernel/sound/usb/misc/snd-ua101.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/sound/usb/misc/snd-ua101.ko

@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.17
-RPROVIDES = kernel-module-snd-seq-ump-client
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 9888
-FILES = /usr/lib/modules/6.13.1/kernel/sound/core/seq/.debug/snd-seq-ump-client.ko /usr/lib/modules/6.13.1/kernel/sound/core/seq/snd-seq-ump-client.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/sound/core/seq/snd-seq-ump-client.ko

@@ -4,7 +4,7 @@
 12206	KiB	libgtk-3.0
 8960	KiB	python3-core
 8253	KiB	udev-hwdb
-8201	KiB	kernel-image-zimage-6.13.1
+7921	KiB	kernel-image-zimage-6.13.1
 6695	KiB	systemd
 4834	KiB	libpython3.12-1.0
 4437	KiB	python3-setuptools
@@ -101,7 +101,6 @@
 394	KiB	libmount1
 392	KiB	libfontconfig1
 389	KiB	libgmp10
-389	KiB	kernel-module-snd-usb-audio-6.13.1
 389	KiB	alsa-ucm-conf
 387	KiB	rauc
 385	KiB	python3-logging
@@ -165,7 +164,6 @@
 155	KiB	python3-difflib
 153	KiB	liblzma5
 153	KiB	libgstrtp-1.0-0
-151	KiB	kernel-6.13.1
 149	KiB	libnghttp2-14
 147	KiB	python3-profile
 147	KiB	alsa-conf
@@ -173,6 +171,7 @@
 141	KiB	openssh-sftp-server
 141	KiB	libexpat1
 139	KiB	libpam-runtime
+139	KiB	kernel-6.13.1
 138	KiB	libtinfo5
 138	KiB	kernel-module-rt2800lib-6.13.1
 135	KiB	libtirpc3
@@ -210,7 +209,6 @@
 89	KiB	libgstsdp-1.0-0
 89	KiB	kernel-module-nfc-6.13.1
 89	KiB	gstreamer1.0-plugins-base-alsa
-87	KiB	kernel-module-test-xarray-6.13.1
 85	KiB	openssl-ossl-module-legacy
 85	KiB	libxcb-glx0
 85	KiB	gstreamer1.0-plugins-good-soup
@@ -301,7 +299,6 @@
 41	KiB	pam-plugin-unix
 41	KiB	libxcb-render0
 41	KiB	kernel-module-rt2800usb-6.13.1
-41	KiB	kernel-module-most-core-6.13.1
 41	KiB	kernel-module-hci-uart-6.13.1
 41	KiB	gstreamer1.0-plugins-good-jpeg
 41	KiB	gstreamer1.0-plugins-base-videoconvertscale
@@ -332,7 +329,6 @@
 30	KiB	gstreamer1.0-plugins-good-wavenc
 29	KiB	libffi8
 29	KiB	libacl1
-29	KiB	kernel-module-snd-usbmidi-lib-6.13.1
 29	KiB	kernel-module-flexcan-6.13.1
 29	KiB	kernel-module-edt-ft5x06-6.13.1
 29	KiB	kernel-module-adv7511-6.13.1
@@ -365,7 +361,6 @@
 25	KiB	gstreamer1.0-plugins-base-audioconvert
 24	KiB	openssl-conf
 24	KiB	kernel-module-uas-6.13.1
-24	KiB	kernel-module-snd-ua101-6.13.1
 23	KiB	python3-stringold
 23	KiB	kernel-module-onboard-usb-dev-6.13.1
 23	KiB	kernel-module-fsi-master-aspeed-6.13.1
@@ -416,7 +411,6 @@
 18	KiB	kernel-module-u-serial-6.13.1
 18	KiB	kernel-module-rt2x00usb-6.13.1
 18	KiB	kernel-module-musb-dsps-6.13.1
-18	KiB	kernel-module-most-usb-6.13.1
 18	KiB	kernel-module-gcm-6.13.1
 18	KiB	kernel-module-fsi-sbefifo-6.13.1
 18	KiB	kernel-module-aes-arm-ce-6.13.1
@@ -455,8 +449,6 @@
 16	KiB	kernel-module-cppi41-6.13.1
 16	KiB	kernel-module-ccm-6.13.1
 15	KiB	kernel-module-st-accel-6.13.1
-15	KiB	kernel-module-snd-ump-6.13.1
-15	KiB	kernel-module-snd-soc-hdmi-codec-6.13.1
 15	KiB	kernel-module-phy-twl4030-usb-6.13.1
 15	KiB	kernel-module-mms114-6.13.1
 15	KiB	kernel-module-max17040-battery-6.13.1
@@ -482,7 +474,6 @@
 13	KiB	kernel-module-stusb160x-6.13.1
 13	KiB	kernel-module-sha512-generic-6.13.1
 13	KiB	kernel-module-rpmsg-char-6.13.1
-13	KiB	kernel-module-most-snd-6.13.1
 13	KiB	kernel-module-leds-pca9532-6.13.1
 13	KiB	kernel-module-fsi-occ-6.13.1
 13	KiB	kernel-module-c-can-platform-6.13.1
@@ -528,7 +519,6 @@
 10	KiB	libubootenv-bin
 10	KiB	kernel-module-xts-6.13.1
 10	KiB	kernel-module-st-gyro-spi-6.13.1
-10	KiB	kernel-module-snd-seq-ump-client-6.13.1
 10	KiB	kernel-module-simple-bridge-6.13.1
 10	KiB	kernel-module-sha1-arm-neon-6.13.1
 10	KiB	kernel-module-rtc-s35390a-6.13.1
@@ -614,6 +604,7 @@
 6	KiB	update-rc.d
 6	KiB	kernel-module-tag-rzn1-a5psw-6.13.1
 6	KiB	kernel-module-seqiv-6.13.1
+6	KiB	kernel-module-regmap-spi-6.13.1
 6	KiB	kernel-module-qrtr-smd-6.13.1
 6	KiB	kernel-module-nci-spi-6.13.1
 6	KiB	kernel-module-industrialio-hw-consumer-6.13.1

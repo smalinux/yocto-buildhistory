@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.17
-RPROVIDES = kernel-module-most-core
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 41740
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/most/.debug/most_core.ko /usr/lib/modules/6.13.1/kernel/drivers/most/most_core.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/most/most_core.ko

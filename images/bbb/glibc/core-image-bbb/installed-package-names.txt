@@ -93,6 +93,7 @@ kernel-module-cfg80211-6.13.1
 kernel-module-chacha-neon-6.13.1
 kernel-module-cm36651-6.13.1
 kernel-module-cmac-6.13.1
+kernel-module-configs-6.13.1
 kernel-module-counter-6.13.1
 kernel-module-cppi41-6.13.1
 kernel-module-cpufreq-conservative-6.13.1

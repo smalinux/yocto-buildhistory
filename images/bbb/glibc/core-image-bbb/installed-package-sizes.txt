@@ -207,6 +207,7 @@
 45	KiB	util-linux-mount
 45	KiB	util-linux-fsck
 45	KiB	kernel-module-fsi-core-6.13.1
+45	KiB	kernel-module-configs-6.13.1
 45	KiB	kernel-module-b53-common-6.13.1
 45	KiB	alsa-utils-amixer
 44	KiB	kernel-module-mwifiex-sdio-6.13.1

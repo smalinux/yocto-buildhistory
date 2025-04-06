@@ -7,7 +7,7 @@ drwxr-xr-x root       root             4096 ./boot
 -rw-r--r-- root       root            68663 ./boot/am335x-bonegreen-wireless.dtb
 -rw-r--r-- root       root            68601 ./boot/am335x-pocketbeagle.dtb
 -rw-r--r-- root       root            69525 ./boot/bbb-gen4-4dcape70t.dtb
--rw-r--r-- root       root          8466944 ./boot/zImage-6.13.1
+-rw-r--r-- root       root          8462848 ./boot/zImage-6.13.1
 lrwxrwxrwx root       root               13 ./boot/zImage -> zImage-6.13.1
 drwxr-xr-x root       root             4096 ./data
 drwxr-xr-x root       root             4096 ./dev
@@ -1549,7 +1549,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/fs
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/fs/efivarfs
 -rw-r--r-- root       root            20332 ./usr/lib/modules/6.13.1/kernel/fs/efivarfs/efivarfs.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/kernel
--rw-r--r-- root       root            46460 ./usr/lib/modules/6.13.1/kernel/kernel/configs.ko
+-rw-r--r-- root       root            46396 ./usr/lib/modules/6.13.1/kernel/kernel/configs.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/lib
 -rw-r--r-- root       root             3412 ./usr/lib/modules/6.13.1/kernel/lib/crc4.ko
 -rw-r--r-- root       root             4040 ./usr/lib/modules/6.13.1/kernel/lib/crc-ccitt.ko

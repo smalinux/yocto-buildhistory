@@ -1,7 +1,7 @@
 13535	KiB	python3-pip
 12206	KiB	libgtk-3.0
 8960	KiB	python3-core
-8269	KiB	kernel-image-zimage-6.13.1
+8265	KiB	kernel-image-zimage-6.13.1
 8253	KiB	udev-hwdb
 6695	KiB	systemd
 4834	KiB	libpython3.12-1.0

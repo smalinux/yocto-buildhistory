@@ -44,6 +44,7 @@ openssh-ssh openssh-ssh openssh 9.6p1 831
 python3-numbers python3-numbers python3 3.12.6 821
 openssl-bin openssl-bin openssl 3.2.3 815
 python3-xml python3-xml python3 3.12.6 768
+mpg123 mpg123 mpg123 1.32.6 767
 at-spi2-core at-spi2-core at-spi2-core 2.50.1 759
 libssl3 libssl openssl 3.2.3 753
 python3-io python3-io python3 3.12.6 748
@@ -348,6 +349,7 @@ kernel-module-jitterentropy-rng-6.13.1 kernel-module-jitterentropy-rng-6.13.1 li
 kernel-module-drbg-6.13.1 kernel-module-drbg-6.13.1 linux-stable 6.13.1 14
 util-linux-swapoff util-linux-swapoff util-linux 2.39.3 13
 systemd-udev-rules systemd-udev-rules systemd 255.4 13
+libpulse-simple0 libpulse-simple pulseaudio 17.0 13
 libasound-module-ctl-oss libasound-module-ctl-oss alsa-plugins 1.2.7.1 13
 kernel-module-tpm-i2c-infineon-6.13.1 kernel-module-tpm-i2c-infineon-6.13.1 linux-stable 6.13.1 13
 kernel-module-stusb160x-6.13.1 kernel-module-stusb160x-6.13.1 linux-stable 6.13.1 13

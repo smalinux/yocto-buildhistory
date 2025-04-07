@@ -373,6 +373,7 @@ libpixman-1-0_1:0.42.2-r0.5_cortexa8hf-neon.ipk
 libpng16-16_1.6.42-r0.5_cortexa8hf-neon.ipk
 libpulse0_17.0-r0.0_cortexa8hf-neon.ipk
 libpulsecommon_17.0-r0.0_cortexa8hf-neon.ipk
+libpulse-simple0_17.0-r0.0_cortexa8hf-neon.ipk
 libpython3.12-1.0_3.12.6-r0.3_cortexa8hf-neon.ipk
 libsamplerate0_0.2.2-r0.0_cortexa8hf-neon.ipk
 libseccomp_2.5.5-r0.5_cortexa8hf-neon.ipk
@@ -417,6 +418,7 @@ libyaml-0-2_0.2.5-r0.1_cortexa8hf-neon.ipk
 libz1_1.3.1-r0.6_cortexa8hf-neon.ipk
 libzstd1_1.5.5-r0.5_cortexa8hf-neon.ipk
 lz4_1:1.9.4-r0.1_cortexa8hf-neon.ipk
+mpg123_1.32.6-r0.0_cortexa8hf-neon.ipk
 ncurses-terminfo-base_6.4-r0.5_cortexa8hf-neon.ipk
 netbase_1:6.4-r0.3_all.ipk
 openssh-keygen_9.6p1-r0.6_cortexa8hf-neon.ipk

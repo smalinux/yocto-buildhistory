@@ -44,6 +44,7 @@
 821	KiB	python3-numbers
 815	KiB	openssl-bin
 768	KiB	python3-xml
+767	KiB	mpg123
 759	KiB	at-spi2-core
 753	KiB	libssl3
 748	KiB	python3-io
@@ -348,6 +349,7 @@
 14	KiB	kernel-module-drbg-6.13.1
 13	KiB	util-linux-swapoff
 13	KiB	systemd-udev-rules
+13	KiB	libpulse-simple0
 13	KiB	libasound-module-ctl-oss
 13	KiB	kernel-module-tpm-i2c-infineon-6.13.1
 13	KiB	kernel-module-stusb160x-6.13.1

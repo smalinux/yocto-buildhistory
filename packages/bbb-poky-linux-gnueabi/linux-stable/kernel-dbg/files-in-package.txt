@@ -1,6 +1,6 @@
 drwxr-xr-x root       root             4096 ./boot
 drwxr-xr-x root       root             4096 ./boot/.debug
--rwxr-xr-x root       root          9350020 ./boot/.debug/vmlinux-6.13.1
+-rwxr-xr-x root       root          9391408 ./boot/.debug/vmlinux-6.13.1
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/modules

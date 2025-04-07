@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.32
+PKGR = r0.33
 RPROVIDES = kernel-module-btmrvl-sdio
 RDEPENDS = kernel-6.13.1 kernel-module-bluetooth-6.13.1 kernel-module-btmrvl-6.13.1
 RRECOMMENDS = 

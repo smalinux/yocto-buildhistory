@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.31
+PKGR = r0.32
 RPROVIDES = kernel-module-algif-skcipher
 RDEPENDS = kernel-6.13.1 kernel-module-af-alg-6.13.1
 RRECOMMENDS = 

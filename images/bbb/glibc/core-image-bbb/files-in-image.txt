@@ -7,7 +7,7 @@ drwxr-xr-x root       root             4096 ./boot
 -rw-r--r-- root       root            68663 ./boot/am335x-bonegreen-wireless.dtb
 -rw-r--r-- root       root            68601 ./boot/am335x-pocketbeagle.dtb
 -rw-r--r-- root       root            69525 ./boot/bbb-gen4-4dcape70t.dtb
--rw-r--r-- root       root          8516096 ./boot/zImage-6.13.1
+-rw-r--r-- root       root          8475136 ./boot/zImage-6.13.1
 lrwxrwxrwx root       root               13 ./boot/zImage -> zImage-6.13.1
 drwxr-xr-x root       root             4096 ./data
 drwxr-xr-x root       root             4096 ./dev
@@ -85,7 +85,7 @@ drwxr-xr-x root       root             4096 ./etc/hotplug/usb
 -rwxr-xr-x root       root              414 ./etc/hotplug/usb/tascam_fw.usermap
 -rw-r--r-- root       root               51 ./etc/issue
 -rw-r--r-- root       root               48 ./etc/issue.net
--rw-r--r-- root       root             8774 ./etc/ld.so.cache
+-rw-r--r-- root       root             8526 ./etc/ld.so.cache
 -rw-r--r-- root       root               33 ./etc/ld.so.conf
 drwxr-xr-x root       root             4096 ./etc/libnl
 -rw-r--r-- root       root             1130 ./etc/libnl/classid
@@ -711,9 +711,6 @@ lrwxrwxrwx root       root               23 ./usr/bin/more -> /usr/bin/busybox.n
 lrwxrwxrwx root       root               23 ./usr/bin/mountpoint -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root               25 ./usr/bin/mount -> /usr/bin/mount.util-linux
 -rwsr-xr-x root       root            46532 ./usr/bin/mount.util-linux
--rwxr-xr-x root       root           160984 ./usr/bin/mpg123
--rwxr-xr-x root       root            18028 ./usr/bin/mpg123-id3dump
--rwxr-xr-x root       root            13840 ./usr/bin/mpg123-strip
 lrwxrwxrwx root       root               23 ./usr/bin/mv -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root               23 ./usr/bin/nc -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root               23 ./usr/bin/netstat -> /usr/bin/busybox.nosuid
@@ -732,7 +729,6 @@ lrwxrwxrwx root       root               23 ./usr/bin/od -> /usr/bin/busybox.nos
 lrwxrwxrwx root       root               19 ./usr/bin/openvt -> /usr/bin/openvt.kbd
 -rwxr-xr-x root       root            18656 ./usr/bin/opkg
 -rwxr-xr-x root       root             1887 ./usr/bin/opkg-check-config
--rwxr-xr-x root       root            64568 ./usr/bin/out123
 -rwxr-xr-x root       root             9604 ./usr/bin/pango-list
 -rwxr-xr-x root       root             9612 ./usr/bin/pango-segmentation
 -rwxr-xr-x root       root            50736 ./usr/bin/pango-view
@@ -1081,8 +1077,6 @@ lrwxrwxrwx root       root               16 ./usr/lib/liblzo2.so.2 -> liblzo2.so
 lrwxrwxrwx root       root               15 ./usr/lib/libmenuw.so.5 -> libmenuw.so.5.9
 -rwxr-xr-x root       root           403184 ./usr/lib/libmount.so.1.1.0
 lrwxrwxrwx root       root               17 ./usr/lib/libmount.so.1 -> libmount.so.1.1.0
--rwxr-xr-x root       root           301140 ./usr/lib/libmpg123.so.0.48.2
-lrwxrwxrwx root       root               19 ./usr/lib/libmpg123.so.0 -> libmpg123.so.0.48.2
 -rwxr-xr-x root       root           275856 ./usr/lib/libm.so.6
 -rwxr-xr-x root       root           120056 ./usr/lib/libncurses.so.5.9
 lrwxrwxrwx root       root               17 ./usr/lib/libncurses.so.5 -> libncurses.so.5.9
@@ -1106,8 +1100,6 @@ lrwxrwxrwx root       root               15 ./usr/lib/libnsl.so.3 -> libnsl.so.3
 lrwxrwxrwx root       root               15 ./usr/lib/libogg.so.0 -> libogg.so.0.8.5
 -rwxr-xr-x root       root           162324 ./usr/lib/libopkg.so.1.0.0
 lrwxrwxrwx root       root               16 ./usr/lib/libopkg.so.1 -> libopkg.so.1.0.0
--rwxr-xr-x root       root            58716 ./usr/lib/libout123.so.0.5.1
-lrwxrwxrwx root       root               18 ./usr/lib/libout123.so.0 -> libout123.so.0.5.1
 -rwxr-xr-x root       root            13608 ./usr/lib/libpamc.so.0.82.1
 lrwxrwxrwx root       root               17 ./usr/lib/libpamc.so.0 -> libpamc.so.0.82.1
 -rwxr-xr-x root       root             9528 ./usr/lib/libpam_misc.so.0.82.1
@@ -1135,8 +1127,6 @@ lrwxrwxrwx root       root               19 ./usr/lib/libpng16.so.16 -> libpng16
 -rwxr-xr-x root       root            13596 ./usr/lib/libpsx.so.2.69
 lrwxrwxrwx root       root               14 ./usr/lib/libpsx.so.2 -> libpsx.so.2.69
 -rwxr-xr-x root       root             5464 ./usr/lib/libpthread.so.0
--rwxr-xr-x root       root            13616 ./usr/lib/libpulse-simple.so.0.1.1
-lrwxrwxrwx root       root               24 ./usr/lib/libpulse-simple.so.0 -> libpulse-simple.so.0.1.1
 -rwxr-xr-x root       root           305300 ./usr/lib/libpulse.so.0.24.3
 lrwxrwxrwx root       root               18 ./usr/lib/libpulse.so.0 -> libpulse.so.0.24.3
 -rwxr-xr-x root       root          4950232 ./usr/lib/libpython3.12.so.1.0
@@ -1160,8 +1150,6 @@ lrwxrwxrwx root       root               19 ./usr/lib/libsqlite3.so.0 -> libsqli
 lrwxrwxrwx root       root               19 ./usr/lib/libstdc++.so.6 -> libstdc++.so.6.0.32
 -rwxr-xr-x root       root           131548 ./usr/lib/libsubid.so.4.0.0
 lrwxrwxrwx root       root               17 ./usr/lib/libsubid.so.4 -> libsubid.so.4.0.0
--rwxr-xr-x root       root           152956 ./usr/lib/libsyn123.so.0.2.3
-lrwxrwxrwx root       root               18 ./usr/lib/libsyn123.so.0 -> libsyn123.so.0.2.3
 -rwxr-xr-x root       root           908996 ./usr/lib/libsystemd.so.0.38.0
 lrwxrwxrwx root       root               20 ./usr/lib/libsystemd.so.0 -> libsystemd.so.0.38.0
 -rwxr-xr-x root       root           141280 ./usr/lib/libtinfo.so.5.9
@@ -1610,10 +1598,10 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/soun
 -rw-r--r-- root       root            15352 ./usr/lib/modules/6.13.1/kernel/sound/soc/codecs/snd-soc-hdmi-codec.ko
 -rw-r--r-- root       root            64625 ./usr/lib/modules/6.13.1/modules.alias
 -rw-r--r-- root       root            75916 ./usr/lib/modules/6.13.1/modules.alias.bin
--rw-r--r-- root       root            18085 ./usr/lib/modules/6.13.1/modules.builtin
+-rw-r--r-- root       root            18060 ./usr/lib/modules/6.13.1/modules.builtin
 -rw-r--r-- root       root            11577 ./usr/lib/modules/6.13.1/modules.builtin.alias.bin
--rw-r--r-- root       root            20274 ./usr/lib/modules/6.13.1/modules.builtin.bin
--rw-r--r-- root       root           125721 ./usr/lib/modules/6.13.1/modules.builtin.modinfo
+-rw-r--r-- root       root            20207 ./usr/lib/modules/6.13.1/modules.builtin.bin
+-rw-r--r-- root       root           125571 ./usr/lib/modules/6.13.1/modules.builtin.modinfo
 -rw-r--r-- root       root            16257 ./usr/lib/modules/6.13.1/modules.dep
 -rw-r--r-- root       root            27683 ./usr/lib/modules/6.13.1/modules.dep.bin
 -rw-r--r-- root       root                0 ./usr/lib/modules/6.13.1/modules.devname
@@ -1622,9 +1610,6 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1/kernel/soun
 -rw-r--r-- root       root            58585 ./usr/lib/modules/6.13.1/modules.symbols
 -rw-r--r-- root       root            73065 ./usr/lib/modules/6.13.1/modules.symbols.bin
 drwxr-xr-x root       root             4096 ./usr/lib/modules-load.d
-drwxr-xr-x root       root             4096 ./usr/lib/mpg123
--rwxr-xr-x root       root             5380 ./usr/lib/mpg123/output_dummy.so
--rwxr-xr-x root       root             9476 ./usr/lib/mpg123/output_pulse.so
 drwxr-xr-x root       root             4096 ./usr/lib/opkg
 drwxr-xr-x root       root             4096 ./usr/lib/opkg/alternatives
 -rw-r--r-- root       root               39 ./usr/lib/opkg/alternatives/[[
@@ -11037,9 +11022,6 @@ drwxr-xr-x root       root           106496 ./var/lib/opkg/info
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libpulse0.postinst
 -rw-r--r-- root       root              648 ./var/lib/opkg/info/libpulsecommon.control
 -rw-r--r-- root       root              106 ./var/lib/opkg/info/libpulsecommon.list
--rw-r--r-- root       root              630 ./var/lib/opkg/info/libpulse-simple0.control
--rw-r--r-- root       root              133 ./var/lib/opkg/info/libpulse-simple0.list
--rwxr-xr-x root       root               97 ./var/lib/opkg/info/libpulse-simple0.postinst
 -rw-r--r-- root       root              492 ./var/lib/opkg/info/libpython3.12-1.0.control
 -rw-r--r-- root       root               66 ./var/lib/opkg/info/libpython3.12-1.0.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libpython3.12-1.0.postinst
@@ -11169,9 +11151,6 @@ drwxr-xr-x root       root           106496 ./var/lib/opkg/info
 -rw-r--r-- root       root              628 ./var/lib/opkg/info/lz4.control
 -rw-r--r-- root       root              224 ./var/lib/opkg/info/lz4.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/lz4.postinst
--rw-r--r-- root       root              655 ./var/lib/opkg/info/mpg123.control
--rw-r--r-- root       root              520 ./var/lib/opkg/info/mpg123.list
--rwxr-xr-x root       root               97 ./var/lib/opkg/info/mpg123.postinst
 -rw-r--r-- root       root              656 ./var/lib/opkg/info/ncurses-terminfo-base.control
 -rw-r--r-- root       root              714 ./var/lib/opkg/info/ncurses-terminfo-base.list
 -rw-r--r-- root       root              381 ./var/lib/opkg/info/netbase.control
@@ -11457,7 +11436,7 @@ drwxr-xr-x root       root           106496 ./var/lib/opkg/info
 -rw-r--r-- root       root              766 ./var/lib/opkg/info/wayland.control
 -rw-r--r-- root       root              593 ./var/lib/opkg/info/wayland.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/wayland.postinst
--rw-r--r-- root       root           150254 ./var/lib/opkg/status
+-rw-r--r-- root       root           149729 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/local
 lrwxrwxrwx root       root               11 ./var/lock -> ../run/lock

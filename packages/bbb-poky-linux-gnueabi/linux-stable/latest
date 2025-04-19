@@ -5,4 +5,4 @@ PACKAGES = linux-stable-src kernel-dbg kernel kernel-base kernel-vmlinux kernel-
 LAYER = meta-bbb
 LICENSE = GPL-2.0-only
 CONFIG = 
-SRC_URI = git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-6.13.y file://defconfig file://bbb-gen4-4dcape70t.dts
+SRC_URI = git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-6.13.y file://defconfig file://bbb-gen4-4dcape70t.dts file://am335x-boneblack-bbb.dts

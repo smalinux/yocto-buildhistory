@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.36
+PKGR = r0.37
 RPROVIDES = kernel-module-pci-meson
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 

@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.39
+PKGR = r0.40
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 484187
+PKGSIZE = 484219
 FILES = /boot/**/*.dtb /boot/**/*.dtbo
 FILELIST = /boot/am335x-boneblack-wireless.dtb /boot/am335x-boneblack.dtb /boot/am335x-boneblue.dtb /boot/am335x-bonegreen-wireless.dtb /boot/am335x-bonegreen.dtb /boot/am335x-pocketbeagle.dtb /boot/bbb-gen4-4dcape70t.dtb

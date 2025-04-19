@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.39
+PKGR = r0.40
 RPROVIDES = kernel-module-rt2x00usb
 RDEPENDS = kernel-6.13.1-dirty kernel-module-mac80211-6.13.1-dirty kernel-module-rt2x00lib-6.13.1-dirty
 RRECOMMENDS = 

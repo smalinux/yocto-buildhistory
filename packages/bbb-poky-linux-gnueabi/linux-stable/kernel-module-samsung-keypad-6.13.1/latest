@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.37
+PKGR = r0.38
 RPROVIDES = kernel-module-samsung-keypad
 RDEPENDS = kernel-6.13.1
 RRECOMMENDS = 

@@ -1,10 +1,10 @@
 PV = 6.13.1
 PR = r0
 PKG = kernel-image-zimage-6.13.1
-PKGR = r0.34
+PKGR = r0.35
 RPROVIDES = kernel-image-zimage (=6.13.1)
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 8512000
+PKGSIZE = 8516096
 FILES = /boot/zImage-6.13.1 /boot/zImage
 FILELIST = /boot/zImage-6.13.1

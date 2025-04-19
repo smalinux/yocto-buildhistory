@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.34
+PKGR = r0.35
 RPROVIDES = kernel-module-fsi-master-hub
 RDEPENDS = kernel-6.13.1 kernel-module-fsi-core-6.13.1
 RRECOMMENDS = 

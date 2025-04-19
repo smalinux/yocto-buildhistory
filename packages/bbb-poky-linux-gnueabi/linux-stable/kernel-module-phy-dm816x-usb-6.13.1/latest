@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-phy-dm816x-usb
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 8592
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/phy/ti/.debug/phy-dm816x-usb.ko /usr/lib/modules/6.13.1/kernel/drivers/phy/ti/phy-dm816x-usb.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/phy/ti/phy-dm816x-usb.ko

@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-cpufreq-conservative
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 8820
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/cpufreq/.debug/cpufreq_conservative.ko /usr/lib/modules/6.13.1/kernel/drivers/cpufreq/cpufreq_conservative.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/cpufreq/cpufreq_conservative.ko

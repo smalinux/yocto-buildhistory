@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-samsung-dsim
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 26976
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/.debug/samsung-dsim.ko /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/samsung-dsim.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/samsung-dsim.ko

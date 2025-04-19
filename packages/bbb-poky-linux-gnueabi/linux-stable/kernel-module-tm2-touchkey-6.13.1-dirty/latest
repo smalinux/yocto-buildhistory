@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-tm2-touchkey
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 11080
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/keyboard/.debug/tm2-touchkey.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/keyboard/tm2-touchkey.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/keyboard/tm2-touchkey.ko

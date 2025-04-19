@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-dsa-core
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 165876
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/net/dsa/.debug/dsa_core.ko /usr/lib/modules/6.13.1-dirty/kernel/net/dsa/dsa_core.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/net/dsa/dsa_core.ko

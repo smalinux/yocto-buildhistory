@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-rpmsg-ns
+RDEPENDS = kernel-6.13.1-dirty kernel-module-rpmsg-core-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 6684
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/rpmsg/.debug/rpmsg_ns.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/rpmsg/rpmsg_ns.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/rpmsg/rpmsg_ns.ko

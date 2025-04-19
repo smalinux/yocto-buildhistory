@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-algif-aead
-RDEPENDS = kernel-6.13.1 kernel-module-af-alg-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 10932
-FILES = /usr/lib/modules/6.13.1/kernel/crypto/.debug/algif_aead.ko /usr/lib/modules/6.13.1/kernel/crypto/algif_aead.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/algif_aead.ko

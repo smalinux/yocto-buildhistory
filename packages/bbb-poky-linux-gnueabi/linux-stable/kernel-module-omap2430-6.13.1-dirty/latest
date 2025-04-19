@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-omap2430
+RDEPENDS = kernel-6.13.1-dirty kernel-module-musb-hdrc-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 13856
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/musb/.debug/omap2430.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/musb/omap2430.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/musb/omap2430.ko

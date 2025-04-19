@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-capsule-loader
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 8704
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/firmware/efi/.debug/capsule-loader.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/firmware/efi/capsule-loader.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/firmware/efi/capsule-loader.ko

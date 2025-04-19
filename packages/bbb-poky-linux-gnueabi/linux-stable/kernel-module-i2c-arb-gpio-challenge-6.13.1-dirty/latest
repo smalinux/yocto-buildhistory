@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-i2c-arb-gpio-challenge
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 8612
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/i2c/muxes/.debug/i2c-arb-gpio-challenge.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/i2c/muxes/i2c-arb-gpio-challenge.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/i2c/muxes/i2c-arb-gpio-challenge.ko

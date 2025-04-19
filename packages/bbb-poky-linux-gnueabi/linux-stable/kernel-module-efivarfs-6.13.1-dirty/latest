@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-efivarfs
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 20332
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/fs/efivarfs/.debug/efivarfs.ko /usr/lib/modules/6.13.1-dirty/kernel/fs/efivarfs/efivarfs.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/fs/efivarfs/efivarfs.ko

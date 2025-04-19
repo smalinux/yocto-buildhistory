@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-usb-f-ecm-subset
+RDEPENDS = kernel-6.13.1-dirty kernel-module-u-ether-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 11204
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/gadget/function/.debug/usb_f_ecm_subset.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/gadget/function/usb_f_ecm_subset.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/gadget/function/usb_f_ecm_subset.ko

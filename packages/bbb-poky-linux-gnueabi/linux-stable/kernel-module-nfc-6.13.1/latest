@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-nfc
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 91300
-FILES = /usr/lib/modules/6.13.1/kernel/net/nfc/.debug/nfc.ko /usr/lib/modules/6.13.1/kernel/net/nfc/nfc.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/net/nfc/nfc.ko

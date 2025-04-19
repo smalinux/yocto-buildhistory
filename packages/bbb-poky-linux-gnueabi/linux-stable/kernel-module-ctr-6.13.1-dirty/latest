@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-ctr
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 8012
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/crypto/.debug/ctr.ko /usr/lib/modules/6.13.1-dirty/kernel/crypto/ctr.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/crypto/ctr.ko

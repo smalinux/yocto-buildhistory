@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-st-gyro-spi
+RDEPENDS = kernel-6.13.1-dirty kernel-module-st-gyro-6.13.1-dirty kernel-module-st-sensors-6.13.1-dirty kernel-module-st-sensors-spi-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 9868
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/iio/gyro/.debug/st_gyro_spi.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/iio/gyro/st_gyro_spi.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/iio/gyro/st_gyro_spi.ko

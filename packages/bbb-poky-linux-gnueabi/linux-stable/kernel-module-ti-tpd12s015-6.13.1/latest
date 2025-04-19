@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-ti-tpd12s015
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 7332
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/.debug/ti-tpd12s015.ko /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/ti-tpd12s015.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/ti-tpd12s015.ko

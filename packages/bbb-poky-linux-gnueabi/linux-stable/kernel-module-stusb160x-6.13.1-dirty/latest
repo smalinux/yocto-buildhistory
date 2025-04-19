@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-stusb160x
+RDEPENDS = kernel-6.13.1-dirty kernel-module-typec-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 13368
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/typec/.debug/stusb160x.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/typec/stusb160x.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/typec/stusb160x.ko

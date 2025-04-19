@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-rtc-rs5c372
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 14360
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/rtc/.debug/rtc-rs5c372.ko /usr/lib/modules/6.13.1/kernel/drivers/rtc/rtc-rs5c372.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/rtc/rtc-rs5c372.ko

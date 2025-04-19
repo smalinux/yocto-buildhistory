@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-pci-epf-test
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 19388
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/pci/endpoint/functions/.debug/pci-epf-test.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/pci/endpoint/functions/pci-epf-test.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/pci/endpoint/functions/pci-epf-test.ko

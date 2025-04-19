@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-cpufreq-powersave
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 4576
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/cpufreq/.debug/cpufreq_powersave.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/cpufreq/cpufreq_powersave.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/cpufreq/cpufreq_powersave.ko

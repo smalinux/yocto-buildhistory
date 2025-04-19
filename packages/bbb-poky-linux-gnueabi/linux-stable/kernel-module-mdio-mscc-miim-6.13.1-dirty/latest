@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-mdio-mscc-miim
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 12768
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/mdio/.debug/mdio-mscc-miim.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/mdio/mdio-mscc-miim.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/mdio/mdio-mscc-miim.ko

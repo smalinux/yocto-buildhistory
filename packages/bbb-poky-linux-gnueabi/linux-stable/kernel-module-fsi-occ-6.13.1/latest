@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-fsi-occ
-RDEPENDS = kernel-6.13.1 kernel-module-fsi-sbefifo-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 13744
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/fsi/.debug/fsi-occ.ko /usr/lib/modules/6.13.1/kernel/drivers/fsi/fsi-occ.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/fsi/fsi-occ.ko

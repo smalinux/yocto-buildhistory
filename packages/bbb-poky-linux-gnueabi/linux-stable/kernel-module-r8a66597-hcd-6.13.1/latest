@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-r8a66597-hcd
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 37652
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/usb/host/.debug/r8a66597-hcd.ko /usr/lib/modules/6.13.1/kernel/drivers/usb/host/r8a66597-hcd.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/usb/host/r8a66597-hcd.ko

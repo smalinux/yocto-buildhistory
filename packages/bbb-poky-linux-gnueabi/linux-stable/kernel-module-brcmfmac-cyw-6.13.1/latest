@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-brcmfmac-cyw
-RDEPENDS = kernel-6.13.1 kernel-module-brcmfmac-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 5616
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/cyw/.debug/brcmfmac-cyw.ko /usr/lib/modules/6.13.1/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/cyw/brcmfmac-cyw.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/cyw/brcmfmac-cyw.ko

@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-sha256-arm
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 17708
-FILES = /usr/lib/modules/6.13.1/kernel/arch/arm/crypto/.debug/sha256-arm.ko /usr/lib/modules/6.13.1/kernel/arch/arm/crypto/sha256-arm.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/arch/arm/crypto/sha256-arm.ko

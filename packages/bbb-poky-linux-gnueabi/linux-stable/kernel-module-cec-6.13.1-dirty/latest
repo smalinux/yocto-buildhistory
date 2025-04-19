@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-cec
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 52744
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/media/cec/core/.debug/cec.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/media/cec/core/cec.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/media/cec/core/cec.ko

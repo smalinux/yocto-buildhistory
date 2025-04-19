@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-phy-twl6030-usb
+RDEPENDS = kernel-6.13.1-dirty kernel-module-musb-hdrc-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 11788
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/phy/.debug/phy-twl6030-usb.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/phy/phy-twl6030-usb.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/phy/phy-twl6030-usb.ko

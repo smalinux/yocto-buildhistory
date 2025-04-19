@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-cpufreq-conservative
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 8820
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/cpufreq/.debug/cpufreq_conservative.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/cpufreq/cpufreq_conservative.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/cpufreq/cpufreq_conservative.ko

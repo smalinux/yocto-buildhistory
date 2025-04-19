@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-qt1070
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 8460
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/keyboard/.debug/qt1070.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/keyboard/qt1070.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/keyboard/qt1070.ko

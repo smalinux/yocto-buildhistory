@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-i2c-algo-bit
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 11012
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/i2c/algos/.debug/i2c-algo-bit.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/i2c/algos/i2c-algo-bit.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/i2c/algos/i2c-algo-bit.ko

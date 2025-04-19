@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-edt-ft5x06
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 29700
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/touchscreen/.debug/edt-ft5x06.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/touchscreen/edt-ft5x06.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/touchscreen/edt-ft5x06.ko

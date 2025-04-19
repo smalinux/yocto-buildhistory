@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-geniv
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 5500
-FILES = /usr/lib/modules/6.13.1/kernel/crypto/.debug/geniv.ko /usr/lib/modules/6.13.1/kernel/crypto/geniv.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/geniv.ko

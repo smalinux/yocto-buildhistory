@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-vf610-adc
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 16420
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/iio/adc/.debug/vf610_adc.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/iio/adc/vf610_adc.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/iio/adc/vf610_adc.ko

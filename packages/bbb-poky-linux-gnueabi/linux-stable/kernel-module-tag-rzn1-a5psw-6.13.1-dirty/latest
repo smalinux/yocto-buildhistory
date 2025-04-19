@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-tag-rzn1-a5psw
+RDEPENDS = kernel-6.13.1-dirty kernel-module-dsa-core-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 6496
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/net/dsa/.debug/tag_rzn1_a5psw.ko /usr/lib/modules/6.13.1-dirty/kernel/net/dsa/tag_rzn1_a5psw.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/net/dsa/tag_rzn1_a5psw.ko

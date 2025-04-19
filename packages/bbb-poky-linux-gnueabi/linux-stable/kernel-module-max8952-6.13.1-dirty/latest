@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-max8952
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 9868
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/regulator/.debug/max8952.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/regulator/max8952.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/regulator/max8952.ko

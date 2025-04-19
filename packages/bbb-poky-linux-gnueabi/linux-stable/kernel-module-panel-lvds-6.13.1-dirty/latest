@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-panel-lvds
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 8440
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/panel/.debug/panel-lvds.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/panel/panel-lvds.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/panel/panel-lvds.ko

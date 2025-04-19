@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-adv7511
+RDEPENDS = kernel-6.13.1-dirty kernel-module-cec-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 29276
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/bridge/adv7511/.debug/adv7511.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/bridge/adv7511/adv7511.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/bridge/adv7511/adv7511.ko

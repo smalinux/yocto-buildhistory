@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-flexcan
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 30076
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/can/flexcan/.debug/flexcan.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/can/flexcan/flexcan.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/can/flexcan/flexcan.ko

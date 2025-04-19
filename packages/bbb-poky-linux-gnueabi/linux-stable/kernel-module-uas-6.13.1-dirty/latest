@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-uas
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 24316
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/storage/.debug/uas.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/storage/uas.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/storage/uas.ko

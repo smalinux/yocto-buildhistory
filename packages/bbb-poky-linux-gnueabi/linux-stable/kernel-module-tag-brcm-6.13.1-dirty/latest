@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-tag-brcm
+RDEPENDS = kernel-6.13.1-dirty kernel-module-dsa-core-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 7584
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/net/dsa/.debug/tag_brcm.ko /usr/lib/modules/6.13.1-dirty/kernel/net/dsa/tag_brcm.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/net/dsa/tag_brcm.ko

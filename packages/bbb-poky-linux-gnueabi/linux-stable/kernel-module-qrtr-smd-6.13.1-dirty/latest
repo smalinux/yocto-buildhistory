@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-qrtr-smd
+RDEPENDS = kernel-6.13.1-dirty kernel-module-qrtr-6.13.1-dirty kernel-module-rpmsg-core-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 5740
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/net/qrtr/.debug/qrtr-smd.ko /usr/lib/modules/6.13.1-dirty/kernel/net/qrtr/qrtr-smd.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/net/qrtr/qrtr-smd.ko

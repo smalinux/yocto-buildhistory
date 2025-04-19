@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-mwifiex
+RDEPENDS = kernel-6.13.1-dirty kernel-module-cfg80211-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 337036
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/marvell/mwifiex/.debug/mwifiex.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/marvell/mwifiex/mwifiex.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/marvell/mwifiex/mwifiex.ko

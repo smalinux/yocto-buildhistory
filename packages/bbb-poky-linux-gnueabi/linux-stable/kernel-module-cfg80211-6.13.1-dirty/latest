@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-cfg80211
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 934952
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/net/wireless/.debug/cfg80211.ko /usr/lib/modules/6.13.1-dirty/kernel/net/wireless/cfg80211.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/net/wireless/cfg80211.ko

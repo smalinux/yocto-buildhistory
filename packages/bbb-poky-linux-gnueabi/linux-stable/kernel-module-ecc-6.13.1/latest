@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-ecc
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 36992
-FILES = /usr/lib/modules/6.13.1/kernel/crypto/.debug/ecc.ko /usr/lib/modules/6.13.1/kernel/crypto/ecc.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/ecc.ko

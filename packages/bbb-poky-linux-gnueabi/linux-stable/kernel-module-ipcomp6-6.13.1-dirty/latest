@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-ipcomp6
+RDEPENDS = kernel-6.13.1-dirty kernel-module-xfrm-ipcomp-6.13.1-dirty kernel-module-xfrm6-tunnel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 7968
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/net/ipv6/.debug/ipcomp6.ko /usr/lib/modules/6.13.1-dirty/kernel/net/ipv6/ipcomp6.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/net/ipv6/ipcomp6.ko

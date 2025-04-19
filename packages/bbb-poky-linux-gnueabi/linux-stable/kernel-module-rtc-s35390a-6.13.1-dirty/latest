@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-rtc-s35390a
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 10276
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/rtc/.debug/rtc-s35390a.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/rtc/rtc-s35390a.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/rtc/rtc-s35390a.ko

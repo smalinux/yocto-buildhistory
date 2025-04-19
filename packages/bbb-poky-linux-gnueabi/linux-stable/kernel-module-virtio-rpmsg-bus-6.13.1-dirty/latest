@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-virtio-rpmsg-bus
+RDEPENDS = kernel-6.13.1-dirty kernel-module-rpmsg-core-6.13.1-dirty kernel-module-rpmsg-ns-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 17008
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/rpmsg/.debug/virtio_rpmsg_bus.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/rpmsg/virtio_rpmsg_bus.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/rpmsg/virtio_rpmsg_bus.ko

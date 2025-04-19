@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-sha512-arm
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 17868
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/arch/arm/crypto/.debug/sha512-arm.ko /usr/lib/modules/6.13.1-dirty/kernel/arch/arm/crypto/sha512-arm.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/arch/arm/crypto/sha512-arm.ko

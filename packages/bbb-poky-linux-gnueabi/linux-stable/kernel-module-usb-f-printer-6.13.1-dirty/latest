@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-usb-f-printer
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 21064
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/gadget/function/.debug/usb_f_printer.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/gadget/function/usb_f_printer.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/gadget/function/usb_f_printer.ko

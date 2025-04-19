@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-fsi-sbefifo
-RDEPENDS = kernel-6.13.1 kernel-module-fsi-core-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 18564
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/fsi/.debug/fsi-sbefifo.ko /usr/lib/modules/6.13.1/kernel/drivers/fsi/fsi-sbefifo.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/fsi/fsi-sbefifo.ko

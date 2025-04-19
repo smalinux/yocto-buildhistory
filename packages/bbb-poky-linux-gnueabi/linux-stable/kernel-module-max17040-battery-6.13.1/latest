@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-max17040-battery
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 15844
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/power/supply/.debug/max17040_battery.ko /usr/lib/modules/6.13.1/kernel/drivers/power/supply/max17040_battery.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/power/supply/max17040_battery.ko

@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-tda998x
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 27788
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/i2c/.debug/tda998x.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/i2c/tda998x.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/i2c/tda998x.ko

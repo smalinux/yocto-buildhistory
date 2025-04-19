@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-tc358768
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 19912
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/bridge/.debug/tc358768.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/bridge/tc358768.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/bridge/tc358768.ko

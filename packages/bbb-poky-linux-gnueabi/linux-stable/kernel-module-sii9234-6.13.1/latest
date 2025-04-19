@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-sii9234
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 19684
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/.debug/sii9234.ko /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/sii9234.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/sii9234.ko

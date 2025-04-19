@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-pwm-tiecap
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 8692
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/pwm/.debug/pwm-tiecap.ko /usr/lib/modules/6.13.1/kernel/drivers/pwm/pwm-tiecap.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/pwm/pwm-tiecap.ko

@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-typec-ucsi
-RDEPENDS = kernel-6.13.1 kernel-module-typec-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 47792
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/usb/typec/ucsi/.debug/typec_ucsi.ko /usr/lib/modules/6.13.1/kernel/drivers/usb/typec/ucsi/typec_ucsi.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/usb/typec/ucsi/typec_ucsi.ko

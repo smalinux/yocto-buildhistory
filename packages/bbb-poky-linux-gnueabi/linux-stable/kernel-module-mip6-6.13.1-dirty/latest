@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-mip6
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 9836
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/net/ipv6/.debug/mip6.ko /usr/lib/modules/6.13.1-dirty/kernel/net/ipv6/mip6.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/net/ipv6/mip6.ko

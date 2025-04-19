@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-tpm-i2c-infineon
-RDEPENDS = kernel-6.13.1 kernel-module-tpm-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 13416
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/char/tpm/.debug/tpm_i2c_infineon.ko /usr/lib/modules/6.13.1/kernel/drivers/char/tpm/tpm_i2c_infineon.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/char/tpm/tpm_i2c_infineon.ko

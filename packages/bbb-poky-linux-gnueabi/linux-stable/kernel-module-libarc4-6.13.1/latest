@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-libarc4
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 3564
-FILES = /usr/lib/modules/6.13.1/kernel/lib/crypto/.debug/libarc4.ko /usr/lib/modules/6.13.1/kernel/lib/crypto/libarc4.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/lib/crypto/libarc4.ko

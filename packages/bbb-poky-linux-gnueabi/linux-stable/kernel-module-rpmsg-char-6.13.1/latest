@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-rpmsg-char
-RDEPENDS = kernel-6.13.1 kernel-module-rpmsg-core-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 13316
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/rpmsg/.debug/rpmsg_char.ko /usr/lib/modules/6.13.1/kernel/drivers/rpmsg/rpmsg_char.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/rpmsg/rpmsg_char.ko

@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-onboard-usb-dev
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 23128
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/misc/.debug/onboard_usb_dev.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/misc/onboard_usb_dev.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/misc/onboard_usb_dev.ko

@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-fsi-scom
+RDEPENDS = kernel-6.13.1-dirty kernel-module-fsi-core-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 10740
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/fsi/.debug/fsi-scom.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/fsi/fsi-scom.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/fsi/fsi-scom.ko

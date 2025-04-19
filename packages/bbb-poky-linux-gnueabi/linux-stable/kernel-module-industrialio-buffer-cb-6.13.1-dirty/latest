@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-industrialio-buffer-cb
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 6496
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/iio/buffer/.debug/industrialio-buffer-cb.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/iio/buffer/industrialio-buffer-cb.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/iio/buffer/industrialio-buffer-cb.ko

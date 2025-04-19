@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-mdio-i2c
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 6704
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/mdio/.debug/mdio-i2c.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/mdio/mdio-i2c.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/mdio/mdio-i2c.ko

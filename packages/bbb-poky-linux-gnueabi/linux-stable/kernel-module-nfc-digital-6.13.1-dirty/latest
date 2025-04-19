@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-nfc-digital
+RDEPENDS = kernel-6.13.1-dirty kernel-module-crc-ccitt-6.13.1-dirty kernel-module-crc-itu-t-6.13.1-dirty kernel-module-nfc-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 42524
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/net/nfc/.debug/nfc_digital.ko /usr/lib/modules/6.13.1-dirty/kernel/net/nfc/nfc_digital.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/net/nfc/nfc_digital.ko

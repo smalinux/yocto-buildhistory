@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-industrialio-hw-consumer
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 6244
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/iio/buffer/.debug/industrialio-hw-consumer.ko /usr/lib/modules/6.13.1/kernel/drivers/iio/buffer/industrialio-hw-consumer.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/iio/buffer/industrialio-hw-consumer.ko

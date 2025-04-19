@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-st1232
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 10764
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/touchscreen/.debug/st1232.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/touchscreen/st1232.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/touchscreen/st1232.ko

@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-crypto-simd
+RDEPENDS = kernel-6.13.1-dirty kernel-module-cryptd-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 9368
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/crypto/.debug/crypto_simd.ko /usr/lib/modules/6.13.1-dirty/kernel/crypto/crypto_simd.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/crypto/crypto_simd.ko

@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-i2c-gpio
+RDEPENDS = kernel-6.13.1-dirty kernel-module-i2c-algo-bit-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 9252
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/i2c/busses/.debug/i2c-gpio.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/i2c/busses/i2c-gpio.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/i2c/busses/i2c-gpio.ko

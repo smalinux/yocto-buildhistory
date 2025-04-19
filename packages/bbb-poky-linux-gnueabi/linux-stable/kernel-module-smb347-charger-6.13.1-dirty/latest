@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-smb347-charger
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 19788
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/power/supply/.debug/smb347-charger.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/power/supply/smb347-charger.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/power/supply/smb347-charger.ko

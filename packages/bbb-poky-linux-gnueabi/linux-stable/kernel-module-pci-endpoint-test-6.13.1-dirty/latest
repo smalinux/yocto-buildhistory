@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-pci-endpoint-test
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 20164
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/misc/.debug/pci_endpoint_test.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/misc/pci_endpoint_test.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/misc/pci_endpoint_test.ko

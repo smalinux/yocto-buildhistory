@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-hci-uart
+RDEPENDS = kernel-6.13.1-dirty kernel-module-bluetooth-6.13.1-dirty kernel-module-btbcm-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 42324
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/bluetooth/.debug/hci_uart.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/bluetooth/hci_uart.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/bluetooth/hci_uart.ko

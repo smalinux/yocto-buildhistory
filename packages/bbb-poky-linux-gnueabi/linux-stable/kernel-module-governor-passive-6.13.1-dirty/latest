@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-governor-passive
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 9408
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/devfreq/.debug/governor_passive.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/devfreq/governor_passive.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/devfreq/governor_passive.ko

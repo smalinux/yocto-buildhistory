@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-ecc
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 37056
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/crypto/.debug/ecc.ko /usr/lib/modules/6.13.1-dirty/kernel/crypto/ecc.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/crypto/ecc.ko

@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-typec
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 78220
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/usb/typec/.debug/typec.ko /usr/lib/modules/6.13.1/kernel/drivers/usb/typec/typec.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/usb/typec/typec.ko

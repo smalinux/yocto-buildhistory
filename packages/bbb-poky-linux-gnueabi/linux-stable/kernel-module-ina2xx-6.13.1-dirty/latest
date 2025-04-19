@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-ina2xx
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 17636
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/hwmon/.debug/ina2xx.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/hwmon/ina2xx.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/hwmon/ina2xx.ko

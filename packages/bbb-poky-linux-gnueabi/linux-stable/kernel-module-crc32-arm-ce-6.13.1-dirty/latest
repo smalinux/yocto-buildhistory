@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-crc32-arm-ce
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 8900
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/arch/arm/crypto/.debug/crc32-arm-ce.ko /usr/lib/modules/6.13.1-dirty/kernel/arch/arm/crypto/crc32-arm-ce.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/arch/arm/crypto/crc32-arm-ce.ko

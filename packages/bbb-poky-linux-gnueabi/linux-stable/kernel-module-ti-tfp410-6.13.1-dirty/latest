@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-ti-tfp410
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 12056
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/bridge/.debug/ti-tfp410.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/bridge/ti-tfp410.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/bridge/ti-tfp410.ko

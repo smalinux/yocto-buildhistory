@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-atmel-mxt-ts
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 36688
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/touchscreen/.debug/atmel_mxt_ts.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/touchscreen/atmel_mxt_ts.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/touchscreen/atmel_mxt_ts.ko

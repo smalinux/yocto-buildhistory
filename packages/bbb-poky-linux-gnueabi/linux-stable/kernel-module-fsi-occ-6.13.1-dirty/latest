@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-fsi-occ
+RDEPENDS = kernel-6.13.1-dirty kernel-module-fsi-sbefifo-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 13744
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/fsi/.debug/fsi-occ.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/fsi/fsi-occ.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/fsi/fsi-occ.ko

@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-xfrm-ipcomp
+RDEPENDS = kernel-6.13.1-dirty kernel-module-xfrm-algo-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 9556
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/net/xfrm/.debug/xfrm_ipcomp.ko /usr/lib/modules/6.13.1-dirty/kernel/net/xfrm/xfrm_ipcomp.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/net/xfrm/xfrm_ipcomp.ko

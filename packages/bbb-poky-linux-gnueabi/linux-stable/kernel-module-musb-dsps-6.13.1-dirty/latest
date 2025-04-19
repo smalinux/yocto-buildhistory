@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-musb-dsps
+RDEPENDS = kernel-6.13.1-dirty kernel-module-musb-hdrc-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 18352
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/musb/.debug/musb_dsps.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/musb/musb_dsps.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/musb/musb_dsps.ko

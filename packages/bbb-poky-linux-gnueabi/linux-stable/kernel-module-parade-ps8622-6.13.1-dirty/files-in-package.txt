@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/modules
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/bridge
+-rw-r--r-- root       root            11196 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/bridge/parade-ps8622.ko

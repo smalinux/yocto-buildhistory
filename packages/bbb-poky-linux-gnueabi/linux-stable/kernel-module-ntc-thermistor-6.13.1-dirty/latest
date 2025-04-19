@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-ntc-thermistor
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 16968
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/hwmon/.debug/ntc_thermistor.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/hwmon/ntc_thermistor.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/hwmon/ntc_thermistor.ko

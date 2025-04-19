@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/modules
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/usb
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/typec
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/typec/ucsi
+-rw-r--r-- root       root            14100 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/typec/ucsi/ucsi_stm32g0.ko

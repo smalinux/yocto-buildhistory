@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-btmrvl
+RDEPENDS = kernel-6.13.1-dirty kernel-module-bluetooth-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 19432
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/bluetooth/.debug/btmrvl.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/bluetooth/btmrvl.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/bluetooth/btmrvl.ko

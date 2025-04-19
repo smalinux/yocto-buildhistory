@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-bq27xxx-battery
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 22232
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/power/supply/.debug/bq27xxx_battery.ko /usr/lib/modules/6.13.1/kernel/drivers/power/supply/bq27xxx_battery.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/power/supply/bq27xxx_battery.ko

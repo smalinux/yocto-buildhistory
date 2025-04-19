@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-simple-bridge
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 10468
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/bridge/.debug/simple-bridge.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/bridge/simple-bridge.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/gpu/drm/bridge/simple-bridge.ko

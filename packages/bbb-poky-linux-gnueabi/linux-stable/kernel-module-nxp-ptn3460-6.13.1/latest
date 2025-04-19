@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-nxp-ptn3460
-RDEPENDS = kernel-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 10136
-FILES = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/.debug/nxp-ptn3460.ko /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/nxp-ptn3460.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/drivers/gpu/drm/bridge/nxp-ptn3460.ko

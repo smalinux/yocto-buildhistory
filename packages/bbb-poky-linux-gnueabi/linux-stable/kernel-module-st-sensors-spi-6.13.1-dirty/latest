@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-st-sensors-spi
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 4936
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/iio/common/st_sensors/.debug/st_sensors_spi.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/iio/common/st_sensors/st_sensors_spi.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/iio/common/st_sensors/st_sensors_spi.ko

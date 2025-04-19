@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-gpio-decoder
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 7076
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/misc/.debug/gpio_decoder.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/misc/gpio_decoder.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/misc/gpio_decoder.ko

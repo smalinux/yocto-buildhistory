@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-r8153-ecm
+RDEPENDS = kernel-6.13.1-dirty kernel-module-r8152-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 6828
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/usb/.debug/r8153_ecm.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/usb/r8153_ecm.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/usb/r8153_ecm.ko

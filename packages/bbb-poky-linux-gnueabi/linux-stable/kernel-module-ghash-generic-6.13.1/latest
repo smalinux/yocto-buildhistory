@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.38
-RPROVIDES = kernel-module-ghash-generic
-RDEPENDS = kernel-6.13.1 kernel-module-gf128mul-6.13.1
-RRECOMMENDS = 
-PKGSIZE = 6192
-FILES = /usr/lib/modules/6.13.1/kernel/crypto/.debug/ghash-generic.ko /usr/lib/modules/6.13.1/kernel/crypto/ghash-generic.ko
-FILELIST = /usr/lib/modules/6.13.1/kernel/crypto/ghash-generic.ko

@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-sha3-generic
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 12272
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/crypto/.debug/sha3_generic.ko /usr/lib/modules/6.13.1-dirty/kernel/crypto/sha3_generic.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/crypto/sha3_generic.ko

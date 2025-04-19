@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-crc-itu-t
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 4040
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/lib/.debug/crc-itu-t.ko /usr/lib/modules/6.13.1-dirty/kernel/lib/crc-itu-t.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/lib/crc-itu-t.ko

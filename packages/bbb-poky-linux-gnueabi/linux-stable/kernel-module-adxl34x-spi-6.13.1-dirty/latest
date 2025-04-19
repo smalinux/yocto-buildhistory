@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.39
+RPROVIDES = kernel-module-adxl34x-spi
+RDEPENDS = kernel-6.13.1-dirty kernel-module-adxl34x-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 6056
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/misc/.debug/adxl34x-spi.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/misc/adxl34x-spi.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/input/misc/adxl34x-spi.ko

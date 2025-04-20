@@ -1,0 +1,3 @@
+drwxr-xr-x -          -                4096 ./sysroot-providers
+-rw-r--r-- -          -                  14 ./sysroot-providers/linux-prebuilt
+-rw-r--r-- -          -                  14 ./sysroot-providers/virtual_kernel

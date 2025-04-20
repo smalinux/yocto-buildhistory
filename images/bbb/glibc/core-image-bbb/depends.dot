@@ -125,7 +125,644 @@ digraph depends {
 "kbd-keymaps" -> "kbd-keymaps-pine" [style=dotted]
 "kbd" -> "libc6"
 "kbd" -> "update-alternatives-opkg"
-"kernel-image-none" -> "kernel-image-zimage-none"
+"kernel-6.13.1-dirty" -> "kernel-image-6.13.1-dirty" [style=dotted]
+"kernel-image-6.13.1-dirty" -> "kernel-image-zimage-6.13.1-dirty"
+"kernel-module-adv7511-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-adv7511-6.13.1-dirty" -> "kernel-module-cec-6.13.1-dirty"
+"kernel-module-adxl34x-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-adxl34x-i2c-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-adxl34x-i2c-6.13.1-dirty" -> "kernel-module-adxl34x-6.13.1-dirty"
+"kernel-module-adxl34x-spi-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-adxl34x-spi-6.13.1-dirty" -> "kernel-module-adxl34x-6.13.1-dirty"
+"kernel-module-aes-arm-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-aes-arm-6.13.1-dirty" -> "kernel-module-aes-generic-6.13.1-dirty"
+"kernel-module-aes-arm-6.13.1-dirty" -> "kernel-module-libaes-6.13.1-dirty"
+"kernel-module-aes-arm-bs-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-aes-arm-bs-6.13.1-dirty" -> "kernel-module-aes-arm-6.13.1-dirty"
+"kernel-module-aes-arm-bs-6.13.1-dirty" -> "kernel-module-crypto-simd-6.13.1-dirty"
+"kernel-module-aes-arm-bs-6.13.1-dirty" -> "kernel-module-libaes-6.13.1-dirty"
+"kernel-module-aes-arm-ce-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-aes-arm-ce-6.13.1-dirty" -> "kernel-module-crypto-simd-6.13.1-dirty"
+"kernel-module-aes-arm-ce-6.13.1-dirty" -> "kernel-module-libaes-6.13.1-dirty"
+"kernel-module-aes-generic-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-aes-generic-6.13.1-dirty" -> "kernel-module-libaes-6.13.1-dirty"
+"kernel-module-af-alg-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-ah6-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-ah6-6.13.1-dirty" -> "kernel-module-xfrm-algo-6.13.1-dirty"
+"kernel-module-algif-aead-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-algif-aead-6.13.1-dirty" -> "kernel-module-af-alg-6.13.1-dirty"
+"kernel-module-algif-hash-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-algif-hash-6.13.1-dirty" -> "kernel-module-af-alg-6.13.1-dirty"
+"kernel-module-algif-rng-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-algif-rng-6.13.1-dirty" -> "kernel-module-af-alg-6.13.1-dirty"
+"kernel-module-algif-skcipher-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-algif-skcipher-6.13.1-dirty" -> "kernel-module-af-alg-6.13.1-dirty"
+"kernel-module-amlogic-gxl-crypto-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-amlogic-gxl-crypto-6.13.1-dirty" -> "kernel-module-crypto-engine-6.13.1-dirty"
+"kernel-module-atmel-mxt-ts-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-b53-common-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-b53-common-6.13.1-dirty" -> "kernel-module-dsa-core-6.13.1-dirty"
+"kernel-module-b53-mdio-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-b53-mdio-6.13.1-dirty" -> "kernel-module-b53-common-6.13.1-dirty"
+"kernel-module-b53-mdio-6.13.1-dirty" -> "kernel-module-dsa-core-6.13.1-dirty"
+"kernel-module-b53-mmap-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-b53-mmap-6.13.1-dirty" -> "kernel-module-b53-common-6.13.1-dirty"
+"kernel-module-b53-mmap-6.13.1-dirty" -> "kernel-module-dsa-core-6.13.1-dirty"
+"kernel-module-b53-serdes-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-b53-spi-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-b53-spi-6.13.1-dirty" -> "kernel-module-b53-common-6.13.1-dirty"
+"kernel-module-b53-spi-6.13.1-dirty" -> "kernel-module-dsa-core-6.13.1-dirty"
+"kernel-module-b53-srab-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-b53-srab-6.13.1-dirty" -> "kernel-module-b53-common-6.13.1-dirty"
+"kernel-module-b53-srab-6.13.1-dirty" -> "kernel-module-b53-serdes-6.13.1-dirty"
+"kernel-module-b53-srab-6.13.1-dirty" -> "kernel-module-dsa-core-6.13.1-dirty"
+"kernel-module-bcm7xxx-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-bcm-sf2-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-bcm-sf2-6.13.1-dirty" -> "kernel-module-b53-common-6.13.1-dirty"
+"kernel-module-bcm-sf2-6.13.1-dirty" -> "kernel-module-dsa-core-6.13.1-dirty"
+"kernel-module-bluetooth-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-bluetooth-6.13.1-dirty" -> "kernel-module-ecdh-generic-6.13.1-dirty"
+"kernel-module-bluetooth-6.13.1-dirty" -> "kernel-module-libaes-6.13.1-dirty"
+"kernel-module-bq27xxx-battery-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-bq27xxx-battery-i2c-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-bq27xxx-battery-i2c-6.13.1-dirty" -> "kernel-module-bq27xxx-battery-6.13.1-dirty"
+"kernel-module-brcmfmac-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-brcmfmac-6.13.1-dirty" -> "kernel-module-brcmutil-6.13.1-dirty"
+"kernel-module-brcmfmac-6.13.1-dirty" -> "kernel-module-cfg80211-6.13.1-dirty"
+"kernel-module-brcmfmac-bca-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-brcmfmac-bca-6.13.1-dirty" -> "kernel-module-brcmfmac-6.13.1-dirty"
+"kernel-module-brcmfmac-cyw-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-brcmfmac-cyw-6.13.1-dirty" -> "kernel-module-brcmfmac-6.13.1-dirty"
+"kernel-module-brcmfmac-wcc-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-brcmfmac-wcc-6.13.1-dirty" -> "kernel-module-brcmfmac-6.13.1-dirty"
+"kernel-module-brcmutil-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-btbcm-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-btbcm-6.13.1-dirty" -> "kernel-module-bluetooth-6.13.1-dirty"
+"kernel-module-btmrvl-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-btmrvl-6.13.1-dirty" -> "kernel-module-bluetooth-6.13.1-dirty"
+"kernel-module-btmrvl-sdio-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-btmrvl-sdio-6.13.1-dirty" -> "kernel-module-bluetooth-6.13.1-dirty"
+"kernel-module-btmrvl-sdio-6.13.1-dirty" -> "kernel-module-btmrvl-6.13.1-dirty"
+"kernel-module-capsule-loader-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-c-can-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-c-can-platform-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-c-can-platform-6.13.1-dirty" -> "kernel-module-c-can-6.13.1-dirty"
+"kernel-module-ccm-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-cec-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-cfg80211-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-chacha-neon-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-cm36651-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-cmac-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-counter-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-cppi41-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-cpufreq-conservative-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-cpufreq-powersave-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-cpufreq-userspace-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-crc32-arm-ce-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-crc4-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-crc-ccitt-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-crc-itu-t-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-cryptd-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-crypto-engine-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-crypto-simd-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-crypto-simd-6.13.1-dirty" -> "kernel-module-cryptd-6.13.1-dirty"
+"kernel-module-crypto-user-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-ctr-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-cyapatp-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-cyapatp-6.13.1-dirty" -> "kernel-module-crc-itu-t-6.13.1-dirty"
+"kernel-module-des-generic-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-des-generic-6.13.1-dirty" -> "kernel-module-libdes-6.13.1-dirty"
+"kernel-module-display-connector-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-drbg-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-drm-display-helper-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-dsa-core-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-ecc-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-ecdh-generic-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-ecdh-generic-6.13.1-dirty" -> "kernel-module-ecc-6.13.1-dirty"
+"kernel-module-echainiv-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-echainiv-6.13.1-dirty" -> "kernel-module-geniv-6.13.1-dirty"
+"kernel-module-edt-ft5x06-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-efivarfs-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-ehci-fsl-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-elants-i2c-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-esp6-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-esp6-6.13.1-dirty" -> "kernel-module-xfrm-algo-6.13.1-dirty"
+"kernel-module-ff-memless-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-flexcan-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-fsi-core-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-fsi-core-6.13.1-dirty" -> "kernel-module-crc4-6.13.1-dirty"
+"kernel-module-fsi-master-aspeed-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-fsi-master-aspeed-6.13.1-dirty" -> "kernel-module-fsi-core-6.13.1-dirty"
+"kernel-module-fsi-master-gpio-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-fsi-master-gpio-6.13.1-dirty" -> "kernel-module-crc4-6.13.1-dirty"
+"kernel-module-fsi-master-gpio-6.13.1-dirty" -> "kernel-module-fsi-core-6.13.1-dirty"
+"kernel-module-fsi-master-hub-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-fsi-master-hub-6.13.1-dirty" -> "kernel-module-fsi-core-6.13.1-dirty"
+"kernel-module-fsi-occ-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-fsi-occ-6.13.1-dirty" -> "kernel-module-fsi-sbefifo-6.13.1-dirty"
+"kernel-module-fsi-sbefifo-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-fsi-sbefifo-6.13.1-dirty" -> "kernel-module-fsi-core-6.13.1-dirty"
+"kernel-module-fsi-scom-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-fsi-scom-6.13.1-dirty" -> "kernel-module-fsi-core-6.13.1-dirty"
+"kernel-module-fsl-mph-dr-of-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-gcm-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-geniv-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-g-ether-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-g-ether-6.13.1-dirty" -> "kernel-module-u-ether-6.13.1-dirty"
+"kernel-module-g-ether-6.13.1-dirty" -> "kernel-module-usb-f-rndis-6.13.1-dirty"
+"kernel-module-gf128mul-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-ghash-arm-ce-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-ghash-arm-ce-6.13.1-dirty" -> "kernel-module-cryptd-6.13.1-dirty"
+"kernel-module-ghash-arm-ce-6.13.1-dirty" -> "kernel-module-gf128mul-6.13.1-dirty"
+"kernel-module-ghash-arm-ce-6.13.1-dirty" -> "kernel-module-libaes-6.13.1-dirty"
+"kernel-module-ghash-generic-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-ghash-generic-6.13.1-dirty" -> "kernel-module-gf128mul-6.13.1-dirty"
+"kernel-module-governor-passive-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-gpio-charger-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-gpio-decoder-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-hci-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-hci-6.13.1-dirty" -> "kernel-module-nfc-6.13.1-dirty"
+"kernel-module-hci-uart-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-hci-uart-6.13.1-dirty" -> "kernel-module-bluetooth-6.13.1-dirty"
+"kernel-module-hci-uart-6.13.1-dirty" -> "kernel-module-btbcm-6.13.1-dirty"
+"kernel-module-hmac-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-i2c-algo-bit-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-i2c-arb-gpio-challenge-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-i2c-emev2-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-i2c-gpio-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-i2c-gpio-6.13.1-dirty" -> "kernel-module-i2c-algo-bit-6.13.1-dirty"
+"kernel-module-ina2xx-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-industrialio-buffer-cb-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-industrialio-hw-consumer-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-ip6-tunnel-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-ip6-tunnel-6.13.1-dirty" -> "kernel-module-tunnel6-6.13.1-dirty"
+"kernel-module-ipcomp6-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-ipcomp6-6.13.1-dirty" -> "kernel-module-xfrm6-tunnel-6.13.1-dirty"
+"kernel-module-ipcomp6-6.13.1-dirty" -> "kernel-module-xfrm-ipcomp-6.13.1-dirty"
+"kernel-module-jitterentropy-rng-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-lan78xx-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-lan966x-serdes-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-led-class-flash-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-leds-pca9532-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-libaes-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-libarc4-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-libdes-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-lvds-codec-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-mac80211-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-mac80211-6.13.1-dirty" -> "kernel-module-cfg80211-6.13.1-dirty"
+"kernel-module-mac80211-6.13.1-dirty" -> "kernel-module-libarc4-6.13.1-dirty"
+"kernel-module-max17040-battery-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-max17042-battery-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-max8952-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-md5-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-mdio-i2c-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-mdio-mscc-miim-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-microchip-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-mip6-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-mms114-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-musb-dsps-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-musb-dsps-6.13.1-dirty" -> "kernel-module-musb-hdrc-6.13.1-dirty"
+"kernel-module-musb-hdrc-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-mwifiex-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-mwifiex-6.13.1-dirty" -> "kernel-module-cfg80211-6.13.1-dirty"
+"kernel-module-mwifiex-sdio-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-mwifiex-sdio-6.13.1-dirty" -> "kernel-module-mwifiex-6.13.1-dirty"
+"kernel-module-nci-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-nci-6.13.1-dirty" -> "kernel-module-nfc-6.13.1-dirty"
+"kernel-module-nci-spi-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-nci-spi-6.13.1-dirty" -> "kernel-module-crc-ccitt-6.13.1-dirty"
+"kernel-module-nci-uart-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-nfc-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-nfc-digital-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-nfc-digital-6.13.1-dirty" -> "kernel-module-crc-ccitt-6.13.1-dirty"
+"kernel-module-nfc-digital-6.13.1-dirty" -> "kernel-module-crc-itu-t-6.13.1-dirty"
+"kernel-module-nfc-digital-6.13.1-dirty" -> "kernel-module-nfc-6.13.1-dirty"
+"kernel-module-ntc-thermistor-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-nxp-ptn3460-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-omap2430-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-omap2430-6.13.1-dirty" -> "kernel-module-musb-hdrc-6.13.1-dirty"
+"kernel-module-omapdrm-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-omapdrm-6.13.1-dirty" -> "kernel-module-cec-6.13.1-dirty"
+"kernel-module-omapdrm-6.13.1-dirty" -> "kernel-module-drm-display-helper-6.13.1-dirty"
+"kernel-module-onboard-usb-dev-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-panel-lvds-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-parade-ps8622-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-pci-endpoint-test-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-pci-epf-test-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-pci-meson-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-phy-am335x-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-phy-am335x-6.13.1-dirty" -> "kernel-module-phy-am335x-control-6.13.1-dirty"
+"kernel-module-phy-am335x-control-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-phy-cpcap-usb-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-phy-cpcap-usb-6.13.1-dirty" -> "kernel-module-musb-hdrc-6.13.1-dirty"
+"kernel-module-phy-dm816x-usb-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-phy-exynos-usb2-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-phy-twl4030-usb-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-phy-twl4030-usb-6.13.1-dirty" -> "kernel-module-musb-hdrc-6.13.1-dirty"
+"kernel-module-phy-twl6030-usb-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-phy-twl6030-usb-6.13.1-dirty" -> "kernel-module-musb-hdrc-6.13.1-dirty"
+"kernel-module-pwm-fan-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-pwm-tiecap-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-pwm-tiehrpwm-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-qrtr-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-qrtr-smd-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-qrtr-smd-6.13.1-dirty" -> "kernel-module-qrtr-6.13.1-dirty"
+"kernel-module-qrtr-smd-6.13.1-dirty" -> "kernel-module-rpmsg-core-6.13.1-dirty"
+"kernel-module-qt1070-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-r8152-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-r8153-ecm-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-r8153-ecm-6.13.1-dirty" -> "kernel-module-r8152-6.13.1-dirty"
+"kernel-module-r8a66597-hcd-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-reset-ti-syscon-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-resistive-adc-touch-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-resistive-adc-touch-6.13.1-dirty" -> "kernel-module-industrialio-buffer-cb-6.13.1-dirty"
+"kernel-module-rpmsg-char-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-rpmsg-char-6.13.1-dirty" -> "kernel-module-rpmsg-core-6.13.1-dirty"
+"kernel-module-rpmsg-core-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-rpmsg-ctrl-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-rpmsg-ctrl-6.13.1-dirty" -> "kernel-module-rpmsg-char-6.13.1-dirty"
+"kernel-module-rpmsg-ctrl-6.13.1-dirty" -> "kernel-module-rpmsg-core-6.13.1-dirty"
+"kernel-module-rpmsg-ns-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-rpmsg-ns-6.13.1-dirty" -> "kernel-module-rpmsg-core-6.13.1-dirty"
+"kernel-module-rt2800lib-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-rt2800lib-6.13.1-dirty" -> "kernel-module-crc-ccitt-6.13.1-dirty"
+"kernel-module-rt2800lib-6.13.1-dirty" -> "kernel-module-mac80211-6.13.1-dirty"
+"kernel-module-rt2800lib-6.13.1-dirty" -> "kernel-module-rt2x00lib-6.13.1-dirty"
+"kernel-module-rt2800usb-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-rt2800usb-6.13.1-dirty" -> "kernel-module-mac80211-6.13.1-dirty"
+"kernel-module-rt2800usb-6.13.1-dirty" -> "kernel-module-rt2800lib-6.13.1-dirty"
+"kernel-module-rt2800usb-6.13.1-dirty" -> "kernel-module-rt2x00lib-6.13.1-dirty"
+"kernel-module-rt2800usb-6.13.1-dirty" -> "kernel-module-rt2x00usb-6.13.1-dirty"
+"kernel-module-rt2x00lib-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-rt2x00lib-6.13.1-dirty" -> "kernel-module-cfg80211-6.13.1-dirty"
+"kernel-module-rt2x00lib-6.13.1-dirty" -> "kernel-module-mac80211-6.13.1-dirty"
+"kernel-module-rt2x00usb-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-rt2x00usb-6.13.1-dirty" -> "kernel-module-mac80211-6.13.1-dirty"
+"kernel-module-rt2x00usb-6.13.1-dirty" -> "kernel-module-rt2x00lib-6.13.1-dirty"
+"kernel-module-rtc-bq32k-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-rtc-efi-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-rtc-hym8563-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-rtc-pcf85063-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-rtc-pcf85363-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-rtc-rs5c372-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-rtc-rx8581-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-rtc-s35390a-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-s3fwrn5-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-s3fwrn5-6.13.1-dirty" -> "kernel-module-nci-6.13.1-dirty"
+"kernel-module-s3fwrn5-i2c-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-s3fwrn5-i2c-6.13.1-dirty" -> "kernel-module-s3fwrn5-6.13.1-dirty"
+"kernel-module-samsung-dsim-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-samsung-keypad-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-seqiv-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-seqiv-6.13.1-dirty" -> "kernel-module-geniv-6.13.1-dirty"
+"kernel-module-sfp-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-sfp-6.13.1-dirty" -> "kernel-module-mdio-i2c-6.13.1-dirty"
+"kernel-module-sha1-arm-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-sha1-arm-ce-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-sha1-arm-ce-6.13.1-dirty" -> "kernel-module-sha1-arm-6.13.1-dirty"
+"kernel-module-sha1-arm-neon-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-sha1-arm-neon-6.13.1-dirty" -> "kernel-module-sha1-arm-6.13.1-dirty"
+"kernel-module-sha256-arm-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-sha2-arm-ce-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-sha2-arm-ce-6.13.1-dirty" -> "kernel-module-sha256-arm-6.13.1-dirty"
+"kernel-module-sha3-generic-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-sha512-arm-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-sha512-generic-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-sii902x-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-sii9234-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-simple-bridge-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-modules" -> "kernel-module-adv7511-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-adxl34x-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-adxl34x-i2c-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-adxl34x-spi-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-aes-arm-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-aes-arm-bs-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-aes-arm-ce-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-aes-generic-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-af-alg-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-ah6-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-algif-aead-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-algif-hash-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-algif-rng-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-algif-skcipher-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-amlogic-gxl-crypto-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-atmel-mxt-ts-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-b53-common-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-b53-mdio-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-b53-mmap-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-b53-serdes-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-b53-spi-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-b53-srab-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-bcm7xxx-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-bcm-sf2-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-bluetooth-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-bq27xxx-battery-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-bq27xxx-battery-i2c-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-brcmfmac-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-brcmfmac-bca-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-brcmfmac-cyw-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-brcmfmac-wcc-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-brcmutil-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-btbcm-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-btmrvl-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-btmrvl-sdio-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-capsule-loader-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-c-can-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-c-can-platform-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-ccm-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-cec-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-cfg80211-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-chacha-neon-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-cm36651-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-cmac-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-counter-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-cppi41-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-cpufreq-conservative-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-cpufreq-powersave-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-cpufreq-userspace-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-crc32-arm-ce-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-crc4-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-crc-ccitt-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-crc-itu-t-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-cryptd-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-crypto-engine-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-crypto-simd-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-crypto-user-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-ctr-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-cyapatp-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-des-generic-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-display-connector-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-drbg-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-drm-display-helper-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-dsa-core-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-ecc-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-ecdh-generic-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-echainiv-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-edt-ft5x06-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-efivarfs-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-ehci-fsl-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-elants-i2c-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-esp6-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-ff-memless-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-flexcan-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-fsi-core-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-fsi-master-aspeed-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-fsi-master-gpio-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-fsi-master-hub-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-fsi-occ-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-fsi-sbefifo-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-fsi-scom-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-fsl-mph-dr-of-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-gcm-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-geniv-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-g-ether-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-gf128mul-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-ghash-arm-ce-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-ghash-generic-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-governor-passive-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-gpio-charger-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-gpio-decoder-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-hci-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-hci-uart-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-hmac-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-i2c-algo-bit-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-i2c-arb-gpio-challenge-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-i2c-emev2-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-i2c-gpio-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-ina2xx-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-industrialio-buffer-cb-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-industrialio-hw-consumer-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-ip6-tunnel-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-ipcomp6-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-jitterentropy-rng-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-lan78xx-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-lan966x-serdes-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-led-class-flash-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-leds-pca9532-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-libaes-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-libarc4-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-libdes-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-lvds-codec-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-mac80211-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-max17040-battery-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-max17042-battery-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-max8952-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-md5-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-mdio-i2c-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-mdio-mscc-miim-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-microchip-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-mip6-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-mms114-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-musb-dsps-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-musb-hdrc-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-mwifiex-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-mwifiex-sdio-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-nci-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-nci-spi-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-nci-uart-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-nfc-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-nfc-digital-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-ntc-thermistor-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-nxp-ptn3460-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-omap2430-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-omapdrm-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-onboard-usb-dev-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-panel-lvds-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-parade-ps8622-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-pci-endpoint-test-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-pci-epf-test-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-pci-meson-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-phy-am335x-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-phy-am335x-control-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-phy-cpcap-usb-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-phy-dm816x-usb-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-phy-exynos-usb2-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-phy-twl4030-usb-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-phy-twl6030-usb-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-pwm-fan-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-pwm-tiecap-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-pwm-tiehrpwm-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-qrtr-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-qrtr-smd-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-qt1070-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-r8152-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-r8153-ecm-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-r8a66597-hcd-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-reset-ti-syscon-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-resistive-adc-touch-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-rpmsg-char-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-rpmsg-core-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-rpmsg-ctrl-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-rpmsg-ns-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-rt2800lib-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-rt2800usb-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-rt2x00lib-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-rt2x00usb-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-rtc-bq32k-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-rtc-efi-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-rtc-hym8563-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-rtc-pcf85063-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-rtc-pcf85363-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-rtc-rs5c372-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-rtc-rx8581-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-rtc-s35390a-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-s3fwrn5-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-s3fwrn5-i2c-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-samsung-dsim-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-samsung-keypad-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-seqiv-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-sfp-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-sha1-arm-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-sha1-arm-ce-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-sha1-arm-neon-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-sha256-arm-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-sha2-arm-ce-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-sha3-generic-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-sha512-arm-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-sha512-generic-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-sii902x-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-sii9234-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-simple-bridge-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-smb347-charger-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-snd-soc-hdmi-codec-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-spi-gpio-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-st1232-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-st-accel-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-st-accel-i2c-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-st-gyro-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-st-gyro-i2c-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-st-gyro-spi-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-st-sensors-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-st-sensors-i2c-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-st-sensors-spi-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-stusb160x-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-tag-brcm-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-tag-none-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-tag-rzn1-a5psw-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-tc358764-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-tc358768-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-tda998x-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-thermal-generic-adc-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-ti-tfp410-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-ti-tpd12s015-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-tm2-touchkey-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-tpm-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-tpm-i2c-infineon-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-tunnel6-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-tusb6010-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-typec-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-typec-ucsi-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-uas-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-ucsi-stm32g0-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-u-ether-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-usb-f-acm-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-usb-f-ecm-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-usb-f-ecm-subset-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-usb-f-eem-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-usb-f-fs-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-usb-f-hid-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-usb-f-mass-storage-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-usb-f-ncm-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-usb-f-obex-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-usb-f-printer-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-usb-f-rndis-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-usb-f-serial-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-usb-f-ss-lb-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-u-serial-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-vf610-adc-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-virtio-rpmsg-bus-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-wcn36xx-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-xfrm6-tunnel-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-xfrm-algo-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-xfrm-ipcomp-6.13.1-dirty"
+"kernel-modules" -> "kernel-module-xts-6.13.1-dirty"
+"kernel-module-smb347-charger-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-snd-soc-hdmi-codec-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-spi-gpio-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-st1232-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-st-accel-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-st-accel-6.13.1-dirty" -> "kernel-module-st-sensors-6.13.1-dirty"
+"kernel-module-st-accel-i2c-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-st-accel-i2c-6.13.1-dirty" -> "kernel-module-st-accel-6.13.1-dirty"
+"kernel-module-st-accel-i2c-6.13.1-dirty" -> "kernel-module-st-sensors-6.13.1-dirty"
+"kernel-module-st-accel-i2c-6.13.1-dirty" -> "kernel-module-st-sensors-i2c-6.13.1-dirty"
+"kernel-module-st-gyro-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-st-gyro-6.13.1-dirty" -> "kernel-module-st-sensors-6.13.1-dirty"
+"kernel-module-st-gyro-i2c-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-st-gyro-i2c-6.13.1-dirty" -> "kernel-module-st-gyro-6.13.1-dirty"
+"kernel-module-st-gyro-i2c-6.13.1-dirty" -> "kernel-module-st-sensors-6.13.1-dirty"
+"kernel-module-st-gyro-i2c-6.13.1-dirty" -> "kernel-module-st-sensors-i2c-6.13.1-dirty"
+"kernel-module-st-gyro-spi-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-st-gyro-spi-6.13.1-dirty" -> "kernel-module-st-gyro-6.13.1-dirty"
+"kernel-module-st-gyro-spi-6.13.1-dirty" -> "kernel-module-st-sensors-6.13.1-dirty"
+"kernel-module-st-gyro-spi-6.13.1-dirty" -> "kernel-module-st-sensors-spi-6.13.1-dirty"
+"kernel-module-st-sensors-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-st-sensors-i2c-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-st-sensors-spi-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-stusb160x-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-stusb160x-6.13.1-dirty" -> "kernel-module-typec-6.13.1-dirty"
+"kernel-module-tag-brcm-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-tag-brcm-6.13.1-dirty" -> "kernel-module-dsa-core-6.13.1-dirty"
+"kernel-module-tag-none-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-tag-none-6.13.1-dirty" -> "kernel-module-dsa-core-6.13.1-dirty"
+"kernel-module-tag-rzn1-a5psw-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-tag-rzn1-a5psw-6.13.1-dirty" -> "kernel-module-dsa-core-6.13.1-dirty"
+"kernel-module-tc358764-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-tc358768-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-tda998x-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-thermal-generic-adc-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-ti-tfp410-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-ti-tpd12s015-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-tm2-touchkey-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-tpm-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-tpm-i2c-infineon-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-tpm-i2c-infineon-6.13.1-dirty" -> "kernel-module-tpm-6.13.1-dirty"
+"kernel-module-tunnel6-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-tusb6010-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-tusb6010-6.13.1-dirty" -> "kernel-module-musb-hdrc-6.13.1-dirty"
+"kernel-module-typec-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-typec-ucsi-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-typec-ucsi-6.13.1-dirty" -> "kernel-module-typec-6.13.1-dirty"
+"kernel-module-uas-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-ucsi-stm32g0-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-ucsi-stm32g0-6.13.1-dirty" -> "kernel-module-typec-ucsi-6.13.1-dirty"
+"kernel-module-u-ether-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-usb-f-acm-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-usb-f-acm-6.13.1-dirty" -> "kernel-module-u-serial-6.13.1-dirty"
+"kernel-module-usb-f-ecm-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-usb-f-ecm-6.13.1-dirty" -> "kernel-module-u-ether-6.13.1-dirty"
+"kernel-module-usb-f-ecm-subset-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-usb-f-ecm-subset-6.13.1-dirty" -> "kernel-module-u-ether-6.13.1-dirty"
+"kernel-module-usb-f-eem-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-usb-f-eem-6.13.1-dirty" -> "kernel-module-u-ether-6.13.1-dirty"
+"kernel-module-usb-f-fs-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-usb-f-hid-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-usb-f-mass-storage-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-usb-f-ncm-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-usb-f-ncm-6.13.1-dirty" -> "kernel-module-u-ether-6.13.1-dirty"
+"kernel-module-usb-f-obex-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-usb-f-obex-6.13.1-dirty" -> "kernel-module-u-serial-6.13.1-dirty"
+"kernel-module-usb-f-printer-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-usb-f-rndis-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-usb-f-rndis-6.13.1-dirty" -> "kernel-module-u-ether-6.13.1-dirty"
+"kernel-module-usb-f-serial-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-usb-f-serial-6.13.1-dirty" -> "kernel-module-u-serial-6.13.1-dirty"
+"kernel-module-usb-f-ss-lb-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-u-serial-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-vf610-adc-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-virtio-rpmsg-bus-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-virtio-rpmsg-bus-6.13.1-dirty" -> "kernel-module-rpmsg-core-6.13.1-dirty"
+"kernel-module-virtio-rpmsg-bus-6.13.1-dirty" -> "kernel-module-rpmsg-ns-6.13.1-dirty"
+"kernel-module-wcn36xx-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-wcn36xx-6.13.1-dirty" -> "kernel-module-cfg80211-6.13.1-dirty"
+"kernel-module-wcn36xx-6.13.1-dirty" -> "kernel-module-mac80211-6.13.1-dirty"
+"kernel-module-wcn36xx-6.13.1-dirty" -> "kernel-module-rpmsg-core-6.13.1-dirty"
+"kernel-module-xfrm6-tunnel-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-xfrm6-tunnel-6.13.1-dirty" -> "kernel-module-tunnel6-6.13.1-dirty"
+"kernel-module-xfrm-algo-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-xfrm-ipcomp-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
+"kernel-module-xfrm-ipcomp-6.13.1-dirty" -> "kernel-module-xfrm-algo-6.13.1-dirty"
+"kernel-module-xts-6.13.1-dirty" -> "kernel-6.13.1-dirty" [label="kernel-6.13.1-dirty"] [style=dashed]
 "kmod" -> "libc6"
 "kmod" -> "libcrypto3"
 "kmod" -> "liblzma5"
@@ -488,7 +1125,7 @@ digraph depends {
 "packagegroup-core-boot" -> "busybox"
 "packagegroup-core-boot" -> "busybox-syslog" [style=dotted]
 "packagegroup-core-boot" -> "kernel-devicetree"
-"packagegroup-core-boot" -> "kernel-image-none" [label="kernel-image"] [style=dashed]
+"packagegroup-core-boot" -> "kernel-image-6.13.1-dirty" [label="kernel-image"] [style=dashed]
 "packagegroup-core-boot" -> "kernel-modules"
 "packagegroup-core-boot" -> "netbase"
 "packagegroup-core-boot" -> "shadow-base"

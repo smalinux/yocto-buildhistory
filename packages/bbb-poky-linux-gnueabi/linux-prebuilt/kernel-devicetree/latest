@@ -1,0 +1,9 @@
+PV = 1.0
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 70544
+FILES = /boot/**/*.dtb /boot/**/*.dtbo
+FILELIST = /boot/am335x-boneblack.dtb

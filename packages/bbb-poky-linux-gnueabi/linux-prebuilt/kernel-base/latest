@@ -1,0 +1,10 @@
+PV = 1.0
+PR = r0
+PKG = kernel-none
+PKGR = r0.0
+RPROVIDES = kernel-None kernel-base (=1.0)
+RDEPENDS = 
+RRECOMMENDS = kernel-image (= 1.0-r0.0)
+PKGSIZE = 0
+FILES = /usr/lib/modules/None/modules.order /usr/lib/modules/None/modules.builtin /usr/lib/modules/None/modules.builtin.modinfo
+FILELIST = 

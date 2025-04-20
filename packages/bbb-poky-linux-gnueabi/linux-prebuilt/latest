@@ -1,0 +1,8 @@
+PV = 1.0
+PR = r0
+DEPENDS = bc-native bison-native kmod-native pkgconfig-native virtual/arm-poky-linux-gnueabi-binutils virtual/arm-poky-linux-gnueabi-gcc
+PACKAGES = linux-prebuilt-src kernel-dbg kernel kernel-base kernel-vmlinux kernel-image kernel-dev kernel-modules kernel-image-zimage kernel-devicetree
+LAYER = meta-bbb
+LICENSE = CLOSED
+CONFIG = 
+SRC_URI = file://zImage file://am335x-boneblack.dtb file://System.map

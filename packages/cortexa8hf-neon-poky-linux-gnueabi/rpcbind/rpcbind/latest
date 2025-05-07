@@ -1,0 +1,9 @@
+PV = 1.2.6
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = base-files base-passwd glibc (>= 2.39+git2+e8f5217097) libsystemd (>= 255.4) libtirpc (>= 1.3.4) shadow update-alternatives-opkg
+RRECOMMENDS = 
+PKGSIZE = 73719
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /usr/bin/* /usr/sbin/* /usr/lib/*.so.* /lib/udev /usr/lib/udev /usr/lib/udev /usr/lib/udev /usr/share/rpcbind /usr/lib/rpcbind/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/systemd/system-preset/98-rpcbind.preset /usr/lib/systemd/system/rpcbind.service /usr/lib/systemd/system/rpcbind.socket
+FILELIST = /etc/rpcbind.conf /usr/bin/rpcinfo.rpcbind /usr/lib/systemd/system-preset/98-rpcbind.preset /usr/lib/systemd/system/rpcbind.service /usr/lib/systemd/system/rpcbind.socket /usr/sbin/rpcbind

@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root            43299 ./usr/sbin/mountstats
+-rwxr-xr-x root       root             9271 ./usr/sbin/nfsdclnts
+-rwxr-xr-x root       root            25240 ./usr/sbin/nfsiostat

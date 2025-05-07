@@ -329,6 +329,7 @@ libe2p2
 libedit0
 libepoxy0
 liberation-fonts
+libevent-2.1-7
 libexpat1
 libext2fs2
 libfdisk1
@@ -394,6 +395,7 @@ libunistring5
 libusb-1.0-0
 libuuid1
 libvorbis
+libwrap0
 libx11-6
 libx11-locale
 libxau6
@@ -419,6 +421,9 @@ libzstd1
 lz4
 ncurses-terminfo-base
 netbase
+nfs-utils-client
+nfs-utils-mount
+nfs-utils
 openssh-keygen
 openssh
 openssh-scp
@@ -503,6 +508,7 @@ rauc-conf
 rauc-mark-good
 rauc
 rauc-service
+rpcbind
 shadow-base
 shadow-securetty
 shadow

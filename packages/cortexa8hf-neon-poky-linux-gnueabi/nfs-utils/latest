@@ -1,0 +1,8 @@
+PV = 2.6.4
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd libcap libevent libtirpc libtool-cross libtool-native pkgconfig-native shadow shadow-native shadow-sysroot sqlite3 systemd-systemctl-native tcp-wrappers util-linux virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+PACKAGES = nfs-utils-src nfs-utils-dbg nfs-utils-client nfs-utils-mount nfs-utils-stats nfs-utils-rpcctl nfs-utils-staticdev nfs-utils-dev nfs-utils-doc nfs-utils-locale nfs-utils
+LAYER = core
+LICENSE = MIT & GPL-2.0-or-later & BSD-3-Clause
+CONFIG = ipv6 tcp-wrappers
+SRC_URI = https://cdn.kernel.org/pub/linux/utils/nfs-utils/2.6.4/nfs-utils-2.6.4.tar.xz file://nfsserver file://nfscommon file://nfs-utils.conf file://nfs-server.service file://nfs-mountd.service file://nfs-statd.service file://proc-fs-nfsd.mount file://nfs-utils-debianize-start-statd.patch file://bugfix-adjust-statd-service-name.patch file://0001-Makefile.am-fix-undefined-function-for-libnsm.a.patch file://clang-warnings.patch file://0001-locktest-Makefile.am-Do-not-use-build-flags.patch file://0001-tools-locktest-Use-intmax_t-to-print-off_t.patch file://0001-reexport.h-Include-unistd.h-to-compile-with-musl.patch

@@ -1,0 +1,8 @@
+PV = 1.2.6
+PR = r0
+DEPENDS = autoconf-native automake-native base-files base-passwd libtirpc libtool-cross libtool-native pkgconfig-native quota shadow shadow-native shadow-sysroot systemd systemd-systemctl-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc virtual/update-alternatives
+PACKAGES = rpcbind-src rpcbind-dbg rpcbind-staticdev rpcbind-dev rpcbind-doc rpcbind-locale rpcbind
+LAYER = core
+LICENSE = BSD-3-Clause
+CONFIG = systemd
+SRC_URI = https://downloads.sourceforge.net/rpcbind/rpcbind-1.2.6.tar.bz2 file://init.d file://rpcbind.conf file://rpcbind_add_option_to_fix_port_number.patch file://0001-systemd-use-EnvironmentFile.patch

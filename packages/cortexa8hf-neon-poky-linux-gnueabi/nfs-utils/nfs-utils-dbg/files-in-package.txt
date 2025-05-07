@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/libexec
+drwxr-xr-x root       root             4096 ./usr/libexec/.debug
+-rwxr-xr-x root       root            91260 ./usr/libexec/.debug/nfsrahead
+drwxr-xr-x root       root             4096 ./usr/sbin
+drwxr-xr-x root       root             4096 ./usr/sbin/.debug
+-rwxr-xr-x root       root           289048 ./usr/sbin/.debug/exportfs
+-rwxr-xr-x root       root           103232 ./usr/sbin/.debug/fsidd
+-rwxr-xr-x root       root           440804 ./usr/sbin/.debug/mount.nfs
+-rwxr-xr-x root       root            92616 ./usr/sbin/.debug/nfsconf
+-rwxr-xr-x root       root            53056 ./usr/sbin/.debug/nfsstat
+-rwxr-xr-x root       root            23064 ./usr/sbin/.debug/rpcdebug
+-rwxr-xr-x root       root           485176 ./usr/sbin/.debug/rpc.mountd
+-rwxr-xr-x root       root           134352 ./usr/sbin/.debug/rpc.nfsd
+-rwxr-xr-x root       root           348388 ./usr/sbin/.debug/rpc.statd
+-rwxr-xr-x root       root            52680 ./usr/sbin/.debug/showmount
+-rwxr-xr-x root       root           214668 ./usr/sbin/.debug/sm-notify

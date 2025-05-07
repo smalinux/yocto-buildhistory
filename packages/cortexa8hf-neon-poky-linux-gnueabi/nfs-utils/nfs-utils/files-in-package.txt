@@ -1,0 +1,23 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/libexec
+-rwxr-xr-x root       root            30156 ./usr/libexec/nfsrahead
+drwxr-xr-x root       root             4096 ./usr/lib/systemd
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/system
+-rw-r--r-- root       root              399 ./usr/lib/systemd/system/nfs-mountd.service
+-rw-r--r-- root       root              648 ./usr/lib/systemd/system/nfs-server.service
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/system-preset
+-rw-r--r-- root       root               52 ./usr/lib/systemd/system-preset/98-nfs-utils.preset
+-rw-r--r-- root       root              133 ./usr/lib/systemd/system/proc-fs-nfsd.mount
+drwxr-xr-x root       root             4096 ./usr/lib/systemd/system/sysinit.target.wants
+lrwxrwxrwx root       root               21 ./usr/lib/systemd/system/sysinit.target.wants/proc-fs-nfsd.mount -> ../proc-fs-nfsd.mount
+drwxr-xr-x root       root             4096 ./usr/lib/udev
+drwxr-xr-x root       root             4096 ./usr/lib/udev/rules.d
+-rw-r--r-- root       root               95 ./usr/lib/udev/rules.d/99-nfs.rules
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root            83560 ./usr/sbin/exportfs
+-rwxr-xr-x root       root            38360 ./usr/sbin/fsidd
+-rwxr-xr-x root       root            34424 ./usr/sbin/nfsconf
+-rwxr-xr-x root       root            13752 ./usr/sbin/rpcdebug
+-rwxr-xr-x root       root           130772 ./usr/sbin/rpc.mountd
+-rwxr-xr-x root       root            42716 ./usr/sbin/rpc.nfsd

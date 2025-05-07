@@ -1,0 +1,9 @@
+PV = 2.6.4
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libcap-dbg libevent-dbg libsqlite3-dbg libtirpc-dbg libwrap-dbg util-linux-libblkid-dbg util-linux-libmount-dbg util-linux-libuuid-dbg
+PKGSIZE = 2328344
+FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
+FILELIST = /usr/libexec/.debug/nfsrahead /usr/sbin/.debug/exportfs /usr/sbin/.debug/fsidd /usr/sbin/.debug/mount.nfs /usr/sbin/.debug/nfsconf /usr/sbin/.debug/nfsstat /usr/sbin/.debug/rpc.mountd /usr/sbin/.debug/rpc.nfsd /usr/sbin/.debug/rpc.statd /usr/sbin/.debug/rpcdebug /usr/sbin/.debug/showmount /usr/sbin/.debug/sm-notify

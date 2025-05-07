@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-r-s--x--x root       root           124708 ./usr/sbin/mount.nfs
+lrwxrwxrwx root       root                9 ./usr/sbin/mount.nfs4 -> mount.nfs
+lrwxrwxrwx root       root                9 ./usr/sbin/umount.nfs4 -> mount.nfs
+lrwxrwxrwx root       root                9 ./usr/sbin/umount.nfs -> mount.nfs

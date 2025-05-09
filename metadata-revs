@@ -1,6 +1,6 @@
-meta              = HEAD:8b16a5e3958ecdd40b0599c57516fbae0b65343d
-meta-poky         = HEAD:8b16a5e3958ecdd40b0599c57516fbae0b65343d
-meta-yocto-bsp    = HEAD:8b16a5e3958ecdd40b0599c57516fbae0b65343d
+meta              = HEAD:8b16a5e3958ecdd40b0599c57516fbae0b65343d -- modified
+meta-poky         = HEAD:8b16a5e3958ecdd40b0599c57516fbae0b65343d -- modified
+meta-yocto-bsp    = HEAD:8b16a5e3958ecdd40b0599c57516fbae0b65343d -- modified
 meta-arm          = HEAD:60e31ef2c4983c0bdb8682dee6a6ec5f2e9d5f0a
 meta-arm-toolchain = HEAD:60e31ef2c4983c0bdb8682dee6a6ec5f2e9d5f0a
 meta-ti-bsp       = HEAD:cf6400520e0c8e370af458a71935f09673f069c5

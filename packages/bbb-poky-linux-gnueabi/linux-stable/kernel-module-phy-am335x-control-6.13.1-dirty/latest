@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.40
-RPROVIDES = kernel-module-phy-am335x-control
-RDEPENDS = kernel-6.13.1-dirty
-RRECOMMENDS = 
-PKGSIZE = 7944
-FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/phy/.debug/phy-am335x-control.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/phy/phy-am335x-control.ko
-FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/phy/phy-am335x-control.ko

@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.40
+PKGR = r0.41
 RPROVIDES = kernel-module-xfrm6-tunnel
 RDEPENDS = kernel-6.13.1-dirty kernel-module-tunnel6-6.13.1-dirty
 RRECOMMENDS = 

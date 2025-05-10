@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.41
+RPROVIDES = kernel-module-rtlwifi
+RDEPENDS = kernel-6.13.1-dirty kernel-module-cfg80211-6.13.1-dirty kernel-module-mac80211-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 125084
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/.debug/rtlwifi.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/rtlwifi.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/rtlwifi.ko

@@ -1,6 +1,6 @@
 drwxr-xr-x root       root             4096 ./boot
 drwxr-xr-x root       root             4096 ./boot/.debug
--rwxr-xr-x root       root          9391408 ./boot/.debug/vmlinux-6.13.1-dirty
+-rwxr-xr-x root       root          9396976 ./boot/.debug/vmlinux-6.13.1-dirty
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/modules
@@ -274,6 +274,17 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kerne
 -rw-r--r-- root       root            20344 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/ralink/rt2x00/.debug/rt2800usb.ko
 -rw-r--r-- root       root            27752 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/ralink/rt2x00/.debug/rt2x00lib.ko
 -rw-r--r-- root       root            10800 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/ralink/rt2x00/.debug/rt2x00usb.ko
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/.debug
+-rw-r--r-- root       root             9380 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/.debug/rtl_usb.ko
+-rw-r--r-- root       root            51508 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/.debug/rtlwifi.ko
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192c
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192c/.debug
+-rw-r--r-- root       root            21312 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192c/.debug/rtl8192c-common.ko
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192cu
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192cu/.debug
+-rw-r--r-- root       root            30504 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192cu/.debug/rtl8192cu.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/nfc
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/nfc/s3fwrn5
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/nfc/s3fwrn5/.debug
@@ -382,8 +393,6 @@ drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kerne
 -rw-r--r-- root       root             9484 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/musb/.debug/tusb6010.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/phy
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/phy/.debug
--rw-r--r-- root       root             5860 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/phy/.debug/phy-am335x-control.ko
--rw-r--r-- root       root             5080 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/phy/.debug/phy-am335x.ko
 -rw-r--r-- root       root             7432 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/phy/.debug/phy-twl6030-usb.ko
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/storage
 drwxr-xr-x root       root             4096 ./usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/storage/.debug

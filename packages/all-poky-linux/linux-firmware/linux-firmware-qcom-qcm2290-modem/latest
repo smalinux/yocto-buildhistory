@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-qcom-license
+RRECOMMENDS = 
+PKGSIZE = 8882947
+FILES = /usr/lib/firmware/qcom/qcm2290/modem*.*
+FILELIST = /usr/lib/firmware/qcom/qcm2290/modem.mbn /usr/lib/firmware/qcom/qcm2290/modemr.jsn /usr/lib/firmware/qcom/qcm2290/modemuw.jsn

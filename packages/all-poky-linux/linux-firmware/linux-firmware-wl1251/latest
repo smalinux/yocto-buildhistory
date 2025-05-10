@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-wl1251-license
+RRECOMMENDS = 
+PKGSIZE = 0
+FILES = /usr/lib/firmware/ti-connectivity/wl1251-fw.bin /usr/lib/firmware/ti-connectivity/wl1251-nvs.bin
+FILELIST = 

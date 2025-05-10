@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-qcom-license
+RRECOMMENDS = 
+PKGSIZE = 4143099
+FILES = /usr/lib/firmware/qcom/apq8016/wcnss.mbn /usr/lib/firmware/qcom/apq8016/WCNSS*
+FILELIST = /usr/lib/firmware/qcom/apq8016/WCNSS_qcom_wlan_nv_sbc.bin /usr/lib/firmware/qcom/apq8016/wcnss.mbn

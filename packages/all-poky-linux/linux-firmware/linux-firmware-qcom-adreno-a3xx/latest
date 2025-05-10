@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-qcom-license
+RRECOMMENDS = 
+PKGSIZE = 21840
+FILES = /usr/lib/firmware/qcom/a3*_*.fw /usr/lib/firmware/a300_*.fw
+FILELIST = /usr/lib/firmware/a300_pfp.fw /usr/lib/firmware/a300_pm4.fw /usr/lib/firmware/qcom/a300_pfp.fw /usr/lib/firmware/qcom/a300_pm4.fw /usr/lib/firmware/qcom/a330_pfp.fw /usr/lib/firmware/qcom/a330_pm4.fw

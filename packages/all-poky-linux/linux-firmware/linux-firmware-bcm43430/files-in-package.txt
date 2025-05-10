@@ -1,0 +1,25 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/brcm
+-rw-r--r-- root       root              875 ./usr/lib/firmware/brcm/brcmfmac43430-sdio.AP6212.txt
+lrwxrwxrwx root       root               29 ./usr/lib/firmware/brcm/brcmfmac43430-sdio.beagle,beaglev-starlight-jh7100-a1.txt -> brcmfmac43430-sdio.AP6212.txt
+lrwxrwxrwx root       root               29 ./usr/lib/firmware/brcm/brcmfmac43430-sdio.beagle,beaglev-starlight-jh7100-r0.txt -> brcmfmac43430-sdio.AP6212.txt
+lrwxrwxrwx root       root               31 ./usr/lib/firmware/brcm/brcmfmac43430-sdio.bin -> ../cypress/cyfmac43430-sdio.bin
+lrwxrwxrwx root       root               36 ./usr/lib/firmware/brcm/brcmfmac43430-sdio.clm_blob -> ../cypress/cyfmac43430-sdio.clm_blob
+lrwxrwxrwx root       root               29 ./usr/lib/firmware/brcm/brcmfmac43430-sdio.friendlyarm,nanopi-r1.txt -> brcmfmac43430-sdio.AP6212.txt
+-rw-r--r-- root       root              928 ./usr/lib/firmware/brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt
+-rw-r--r-- root       root              951 ./usr/lib/firmware/brcm/brcmfmac43430-sdio.ilife-S806.txt
+-rw-r--r-- root       root              831 ./usr/lib/firmware/brcm/brcmfmac43430-sdio.MUR1DX.txt
+-rw-r--r-- root       root              874 ./usr/lib/firmware/brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt
+lrwxrwxrwx root       root               44 ./usr/lib/firmware/brcm/brcmfmac43430-sdio.raspberrypi,model-zero-2-w.txt -> brcmfmac43430-sdio.raspberrypi,3-model-b.txt
+lrwxrwxrwx root       root               44 ./usr/lib/firmware/brcm/brcmfmac43430-sdio.raspberrypi,model-zero-w.txt -> brcmfmac43430-sdio.raspberrypi,3-model-b.txt
+lrwxrwxrwx root       root               29 ./usr/lib/firmware/brcm/brcmfmac43430-sdio.sinovoip,bananapi-m64.txt -> brcmfmac43430-sdio.AP6212.txt
+lrwxrwxrwx root       root               29 ./usr/lib/firmware/brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-plus.txt -> brcmfmac43430-sdio.AP6212.txt
+lrwxrwxrwx root       root               29 ./usr/lib/firmware/brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-ultra.txt -> brcmfmac43430-sdio.AP6212.txt
+lrwxrwxrwx root       root               29 ./usr/lib/firmware/brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-zero.txt -> brcmfmac43430-sdio.AP6212.txt
+lrwxrwxrwx root       root               29 ./usr/lib/firmware/brcm/brcmfmac43430-sdio.sinovoip,bpi-m3.txt -> brcmfmac43430-sdio.AP6212.txt
+lrwxrwxrwx root       root               29 ./usr/lib/firmware/brcm/brcmfmac43430-sdio.starfive,visionfive-v1.txt -> brcmfmac43430-sdio.AP6212.txt
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/cypress
+-rw-r--r-- root       root           419798 ./usr/lib/firmware/cypress/cyfmac43430-sdio.bin
+-rw-r--r-- root       root             4733 ./usr/lib/firmware/cypress/cyfmac43430-sdio.clm_blob

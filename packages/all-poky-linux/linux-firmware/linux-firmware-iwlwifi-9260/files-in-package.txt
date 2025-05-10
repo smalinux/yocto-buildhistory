@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+-rw-r--r-- root       root          2678092 ./usr/lib/firmware/iwlwifi-9260-th-b0-jf-b0-34.ucode
+-rw-r--r-- root       root          2521412 ./usr/lib/firmware/iwlwifi-9260-th-b0-jf-b0-38.ucode
+-rw-r--r-- root       root          1490508 ./usr/lib/firmware/iwlwifi-9260-th-b0-jf-b0-46.ucode

@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-iwlwifi-license
+RRECOMMENDS = 
+PKGSIZE = 4876980
+FILES = /usr/lib/firmware/iwlwifi-8000C-*.ucode
+FILELIST = /usr/lib/firmware/iwlwifi-8000C-34.ucode /usr/lib/firmware/iwlwifi-8000C-36.ucode

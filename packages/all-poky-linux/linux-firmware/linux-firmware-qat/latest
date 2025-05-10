@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-qat-license
+RRECOMMENDS = 
+PKGSIZE = 2196522
+FILES = /usr/lib/firmware/qat*.bin
+FILELIST = /usr/lib/firmware/qat_4xxx.bin /usr/lib/firmware/qat_4xxx_mmp.bin /usr/lib/firmware/qat_895xcc.bin /usr/lib/firmware/qat_895xcc_mmp.bin /usr/lib/firmware/qat_c3xxx.bin /usr/lib/firmware/qat_c3xxx_mmp.bin /usr/lib/firmware/qat_c62x.bin /usr/lib/firmware/qat_c62x_mmp.bin /usr/lib/firmware/qat_mmp.bin

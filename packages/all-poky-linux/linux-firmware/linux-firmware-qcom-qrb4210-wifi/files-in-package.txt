@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom/qrb4210
+lrwxrwxrwx root       root               23 ./usr/lib/firmware/qcom/qrb4210/wlanmdsp.mbn -> ../qcm2290/wlanmdsp.mbn

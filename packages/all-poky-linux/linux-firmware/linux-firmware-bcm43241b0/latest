@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-broadcom-license
+RRECOMMENDS = 
+PKGSIZE = 459988
+FILES = /usr/lib/firmware/brcm/brcmfmac43241b0-sdio.bin
+FILELIST = /usr/lib/firmware/brcm/brcmfmac43241b0-sdio.bin

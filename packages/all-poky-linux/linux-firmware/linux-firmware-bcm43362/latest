@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-cypress-license
+RRECOMMENDS = 
+PKGSIZE = 205251
+FILES = /usr/lib/firmware/brcm/brcmfmac43362-sdio.* /usr/lib/firmware/cypress/cyfmac43362-sdio.*
+FILELIST = '/usr/lib/firmware/brcm/brcmfmac43362-sdio.ASUSTeK COMPUTER INC.-ME176C.txt' /usr/lib/firmware/brcm/brcmfmac43362-sdio.WC121.txt /usr/lib/firmware/brcm/brcmfmac43362-sdio.bin /usr/lib/firmware/brcm/brcmfmac43362-sdio.cubietech,cubietruck.txt /usr/lib/firmware/brcm/brcmfmac43362-sdio.kobo,aura.txt /usr/lib/firmware/brcm/brcmfmac43362-sdio.kobo,tolino-shine2hd.txt /usr/lib/firmware/brcm/brcmfmac43362-sdio.lemaker,bananapro.txt /usr/lib/firmware/cypress/cyfmac43362-sdio.bin

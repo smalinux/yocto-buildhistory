@@ -1,0 +1,8 @@
+PV = 1.10.4
+PR = r0
+DEPENDS = autoconf-native automake-native bison-native bluez5 flex-native libtool-cross libtool-native pkgconfig-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+PACKAGES = libpcap-src libpcap-dbg libpcap-staticdev libpcap-dev libpcap-doc libpcap-locale libpcap
+LAYER = core
+LICENSE = BSD-3-Clause
+CONFIG = bluez5 ipv6
+SRC_URI = https://www.tcpdump.org/release/libpcap-1.10.4.tar.gz file://CVE-2023-7256-pre1.patch file://CVE-2023-7256.patch file://CVE-2024-8006.patch

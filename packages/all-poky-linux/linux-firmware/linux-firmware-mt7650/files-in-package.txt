@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/mediatek
+-rw-r--r-- root       root           368220 ./usr/lib/firmware/mediatek/mt7650.bin
+lrwxrwxrwx root       root               19 ./usr/lib/firmware/mt7650.bin -> mediatek/mt7650.bin

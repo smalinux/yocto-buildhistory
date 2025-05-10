@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-qcom-license
+RRECOMMENDS = 
+PKGSIZE = 2031620
+FILES = /usr/lib/firmware/qcom/vpu-2.0/*
+FILELIST = /usr/lib/firmware/qcom/vpu-2.0/venus.mbn

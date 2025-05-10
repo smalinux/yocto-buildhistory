@@ -1,0 +1,9 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/ti-connectivity
+-rw-r--r-- root       root            50699 ./usr/lib/firmware/ti-connectivity/TIInit_6.2.31.bts
+-rw-r--r-- root       root            15614 ./usr/lib/firmware/ti-connectivity/TIInit_6.6.15.bts
+-rw-r--r-- root       root            48909 ./usr/lib/firmware/ti-connectivity/TIInit_7.2.31.bts
+lrwxrwxrwx root       root               14 ./usr/lib/firmware/ti-connectivity/wl1271-nvs.bin -> wl127x-nvs.bin
+-rw-r--r-- root       root              912 ./usr/lib/firmware/ti-connectivity/wl127x-nvs.bin

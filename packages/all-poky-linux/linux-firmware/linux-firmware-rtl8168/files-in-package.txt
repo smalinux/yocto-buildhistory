@@ -1,0 +1,17 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/rtl_nic
+-rw-r--r-- root       root             1492 ./usr/lib/firmware/rtl_nic/rtl8168d-1.fw
+-rw-r--r-- root       root             1324 ./usr/lib/firmware/rtl_nic/rtl8168d-2.fw
+-rw-r--r-- root       root             5500 ./usr/lib/firmware/rtl_nic/rtl8168e-1.fw
+-rw-r--r-- root       root             3920 ./usr/lib/firmware/rtl_nic/rtl8168e-2.fw
+-rw-r--r-- root       root             3872 ./usr/lib/firmware/rtl_nic/rtl8168e-3.fw
+-rw-r--r-- root       root             3424 ./usr/lib/firmware/rtl_nic/rtl8168f-1.fw
+-rw-r--r-- root       root             1232 ./usr/lib/firmware/rtl_nic/rtl8168f-2.fw
+-rw-r--r-- root       root              336 ./usr/lib/firmware/rtl_nic/rtl8168fp-3.fw
+-rw-r--r-- root       root             4304 ./usr/lib/firmware/rtl_nic/rtl8168g-1.fw
+-rw-r--r-- root       root             4896 ./usr/lib/firmware/rtl_nic/rtl8168g-2.fw
+-rw-r--r-- root       root              832 ./usr/lib/firmware/rtl_nic/rtl8168g-3.fw
+-rw-r--r-- root       root              992 ./usr/lib/firmware/rtl_nic/rtl8168h-1.fw
+-rw-r--r-- root       root              976 ./usr/lib/firmware/rtl_nic/rtl8168h-2.fw

@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/mediatek
+-rw-r--r-- root       root            81908 ./usr/lib/firmware/mediatek/mt7662.bin
+-rw-r--r-- root       root            26350 ./usr/lib/firmware/mediatek/mt7662_rom_patch.bin
+lrwxrwxrwx root       root               19 ./usr/lib/firmware/mt7662.bin -> mediatek/mt7662.bin
+lrwxrwxrwx root       root               29 ./usr/lib/firmware/mt7662_rom_patch.bin -> mediatek/mt7662_rom_patch.bin

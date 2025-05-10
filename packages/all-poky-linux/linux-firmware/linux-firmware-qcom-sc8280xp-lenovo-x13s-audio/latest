@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-qcom-license
+RRECOMMENDS = linux-firmware-qcom-sc8280xp-lenovo-x13s-compat
+PKGSIZE = 14394076
+FILES = /usr/lib/firmware/qcom/sc8280xp/LENOVO/21BX/*adsp*.* /usr/lib/firmware/qcom/sc8280xp/LENOVO/21BX/battmgr.jsn /usr/lib/firmware/qcom/sc8280xp/LENOVO/21BX/audioreach-tplg.bin /usr/lib/firmware/qcom/sc8280xp/SC8280XP-LENOVO-X13S-tplg.bin
+FILELIST = /usr/lib/firmware/qcom/sc8280xp/LENOVO/21BX/adspr.jsn /usr/lib/firmware/qcom/sc8280xp/LENOVO/21BX/adspua.jsn /usr/lib/firmware/qcom/sc8280xp/LENOVO/21BX/audioreach-tplg.bin /usr/lib/firmware/qcom/sc8280xp/LENOVO/21BX/battmgr.jsn /usr/lib/firmware/qcom/sc8280xp/LENOVO/21BX/qcadsp8280.mbn /usr/lib/firmware/qcom/sc8280xp/SC8280XP-LENOVO-X13S-tplg.bin

@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom/sm8250
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom/sm8250/Thundercomm
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom/sm8250/Thundercomm/RB5
+-rw-r--r-- root       root          5646296 ./usr/lib/firmware/qcom/sm8250/Thundercomm/RB5/slpi.mbn
+-rw-r--r-- root       root              403 ./usr/lib/firmware/qcom/sm8250/Thundercomm/RB5/slpir.jsn
+-rw-r--r-- root       root              405 ./usr/lib/firmware/qcom/sm8250/Thundercomm/RB5/slpius.jsn

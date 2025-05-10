@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-rtl-license
+RRECOMMENDS = 
+PKGSIZE = 278954
+FILES = /usr/lib/firmware/rtlwifi/rtl8723*.bin
+FILELIST = /usr/lib/firmware/rtlwifi/rtl8723aufw_A.bin /usr/lib/firmware/rtlwifi/rtl8723aufw_B.bin /usr/lib/firmware/rtlwifi/rtl8723aufw_B_NoBT.bin /usr/lib/firmware/rtlwifi/rtl8723befw.bin /usr/lib/firmware/rtlwifi/rtl8723befw_36.bin /usr/lib/firmware/rtlwifi/rtl8723bs_ap_wowlan.bin /usr/lib/firmware/rtlwifi/rtl8723bs_bt.bin /usr/lib/firmware/rtlwifi/rtl8723bs_nic.bin /usr/lib/firmware/rtlwifi/rtl8723bs_wowlan.bin /usr/lib/firmware/rtlwifi/rtl8723bu_ap_wowlan.bin /usr/lib/firmware/rtlwifi/rtl8723bu_nic.bin /usr/lib/firmware/rtlwifi/rtl8723bu_wowlan.bin /usr/lib/firmware/rtlwifi/rtl8723defw.bin /usr/lib/firmware/rtlwifi/rtl8723fw.bin /usr/lib/firmware/rtlwifi/rtl8723fw_B.bin

@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/brcm
+lrwxrwxrwx root       root               30 ./usr/lib/firmware/brcm/brcmfmac4339-sdio.bin -> ../cypress/cyfmac4339-sdio.bin
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/cypress
+-rw-r--r-- root       root           574096 ./usr/lib/firmware/cypress/cyfmac4339-sdio.bin

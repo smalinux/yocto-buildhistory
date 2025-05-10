@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = linux-firmware-bnx2-mips
+RDEPENDS = linux-firmware-whence-license
+RRECOMMENDS = 
+PKGSIZE = 215144
+FILES = /usr/lib/firmware/bnx2/bnx2-mips*.fw /usr/lib/firmware/bnx2/bnx2-rv2p*.fw
+FILELIST = /usr/lib/firmware/bnx2/bnx2-mips-06-6.2.3.fw /usr/lib/firmware/bnx2/bnx2-mips-09-6.2.1b.fw /usr/lib/firmware/bnx2/bnx2-rv2p-06-6.0.15.fw /usr/lib/firmware/bnx2/bnx2-rv2p-09-6.0.17.fw /usr/lib/firmware/bnx2/bnx2-rv2p-09ax-6.0.17.fw

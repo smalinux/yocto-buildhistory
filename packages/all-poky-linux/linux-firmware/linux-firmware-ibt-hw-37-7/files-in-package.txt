@@ -1,0 +1,9 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/intel
+-rw-r--r-- root       root            22069 ./usr/lib/firmware/intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq
+-rw-r--r-- root       root            25853 ./usr/lib/firmware/intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
+-rw-r--r-- root       root            23105 ./usr/lib/firmware/intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq
+-rw-r--r-- root       root            25775 ./usr/lib/firmware/intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
+-rw-r--r-- root       root               96 ./usr/lib/firmware/intel/ibt-hw-37.7.bseq

@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-qcom-license
+RRECOMMENDS = 
+PKGSIZE = 5826727
+FILES = /usr/lib/firmware/qcom/sm8250/cdsp*.*
+FILELIST = /usr/lib/firmware/qcom/sm8250/cdsp.mbn /usr/lib/firmware/qcom/sm8250/cdspr.jsn

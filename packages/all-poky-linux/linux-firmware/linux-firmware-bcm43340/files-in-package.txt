@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/brcm
+-rw-r--r-- root       root             1801 ./usr/lib/firmware/brcm/brcmfmac43340-sdio.ASUSTeK COMPUTER INC.-TF103CE.txt
+lrwxrwxrwx root       root               31 ./usr/lib/firmware/brcm/brcmfmac43340-sdio.bin -> ../cypress/cyfmac43340-sdio.bin
+-rw-r--r-- root       root             1687 ./usr/lib/firmware/brcm/brcmfmac43340-sdio.Insyde-VESPA2.txt
+-rw-r--r-- root       root             1693 ./usr/lib/firmware/brcm/brcmfmac43340-sdio.meegopad-t08.txt
+-rw-r--r-- root       root             1724 ./usr/lib/firmware/brcm/brcmfmac43340-sdio.pov-tab-p1006w-data.txt
+-rw-r--r-- root       root             1689 ./usr/lib/firmware/brcm/brcmfmac43340-sdio.predia-basic.txt
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/cypress
+-rw-r--r-- root       root           409717 ./usr/lib/firmware/cypress/cyfmac43340-sdio.bin

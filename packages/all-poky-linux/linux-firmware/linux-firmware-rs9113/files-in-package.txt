@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/rsi
+-rw-r--r-- root       root           342312 ./usr/lib/firmware/rsi/rs9113_ap_bt_dual_mode.rps
+-rw-r--r-- root       root           332008 ./usr/lib/firmware/rsi/rs9113_wlan_bt_dual_mode.rps
+-rw-r--r-- root       root           201188 ./usr/lib/firmware/rsi/rs9113_wlan_qspi.rps

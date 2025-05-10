@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-rockchip-license
+RRECOMMENDS = 
+PKGSIZE = 98320
+FILES = /usr/lib/firmware/rockchip/dptx.bin
+FILELIST = /usr/lib/firmware/rockchip/dptx.bin

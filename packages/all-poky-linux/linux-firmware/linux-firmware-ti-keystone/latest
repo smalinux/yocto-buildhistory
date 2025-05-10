@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-ti-keystone-license
+RRECOMMENDS = 
+PKGSIZE = 1764
+FILES = /usr/lib/firmware/ti-keystone/*
+FILELIST = /usr/lib/firmware/ti-keystone/ks2_qmss_pdsp_acc48_k2_le_1_0_0_9.bin

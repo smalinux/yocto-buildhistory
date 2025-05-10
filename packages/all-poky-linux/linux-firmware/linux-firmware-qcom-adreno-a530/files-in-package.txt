@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom
+-rw-r--r-- root       root            16144 ./usr/lib/firmware/qcom/a530_pfp.fw
+-rw-r--r-- root       root            19572 ./usr/lib/firmware/qcom/a530_pm4.fw
+-rw-r--r-- root       root             8184 ./usr/lib/firmware/qcom/a530v3_gpmu.fw2

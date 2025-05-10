@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-whence-license
+RRECOMMENDS = 
+PKGSIZE = 74300
+FILES = /usr/lib/firmware/rtl_nic/*.fw
+FILELIST = /usr/lib/firmware/rtl_nic/rtl8105e-1.fw /usr/lib/firmware/rtl_nic/rtl8106e-1.fw /usr/lib/firmware/rtl_nic/rtl8106e-2.fw /usr/lib/firmware/rtl_nic/rtl8107e-1.fw /usr/lib/firmware/rtl_nic/rtl8107e-2.fw /usr/lib/firmware/rtl_nic/rtl8125a-3.fw /usr/lib/firmware/rtl_nic/rtl8125b-1.fw /usr/lib/firmware/rtl_nic/rtl8125b-2.fw /usr/lib/firmware/rtl_nic/rtl8126a-2.fw /usr/lib/firmware/rtl_nic/rtl8153a-2.fw /usr/lib/firmware/rtl_nic/rtl8153a-3.fw /usr/lib/firmware/rtl_nic/rtl8153a-4.fw /usr/lib/firmware/rtl_nic/rtl8153b-2.fw /usr/lib/firmware/rtl_nic/rtl8153c-1.fw /usr/lib/firmware/rtl_nic/rtl8156a-2.fw /usr/lib/firmware/rtl_nic/rtl8156b-2.fw /usr/lib/firmware/rtl_nic/rtl8402-1.fw /usr/lib/firmware/rtl_nic/rtl8411-1.fw /usr/lib/firmware/rtl_nic/rtl8411-2.fw

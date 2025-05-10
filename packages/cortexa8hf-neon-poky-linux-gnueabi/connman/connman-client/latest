@@ -1,0 +1,9 @@
+PV = 1.42
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = connman dbus-lib (>= 1.14.10) glib-2.0 (>= 2.78.6) glibc (>= 2.39+git2+e8f5217097) readline (>= 8.2)
+RRECOMMENDS = 
+PKGSIZE = 96548
+FILES = /usr/bin/connmanctl
+FILELIST = /usr/bin/connmanctl

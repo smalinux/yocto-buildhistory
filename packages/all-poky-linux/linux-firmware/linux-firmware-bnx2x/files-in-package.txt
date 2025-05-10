@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/bnx2x
+-rw-r--r-- root       root           170096 ./usr/lib/firmware/bnx2x/bnx2x-e1-7.13.1.0.fw
+-rw-r--r-- root       root           169904 ./usr/lib/firmware/bnx2x/bnx2x-e1-7.13.11.0.fw
+-rw-r--r-- root       root           170168 ./usr/lib/firmware/bnx2x/bnx2x-e1-7.13.15.0.fw
+-rw-r--r-- root       root           170200 ./usr/lib/firmware/bnx2x/bnx2x-e1-7.13.21.0.fw
+-rw-r--r-- root       root           178992 ./usr/lib/firmware/bnx2x/bnx2x-e1h-7.13.1.0.fw
+-rw-r--r-- root       root           178328 ./usr/lib/firmware/bnx2x/bnx2x-e1h-7.13.11.0.fw
+-rw-r--r-- root       root           178608 ./usr/lib/firmware/bnx2x/bnx2x-e1h-7.13.15.0.fw
+-rw-r--r-- root       root           178616 ./usr/lib/firmware/bnx2x/bnx2x-e1h-7.13.21.0.fw
+-rw-r--r-- root       root           320936 ./usr/lib/firmware/bnx2x/bnx2x-e2-7.13.1.0.fw
+-rw-r--r-- root       root           322296 ./usr/lib/firmware/bnx2x/bnx2x-e2-7.13.11.0.fw
+-rw-r--r-- root       root           323360 ./usr/lib/firmware/bnx2x/bnx2x-e2-7.13.15.0.fw
+-rw-r--r-- root       root           323416 ./usr/lib/firmware/bnx2x/bnx2x-e2-7.13.21.0.fw

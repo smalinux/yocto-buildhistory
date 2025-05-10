@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/ath12k
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/ath12k/WCN7850
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/ath12k/WCN7850/hw2.0
+-rw-r--r-- root       root          6000704 ./usr/lib/firmware/ath12k/WCN7850/hw2.0/amss.bin
+-rw-r--r-- root       root           382856 ./usr/lib/firmware/ath12k/WCN7850/hw2.0/board-2.bin
+-rw-r--r-- root       root           299660 ./usr/lib/firmware/ath12k/WCN7850/hw2.0/m3.bin
+-rw-r--r-- root       root           142991 ./usr/lib/firmware/ath12k/WCN7850/hw2.0/Notice.txt

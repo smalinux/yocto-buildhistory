@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-amlogic-vdec-license
+RRECOMMENDS = 
+PKGSIZE = 327680
+FILES = /usr/lib/firmware/meson/vdec/*
+FILELIST = /usr/lib/firmware/meson/vdec/g12a_h264.bin /usr/lib/firmware/meson/vdec/g12a_hevc_mmu.bin /usr/lib/firmware/meson/vdec/g12a_vp9.bin /usr/lib/firmware/meson/vdec/gxbb_h264.bin /usr/lib/firmware/meson/vdec/gxl_h263.bin /usr/lib/firmware/meson/vdec/gxl_h264.bin /usr/lib/firmware/meson/vdec/gxl_hevc.bin /usr/lib/firmware/meson/vdec/gxl_hevc_mmu.bin /usr/lib/firmware/meson/vdec/gxl_mjpeg.bin /usr/lib/firmware/meson/vdec/gxl_mpeg12.bin /usr/lib/firmware/meson/vdec/gxl_mpeg4_5.bin /usr/lib/firmware/meson/vdec/gxl_vp9.bin /usr/lib/firmware/meson/vdec/gxm_h264.bin /usr/lib/firmware/meson/vdec/sm1_hevc_mmu.bin /usr/lib/firmware/meson/vdec/sm1_vp9_mmu.bin

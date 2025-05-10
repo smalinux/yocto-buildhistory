@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-ibt-license
+RRECOMMENDS = 
+PKGSIZE = 2601222
+FILES = /usr/lib/firmware/intel/ibt-17-*.sfi /usr/lib/firmware/intel/ibt-17-*.ddc
+FILELIST = /usr/lib/firmware/intel/ibt-17-0-1.ddc /usr/lib/firmware/intel/ibt-17-0-1.sfi /usr/lib/firmware/intel/ibt-17-1.ddc /usr/lib/firmware/intel/ibt-17-1.sfi /usr/lib/firmware/intel/ibt-17-16-1.ddc /usr/lib/firmware/intel/ibt-17-16-1.sfi /usr/lib/firmware/intel/ibt-17-2.ddc /usr/lib/firmware/intel/ibt-17-2.sfi

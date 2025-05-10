@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+-rw-r--r-- root       root          2440780 ./usr/lib/firmware/iwlwifi-8265-34.ucode
+-rw-r--r-- root       root          2436632 ./usr/lib/firmware/iwlwifi-8265-36.ucode

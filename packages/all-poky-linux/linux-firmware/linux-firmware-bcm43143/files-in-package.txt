@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/brcm
+-rw-r--r-- root       root           397312 ./usr/lib/firmware/brcm/brcmfmac43143.bin
+-rw-r--r-- root       root           385067 ./usr/lib/firmware/brcm/brcmfmac43143-sdio.bin

@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom
+-rw-r--r-- root       root             4292 ./usr/lib/firmware/qcom/a420_pfp.fw
+-rw-r--r-- root       root             9556 ./usr/lib/firmware/qcom/a420_pm4.fw

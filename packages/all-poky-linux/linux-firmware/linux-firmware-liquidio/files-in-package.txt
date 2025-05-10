@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/liquidio
+-rw-r--r-- root       root          1281464 ./usr/lib/firmware/liquidio/lio_210nv_nic.bin
+-rw-r--r-- root       root          1179352 ./usr/lib/firmware/liquidio/lio_210sv_nic.bin
+-rw-r--r-- root       root          1287264 ./usr/lib/firmware/liquidio/lio_23xx_nic.bin
+-rw-r--r-- root       root          1281464 ./usr/lib/firmware/liquidio/lio_410nv_nic.bin

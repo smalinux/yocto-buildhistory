@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/intel
+-rw-r--r-- root       root               14 ./usr/lib/firmware/intel/ibt-17-0-1.ddc
+-rw-r--r-- root       root           625216 ./usr/lib/firmware/intel/ibt-17-0-1.sfi
+-rw-r--r-- root       root                9 ./usr/lib/firmware/intel/ibt-17-16-1.ddc
+-rw-r--r-- root       root           675372 ./usr/lib/firmware/intel/ibt-17-16-1.sfi
+-rw-r--r-- root       root               14 ./usr/lib/firmware/intel/ibt-17-1.ddc
+-rw-r--r-- root       root           625216 ./usr/lib/firmware/intel/ibt-17-1.sfi
+-rw-r--r-- root       root                9 ./usr/lib/firmware/intel/ibt-17-2.ddc
+-rw-r--r-- root       root           675372 ./usr/lib/firmware/intel/ibt-17-2.sfi

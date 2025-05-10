@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/brcm
+-rw-r--r-- root       root           382455 ./usr/lib/firmware/brcm/brcmfmac43430a0-sdio.bin
+-rw-r--r-- root       root              908 ./usr/lib/firmware/brcm/brcmfmac43430a0-sdio.ilife-S806.txt
+-rw-r--r-- root       root              951 ./usr/lib/firmware/brcm/brcmfmac43430a0-sdio.jumper-ezpad-mini3.txt
+-rw-r--r-- root       root              989 ./usr/lib/firmware/brcm/brcmfmac43430a0-sdio.ONDA-V80 PLUS.txt

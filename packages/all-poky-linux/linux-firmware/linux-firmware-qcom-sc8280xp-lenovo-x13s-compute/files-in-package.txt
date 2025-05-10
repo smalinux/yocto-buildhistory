@@ -1,0 +1,9 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom/sc8280xp
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom/sc8280xp/LENOVO
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom/sc8280xp/LENOVO/21BX
+-rw-r--r-- root       root              513 ./usr/lib/firmware/qcom/sc8280xp/LENOVO/21BX/cdspr.jsn
+-rw-r--r-- root       root          3575808 ./usr/lib/firmware/qcom/sc8280xp/LENOVO/21BX/qccdsp8280.mbn

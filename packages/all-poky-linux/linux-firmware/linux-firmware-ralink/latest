@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-ralink-license
+RRECOMMENDS = 
+PKGSIZE = 51220
+FILES = /usr/lib/firmware/rt*.bin
+FILELIST = /usr/lib/firmware/rt2561.bin /usr/lib/firmware/rt2561s.bin /usr/lib/firmware/rt2661.bin /usr/lib/firmware/rt2860.bin /usr/lib/firmware/rt2870.bin /usr/lib/firmware/rt3070.bin /usr/lib/firmware/rt3071.bin /usr/lib/firmware/rt3090.bin /usr/lib/firmware/rt3290.bin /usr/lib/firmware/rt73.bin

@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+-rw-r--r-- root       root           118888 ./usr/lib/firmware/lbtf_usb.bin
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/libertas
+-rw-r--r-- root       root           120924 ./usr/lib/firmware/libertas/lbtf_sdio.bin
+-rw-r--r-- root       root           127824 ./usr/lib/firmware/libertas/usb8388_olpc.bin

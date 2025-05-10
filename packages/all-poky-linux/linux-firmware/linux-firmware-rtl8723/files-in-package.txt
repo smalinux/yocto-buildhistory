@@ -1,0 +1,19 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/rtlwifi
+-rw-r--r-- root       root            22172 ./usr/lib/firmware/rtlwifi/rtl8723aufw_A.bin
+-rw-r--r-- root       root            24118 ./usr/lib/firmware/rtlwifi/rtl8723aufw_B.bin
+-rw-r--r-- root       root            19200 ./usr/lib/firmware/rtlwifi/rtl8723aufw_B_NoBT.bin
+-rw-r--r-- root       root            31762 ./usr/lib/firmware/rtlwifi/rtl8723befw_36.bin
+-rw-r--r-- root       root            30746 ./usr/lib/firmware/rtlwifi/rtl8723befw.bin
+lrwxrwxrwx root       root               23 ./usr/lib/firmware/rtlwifi/rtl8723bs_ap_wowlan.bin -> rtl8723bu_ap_wowlan.bin
+-rw-r--r-- root       root             9120 ./usr/lib/firmware/rtlwifi/rtl8723bs_bt.bin
+lrwxrwxrwx root       root               17 ./usr/lib/firmware/rtlwifi/rtl8723bs_nic.bin -> rtl8723bu_nic.bin
+lrwxrwxrwx root       root               20 ./usr/lib/firmware/rtlwifi/rtl8723bs_wowlan.bin -> rtl8723bu_wowlan.bin
+-rw-r--r-- root       root            20886 ./usr/lib/firmware/rtlwifi/rtl8723bu_ap_wowlan.bin
+-rw-r--r-- root       root            32108 ./usr/lib/firmware/rtlwifi/rtl8723bu_nic.bin
+-rw-r--r-- root       root            26398 ./usr/lib/firmware/rtlwifi/rtl8723bu_wowlan.bin
+-rw-r--r-- root       root            27726 ./usr/lib/firmware/rtlwifi/rtl8723defw.bin
+-rw-r--r-- root       root            22996 ./usr/lib/firmware/rtlwifi/rtl8723fw_B.bin
+-rw-r--r-- root       root            11662 ./usr/lib/firmware/rtlwifi/rtl8723fw.bin

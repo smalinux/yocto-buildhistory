@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/cnm
+-rw-r--r-- root       root           998848 ./usr/lib/firmware/cnm/wave521c_k3_codec_fw.bin

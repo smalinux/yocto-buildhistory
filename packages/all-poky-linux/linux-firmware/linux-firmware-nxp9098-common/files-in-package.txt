@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/nxp
+-rw-r--r-- root       root           191736 ./usr/lib/firmware/nxp/uartuart9098_bt_v1.bin

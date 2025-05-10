@@ -1,0 +1,9 @@
+PV = 2.5.0
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.39+git2+e8f5217097)
+RRECOMMENDS = 
+PKGSIZE = 13952
+FILES = /usr/lib/pppd/2.5.0/pppoatm.so
+FILELIST = /usr/lib/pppd/2.5.0/pppoatm.so

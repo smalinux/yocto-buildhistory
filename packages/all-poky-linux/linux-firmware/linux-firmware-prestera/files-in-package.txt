@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/mrvl
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/mrvl/prestera
+-rw-r--r-- root       root         17505368 ./usr/lib/firmware/mrvl/prestera/mvsw_prestera_fw_arm64-v4.1.img
+-rw-r--r-- root       root         13686596 ./usr/lib/firmware/mrvl/prestera/mvsw_prestera_fw-v2.0.img
+-rw-r--r-- root       root         13721584 ./usr/lib/firmware/mrvl/prestera/mvsw_prestera_fw-v3.0.img
+-rw-r--r-- root       root         14965408 ./usr/lib/firmware/mrvl/prestera/mvsw_prestera_fw-v4.0.img
+-rw-r--r-- root       root         15369292 ./usr/lib/firmware/mrvl/prestera/mvsw_prestera_fw-v4.1.img

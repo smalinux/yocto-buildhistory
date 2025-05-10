@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 246804
+FILES = /usr/lib/firmware/ath3k*fw
+FILELIST = /usr/lib/firmware/ath3k-1.fw

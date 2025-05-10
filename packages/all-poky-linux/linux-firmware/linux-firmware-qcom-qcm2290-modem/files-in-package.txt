@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom/qcm2290
+-rw-r--r-- root       root          8881672 ./usr/lib/firmware/qcom/qcm2290/modem.mbn
+-rw-r--r-- root       root              562 ./usr/lib/firmware/qcom/qcm2290/modemr.jsn
+-rw-r--r-- root       root              713 ./usr/lib/firmware/qcom/qcm2290/modemuw.jsn

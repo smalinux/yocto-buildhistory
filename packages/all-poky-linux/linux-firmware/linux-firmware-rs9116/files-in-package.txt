@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/rsi
+-rw-r--r-- root       root           315840 ./usr/lib/firmware/rsi/rs9116_wlan_bt_classic.rps
+-rw-r--r-- root       root           103872 ./usr/lib/firmware/rsi/rs9116_wlan.rps

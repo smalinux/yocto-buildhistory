@@ -1,0 +1,9 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/libertas
+lrwxrwxrwx root       root               18 ./usr/lib/firmware/libertas/sd8688.bin -> ../mrvl/sd8688.bin
+lrwxrwxrwx root       root               25 ./usr/lib/firmware/libertas/sd8688_helper.bin -> ../mrvl/sd8688_helper.bin
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/mrvl
+-rw-r--r-- root       root           259172 ./usr/lib/firmware/mrvl/sd8688.bin
+-rw-r--r-- root       root             2616 ./usr/lib/firmware/mrvl/sd8688_helper.bin

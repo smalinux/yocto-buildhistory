@@ -1,0 +1,9 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+-rw-r--r-- root       root            76802 ./usr/lib/firmware/ql2100_fw.bin
+-rw-r--r-- root       root            84566 ./usr/lib/firmware/ql2200_fw.bin
+-rw-r--r-- root       root           125252 ./usr/lib/firmware/ql2300_fw.bin
+-rw-r--r-- root       root           136038 ./usr/lib/firmware/ql2322_fw.bin
+-rw-r--r-- root       root           265300 ./usr/lib/firmware/ql2400_fw.bin
+-rw-r--r-- root       root           275128 ./usr/lib/firmware/ql2500_fw.bin

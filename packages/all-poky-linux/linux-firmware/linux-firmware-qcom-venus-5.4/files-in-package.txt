@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom/venus-5.4
+-rw-r--r-- root       root           922240 ./usr/lib/firmware/qcom/venus-5.4/venus.mbn
+lrwxrwxrwx root       root                9 ./usr/lib/firmware/qcom/venus-5.4/venus.mdt -> venus.mbn

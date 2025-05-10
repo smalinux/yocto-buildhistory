@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom/apq8016
+-rw-r--r-- root       root          4111376 ./usr/lib/firmware/qcom/apq8016/wcnss.mbn
+-rw-r--r-- root       root            31723 ./usr/lib/firmware/qcom/apq8016/WCNSS_qcom_wlan_nv_sbc.bin

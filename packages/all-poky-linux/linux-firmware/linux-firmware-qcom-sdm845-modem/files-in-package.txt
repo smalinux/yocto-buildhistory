@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom/sdm845
+-rw-r--r-- root       root           242400 ./usr/lib/firmware/qcom/sdm845/mba.mbn
+lrwxrwxrwx root       root               12 ./usr/lib/firmware/qcom/sdm845/modem.mbn -> modem_nm.mbn
+-rw-r--r-- root       root          5673184 ./usr/lib/firmware/qcom/sdm845/modem_nm.mbn
+-rw-r--r-- root       root              713 ./usr/lib/firmware/qcom/sdm845/modemuw.jsn
+-rw-r--r-- root       root            27005 ./usr/lib/firmware/qcom/sdm845/notice.txt_wlanmdsp
+-rw-r--r-- root       root          3725044 ./usr/lib/firmware/qcom/sdm845/wlanmdsp.mbn

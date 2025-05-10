@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-whence-license
+RRECOMMENDS = 
+PKGSIZE = 2684920
+FILES = /usr/lib/firmware/bnx2x/bnx2x*.fw
+FILELIST = /usr/lib/firmware/bnx2x/bnx2x-e1-7.13.1.0.fw /usr/lib/firmware/bnx2x/bnx2x-e1-7.13.11.0.fw /usr/lib/firmware/bnx2x/bnx2x-e1-7.13.15.0.fw /usr/lib/firmware/bnx2x/bnx2x-e1-7.13.21.0.fw /usr/lib/firmware/bnx2x/bnx2x-e1h-7.13.1.0.fw /usr/lib/firmware/bnx2x/bnx2x-e1h-7.13.11.0.fw /usr/lib/firmware/bnx2x/bnx2x-e1h-7.13.15.0.fw /usr/lib/firmware/bnx2x/bnx2x-e1h-7.13.21.0.fw /usr/lib/firmware/bnx2x/bnx2x-e2-7.13.1.0.fw /usr/lib/firmware/bnx2x/bnx2x-e2-7.13.11.0.fw /usr/lib/firmware/bnx2x/bnx2x-e2-7.13.15.0.fw /usr/lib/firmware/bnx2x/bnx2x-e2-7.13.21.0.fw

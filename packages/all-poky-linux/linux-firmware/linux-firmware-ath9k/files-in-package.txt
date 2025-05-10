@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+-rw-r--r-- root       root            70624 ./usr/lib/firmware/ar7010_1_1.fw
+-rw-r--r-- root       root            70624 ./usr/lib/firmware/ar7010.fw
+-rw-r--r-- root       root            51312 ./usr/lib/firmware/ar9271.fw
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/ath9k_htc
+-rw-r--r-- root       root            72812 ./usr/lib/firmware/ath9k_htc/htc_7010-1.4.0.fw
+-rw-r--r-- root       root            51008 ./usr/lib/firmware/ath9k_htc/htc_9271-1.4.0.fw
+-rw-r--r-- root       root            72684 ./usr/lib/firmware/htc_7010.fw
+-rw-r--r-- root       root            50980 ./usr/lib/firmware/htc_9271.fw

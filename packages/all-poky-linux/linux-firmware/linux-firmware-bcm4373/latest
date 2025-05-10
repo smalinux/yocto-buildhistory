@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-cypress-license
+RRECOMMENDS = 
+PKGSIZE = 1047815
+FILES = /usr/lib/firmware/brcm/brcmfmac4373-sdio.bin /usr/lib/firmware/brcm/brcmfmac4373.bin /usr/lib/firmware/cypress/cyfmac4373-sdio.bin /usr/lib/firmware/brcm/brcmfmac4373-sdio.clm_blob /usr/lib/firmware/cypress/cyfmac4373-sdio.clm_blob
+FILELIST = /usr/lib/firmware/brcm/brcmfmac4373-sdio.bin /usr/lib/firmware/brcm/brcmfmac4373-sdio.clm_blob /usr/lib/firmware/brcm/brcmfmac4373.bin /usr/lib/firmware/cypress/cyfmac4373-sdio.bin /usr/lib/firmware/cypress/cyfmac4373-sdio.clm_blob

@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-whence-license
+RRECOMMENDS = 
+PKGSIZE = 875508
+FILES = /usr/lib/firmware/rsi/rs9113*.rps
+FILELIST = /usr/lib/firmware/rsi/rs9113_ap_bt_dual_mode.rps /usr/lib/firmware/rsi/rs9113_wlan_bt_dual_mode.rps /usr/lib/firmware/rsi/rs9113_wlan_qspi.rps

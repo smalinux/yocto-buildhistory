@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/intel
+-rw-r--r-- root       root               14 ./usr/lib/firmware/intel/ibt-12-16.ddc
+-rw-r--r-- root       root           584092 ./usr/lib/firmware/intel/ibt-12-16.sfi

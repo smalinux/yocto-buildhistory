@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 116148
+FILES = /usr/lib/firmware/ti-connectivity/TI* /usr/lib/firmware/ti-connectivity/wl127x-nvs.bin /usr/lib/firmware/ti-connectivity/wl1271-nvs.bin
+FILELIST = /usr/lib/firmware/ti-connectivity/TIInit_6.2.31.bts /usr/lib/firmware/ti-connectivity/TIInit_6.6.15.bts /usr/lib/firmware/ti-connectivity/TIInit_7.2.31.bts /usr/lib/firmware/ti-connectivity/wl1271-nvs.bin /usr/lib/firmware/ti-connectivity/wl127x-nvs.bin

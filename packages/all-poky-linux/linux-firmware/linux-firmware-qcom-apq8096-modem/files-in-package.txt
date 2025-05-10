@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom/apq8096
+-rw-r--r-- root       root           213888 ./usr/lib/firmware/qcom/apq8096/mba.mbn
+-rw-r--r-- root       root          7434352 ./usr/lib/firmware/qcom/apq8096/modem.mbn
+-rw-r--r-- root       root              405 ./usr/lib/firmware/qcom/apq8096/modemr.jsn

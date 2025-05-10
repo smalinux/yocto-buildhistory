@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/ti-keystone
+-rw-r--r-- root       root             1764 ./usr/lib/firmware/ti-keystone/ks2_qmss_pdsp_acc48_k2_le_1_0_0_9.bin

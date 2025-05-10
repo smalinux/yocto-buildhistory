@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/amphion
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/amphion/vpu
+-rw-r--r-- root       root           416876 ./usr/lib/firmware/amphion/vpu/vpu_fw_imx8_dec.bin
+-rw-r--r-- root       root            93728 ./usr/lib/firmware/amphion/vpu/vpu_fw_imx8_enc.bin

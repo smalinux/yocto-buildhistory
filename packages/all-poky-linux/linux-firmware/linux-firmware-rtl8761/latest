@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-rtl-license
+RRECOMMENDS = 
+PKGSIZE = 164447
+FILES = /usr/lib/firmware/rtl_bt/rtl8761*.bin
+FILELIST = /usr/lib/firmware/rtl_bt/rtl8761a_fw.bin /usr/lib/firmware/rtl_bt/rtl8761b_config.bin /usr/lib/firmware/rtl_bt/rtl8761b_fw.bin /usr/lib/firmware/rtl_bt/rtl8761bu_config.bin /usr/lib/firmware/rtl_bt/rtl8761bu_fw.bin

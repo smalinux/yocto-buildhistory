@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 13388
+FILES = /usr/lib/firmware/carl9170*.fw
+FILELIST = /usr/lib/firmware/carl9170-1.fw

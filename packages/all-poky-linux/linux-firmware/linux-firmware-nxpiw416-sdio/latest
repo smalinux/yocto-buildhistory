@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-nxp-license
+RRECOMMENDS = 
+PKGSIZE = 153388
+FILES = /usr/lib/firmware/nxp/*iw416*
+FILELIST = /usr/lib/firmware/nxp/uartiw416_bt_v0.bin

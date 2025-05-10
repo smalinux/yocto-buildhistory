@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+lrwxrwxrwx root       root               16 ./usr/lib/firmware/a300_pfp.fw -> qcom/a300_pfp.fw
+lrwxrwxrwx root       root               16 ./usr/lib/firmware/a300_pm4.fw -> qcom/a300_pm4.fw
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom
+-rw-r--r-- root       root             1156 ./usr/lib/firmware/qcom/a300_pfp.fw
+-rw-r--r-- root       root             9220 ./usr/lib/firmware/qcom/a300_pm4.fw
+-rw-r--r-- root       root             2212 ./usr/lib/firmware/qcom/a330_pfp.fw
+-rw-r--r-- root       root             9220 ./usr/lib/firmware/qcom/a330_pm4.fw

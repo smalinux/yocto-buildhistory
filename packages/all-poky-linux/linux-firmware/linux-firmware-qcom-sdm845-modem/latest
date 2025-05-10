@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-qcom-license
+RRECOMMENDS = 
+PKGSIZE = 9668358
+FILES = /usr/lib/firmware/qcom/sdm845/mba.mbn /usr/lib/firmware/qcom/sdm845/modem*.* /usr/lib/firmware/qcom/sdm845/wlanmdsp.mbn /usr/lib/firmware/qcom/sdm845/notice.txt_wlanmdsp
+FILELIST = /usr/lib/firmware/qcom/sdm845/mba.mbn /usr/lib/firmware/qcom/sdm845/modem.mbn /usr/lib/firmware/qcom/sdm845/modem_nm.mbn /usr/lib/firmware/qcom/sdm845/modemuw.jsn /usr/lib/firmware/qcom/sdm845/notice.txt_wlanmdsp /usr/lib/firmware/qcom/sdm845/wlanmdsp.mbn

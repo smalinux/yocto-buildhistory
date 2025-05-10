@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-qcom-license
+RRECOMMENDS = 
+PKGSIZE = 43900
+FILES = /usr/lib/firmware/qcom/a530*.fw*
+FILELIST = /usr/lib/firmware/qcom/a530_pfp.fw /usr/lib/firmware/qcom/a530_pm4.fw /usr/lib/firmware/qcom/a530v3_gpmu.fw2

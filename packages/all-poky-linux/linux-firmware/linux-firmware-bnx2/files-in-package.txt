@@ -1,0 +1,9 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/bnx2
+-rw-r--r-- root       root            92824 ./usr/lib/firmware/bnx2/bnx2-mips-06-6.2.3.fw
+-rw-r--r-- root       root           103904 ./usr/lib/firmware/bnx2/bnx2-mips-09-6.2.1b.fw
+-rw-r--r-- root       root             5696 ./usr/lib/firmware/bnx2/bnx2-rv2p-06-6.0.15.fw
+-rw-r--r-- root       root             6104 ./usr/lib/firmware/bnx2/bnx2-rv2p-09-6.0.17.fw
+-rw-r--r-- root       root             6616 ./usr/lib/firmware/bnx2/bnx2-rv2p-09ax-6.0.17.fw

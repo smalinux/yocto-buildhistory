@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/nxp
+-rw-r--r-- root       root             2764 ./usr/lib/firmware/nxp/helper_uart_3000000.bin
+-rw-r--r-- root       root           183160 ./usr/lib/firmware/nxp/uartuart8997_bt_v4.bin

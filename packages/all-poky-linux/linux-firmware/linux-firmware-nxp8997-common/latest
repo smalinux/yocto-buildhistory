@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-nxp-license
+RRECOMMENDS = 
+PKGSIZE = 185924
+FILES = /usr/lib/firmware/nxp/uartuart8997_bt_v4.bin /usr/lib/firmware/nxp/helper_uart_3000000.bin
+FILELIST = /usr/lib/firmware/nxp/helper_uart_3000000.bin /usr/lib/firmware/nxp/uartuart8997_bt_v4.bin

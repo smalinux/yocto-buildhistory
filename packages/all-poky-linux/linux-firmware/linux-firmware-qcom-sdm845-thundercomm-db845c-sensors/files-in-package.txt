@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom/sdm845
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom/sdm845/Thundercomm
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom/sdm845/Thundercomm/db845c
+-rw-r--r-- root       root          7028860 ./usr/lib/firmware/qcom/sdm845/Thundercomm/db845c/slpi.mbn
+-rw-r--r-- root       root              403 ./usr/lib/firmware/qcom/sdm845/Thundercomm/db845c/slpir.jsn
+-rw-r--r-- root       root              405 ./usr/lib/firmware/qcom/sdm845/Thundercomm/db845c/slpius.jsn

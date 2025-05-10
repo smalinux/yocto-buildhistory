@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom/apq8096
+-rw-r--r-- root       root         10533521 ./usr/lib/firmware/qcom/apq8096/adsp.mbn
+-rw-r--r-- root       root              402 ./usr/lib/firmware/qcom/apq8096/adspr.jsn
+-rw-r--r-- root       root              403 ./usr/lib/firmware/qcom/apq8096/adspua.jsn

@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-rtl-license
+RRECOMMENDS = 
+PKGSIZE = 799977
+FILES = /usr/lib/firmware/rtl_bt/rtl8822*.bin /usr/lib/firmware/rtw88/rtw8822*.bin /usr/lib/firmware/rtlwifi/rtl8822*.bin
+FILELIST = /usr/lib/firmware/rtl_bt/rtl8822b_config.bin /usr/lib/firmware/rtl_bt/rtl8822b_fw.bin /usr/lib/firmware/rtl_bt/rtl8822cs_config.bin /usr/lib/firmware/rtl_bt/rtl8822cs_fw.bin /usr/lib/firmware/rtl_bt/rtl8822cu_config.bin /usr/lib/firmware/rtl_bt/rtl8822cu_fw.bin /usr/lib/firmware/rtlwifi/rtl8822befw.bin /usr/lib/firmware/rtw88/rtw8822b_fw.bin /usr/lib/firmware/rtw88/rtw8822c_fw.bin /usr/lib/firmware/rtw88/rtw8822c_wow_fw.bin

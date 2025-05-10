@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-ti-connectivity-license linux-firmware-wlcommon
+RRECOMMENDS = 
+PKGSIZE = 6430975
+FILES = /usr/lib/firmware/ti-connectivity/wl12*
+FILELIST = /usr/lib/firmware/ti-connectivity/wl1251-fw.bin /usr/lib/firmware/ti-connectivity/wl1251-nvs.bin /usr/lib/firmware/ti-connectivity/wl1271-fw-2.bin /usr/lib/firmware/ti-connectivity/wl1271-fw-ap.bin /usr/lib/firmware/ti-connectivity/wl1271-fw.bin /usr/lib/firmware/ti-connectivity/wl127x-fw-3.bin /usr/lib/firmware/ti-connectivity/wl127x-fw-4-mr.bin /usr/lib/firmware/ti-connectivity/wl127x-fw-4-plt.bin /usr/lib/firmware/ti-connectivity/wl127x-fw-4-sr.bin /usr/lib/firmware/ti-connectivity/wl127x-fw-5-mr.bin /usr/lib/firmware/ti-connectivity/wl127x-fw-5-plt.bin /usr/lib/firmware/ti-connectivity/wl127x-fw-5-sr.bin /usr/lib/firmware/ti-connectivity/wl127x-fw-plt-3.bin /usr/lib/firmware/ti-connectivity/wl128x-fw-3.bin /usr/lib/firmware/ti-connectivity/wl128x-fw-4-mr.bin /usr/lib/firmware/ti-connectivity/wl128x-fw-4-plt.bin /usr/lib/firmware/ti-connectivity/wl128x-fw-4-sr.bin /usr/lib/firmware/ti-connectivity/wl128x-fw-5-mr.bin /usr/lib/firmware/ti-connectivity/wl128x-fw-5-plt.bin /usr/lib/firmware/ti-connectivity/wl128x-fw-5-sr.bin /usr/lib/firmware/ti-connectivity/wl128x-fw-ap.bin /usr/lib/firmware/ti-connectivity/wl128x-fw-plt-3.bin /usr/lib/firmware/ti-connectivity/wl128x-fw.bin /usr/lib/firmware/ti-connectivity/wl128x-nvs.bin /usr/lib/firmware/ti-connectivity/wl12xx-nvs.bin

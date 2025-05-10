@@ -1,0 +1,29 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/brcm
+-rw-r--r-- root       root             1723 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.acepc-t8.txt
+-rw-r--r-- root       root             1475 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx root       root               33 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.beagle,am5729-beagleboneai.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx root       root               31 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.bin -> ../cypress/cyfmac43455-sdio.bin
+lrwxrwxrwx root       root               36 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.clm_blob -> ../cypress/cyfmac43455-sdio.clm_blob
+-rw-r--r-- root       root             2510 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.MINIX-NEO Z83-4.txt
+lrwxrwxrwx root       root               33 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.pine64,pinebook-pro.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx root       root               33 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.pine64,pinenote-v1.1.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx root       root               33 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.pine64,pinenote-v1.2.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx root       root               33 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.pine64,pinephone-pro.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx root       root               33 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.pine64,quartz64-a.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx root       root               33 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.pine64,quartz64-b.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx root       root               33 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.pine64,rockpro64-v2.0.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx root       root               33 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.pine64,rockpro64-v2.1.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx root       root               33 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.pine64,soquartz-blade.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx root       root               33 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.pine64,soquartz-cm4io.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx root       root               33 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.pine64,soquartz-model-a.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+lrwxrwxrwx root       root               49 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.txt -> brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt
+-rw-r--r-- root       root             1884 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt
+-rw-r--r-- root       root             1883 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.txt
+lrwxrwxrwx root       root               44 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.Raspberry Pi Foundation-Raspberry Pi 4 Model B.txt -> brcmfmac43455-sdio.raspberrypi,4-model-b.txt
+lrwxrwxrwx root       root               44 ./usr/lib/firmware/brcm/brcmfmac43455-sdio.Raspberry Pi Foundation-Raspberry Pi Compute Module 4.txt -> brcmfmac43455-sdio.raspberrypi,4-model-b.txt
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/cypress
+-rw-r--r-- root       root           643651 ./usr/lib/firmware/cypress/cyfmac43455-sdio.bin
+-rw-r--r-- root       root             4733 ./usr/lib/firmware/cypress/cyfmac43455-sdio.clm_blob

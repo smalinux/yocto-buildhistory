@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-rtl-license
+RRECOMMENDS = 
+PKGSIZE = 216662
+FILES = /usr/lib/firmware/rtlwifi/rtl8821*.bin /usr/lib/firmware/rtw88/rtw8821*.bin
+FILELIST = /usr/lib/firmware/rtlwifi/rtl8821aefw.bin /usr/lib/firmware/rtlwifi/rtl8821aefw_29.bin /usr/lib/firmware/rtlwifi/rtl8821aefw_wowlan.bin /usr/lib/firmware/rtw88/rtw8821c_fw.bin

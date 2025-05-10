@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-broadcom-license
+RRECOMMENDS = 
+PKGSIZE = 385303
+FILES = /usr/lib/firmware/brcm/brcmfmac43430a0-sdio.*
+FILELIST = '/usr/lib/firmware/brcm/brcmfmac43430a0-sdio.ONDA-V80 PLUS.txt' /usr/lib/firmware/brcm/brcmfmac43430a0-sdio.bin /usr/lib/firmware/brcm/brcmfmac43430a0-sdio.ilife-S806.txt /usr/lib/firmware/brcm/brcmfmac43430a0-sdio.jumper-ezpad-mini3.txt

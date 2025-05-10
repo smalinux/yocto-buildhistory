@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/rtl_bt
+-rw-r--r-- root       root               14 ./usr/lib/firmware/rtl_bt/rtl8822b_config.bin
+-rw-r--r-- root       root            51176 ./usr/lib/firmware/rtl_bt/rtl8822b_fw.bin
+-rw-r--r-- root       root               33 ./usr/lib/firmware/rtl_bt/rtl8822cs_config.bin
+-rw-r--r-- root       root            62580 ./usr/lib/firmware/rtl_bt/rtl8822cs_fw.bin
+-rw-r--r-- root       root                6 ./usr/lib/firmware/rtl_bt/rtl8822cu_config.bin
+-rw-r--r-- root       root            59864 ./usr/lib/firmware/rtl_bt/rtl8822cu_fw.bin
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/rtlwifi
+-rw-r--r-- root       root           127496 ./usr/lib/firmware/rtlwifi/rtl8822befw.bin
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/rtw88
+-rw-r--r-- root       root           150984 ./usr/lib/firmware/rtw88/rtw8822b_fw.bin
+-rw-r--r-- root       root           202600 ./usr/lib/firmware/rtw88/rtw8822c_fw.bin
+-rw-r--r-- root       root           145224 ./usr/lib/firmware/rtw88/rtw8822c_wow_fw.bin

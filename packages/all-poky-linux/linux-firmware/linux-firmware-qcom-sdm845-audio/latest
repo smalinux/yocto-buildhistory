@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-qcom-license
+RRECOMMENDS = 
+PKGSIZE = 10426126
+FILES = /usr/lib/firmware/qcom/sdm845/adsp*.*
+FILELIST = /usr/lib/firmware/qcom/sdm845/adsp.mbn /usr/lib/firmware/qcom/sdm845/adspr.jsn /usr/lib/firmware/qcom/sdm845/adspua.jsn

@@ -1,0 +1,9 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/rtl_bt
+-rw-r--r-- root       root            74488 ./usr/lib/firmware/rtl_bt/rtl8761a_fw.bin
+-rw-r--r-- root       root               25 ./usr/lib/firmware/rtl_bt/rtl8761b_config.bin
+-rw-r--r-- root       root            45444 ./usr/lib/firmware/rtl_bt/rtl8761b_fw.bin
+-rw-r--r-- root       root                6 ./usr/lib/firmware/rtl_bt/rtl8761bu_config.bin
+-rw-r--r-- root       root            44484 ./usr/lib/firmware/rtl_bt/rtl8761bu_fw.bin

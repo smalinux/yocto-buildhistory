@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-cypress-license
+RRECOMMENDS = 
+PKGSIZE = 429406
+FILES = /usr/lib/firmware/brcm/brcmfmac43430-sdio.* /usr/lib/firmware/cypress/cyfmac43430-sdio.*
+FILELIST = /usr/lib/firmware/brcm/brcmfmac43430-sdio.AP6212.txt /usr/lib/firmware/brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt /usr/lib/firmware/brcm/brcmfmac43430-sdio.MUR1DX.txt /usr/lib/firmware/brcm/brcmfmac43430-sdio.beagle,beaglev-starlight-jh7100-a1.txt /usr/lib/firmware/brcm/brcmfmac43430-sdio.beagle,beaglev-starlight-jh7100-r0.txt /usr/lib/firmware/brcm/brcmfmac43430-sdio.bin /usr/lib/firmware/brcm/brcmfmac43430-sdio.clm_blob /usr/lib/firmware/brcm/brcmfmac43430-sdio.friendlyarm,nanopi-r1.txt /usr/lib/firmware/brcm/brcmfmac43430-sdio.ilife-S806.txt /usr/lib/firmware/brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt /usr/lib/firmware/brcm/brcmfmac43430-sdio.raspberrypi,model-zero-2-w.txt /usr/lib/firmware/brcm/brcmfmac43430-sdio.raspberrypi,model-zero-w.txt /usr/lib/firmware/brcm/brcmfmac43430-sdio.sinovoip,bananapi-m64.txt /usr/lib/firmware/brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-plus.txt /usr/lib/firmware/brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-ultra.txt /usr/lib/firmware/brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-zero.txt /usr/lib/firmware/brcm/brcmfmac43430-sdio.sinovoip,bpi-m3.txt /usr/lib/firmware/brcm/brcmfmac43430-sdio.starfive,visionfive-v1.txt /usr/lib/firmware/cypress/cyfmac43430-sdio.bin /usr/lib/firmware/cypress/cyfmac43430-sdio.clm_blob

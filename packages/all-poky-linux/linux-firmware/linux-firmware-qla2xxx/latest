@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-qla2xxx-license
+RRECOMMENDS = 
+PKGSIZE = 963086
+FILES = /usr/lib/firmware/ql2*
+FILELIST = /usr/lib/firmware/ql2100_fw.bin /usr/lib/firmware/ql2200_fw.bin /usr/lib/firmware/ql2300_fw.bin /usr/lib/firmware/ql2322_fw.bin /usr/lib/firmware/ql2400_fw.bin /usr/lib/firmware/ql2500_fw.bin

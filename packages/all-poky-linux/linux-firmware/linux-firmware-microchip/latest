@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-microchip-license
+RRECOMMENDS = 
+PKGSIZE = 1747
+FILES = /usr/lib/firmware/microchip/*
+FILELIST = /usr/lib/firmware/microchip/mscc_vsc8574_revb_int8051_29e8.bin /usr/lib/firmware/microchip/mscc_vsc8584_revb_int8051_fb48.bin

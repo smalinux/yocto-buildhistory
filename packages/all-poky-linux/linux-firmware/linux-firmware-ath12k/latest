@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-ath10k-license
+RRECOMMENDS = 
+PKGSIZE = 6826211
+FILES = /usr/lib/firmware/ath12k
+FILELIST = /usr/lib/firmware/ath12k/WCN7850/hw2.0/Notice.txt /usr/lib/firmware/ath12k/WCN7850/hw2.0/amss.bin /usr/lib/firmware/ath12k/WCN7850/hw2.0/board-2.bin /usr/lib/firmware/ath12k/WCN7850/hw2.0/m3.bin

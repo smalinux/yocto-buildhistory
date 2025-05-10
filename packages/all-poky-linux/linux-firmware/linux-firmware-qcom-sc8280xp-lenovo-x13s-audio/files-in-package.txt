@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom/sc8280xp
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom/sc8280xp/LENOVO
+drwxr-xr-x root       root             4096 ./usr/lib/firmware/qcom/sc8280xp/LENOVO/21BX
+-rw-r--r-- root       root              670 ./usr/lib/firmware/qcom/sc8280xp/LENOVO/21BX/adspr.jsn
+-rw-r--r-- root       root              703 ./usr/lib/firmware/qcom/sc8280xp/LENOVO/21BX/adspua.jsn
+-rw-r--r-- root       root            24296 ./usr/lib/firmware/qcom/sc8280xp/LENOVO/21BX/audioreach-tplg.bin
+-rw-r--r-- root       root              516 ./usr/lib/firmware/qcom/sc8280xp/LENOVO/21BX/battmgr.jsn
+-rw-r--r-- root       root         14367860 ./usr/lib/firmware/qcom/sc8280xp/LENOVO/21BX/qcadsp8280.mbn
+lrwxrwxrwx root       root               31 ./usr/lib/firmware/qcom/sc8280xp/SC8280XP-LENOVO-X13S-tplg.bin -> LENOVO/21BX/audioreach-tplg.bin

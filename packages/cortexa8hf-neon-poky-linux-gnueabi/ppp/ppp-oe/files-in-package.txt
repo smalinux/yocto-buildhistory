@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/pppd
+drwxr-xr-x root       root             4096 ./usr/lib/pppd/2.5.0
+-rwxr-xr-x root       root            26496 ./usr/lib/pppd/2.5.0/pppoe.so
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root            21900 ./usr/sbin/pppoe-discovery

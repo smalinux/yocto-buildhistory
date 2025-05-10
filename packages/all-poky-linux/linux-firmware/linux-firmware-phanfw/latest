@@ -1,0 +1,10 @@
+PE = 1
+PV = 20240312
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = linux-firmware-phanfw-license
+RRECOMMENDS = 
+PKGSIZE = 1845305
+FILES = /usr/lib/firmware/phanfw.bin
+FILELIST = /usr/lib/firmware/phanfw.bin

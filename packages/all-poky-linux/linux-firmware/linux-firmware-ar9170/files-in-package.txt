@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/firmware
+-rw-r--r-- root       root            83968 ./usr/lib/firmware/ar9170-1.fw
+-rw-r--r-- root       root             3508 ./usr/lib/firmware/ar9170-2.fw

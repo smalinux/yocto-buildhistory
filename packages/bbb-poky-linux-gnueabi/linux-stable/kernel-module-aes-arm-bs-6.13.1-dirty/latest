@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.41
+PKGR = r0.42
 RPROVIDES = kernel-module-aes-arm-bs
 RDEPENDS = kernel-6.13.1-dirty kernel-module-aes-arm-6.13.1-dirty kernel-module-crypto-simd-6.13.1-dirty kernel-module-libaes-6.13.1-dirty
 RRECOMMENDS = 

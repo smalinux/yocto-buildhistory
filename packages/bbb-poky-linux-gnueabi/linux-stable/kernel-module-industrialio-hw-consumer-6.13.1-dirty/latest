@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.41
+PKGR = r0.42
 RPROVIDES = kernel-module-industrialio-hw-consumer
 RDEPENDS = kernel-6.13.1-dirty
 RRECOMMENDS = 

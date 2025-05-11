@@ -9734,7 +9734,7 @@ drwx------ rpcuser    rpcuser          4096 ./var/lib/nfs/statd/sm.bak
 -rw-r--r-- rpcuser    rpcuser             0 ./var/lib/nfs/statd/state
 drwxr-xr-x root       root             4096 ./var/lib/nfs/v4recovery
 drwxr-xr-x root       root             4096 ./var/lib/opkg
-drwxr-xr-x root       root           110592 ./var/lib/opkg/info
+drwxr-xr-x root       root           118784 ./var/lib/opkg/info
 -rw-r--r-- root       root              544 ./var/lib/opkg/info/adwaita-icon-theme-symbolic.control
 -rw-r--r-- root       root            53297 ./var/lib/opkg/info/adwaita-icon-theme-symbolic.list
 -rwxr-xr-x root       root              437 ./var/lib/opkg/info/adwaita-icon-theme-symbolic.postinst
@@ -11462,7 +11462,7 @@ drwxr-xr-x root       root           110592 ./var/lib/opkg/info
 -rw-r--r-- root       root              766 ./var/lib/opkg/info/wayland.control
 -rw-r--r-- root       root              593 ./var/lib/opkg/info/wayland.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/wayland.postinst
--rw-r--r-- root       root           153597 ./var/lib/opkg/status
+-rw-r--r-- root       root           153577 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/local
 lrwxrwxrwx root       root               11 ./var/lock -> ../run/lock

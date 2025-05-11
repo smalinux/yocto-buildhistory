@@ -1,8 +1,8 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.43
+PKGR = r0.44
 RPROVIDES = kernel-module-ghash-arm-ce
-RDEPENDS = kernel-6.13.1-dirty kernel-module-cryptd-6.13.1-dirty kernel-module-gf128mul-6.13.1-dirty kernel-module-libaes-6.13.1-dirty
+RDEPENDS = kernel-6.13.1-dirty kernel-module-cryptd-6.13.1-dirty
 RRECOMMENDS = 
 PKGSIZE = 20700
 FILES = /usr/lib/modules/6.13.1-dirty/kernel/arch/arm/crypto/.debug/ghash-arm-ce.ko /usr/lib/modules/6.13.1-dirty/kernel/arch/arm/crypto/ghash-arm-ce.ko

@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.43
-RPROVIDES = kernel-module-rtl8192c-common
-RDEPENDS = kernel-6.13.1-dirty kernel-module-rtlwifi-6.13.1-dirty
-RRECOMMENDS = 
-PKGSIZE = 61776
-FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192c/.debug/rtl8192c-common.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192c/rtl8192c-common.ko
-FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192c/rtl8192c-common.ko

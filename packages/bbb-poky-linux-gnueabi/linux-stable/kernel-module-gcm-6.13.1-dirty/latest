@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.43
-RPROVIDES = kernel-module-gcm
-RDEPENDS = kernel-6.13.1-dirty
-RRECOMMENDS = 
-PKGSIZE = 18796
-FILES = /usr/lib/modules/6.13.1-dirty/kernel/crypto/.debug/gcm.ko /usr/lib/modules/6.13.1-dirty/kernel/crypto/gcm.ko
-FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/crypto/gcm.ko

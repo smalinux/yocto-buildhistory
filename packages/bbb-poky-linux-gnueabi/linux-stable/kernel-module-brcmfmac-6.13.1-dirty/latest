@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.43
+PKGR = r0.44
 RPROVIDES = kernel-module-brcmfmac
 RDEPENDS = kernel-6.13.1-dirty kernel-module-brcmutil-6.13.1-dirty kernel-module-cfg80211-6.13.1-dirty
 RRECOMMENDS = 

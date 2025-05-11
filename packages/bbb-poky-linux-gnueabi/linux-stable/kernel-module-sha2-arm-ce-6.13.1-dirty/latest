@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.43
+PKGR = r0.44
 RPROVIDES = kernel-module-sha2-arm-ce
 RDEPENDS = kernel-6.13.1-dirty kernel-module-sha256-arm-6.13.1-dirty
 RRECOMMENDS = 

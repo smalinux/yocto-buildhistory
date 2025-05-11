@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.43
-RPROVIDES = kernel-module-rtl-usb
-RDEPENDS = kernel-6.13.1-dirty kernel-module-mac80211-6.13.1-dirty kernel-module-rtlwifi-6.13.1-dirty
-RRECOMMENDS = 
-PKGSIZE = 18164
-FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/.debug/rtl_usb.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/rtl_usb.ko
-FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/rtl_usb.ko

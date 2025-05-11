@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.43
-RPROVIDES = kernel-module-rtl8192cu
-RDEPENDS = kernel-6.13.1-dirty kernel-module-mac80211-6.13.1-dirty kernel-module-rtl-usb-6.13.1-dirty kernel-module-rtl8192c-common-6.13.1-dirty kernel-module-rtlwifi-6.13.1-dirty
-RRECOMMENDS = 
-PKGSIZE = 100604
-FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192cu/.debug/rtl8192cu.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192cu/rtl8192cu.ko
-FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192cu/rtl8192cu.ko

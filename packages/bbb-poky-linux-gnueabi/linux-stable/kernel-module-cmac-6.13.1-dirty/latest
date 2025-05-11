@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.43
-RPROVIDES = kernel-module-cmac
-RDEPENDS = kernel-6.13.1-dirty
-RRECOMMENDS = 
-PKGSIZE = 7304
-FILES = /usr/lib/modules/6.13.1-dirty/kernel/crypto/.debug/cmac.ko /usr/lib/modules/6.13.1-dirty/kernel/crypto/cmac.ko
-FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/crypto/cmac.ko

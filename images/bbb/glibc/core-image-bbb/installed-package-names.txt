@@ -25,7 +25,6 @@ alsa-utils-scripts
 alsa-utils-speakertest
 at-spi2-core
 base-files
-base-passwd
 bash
 busybox
 busybox-syslog
@@ -493,7 +492,6 @@ rauc
 rauc-service
 shadow-base
 shadow-securetty
-shadow
 shared-mime-info
 squashfs-tools
 systemd-compat-units
@@ -506,8 +504,6 @@ systemd-vconsole-setup
 u-boot-env
 udev-hwdb
 udev
-update-alternatives-opkg
-update-rc.d
 usbutils
 util-linux-agetty
 util-linux-fcntl-lock

@@ -17,7 +17,6 @@ libc6 glibc glibc 2.39+git 2008
 libstdc++6 libstdc++ gcc-runtime 13.3.0 1954
 python3-ensurepip python3-ensurepip python3 3.12.6 1794
 libunistring5 libunistring libunistring 1.2 1677
-shadow shadow shadow 4.14.2 1618
 python3-pydoc python3-pydoc python3 3.12.6 1533
 openssh-sshd openssh-sshd openssh 9.6p1 1481
 vim-tiny vim-tiny vim-tiny 9.1.0698 1461
@@ -466,7 +465,6 @@ kernel-module-fsi-master-hub-6.13.1-dirty kernel-module-fsi-master-hub-6.13.1-di
 kernel-module-b53-serdes-6.13.1-dirty kernel-module-b53-serdes-6.13.1-dirty linux-stable 6.13.1 7
 kernel-module-algif-rng-6.13.1-dirty kernel-module-algif-rng-6.13.1-dirty linux-stable 6.13.1 7
 kernel-module-adxl34x-i2c-6.13.1-dirty kernel-module-adxl34x-i2c-6.13.1-dirty linux-stable 6.13.1 7
-update-rc.d update-rc.d update-rc.d 0.8+git 6
 kernel-module-tag-rzn1-a5psw-6.13.1-dirty kernel-module-tag-rzn1-a5psw-6.13.1-dirty linux-stable 6.13.1 6
 kernel-module-seqiv-6.13.1-dirty kernel-module-seqiv-6.13.1-dirty linux-stable 6.13.1 6
 kernel-module-qrtr-smd-6.13.1-dirty kernel-module-qrtr-smd-6.13.1-dirty linux-stable 6.13.1 6
@@ -477,7 +475,7 @@ kernel-module-echainiv-6.13.1-dirty kernel-module-echainiv-6.13.1-dirty linux-st
 kernel-module-des-generic-6.13.1-dirty kernel-module-des-generic-6.13.1-dirty linux-stable 6.13.1 6
 kernel-module-cpufreq-userspace-6.13.1-dirty kernel-module-cpufreq-userspace-6.13.1-dirty linux-stable 6.13.1 6
 kernel-module-adxl34x-spi-6.13.1-dirty kernel-module-adxl34x-spi-6.13.1-dirty linux-stable 6.13.1 6
-update-alternatives-opkg update-alternatives-opkg opkg-utils 0.6.3 5
+volatile-binds volatile-binds volatile-binds 1.0 5
 rauc-conf rauc-conf rauc-conf 1.0 5
 pam-plugin-warn pam-plugin-warn libpam 1.5.3 5
 pam-plugin-permit pam-plugin-permit libpam 1.5.3 5
@@ -490,7 +488,6 @@ kernel-module-brcmfmac-wcc-6.13.1-dirty kernel-module-brcmfmac-wcc-6.13.1-dirty 
 kernel-module-brcmfmac-cyw-6.13.1-dirty kernel-module-brcmfmac-cyw-6.13.1-dirty linux-stable 6.13.1 5
 kernel-module-brcmfmac-bca-6.13.1-dirty kernel-module-brcmfmac-bca-6.13.1-dirty linux-stable 6.13.1 5
 hello hello hello 1.0 5
-volatile-binds volatile-binds volatile-binds 1.0 4
 rauc-service rauc-service rauc 1.13 4
 kernel-module-st-sensors-i2c-6.13.1-dirty kernel-module-st-sensors-i2c-6.13.1-dirty linux-stable 6.13.1 4
 kernel-module-crc-itu-t-6.13.1-dirty kernel-module-crc-itu-t-6.13.1-dirty linux-stable 6.13.1 4
@@ -517,7 +514,6 @@ opkg-arch-config opkg-arch-config opkg-arch-config 1.0 0
 openssh openssh openssh 9.6p1 0
 kernel-modules kernel-modules linux-stable 6.13.1 0
 kernel-image-6.13.1-dirty kernel-image linux-stable 6.13.1 0
-base-passwd base-passwd base-passwd 3.6.3 0
 alsa-utils alsa-utils alsa-utils 1.2.11 0
 alsa-states alsa-states alsa-state 0.2.0 0
 alsa-state alsa-state alsa-state 0.2.0 0

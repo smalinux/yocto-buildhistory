@@ -17,7 +17,6 @@
 1954	KiB	libstdc++6
 1794	KiB	python3-ensurepip
 1677	KiB	libunistring5
-1618	KiB	shadow
 1533	KiB	python3-pydoc
 1481	KiB	openssh-sshd
 1461	KiB	vim-tiny
@@ -466,7 +465,6 @@
 7	KiB	kernel-module-b53-serdes-6.13.1-dirty
 7	KiB	kernel-module-algif-rng-6.13.1-dirty
 7	KiB	kernel-module-adxl34x-i2c-6.13.1-dirty
-6	KiB	update-rc.d
 6	KiB	kernel-module-tag-rzn1-a5psw-6.13.1-dirty
 6	KiB	kernel-module-seqiv-6.13.1-dirty
 6	KiB	kernel-module-qrtr-smd-6.13.1-dirty
@@ -477,7 +475,7 @@
 6	KiB	kernel-module-des-generic-6.13.1-dirty
 6	KiB	kernel-module-cpufreq-userspace-6.13.1-dirty
 6	KiB	kernel-module-adxl34x-spi-6.13.1-dirty
-5	KiB	update-alternatives-opkg
+5	KiB	volatile-binds
 5	KiB	rauc-conf
 5	KiB	pam-plugin-warn
 5	KiB	pam-plugin-permit
@@ -490,7 +488,6 @@
 5	KiB	kernel-module-brcmfmac-cyw-6.13.1-dirty
 5	KiB	kernel-module-brcmfmac-bca-6.13.1-dirty
 5	KiB	hello
-4	KiB	volatile-binds
 4	KiB	rauc-service
 4	KiB	kernel-module-st-sensors-i2c-6.13.1-dirty
 4	KiB	kernel-module-crc-itu-t-6.13.1-dirty
@@ -517,7 +514,6 @@
 0	KiB	openssh
 0	KiB	kernel-modules
 0	KiB	kernel-image-6.13.1-dirty
-0	KiB	base-passwd
 0	KiB	alsa-utils
 0	KiB	alsa-states
 0	KiB	alsa-state

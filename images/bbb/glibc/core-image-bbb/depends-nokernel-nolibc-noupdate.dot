@@ -1238,12 +1238,6 @@ digraph depends {
 "rauc" -> "u-boot-env"
 "rauc" -> "virtual-rauc-conf" [style=dotted]
 "shadow-base" -> "libcrypt2"
-"shadow" -> "base-passwd"
-"shadow" -> "libattr1"
-"shadow" -> "libcrypt2"
-"shadow" -> "shadow-base"
-"shadow" -> "shadow-securetty"
-"shadow" -> "util-linux-sulogin"
 "shared-mime-info" -> "libglib-2.0-0"
 "shared-mime-info" -> "libstdc++6"
 "shared-mime-info" -> "libxml2"

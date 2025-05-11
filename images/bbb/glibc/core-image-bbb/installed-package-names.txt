@@ -305,6 +305,7 @@ libattr1
 libblkid1
 libbz2-1
 libc6
+libc6-utils
 libcairo2
 libcairo-gobject2
 libcap

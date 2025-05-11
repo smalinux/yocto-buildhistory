@@ -637,6 +637,9 @@ lrwxrwxrwx root       root               23 ./usr/bin/fuser -> /usr/bin/busybox.
 lrwxrwxrwx root       root               11 ./usr/bin/fw_setenv -> fw_printenv
 -rwxr-xr-x root       root            13756 ./usr/bin/gapplication
 -rwxr-xr-x root       root            38328 ./usr/bin/gdbus
+-rwxr-xr-x root       root            21976 ./usr/bin/gencat
+-rwxr-xr-x root       root            21940 ./usr/bin/getconf
+-rwxr-xr-x root       root            22116 ./usr/bin/getent
 -rwxr-xr-x root       root             9704 ./usr/bin/getkeycodes
 lrwxrwxrwx root       root               23 ./usr/bin/getopt -> /usr/bin/busybox.nosuid
 -rwxr-xr-x root       root             5512 ./usr/bin/getsubids
@@ -670,6 +673,7 @@ lrwxrwxrwx root       root               23 ./usr/bin/head -> /usr/bin/busybox.n
 lrwxrwxrwx root       root               23 ./usr/bin/hexdump -> /usr/bin/busybox.nosuid
 -rwxr-xr-x root       root            26040 ./usr/bin/hostnamectl
 lrwxrwxrwx root       root               23 ./usr/bin/hostname -> /usr/bin/busybox.nosuid
+-rwxr-xr-x root       root            50660 ./usr/bin/iconv
 -rwxr-xr-x root       root               94 ./usr/bin/idle3.12
 lrwxrwxrwx root       root                8 ./usr/bin/idle3 -> idle3.12
 lrwxrwxrwx root       root               23 ./usr/bin/id -> /usr/bin/busybox.nosuid
@@ -689,6 +693,7 @@ lrwxrwxrwx root       root               23 ./usr/bin/ln -> /usr/bin/busybox.nos
 -rwxr-xr-x root       root            30448 ./usr/bin/lo10k1
 -rwxr-xr-x root       root           141112 ./usr/bin/loadkeys
 -rwxr-xr-x root       root            30256 ./usr/bin/loadunimap
+-rwxr-xr-x root       root            35692 ./usr/bin/locale
 -rwxr-xr-x root       root            21944 ./usr/bin/localectl
 lrwxrwxrwx root       root               23 ./usr/bin/logger -> /usr/bin/busybox.nosuid
 -rwxr-xr-x root       root            54832 ./usr/bin/loginctl
@@ -705,6 +710,7 @@ lrwxrwxrwx root       root               23 ./usr/bin/ls -> /usr/bin/busybox.nos
 lrwxrwxrwx root       root                3 ./usr/bin/lz4cat -> lz4
 lrwxrwxrwx root       root                3 ./usr/bin/lz4c -> lz4
 lrwxrwxrwx root       root               23 ./usr/bin/lzcat -> /usr/bin/busybox.nosuid
+-rwxr-xr-x root       root            17880 ./usr/bin/makedb
 -rwxr-xr-x root       root            22076 ./usr/bin/mapscrn
 lrwxrwxrwx root       root               23 ./usr/bin/md5sum -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root               23 ./usr/bin/mesg -> /usr/bin/busybox.nosuid
@@ -743,6 +749,7 @@ lrwxrwxrwx root       root               19 ./usr/bin/openvt -> /usr/bin/openvt.
 -rwsr-xr-x root       root            82728 ./usr/bin/passwd.shadow
 lrwxrwxrwx root       root               22 ./usr/bin/passwd -> /usr/bin/passwd.shadow
 lrwxrwxrwx root       root               23 ./usr/bin/patch -> /usr/bin/busybox.nosuid
+-rwxr-xr-x root       root             9692 ./usr/bin/pcprofiledump
 -rwxr-xr-x root       root             9604 ./usr/bin/pcxhrloader
 lrwxrwxrwx root       root               23 ./usr/bin/pgrep -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root               23 ./usr/bin/pidof -> /usr/bin/busybox.nosuid
@@ -750,6 +757,7 @@ lrwxrwxrwx root       root               21 ./usr/bin/ping6 -> /usr/bin/busybox.
 lrwxrwxrwx root       root               21 ./usr/bin/ping -> /usr/bin/busybox.suid
 -rwxr-xr-x root       root              225 ./usr/bin/pip3
 -rwxr-xr-x root       root              225 ./usr/bin/pip3.12
+-rwxr-xr-x root       root            13732 ./usr/bin/pldd
 lrwxrwxrwx root       root               23 ./usr/bin/printf -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root                9 ./usr/bin/psfaddtable -> psfxtable
 lrwxrwxrwx root       root                9 ./usr/bin/psfgettable -> psfxtable
@@ -797,6 +805,7 @@ lrwxrwxrwx root       root               18 ./usr/bin/sh -> /usr/bin/bash.bash
 lrwxrwxrwx root       root               23 ./usr/bin/sleep -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root               23 ./usr/bin/sort -> /usr/bin/busybox.nosuid
 -rwxr-xr-x root       root            30192 ./usr/bin/speaker-test
+-rwxr-xr-x root       root            21972 ./usr/bin/sprof
 lrwxrwxrwx root       root               10 ./usr/bin/sqfscat -> unsquashfs
 lrwxrwxrwx root       root               10 ./usr/bin/sqfstar -> mksquashfs
 -rwxr-xr-x root       root             9656 ./usr/bin/sscape_ctl
@@ -5679,6 +5688,7 @@ lrwxrwxrwx root       root               16 ./usr/sbin/getty -> /usr/sbin/agetty
 -rwxr-xr-x root       root            41224 ./usr/sbin/grpunconv
 lrwxrwxrwx root       root               18 ./usr/sbin/halt -> /usr/bin/systemctl
 lrwxrwxrwx root       root               23 ./usr/sbin/hwclock -> /usr/bin/busybox.nosuid
+-rwxr-xr-x root       root            21984 ./usr/sbin/iconvconfig
 lrwxrwxrwx root       root               23 ./usr/sbin/ifconfig -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root               23 ./usr/sbin/ifdown -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root               23 ./usr/sbin/ifup -> /usr/bin/busybox.nosuid
@@ -10841,6 +10851,8 @@ drwxr-xr-x root       root           110592 ./var/lib/opkg/info
 -rw-r--r-- root       root              486 ./var/lib/opkg/info/libc6.control
 -rw-r--r-- root       root              506 ./var/lib/opkg/info/libc6.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libc6.postinst
+-rw-r--r-- root       root              508 ./var/lib/opkg/info/libc6-utils.control
+-rw-r--r-- root       root              295 ./var/lib/opkg/info/libc6-utils.list
 -rw-r--r-- root       root             1033 ./var/lib/opkg/info/libcairo2.control
 -rw-r--r-- root       root              120 ./var/lib/opkg/info/libcairo2.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/libcairo2.postinst
@@ -11450,7 +11462,7 @@ drwxr-xr-x root       root           110592 ./var/lib/opkg/info
 -rw-r--r-- root       root              766 ./var/lib/opkg/info/wayland.control
 -rw-r--r-- root       root              593 ./var/lib/opkg/info/wayland.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/wayland.postinst
--rw-r--r-- root       root           153354 ./var/lib/opkg/status
+-rw-r--r-- root       root           153597 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/local
 lrwxrwxrwx root       root               11 ./var/lock -> ../run/lock

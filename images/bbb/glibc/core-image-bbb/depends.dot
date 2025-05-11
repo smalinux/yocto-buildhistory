@@ -782,6 +782,7 @@ digraph depends {
 "libblkid1" -> "libc6"
 "libbz2-1" -> "libc6"
 "libc6" -> "ldconfig" [style=dotted]
+"libc6-utils" -> "libc6"
 "libcairo2" -> "libc6"
 "libcairo2" -> "libfontconfig1"
 "libcairo2" -> "libfreetype6"

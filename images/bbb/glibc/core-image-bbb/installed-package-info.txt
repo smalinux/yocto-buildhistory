@@ -104,6 +104,7 @@ libxkbcommon0 libxkbcommon libxkbcommon 1.6.0 253
 python3-ctypes python3-ctypes python3 3.12.6 247
 python3-crypt python3-crypt python3 3.12.6 244
 kernel-module-omapdrm-6.13.1-dirty kernel-module-omapdrm-6.13.1-dirty linux-stable 6.13.1 242
+libc6-utils glibc-utils glibc 2.39+git 232
 libudev1 libudev systemd 255.4 230
 python3-debugger python3-debugger python3 3.12.6 221
 libsmartcols1 util-linux-libsmartcols util-linux 2.39.3 221

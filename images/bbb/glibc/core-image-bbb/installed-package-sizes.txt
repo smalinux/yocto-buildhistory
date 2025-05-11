@@ -104,6 +104,7 @@
 247	KiB	python3-ctypes
 244	KiB	python3-crypt
 242	KiB	kernel-module-omapdrm-6.13.1-dirty
+232	KiB	libc6-utils
 230	KiB	libudev1
 221	KiB	python3-debugger
 221	KiB	libsmartcols1

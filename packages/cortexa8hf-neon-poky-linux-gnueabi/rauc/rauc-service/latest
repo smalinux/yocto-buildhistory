@@ -1,9 +1,9 @@
 PV = 1.13
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
 RDEPENDS = dbus
 RRECOMMENDS = 
-PKGSIZE = 4217
+PKGSIZE = 4216
 FILES = /usr/lib/systemd/system/rauc.service /usr/share/dbus-1/system.d/de.pengutronix.rauc.conf /usr/share/dbus-1/system-services/de.pengutronix.rauc.service /usr/lib/systemd/catalog /usr/lib/systemd/system-preset/98-rauc-service.preset /usr/lib/systemd/system/rauc.service
 FILELIST = /usr/lib/systemd/catalog/rauc.catalog /usr/lib/systemd/system-preset/98-rauc-service.preset /usr/lib/systemd/system/rauc.service /usr/share/dbus-1/system-services/de.pengutronix.rauc.service /usr/share/dbus-1/system.d/de.pengutronix.rauc.conf

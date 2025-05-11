@@ -1,9 +1,9 @@
 PV = 1.13
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
 RDEPENDS = parted
 RRECOMMENDS = 
-PKGSIZE = 279
+PKGSIZE = 278
 FILES = /usr/lib/systemd/system-preset/98-rauc-grow-data-part.preset /usr/lib/systemd/system/rauc-grow-data-partition.service
 FILELIST = /usr/lib/systemd/system-preset/98-rauc-grow-data-part.preset /usr/lib/systemd/system/rauc-grow-data-partition.service

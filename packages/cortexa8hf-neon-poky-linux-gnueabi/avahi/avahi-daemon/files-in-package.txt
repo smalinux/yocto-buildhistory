@@ -13,7 +13,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/systemd/system
 -rw-r--r-- root       root             1091 ./usr/lib/systemd/system/avahi-daemon.service
 -rw-r--r-- root       root              870 ./usr/lib/systemd/system/avahi-daemon.socket
 drwxr-xr-x root       root             4096 ./usr/lib/systemd/system-preset
--rw-r--r-- root       root               29 ./usr/lib/systemd/system-preset/98-avahi-daemon.preset
+-rw-r--r-- root       root               28 ./usr/lib/systemd/system-preset/98-avahi-daemon.preset
 drwxr-xr-x root       root             4096 ./usr/sbin
 -rwxr-xr-x root       root           132684 ./usr/sbin/avahi-daemon
 drwxr-xr-x root       root             4096 ./usr/share

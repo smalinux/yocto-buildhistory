@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.47
+PKGR = r0.48
 RPROVIDES = kernel-module-adxl34x
 RDEPENDS = kernel-6.13.1-dirty
 RRECOMMENDS = 

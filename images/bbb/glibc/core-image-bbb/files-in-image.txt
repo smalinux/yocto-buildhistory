@@ -7,7 +7,7 @@ drwxr-xr-x root       root             4096 ./boot
 -rw-r--r-- root       root            68663 ./boot/am335x-bonegreen-wireless.dtb
 -rw-r--r-- root       root            68601 ./boot/am335x-pocketbeagle.dtb
 -rw-r--r-- root       root            69525 ./boot/bbb-gen4-4dcape70t.dtb
--rw-r--r-- root       root          8516096 ./boot/zImage-6.13.1-dirty
+-rw-r--r-- root       root          8512000 ./boot/zImage-6.13.1-dirty
 lrwxrwxrwx root       root               19 ./boot/zImage -> zImage-6.13.1-dirty
 drwxr-xr-x root       root             4096 ./data
 drwxr-xr-x root       root             4096 ./dev

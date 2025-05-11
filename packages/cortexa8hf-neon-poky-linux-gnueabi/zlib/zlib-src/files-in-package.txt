@@ -27,7 +27,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/zlib/1.3.1/test
 -rw-r--r-- root       root            40937 ./usr/src/debug/zlib/1.3.1/trees.c
 -rw-r--r-- root       root             8472 ./usr/src/debug/zlib/1.3.1/trees.h
 -rw-r--r-- root       root             2911 ./usr/src/debug/zlib/1.3.1/uncompr.c
--rw-r--r-- root       root            16500 ./usr/src/debug/zlib/1.3.1/zconf.h
+-rw-r--r-- root       root            16464 ./usr/src/debug/zlib/1.3.1/zconf.h
 -rw-r--r-- root       root            96829 ./usr/src/debug/zlib/1.3.1/zlib.h
 -rw-r--r-- root       root             7179 ./usr/src/debug/zlib/1.3.1/zutil.c
 -rw-r--r-- root       root             6677 ./usr/src/debug/zlib/1.3.1/zutil.h

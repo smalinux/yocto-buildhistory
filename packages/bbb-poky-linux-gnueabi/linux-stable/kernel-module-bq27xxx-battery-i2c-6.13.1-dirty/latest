@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.42
+PKGR = r0.43
 RPROVIDES = kernel-module-bq27xxx-battery-i2c
 RDEPENDS = kernel-6.13.1-dirty kernel-module-bq27xxx-battery-6.13.1-dirty
 RRECOMMENDS = 

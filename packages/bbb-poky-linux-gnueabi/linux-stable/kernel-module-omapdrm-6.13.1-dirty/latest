@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.42
+PKGR = r0.43
 RPROVIDES = kernel-module-omapdrm
 RDEPENDS = kernel-6.13.1-dirty kernel-module-cec-6.13.1-dirty kernel-module-drm-display-helper-6.13.1-dirty
 RRECOMMENDS = 

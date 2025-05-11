@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.42
+PKGR = r0.43
 RPROVIDES = kernel-module-i2c-algo-bit
 RDEPENDS = kernel-6.13.1-dirty
 RRECOMMENDS = 

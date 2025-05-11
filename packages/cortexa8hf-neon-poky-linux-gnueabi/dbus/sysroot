@@ -2,9 +2,9 @@ drwxr-xr-x -          -                4096 ./sysroot-providers
 -rw-r--r-- -          -                   4 ./sysroot-providers/dbus
 drwxr-xr-x -          -                4096 ./usr
 drwxr-xr-x -          -                4096 ./usr/bin
--rwxr-xr-x -          -               18049 ./usr/bin/postinst-useradd-01group-dbus
--rwxr-xr-x -          -               18046 ./usr/bin/postinst-useradd-02user-dbus
--rwxr-xr-x -          -               18061 ./usr/bin/postinst-useradd-03groupmems-dbus
+-rwxr-xr-x -          -               17713 ./usr/bin/postinst-useradd-01group-dbus
+-rwxr-xr-x -          -               17710 ./usr/bin/postinst-useradd-02user-dbus
+-rwxr-xr-x -          -               17725 ./usr/bin/postinst-useradd-03groupmems-dbus
 drwxr-xr-x -          -                4096 ./usr/include
 drwxr-xr-x -          -                4096 ./usr/include/dbus-1.0
 drwxr-xr-x -          -                4096 ./usr/include/dbus-1.0/dbus

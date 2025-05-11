@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.42
+PKGR = r0.43
 RPROVIDES = kernel-module-usb-f-rndis
 RDEPENDS = kernel-6.13.1-dirty kernel-module-u-ether-6.13.1-dirty
 RRECOMMENDS = 

@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.45
+RPROVIDES = kernel-module-sha256-generic
+RDEPENDS = kernel-6.13.1-dirty kernel-module-libsha256-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 8108
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/crypto/.debug/sha256_generic.ko /usr/lib/modules/6.13.1-dirty/kernel/crypto/sha256_generic.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/crypto/sha256_generic.ko

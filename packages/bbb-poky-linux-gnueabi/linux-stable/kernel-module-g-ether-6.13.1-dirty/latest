@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.44
+PKGR = r0.45
 RPROVIDES = kernel-module-g-ether
-RDEPENDS = kernel-6.13.1-dirty kernel-module-u-ether-6.13.1-dirty kernel-module-usb-f-rndis-6.13.1-dirty
+RDEPENDS = kernel-6.13.1-dirty kernel-module-libcomposite-6.13.1-dirty kernel-module-u-ether-6.13.1-dirty kernel-module-usb-f-rndis-6.13.1-dirty
 RRECOMMENDS = 
-PKGSIZE = 12260
+PKGSIZE = 12324
 FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/gadget/legacy/.debug/g_ether.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/gadget/legacy/g_ether.ko
 FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/gadget/legacy/g_ether.ko

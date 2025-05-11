@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.45
+RPROVIDES = kernel-module-ccm
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 16012
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/crypto/.debug/ccm.ko /usr/lib/modules/6.13.1-dirty/kernel/crypto/ccm.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/crypto/ccm.ko

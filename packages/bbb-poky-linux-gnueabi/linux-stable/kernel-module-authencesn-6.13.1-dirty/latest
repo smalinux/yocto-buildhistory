@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.45
+RPROVIDES = kernel-module-authencesn
+RDEPENDS = kernel-6.13.1-dirty kernel-module-authenc-6.13.1-dirty kernel-module-crypto-null-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 10284
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/crypto/.debug/authencesn.ko /usr/lib/modules/6.13.1-dirty/kernel/crypto/authencesn.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/crypto/authencesn.ko

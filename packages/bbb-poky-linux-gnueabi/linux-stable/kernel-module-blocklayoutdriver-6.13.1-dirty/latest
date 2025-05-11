@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.45
+RPROVIDES = kernel-module-blocklayoutdriver
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 41852
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/fs/nfs/blocklayout/.debug/blocklayoutdriver.ko /usr/lib/modules/6.13.1-dirty/kernel/fs/nfs/blocklayout/blocklayoutdriver.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/fs/nfs/blocklayout/blocklayoutdriver.ko

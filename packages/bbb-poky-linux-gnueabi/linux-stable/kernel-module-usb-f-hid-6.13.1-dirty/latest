@@ -1,8 +1,8 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.44
+PKGR = r0.45
 RPROVIDES = kernel-module-usb-f-hid
-RDEPENDS = kernel-6.13.1-dirty
+RDEPENDS = kernel-6.13.1-dirty kernel-module-libcomposite-6.13.1-dirty
 RRECOMMENDS = 
 PKGSIZE = 25260
 FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/gadget/function/.debug/usb_f_hid.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/gadget/function/usb_f_hid.ko

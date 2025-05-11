@@ -1,8 +1,8 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.44
+PKGR = r0.45
 RPROVIDES = kernel-module-des-generic
-RDEPENDS = kernel-6.13.1-dirty
+RDEPENDS = kernel-6.13.1-dirty kernel-module-libdes-6.13.1-dirty
 RRECOMMENDS = 
 PKGSIZE = 6548
 FILES = /usr/lib/modules/6.13.1-dirty/kernel/crypto/.debug/des_generic.ko /usr/lib/modules/6.13.1-dirty/kernel/crypto/des_generic.ko

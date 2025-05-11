@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.44
+PKGR = r0.45
 RPROVIDES = kernel-module-b53-srab
 RDEPENDS = kernel-6.13.1-dirty kernel-module-b53-common-6.13.1-dirty kernel-module-b53-serdes-6.13.1-dirty kernel-module-dsa-core-6.13.1-dirty
 RRECOMMENDS = 

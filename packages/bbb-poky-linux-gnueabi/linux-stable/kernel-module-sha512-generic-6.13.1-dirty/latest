@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.45
-RPROVIDES = kernel-module-sha512-generic
-RDEPENDS = kernel-6.13.1-dirty
-RRECOMMENDS = 
-PKGSIZE = 13500
-FILES = /usr/lib/modules/6.13.1-dirty/kernel/crypto/.debug/sha512_generic.ko /usr/lib/modules/6.13.1-dirty/kernel/crypto/sha512_generic.ko
-FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/crypto/sha512_generic.ko

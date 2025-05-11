@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.45
-RPROVIDES = kernel-module-crypto-null
-RDEPENDS = kernel-6.13.1-dirty
-RRECOMMENDS = 
-PKGSIZE = 9716
-FILES = /usr/lib/modules/6.13.1-dirty/kernel/crypto/.debug/crypto_null.ko /usr/lib/modules/6.13.1-dirty/kernel/crypto/crypto_null.ko
-FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/crypto/crypto_null.ko

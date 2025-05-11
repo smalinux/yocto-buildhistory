@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.45
+PKGR = r0.46
 RPROVIDES = kernel-module-u-ether
-RDEPENDS = kernel-6.13.1-dirty kernel-module-libcomposite-6.13.1-dirty
+RDEPENDS = kernel-6.13.1-dirty
 RRECOMMENDS = 
-PKGSIZE = 20064
+PKGSIZE = 20000
 FILES = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/gadget/function/.debug/u_ether.ko /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/gadget/function/u_ether.ko
 FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/drivers/usb/gadget/function/u_ether.ko

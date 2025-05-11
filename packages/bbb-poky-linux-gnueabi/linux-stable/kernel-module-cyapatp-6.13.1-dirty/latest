@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.45
+PKGR = r0.46
 RPROVIDES = kernel-module-cyapatp
 RDEPENDS = kernel-6.13.1-dirty kernel-module-crc-itu-t-6.13.1-dirty
 RRECOMMENDS = 

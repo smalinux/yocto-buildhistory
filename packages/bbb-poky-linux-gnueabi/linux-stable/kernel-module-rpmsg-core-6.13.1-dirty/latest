@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.45
+PKGR = r0.46
 RPROVIDES = kernel-module-rpmsg-core
 RDEPENDS = kernel-6.13.1-dirty
 RRECOMMENDS = 

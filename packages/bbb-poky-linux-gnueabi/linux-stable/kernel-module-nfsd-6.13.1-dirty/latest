@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.45
-RPROVIDES = kernel-module-nfsd
-RDEPENDS = kernel-6.13.1-dirty
-RRECOMMENDS = 
-PKGSIZE = 763424
-FILES = /usr/lib/modules/6.13.1-dirty/kernel/fs/nfsd/.debug/nfsd.ko /usr/lib/modules/6.13.1-dirty/kernel/fs/nfsd/nfsd.ko
-FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/fs/nfsd/nfsd.ko

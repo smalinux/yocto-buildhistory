@@ -1,8 +1,8 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.45
+PKGR = r0.46
 RPROVIDES = kernel-module-bluetooth
-RDEPENDS = kernel-6.13.1-dirty kernel-module-ecdh-generic-6.13.1-dirty kernel-module-libaes-6.13.1-dirty
+RDEPENDS = kernel-6.13.1-dirty kernel-module-ecdh-generic-6.13.1-dirty
 RRECOMMENDS = 
 PKGSIZE = 627064
 FILES = /usr/lib/modules/6.13.1-dirty/kernel/net/bluetooth/.debug/bluetooth.ko /usr/lib/modules/6.13.1-dirty/kernel/net/bluetooth/bluetooth.ko

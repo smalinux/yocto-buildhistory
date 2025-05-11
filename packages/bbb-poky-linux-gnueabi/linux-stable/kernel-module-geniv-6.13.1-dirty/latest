@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.45
+PKGR = r0.46
 RPROVIDES = kernel-module-geniv
-RDEPENDS = kernel-6.13.1-dirty kernel-module-crypto-null-6.13.1-dirty
+RDEPENDS = kernel-6.13.1-dirty
 RRECOMMENDS = 
-PKGSIZE = 5564
+PKGSIZE = 5500
 FILES = /usr/lib/modules/6.13.1-dirty/kernel/crypto/.debug/geniv.ko /usr/lib/modules/6.13.1-dirty/kernel/crypto/geniv.ko
 FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/crypto/geniv.ko

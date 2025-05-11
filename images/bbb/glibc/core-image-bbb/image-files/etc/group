@@ -47,6 +47,6 @@ systemd-journal:x:994:
 rpcuser:x:995:
 render:x:996:
 sshd:x:997:
-messagebus:x:998:
-rpc:x:999:
+rpc:x:998:
+messagebus:x:999:
 nogroup:x:65534:

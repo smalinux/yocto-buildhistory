@@ -3,5 +3,5 @@ drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/systemd
 drwxr-xr-x root       root             4096 ./usr/lib/systemd/system
 drwxr-xr-x root       root             4096 ./usr/lib/systemd/system-preset
--rw-r--r-- root       root               40 ./usr/lib/systemd/system-preset/98-rauc-grow-data-part.preset
+-rw-r--r-- root       root               41 ./usr/lib/systemd/system-preset/98-rauc-grow-data-part.preset
 -rw-r--r-- root       root              238 ./usr/lib/systemd/system/rauc-grow-data-partition.service

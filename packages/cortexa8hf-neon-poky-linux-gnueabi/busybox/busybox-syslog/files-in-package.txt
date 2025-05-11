@@ -9,4 +9,4 @@ drwxr-xr-x root       root             4096 ./usr/lib/systemd/system
 -rw-r--r-- root       root              120 ./usr/lib/systemd/system/busybox-klogd.service
 -rw-r--r-- root       root              274 ./usr/lib/systemd/system/busybox-syslog.service
 drwxr-xr-x root       root             4096 ./usr/lib/systemd/system-preset
--rw-r--r-- root       root               30 ./usr/lib/systemd/system-preset/98-busybox-syslog.preset
+-rw-r--r-- root       root               31 ./usr/lib/systemd/system-preset/98-busybox-syslog.preset

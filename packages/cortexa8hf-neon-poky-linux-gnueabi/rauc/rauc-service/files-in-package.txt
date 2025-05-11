@@ -5,7 +5,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/systemd/catalog
 -rw-r--r-- root       root             3379 ./usr/lib/systemd/catalog/rauc.catalog
 drwxr-xr-x root       root             4096 ./usr/lib/systemd/system
 drwxr-xr-x root       root             4096 ./usr/lib/systemd/system-preset
--rw-r--r-- root       root               20 ./usr/lib/systemd/system-preset/98-rauc-service.preset
+-rw-r--r-- root       root               21 ./usr/lib/systemd/system-preset/98-rauc-service.preset
 -rw-r--r-- root       root              246 ./usr/lib/systemd/system/rauc.service
 drwxr-xr-x root       root             4096 ./usr/share
 drwxr-xr-x root       root             4096 ./usr/share/dbus-1

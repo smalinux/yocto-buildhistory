@@ -86,7 +86,6 @@
 379	KiB	libglib-2.0-utils
 374	KiB	libnss-systemd2
 371	KiB	libpcre2
-366	KiB	nfs-utils
 349	KiB	caps
 334	KiB	alsa-topology-conf
 329	KiB	kernel-module-mwifiex-6.13.1-dirty
@@ -95,7 +94,6 @@
 306	KiB	e2fsprogs-e2fsck
 303	KiB	lz4
 299	KiB	libpulse0
-298	KiB	libevent-2.1-7
 281	KiB	libflac12
 273	KiB	wayland
 273	KiB	libdbus-1-3
@@ -104,13 +102,11 @@
 247	KiB	python3-ctypes
 244	KiB	python3-crypt
 242	KiB	kernel-module-omapdrm-6.13.1-dirty
-232	KiB	libc6-utils
 230	KiB	libudev1
 221	KiB	python3-debugger
 221	KiB	libsmartcols1
 211	KiB	python3-html
 207	KiB	python3-doctest
-202	KiB	nfs-utils-client
 202	KiB	ca-certificates
 201	KiB	libcrypt2
 198	KiB	usbutils
@@ -151,7 +147,6 @@
 127	KiB	libseccomp
 126	KiB	python3-json
 126	KiB	kmod
-122	KiB	nfs-utils-mount
 121	KiB	python3-sqlite3
 119	KiB	alsa-utils-alsatplg
 117	KiB	libncurses5
@@ -176,7 +171,6 @@
 77	KiB	libxft2
 77	KiB	kernel-module-tpm-6.13.1-dirty
 76	KiB	kernel-module-typec-6.13.1-dirty
-72	KiB	rpcbind
 72	KiB	libpam
 69	KiB	python3-venv
 69	KiB	libkmod2
@@ -237,7 +231,6 @@
 33	KiB	kernel-module-hci-6.13.1-dirty
 31	KiB	python3-mime
 31	KiB	alsa-equal
-30	KiB	libwrap0
 29	KiB	libffi8
 29	KiB	libacl1
 29	KiB	kernel-module-flexcan-6.13.1-dirty

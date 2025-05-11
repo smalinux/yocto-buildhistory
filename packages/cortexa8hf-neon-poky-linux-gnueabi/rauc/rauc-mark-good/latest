@@ -1,9 +1,9 @@
 PV = 1.13
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 363
+PKGSIZE = 364
 FILES = /usr/lib/systemd/system/rauc-mark-good.service /etc/init.d/rauc-mark-good /usr/lib/systemd/system-preset/98-rauc-mark-good.preset /usr/lib/systemd/system/rauc-mark-good.service
 FILELIST = /usr/lib/systemd/system-preset/98-rauc-mark-good.preset /usr/lib/systemd/system/rauc-mark-good.service

@@ -9,7 +9,7 @@ if systemctl >/dev/null 2>/dev/null; then
 		OPTS="--root=$D"
 	fi
 
-	if [ "enable" = "enable" ]; then
+	if [ "disable" = "enable" ]; then
 		for service in avahi-daemon.service; do
 			systemctl ${OPTS} enable "$service"
 		done
@@ -19,7 +19,7 @@ if systemctl >/dev/null 2>/dev/null; then
 		systemctl daemon-reload
 		systemctl preset avahi-daemon.service
 
-		if [ "enable" = "enable" ]; then
+		if [ "disable" = "enable" ]; then
 			systemctl --no-block restart avahi-daemon.service
 		fi
 	fi

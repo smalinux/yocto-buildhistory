@@ -13,7 +13,7 @@ if systemctl >/dev/null 2>/dev/null; then
 		OPTS="--root=$D"
 	fi
 
-	if [ "enable" = "enable" ]; then
+	if [ "disable" = "enable" ]; then
 		for service in nscd.service; do
 			systemctl ${OPTS} enable "$service"
 		done
@@ -23,7 +23,7 @@ if systemctl >/dev/null 2>/dev/null; then
 		systemctl daemon-reload
 		systemctl preset nscd.service
 
-		if [ "enable" = "enable" ]; then
+		if [ "disable" = "enable" ]; then
 			systemctl --no-block restart nscd.service
 		fi
 	fi

@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.47
+RPROVIDES = kernel-module-libdes
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 19620
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/lib/crypto/.debug/libdes.ko /usr/lib/modules/6.13.1-dirty/kernel/lib/crypto/libdes.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/lib/crypto/libdes.ko

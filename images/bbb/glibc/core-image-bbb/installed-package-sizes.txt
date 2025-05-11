@@ -1,7 +1,7 @@
 13535	KiB	python3-pip
 12206	KiB	libgtk-3.0
-9709	KiB	kernel-image-zimage-6.13.1-dirty
 8960	KiB	python3-core
+8317	KiB	kernel-image-zimage-6.13.1-dirty
 8253	KiB	udev-hwdb
 6695	KiB	systemd
 4834	KiB	libpython3.12-1.0
@@ -17,6 +17,7 @@
 1954	KiB	libstdc++6
 1794	KiB	python3-ensurepip
 1677	KiB	libunistring5
+1618	KiB	shadow
 1533	KiB	python3-pydoc
 1481	KiB	openssh-sshd
 1461	KiB	vim-tiny
@@ -126,10 +127,10 @@
 165	KiB	shadow-base
 165	KiB	libncursesw5
 162	KiB	kernel-module-dsa-core-6.13.1-dirty
-162	KiB	kernel-6.13.1-dirty
 159	KiB	libopkg1
 155	KiB	python3-difflib
 153	KiB	liblzma5
+150	KiB	kernel-6.13.1-dirty
 149	KiB	libnghttp2-14
 147	KiB	python3-profile
 147	KiB	alsa-conf
@@ -230,6 +231,7 @@
 33	KiB	kernel-module-hci-6.13.1-dirty
 31	KiB	python3-mime
 31	KiB	alsa-equal
+30	KiB	kernel-module-aes-generic-6.13.1-dirty
 29	KiB	libffi8
 29	KiB	libacl1
 29	KiB	kernel-module-flexcan-6.13.1-dirty
@@ -284,6 +286,7 @@
 19	KiB	kernel-module-sii902x-6.13.1-dirty
 19	KiB	kernel-module-pci-epf-test-6.13.1-dirty
 19	KiB	kernel-module-max17042-battery-6.13.1-dirty
+19	KiB	kernel-module-libdes-6.13.1-dirty
 19	KiB	kernel-module-esp6-6.13.1-dirty
 19	KiB	kernel-module-btmrvl-6.13.1-dirty
 19	KiB	kernel-module-btbcm-6.13.1-dirty
@@ -296,6 +299,7 @@
 18	KiB	kernel-module-u-serial-6.13.1-dirty
 18	KiB	kernel-module-rt2x00usb-6.13.1-dirty
 18	KiB	kernel-module-musb-dsps-6.13.1-dirty
+18	KiB	kernel-module-gcm-6.13.1-dirty
 18	KiB	kernel-module-fsi-sbefifo-6.13.1-dirty
 18	KiB	kernel-module-aes-arm-ce-6.13.1-dirty
 18	KiB	kernel-module-aes-arm-bs-6.13.1-dirty
@@ -321,6 +325,7 @@
 16	KiB	kernel-module-rtc-pcf85063-6.13.1-dirty
 16	KiB	kernel-module-crypto-engine-6.13.1-dirty
 16	KiB	kernel-module-cppi41-6.13.1-dirty
+16	KiB	kernel-module-ccm-6.13.1-dirty
 15	KiB	kernel-module-st-accel-6.13.1-dirty
 15	KiB	kernel-module-snd-soc-hdmi-codec-6.13.1-dirty
 15	KiB	kernel-module-phy-twl4030-usb-6.13.1-dirty
@@ -346,6 +351,7 @@
 13	KiB	libasound-module-ctl-oss
 13	KiB	kernel-module-tpm-i2c-infineon-6.13.1-dirty
 13	KiB	kernel-module-stusb160x-6.13.1-dirty
+13	KiB	kernel-module-sha512-generic-6.13.1-dirty
 13	KiB	kernel-module-rpmsg-char-6.13.1-dirty
 13	KiB	kernel-module-leds-pca9532-6.13.1-dirty
 13	KiB	kernel-module-fsi-occ-6.13.1-dirty
@@ -380,6 +386,7 @@
 11	KiB	kernel-module-microchip-6.13.1-dirty
 11	KiB	kernel-module-led-class-flash-6.13.1-dirty
 11	KiB	kernel-module-i2c-algo-bit-6.13.1-dirty
+11	KiB	kernel-module-gf128mul-6.13.1-dirty
 11	KiB	kernel-module-fsl-mph-dr-of-6.13.1-dirty
 11	KiB	kernel-module-crypto-user-6.13.1-dirty
 11	KiB	kernel-module-b53-mmap-6.13.1-dirty
@@ -425,6 +432,7 @@
 9	KiB	kernel-module-resistive-adc-touch-6.13.1-dirty
 9	KiB	kernel-module-pwm-tiecap-6.13.1-dirty
 9	KiB	kernel-module-phy-exynos-usb2-6.13.1-dirty
+9	KiB	kernel-module-md5-6.13.1-dirty
 9	KiB	kernel-module-lvds-codec-6.13.1-dirty
 9	KiB	kernel-module-lan966x-serdes-6.13.1-dirty
 9	KiB	kernel-module-i2c-gpio-6.13.1-dirty
@@ -448,9 +456,11 @@
 8	KiB	kernel-module-phy-dm816x-usb-6.13.1-dirty
 8	KiB	kernel-module-phy-am335x-control-6.13.1-dirty
 8	KiB	kernel-module-panel-lvds-6.13.1-dirty
+8	KiB	kernel-module-libaes-6.13.1-dirty
 8	KiB	kernel-module-ipcomp6-6.13.1-dirty
 8	KiB	kernel-module-i2c-arb-gpio-challenge-6.13.1-dirty
 8	KiB	kernel-module-ff-memless-6.13.1-dirty
+8	KiB	kernel-module-ctr-6.13.1-dirty
 8	KiB	kernel-module-aes-arm-6.13.1-dirty
 7	KiB	kernel-module-ti-tpd12s015-6.13.1-dirty
 7	KiB	kernel-module-tag-brcm-6.13.1-dirty
@@ -460,22 +470,26 @@
 7	KiB	kernel-module-r8153-ecm-6.13.1-dirty
 7	KiB	kernel-module-phy-am335x-6.13.1-dirty
 7	KiB	kernel-module-mdio-i2c-6.13.1-dirty
+7	KiB	kernel-module-hmac-6.13.1-dirty
 7	KiB	kernel-module-gpio-decoder-6.13.1-dirty
 7	KiB	kernel-module-fsi-master-hub-6.13.1-dirty
+7	KiB	kernel-module-cmac-6.13.1-dirty
 7	KiB	kernel-module-b53-serdes-6.13.1-dirty
 7	KiB	kernel-module-algif-rng-6.13.1-dirty
 7	KiB	kernel-module-adxl34x-i2c-6.13.1-dirty
+6	KiB	update-rc.d
 6	KiB	kernel-module-tag-rzn1-a5psw-6.13.1-dirty
 6	KiB	kernel-module-seqiv-6.13.1-dirty
 6	KiB	kernel-module-qrtr-smd-6.13.1-dirty
 6	KiB	kernel-module-nci-spi-6.13.1-dirty
 6	KiB	kernel-module-industrialio-hw-consumer-6.13.1-dirty
 6	KiB	kernel-module-industrialio-buffer-cb-6.13.1-dirty
+6	KiB	kernel-module-ghash-generic-6.13.1-dirty
 6	KiB	kernel-module-echainiv-6.13.1-dirty
 6	KiB	kernel-module-des-generic-6.13.1-dirty
 6	KiB	kernel-module-cpufreq-userspace-6.13.1-dirty
 6	KiB	kernel-module-adxl34x-spi-6.13.1-dirty
-5	KiB	volatile-binds
+5	KiB	update-alternatives-opkg
 5	KiB	rauc-conf
 5	KiB	pam-plugin-warn
 5	KiB	pam-plugin-permit
@@ -488,6 +502,7 @@
 5	KiB	kernel-module-brcmfmac-cyw-6.13.1-dirty
 5	KiB	kernel-module-brcmfmac-bca-6.13.1-dirty
 5	KiB	hello
+4	KiB	volatile-binds
 4	KiB	rauc-service
 4	KiB	kernel-module-st-sensors-i2c-6.13.1-dirty
 4	KiB	kernel-module-crc-itu-t-6.13.1-dirty
@@ -514,6 +529,7 @@
 0	KiB	openssh
 0	KiB	kernel-modules
 0	KiB	kernel-image-6.13.1-dirty
+0	KiB	base-passwd
 0	KiB	alsa-utils
 0	KiB	alsa-states
 0	KiB	alsa-state

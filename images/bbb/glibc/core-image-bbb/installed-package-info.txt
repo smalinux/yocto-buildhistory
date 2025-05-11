@@ -1,7 +1,7 @@
 python3-pip python3-pip python3-pip 24.0 13535
 libgtk-3.0 gtk+3 gtk+3 3.24.41 12206
-kernel-image-zimage-6.13.1-dirty kernel-image-zimage linux-stable 6.13.1 9709
 python3-core python3-core python3 3.12.6 8960
+kernel-image-zimage-6.13.1-dirty kernel-image-zimage linux-stable 6.13.1 8317
 udev-hwdb udev-hwdb systemd 255.4 8253
 systemd systemd systemd 255.4 6695
 libpython3.12-1.0 libpython3 python3 3.12.6 4834
@@ -17,6 +17,7 @@ libc6 glibc glibc 2.39+git 2008
 libstdc++6 libstdc++ gcc-runtime 13.3.0 1954
 python3-ensurepip python3-ensurepip python3 3.12.6 1794
 libunistring5 libunistring libunistring 1.2 1677
+shadow shadow shadow 4.14.2 1618
 python3-pydoc python3-pydoc python3 3.12.6 1533
 openssh-sshd openssh-sshd openssh 9.6p1 1481
 vim-tiny vim-tiny vim-tiny 9.1.0698 1461
@@ -126,10 +127,10 @@ kernel-module-musb-hdrc-6.13.1-dirty kernel-module-musb-hdrc-6.13.1-dirty linux-
 shadow-base shadow-base shadow 4.14.2 165
 libncursesw5 ncurses-libncursesw ncurses 6.4 165
 kernel-module-dsa-core-6.13.1-dirty kernel-module-dsa-core-6.13.1-dirty linux-stable 6.13.1 162
-kernel-6.13.1-dirty kernel-base linux-stable 6.13.1 162
 libopkg1 libopkg opkg 0.6.3 159
 python3-difflib python3-difflib python3 3.12.6 155
 liblzma5 liblzma xz 5.4.6 153
+kernel-6.13.1-dirty kernel-base linux-stable 6.13.1 150
 libnghttp2-14 libnghttp2 nghttp2 1.61.0 149
 python3-profile python3-profile python3 3.12.6 147
 alsa-conf alsa-conf alsa-lib 1.2.11 147
@@ -230,6 +231,7 @@ libxcursor1 libxcursor libxcursor 1.2.2 33
 kernel-module-hci-6.13.1-dirty kernel-module-hci-6.13.1-dirty linux-stable 6.13.1 33
 python3-mime python3-mime python3 3.12.6 31
 alsa-equal alsa-equal alsa-equal 0.6 31
+kernel-module-aes-generic-6.13.1-dirty kernel-module-aes-generic-6.13.1-dirty linux-stable 6.13.1 30
 libffi8 libffi libffi 3.4.6 29
 libacl1 libacl acl 2.3.2 29
 kernel-module-flexcan-6.13.1-dirty kernel-module-flexcan-6.13.1-dirty linux-stable 6.13.1 29
@@ -284,6 +286,7 @@ kernel-module-sii9234-6.13.1-dirty kernel-module-sii9234-6.13.1-dirty linux-stab
 kernel-module-sii902x-6.13.1-dirty kernel-module-sii902x-6.13.1-dirty linux-stable 6.13.1 19
 kernel-module-pci-epf-test-6.13.1-dirty kernel-module-pci-epf-test-6.13.1-dirty linux-stable 6.13.1 19
 kernel-module-max17042-battery-6.13.1-dirty kernel-module-max17042-battery-6.13.1-dirty linux-stable 6.13.1 19
+kernel-module-libdes-6.13.1-dirty kernel-module-libdes-6.13.1-dirty linux-stable 6.13.1 19
 kernel-module-esp6-6.13.1-dirty kernel-module-esp6-6.13.1-dirty linux-stable 6.13.1 19
 kernel-module-btmrvl-6.13.1-dirty kernel-module-btmrvl-6.13.1-dirty linux-stable 6.13.1 19
 kernel-module-btbcm-6.13.1-dirty kernel-module-btbcm-6.13.1-dirty linux-stable 6.13.1 19
@@ -296,6 +299,7 @@ libasound-module-ctl-arcam-av libasound-module-ctl-arcam-av alsa-plugins 1.2.7.1
 kernel-module-u-serial-6.13.1-dirty kernel-module-u-serial-6.13.1-dirty linux-stable 6.13.1 18
 kernel-module-rt2x00usb-6.13.1-dirty kernel-module-rt2x00usb-6.13.1-dirty linux-stable 6.13.1 18
 kernel-module-musb-dsps-6.13.1-dirty kernel-module-musb-dsps-6.13.1-dirty linux-stable 6.13.1 18
+kernel-module-gcm-6.13.1-dirty kernel-module-gcm-6.13.1-dirty linux-stable 6.13.1 18
 kernel-module-fsi-sbefifo-6.13.1-dirty kernel-module-fsi-sbefifo-6.13.1-dirty linux-stable 6.13.1 18
 kernel-module-aes-arm-ce-6.13.1-dirty kernel-module-aes-arm-ce-6.13.1-dirty linux-stable 6.13.1 18
 kernel-module-aes-arm-bs-6.13.1-dirty kernel-module-aes-arm-bs-6.13.1-dirty linux-stable 6.13.1 18
@@ -321,6 +325,7 @@ kernel-module-vf610-adc-6.13.1-dirty kernel-module-vf610-adc-6.13.1-dirty linux-
 kernel-module-rtc-pcf85063-6.13.1-dirty kernel-module-rtc-pcf85063-6.13.1-dirty linux-stable 6.13.1 16
 kernel-module-crypto-engine-6.13.1-dirty kernel-module-crypto-engine-6.13.1-dirty linux-stable 6.13.1 16
 kernel-module-cppi41-6.13.1-dirty kernel-module-cppi41-6.13.1-dirty linux-stable 6.13.1 16
+kernel-module-ccm-6.13.1-dirty kernel-module-ccm-6.13.1-dirty linux-stable 6.13.1 16
 kernel-module-st-accel-6.13.1-dirty kernel-module-st-accel-6.13.1-dirty linux-stable 6.13.1 15
 kernel-module-snd-soc-hdmi-codec-6.13.1-dirty kernel-module-snd-soc-hdmi-codec-6.13.1-dirty linux-stable 6.13.1 15
 kernel-module-phy-twl4030-usb-6.13.1-dirty kernel-module-phy-twl4030-usb-6.13.1-dirty linux-stable 6.13.1 15
@@ -346,6 +351,7 @@ systemd-udev-rules systemd-udev-rules systemd 255.4 13
 libasound-module-ctl-oss libasound-module-ctl-oss alsa-plugins 1.2.7.1 13
 kernel-module-tpm-i2c-infineon-6.13.1-dirty kernel-module-tpm-i2c-infineon-6.13.1-dirty linux-stable 6.13.1 13
 kernel-module-stusb160x-6.13.1-dirty kernel-module-stusb160x-6.13.1-dirty linux-stable 6.13.1 13
+kernel-module-sha512-generic-6.13.1-dirty kernel-module-sha512-generic-6.13.1-dirty linux-stable 6.13.1 13
 kernel-module-rpmsg-char-6.13.1-dirty kernel-module-rpmsg-char-6.13.1-dirty linux-stable 6.13.1 13
 kernel-module-leds-pca9532-6.13.1-dirty kernel-module-leds-pca9532-6.13.1-dirty linux-stable 6.13.1 13
 kernel-module-fsi-occ-6.13.1-dirty kernel-module-fsi-occ-6.13.1-dirty linux-stable 6.13.1 13
@@ -380,6 +386,7 @@ kernel-module-parade-ps8622-6.13.1-dirty kernel-module-parade-ps8622-6.13.1-dirt
 kernel-module-microchip-6.13.1-dirty kernel-module-microchip-6.13.1-dirty linux-stable 6.13.1 11
 kernel-module-led-class-flash-6.13.1-dirty kernel-module-led-class-flash-6.13.1-dirty linux-stable 6.13.1 11
 kernel-module-i2c-algo-bit-6.13.1-dirty kernel-module-i2c-algo-bit-6.13.1-dirty linux-stable 6.13.1 11
+kernel-module-gf128mul-6.13.1-dirty kernel-module-gf128mul-6.13.1-dirty linux-stable 6.13.1 11
 kernel-module-fsl-mph-dr-of-6.13.1-dirty kernel-module-fsl-mph-dr-of-6.13.1-dirty linux-stable 6.13.1 11
 kernel-module-crypto-user-6.13.1-dirty kernel-module-crypto-user-6.13.1-dirty linux-stable 6.13.1 11
 kernel-module-b53-mmap-6.13.1-dirty kernel-module-b53-mmap-6.13.1-dirty linux-stable 6.13.1 11
@@ -425,6 +432,7 @@ kernel-module-rtc-efi-6.13.1-dirty kernel-module-rtc-efi-6.13.1-dirty linux-stab
 kernel-module-resistive-adc-touch-6.13.1-dirty kernel-module-resistive-adc-touch-6.13.1-dirty linux-stable 6.13.1 9
 kernel-module-pwm-tiecap-6.13.1-dirty kernel-module-pwm-tiecap-6.13.1-dirty linux-stable 6.13.1 9
 kernel-module-phy-exynos-usb2-6.13.1-dirty kernel-module-phy-exynos-usb2-6.13.1-dirty linux-stable 6.13.1 9
+kernel-module-md5-6.13.1-dirty kernel-module-md5-6.13.1-dirty linux-stable 6.13.1 9
 kernel-module-lvds-codec-6.13.1-dirty kernel-module-lvds-codec-6.13.1-dirty linux-stable 6.13.1 9
 kernel-module-lan966x-serdes-6.13.1-dirty kernel-module-lan966x-serdes-6.13.1-dirty linux-stable 6.13.1 9
 kernel-module-i2c-gpio-6.13.1-dirty kernel-module-i2c-gpio-6.13.1-dirty linux-stable 6.13.1 9
@@ -448,9 +456,11 @@ kernel-module-qt1070-6.13.1-dirty kernel-module-qt1070-6.13.1-dirty linux-stable
 kernel-module-phy-dm816x-usb-6.13.1-dirty kernel-module-phy-dm816x-usb-6.13.1-dirty linux-stable 6.13.1 8
 kernel-module-phy-am335x-control-6.13.1-dirty kernel-module-phy-am335x-control-6.13.1-dirty linux-stable 6.13.1 8
 kernel-module-panel-lvds-6.13.1-dirty kernel-module-panel-lvds-6.13.1-dirty linux-stable 6.13.1 8
+kernel-module-libaes-6.13.1-dirty kernel-module-libaes-6.13.1-dirty linux-stable 6.13.1 8
 kernel-module-ipcomp6-6.13.1-dirty kernel-module-ipcomp6-6.13.1-dirty linux-stable 6.13.1 8
 kernel-module-i2c-arb-gpio-challenge-6.13.1-dirty kernel-module-i2c-arb-gpio-challenge-6.13.1-dirty linux-stable 6.13.1 8
 kernel-module-ff-memless-6.13.1-dirty kernel-module-ff-memless-6.13.1-dirty linux-stable 6.13.1 8
+kernel-module-ctr-6.13.1-dirty kernel-module-ctr-6.13.1-dirty linux-stable 6.13.1 8
 kernel-module-aes-arm-6.13.1-dirty kernel-module-aes-arm-6.13.1-dirty linux-stable 6.13.1 8
 kernel-module-ti-tpd12s015-6.13.1-dirty kernel-module-ti-tpd12s015-6.13.1-dirty linux-stable 6.13.1 7
 kernel-module-tag-brcm-6.13.1-dirty kernel-module-tag-brcm-6.13.1-dirty linux-stable 6.13.1 7
@@ -460,22 +470,26 @@ kernel-module-reset-ti-syscon-6.13.1-dirty kernel-module-reset-ti-syscon-6.13.1-
 kernel-module-r8153-ecm-6.13.1-dirty kernel-module-r8153-ecm-6.13.1-dirty linux-stable 6.13.1 7
 kernel-module-phy-am335x-6.13.1-dirty kernel-module-phy-am335x-6.13.1-dirty linux-stable 6.13.1 7
 kernel-module-mdio-i2c-6.13.1-dirty kernel-module-mdio-i2c-6.13.1-dirty linux-stable 6.13.1 7
+kernel-module-hmac-6.13.1-dirty kernel-module-hmac-6.13.1-dirty linux-stable 6.13.1 7
 kernel-module-gpio-decoder-6.13.1-dirty kernel-module-gpio-decoder-6.13.1-dirty linux-stable 6.13.1 7
 kernel-module-fsi-master-hub-6.13.1-dirty kernel-module-fsi-master-hub-6.13.1-dirty linux-stable 6.13.1 7
+kernel-module-cmac-6.13.1-dirty kernel-module-cmac-6.13.1-dirty linux-stable 6.13.1 7
 kernel-module-b53-serdes-6.13.1-dirty kernel-module-b53-serdes-6.13.1-dirty linux-stable 6.13.1 7
 kernel-module-algif-rng-6.13.1-dirty kernel-module-algif-rng-6.13.1-dirty linux-stable 6.13.1 7
 kernel-module-adxl34x-i2c-6.13.1-dirty kernel-module-adxl34x-i2c-6.13.1-dirty linux-stable 6.13.1 7
+update-rc.d update-rc.d update-rc.d 0.8+git 6
 kernel-module-tag-rzn1-a5psw-6.13.1-dirty kernel-module-tag-rzn1-a5psw-6.13.1-dirty linux-stable 6.13.1 6
 kernel-module-seqiv-6.13.1-dirty kernel-module-seqiv-6.13.1-dirty linux-stable 6.13.1 6
 kernel-module-qrtr-smd-6.13.1-dirty kernel-module-qrtr-smd-6.13.1-dirty linux-stable 6.13.1 6
 kernel-module-nci-spi-6.13.1-dirty kernel-module-nci-spi-6.13.1-dirty linux-stable 6.13.1 6
 kernel-module-industrialio-hw-consumer-6.13.1-dirty kernel-module-industrialio-hw-consumer-6.13.1-dirty linux-stable 6.13.1 6
 kernel-module-industrialio-buffer-cb-6.13.1-dirty kernel-module-industrialio-buffer-cb-6.13.1-dirty linux-stable 6.13.1 6
+kernel-module-ghash-generic-6.13.1-dirty kernel-module-ghash-generic-6.13.1-dirty linux-stable 6.13.1 6
 kernel-module-echainiv-6.13.1-dirty kernel-module-echainiv-6.13.1-dirty linux-stable 6.13.1 6
 kernel-module-des-generic-6.13.1-dirty kernel-module-des-generic-6.13.1-dirty linux-stable 6.13.1 6
 kernel-module-cpufreq-userspace-6.13.1-dirty kernel-module-cpufreq-userspace-6.13.1-dirty linux-stable 6.13.1 6
 kernel-module-adxl34x-spi-6.13.1-dirty kernel-module-adxl34x-spi-6.13.1-dirty linux-stable 6.13.1 6
-volatile-binds volatile-binds volatile-binds 1.0 5
+update-alternatives-opkg update-alternatives-opkg opkg-utils 0.6.3 5
 rauc-conf rauc-conf rauc-conf 1.0 5
 pam-plugin-warn pam-plugin-warn libpam 1.5.3 5
 pam-plugin-permit pam-plugin-permit libpam 1.5.3 5
@@ -488,6 +502,7 @@ kernel-module-brcmfmac-wcc-6.13.1-dirty kernel-module-brcmfmac-wcc-6.13.1-dirty 
 kernel-module-brcmfmac-cyw-6.13.1-dirty kernel-module-brcmfmac-cyw-6.13.1-dirty linux-stable 6.13.1 5
 kernel-module-brcmfmac-bca-6.13.1-dirty kernel-module-brcmfmac-bca-6.13.1-dirty linux-stable 6.13.1 5
 hello hello hello 1.0 5
+volatile-binds volatile-binds volatile-binds 1.0 4
 rauc-service rauc-service rauc 1.13 4
 kernel-module-st-sensors-i2c-6.13.1-dirty kernel-module-st-sensors-i2c-6.13.1-dirty linux-stable 6.13.1 4
 kernel-module-crc-itu-t-6.13.1-dirty kernel-module-crc-itu-t-6.13.1-dirty linux-stable 6.13.1 4
@@ -514,6 +529,7 @@ opkg-arch-config opkg-arch-config opkg-arch-config 1.0 0
 openssh openssh openssh 9.6p1 0
 kernel-modules kernel-modules linux-stable 6.13.1 0
 kernel-image-6.13.1-dirty kernel-image linux-stable 6.13.1 0
+base-passwd base-passwd base-passwd 3.6.3 0
 alsa-utils alsa-utils alsa-utils 1.2.11 0
 alsa-states alsa-states alsa-state 0.2.0 0
 alsa-state alsa-state alsa-state 0.2.0 0

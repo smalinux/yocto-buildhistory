@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.47
+RPROVIDES = kernel-module-gf128mul
+RDEPENDS = kernel-6.13.1-dirty
+RRECOMMENDS = 
+PKGSIZE = 10784
+FILES = /usr/lib/modules/6.13.1-dirty/kernel/lib/crypto/.debug/gf128mul.ko /usr/lib/modules/6.13.1-dirty/kernel/lib/crypto/gf128mul.ko
+FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/lib/crypto/gf128mul.ko

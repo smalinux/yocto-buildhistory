@@ -2,8 +2,8 @@
 set -e
 if systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop var-volatile-lib.service var-volatile-lock.service var-volatile-log.service var-volatile-run.service var-volatile-tmp.service
+		systemctl stop var-volatile-lib.service var-volatile-cache.service var-volatile-spool.service var-volatile-srv.service
 
-		systemctl disable var-volatile-lib.service var-volatile-lock.service var-volatile-log.service var-volatile-run.service var-volatile-tmp.service
+		systemctl disable var-volatile-lib.service var-volatile-cache.service var-volatile-spool.service var-volatile-srv.service
 	fi
 fi

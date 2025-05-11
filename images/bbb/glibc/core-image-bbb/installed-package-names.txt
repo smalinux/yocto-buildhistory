@@ -25,6 +25,7 @@ alsa-utils-scripts
 alsa-utils-speakertest
 at-spi2-core
 base-files
+base-passwd
 bash
 busybox
 busybox-syslog
@@ -55,6 +56,7 @@ kernel-module-adxl34x-spi-6.13.1-dirty
 kernel-module-aes-arm-6.13.1-dirty
 kernel-module-aes-arm-bs-6.13.1-dirty
 kernel-module-aes-arm-ce-6.13.1-dirty
+kernel-module-aes-generic-6.13.1-dirty
 kernel-module-af-alg-6.13.1-dirty
 kernel-module-ah6-6.13.1-dirty
 kernel-module-algif-aead-6.13.1-dirty
@@ -85,10 +87,12 @@ kernel-module-btmrvl-sdio-6.13.1-dirty
 kernel-module-capsule-loader-6.13.1-dirty
 kernel-module-c-can-6.13.1-dirty
 kernel-module-c-can-platform-6.13.1-dirty
+kernel-module-ccm-6.13.1-dirty
 kernel-module-cec-6.13.1-dirty
 kernel-module-cfg80211-6.13.1-dirty
 kernel-module-chacha-neon-6.13.1-dirty
 kernel-module-cm36651-6.13.1-dirty
+kernel-module-cmac-6.13.1-dirty
 kernel-module-counter-6.13.1-dirty
 kernel-module-cppi41-6.13.1-dirty
 kernel-module-cpufreq-conservative-6.13.1-dirty
@@ -102,6 +106,7 @@ kernel-module-cryptd-6.13.1-dirty
 kernel-module-crypto-engine-6.13.1-dirty
 kernel-module-crypto-simd-6.13.1-dirty
 kernel-module-crypto-user-6.13.1-dirty
+kernel-module-ctr-6.13.1-dirty
 kernel-module-cyapatp-6.13.1-dirty
 kernel-module-des-generic-6.13.1-dirty
 kernel-module-display-connector-6.13.1-dirty
@@ -126,14 +131,18 @@ kernel-module-fsi-occ-6.13.1-dirty
 kernel-module-fsi-sbefifo-6.13.1-dirty
 kernel-module-fsi-scom-6.13.1-dirty
 kernel-module-fsl-mph-dr-of-6.13.1-dirty
+kernel-module-gcm-6.13.1-dirty
 kernel-module-geniv-6.13.1-dirty
 kernel-module-g-ether-6.13.1-dirty
+kernel-module-gf128mul-6.13.1-dirty
 kernel-module-ghash-arm-ce-6.13.1-dirty
+kernel-module-ghash-generic-6.13.1-dirty
 kernel-module-governor-passive-6.13.1-dirty
 kernel-module-gpio-charger-6.13.1-dirty
 kernel-module-gpio-decoder-6.13.1-dirty
 kernel-module-hci-6.13.1-dirty
 kernel-module-hci-uart-6.13.1-dirty
+kernel-module-hmac-6.13.1-dirty
 kernel-module-i2c-algo-bit-6.13.1-dirty
 kernel-module-i2c-arb-gpio-challenge-6.13.1-dirty
 kernel-module-i2c-emev2-6.13.1-dirty
@@ -148,12 +157,15 @@ kernel-module-lan78xx-6.13.1-dirty
 kernel-module-lan966x-serdes-6.13.1-dirty
 kernel-module-led-class-flash-6.13.1-dirty
 kernel-module-leds-pca9532-6.13.1-dirty
+kernel-module-libaes-6.13.1-dirty
 kernel-module-libarc4-6.13.1-dirty
+kernel-module-libdes-6.13.1-dirty
 kernel-module-lvds-codec-6.13.1-dirty
 kernel-module-mac80211-6.13.1-dirty
 kernel-module-max17040-battery-6.13.1-dirty
 kernel-module-max17042-battery-6.13.1-dirty
 kernel-module-max8952-6.13.1-dirty
+kernel-module-md5-6.13.1-dirty
 kernel-module-mdio-i2c-6.13.1-dirty
 kernel-module-mdio-mscc-miim-6.13.1-dirty
 kernel-module-microchip-6.13.1-dirty
@@ -225,6 +237,7 @@ kernel-module-sha256-arm-6.13.1-dirty
 kernel-module-sha2-arm-ce-6.13.1-dirty
 kernel-module-sha3-generic-6.13.1-dirty
 kernel-module-sha512-arm-6.13.1-dirty
+kernel-module-sha512-generic-6.13.1-dirty
 kernel-module-sii902x-6.13.1-dirty
 kernel-module-sii9234-6.13.1-dirty
 kernel-module-simple-bridge-6.13.1-dirty
@@ -492,6 +505,7 @@ rauc
 rauc-service
 shadow-base
 shadow-securetty
+shadow
 shared-mime-info
 squashfs-tools
 systemd-compat-units
@@ -504,6 +518,8 @@ systemd-vconsole-setup
 u-boot-env
 udev-hwdb
 udev
+update-alternatives-opkg
+update-rc.d
 usbutils
 util-linux-agetty
 util-linux-fcntl-lock

@@ -27,6 +27,7 @@ at-spi2-core
 base-files
 base-passwd
 bash
+bc
 busybox
 busybox-syslog
 busybox-udhcpc
@@ -374,6 +375,7 @@ libpng16-16
 libpulse0
 libpulsecommon
 libpython3.12-1.0
+libreadline8
 libsamplerate0
 libseccomp
 libsmartcols1

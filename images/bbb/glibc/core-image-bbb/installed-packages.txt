@@ -27,6 +27,7 @@ at-spi2-core_2.50.1-r0.0_cortexa8hf-neon.ipk
 base-files_3.0.14-r0.12_bbb.ipk
 base-passwd_3.6.3-r0.6_cortexa8hf-neon.ipk
 bash_5.2.21-r0.5_cortexa8hf-neon.ipk
+bc_1.07.1-r0.5_cortexa8hf-neon.ipk
 busybox_1.36.1-r0.8_cortexa8hf-neon.ipk
 busybox-syslog_1.36.1-r0.8_cortexa8hf-neon.ipk
 busybox-udhcpc_1.36.1-r0.8_cortexa8hf-neon.ipk
@@ -374,6 +375,7 @@ libpng16-16_1.6.42-r0.5_cortexa8hf-neon.ipk
 libpulse0_17.0-r0.0_cortexa8hf-neon.ipk
 libpulsecommon_17.0-r0.0_cortexa8hf-neon.ipk
 libpython3.12-1.0_3.12.6-r0.3_cortexa8hf-neon.ipk
+libreadline8_8.2-r0.5_cortexa8hf-neon.ipk
 libsamplerate0_0.2.2-r0.0_cortexa8hf-neon.ipk
 libseccomp_2.5.5-r0.5_cortexa8hf-neon.ipk
 libsmartcols1_2.39.3-r0.5_cortexa8hf-neon.ipk

@@ -68,7 +68,6 @@ digraph depends {
 "at-spi2-core" -> "libxtst6"
 "bash" -> "base-files"
 "bash" -> "libtinfo5"
-"bc" -> "libreadline8"
 "busybox" -> "busybox-udhcpc" [style=dotted]
 "busybox-syslog" -> "busybox"
 "ca-certificates" -> "openssl"
@@ -876,7 +875,6 @@ digraph depends {
 "libpulsecommon" -> "libsndfile1"
 "libpulsecommon" -> "libsystemd0"
 "libpulsecommon" -> "libxcb1"
-"libreadline8" -> "libtinfo5"
 "libsndfile1" -> "libflac12"
 "libsndfile1" -> "libogg0"
 "libsndfile1" -> "libvorbis"

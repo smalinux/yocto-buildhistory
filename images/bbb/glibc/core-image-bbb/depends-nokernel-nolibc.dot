@@ -69,8 +69,6 @@ digraph depends {
 "bash" -> "base-files"
 "bash" -> "libtinfo5"
 "bash" -> "update-alternatives-opkg"
-"bc" -> "libreadline8"
-"bc" -> "update-alternatives-opkg"
 "busybox" -> "busybox-udhcpc" [style=dotted]
 "busybox-syslog" -> "busybox"
 "busybox-syslog" -> "update-alternatives-opkg"
@@ -883,7 +881,6 @@ digraph depends {
 "libpulsecommon" -> "libsndfile1"
 "libpulsecommon" -> "libsystemd0"
 "libpulsecommon" -> "libxcb1"
-"libreadline8" -> "libtinfo5"
 "libsndfile1" -> "libflac12"
 "libsndfile1" -> "libogg0"
 "libsndfile1" -> "libvorbis"

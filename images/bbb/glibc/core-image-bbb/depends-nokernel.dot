@@ -88,9 +88,6 @@ digraph depends {
 "bash" -> "libc6"
 "bash" -> "libtinfo5"
 "bash" -> "update-alternatives-opkg"
-"bc" -> "libc6"
-"bc" -> "libreadline8"
-"bc" -> "update-alternatives-opkg"
 "busybox" -> "busybox-udhcpc" [style=dotted]
 "busybox" -> "libc6"
 "busybox-syslog" -> "busybox"
@@ -991,8 +988,6 @@ digraph depends {
 "libpulsecommon" -> "libxcb1"
 "libpython3.12-1.0" -> "libc6"
 "libpython3.12-1.0" -> "libgcc1" [label="libgcc"] [style=dashed]
-"libreadline8" -> "libc6"
-"libreadline8" -> "libtinfo5"
 "libsamplerate0" -> "libc6"
 "libseccomp" -> "libc6"
 "libsmartcols1" -> "libc6"

@@ -90,7 +90,6 @@
 334	KiB	alsa-topology-conf
 329	KiB	kernel-module-mwifiex-6.13.1-dirty
 318	KiB	libblkid1
-307	KiB	libreadline8
 307	KiB	kernel-module-brcmfmac-6.13.1-dirty
 306	KiB	e2fsprogs-e2fsck
 303	KiB	lz4
@@ -148,7 +147,6 @@
 127	KiB	libseccomp
 126	KiB	python3-json
 126	KiB	kmod
-123	KiB	bc
 121	KiB	python3-sqlite3
 119	KiB	alsa-utils-alsatplg
 117	KiB	libncurses5

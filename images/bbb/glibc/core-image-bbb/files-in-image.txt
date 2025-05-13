@@ -11373,7 +11373,7 @@ drwxr-xr-x root       root           118784 ./var/lib/opkg/info
 -rw-r--r-- root       root              265 ./var/lib/opkg/info/systemd-udev-rules.list
 -rw-r--r-- root       root              996 ./var/lib/opkg/info/systemd-vconsole-setup.control
 -rw-r--r-- root       root              194 ./var/lib/opkg/info/systemd-vconsole-setup.list
--rw-r--r-- root       root              585 ./var/lib/opkg/info/u-boot-env.control
+-rw-r--r-- root       root              586 ./var/lib/opkg/info/u-boot-env.control
 -rw-r--r-- root       root              222 ./var/lib/opkg/info/u-boot-env.list
 -rw-r--r-- root       root             1034 ./var/lib/opkg/info/udev.control
 -rw-r--r-- root       root              890 ./var/lib/opkg/info/udev-hwdb.control
@@ -11436,7 +11436,7 @@ drwxr-xr-x root       root           118784 ./var/lib/opkg/info
 -rw-r--r-- root       root              766 ./var/lib/opkg/info/wayland.control
 -rw-r--r-- root       root              593 ./var/lib/opkg/info/wayland.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/wayland.postinst
--rw-r--r-- root       root           155052 ./var/lib/opkg/status
+-rw-r--r-- root       root           155053 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/local
 lrwxrwxrwx root       root               11 ./var/lock -> ../run/lock

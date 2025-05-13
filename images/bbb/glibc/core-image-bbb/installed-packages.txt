@@ -515,7 +515,7 @@ systemd-serialgetty_1.0-r0.0_bbb.ipk
 systemd_1:255.4-r0.3_cortexa8hf-neon.ipk
 systemd-udev-rules_1:255.4-r0.3_cortexa8hf-neon.ipk
 systemd-vconsole-setup_1:255.4-r0.3_cortexa8hf-neon.ipk
-u-boot-env_1:2024.01-r0.8_bbb.ipk
+u-boot-env_1:2024.01-r0.9_bbb.ipk
 udev-hwdb_1:255.4-r0.3_cortexa8hf-neon.ipk
 udev_1:255.4-r0.3_cortexa8hf-neon.ipk
 update-alternatives-opkg_0.6.3-r0.5_cortexa8hf-neon.ipk

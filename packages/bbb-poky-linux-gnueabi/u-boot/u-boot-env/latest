@@ -1,7 +1,7 @@
 PE = 1
 PV = 2024.01
 PR = r0
-PKGR = r0.24
+PKGR = r0.25
 RPROVIDES = u-boot-default-env
 RDEPENDS = 
 RRECOMMENDS = 

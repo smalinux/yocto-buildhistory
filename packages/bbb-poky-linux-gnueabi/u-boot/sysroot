@@ -1,5 +1,5 @@
 drwxr-xr-x -          -                4096 ./boot
--rw-r--r-- -          -                8117 ./boot/boot-bbb-2024.01-r0.scr
+-rw-r--r-- -          -                6797 ./boot/boot-bbb-2024.01-r0.scr
 lrwxrwxrwx -          -                  23 ./boot/boot.scr -> boot-bbb-2024.01-r0.scr
 -rw-r--r-- -          -              110000 ./boot/MLO-bbb-2024.01-r0
 lrwxrwxrwx -          -                  18 ./boot/MLO -> MLO-bbb-2024.01-r0

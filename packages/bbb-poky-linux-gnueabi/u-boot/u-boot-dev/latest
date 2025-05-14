@@ -1,10 +1,10 @@
 PE = 1
 PV = 2024.01
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = u-boot (= 1:2024.01-r0.16) u-boot-env-dev
+RRECOMMENDS = u-boot (= 1:2024.01-r0.17) u-boot-env-dev
 PKGSIZE = 0
 FILES = /usr/include /usr/lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /usr/lib/*.o /usr/lib/u-boot/*.la /usr/lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = 

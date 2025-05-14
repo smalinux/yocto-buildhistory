@@ -3,7 +3,7 @@ drwxr-xr-x -          -                4096 ./boot
 lrwxrwxrwx -          -                  23 ./boot/boot.scr -> boot-bbb-2024.01-r0.scr
 -rw-r--r-- -          -              110000 ./boot/MLO-bbb-2024.01-r0
 lrwxrwxrwx -          -                  18 ./boot/MLO -> MLO-bbb-2024.01-r0
--rw-r--r-- -          -             1454884 ./boot/u-boot-bbb-2024.01-r0.img
+-rw-r--r-- -          -             1454868 ./boot/u-boot-bbb-2024.01-r0.img
 lrwxrwxrwx -          -                  25 ./boot/u-boot.img -> u-boot-bbb-2024.01-r0.img
 drwxr-xr-x -          -                4096 ./sysroot-providers
 -rw-r--r-- -          -                   6 ./sysroot-providers/u-boot

@@ -1,10 +1,10 @@
 PE = 1
 PV = 2024.01
 PR = r0
-PKGR = r0.25
+PKGR = r0.26
 RPROVIDES = 
 RDEPENDS = u-boot-env
 RRECOMMENDS = 
-PKGSIZE = 1573067
+PKGSIZE = 1573051
 FILES = /boot /usr/share
 FILELIST = /boot/MLO /boot/MLO-bbb-2024.01-r0 /boot/boot-bbb-2024.01-r0.scr /boot/boot.scr /boot/u-boot-bbb-2024.01-r0.img /boot/u-boot.img

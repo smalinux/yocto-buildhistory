@@ -6,4 +6,4 @@ PACKAGES = u-boot-src u-boot-dbg u-boot-staticdev u-boot-dev u-boot-doc u-boot-l
 LAYER = core
 LICENSE = GPL-2.0-or-later
 CONFIG = openssl
-SRC_URI = git://source.denx.de/u-boot/u-boot.git;protocol=https;branch=master file://am335x_evm_defconfig file://0001-am335x_evm_defconfig-rauc.patch file://fw_env.config file://boot.cmd
+SRC_URI = git://source.denx.de/u-boot/u-boot.git;protocol=https;branch=master file://am335x_evm_defconfig file://fw_env.config file://boot.cmd

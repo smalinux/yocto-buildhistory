@@ -1,8 +1,8 @@
 PV = 0.8
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097) libavahi-client (>= 0.8) libavahi-common (>= 0.8)
+RDEPENDS = glibc (>= 2.39+git3+662516aca8) libavahi-client (>= 0.8) libavahi-common (>= 0.8)
 RRECOMMENDS = 
 PKGSIZE = 63320
 FILES = /usr/bin/avahi-* /usr/bin/b* /usr/share/applications/b*

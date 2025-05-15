@@ -1,8 +1,8 @@
 PV = 1.48
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = bash glibc (>= 2.39+git2+e8f5217097) libgpg-error (>= 1.48) make
+RDEPENDS = bash glibc (>= 2.39+git3+662516aca8) libgpg-error (>= 1.48) make
 RRECOMMENDS = ptest-runner
 PKGSIZE = 168373
 FILES = /usr/lib/libgpg-error/ptest

@@ -1,7 +1,7 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 drwxr-xr-x root       root             4096 ./usr/bin/.debug
--rwxr-xr-x root       root           834512 ./usr/bin/.debug/localedef
+-rwxr-xr-x root       root           834500 ./usr/bin/.debug/localedef
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/gconv
 drwxr-xr-x root       root            12288 ./usr/lib/gconv/.debug
@@ -51,9 +51,9 @@ drwxr-xr-x root       root            12288 ./usr/lib/gconv/.debug
 -rwxr-xr-x root       root            22568 ./usr/lib/gconv/.debug/EBCDIC-US.so
 -rwxr-xr-x root       root            22368 ./usr/lib/gconv/.debug/ECMA-CYRILLIC.so
 -rwxr-xr-x root       root            45200 ./usr/lib/gconv/.debug/EUC-CN.so
--rwxr-xr-x root       root            43896 ./usr/lib/gconv/.debug/EUC-JISX0213.so
--rwxr-xr-x root       root            42700 ./usr/lib/gconv/.debug/EUC-JP-MS.so
--rwxr-xr-x root       root            39788 ./usr/lib/gconv/.debug/EUC-JP.so
+-rwxr-xr-x root       root            43872 ./usr/lib/gconv/.debug/EUC-JISX0213.so
+-rwxr-xr-x root       root            42676 ./usr/lib/gconv/.debug/EUC-JP-MS.so
+-rwxr-xr-x root       root            39732 ./usr/lib/gconv/.debug/EUC-JP.so
 -rwxr-xr-x root       root            34660 ./usr/lib/gconv/.debug/EUC-KR.so
 -rwxr-xr-x root       root            62132 ./usr/lib/gconv/.debug/EUC-TW.so
 -rwxr-xr-x root       root            42188 ./usr/lib/gconv/.debug/GB18030.so
@@ -114,9 +114,9 @@ drwxr-xr-x root       root            12288 ./usr/lib/gconv/.debug
 -rwxr-xr-x root       root            22344 ./usr/lib/gconv/.debug/IBM1166.so
 -rwxr-xr-x root       root            22344 ./usr/lib/gconv/.debug/IBM1167.so
 -rwxr-xr-x root       root            22936 ./usr/lib/gconv/.debug/IBM12712.so
--rwxr-xr-x root       root            31536 ./usr/lib/gconv/.debug/IBM1364.so
--rwxr-xr-x root       root            31616 ./usr/lib/gconv/.debug/IBM1371.so
--rwxr-xr-x root       root            31632 ./usr/lib/gconv/.debug/IBM1388.so
+-rwxr-xr-x root       root            31544 ./usr/lib/gconv/.debug/IBM1364.so
+-rwxr-xr-x root       root            31620 ./usr/lib/gconv/.debug/IBM1371.so
+-rwxr-xr-x root       root            31636 ./usr/lib/gconv/.debug/IBM1388.so
 -rwxr-xr-x root       root            38068 ./usr/lib/gconv/.debug/IBM1390.so
 -rwxr-xr-x root       root            38068 ./usr/lib/gconv/.debug/IBM1399.so
 -rwxr-xr-x root       root            22944 ./usr/lib/gconv/.debug/IBM16804.so
@@ -193,7 +193,7 @@ drwxr-xr-x root       root            12288 ./usr/lib/gconv/.debug
 -rwxr-xr-x root       root            20952 ./usr/lib/gconv/.debug/ISO_11548-1.so
 -rwxr-xr-x root       root           154444 ./usr/lib/gconv/.debug/ISO-2022-CN-EXT.so
 -rwxr-xr-x root       root           111676 ./usr/lib/gconv/.debug/ISO-2022-CN.so
--rwxr-xr-x root       root            95564 ./usr/lib/gconv/.debug/ISO-2022-JP-3.so
+-rwxr-xr-x root       root            95540 ./usr/lib/gconv/.debug/ISO-2022-JP-3.so
 -rwxr-xr-x root       root           156096 ./usr/lib/gconv/.debug/ISO-2022-JP.so
 -rwxr-xr-x root       root            39752 ./usr/lib/gconv/.debug/ISO-2022-KR.so
 -rwxr-xr-x root       root            22932 ./usr/lib/gconv/.debug/ISO_2033.so

@@ -1,8 +1,8 @@
 PV = 5.38.2
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097) perl perl-module-exporter perl-module-xsloader
+RDEPENDS = glibc (>= 2.39+git3+662516aca8) perl perl-module-exporter perl-module-xsloader
 RRECOMMENDS = 
 PKGSIZE = 31635
 FILES = /usr/lib/perl5/5.38.2/arm-linux/auto/Devel/Peek/Peek.so /usr/lib/perl5/5.38.2/arm-linux/Devel/Peek.pm

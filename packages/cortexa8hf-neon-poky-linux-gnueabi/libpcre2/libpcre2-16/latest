@@ -1,9 +1,9 @@
 PV = 10.43
 PR = r0
 PKG = libpcre2-16-0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = libpcre2-16 (=10.43)
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097)
+RDEPENDS = glibc (>= 2.39+git3+662516aca8)
 RRECOMMENDS = 
 PKGSIZE = 333121
 FILES = /usr/lib/libpcre2-16.so.*

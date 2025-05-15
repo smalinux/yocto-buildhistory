@@ -20,7 +20,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/python3.12/idlelib
 -rw-r--r-- root       root            15230 ./usr/lib/python3.12/idlelib/config_key.py
 -rw-r--r-- root       root            10910 ./usr/lib/python3.12/idlelib/config-keys.def
 -rw-r--r-- root       root             3168 ./usr/lib/python3.12/idlelib/config-main.def
--rw-r--r-- root       root            38402 ./usr/lib/python3.12/idlelib/config.py
+-rw-r--r-- root       root            38403 ./usr/lib/python3.12/idlelib/config.py
 -rw-r--r-- root       root             2152 ./usr/lib/python3.12/idlelib/CREDITS.txt
 -rw-r--r-- root       root            20991 ./usr/lib/python3.12/idlelib/debugger.py
 -rw-r--r-- root       root            12115 ./usr/lib/python3.12/idlelib/debugger_r.py
@@ -29,12 +29,12 @@ drwxr-xr-x root       root             4096 ./usr/lib/python3.12/idlelib
 -rw-r--r-- root       root             1044 ./usr/lib/python3.12/idlelib/delegator.py
 -rw-r--r-- root       root             1993 ./usr/lib/python3.12/idlelib/dynoption.py
 -rw-r--r-- root       root            69561 ./usr/lib/python3.12/idlelib/editor.py
--rw-r--r-- root       root             3631 ./usr/lib/python3.12/idlelib/extend.txt
+-rw-r--r-- root       root             3632 ./usr/lib/python3.12/idlelib/extend.txt
 -rw-r--r-- root       root             3871 ./usr/lib/python3.12/idlelib/filelist.py
 -rw-r--r-- root       root            15777 ./usr/lib/python3.12/idlelib/format.py
 -rw-r--r-- root       root             7521 ./usr/lib/python3.12/idlelib/grep.py
 -rw-r--r-- root       root             8975 ./usr/lib/python3.12/idlelib/help_about.py
--rw-r--r-- root       root            78525 ./usr/lib/python3.12/idlelib/help.html
+-rw-r--r-- root       root            78835 ./usr/lib/python3.12/idlelib/help.html
 -rw-r--r-- root       root            11971 ./usr/lib/python3.12/idlelib/help.py
 -rw-r--r-- root       root             4065 ./usr/lib/python3.12/idlelib/history.py
 -rw-r--r-- root       root            10313 ./usr/lib/python3.12/idlelib/HISTORY.txt
@@ -66,7 +66,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/python3.12/idlelib/Icons
 -rw-r--r-- root       root            18652 ./usr/lib/python3.12/idlelib/multicall.py
 -rw-r--r-- root       root            27172 ./usr/lib/python3.12/idlelib/NEWS2x.txt
 -rw-r--r-- root       root            55988 ./usr/lib/python3.12/idlelib/News3.txt
--rw-r--r-- root       root             5715 ./usr/lib/python3.12/idlelib/outwin.py
+-rw-r--r-- root       root             5705 ./usr/lib/python3.12/idlelib/outwin.py
 -rw-r--r-- root       root             7204 ./usr/lib/python3.12/idlelib/parenmatch.py
 -rw-r--r-- root       root             3093 ./usr/lib/python3.12/idlelib/pathbrowser.py
 -rw-r--r-- root       root             3568 ./usr/lib/python3.12/idlelib/percolator.py
@@ -99,11 +99,11 @@ drwxr-xr-x root       root             4096 ./usr/lib/python3.12/idlelib/__pycac
 -rw-r--r-- root       root              607 ./usr/lib/python3.12/idlelib/__pycache__/idle.cpython-312.pyc
 -rw-r--r-- root       root              519 ./usr/lib/python3.12/idlelib/__pycache__/__init__.cpython-312.pyc
 -rw-r--r-- root       root            21329 ./usr/lib/python3.12/idlelib/__pycache__/iomenu.cpython-312.pyc
--rw-r--r-- root       root             9756 ./usr/lib/python3.12/idlelib/__pycache__/macosx.cpython-312.pyc
+-rw-r--r-- root       root             9751 ./usr/lib/python3.12/idlelib/__pycache__/macosx.cpython-312.pyc
 -rw-r--r-- root       root              334 ./usr/lib/python3.12/idlelib/__pycache__/__main__.cpython-312.pyc
 -rw-r--r-- root       root             3534 ./usr/lib/python3.12/idlelib/__pycache__/mainmenu.cpython-312.pyc
 -rw-r--r-- root       root            21715 ./usr/lib/python3.12/idlelib/__pycache__/multicall.cpython-312.pyc
--rw-r--r-- root       root             7689 ./usr/lib/python3.12/idlelib/__pycache__/outwin.cpython-312.pyc
+-rw-r--r-- root       root             7679 ./usr/lib/python3.12/idlelib/__pycache__/outwin.cpython-312.pyc
 -rw-r--r-- root       root             9522 ./usr/lib/python3.12/idlelib/__pycache__/parenmatch.cpython-312.pyc
 -rw-r--r-- root       root             5625 ./usr/lib/python3.12/idlelib/__pycache__/pathbrowser.cpython-312.pyc
 -rw-r--r-- root       root             6893 ./usr/lib/python3.12/idlelib/__pycache__/percolator.cpython-312.pyc
@@ -114,7 +114,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/python3.12/idlelib/__pycac
 -rw-r--r-- root       root            14247 ./usr/lib/python3.12/idlelib/__pycache__/replace.cpython-312.pyc
 -rw-r--r-- root       root            29997 ./usr/lib/python3.12/idlelib/__pycache__/rpc.cpython-312.pyc
 -rw-r--r-- root       root            29547 ./usr/lib/python3.12/idlelib/__pycache__/run.cpython-312.pyc
--rw-r--r-- root       root            10904 ./usr/lib/python3.12/idlelib/__pycache__/runscript.cpython-312.pyc
+-rw-r--r-- root       root            10900 ./usr/lib/python3.12/idlelib/__pycache__/runscript.cpython-312.pyc
 -rw-r--r-- root       root             9012 ./usr/lib/python3.12/idlelib/__pycache__/scrolledlist.cpython-312.pyc
 -rw-r--r-- root       root            12189 ./usr/lib/python3.12/idlelib/__pycache__/searchbase.cpython-312.pyc
 -rw-r--r-- root       root             8039 ./usr/lib/python3.12/idlelib/__pycache__/search.cpython-312.pyc
@@ -125,7 +125,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/python3.12/idlelib/__pycac
 -rw-r--r-- root       root             2947 ./usr/lib/python3.12/idlelib/__pycache__/statusbar.cpython-312.pyc
 -rw-r--r-- root       root             9876 ./usr/lib/python3.12/idlelib/__pycache__/textview.cpython-312.pyc
 -rw-r--r-- root       root             9579 ./usr/lib/python3.12/idlelib/__pycache__/tooltip.cpython-312.pyc
--rw-r--r-- root       root            28068 ./usr/lib/python3.12/idlelib/__pycache__/tree.cpython-312.pyc
+-rw-r--r-- root       root            28430 ./usr/lib/python3.12/idlelib/__pycache__/tree.cpython-312.pyc
 -rw-r--r-- root       root            18444 ./usr/lib/python3.12/idlelib/__pycache__/undo.cpython-312.pyc
 -rw-r--r-- root       root             1335 ./usr/lib/python3.12/idlelib/__pycache__/util.cpython-312.pyc
 -rw-r--r-- root       root             4845 ./usr/lib/python3.12/idlelib/__pycache__/window.cpython-312.pyc
@@ -151,7 +151,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/python3.12/idlelib/__pycac
 -rw-r--r-- root       root             6808 ./usr/lib/python3.12/idlelib/textview.py
 -rw-r--r-- root       root             8477 ./usr/lib/python3.12/idlelib/TODO.txt
 -rw-r--r-- root       root             6665 ./usr/lib/python3.12/idlelib/tooltip.py
--rw-r--r-- root       root            16483 ./usr/lib/python3.12/idlelib/tree.py
+-rw-r--r-- root       root            16773 ./usr/lib/python3.12/idlelib/tree.py
 -rw-r--r-- root       root            11016 ./usr/lib/python3.12/idlelib/undo.py
 -rw-r--r-- root       root             1312 ./usr/lib/python3.12/idlelib/util.py
 -rw-r--r-- root       root             2616 ./usr/lib/python3.12/idlelib/window.py

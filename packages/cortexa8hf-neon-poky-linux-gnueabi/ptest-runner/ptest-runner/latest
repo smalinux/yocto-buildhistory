@@ -1,9 +1,9 @@
-PV = 2.4.4+git
+PV = 2.4.5+git
 PR = r0
-PKGV = 2.4.4+git0+95f528cff0
-PKGR = r0.4
+PKGV = 2.4.5+git0+aea9f42f87
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = base-files base-passwd glibc (>= 2.39+git2+e8f5217097) libgcc pstree shadow
+RDEPENDS = base-files base-passwd glibc (>= 2.39+git3+662516aca8) libgcc pstree shadow
 RRECOMMENDS = 
 PKGSIZE = 17898
 FILES = /usr/bin/ptest-runner /usr/bin/ptest-runner-collect-system-data

@@ -1,10 +1,10 @@
-PV = 3.2.3
+PV = 3.2.4
 PR = r0
 PKG = libcrypto3
-PKGR = r0.5
-RPROVIDES = libcrypto (=3.2.3)
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097)
+PKGR = r0.0
+RPROVIDES = libcrypto (=3.2.4)
+RDEPENDS = glibc (>= 2.39+git3+662516aca8)
 RRECOMMENDS = openssl-conf openssl-ossl-module-legacy
-PKGSIZE = 3278508
+PKGSIZE = 3282604
 FILES = /usr/lib/libcrypto.so.*
 FILELIST = /usr/lib/libcrypto.so.3

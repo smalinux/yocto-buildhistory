@@ -1,8 +1,8 @@
 PV = 1.22.0
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = binutils glibc (>= 2.39+git2+e8f5217097) libffi (>= 3.4.6) sed wayland (>= 1.22.0) wayland-tools
+RDEPENDS = binutils glibc (>= 2.39+git3+662516aca8) libffi (>= 3.4.6) sed wayland (>= 1.22.0) wayland-tools
 RRECOMMENDS = ptest-runner
 PKGSIZE = 1036782
 FILES = /usr/lib/wayland/ptest

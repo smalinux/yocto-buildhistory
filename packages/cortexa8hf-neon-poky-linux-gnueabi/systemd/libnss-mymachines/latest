@@ -1,11 +1,11 @@
 PE = 1
-PV = 255.4
+PV = 255.17
 PR = r0
 PKG = libnss-mymachines2
-PKGR = r0.3
-RPROVIDES = libnss-mymachines (=255.4)
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097) libcap (>= 2.69)
+PKGR = r0.0
+RPROVIDES = libnss-mymachines (=255.17)
+RDEPENDS = glibc (>= 2.39+git3+662516aca8) libcap (>= 2.69)
 RRECOMMENDS = 
-PKGSIZE = 368056
+PKGSIZE = 368072
 FILES = /usr/lib/libnss_mymachines.so.2
 FILELIST = /usr/lib/libnss_mymachines.so.2

@@ -1,8 +1,8 @@
 PV = 2.6.4
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = console-tools
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097) update-alternatives-opkg
+RDEPENDS = glibc (>= 2.39+git3+662516aca8) update-alternatives-opkg
 RRECOMMENDS = 
 RCONFLICTS = console-tools
 PKGSIZE = 533959

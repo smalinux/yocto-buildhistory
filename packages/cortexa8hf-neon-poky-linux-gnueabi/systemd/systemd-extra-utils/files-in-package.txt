@@ -7,7 +7,7 @@ drwxr-xr-x root       root             4096 ./usr/bin
 -rwxr-xr-x root       root            30336 ./usr/bin/systemd-creds
 -rwxr-xr-x root       root            17852 ./usr/bin/systemd-delta
 -rwxr-xr-x root       root             9660 ./usr/bin/systemd-detect-virt
--rwxr-xr-x root       root            63100 ./usr/bin/systemd-dissect
+-rwxr-xr-x root       root            63116 ./usr/bin/systemd-dissect
 -rwxr-xr-x root       root            13752 ./usr/bin/systemd-escape
 -rwxr-xr-x root       root            13764 ./usr/bin/systemd-inhibit
 -rwxr-xr-x root       root            13752 ./usr/bin/systemd-path

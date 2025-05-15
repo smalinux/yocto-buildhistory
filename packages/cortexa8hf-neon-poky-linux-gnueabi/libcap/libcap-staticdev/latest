@@ -1,9 +1,9 @@
 PV = 2.69
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = libcap-dev (= 2.69-r0.5)
+RDEPENDS = libcap-dev (= 2.69-r0.6)
 RRECOMMENDS = 
-PKGSIZE = 202860
+PKGSIZE = 202872
 FILES = /usr/lib/*.a /usr/lib/*.a /usr/lib/libcap/*.a
 FILELIST = /usr/lib/libcap.a /usr/lib/libpsx.a

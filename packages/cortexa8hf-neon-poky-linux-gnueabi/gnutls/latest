@@ -5,4 +5,4 @@ PACKAGES = gnutls-src gnutls-dbg gnutls-dane gnutls-openssl gnutls-xx gnutls-fip
 LAYER = core
 LICENSE = GPL-3.0-or-later & LGPL-2.1-or-later
 CONFIG = libidn libtasn1 seccomp
-SRC_URI = https://www.gnupg.org/ftp/gcrypt/gnutls/v3.8/gnutls-3.8.4.tar.xz file://arm_eabi.patch file://0001-Creating-.hmac-file-should-be-excuted-in-target-envi.patch file://run-ptest file://Add-ptest-support.patch
+SRC_URI = https://www.gnupg.org/ftp/gcrypt/gnutls/v3.8/gnutls-3.8.4.tar.xz file://arm_eabi.patch file://0001-Creating-.hmac-file-should-be-excuted-in-target-envi.patch file://run-ptest file://Add-ptest-support.patch file://CVE-2024-12243.patch

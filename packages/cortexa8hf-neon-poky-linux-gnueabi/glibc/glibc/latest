@@ -1,9 +1,9 @@
 PV = 2.39+git
 PR = r0
 PKG = libc6
-PKGV = 2.39+git2+e8f5217097
-PKGR = r0.8
-RPROVIDES = GNU HASH eglibc glibc (=2.39+git2+e8f5217097) rtld
+PKGV = 2.39+git3+662516aca8
+PKGR = r0.9
+RPROVIDES = GNU HASH eglibc glibc (=2.39+git3+662516aca8) rtld
 RDEPENDS = 
 RRECOMMENDS = ldconfig
 PKGSIZE = 2056297

@@ -5,4 +5,4 @@ PACKAGES = pulseaudio-src pulseaudio-dbg pulseaudio-lib-rtp pulseaudio-lib-proto
 LAYER = core
 LICENSE = LGPL-2.1-or-later & MIT & BSD-3-Clause
 CONFIG = avahi bluez5 dbus gsettings ipv6 ofono systemd x11
-SRC_URI = http://freedesktop.org/software/pulseaudio/releases/pulseaudio-17.0.tar.xz file://0001-client-conf-Add-allow-autospawn-for-root.patch file://0002-do-not-display-CLFAGS-to-improve-reproducibility-bui.patch file://volatiles.04_pulse file://0001-doxygen-meson.build-remove-dependency-on-doxygen-bin.patch
+SRC_URI = http://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-17.0.tar.xz file://0001-client-conf-Add-allow-autospawn-for-root.patch file://0002-do-not-display-CLFAGS-to-improve-reproducibility-bui.patch file://volatiles.04_pulse file://0001-doxygen-meson.build-remove-dependency-on-doxygen-bin.patch

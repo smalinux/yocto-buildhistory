@@ -1,9 +1,9 @@
 PV = 7.6
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 200870
+PKGSIZE = 200934
 FILES = /usr/lib/lib*.a
 FILELIST = /usr/lib/libwrap.a

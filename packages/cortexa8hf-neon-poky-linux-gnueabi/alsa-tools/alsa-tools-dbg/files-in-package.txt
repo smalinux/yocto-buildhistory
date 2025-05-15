@@ -6,7 +6,7 @@ drwxr-xr-x root       root             4096 ./usr/bin/.debug
 -rwxr-xr-x root       root            85236 ./usr/bin/.debug/hdajackretask
 -rwxr-xr-x root       root            38812 ./usr/bin/.debug/hdajacksensetest
 -rwxr-xr-x root       root            18284 ./usr/bin/.debug/hda-verb
--rwxr-xr-x root       root            16592 ./usr/bin/.debug/hdsploader
+-rwxr-xr-x root       root            16596 ./usr/bin/.debug/hdsploader
 -rwxr-xr-x root       root            67164 ./usr/bin/.debug/lo10k1
 -rwxr-xr-x root       root            24752 ./usr/bin/.debug/mixartloader
 -rwxr-xr-x root       root            24760 ./usr/bin/.debug/pcxhrloader
@@ -17,8 +17,8 @@ drwxr-xr-x root       root             4096 ./usr/bin/.debug
 -rwxr-xr-x root       root            28132 ./usr/bin/.debug/vxloader
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
--rwxr-xr-x root       root           134964 ./usr/lib/.debug/liblo10k1.so.0.0.0
+-rwxr-xr-x root       root           134984 ./usr/lib/.debug/liblo10k1.so.0.0.0
 drwxr-xr-x root       root             4096 ./usr/sbin
 drwxr-xr-x root       root             4096 ./usr/sbin/.debug
--rwxr-xr-x root       root            31488 ./usr/sbin/.debug/dl10k1
+-rwxr-xr-x root       root            31480 ./usr/sbin/.debug/dl10k1
 -rwxr-xr-x root       root           238380 ./usr/sbin/.debug/ld10k1

@@ -1,7 +1,7 @@
-PV = 2.4.4+git
+PV = 2.4.5+git
 PR = r0
-PKGV = 2.4.4+git0+95f528cff0
-PKGR = r0.4
+PKGV = 2.4.5+git0+aea9f42f87
+PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 

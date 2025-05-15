@@ -10,7 +10,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/.debug
 drwxr-xr-x root       root             4096 ./usr/libexec
 drwxr-xr-x root       root             4096 ./usr/libexec/xkbcommon
 drwxr-xr-x root       root             4096 ./usr/libexec/xkbcommon/.debug
--rwxr-xr-x root       root            19948 ./usr/libexec/xkbcommon/.debug/xkbcli-compile-keymap
+-rwxr-xr-x root       root            19956 ./usr/libexec/xkbcommon/.debug/xkbcli-compile-keymap
 -rwxr-xr-x root       root            19696 ./usr/libexec/xkbcommon/.debug/xkbcli-how-to-type
 -rwxr-xr-x root       root            48876 ./usr/libexec/xkbcommon/.debug/xkbcli-interactive-evdev
 -rwxr-xr-x root       root            68232 ./usr/libexec/xkbcommon/.debug/xkbcli-interactive-wayland

@@ -1,8 +1,8 @@
 PV = 5.38.2
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = gdbm (>= 1.23) gdbm-compat (>= 1.23) glibc (>= 2.39+git2+e8f5217097) perl (>= 5.38.2) perl-doc perl-modules procps-ps sed
+RDEPENDS = gdbm (>= 1.23) gdbm-compat (>= 1.23) glibc (>= 2.39+git3+662516aca8) perl (>= 5.38.2) perl-doc perl-modules procps-ps sed
 RRECOMMENDS = ptest-runner
 PKGSIZE = 157347144
 FILES = /usr/lib/perl/ptest

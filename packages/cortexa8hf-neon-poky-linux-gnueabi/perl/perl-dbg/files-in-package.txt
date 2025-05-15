@@ -4,7 +4,7 @@ drwxr-xr-x root       root             4096 ./usr/bin/.debug
 -rwxr-xr-x root       root            48992 ./usr/bin/.debug/perl
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
--rwxr-xr-x root       root          6827116 ./usr/lib/.debug/libperl.so.5.38.0
+-rwxr-xr-x root       root          6827124 ./usr/lib/.debug/libperl.so.5.38.0
 drwxr-xr-x root       root             4096 ./usr/lib/perl
 drwxr-xr-x root       root             4096 ./usr/lib/perl5
 drwxr-xr-x root       root             4096 ./usr/lib/perl5/5.38.2

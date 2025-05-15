@@ -2,7 +2,7 @@ drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
 -rwxr-xr-x root       root           311240 ./usr/lib/.debug/libparted-fs-resize.so.0.0.5
--rwxr-xr-x root       root          1227496 ./usr/lib/.debug/libparted.so.2.0.5
+-rwxr-xr-x root       root          1227488 ./usr/lib/.debug/libparted.so.2.0.5
 drwxr-xr-x root       root             4096 ./usr/lib/parted
 drwxr-xr-x root       root             4096 ./usr/lib/parted/ptest
 drwxr-xr-x root       root             4096 ./usr/lib/parted/ptest/tests
@@ -15,5 +15,5 @@ drwxr-xr-x root       root             4096 ./usr/lib/parted/ptest/tests/.debug
 -rwxr-xr-x root       root            17752 ./usr/lib/parted/ptest/tests/.debug/print-max
 drwxr-xr-x root       root             4096 ./usr/sbin
 drwxr-xr-x root       root             4096 ./usr/sbin/.debug
--rwxr-xr-x root       root           207348 ./usr/sbin/.debug/parted
+-rwxr-xr-x root       root           207336 ./usr/sbin/.debug/parted
 -rwxr-xr-x root       root            22748 ./usr/sbin/.debug/partprobe.parted

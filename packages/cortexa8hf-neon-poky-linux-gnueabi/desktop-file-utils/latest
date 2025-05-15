@@ -5,4 +5,4 @@ PACKAGES = desktop-file-utils-src desktop-file-utils-dbg desktop-file-utils-stat
 LAYER = core
 LICENSE = GPL-2.0-or-later
 CONFIG = 
-SRC_URI = http://freedesktop.org/software/desktop-file-utils/releases/desktop-file-utils-0.27.tar.xz
+SRC_URI = http://www.freedesktop.org/software/desktop-file-utils/releases/desktop-file-utils-0.27.tar.xz

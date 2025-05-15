@@ -1,9 +1,9 @@
 PV = 0.3.5
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libyaml-dbg zlib-dbg
-PKGSIZE = 87400
+PKGSIZE = 87412
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
 FILELIST = /usr/bin/.debug/fw_printenv /usr/lib/.debug/libubootenv.so.0.3.5

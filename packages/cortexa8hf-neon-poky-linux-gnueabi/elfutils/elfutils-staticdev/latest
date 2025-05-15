@@ -1,9 +1,9 @@
 PV = 0.191
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = elfutils-dev (= 0.191-r0.13)
+RDEPENDS = elfutils-dev (= 0.191-r0.14)
 RRECOMMENDS = 
-PKGSIZE = 10015108
+PKGSIZE = 10015052
 FILES = /usr/lib/*.a /usr/lib/*.a /usr/lib/elfutils/*.a
 FILELIST = /usr/lib/libasm.a /usr/lib/libdw.a /usr/lib/libelf.a

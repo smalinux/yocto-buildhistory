@@ -1,5 +1,5 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 -rwxr-xr-x root       root           175648 ./usr/bin/lsusb.usbutils
--rwxr-xr-x root       root             4944 ./usr/bin/usb-devices
+-rwxr-xr-x root       root             4950 ./usr/bin/usb-devices
 -rwxr-xr-x root       root            21948 ./usr/bin/usbhid-dump

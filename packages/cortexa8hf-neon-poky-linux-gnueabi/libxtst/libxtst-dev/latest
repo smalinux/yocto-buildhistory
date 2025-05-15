@@ -1,10 +1,10 @@
 PE = 1
 PV = 1.2.4
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = libxtst xorgproto-dev
-RRECOMMENDS = glibc-dev libx11-dev libxext-dev libxi-dev libxtst (= 1:1.2.4-r0.0) util-macros-dev xorgproto-dev
+RRECOMMENDS = glibc-dev libx11-dev libxext-dev libxi-dev libxtst (= 1:1.2.4-r0.1) util-macros-dev xorgproto-dev
 PKGSIZE = 8442
 FILES = /usr/include /usr/lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /usr/lib/*.o /usr/lib/libxtst/*.la /usr/lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/X11/extensions/XTest.h /usr/include/X11/extensions/record.h /usr/lib/libXtst.so /usr/lib/pkgconfig/xtst.pc

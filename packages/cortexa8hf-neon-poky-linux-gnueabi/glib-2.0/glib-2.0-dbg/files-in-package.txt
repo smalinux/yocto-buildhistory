@@ -3,7 +3,7 @@ drwxr-xr-x root       root             4096 ./usr/bin
 drwxr-xr-x root       root             4096 ./usr/bin/.debug
 -rwxr-xr-x root       root            32764 ./usr/bin/.debug/gapplication
 -rwxr-xr-x root       root           103288 ./usr/bin/.debug/gdbus
--rwxr-xr-x root       root           226796 ./usr/bin/.debug/gio
+-rwxr-xr-x root       root           226816 ./usr/bin/.debug/gio
 -rwxr-xr-x root       root           117032 ./usr/bin/.debug/glib-compile-resources
 -rwxr-xr-x root       root           154328 ./usr/bin/.debug/glib-compile-schemas
 -rwxr-xr-x root       root            16452 ./usr/bin/.debug/gobject-query
@@ -12,8 +12,8 @@ drwxr-xr-x root       root             4096 ./usr/bin/.debug
 -rwxr-xr-x root       root            44372 ./usr/bin/.debug/gtester
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
--rwxr-xr-x root       root          7204272 ./usr/lib/.debug/libgio-2.0.so.0.7800.6
--rwxr-xr-x root       root          3292316 ./usr/lib/.debug/libglib-2.0.so.0.7800.6
+-rwxr-xr-x root       root          7204312 ./usr/lib/.debug/libgio-2.0.so.0.7800.6
+-rwxr-xr-x root       root          3292320 ./usr/lib/.debug/libglib-2.0.so.0.7800.6
 -rwxr-xr-x root       root            37552 ./usr/lib/.debug/libgmodule-2.0.so.0.7800.6
 -rwxr-xr-x root       root          1127900 ./usr/lib/.debug/libgobject-2.0.so.0.7800.6
 -rwxr-xr-x root       root             6616 ./usr/lib/.debug/libgthread-2.0.so.0.7800.6
@@ -99,7 +99,7 @@ drwxr-xr-x root       root            12288 ./usr/libexec/installed-tests/glib/.
 -rwxr-xr-x root       root           117716 ./usr/libexec/installed-tests/glib/.debug/fileutils
 -rwxr-xr-x root       root            45992 ./usr/libexec/installed-tests/glib/.debug/filter-streams
 -rwxr-xr-x root       root            19356 ./usr/libexec/installed-tests/glib/.debug/flags
--rwxr-xr-x root       root           427716 ./usr/libexec/installed-tests/glib/.debug/gdatetime
+-rwxr-xr-x root       root           428736 ./usr/libexec/installed-tests/glib/.debug/gdatetime
 -rwxr-xr-x root       root            19568 ./usr/libexec/installed-tests/glib/.debug/gdbus-addresses
 -rwxr-xr-x root       root            19928 ./usr/libexec/installed-tests/glib/.debug/gdbus-address-get-session
 -rwxr-xr-x root       root            50884 ./usr/libexec/installed-tests/glib/.debug/gdbus-connection-flush
@@ -122,7 +122,7 @@ drwxr-xr-x root       root            12288 ./usr/libexec/installed-tests/glib/.
 -rwxr-xr-x root       root            28048 ./usr/libexec/installed-tests/glib/.debug/gobject-private
 -rwxr-xr-x root       root            20716 ./usr/libexec/installed-tests/glib/.debug/gsocketclient-slow
 -rwxr-xr-x root       root           103760 ./usr/libexec/installed-tests/glib/.debug/gsubprocess
--rwxr-xr-x root       root            33292 ./usr/libexec/installed-tests/glib/.debug/gsubprocess-testprog
+-rwxr-xr-x root       root            33296 ./usr/libexec/installed-tests/glib/.debug/gsubprocess-testprog
 -rwxr-xr-x root       root             9784 ./usr/libexec/installed-tests/glib/.debug/gutils-user-database
 -rwxr-xr-x root       root            12356 ./usr/libexec/installed-tests/glib/.debug/guuid
 -rwxr-xr-x root       root           294060 ./usr/libexec/installed-tests/glib/.debug/gvariant
@@ -285,7 +285,7 @@ drwxr-xr-x root       root            12288 ./usr/libexec/installed-tests/glib/.
 -rwxr-xr-x root       root            28256 ./usr/libexec/installed-tests/glib/.debug/type
 -rwxr-xr-x root       root            26452 ./usr/libexec/installed-tests/glib/.debug/type-flags
 -rwxr-xr-x root       root            12896 ./usr/libexec/installed-tests/glib/.debug/types
--rwxr-xr-x root       root           250384 ./usr/libexec/installed-tests/glib/.debug/unicode
+-rwxr-xr-x root       root           250376 ./usr/libexec/installed-tests/glib/.debug/unicode
 -rwxr-xr-x root       root            29848 ./usr/libexec/installed-tests/glib/.debug/unicode-encoding
 -rwxr-xr-x root       root            20608 ./usr/libexec/installed-tests/glib/.debug/unicode-normalize
 -rwxr-xr-x root       root            38116 ./usr/libexec/installed-tests/glib/.debug/unix
@@ -297,11 +297,11 @@ drwxr-xr-x root       root            12288 ./usr/libexec/installed-tests/glib/.
 -rwxr-xr-x root       root            18956 ./usr/libexec/installed-tests/glib/.debug/utf8-performance
 -rwxr-xr-x root       root            27464 ./usr/libexec/installed-tests/glib/.debug/utf8-pointer
 -rwxr-xr-x root       root            13228 ./usr/libexec/installed-tests/glib/.debug/utf8-validate
--rwxr-xr-x root       root            78644 ./usr/libexec/installed-tests/glib/.debug/utils
--rwxr-xr-x root       root            78620 ./usr/libexec/installed-tests/glib/.debug/utils-c-11
--rwxr-xr-x root       root            78620 ./usr/libexec/installed-tests/glib/.debug/utils-c-17
--rwxr-xr-x root       root            78816 ./usr/libexec/installed-tests/glib/.debug/utils-c-90
--rwxr-xr-x root       root            78652 ./usr/libexec/installed-tests/glib/.debug/utils-c-99
+-rwxr-xr-x root       root            78648 ./usr/libexec/installed-tests/glib/.debug/utils
+-rwxr-xr-x root       root            78628 ./usr/libexec/installed-tests/glib/.debug/utils-c-11
+-rwxr-xr-x root       root            78628 ./usr/libexec/installed-tests/glib/.debug/utils-c-17
+-rwxr-xr-x root       root            78820 ./usr/libexec/installed-tests/glib/.debug/utils-c-90
+-rwxr-xr-x root       root            78656 ./usr/libexec/installed-tests/glib/.debug/utils-c-99
 -rwxr-xr-x root       root            14340 ./usr/libexec/installed-tests/glib/.debug/utils-isolated
 -rwxr-xr-x root       root            71944 ./usr/libexec/installed-tests/glib/.debug/value
 -rwxr-xr-x root       root            17732 ./usr/libexec/installed-tests/glib/.debug/vfs

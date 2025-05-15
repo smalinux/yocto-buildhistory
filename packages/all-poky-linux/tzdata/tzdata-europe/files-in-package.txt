@@ -27,7 +27,7 @@ drwxr-xr-x root       root             4096 ./usr/share/zoneinfo/Europe
 -rw-r--r-- root       root              558 ./usr/share/zoneinfo/Europe/Kiev
 -rw-r--r-- root       root              735 ./usr/share/zoneinfo/Europe/Kirov
 -rw-r--r-- root       root              558 ./usr/share/zoneinfo/Europe/Kyiv
--rw-r--r-- root       root             1454 ./usr/share/zoneinfo/Europe/Lisbon
+-rw-r--r-- root       root             1463 ./usr/share/zoneinfo/Europe/Lisbon
 -rw-r--r-- root       root              478 ./usr/share/zoneinfo/Europe/Ljubljana
 -rw-r--r-- root       root             1103 ./usr/share/zoneinfo/Europe/Luxembourg
 -rw-r--r-- root       root              897 ./usr/share/zoneinfo/Europe/Madrid

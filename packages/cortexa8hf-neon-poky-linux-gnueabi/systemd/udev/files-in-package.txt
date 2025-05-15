@@ -8,7 +8,7 @@ drwxr-xr-x root       root             4096 ./etc/udev/rules.d
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 -rwxr-xr-x root       root             9656 ./usr/bin/systemd-hwdb
--rwxr-xr-x root       root           489424 ./usr/bin/udevadm
+-rwxr-xr-x root       root           493520 ./usr/bin/udevadm
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/systemd
 drwxr-xr-x root       root             4096 ./usr/lib/systemd/network

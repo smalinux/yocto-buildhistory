@@ -1,10 +1,10 @@
-PV = 2.6.3
+PV = 2.6.4
 PR = r0
 PKG = libexpat-dbg
-PKGR = r0.3
-RPROVIDES = expat-dbg (=2.6.3)
+PKGR = r0.1
+RPROVIDES = expat-dbg (=2.6.4)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libgcc-dbg
-PKGSIZE = 2149000
+PKGSIZE = 2153464
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
-FILELIST = /usr/bin/.debug/xmlwf /usr/lib/.debug/libexpat.so.1.9.3 /usr/lib/expat/ptest/.debug/benchmark /usr/lib/expat/ptest/.debug/runtests /usr/lib/expat/ptest/.debug/runtests_cxx
+FILELIST = /usr/bin/.debug/xmlwf /usr/lib/.debug/libexpat.so.1.10.0 /usr/lib/expat/ptest/.debug/benchmark /usr/lib/expat/ptest/.debug/runtests /usr/lib/expat/ptest/.debug/runtests_cxx

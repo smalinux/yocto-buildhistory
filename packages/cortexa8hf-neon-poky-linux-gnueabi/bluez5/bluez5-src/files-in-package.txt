@@ -275,7 +275,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/bluez5/5.72/profiles
 -rw-r--r-- root       root             7285 ./usr/src/debug/bluez5/5.72/profiles/scanparam/scpp.c
 -rw-r--r-- root       root              563 ./usr/src/debug/bluez5/5.72/profiles/scanparam/scpp.h
 drwxr-xr-x root       root             4096 ./usr/src/debug/bluez5/5.72/src
--rw-r--r-- root       root           273943 ./usr/src/debug/bluez5/5.72/src/adapter.c
+-rw-r--r-- root       root           274504 ./usr/src/debug/bluez5/5.72/src/adapter.c
 -rw-r--r-- root       root            10780 ./usr/src/debug/bluez5/5.72/src/adapter.h
 -rw-r--r-- root       root            47717 ./usr/src/debug/bluez5/5.72/src/advertising.c
 -rw-r--r-- root       root              422 ./usr/src/debug/bluez5/5.72/src/advertising.h

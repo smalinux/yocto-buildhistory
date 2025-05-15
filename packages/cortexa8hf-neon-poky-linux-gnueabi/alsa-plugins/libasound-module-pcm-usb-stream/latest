@@ -1,8 +1,8 @@
 PV = 1.2.7.1
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = alsa-lib (>= 1.2.11) glibc (>= 2.39+git2+e8f5217097)
+RDEPENDS = alsa-lib (>= 1.2.11) glibc (>= 2.39+git3+662516aca8)
 RRECOMMENDS = 
 PKGSIZE = 14169
 FILES = /usr/share/alsa/alsa.conf.d/98-usb-stream.conf /etc/alsa/conf.d/98-usb-stream.conf /usr/lib/alsa-lib/libasound_module_pcm_usb_stream.so

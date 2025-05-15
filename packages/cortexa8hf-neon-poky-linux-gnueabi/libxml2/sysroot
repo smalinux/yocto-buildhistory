@@ -21,7 +21,7 @@ drwxr-xr-x -          -                4096 ./usr/include/libxml2/libxml
 -rw-r--r-- -          -                3140 ./usr/include/libxml2/libxml/list.h
 -rw-r--r-- -          -                4013 ./usr/include/libxml2/libxml/nanoftp.h
 -rw-r--r-- -          -                1869 ./usr/include/libxml2/libxml/nanohttp.h
--rw-r--r-- -          -               44410 ./usr/include/libxml2/libxml/parser.h
+-rw-r--r-- -          -               44395 ./usr/include/libxml2/libxml/parser.h
 -rw-r--r-- -          -               16604 ./usr/include/libxml2/libxml/parserInternals.h
 -rw-r--r-- -          -                2466 ./usr/include/libxml2/libxml/pattern.h
 -rw-r--r-- -          -                5830 ./usr/include/libxml2/libxml/relaxng.h
@@ -48,7 +48,7 @@ drwxr-xr-x -          -                4096 ./usr/include/libxml2/libxml
 -rw-r--r-- -          -                4583 ./usr/include/libxml2/libxml/xmlschemastypes.h
 -rw-r--r-- -          -                5271 ./usr/include/libxml2/libxml/xmlstring.h
 -rw-r--r-- -          -                8665 ./usr/include/libxml2/libxml/xmlunicode.h
--rw-r--r-- -          -                9205 ./usr/include/libxml2/libxml/xmlversion.h
+-rw-r--r-- -          -                9206 ./usr/include/libxml2/libxml/xmlversion.h
 -rw-r--r-- -          -               20625 ./usr/include/libxml2/libxml/xmlwriter.h
 -rw-r--r-- -          -               16442 ./usr/include/libxml2/libxml/xpath.h
 -rw-r--r-- -          -               18419 ./usr/include/libxml2/libxml/xpathInternals.h
@@ -56,13 +56,13 @@ drwxr-xr-x -          -                4096 ./usr/include/libxml2/libxml
 drwxr-xr-x -          -                4096 ./usr/lib
 drwxr-xr-x -          -                4096 ./usr/lib/cmake
 drwxr-xr-x -          -                4096 ./usr/lib/cmake/libxml2
--rw-r--r-- -          -                5498 ./usr/lib/cmake/libxml2/libxml2-config.cmake
+-rw-r--r-- -          -                5500 ./usr/lib/cmake/libxml2/libxml2-config.cmake
 drwxr-xr-x -          -                4096 ./usr/lib/libxml2
--rwxr-xr-x -          -             1173664 ./usr/lib/libxml2.so.2.12.8
-lrwxrwxrwx -          -                  17 ./usr/lib/libxml2.so.2 -> libxml2.so.2.12.8
-lrwxrwxrwx -          -                  17 ./usr/lib/libxml2.so -> libxml2.so.2.12.8
+-rwxr-xr-x -          -             1173664 ./usr/lib/libxml2.so.2.12.10
+lrwxrwxrwx -          -                  18 ./usr/lib/libxml2.so.2 -> libxml2.so.2.12.10
+lrwxrwxrwx -          -                  18 ./usr/lib/libxml2.so -> libxml2.so.2.12.10
 drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
--rw-r--r-- -          -                 253 ./usr/lib/pkgconfig/libxml-2.0.pc
+-rw-r--r-- -          -                 254 ./usr/lib/pkgconfig/libxml-2.0.pc
 drwxr-xr-x -          -                4096 ./usr/lib/python3.12
 drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages
 -rw-r--r-- -          -               15252 ./usr/lib/python3.12/site-packages/drv_libxml2.py

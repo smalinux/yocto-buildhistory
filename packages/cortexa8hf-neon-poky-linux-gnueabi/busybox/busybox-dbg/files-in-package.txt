@@ -1,5 +1,5 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 drwxr-xr-x root       root             4096 ./usr/bin/.debug
--rwxr-xr-x root       root          2955220 ./usr/bin/.debug/busybox.nosuid
--rwxr-xr-x root       root           370692 ./usr/bin/.debug/busybox.suid
+-rwxr-xr-x root       root          2955228 ./usr/bin/.debug/busybox.nosuid
+-rwxr-xr-x root       root           370672 ./usr/bin/.debug/busybox.suid

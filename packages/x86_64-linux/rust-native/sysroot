@@ -5,10 +5,13 @@ drwxr-xr-x -          -                4096 ./sysroot-providers
 drwxr-xr-x -          -                4096 ./usr
 drwxr-xr-x -          -                4096 ./usr/bin
 -rwxr-xr-x -          -               14208 ./usr/bin/rustc
+-rwxr-xr-x -          -             8731688 ./usr/bin/rustdoc
 -rwxr-xr-x -          -                 980 ./usr/bin/rust-gdb
 -rwxr-xr-x -          -                2160 ./usr/bin/rust-gdbgui
 -rwxr-xr-x -          -                1072 ./usr/bin/rust-lldb
 drwxr-xr-x -          -                4096 ./usr/lib
+drwxr-xr-x -          -                4096 ./usr/libexec
+-rwxr-xr-x -          -             1296800 ./usr/libexec/rust-analyzer-proc-macro-srv
 -rw-r--r-- -          -           142475280 ./usr/lib/librustc_driver-686d20105d1a2cf7.so
 -rw-r--r-- -          -             9207608 ./usr/lib/libstd-64729a5a222c378b.so
 -rw-r--r-- -          -             1489128 ./usr/lib/libtest-2571735223127832.so
@@ -22,8 +25,8 @@ drwxr-xr-x -          -                4096 ./usr/lib/rustlib/etc
 -rw-r--r-- -          -                4457 ./usr/lib/rustlib/etc/lldb_lookup.py
 -rw-r--r-- -          -               25588 ./usr/lib/rustlib/etc/lldb_providers.py
 -rw-r--r-- -          -                3831 ./usr/lib/rustlib/etc/rust_types.py
--rw-r--r-- -          -               21466 ./usr/lib/rustlib/install.log
--rw-r--r-- -          -                2608 ./usr/lib/rustlib/manifest-rustc
+-rw-r--r-- -          -               23479 ./usr/lib/rustlib/install.log
+-rw-r--r-- -          -                2863 ./usr/lib/rustlib/manifest-rustc
 -rw-r--r-- -          -                5019 ./usr/lib/rustlib/manifest-rust-std-x86_64-unknown-linux-gnu
 -rw-r--r-- -          -                   2 ./usr/lib/rustlib/rust-installer-version
 -rwxr-xr-x -          -               29434 ./usr/lib/rustlib/uninstall.sh

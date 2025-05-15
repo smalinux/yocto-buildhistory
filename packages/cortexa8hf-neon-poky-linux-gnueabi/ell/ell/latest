@@ -1,9 +1,9 @@
 PV = 0.64
 PR = r0
 PKG = libell0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = ell (=0.64)
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097)
+RDEPENDS = glibc (>= 2.39+git3+662516aca8)
 RRECOMMENDS = 
 PKGSIZE = 437531
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /usr/bin/* /usr/sbin/* /usr/lib/*.so.* /lib/udev /usr/lib/udev /usr/lib/udev /usr/lib/udev /usr/share/ell /usr/lib/ell/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

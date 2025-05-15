@@ -1,8 +1,8 @@
 PV = 1.10.3
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097) libgcrypt (>= 1.10.3) libgpg-error (>= 1.48)
+RDEPENDS = glibc (>= 2.39+git3+662516aca8) libgcrypt (>= 1.10.3) libgpg-error (>= 1.48)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 45234164
 FILES = /usr/lib/libgcrypt/ptest

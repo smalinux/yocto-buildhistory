@@ -1,8 +1,8 @@
 PV = 1.35
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097) tar
+RDEPENDS = glibc (>= 2.39+git3+662516aca8) tar
 RRECOMMENDS = ptest-runner
 PKGSIZE = 1508398
 FILES = /usr/lib/tar/ptest

@@ -1,10 +1,10 @@
 PE = 1
 PV = 2.3.8
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = libxft xorgproto-dev
-RRECOMMENDS = fontconfig-dev freetype-dev glibc-dev libx11-dev libxft (= 1:2.3.8-r0.0) libxrender-dev util-macros-dev xorgproto-dev
+RRECOMMENDS = fontconfig-dev freetype-dev glibc-dev libx11-dev libxft (= 1:2.3.8-r0.1) libxrender-dev util-macros-dev xorgproto-dev
 PKGSIZE = 18186
 FILES = /usr/include /usr/lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /usr/lib/*.o /usr/lib/libxft/*.la /usr/lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/X11/Xft/Xft.h /usr/include/X11/Xft/XftCompat.h /usr/lib/libXft.so /usr/lib/pkgconfig/xft.pc

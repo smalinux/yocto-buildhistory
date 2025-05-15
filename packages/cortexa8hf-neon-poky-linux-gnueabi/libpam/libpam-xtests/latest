@@ -1,8 +1,8 @@
 PV = 1.5.3
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = bash coreutils glibc (>= 2.39+git2+e8f5217097) libpam (>= 1.5.3) libpam-suffix pam-plugin-access-suffix pam-plugin-debug-suffix pam-plugin-pwhistory-suffix pam-plugin-succeed-if-suffix pam-plugin-time-suffix
+RDEPENDS = bash coreutils glibc (>= 2.39+git3+662516aca8) libpam (>= 1.5.3) libpam-suffix pam-plugin-access-suffix pam-plugin-debug-suffix pam-plugin-pwhistory-suffix pam-plugin-succeed-if-suffix pam-plugin-time-suffix
 RRECOMMENDS = 
 PKGSIZE = 147596
 FILES = /usr/share/Linux-PAM/xtests

@@ -5,4 +5,3 @@ drwxr-xr-x root       root             4096 ./boot
 -rw-r--r-- root       root            67310 ./boot/am335x-bonegreen.dtb
 -rw-r--r-- root       root            68663 ./boot/am335x-bonegreen-wireless.dtb
 -rw-r--r-- root       root            68601 ./boot/am335x-pocketbeagle.dtb
--rw-r--r-- root       root            69525 ./boot/bbb-gen4-4dcape70t.dtb

@@ -34,11 +34,11 @@ lrwxrwxrwx -          -                  15 ./usr/lib/libcom_err.so -> libcom_er
 -rwxr-xr-x -          -               35128 ./usr/lib/libe2p.so.2.3
 lrwxrwxrwx -          -                  13 ./usr/lib/libe2p.so.2 -> libe2p.so.2.3
 lrwxrwxrwx -          -                  11 ./usr/lib/libe2p.so -> libe2p.so.2
--rw-r--r-- -          -             2765136 ./usr/lib/libext2fs.a
+-rw-r--r-- -          -             2765168 ./usr/lib/libext2fs.a
 -rwxr-xr-x -          -              383332 ./usr/lib/libext2fs.so.2.4
 lrwxrwxrwx -          -                  16 ./usr/lib/libext2fs.so.2 -> libext2fs.so.2.4
 lrwxrwxrwx -          -                  14 ./usr/lib/libext2fs.so -> libext2fs.so.2
--rw-r--r-- -          -              134868 ./usr/lib/libss.a
+-rw-r--r-- -          -              134880 ./usr/lib/libss.a
 -rwxr-xr-x -          -               21720 ./usr/lib/libss.so.2.0
 lrwxrwxrwx -          -                  12 ./usr/lib/libss.so.2 -> libss.so.2.0
 lrwxrwxrwx -          -                  10 ./usr/lib/libss.so -> libss.so.2

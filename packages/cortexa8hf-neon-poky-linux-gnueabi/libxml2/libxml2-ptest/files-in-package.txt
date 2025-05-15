@@ -610,6 +610,9 @@ drwxr-xr-x root       root             4096 ./usr/lib/libxml2/ptest/result/error
 -rw-r--r-- root       root              432 ./usr/lib/libxml2/ptest/result/errors/content1.xml.ent
 -rw-r--r-- root       root              432 ./usr/lib/libxml2/ptest/result/errors/content1.xml.err
 -rw-r--r-- root       root              477 ./usr/lib/libxml2/ptest/result/errors/content1.xml.str
+-rw-r--r-- root       root              463 ./usr/lib/libxml2/ptest/result/errors/dup-xml-attr2.xml.ent
+-rw-r--r-- root       root              463 ./usr/lib/libxml2/ptest/result/errors/dup-xml-attr2.xml.err
+-rw-r--r-- root       root              513 ./usr/lib/libxml2/ptest/result/errors/dup-xml-attr2.xml.str
 -rw-r--r-- root       root               63 ./usr/lib/libxml2/ptest/result/errors/empty.xml.ent
 -rw-r--r-- root       root               63 ./usr/lib/libxml2/ptest/result/errors/empty.xml.err
 -rw-r--r-- root       root              105 ./usr/lib/libxml2/ptest/result/errors/empty.xml.str
@@ -2079,6 +2082,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/libxml2/ptest/result/XPath
 -rw-r--r-- root       root             1532 ./usr/lib/libxml2/ptest/result/XPath/tests/simpleabbr
 -rw-r--r-- root       root             2915 ./usr/lib/libxml2/ptest/result/XPath/tests/simplebase
 -rw-r--r-- root       root              214 ./usr/lib/libxml2/ptest/result/XPath/tests/strbase
+-rw-r--r-- root       root              121 ./usr/lib/libxml2/ptest/result/XPath/tests/unicodesimple
 -rw-r--r-- root       root              214 ./usr/lib/libxml2/ptest/result/XPath/tests/usr1check
 -rw-r--r-- root       root              761 ./usr/lib/libxml2/ptest/result/XPath/tests/vidbase
 drwxr-xr-x root       root             4096 ./usr/lib/libxml2/ptest/result/XPath/xptr
@@ -2389,6 +2393,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/libxml2/ptest/test/errors1
 -rw-r--r-- root       root               85 ./usr/lib/libxml2/ptest/test/errors/comment1.xml
 -rw-r--r-- root       root              202 ./usr/lib/libxml2/ptest/test/errors/content1.xml
 -rw-r--r-- root       root               90 ./usr/lib/libxml2/ptest/test/errors/dtd13
+-rw-r--r-- root       root               78 ./usr/lib/libxml2/ptest/test/errors/dup-xml-attr2.xml
 -rw-r--r-- root       root                0 ./usr/lib/libxml2/ptest/test/errors/empty.xml
 -rw-r--r-- root       root               47 ./usr/lib/libxml2/ptest/test/errors/ent_redecl.xml
 -rw-r--r-- root       root              103 ./usr/lib/libxml2/ptest/test/errors/extparsedent.xml
@@ -3528,6 +3533,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/libxml2/ptest/test/XPath/d
 -rw-r--r-- root       root               91 ./usr/lib/libxml2/ptest/test/XPath/docs/ns
 -rw-r--r-- root       root              276 ./usr/lib/libxml2/ptest/test/XPath/docs/simple
 -rw-r--r-- root       root              305 ./usr/lib/libxml2/ptest/test/XPath/docs/str
+-rw-r--r-- root       root               23 ./usr/lib/libxml2/ptest/test/XPath/docs/unicode
 -rw-r--r-- root       root              268 ./usr/lib/libxml2/ptest/test/XPath/docs/usr1
 -rw-r--r-- root       root             1016 ./usr/lib/libxml2/ptest/test/XPath/docs/vid
 drwxr-xr-x root       root             4096 ./usr/lib/libxml2/ptest/test/XPath/expr
@@ -3548,6 +3554,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/libxml2/ptest/test/XPath/t
 -rw-r--r-- root       root              188 ./usr/lib/libxml2/ptest/test/XPath/tests/simpleabbr
 -rw-r--r-- root       root              626 ./usr/lib/libxml2/ptest/test/XPath/tests/simplebase
 -rw-r--r-- root       root               13 ./usr/lib/libxml2/ptest/test/XPath/tests/strbase
+-rw-r--r-- root       root                8 ./usr/lib/libxml2/ptest/test/XPath/tests/unicodesimple
 -rw-r--r-- root       root               10 ./usr/lib/libxml2/ptest/test/XPath/tests/usr1check
 -rw-r--r-- root       root               85 ./usr/lib/libxml2/ptest/test/XPath/tests/vidbase
 drwxr-xr-x root       root             4096 ./usr/lib/libxml2/ptest/test/XPath/xptr

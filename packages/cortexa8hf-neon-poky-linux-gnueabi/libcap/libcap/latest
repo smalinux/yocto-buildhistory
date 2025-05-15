@@ -1,8 +1,8 @@
 PV = 2.69
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097)
+RDEPENDS = glibc (>= 2.39+git3+662516aca8)
 RRECOMMENDS = 
 PKGSIZE = 47776
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /usr/bin/* /usr/sbin/* /usr/lib/*.so.* /lib/udev /usr/lib/udev /usr/lib/udev /usr/lib/udev /usr/share/libcap /usr/lib/libcap/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/security/*.so

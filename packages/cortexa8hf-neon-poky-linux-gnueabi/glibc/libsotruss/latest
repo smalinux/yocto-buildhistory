@@ -1,9 +1,9 @@
 PV = 2.39+git
 PR = r0
-PKGV = 2.39+git2+e8f5217097
-PKGR = r0.8
+PKGV = 2.39+git3+662516aca8
+PKGR = r0.9
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097)
+RDEPENDS = glibc (>= 2.39+git3+662516aca8)
 RRECOMMENDS = 
 PKGSIZE = 9504
 FILES = /usr/lib/audit/sotruss-lib.so

@@ -5,4 +5,4 @@ PACKAGES = usbutils-src usbutils-dbg usbutils-staticdev usbutils-dev usbutils-do
 LAYER = core
 LICENSE = GPL-2.0-or-later & (GPL-2.0-only | GPL-3.0-only)
 CONFIG = 
-SRC_URI = https://cdn.kernel.org/pub/linux/utils/usb/usbutils/usbutils-017.tar.gz file://0001-usbutils.pc.in-Fix-Cflags-entry.patch
+SRC_URI = https://cdn.kernel.org/pub/linux/utils/usb/usbutils/usbutils-017.tar.gz file://0001-usbutils.pc.in-Fix-Cflags-entry.patch file://0001-usb-devices-Fix-usb-devices-with-busybox.patch

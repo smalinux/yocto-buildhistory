@@ -1,5 +1,5 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 -rw-r--r-- root       root           341742 ./usr/lib/libasm.a
--rw-r--r-- root       root          7780164 ./usr/lib/libdw.a
--rw-r--r-- root       root          1893202 ./usr/lib/libelf.a
+-rw-r--r-- root       root          7779996 ./usr/lib/libdw.a
+-rw-r--r-- root       root          1893314 ./usr/lib/libelf.a

@@ -102,14 +102,14 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/libsndfile1/1.2.2/sr
 -rw-r--r-- root       root            24988 ./usr/src/debug/libsndfile1/1.2.2/src/ms_adpcm.c
 -rw-r--r-- root       root            10271 ./usr/src/debug/libsndfile1/1.2.2/src/nist.c
 -rw-r--r-- root       root            32173 ./usr/src/debug/libsndfile1/1.2.2/src/nms_adpcm.c
--rw-r--r-- root       root            27641 ./usr/src/debug/libsndfile1/1.2.2/src/ogg.c
+-rw-r--r-- root       root            27677 ./usr/src/debug/libsndfile1/1.2.2/src/ogg.c
 -rw-r--r-- root       root             6574 ./usr/src/debug/libsndfile1/1.2.2/src/ogg.h
--rw-r--r-- root       root            60376 ./usr/src/debug/libsndfile1/1.2.2/src/ogg_opus.c
+-rw-r--r-- root       root            60395 ./usr/src/debug/libsndfile1/1.2.2/src/ogg_opus.c
 -rw-r--r-- root       root             3763 ./usr/src/debug/libsndfile1/1.2.2/src/ogg_pcm.c
 -rw-r--r-- root       root            11428 ./usr/src/debug/libsndfile1/1.2.2/src/ogg_speex.c
 -rw-r--r-- root       root             7451 ./usr/src/debug/libsndfile1/1.2.2/src/ogg_vcomment.c
 -rw-r--r-- root       root             1768 ./usr/src/debug/libsndfile1/1.2.2/src/ogg_vcomment.h
--rw-r--r-- root       root            35273 ./usr/src/debug/libsndfile1/1.2.2/src/ogg_vorbis.c
+-rw-r--r-- root       root            35723 ./usr/src/debug/libsndfile1/1.2.2/src/ogg_vorbis.c
 -rw-r--r-- root       root            23416 ./usr/src/debug/libsndfile1/1.2.2/src/paf.c
 -rw-r--r-- root       root            79288 ./usr/src/debug/libsndfile1/1.2.2/src/pcm.c
 -rw-r--r-- root       root             4940 ./usr/src/debug/libsndfile1/1.2.2/src/pvf.c

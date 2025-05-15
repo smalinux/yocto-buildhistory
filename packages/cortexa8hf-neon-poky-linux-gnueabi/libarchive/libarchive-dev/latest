@@ -1,9 +1,9 @@
 PV = 3.7.4
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
 RDEPENDS = libarchive
-RRECOMMENDS = acl-dev attr-dev bzip2-dev glibc-dev libacl-dev libarchive (= 3.7.4-r0.5) libbz2-dev liblzma-dev libzstd-dev update-alternatives-opkg-dev xz-dev zlib-dev zstd-dev
+RRECOMMENDS = acl-dev attr-dev bzip2-dev glibc-dev libacl-dev libarchive (= 3.7.4-r0.6) libbz2-dev liblzma-dev libzstd-dev update-alternatives-opkg-dev xz-dev zlib-dev zstd-dev
 PKGSIZE = 88168
 FILES = /usr/include /usr/lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /usr/lib/*.o /usr/lib/libarchive/*.la /usr/lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/archive.h /usr/include/archive_entry.h /usr/lib/libarchive.so /usr/lib/pkgconfig/libarchive.pc

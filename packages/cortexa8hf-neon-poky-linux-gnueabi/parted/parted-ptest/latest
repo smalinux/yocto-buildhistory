@@ -1,8 +1,8 @@
 PV = 3.6
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = bash coreutils dosfstools e2fsprogs-mke2fs e2fsprogs-tune2fs gawk glibc (>= 2.39+git2+e8f5217097) glibc-utils locale-base-en-us make parted (>= 3.6) perl python3 python3-core util-linux-losetup util-linux-mkswap
+RDEPENDS = bash coreutils dosfstools e2fsprogs-mke2fs e2fsprogs-tune2fs gawk glibc (>= 2.39+git3+662516aca8) glibc-utils locale-base-en-us make parted (>= 3.6) perl python3 python3-core util-linux-losetup util-linux-mkswap
 RRECOMMENDS = kernel-module-loop kernel-module-scsi-debug kernel-module-vfat ptest-runner
 PKGSIZE = 576301
 FILES = /usr/lib/parted/ptest

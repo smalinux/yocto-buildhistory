@@ -1,9 +1,9 @@
 PV = 0.8
 PR = r0
 PKG = libavahi-common3
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = libavahi-common (=0.8)
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097)
+RDEPENDS = glibc (>= 2.39+git3+662516aca8)
 RRECOMMENDS = 
 PKGSIZE = 42524
 FILES = /usr/lib/libavahi-common.so.*

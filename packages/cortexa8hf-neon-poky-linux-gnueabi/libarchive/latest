@@ -5,4 +5,4 @@ PACKAGES = libarchive-src libarchive-dbg bsdcpio bsdtar libarchive-staticdev lib
 LAYER = core
 LICENSE = BSD-2-Clause
 CONFIG = acl bz2 xattr xz zlib zstd
-SRC_URI = http://libarchive.org/downloads/libarchive-3.7.4.tar.gz file://configurehack.patch
+SRC_URI = http://libarchive.org/downloads/libarchive-3.7.4.tar.gz file://configurehack.patch file://CVE-2024-48957.patch file://CVE-2024-48958.patch file://CVE-2024-20696.patch

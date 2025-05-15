@@ -1,8 +1,8 @@
 PV = 4.0.4
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097) libsystemd (>= 255.4) ncurses-libncursesw (>= 6.4) ncurses-libtinfo (>= 6.4) procps-lib (>= 4.0.4) procps-ps procps-sysctl update-alternatives-opkg
+RDEPENDS = glibc (>= 2.39+git3+662516aca8) libsystemd (>= 255.17) ncurses-libncursesw (>= 6.4) ncurses-libtinfo (>= 6.4) procps-lib (>= 4.0.4) procps-ps procps-sysctl update-alternatives-opkg
 RRECOMMENDS = 
 PKGSIZE = 464972
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /usr/bin/* /usr/sbin/* /usr/lib/*.so.* /lib/udev /usr/lib/udev /usr/lib/udev /usr/lib/udev /usr/share/procps /usr/lib/procps/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

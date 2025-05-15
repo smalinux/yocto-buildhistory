@@ -1,8 +1,8 @@
 PV = 1.2.11
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = alsa-lib (>= 1.2.11) glibc (>= 2.39+git2+e8f5217097)
+RDEPENDS = alsa-lib (>= 1.2.11) glibc (>= 2.39+git3+662516aca8)
 RRECOMMENDS = 
 PKGSIZE = 146381
 FILES = /usr/bin/aplay /usr/bin/arecord /usr/bin/axfer

@@ -4,7 +4,7 @@ drwxr-xr-x -          -                4096 ./usr
 drwxr-xr-x -          -                4096 ./usr/include
 -rw-r--r-- -          -                9130 ./usr/include/tcpd.h
 drwxr-xr-x -          -                4096 ./usr/lib
--rw-r--r-- -          -              200870 ./usr/lib/libwrap.a
+-rw-r--r-- -          -              200934 ./usr/lib/libwrap.a
 -rwxr-xr-x -          -               30440 ./usr/lib/libwrap.so.0.7.6
 lrwxrwxrwx -          -                  16 ./usr/lib/libwrap.so.0 -> libwrap.so.0.7.6
 lrwxrwxrwx -          -                  16 ./usr/lib/libwrap.so -> libwrap.so.0.7.6

@@ -1,10 +1,10 @@
-PV = 2.6.3
+PV = 2.6.4
 PR = r0
 PKG = libexpat1
-PKGR = r0.3
-RPROVIDES = expat (=2.6.3)
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097)
+PKGR = r0.1
+RPROVIDES = expat (=2.6.4)
+RDEPENDS = glibc (>= 2.39+git3+662516aca8)
 RRECOMMENDS = 
-PKGSIZE = 144693
+PKGSIZE = 144694
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /usr/bin/* /usr/sbin/* /usr/lib/*.so.* /lib/udev /usr/lib/udev /usr/lib/udev /usr/lib/udev /usr/share/expat /usr/lib/expat/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/lib/libexpat.so.1 /usr/lib/libexpat.so.1.9.3
+FILELIST = /usr/lib/libexpat.so.1 /usr/lib/libexpat.so.1.10.0

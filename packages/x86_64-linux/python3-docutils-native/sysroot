@@ -229,9 +229,9 @@ drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/d
 -rw-r--r-- -          -              132550 ./usr/lib/python3.12/site-packages/docutils/parsers/rst/states.py
 -rw-r--r-- -          -               20912 ./usr/lib/python3.12/site-packages/docutils/parsers/rst/tableparser.py
 drwxr-xr-x -          -                4096 ./usr/lib/python3.12/site-packages/docutils/__pycache__
--rw-r--r-- -          -               34527 ./usr/lib/python3.12/site-packages/docutils/__pycache__/core.cpython-312.pyc
+-rw-r--r-- -          -               34522 ./usr/lib/python3.12/site-packages/docutils/__pycache__/core.cpython-312.pyc
 -rw-r--r-- -          -                4066 ./usr/lib/python3.12/site-packages/docutils/__pycache__/examples.cpython-312.pyc
--rw-r--r-- -          -               41753 ./usr/lib/python3.12/site-packages/docutils/__pycache__/frontend.cpython-312.pyc
+-rw-r--r-- -          -               41743 ./usr/lib/python3.12/site-packages/docutils/__pycache__/frontend.cpython-312.pyc
 -rw-r--r-- -          -                6536 ./usr/lib/python3.12/site-packages/docutils/__pycache__/__init__.cpython-312.pyc
 -rw-r--r-- -          -               26956 ./usr/lib/python3.12/site-packages/docutils/__pycache__/io.cpython-312.pyc
 -rw-r--r-- -          -                3701 ./usr/lib/python3.12/site-packages/docutils/__pycache__/__main__.cpython-312.pyc

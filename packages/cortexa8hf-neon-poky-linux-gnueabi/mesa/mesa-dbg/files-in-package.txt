@@ -1,12 +1,12 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
--rwxr-xr-x root       root          1473428 ./usr/lib/.debug/libEGL.so.1.0.0
--rwxr-xr-x root       root           325724 ./usr/lib/.debug/libgbm.so.1.0.0
+-rwxr-xr-x root       root          1473464 ./usr/lib/.debug/libEGL.so.1.0.0
+-rwxr-xr-x root       root           325756 ./usr/lib/.debug/libgbm.so.1.0.0
 -rwxr-xr-x root       root           846008 ./usr/lib/.debug/libglapi.so.0.0.0
 -rwxr-xr-x root       root            66968 ./usr/lib/.debug/libGLESv1_CM.so.1.1.0
 -rwxr-xr-x root       root           174796 ./usr/lib/.debug/libGLESv2.so.2.0.0
--rwxr-xr-x root       root          2936356 ./usr/lib/.debug/libGL.so.1.2.0
+-rwxr-xr-x root       root          2936392 ./usr/lib/.debug/libGL.so.1.2.0
 drwxr-xr-x root       root             4096 ./usr/lib/dri
 drwxr-xr-x root       root             4096 ./usr/lib/dri/.debug
--rwxr-xr-x root       root         67482504 ./usr/lib/dri/.debug/kms_swrast_dri.so
+-rwxr-xr-x root       root         67482532 ./usr/lib/dri/.debug/kms_swrast_dri.so

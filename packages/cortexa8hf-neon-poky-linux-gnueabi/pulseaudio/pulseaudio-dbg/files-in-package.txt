@@ -19,7 +19,7 @@ drwxr-xr-x root       root             4096 ./usr/libexec/pulse/.debug
 drwxr-xr-x root       root             4096 ./usr/lib/pulseaudio
 drwxr-xr-x root       root             4096 ./usr/lib/pulseaudio/.debug
 -rwxr-xr-x root       root          1179680 ./usr/lib/pulseaudio/.debug/libpulsecommon-17.0.so
--rwxr-xr-x root       root          1964784 ./usr/lib/pulseaudio/.debug/libpulsecore-17.0.so
+-rwxr-xr-x root       root          1964804 ./usr/lib/pulseaudio/.debug/libpulsecore-17.0.so
 -rwxr-xr-x root       root            98408 ./usr/lib/pulseaudio/.debug/libpulsedsp.so
 drwxr-xr-x root       root             4096 ./usr/lib/pulseaudio/modules
 drwxr-xr-x root       root             4096 ./usr/lib/pulseaudio/modules/.debug
@@ -27,7 +27,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/pulseaudio/modules/.debug
 -rwxr-xr-x root       root            18796 ./usr/lib/pulseaudio/modules/.debug/libavahi-wrap.so
 -rwxr-xr-x root       root           421528 ./usr/lib/pulseaudio/modules/.debug/libbluez5-util.so
 -rwxr-xr-x root       root            38596 ./usr/lib/pulseaudio/modules/.debug/libcli.so
--rwxr-xr-x root       root            24844 ./usr/lib/pulseaudio/modules/.debug/liboss-util.so
+-rwxr-xr-x root       root            24848 ./usr/lib/pulseaudio/modules/.debug/liboss-util.so
 -rwxr-xr-x root       root            39996 ./usr/lib/pulseaudio/modules/.debug/libprotocol-cli.so
 -rwxr-xr-x root       root            78344 ./usr/lib/pulseaudio/modules/.debug/libprotocol-http.so
 -rwxr-xr-x root       root           359244 ./usr/lib/pulseaudio/modules/.debug/libprotocol-native.so
@@ -52,8 +52,8 @@ drwxr-xr-x root       root             4096 ./usr/lib/pulseaudio/modules/.debug
 -rwxr-xr-x root       root            34236 ./usr/lib/pulseaudio/modules/.debug/module-combine.so
 -rwxr-xr-x root       root            46772 ./usr/lib/pulseaudio/modules/.debug/module-console-kit.so
 -rwxr-xr-x root       root           588232 ./usr/lib/pulseaudio/modules/.debug/module-dbus-protocol.so
--rwxr-xr-x root       root            42844 ./usr/lib/pulseaudio/modules/.debug/module-default-device-restore.so
--rwxr-xr-x root       root            41128 ./usr/lib/pulseaudio/modules/.debug/module-detect.so
+-rwxr-xr-x root       root            42868 ./usr/lib/pulseaudio/modules/.debug/module-default-device-restore.so
+-rwxr-xr-x root       root            41144 ./usr/lib/pulseaudio/modules/.debug/module-detect.so
 -rwxr-xr-x root       root           108236 ./usr/lib/pulseaudio/modules/.debug/module-device-manager.so
 -rwxr-xr-x root       root            93736 ./usr/lib/pulseaudio/modules/.debug/module-device-restore.so
 -rwxr-xr-x root       root           201528 ./usr/lib/pulseaudio/modules/.debug/module-echo-cancel.so
@@ -65,7 +65,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/pulseaudio/modules/.debug
 -rwxr-xr-x root       root            52732 ./usr/lib/pulseaudio/modules/.debug/module-intended-roles.so
 -rwxr-xr-x root       root           112840 ./usr/lib/pulseaudio/modules/.debug/module-ladspa-sink.so
 -rwxr-xr-x root       root           135252 ./usr/lib/pulseaudio/modules/.debug/module-loopback.so
--rwxr-xr-x root       root            48160 ./usr/lib/pulseaudio/modules/.debug/module-match.so
+-rwxr-xr-x root       root            48164 ./usr/lib/pulseaudio/modules/.debug/module-match.so
 -rwxr-xr-x root       root            41084 ./usr/lib/pulseaudio/modules/.debug/module-mmkbd-evdev.so
 -rwxr-xr-x root       root            35140 ./usr/lib/pulseaudio/modules/.debug/module-native-protocol-fd.so
 -rwxr-xr-x root       root            39700 ./usr/lib/pulseaudio/modules/.debug/module-native-protocol-tcp.so
@@ -88,7 +88,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/pulseaudio/modules/.debug
 -rwxr-xr-x root       root            37960 ./usr/lib/pulseaudio/modules/.debug/module-simple-protocol-unix.so
 -rwxr-xr-x root       root            46080 ./usr/lib/pulseaudio/modules/.debug/module-sine.so
 -rwxr-xr-x root       root            53772 ./usr/lib/pulseaudio/modules/.debug/module-sine-source.so
--rwxr-xr-x root       root           143956 ./usr/lib/pulseaudio/modules/.debug/module-stream-restore.so
+-rwxr-xr-x root       root           143964 ./usr/lib/pulseaudio/modules/.debug/module-stream-restore.so
 -rwxr-xr-x root       root            76252 ./usr/lib/pulseaudio/modules/.debug/module-suspend-on-idle.so
 -rwxr-xr-x root       root            42764 ./usr/lib/pulseaudio/modules/.debug/module-switch-on-connect.so
 -rwxr-xr-x root       root            57344 ./usr/lib/pulseaudio/modules/.debug/module-switch-on-port-available.so
@@ -97,7 +97,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/pulseaudio/modules/.debug
 -rwxr-xr-x root       root           137600 ./usr/lib/pulseaudio/modules/.debug/module-tunnel-sink.so
 -rwxr-xr-x root       root            87320 ./usr/lib/pulseaudio/modules/.debug/module-tunnel-source-new.so
 -rwxr-xr-x root       root           128368 ./usr/lib/pulseaudio/modules/.debug/module-tunnel-source.so
--rwxr-xr-x root       root            70512 ./usr/lib/pulseaudio/modules/.debug/module-udev-detect.so
+-rwxr-xr-x root       root            70524 ./usr/lib/pulseaudio/modules/.debug/module-udev-detect.so
 -rwxr-xr-x root       root            82112 ./usr/lib/pulseaudio/modules/.debug/module-virtual-sink.so
 -rwxr-xr-x root       root            79836 ./usr/lib/pulseaudio/modules/.debug/module-virtual-source.so
 -rwxr-xr-x root       root            34432 ./usr/lib/pulseaudio/modules/.debug/module-volume-restore.so

@@ -16,7 +16,7 @@ drwxr-xr-x -          -                4096 ./usr/include/SDL2
 -rw-r--r-- -          -                3205 ./usr/include/SDL2/SDL_bits.h
 -rw-r--r-- -          -                9018 ./usr/include/SDL2/SDL_blendmode.h
 -rw-r--r-- -          -                4307 ./usr/include/SDL2/SDL_clipboard.h
--rw-r--r-- -          -               16333 ./usr/include/SDL2/SDL_config.h
+-rw-r--r-- -          -               16336 ./usr/include/SDL2/SDL_config.h
 -rw-r--r-- -          -                 939 ./usr/include/SDL2/SDL_copying.h
 -rw-r--r-- -          -               17458 ./usr/include/SDL2/SDL_cpuinfo.h
 -rw-r--r-- -          -              108871 ./usr/include/SDL2/SDL_egl.h
@@ -94,7 +94,7 @@ drwxr-xr-x -          -                4096 ./usr/lib/cmake/SDL2
 -rw-r--r-- -          -                1862 ./usr/lib/cmake/SDL2/SDL2ConfigVersion.cmake
 -rw-r--r-- -          -                4006 ./usr/lib/cmake/SDL2/SDL2mainTargets.cmake
 -rw-r--r-- -          -                 813 ./usr/lib/cmake/SDL2/SDL2mainTargets-noconfig.cmake
--rw-r--r-- -          -                4337 ./usr/lib/cmake/SDL2/SDL2staticTargets.cmake
+-rw-r--r-- -          -                4310 ./usr/lib/cmake/SDL2/SDL2staticTargets.cmake
 -rw-r--r-- -          -                 820 ./usr/lib/cmake/SDL2/SDL2staticTargets-noconfig.cmake
 -rw-r--r-- -          -                4059 ./usr/lib/cmake/SDL2/SDL2Targets.cmake
 -rw-r--r-- -          -                 810 ./usr/lib/cmake/SDL2/SDL2Targets-noconfig.cmake
@@ -104,12 +104,12 @@ drwxr-xr-x -          -                4096 ./usr/lib/cmake/SDL2
 -rwxr-xr-x -          -             1671456 ./usr/lib/libSDL2-2.0.so.0.3000.1
 lrwxrwxrwx -          -                  23 ./usr/lib/libSDL2-2.0.so.0 -> libSDL2-2.0.so.0.3000.1
 lrwxrwxrwx -          -                  16 ./usr/lib/libSDL2-2.0.so -> libSDL2-2.0.so.0
--rw-r--r-- -          -             2999796 ./usr/lib/libSDL2.a
+-rw-r--r-- -          -             2994438 ./usr/lib/libSDL2.a
 -rw-r--r-- -          -                1470 ./usr/lib/libSDL2main.a
 lrwxrwxrwx -          -                  14 ./usr/lib/libSDL2.so -> libSDL2-2.0.so
 -rw-r--r-- -          -              309710 ./usr/lib/libSDL2_test.a
 drwxr-xr-x -          -                4096 ./usr/lib/pkgconfig
--rw-r--r-- -          -                 535 ./usr/lib/pkgconfig/sdl2.pc
+-rw-r--r-- -          -                 522 ./usr/lib/pkgconfig/sdl2.pc
 drwxr-xr-x -          -                4096 ./usr/share
 drwxr-xr-x -          -                4096 ./usr/share/aclocal
 -rw-r--r-- -          -                7844 ./usr/share/aclocal/sdl2.m4

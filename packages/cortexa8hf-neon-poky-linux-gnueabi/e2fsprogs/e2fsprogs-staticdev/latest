@@ -1,9 +1,9 @@
 PV = 1.47.0
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = e2fsprogs-dev (= 1.47.0-r0.5)
+RDEPENDS = e2fsprogs-dev (= 1.47.0-r0.6)
 RRECOMMENDS = 
-PKGSIZE = 3168844
+PKGSIZE = 3168888
 FILES = /usr/lib/*.a /usr/lib/*.a /usr/lib/e2fsprogs/*.a
 FILELIST = /usr/lib/libcom_err.a /usr/lib/libe2p.a /usr/lib/libext2fs.a /usr/lib/libss.a

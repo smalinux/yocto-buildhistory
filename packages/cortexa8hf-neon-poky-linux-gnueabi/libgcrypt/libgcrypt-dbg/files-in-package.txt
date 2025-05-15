@@ -2,11 +2,11 @@ drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 drwxr-xr-x root       root             4096 ./usr/bin/.debug
 -rwxr-xr-x root       root            26904 ./usr/bin/.debug/dumpsexp
--rwxr-xr-x root       root            31416 ./usr/bin/.debug/hmac256
+-rwxr-xr-x root       root            31432 ./usr/bin/.debug/hmac256
 -rwxr-xr-x root       root            42412 ./usr/bin/.debug/mpicalc
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
--rwxr-xr-x root       root          3641500 ./usr/lib/.debug/libgcrypt.so.20.4.3
+-rwxr-xr-x root       root          3641864 ./usr/lib/.debug/libgcrypt.so.20.4.3
 drwxr-xr-x root       root             4096 ./usr/lib/libgcrypt
 drwxr-xr-x root       root             4096 ./usr/lib/libgcrypt/ptest
 drwxr-xr-x root       root             4096 ./usr/lib/libgcrypt/ptest/.debug
@@ -27,8 +27,8 @@ drwxr-xr-x root       root             4096 ./usr/lib/libgcrypt/ptest/.debug
 -rwxr-xr-x root       root            55160 ./usr/lib/libgcrypt/ptest/.debug/random
 -rwxr-xr-x root       root            45376 ./usr/lib/libgcrypt/ptest/.debug/t-convert
 -rwxr-xr-x root       root            35548 ./usr/lib/libgcrypt/ptest/.debug/t-cv25519
--rwxr-xr-x root       root            34972 ./usr/lib/libgcrypt/ptest/.debug/t-ed25519
--rwxr-xr-x root       root            35724 ./usr/lib/libgcrypt/ptest/.debug/t-ed448
+-rwxr-xr-x root       root            34980 ./usr/lib/libgcrypt/ptest/.debug/t-ed25519
+-rwxr-xr-x root       root            35728 ./usr/lib/libgcrypt/ptest/.debug/t-ed448
 -rwxr-xr-x root       root            28812 ./usr/lib/libgcrypt/ptest/.debug/testdrv
 -rwxr-xr-x root       root            54620 ./usr/lib/libgcrypt/ptest/.debug/t-kdf
 -rwxr-xr-x root       root            25012 ./usr/lib/libgcrypt/ptest/.debug/t-lock

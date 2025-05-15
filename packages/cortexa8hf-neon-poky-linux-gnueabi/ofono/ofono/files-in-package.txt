@@ -12,7 +12,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/systemd/system
 drwxr-xr-x root       root             4096 ./usr/lib/systemd/system-preset
 -rw-r--r-- root       root               21 ./usr/lib/systemd/system-preset/98-ofono.preset
 drwxr-xr-x root       root             4096 ./usr/sbin
--rwxr-xr-x root       root          1712576 ./usr/sbin/ofonod
+-rwxr-xr-x root       root          1716672 ./usr/sbin/ofonod
 drwxr-xr-x root       root             4096 ./usr/share
 drwxr-xr-x root       root             4096 ./usr/share/ofono
 -rw-r--r-- root       root           158660 ./usr/share/ofono/provision.db

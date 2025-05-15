@@ -9,7 +9,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/python3.12/site-packages/p
 -rw-r--r-- root       root             4009 ./usr/lib/python3.12/site-packages/pkg_resources/extern/__pycache__/__init__.cpython-312.pyc
 -rw-r--r-- root       root           108885 ./usr/lib/python3.12/site-packages/pkg_resources/__init__.py
 drwxr-xr-x root       root             4096 ./usr/lib/python3.12/site-packages/pkg_resources/__pycache__
--rw-r--r-- root       root           145905 ./usr/lib/python3.12/site-packages/pkg_resources/__pycache__/__init__.cpython-312.pyc
+-rw-r--r-- root       root           145895 ./usr/lib/python3.12/site-packages/pkg_resources/__pycache__/__init__.cpython-312.pyc
 drwxr-xr-x root       root             4096 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor
 drwxr-xr-x root       root             4096 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources
 -rw-r--r-- root       root             5140 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources/abc.py
@@ -20,13 +20,13 @@ drwxr-xr-x root       root             4096 ./usr/lib/python3.12/site-packages/p
 -rw-r--r-- root       root              884 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources/_itertools.py
 -rw-r--r-- root       root             3481 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources/_legacy.py
 drwxr-xr-x root       root             4096 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources/__pycache__
--rw-r--r-- root       root             8853 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources/__pycache__/abc.cpython-312.pyc
--rw-r--r-- root       root             9688 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources/__pycache__/_adapters.cpython-312.pyc
--rw-r--r-- root       root             8713 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources/__pycache__/_common.cpython-312.pyc
--rw-r--r-- root       root             4999 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources/__pycache__/_compat.cpython-312.pyc
+-rw-r--r-- root       root             8843 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources/__pycache__/abc.cpython-312.pyc
+-rw-r--r-- root       root             9681 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources/__pycache__/_adapters.cpython-312.pyc
+-rw-r--r-- root       root             8711 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources/__pycache__/_common.cpython-312.pyc
+-rw-r--r-- root       root             4978 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources/__pycache__/_compat.cpython-312.pyc
 -rw-r--r-- root       root              651 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources/__pycache__/__init__.cpython-312.pyc
 -rw-r--r-- root       root             1154 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources/__pycache__/_itertools.cpython-312.pyc
--rw-r--r-- root       root             5781 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources/__pycache__/_legacy.cpython-312.pyc
+-rw-r--r-- root       root             5776 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources/__pycache__/_legacy.cpython-312.pyc
 -rw-r--r-- root       root             7633 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources/__pycache__/readers.cpython-312.pyc
 -rw-r--r-- root       root             5490 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources/__pycache__/simple.cpython-312.pyc
 -rw-r--r-- root       root                0 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/importlib_resources/py.typed
@@ -68,7 +68,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/python3.12/site-packages/p
 drwxr-xr-x root       root             4096 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/packaging/__pycache__
 -rw-r--r-- root       root             5000 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/packaging/__pycache__/_elffile.cpython-312.pyc
 -rw-r--r-- root       root              544 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/packaging/__pycache__/__init__.cpython-312.pyc
--rw-r--r-- root       root             9117 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/packaging/__pycache__/_manylinux.cpython-312.pyc
+-rw-r--r-- root       root             9107 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/packaging/__pycache__/_manylinux.cpython-312.pyc
 -rw-r--r-- root       root            10478 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/packaging/__pycache__/markers.cpython-312.pyc
 -rw-r--r-- root       root             9821 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/packaging/__pycache__/metadata.cpython-312.pyc
 -rw-r--r-- root       root             4394 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/packaging/__pycache__/_musllinux.cpython-312.pyc
@@ -110,6 +110,6 @@ drwxr-xr-x root       root             4096 ./usr/lib/python3.12/site-packages/p
 drwxr-xr-x root       root             4096 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/__pycache__
 -rw-r--r-- root       root              164 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/__pycache__/__init__.cpython-312.pyc
 -rw-r--r-- root       root            89776 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/__pycache__/typing_extensions.cpython-312.pyc
--rw-r--r-- root       root            14827 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/__pycache__/zipp.cpython-312.pyc
+-rw-r--r-- root       root            14807 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/__pycache__/zipp.cpython-312.pyc
 -rw-r--r-- root       root            80078 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/typing_extensions.py
 -rw-r--r-- root       root             8425 ./usr/lib/python3.12/site-packages/pkg_resources/_vendor/zipp.py

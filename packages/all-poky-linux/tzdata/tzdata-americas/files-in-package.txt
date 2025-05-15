@@ -25,7 +25,7 @@ drwxr-xr-x root       root             4096 ./usr/share/zoneinfo/America/Argenti
 -rw-r--r-- root       root              149 ./usr/share/zoneinfo/America/Atikokan
 -rw-r--r-- root       root              969 ./usr/share/zoneinfo/America/Atka
 -rw-r--r-- root       root              682 ./usr/share/zoneinfo/America/Bahia
--rw-r--r-- root       root              728 ./usr/share/zoneinfo/America/Bahia_Banderas
+-rw-r--r-- root       root              700 ./usr/share/zoneinfo/America/Bahia_Banderas
 -rw-r--r-- root       root              278 ./usr/share/zoneinfo/America/Barbados
 -rw-r--r-- root       root              394 ./usr/share/zoneinfo/America/Belem
 -rw-r--r-- root       root             1045 ./usr/share/zoneinfo/America/Belize
@@ -36,7 +36,7 @@ drwxr-xr-x root       root             4096 ./usr/share/zoneinfo/America/Argenti
 -rw-r--r-- root       root              708 ./usr/share/zoneinfo/America/Buenos_Aires
 -rw-r--r-- root       root              883 ./usr/share/zoneinfo/America/Cambridge_Bay
 -rw-r--r-- root       root              952 ./usr/share/zoneinfo/America/Campo_Grande
--rw-r--r-- root       root              529 ./usr/share/zoneinfo/America/Cancun
+-rw-r--r-- root       root              538 ./usr/share/zoneinfo/America/Cancun
 -rw-r--r-- root       root              708 ./usr/share/zoneinfo/America/Catamarca
 -rw-r--r-- root       root              151 ./usr/share/zoneinfo/America/Cayenne
 -rw-r--r-- root       root              149 ./usr/share/zoneinfo/America/Cayman
@@ -56,7 +56,7 @@ drwxr-xr-x root       root             4096 ./usr/share/zoneinfo/America/Argenti
 -rw-r--r-- root       root              970 ./usr/share/zoneinfo/America/Edmonton
 -rw-r--r-- root       root              436 ./usr/share/zoneinfo/America/Eirunepe
 -rw-r--r-- root       root              176 ./usr/share/zoneinfo/America/El_Salvador
--rw-r--r-- root       root             1025 ./usr/share/zoneinfo/America/Ensenada
+-rw-r--r-- root       root             1079 ./usr/share/zoneinfo/America/Ensenada
 -rw-r--r-- root       root              484 ./usr/share/zoneinfo/America/Fortaleza
 -rw-r--r-- root       root             1448 ./usr/share/zoneinfo/America/Fort_Nelson
 -rw-r--r-- root       root              531 ./usr/share/zoneinfo/America/Fort_Wayne
@@ -71,7 +71,7 @@ drwxr-xr-x root       root             4096 ./usr/share/zoneinfo/America/Argenti
 -rw-r--r-- root       root              181 ./usr/share/zoneinfo/America/Guyana
 -rw-r--r-- root       root             1672 ./usr/share/zoneinfo/America/Halifax
 -rw-r--r-- root       root             1117 ./usr/share/zoneinfo/America/Havana
--rw-r--r-- root       root              286 ./usr/share/zoneinfo/America/Hermosillo
+-rw-r--r-- root       root              258 ./usr/share/zoneinfo/America/Hermosillo
 drwxr-xr-x root       root             4096 ./usr/share/zoneinfo/America/Indiana
 -rw-r--r-- root       root              531 ./usr/share/zoneinfo/America/Indiana/Indianapolis
 -rw-r--r-- root       root             1016 ./usr/share/zoneinfo/America/Indiana/Knox
@@ -102,7 +102,7 @@ drwxr-xr-x root       root             4096 ./usr/share/zoneinfo/America/Kentuck
 -rw-r--r-- root       root              177 ./usr/share/zoneinfo/America/Marigot
 -rw-r--r-- root       root              178 ./usr/share/zoneinfo/America/Martinique
 -rw-r--r-- root       root              437 ./usr/share/zoneinfo/America/Matamoros
--rw-r--r-- root       root              718 ./usr/share/zoneinfo/America/Mazatlan
+-rw-r--r-- root       root              690 ./usr/share/zoneinfo/America/Mazatlan
 -rw-r--r-- root       root              708 ./usr/share/zoneinfo/America/Mendoza
 -rw-r--r-- root       root              917 ./usr/share/zoneinfo/America/Menominee
 -rw-r--r-- root       root              654 ./usr/share/zoneinfo/America/Merida
@@ -110,7 +110,7 @@ drwxr-xr-x root       root             4096 ./usr/share/zoneinfo/America/Kentuck
 -rw-r--r-- root       root              773 ./usr/share/zoneinfo/America/Mexico_City
 -rw-r--r-- root       root              550 ./usr/share/zoneinfo/America/Miquelon
 -rw-r--r-- root       root             1493 ./usr/share/zoneinfo/America/Moncton
--rw-r--r-- root       root              644 ./usr/share/zoneinfo/America/Monterrey
+-rw-r--r-- root       root              709 ./usr/share/zoneinfo/America/Monterrey
 -rw-r--r-- root       root              969 ./usr/share/zoneinfo/America/Montevideo
 -rw-r--r-- root       root             1717 ./usr/share/zoneinfo/America/Montreal
 -rw-r--r-- root       root              177 ./usr/share/zoneinfo/America/Montserrat
@@ -141,7 +141,7 @@ drwxr-xr-x root       root             4096 ./usr/share/zoneinfo/America/North_D
 -rw-r--r-- root       root              807 ./usr/share/zoneinfo/America/Resolute
 -rw-r--r-- root       root              418 ./usr/share/zoneinfo/America/Rio_Branco
 -rw-r--r-- root       root              708 ./usr/share/zoneinfo/America/Rosario
--rw-r--r-- root       root             1025 ./usr/share/zoneinfo/America/Santa_Isabel
+-rw-r--r-- root       root             1079 ./usr/share/zoneinfo/America/Santa_Isabel
 -rw-r--r-- root       root              409 ./usr/share/zoneinfo/America/Santarem
 -rw-r--r-- root       root             1354 ./usr/share/zoneinfo/America/Santiago
 -rw-r--r-- root       root              317 ./usr/share/zoneinfo/America/Santo_Domingo
@@ -158,7 +158,7 @@ drwxr-xr-x root       root             4096 ./usr/share/zoneinfo/America/North_D
 -rw-r--r-- root       root              194 ./usr/share/zoneinfo/America/Tegucigalpa
 -rw-r--r-- root       root              455 ./usr/share/zoneinfo/America/Thule
 -rw-r--r-- root       root             1717 ./usr/share/zoneinfo/America/Thunder_Bay
--rw-r--r-- root       root             1025 ./usr/share/zoneinfo/America/Tijuana
+-rw-r--r-- root       root             1079 ./usr/share/zoneinfo/America/Tijuana
 -rw-r--r-- root       root             1717 ./usr/share/zoneinfo/America/Toronto
 -rw-r--r-- root       root              177 ./usr/share/zoneinfo/America/Tortola
 -rw-r--r-- root       root             1330 ./usr/share/zoneinfo/America/Vancouver
@@ -185,8 +185,8 @@ drwxr-xr-x root       root             4096 ./usr/share/zoneinfo/Chile
 -rw-r--r-- root       root             1354 ./usr/share/zoneinfo/Chile/Continental
 -rw-r--r-- root       root             1174 ./usr/share/zoneinfo/Chile/EasterIsland
 drwxr-xr-x root       root             4096 ./usr/share/zoneinfo/Mexico
--rw-r--r-- root       root             1025 ./usr/share/zoneinfo/Mexico/BajaNorte
--rw-r--r-- root       root              718 ./usr/share/zoneinfo/Mexico/BajaSur
+-rw-r--r-- root       root             1079 ./usr/share/zoneinfo/Mexico/BajaNorte
+-rw-r--r-- root       root              690 ./usr/share/zoneinfo/Mexico/BajaSur
 -rw-r--r-- root       root              773 ./usr/share/zoneinfo/Mexico/General
 drwxr-xr-x root       root             4096 ./usr/share/zoneinfo/US
 -rw-r--r-- root       root              977 ./usr/share/zoneinfo/US/Alaska

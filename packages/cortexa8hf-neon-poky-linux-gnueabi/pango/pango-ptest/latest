@@ -1,8 +1,8 @@
 PV = 1.52.1
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = cairo (>= 1.18.0) cantarell-fonts fontconfig (>= 2.15.0) glib-2.0 (>= 2.78.6) glibc (>= 2.39+git2+e8f5217097) gnome-desktop-testing harfbuzz (>= 8.3.0) locale-base-en-us pango (>= 1.52.1)
+RDEPENDS = cairo (>= 1.18.0) cantarell-fonts fontconfig (>= 2.15.0) glib-2.0 (>= 2.78.6) glibc (>= 2.39+git3+662516aca8) gnome-desktop-testing harfbuzz (>= 8.3.0) locale-base-en-us pango (>= 1.52.1)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 3974197
 FILES = /usr/lib/pango/ptest /usr/libexec/installed-tests/ /usr/share/installed-tests/

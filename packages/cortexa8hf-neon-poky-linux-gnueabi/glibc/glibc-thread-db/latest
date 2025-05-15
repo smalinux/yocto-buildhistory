@@ -1,10 +1,10 @@
 PV = 2.39+git
 PR = r0
 PKG = libc6-thread-db
-PKGV = 2.39+git2+e8f5217097
-PKGR = r0.8
-RPROVIDES = eglibc-thread-db glibc-thread-db (=2.39+git2+e8f5217097)
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097)
+PKGV = 2.39+git3+662516aca8
+PKGR = r0.9
+RPROVIDES = eglibc-thread-db glibc-thread-db (=2.39+git3+662516aca8)
+RDEPENDS = glibc (>= 2.39+git3+662516aca8)
 RRECOMMENDS = 
 PKGSIZE = 34436
 FILES = /usr/lib/libthread_db.so.* /usr/lib/libthread_db-*.so

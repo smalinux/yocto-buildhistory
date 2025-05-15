@@ -1,9 +1,9 @@
-PV = 3.2.3
+PV = 3.2.4
 PR = r0
-PKGR = r0.5
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097) libcrypto (>= 3.2.3) libssl (>= 3.2.3) openssl-conf
+RDEPENDS = glibc (>= 2.39+git3+662516aca8) libcrypto (>= 3.2.4) libssl (>= 3.2.4) openssl-conf
 RRECOMMENDS = 
-PKGSIZE = 834848
+PKGSIZE = 838960
 FILES = /usr/bin/* /usr/sbin/*
 FILELIST = /usr/bin/openssl

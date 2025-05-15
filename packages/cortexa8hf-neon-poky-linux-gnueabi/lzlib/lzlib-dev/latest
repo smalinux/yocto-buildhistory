@@ -1,10 +1,10 @@
 PV = 1.14
 PR = r0
 PKG = liblz-dev
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = lzlib-dev (=1.14)
 RDEPENDS = lzlib
-RRECOMMENDS = glibc-dev lzlib (= 1.14-r0.5)
+RRECOMMENDS = glibc-dev lzlib (= 1.14-r0.6)
 PKGSIZE = 4659
 FILES = /usr/include /usr/lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /usr/lib/*.o /usr/lib/lzlib/*.la /usr/lib/*.la /usr/lib/cmake /usr/share/cmake
 FILELIST = /usr/include/lzlib.h /usr/lib/liblz.so

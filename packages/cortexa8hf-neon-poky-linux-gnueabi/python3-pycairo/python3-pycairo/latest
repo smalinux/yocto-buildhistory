@@ -1,8 +1,8 @@
 PV = 1.26.0
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = cairo (>= 1.18.0) glibc (>= 2.39+git2+e8f5217097)
+RDEPENDS = cairo (>= 1.18.0) glibc (>= 2.39+git3+662516aca8)
 RRECOMMENDS = 
 PKGSIZE = 405323
 FILES = /usr/lib/python3.12/site-packages/*

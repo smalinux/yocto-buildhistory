@@ -2,9 +2,9 @@ PE = 1
 PV = 3.9.0
 PR = r0
 PKG = libnl-3-ptest
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = libnl-ptest (=3.9.0)
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097) libcheck (>= 0.15.2) libnl (>= 3.9.0) libnl-route (>= 3.9.0)
+RDEPENDS = glibc (>= 2.39+git3+662516aca8) libcheck (>= 0.15.2) libnl (>= 3.9.0) libnl-route (>= 3.9.0)
 RRECOMMENDS = kernel-module-bonding kernel-module-dummy ptest-runner
 PKGSIZE = 63050
 FILES = /usr/lib/libnl/ptest

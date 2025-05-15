@@ -5,12 +5,12 @@ drwxr-xr-x root       root             4096 ./usr/share/zsh/site-functions
 -rw-r--r-- root       root             3116 ./usr/share/zsh/site-functions/_bootctl
 -rw-r--r-- root       root             9659 ./usr/share/zsh/site-functions/_busctl
 -rw-r--r-- root       root             2793 ./usr/share/zsh/site-functions/_hostnamectl
--rw-r--r-- root       root             7194 ./usr/share/zsh/site-functions/_journalctl
+-rw-r--r-- root       root             7370 ./usr/share/zsh/site-functions/_journalctl
 -rw-r--r-- root       root              779 ./usr/share/zsh/site-functions/_kernel-install
 -rw-r--r-- root       root             3777 ./usr/share/zsh/site-functions/_localectl
 -rw-r--r-- root       root             6400 ./usr/share/zsh/site-functions/_loginctl
 -rw-r--r-- root       root             4360 ./usr/share/zsh/site-functions/_machinectl
--rw-r--r-- root       root             2426 ./usr/share/zsh/site-functions/_networkctl
+-rw-r--r-- root       root             2419 ./usr/share/zsh/site-functions/_networkctl
 -rw-r--r-- root       root             3798 ./usr/share/zsh/site-functions/_resolvectl
 -rw-r--r-- root       root              128 ./usr/share/zsh/site-functions/_sd_hosts_or_user_at_host
 -rw-r--r-- root       root              505 ./usr/share/zsh/site-functions/_sd_machines
@@ -26,4 +26,5 @@ drwxr-xr-x root       root             4096 ./usr/share/zsh/site-functions
 -rw-r--r-- root       root             4356 ./usr/share/zsh/site-functions/_systemd-run
 -rw-r--r-- root       root              744 ./usr/share/zsh/site-functions/_systemd-tmpfiles
 -rw-r--r-- root       root             2170 ./usr/share/zsh/site-functions/_timedatectl
--rw-r--r-- root       root             8717 ./usr/share/zsh/site-functions/_udevadm
+-rw-r--r-- root       root             8718 ./usr/share/zsh/site-functions/_udevadm
+-rw-r--r-- root       root             1862 ./usr/share/zsh/site-functions/_varlinkctl

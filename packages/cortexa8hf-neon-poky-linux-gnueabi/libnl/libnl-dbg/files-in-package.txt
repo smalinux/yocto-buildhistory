@@ -31,7 +31,7 @@ drwxr-xr-x root       root             4096 ./usr/bin/.debug
 -rwxr-xr-x root       root            16460 ./usr/bin/.debug/nl-link-set
 -rwxr-xr-x root       root            17392 ./usr/bin/.debug/nl-link-stats
 -rwxr-xr-x root       root            17840 ./usr/bin/.debug/nl-list-caches
--rwxr-xr-x root       root            11700 ./usr/bin/.debug/nl-list-sockets
+-rwxr-xr-x root       root            11708 ./usr/bin/.debug/nl-list-sockets
 -rwxr-xr-x root       root            18820 ./usr/bin/.debug/nl-monitor
 -rwxr-xr-x root       root            14828 ./usr/bin/.debug/nl-neigh-add
 -rwxr-xr-x root       root            15888 ./usr/bin/.debug/nl-neigh-delete
@@ -51,12 +51,12 @@ drwxr-xr-x root       root             4096 ./usr/bin/.debug
 -rwxr-xr-x root       root            10980 ./usr/bin/.debug/nl-util-addr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
--rwxr-xr-x root       root           354356 ./usr/lib/.debug/libnl-3.so.200.26.0
--rwxr-xr-x root       root            95224 ./usr/lib/.debug/libnl-cli-3.so.200.26.0
+-rwxr-xr-x root       root           354364 ./usr/lib/.debug/libnl-3.so.200.26.0
+-rwxr-xr-x root       root            95248 ./usr/lib/.debug/libnl-cli-3.so.200.26.0
 -rwxr-xr-x root       root            70976 ./usr/lib/.debug/libnl-genl-3.so.200.26.0
 -rwxr-xr-x root       root            74416 ./usr/lib/.debug/libnl-idiag-3.so.200.26.0
 -rwxr-xr-x root       root           263788 ./usr/lib/.debug/libnl-nf-3.so.200.26.0
--rwxr-xr-x root       root          1912444 ./usr/lib/.debug/libnl-route-3.so.200.26.0
+-rwxr-xr-x root       root          1912448 ./usr/lib/.debug/libnl-route-3.so.200.26.0
 -rwxr-xr-x root       root           201084 ./usr/lib/.debug/libnl-xfrm-3.so.200.26.0
 drwxr-xr-x root       root             4096 ./usr/lib/libnl
 drwxr-xr-x root       root             4096 ./usr/lib/libnl/cli

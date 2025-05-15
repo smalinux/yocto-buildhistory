@@ -10,11 +10,11 @@ drwxr-xr-x root       root             4096 ./usr/bin/.debug
 -rwxr-xr-x root       root            27868 ./usr/bin/.debug/kbd_mode
 -rwxr-xr-x root       root            27288 ./usr/bin/.debug/kbdrate
 -rwxr-xr-x root       root           223776 ./usr/bin/.debug/loadkeys
--rwxr-xr-x root       root           101644 ./usr/bin/.debug/loadunimap
--rwxr-xr-x root       root            76988 ./usr/bin/.debug/mapscrn
+-rwxr-xr-x root       root           101640 ./usr/bin/.debug/loadunimap
+-rwxr-xr-x root       root            76992 ./usr/bin/.debug/mapscrn
 -rwxr-xr-x root       root            43660 ./usr/bin/.debug/openvt.kbd
--rwxr-xr-x root       root            64212 ./usr/bin/.debug/psfxtable
--rwxr-xr-x root       root           149616 ./usr/bin/.debug/setfont
+-rwxr-xr-x root       root            64228 ./usr/bin/.debug/psfxtable
+-rwxr-xr-x root       root           149608 ./usr/bin/.debug/setfont
 -rwxr-xr-x root       root            27092 ./usr/bin/.debug/setkeycodes
 -rwxr-xr-x root       root            26320 ./usr/bin/.debug/setleds
 -rwxr-xr-x root       root            28080 ./usr/bin/.debug/setmetamode

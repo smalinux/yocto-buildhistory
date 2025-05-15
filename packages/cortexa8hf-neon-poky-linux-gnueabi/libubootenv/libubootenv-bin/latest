@@ -1,8 +1,8 @@
 PV = 0.3.5
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = u-boot-fw-utils
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097) libubootenv (>= 0.3.5)
+RDEPENDS = glibc (>= 2.39+git3+662516aca8) libubootenv (>= 0.3.5)
 RRECOMMENDS = 
 PKGSIZE = 9743
 FILES = /usr/bin/* /usr/sbin/*

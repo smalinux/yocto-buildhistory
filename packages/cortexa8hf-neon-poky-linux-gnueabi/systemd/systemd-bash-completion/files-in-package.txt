@@ -9,9 +9,9 @@ drwxr-xr-x root       root             4096 ./usr/share/bash-completion/completi
 -rw-r--r-- root       root             1688 ./usr/share/bash-completion/completions/kernel-install
 -rw-r--r-- root       root             3326 ./usr/share/bash-completion/completions/localectl
 -rw-r--r-- root       root             4147 ./usr/share/bash-completion/completions/loginctl
--rw-r--r-- root       root             3844 ./usr/share/bash-completion/completions/machinectl
+-rw-r--r-- root       root             3969 ./usr/share/bash-completion/completions/machinectl
 -rw-r--r-- root       root             2530 ./usr/share/bash-completion/completions/networkctl
--rw-r--r-- root       root             6603 ./usr/share/bash-completion/completions/resolvectl
+-rw-r--r-- root       root             6688 ./usr/share/bash-completion/completions/resolvectl
 -rw-r--r-- root       root            16095 ./usr/share/bash-completion/completions/systemctl
 -rw-r--r-- root       root             7181 ./usr/share/bash-completion/completions/systemd-analyze
 -rw-r--r-- root       root             1719 ./usr/share/bash-completion/completions/systemd-cat

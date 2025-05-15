@@ -22,9 +22,9 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/ofono/2.4/drivers/at
 -rw-r--r-- root       root             1141 ./usr/src/debug/ofono/2.4/drivers/atmodem/network-registration.h
 -rw-r--r-- root       root            13918 ./usr/src/debug/ofono/2.4/drivers/atmodem/phonebook.c
 -rw-r--r-- root       root            51280 ./usr/src/debug/ofono/2.4/drivers/atmodem/sim.c
--rw-r--r-- root       root            31325 ./usr/src/debug/ofono/2.4/drivers/atmodem/sms.c
+-rw-r--r-- root       root            31343 ./usr/src/debug/ofono/2.4/drivers/atmodem/sms.c
 -rw-r--r-- root       root             5974 ./usr/src/debug/ofono/2.4/drivers/atmodem/stk.c
--rw-r--r-- root       root             7687 ./usr/src/debug/ofono/2.4/drivers/atmodem/ussd.c
+-rw-r--r-- root       root             7746 ./usr/src/debug/ofono/2.4/drivers/atmodem/ussd.c
 -rw-r--r-- root       root             1496 ./usr/src/debug/ofono/2.4/drivers/atmodem/vendor.h
 -rw-r--r-- root       root            29370 ./usr/src/debug/ofono/2.4/drivers/atmodem/voicecall.c
 drwxr-xr-x root       root             4096 ./usr/src/debug/ofono/2.4/drivers/calypsomodem
@@ -55,7 +55,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/ofono/2.4/drivers/hu
 -rw-r--r-- root       root             3028 ./usr/src/debug/ofono/2.4/drivers/huaweimodem/audio-settings.c
 -rw-r--r-- root       root             8023 ./usr/src/debug/ofono/2.4/drivers/huaweimodem/gprs-context.c
 -rw-r--r-- root       root            14565 ./usr/src/debug/ofono/2.4/drivers/huaweimodem/radio-settings.c
--rw-r--r-- root       root             5007 ./usr/src/debug/ofono/2.4/drivers/huaweimodem/ussd.c
+-rw-r--r-- root       root             5066 ./usr/src/debug/ofono/2.4/drivers/huaweimodem/ussd.c
 -rw-r--r-- root       root            12361 ./usr/src/debug/ofono/2.4/drivers/huaweimodem/voicecall.c
 drwxr-xr-x root       root             4096 ./usr/src/debug/ofono/2.4/drivers/iceramodem
 -rw-r--r-- root       root             9907 ./usr/src/debug/ofono/2.4/drivers/iceramodem/gprs-context.c
@@ -175,7 +175,7 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/ofono/2.4/drivers/ri
 -rw-r--r-- root       root            22332 ./usr/src/debug/ofono/2.4/drivers/rilmodem/voicecall.c
 -rw-r--r-- root       root             2558 ./usr/src/debug/ofono/2.4/drivers/rilmodem/voicecall.h
 drwxr-xr-x root       root             4096 ./usr/src/debug/ofono/2.4/drivers/speedupmodem
--rw-r--r-- root       root             5016 ./usr/src/debug/ofono/2.4/drivers/speedupmodem/ussd.c
+-rw-r--r-- root       root             5075 ./usr/src/debug/ofono/2.4/drivers/speedupmodem/ussd.c
 drwxr-xr-x root       root             4096 ./usr/src/debug/ofono/2.4/drivers/stemodem
 -rw-r--r-- root       root             7334 ./usr/src/debug/ofono/2.4/drivers/stemodem/caif_rtnl.c
 -rw-r--r-- root       root             1085 ./usr/src/debug/ofono/2.4/drivers/stemodem/caif_rtnl.h
@@ -431,12 +431,12 @@ drwxr-xr-x root       root             4096 ./usr/src/debug/ofono/2.4/src
 -rw-r--r-- root       root             7576 ./usr/src/debug/ofono/2.4/src/smsagent.c
 -rw-r--r-- root       root             1705 ./usr/src/debug/ofono/2.4/src/smsagent.h
 -rw-r--r-- root       root            50859 ./usr/src/debug/ofono/2.4/src/sms.c
--rw-r--r-- root       root           102982 ./usr/src/debug/ofono/2.4/src/smsutil.c
+-rw-r--r-- root       root           103277 ./usr/src/debug/ofono/2.4/src/smsutil.c
 -rw-r--r-- root       root            16480 ./usr/src/debug/ofono/2.4/src/smsutil.h
 -rw-r--r-- root       root            32284 ./usr/src/debug/ofono/2.4/src/stkagent.c
 -rw-r--r-- root       root             5553 ./usr/src/debug/ofono/2.4/src/stkagent.h
 -rw-r--r-- root       root            78763 ./usr/src/debug/ofono/2.4/src/stk.c
--rw-r--r-- root       root           174063 ./usr/src/debug/ofono/2.4/src/stkutil.c
+-rw-r--r-- root       root           174251 ./usr/src/debug/ofono/2.4/src/stkutil.c
 -rw-r--r-- root       root            52557 ./usr/src/debug/ofono/2.4/src/stkutil.h
 -rw-r--r-- root       root             4019 ./usr/src/debug/ofono/2.4/src/storage.c
 -rw-r--r-- root       root             1392 ./usr/src/debug/ofono/2.4/src/storage.h

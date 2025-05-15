@@ -1,8 +1,8 @@
 PV = 17.0
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097) libpulse (>= 17.0) libpulsecommon (>= 17.0) libsndfile1 (>= 1.2.2) libxcb (>= 1.16) pulseaudio-module-cli-protocol-unix
+RDEPENDS = glibc (>= 2.39+git3+662516aca8) libpulse (>= 17.0) libpulsecommon (>= 17.0) libsndfile1 (>= 1.2.2) libxcb (>= 1.16) pulseaudio-module-cli-protocol-unix
 RRECOMMENDS = 
 PKGSIZE = 124033
 FILES = /usr/bin/* /usr/lib/pulseaudio/libpulsedsp.so

@@ -1,10 +1,10 @@
-PV = 2.6.3
+PV = 2.6.4
 PR = r0
 PKG = libexpat-ptest
-PKGR = r0.3
-RPROVIDES = expat-ptest (=2.6.3)
-RDEPENDS = bash expat (>= 2.6.3) glibc (>= 2.39+git2+e8f5217097) libgcc (>= 13.3.0)
+PKGR = r0.1
+RPROVIDES = expat-ptest (=2.6.4)
+RDEPENDS = bash expat (>= 2.6.4) glibc (>= 2.39+git3+662516aca8) libgcc (>= 13.3.0)
 RRECOMMENDS = ptest-runner
-PKGSIZE = 907724
+PKGSIZE = 911820
 FILES = /usr/lib/expat/ptest
 FILELIST = /usr/lib/expat/ptest/benchmark /usr/lib/expat/ptest/run-ptest /usr/lib/expat/ptest/runtests /usr/lib/expat/ptest/runtests_cxx

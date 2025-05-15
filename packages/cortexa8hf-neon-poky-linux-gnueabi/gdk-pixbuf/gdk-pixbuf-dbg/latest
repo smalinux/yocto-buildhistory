@@ -1,10 +1,10 @@
 PV = 2.42.12
 PR = r0
 PKG = libgdk-pixbuf-2.0-dbg
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = gdk-pixbuf-dbg (=2.42.12)
 RDEPENDS = 
 RRECOMMENDS = glib-2.0-dbg glibc-dbg libjpeg-turbo-dbg libpng-dbg
-PKGSIZE = 1324540
+PKGSIZE = 1324552
 FILES = /usr/lib/debug /usr/lib/debug-static /usr/src/debug
 FILELIST = /usr/bin/.debug/gdk-pixbuf-csource /usr/bin/.debug/gdk-pixbuf-pixdata /usr/bin/.debug/gdk-pixbuf-query-loaders /usr/lib/.debug/libgdk_pixbuf-2.0.so.0.4200.12 /usr/lib/gdk-pixbuf-2.0/.debug/gdk-pixbuf-query-loaders /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/.debug/libpixbufloader-gif.so /usr/libexec/installed-tests/gdk-pixbuf/.debug/pixbuf-composite /usr/libexec/installed-tests/gdk-pixbuf/.debug/pixbuf-construction /usr/libexec/installed-tests/gdk-pixbuf/.debug/pixbuf-dpi /usr/libexec/installed-tests/gdk-pixbuf/.debug/pixbuf-fail /usr/libexec/installed-tests/gdk-pixbuf/.debug/pixbuf-gif /usr/libexec/installed-tests/gdk-pixbuf/.debug/pixbuf-gif-circular-table /usr/libexec/installed-tests/gdk-pixbuf/.debug/pixbuf-icc /usr/libexec/installed-tests/gdk-pixbuf/.debug/pixbuf-icon-serialize /usr/libexec/installed-tests/gdk-pixbuf/.debug/pixbuf-jpeg /usr/libexec/installed-tests/gdk-pixbuf/.debug/pixbuf-randomly-modified /usr/libexec/installed-tests/gdk-pixbuf/.debug/pixbuf-readonly-to-mutable /usr/libexec/installed-tests/gdk-pixbuf/.debug/pixbuf-reftest /usr/libexec/installed-tests/gdk-pixbuf/.debug/pixbuf-save /usr/libexec/installed-tests/gdk-pixbuf/.debug/pixbuf-scale /usr/libexec/installed-tests/gdk-pixbuf/.debug/pixbuf-scale-two-step /usr/libexec/installed-tests/gdk-pixbuf/.debug/pixbuf-short-gif-write /usr/libexec/installed-tests/gdk-pixbuf/.debug/pixbuf-stream /usr/libexec/installed-tests/gdk-pixbuf/.debug/pixbuf-threads

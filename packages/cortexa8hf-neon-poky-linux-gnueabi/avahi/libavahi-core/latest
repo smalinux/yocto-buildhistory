@@ -1,9 +1,9 @@
 PV = 0.8
 PR = r0
 PKG = libavahi-core7
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = libavahi-core (=0.8)
-RDEPENDS = glibc (>= 2.39+git2+e8f5217097) libavahi-common (>= 0.8)
+RDEPENDS = glibc (>= 2.39+git3+662516aca8) libavahi-common (>= 0.8)
 RRECOMMENDS = 
 PKGSIZE = 202098
 FILES = /usr/lib/libavahi-core.so.* /usr/lib/girepository-1.0/AvahiCore*.typelib

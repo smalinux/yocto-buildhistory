@@ -98,8 +98,6 @@ digraph depends {
 "caps" -> "libc6"
 "caps" -> "libgcc1"
 "caps" -> "libstdc++6"
-"curl" -> "libc6"
-"curl" -> "libcurl4"
 "dbus-1" -> "dbus-common"
 "dbus-1" -> "dbus-tools"
 "dbus-1" -> "libc6"

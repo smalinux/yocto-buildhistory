@@ -577,7 +577,6 @@ lrwxrwxrwx root       root               23 ./usr/bin/cpio -> /usr/bin/busybox.n
 lrwxrwxrwx root       root               23 ./usr/bin/cp -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root               23 ./usr/bin/crc32 -> /usr/bin/busybox.nosuid
 -rwxr-xr-x root       root             9600 ./usr/bin/cspctl
--rwxr-xr-x root       root           153096 ./usr/bin/curl
 lrwxrwxrwx root       root               23 ./usr/bin/cut -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root               23 ./usr/bin/date -> /usr/bin/busybox.nosuid
 -rwxr-xr-x root       root             9616 ./usr/bin/dbus-cleanup-sockets
@@ -9773,8 +9772,6 @@ drwxr-xr-x root       root           122880 ./var/lib/opkg/info
 -rwxr-xr-x root       root               59 ./var/lib/opkg/info/ca-certificates.postinst
 -rw-r--r-- root       root              425 ./var/lib/opkg/info/caps.control
 -rw-r--r-- root       root               83 ./var/lib/opkg/info/caps.list
--rw-r--r-- root       root              657 ./var/lib/opkg/info/curl.control
--rw-r--r-- root       root               50 ./var/lib/opkg/info/curl.list
 -rw-r--r-- root       root              844 ./var/lib/opkg/info/dbus-1.control
 -rw-r--r-- root       root              535 ./var/lib/opkg/info/dbus-1.list
 -rwxr-xr-x root       root              306 ./var/lib/opkg/info/dbus-1.postinst
@@ -11438,7 +11435,7 @@ drwxr-xr-x root       root           122880 ./var/lib/opkg/info
 -rw-r--r-- root       root              766 ./var/lib/opkg/info/wayland.control
 -rw-r--r-- root       root              593 ./var/lib/opkg/info/wayland.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/wayland.postinst
--rw-r--r-- root       root           155284 ./var/lib/opkg/status
+-rw-r--r-- root       root           155097 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/local
 lrwxrwxrwx root       root               11 ./var/lock -> ../run/lock

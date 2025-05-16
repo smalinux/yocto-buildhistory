@@ -32,6 +32,7 @@ busybox-syslog_1.36.1-r0.9_cortexa8hf-neon.ipk
 busybox-udhcpc_1.36.1-r0.9_cortexa8hf-neon.ipk
 ca-certificates_20211016-r0.3_all.ipk
 caps_0.9.26-r0.1_cortexa8hf-neon.ipk
+curl_8.7.1-r0.14_cortexa8hf-neon.ipk
 dbus-1_1.14.10-r0.7_cortexa8hf-neon.ipk
 dbus-common_1.14.10-r0.7_cortexa8hf-neon.ipk
 dbus-tools_1.14.10-r0.7_cortexa8hf-neon.ipk

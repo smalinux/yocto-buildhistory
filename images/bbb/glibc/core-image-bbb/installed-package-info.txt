@@ -131,6 +131,7 @@ libopkg1 libopkg opkg 0.6.3 159
 python3-difflib python3-difflib python3 3.12.9 155
 liblzma5 liblzma xz 5.4.6 153
 kernel-6.13.1-dirty kernel-base linux-stable 6.13.1 150
+curl curl curl 8.7.1 150
 libnghttp2-14 libnghttp2 nghttp2 1.61.0 149
 python3-profile python3-profile python3 3.12.9 147
 alsa-conf alsa-conf alsa-lib 1.2.11 147

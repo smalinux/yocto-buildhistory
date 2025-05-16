@@ -76,6 +76,7 @@ digraph depends {
 "ca-certificates" -> "openssl"
 "ca-certificates" -> "openssl-bin"
 "caps" -> "libstdc++6"
+"curl" -> "libcurl4"
 "dbus-1" -> "dbus-common"
 "dbus-1" -> "dbus-tools"
 "dbus-1" -> "libdbus-1-3"

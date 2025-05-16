@@ -131,6 +131,7 @@
 155	KiB	python3-difflib
 153	KiB	liblzma5
 150	KiB	kernel-6.13.1-dirty
+150	KiB	curl
 149	KiB	libnghttp2-14
 147	KiB	python3-profile
 147	KiB	alsa-conf

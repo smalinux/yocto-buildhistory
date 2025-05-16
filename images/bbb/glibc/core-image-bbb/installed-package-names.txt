@@ -32,7 +32,6 @@ busybox-syslog
 busybox-udhcpc
 ca-certificates
 caps
-curl
 dbus-1
 dbus-common
 dbus-tools

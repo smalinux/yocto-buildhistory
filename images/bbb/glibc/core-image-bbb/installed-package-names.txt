@@ -35,6 +35,7 @@ caps
 dbus-1
 dbus-common
 dbus-tools
+dtc
 e2fsprogs-e2fsck
 fontconfig-utils
 glibc-gconv

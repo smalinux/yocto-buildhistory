@@ -107,6 +107,7 @@ python3-debugger python3-debugger python3 3.12.9 223
 libsmartcols1 util-linux-libsmartcols util-linux 2.39.3 221
 python3-html python3-html python3 3.12.9 211
 python3-doctest python3-doctest python3 3.12.9 207
+dtc dtc dtc 1.7.0 204
 ca-certificates ca-certificates ca-certificates 20211016 202
 python3-datetime python3-datetime python3 3.12.9 201
 libcrypt2 libxcrypt libxcrypt 4.4.36 201

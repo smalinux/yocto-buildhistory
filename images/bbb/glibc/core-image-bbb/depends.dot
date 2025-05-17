@@ -110,6 +110,7 @@ digraph depends {
 "dbus-common" -> "shadow"
 "dbus-tools" -> "libc6"
 "dbus-tools" -> "libdbus-1-3"
+"dtc" -> "libc6"
 "e2fsprogs-e2fsck" -> "libblkid1"
 "e2fsprogs-e2fsck" -> "libc6"
 "e2fsprogs-e2fsck" -> "libcom-err2"

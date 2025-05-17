@@ -84,7 +84,7 @@ drwxr-xr-x root       root             4096 ./etc/hotplug/usb
 -rwxr-xr-x root       root              414 ./etc/hotplug/usb/tascam_fw.usermap
 -rw-r--r-- root       root               51 ./etc/issue
 -rw-r--r-- root       root               48 ./etc/issue.net
--rw-r--r-- root       root             8526 ./etc/ld.so.cache
+-rw-r--r-- root       root             8579 ./etc/ld.so.cache
 -rw-r--r-- root       root               33 ./etc/ld.so.conf
 drwxr-xr-x root       root             4096 ./etc/libnl
 -rw-r--r-- root       root             1130 ./etc/libnl/classid
@@ -596,6 +596,7 @@ lrwxrwxrwx root       root               23 ./usr/bin/diff -> /usr/bin/busybox.n
 lrwxrwxrwx root       root               23 ./usr/bin/dirname -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root               23 ./usr/bin/dmesg -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root               23 ./usr/bin/dnsdomainname -> /usr/bin/busybox.nosuid
+-rwxr-xr-x root       root           115540 ./usr/bin/dtc
 -rwxr-xr-x root       root           104104 ./usr/bin/dumpkeys
 lrwxrwxrwx root       root               23 ./usr/bin/dumpkmap -> /usr/bin/busybox.nosuid
 lrwxrwxrwx root       root               23 ./usr/bin/dumpleases -> /usr/bin/busybox.nosuid
@@ -617,6 +618,10 @@ lrwxrwxrwx root       root               23 ./usr/bin/false -> /usr/bin/busybox.
 -rwxr-xr-x root       root             9656 ./usr/bin/fc-query
 -rwxr-xr-x root       root             9652 ./usr/bin/fc-scan
 -rwxr-xr-x root       root             9656 ./usr/bin/fc-validate
+-rwxr-xr-x root       root            13748 ./usr/bin/fdtdump
+-rwxr-xr-x root       root            17844 ./usr/bin/fdtget
+-rwxr-xr-x root       root            13752 ./usr/bin/fdtoverlay
+-rwxr-xr-x root       root            17844 ./usr/bin/fdtput
 -rwxr-xr-x root       root             9740 ./usr/bin/fgconsole.kbd
 lrwxrwxrwx root       root               22 ./usr/bin/fgconsole -> /usr/bin/fgconsole.kbd
 lrwxrwxrwx root       root               23 ./usr/bin/fgrep -> /usr/bin/busybox.nosuid
@@ -1015,6 +1020,8 @@ lrwxrwxrwx root       root               18 ./usr/lib/libexpat.so.1 -> libexpat.
 lrwxrwxrwx root       root               16 ./usr/lib/libext2fs.so.2 -> libext2fs.so.2.4
 -rwxr-xr-x root       root           451276 ./usr/lib/libfdisk.so.1.1.0
 lrwxrwxrwx root       root               17 ./usr/lib/libfdisk.so.1 -> libfdisk.so.1.1.0
+-rwxr-xr-x root       root            30040 ./usr/lib/libfdt.so.1.6.0
+lrwxrwxrwx root       root               15 ./usr/lib/libfdt.so.1 -> libfdt.so.1.6.0
 -rwxr-xr-x root       root            30172 ./usr/lib/libffi.so.8.1.4
 lrwxrwxrwx root       root               15 ./usr/lib/libffi.so.8 -> libffi.so.8.1.4
 -rwxr-xr-x root       root           288100 ./usr/lib/libFLAC.so.12.1.0
@@ -9685,7 +9692,7 @@ drwxr-xr-x root       root             4096 ./var/lib/alsa
 drwxr-xr-x messagebus messagebus       4096 ./var/lib/dbus
 drwxr-xr-x root       root             4096 ./var/lib/misc
 drwxr-xr-x root       root             4096 ./var/lib/opkg
-drwxr-xr-x root       root           122880 ./var/lib/opkg/info
+drwxr-xr-x root       root           118784 ./var/lib/opkg/info
 -rw-r--r-- root       root              544 ./var/lib/opkg/info/adwaita-icon-theme-symbolic.control
 -rw-r--r-- root       root            53297 ./var/lib/opkg/info/adwaita-icon-theme-symbolic.list
 -rwxr-xr-x root       root              437 ./var/lib/opkg/info/adwaita-icon-theme-symbolic.postinst
@@ -9780,6 +9787,9 @@ drwxr-xr-x root       root           122880 ./var/lib/opkg/info
 -rwxr-xr-x root       root             5270 ./var/lib/opkg/info/dbus-common.preinst
 -rw-r--r-- root       root              711 ./var/lib/opkg/info/dbus-tools.control
 -rw-r--r-- root       root              167 ./var/lib/opkg/info/dbus-tools.list
+-rw-r--r-- root       root              432 ./var/lib/opkg/info/dtc.control
+-rw-r--r-- root       root              244 ./var/lib/opkg/info/dtc.list
+-rwxr-xr-x root       root               97 ./var/lib/opkg/info/dtc.postinst
 -rw-r--r-- root       root              623 ./var/lib/opkg/info/e2fsprogs-e2fsck.control
 -rw-r--r-- root       root              138 ./var/lib/opkg/info/e2fsprogs-e2fsck.list
 -rw-r--r-- root       root              954 ./var/lib/opkg/info/fontconfig-utils.control
@@ -11435,7 +11445,7 @@ drwxr-xr-x root       root           122880 ./var/lib/opkg/info
 -rw-r--r-- root       root              766 ./var/lib/opkg/info/wayland.control
 -rw-r--r-- root       root              593 ./var/lib/opkg/info/wayland.list
 -rwxr-xr-x root       root               97 ./var/lib/opkg/info/wayland.postinst
--rw-r--r-- root       root           155097 ./var/lib/opkg/status
+-rw-r--r-- root       root           155281 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/local
 lrwxrwxrwx root       root               11 ./var/lock -> ../run/lock

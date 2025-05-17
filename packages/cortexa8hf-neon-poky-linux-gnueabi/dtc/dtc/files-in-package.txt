@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root           115540 ./usr/bin/dtc
+-rwxr-xr-x root       root            13748 ./usr/bin/fdtdump
+-rwxr-xr-x root       root            17844 ./usr/bin/fdtget
+-rwxr-xr-x root       root            13752 ./usr/bin/fdtoverlay
+-rwxr-xr-x root       root            17844 ./usr/bin/fdtput
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            30040 ./usr/lib/libfdt.so.1.6.0
+lrwxrwxrwx root       root               15 ./usr/lib/libfdt.so.1 -> libfdt.so.1.6.0

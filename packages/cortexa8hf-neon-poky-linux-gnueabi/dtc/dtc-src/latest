@@ -1,0 +1,9 @@
+PV = 1.7.0
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 573932
+FILES = /usr/src/debug
+FILELIST = /usr/src/debug/dtc/1.7.0/checks.c /usr/src/debug/dtc/1.7.0/convert-dtsv0-lexer.l /usr/src/debug/dtc/1.7.0/convert-dtsv0.p/convert-dtsv0-lexer.l.lex.c /usr/src/debug/dtc/1.7.0/data.c /usr/src/debug/dtc/1.7.0/dtc-lexer.l /usr/src/debug/dtc/1.7.0/dtc-parser.y /usr/src/debug/dtc/1.7.0/dtc.c /usr/src/debug/dtc/1.7.0/dtc.h /usr/src/debug/dtc/1.7.0/dtc.p/dtc-lexer.l.lex.c /usr/src/debug/dtc/1.7.0/dtc.p/dtc-parser.tab.c /usr/src/debug/dtc/1.7.0/dtc.p/dtc-parser.tab.h /usr/src/debug/dtc/1.7.0/fdtdump.c /usr/src/debug/dtc/1.7.0/fdtget.c /usr/src/debug/dtc/1.7.0/fdtoverlay.c /usr/src/debug/dtc/1.7.0/fdtput.c /usr/src/debug/dtc/1.7.0/flattree.c /usr/src/debug/dtc/1.7.0/fstree.c /usr/src/debug/dtc/1.7.0/libfdt/fdt.c /usr/src/debug/dtc/1.7.0/libfdt/fdt.h /usr/src/debug/dtc/1.7.0/libfdt/fdt_addresses.c /usr/src/debug/dtc/1.7.0/libfdt/fdt_check.c /usr/src/debug/dtc/1.7.0/libfdt/fdt_empty_tree.c /usr/src/debug/dtc/1.7.0/libfdt/fdt_overlay.c /usr/src/debug/dtc/1.7.0/libfdt/fdt_ro.c /usr/src/debug/dtc/1.7.0/libfdt/fdt_rw.c /usr/src/debug/dtc/1.7.0/libfdt/fdt_strerror.c /usr/src/debug/dtc/1.7.0/libfdt/fdt_sw.c /usr/src/debug/dtc/1.7.0/libfdt/fdt_wip.c /usr/src/debug/dtc/1.7.0/libfdt/libfdt.h /usr/src/debug/dtc/1.7.0/libfdt/libfdt_env.h /usr/src/debug/dtc/1.7.0/libfdt/libfdt_internal.h /usr/src/debug/dtc/1.7.0/livetree.c /usr/src/debug/dtc/1.7.0/srcpos.c /usr/src/debug/dtc/1.7.0/srcpos.h /usr/src/debug/dtc/1.7.0/treesource.c /usr/src/debug/dtc/1.7.0/util.c /usr/src/debug/dtc/1.7.0/util.h

@@ -1,0 +1,8 @@
+PV = 1.7.0
+PR = r0
+DEPENDS = bison-native flex-native meson-native ninja-native pkgconfig-native python3-native qemu-native virtual/arm-poky-linux-gnueabi-compilerlibs virtual/arm-poky-linux-gnueabi-gcc virtual/libc
+PACKAGES = dtc-src dtc-dbg dtc-misc dtc-staticdev dtc-dev dtc-doc dtc-locale dtc
+LAYER = core
+LICENSE = GPL-2.0-only | BSD-2-Clause
+CONFIG = tools
+SRC_URI = git://git.kernel.org/pub/scm/utils/dtc/dtc.git;branch=main;protocol=https file://0001-meson.build-bump-version-to-1.7.0.patch file://0002-meson-allow-building-from-shallow-clones.patch

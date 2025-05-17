@@ -107,6 +107,7 @@
 221	KiB	libsmartcols1
 211	KiB	python3-html
 207	KiB	python3-doctest
+204	KiB	dtc
 202	KiB	ca-certificates
 201	KiB	python3-datetime
 201	KiB	libcrypt2

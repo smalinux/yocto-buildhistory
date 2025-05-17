@@ -35,6 +35,7 @@ caps_0.9.26-r0.1_cortexa8hf-neon.ipk
 dbus-1_1.14.10-r0.7_cortexa8hf-neon.ipk
 dbus-common_1.14.10-r0.7_cortexa8hf-neon.ipk
 dbus-tools_1.14.10-r0.7_cortexa8hf-neon.ipk
+dtc_1.7.0-r0.0_cortexa8hf-neon.ipk
 e2fsprogs-e2fsck_1.47.0-r0.6_cortexa8hf-neon.ipk
 fontconfig-utils_2.15.0-r0.6_cortexa8hf-neon.ipk
 glibc-gconv_2.39+git-r0.6_cortexa8hf-neon.ipk

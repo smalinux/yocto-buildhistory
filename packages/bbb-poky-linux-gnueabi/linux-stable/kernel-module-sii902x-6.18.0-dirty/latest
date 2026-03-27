@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.57
+RPROVIDES = kernel-module-sii902x
+RDEPENDS = kernel-6.18.0-dirty
+RRECOMMENDS = 
+PKGSIZE = 19948
+FILES = /usr/lib/modules/6.18.0-dirty/kernel/drivers/gpu/drm/bridge/.debug/sii902x.ko /usr/lib/modules/6.18.0-dirty/kernel/drivers/gpu/drm/bridge/sii902x.ko
+FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/drivers/gpu/drm/bridge/sii902x.ko

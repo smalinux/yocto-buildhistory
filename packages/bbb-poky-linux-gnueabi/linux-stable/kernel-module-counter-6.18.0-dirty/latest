@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.57
+RPROVIDES = kernel-module-counter
+RDEPENDS = kernel-6.18.0-dirty
+RRECOMMENDS = 
+PKGSIZE = 27076
+FILES = /usr/lib/modules/6.18.0-dirty/kernel/drivers/counter/.debug/counter.ko /usr/lib/modules/6.18.0-dirty/kernel/drivers/counter/counter.ko
+FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/drivers/counter/counter.ko

@@ -1,7 +1,7 @@
 drwxr-xr-x root       root             4096 ./boot
--rw-r--r-- root       root            70417 ./boot/am335x-boneblack.dtb
--rw-r--r-- root       root            70058 ./boot/am335x-boneblack-wireless.dtb
--rw-r--r-- root       root            69016 ./boot/am335x-boneblue.dtb
--rw-r--r-- root       root            67099 ./boot/am335x-bonegreen.dtb
--rw-r--r-- root       root            68452 ./boot/am335x-bonegreen-wireless.dtb
--rw-r--r-- root       root            68394 ./boot/am335x-pocketbeagle.dtb
+-rw-r--r-- root       root            70532 ./boot/am335x-boneblack.dtb
+-rw-r--r-- root       root            70173 ./boot/am335x-boneblack-wireless.dtb
+-rw-r--r-- root       root            69127 ./boot/am335x-boneblue.dtb
+-rw-r--r-- root       root            67214 ./boot/am335x-bonegreen.dtb
+-rw-r--r-- root       root            68567 ./boot/am335x-bonegreen-wireless.dtb
+-rw-r--r-- root       root            68505 ./boot/am335x-pocketbeagle.dtb

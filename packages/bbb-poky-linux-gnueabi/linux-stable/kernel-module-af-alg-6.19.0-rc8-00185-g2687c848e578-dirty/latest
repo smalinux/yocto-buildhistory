@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.56
-RPROVIDES = kernel-module-af-alg
-RDEPENDS = kernel-6.19.0-rc8-00185-g2687c848e578-dirty
-RRECOMMENDS = 
-PKGSIZE = 22140
-FILES = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/crypto/.debug/af_alg.ko /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/crypto/af_alg.ko
-FILELIST = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/crypto/af_alg.ko

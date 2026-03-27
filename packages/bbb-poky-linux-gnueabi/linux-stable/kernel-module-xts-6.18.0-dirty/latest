@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.57
+RPROVIDES = kernel-module-xts
+RDEPENDS = kernel-6.18.0-dirty
+RRECOMMENDS = 
+PKGSIZE = 9832
+FILES = /usr/lib/modules/6.18.0-dirty/kernel/crypto/.debug/xts.ko /usr/lib/modules/6.18.0-dirty/kernel/crypto/xts.ko
+FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/crypto/xts.ko

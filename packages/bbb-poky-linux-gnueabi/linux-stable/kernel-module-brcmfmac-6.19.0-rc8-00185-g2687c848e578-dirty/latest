@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.56
-RPROVIDES = kernel-module-brcmfmac
-RDEPENDS = kernel-6.19.0-rc8-00185-g2687c848e578-dirty kernel-module-brcmutil-6.19.0-rc8-00185-g2687c848e578-dirty kernel-module-cfg80211-6.19.0-rc8-00185-g2687c848e578-dirty
-RRECOMMENDS = 
-PKGSIZE = 316376
-FILES = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/.debug/brcmfmac.ko /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko
-FILELIST = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko

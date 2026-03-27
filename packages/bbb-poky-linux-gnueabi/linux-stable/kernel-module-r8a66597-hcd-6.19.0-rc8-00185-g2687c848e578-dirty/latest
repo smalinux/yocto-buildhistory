@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.56
-RPROVIDES = kernel-module-r8a66597-hcd
-RDEPENDS = kernel-6.19.0-rc8-00185-g2687c848e578-dirty
-RRECOMMENDS = 
-PKGSIZE = 37504
-FILES = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/usb/host/.debug/r8a66597-hcd.ko /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/usb/host/r8a66597-hcd.ko
-FILELIST = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/usb/host/r8a66597-hcd.ko

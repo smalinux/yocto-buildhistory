@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.56
-RPROVIDES = kernel-module-phy-dm816x-usb
-RDEPENDS = kernel-6.19.0-rc8-00185-g2687c848e578-dirty
-RRECOMMENDS = 
-PKGSIZE = 8460
-FILES = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/phy/ti/.debug/phy-dm816x-usb.ko /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/phy/ti/phy-dm816x-usb.ko
-FILELIST = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/phy/ti/phy-dm816x-usb.ko

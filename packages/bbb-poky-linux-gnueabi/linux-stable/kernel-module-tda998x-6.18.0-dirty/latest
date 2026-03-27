@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.57
+RPROVIDES = kernel-module-tda998x
+RDEPENDS = kernel-6.18.0-dirty kernel-module-cec-6.18.0-dirty
+RRECOMMENDS = 
+PKGSIZE = 27556
+FILES = /usr/lib/modules/6.18.0-dirty/kernel/drivers/gpu/drm/bridge/.debug/tda998x.ko /usr/lib/modules/6.18.0-dirty/kernel/drivers/gpu/drm/bridge/tda998x.ko
+FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/drivers/gpu/drm/bridge/tda998x.ko

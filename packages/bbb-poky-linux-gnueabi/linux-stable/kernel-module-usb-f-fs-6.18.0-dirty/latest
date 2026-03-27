@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.57
+RPROVIDES = kernel-module-usb-f-fs
+RDEPENDS = kernel-6.18.0-dirty
+RRECOMMENDS = 
+PKGSIZE = 48612
+FILES = /usr/lib/modules/6.18.0-dirty/kernel/drivers/usb/gadget/function/.debug/usb_f_fs.ko /usr/lib/modules/6.18.0-dirty/kernel/drivers/usb/gadget/function/usb_f_fs.ko
+FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/drivers/usb/gadget/function/usb_f_fs.ko

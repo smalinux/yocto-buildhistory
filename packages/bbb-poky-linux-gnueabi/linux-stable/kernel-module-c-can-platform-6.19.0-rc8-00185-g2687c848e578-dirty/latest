@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.56
-RPROVIDES = kernel-module-c-can-platform
-RDEPENDS = kernel-6.19.0-rc8-00185-g2687c848e578-dirty kernel-module-c-can-6.19.0-rc8-00185-g2687c848e578-dirty
-RRECOMMENDS = 
-PKGSIZE = 13252
-FILES = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/net/can/c_can/.debug/c_can_platform.ko /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/net/can/c_can/c_can_platform.ko
-FILELIST = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/net/can/c_can/c_can_platform.ko

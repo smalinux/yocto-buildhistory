@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.57
+RPROVIDES = kernel-module-libsha512
+RDEPENDS = kernel-6.18.0-dirty
+RRECOMMENDS = 
+PKGSIZE = 19956
+FILES = /usr/lib/modules/6.18.0-dirty/kernel/lib/crypto/.debug/libsha512.ko /usr/lib/modules/6.18.0-dirty/kernel/lib/crypto/libsha512.ko
+FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/lib/crypto/libsha512.ko

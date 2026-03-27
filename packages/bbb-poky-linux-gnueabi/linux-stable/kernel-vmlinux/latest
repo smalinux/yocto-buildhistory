@@ -1,9 +1,9 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.56
+PKGR = r0.57
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 19195256
-FILES = /boot/vmlinux-6.19.0-rc8-00185-g2687c848e578-dirty
-FILELIST = /boot/vmlinux-6.19.0-rc8-00185-g2687c848e578-dirty
+PKGSIZE = 19080676
+FILES = /boot/vmlinux-6.18.0-dirty
+FILELIST = /boot/vmlinux-6.18.0-dirty

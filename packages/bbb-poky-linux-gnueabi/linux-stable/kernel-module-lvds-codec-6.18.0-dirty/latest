@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.57
+RPROVIDES = kernel-module-lvds-codec
+RDEPENDS = kernel-6.18.0-dirty
+RRECOMMENDS = 
+PKGSIZE = 9044
+FILES = /usr/lib/modules/6.18.0-dirty/kernel/drivers/gpu/drm/bridge/.debug/lvds-codec.ko /usr/lib/modules/6.18.0-dirty/kernel/drivers/gpu/drm/bridge/lvds-codec.ko
+FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/drivers/gpu/drm/bridge/lvds-codec.ko

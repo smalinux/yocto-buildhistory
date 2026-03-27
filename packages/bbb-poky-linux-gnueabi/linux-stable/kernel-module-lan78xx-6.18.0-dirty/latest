@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.57
+RPROVIDES = kernel-module-lan78xx
+RDEPENDS = kernel-6.18.0-dirty
+RRECOMMENDS = 
+PKGSIZE = 56712
+FILES = /usr/lib/modules/6.18.0-dirty/kernel/drivers/net/usb/.debug/lan78xx.ko /usr/lib/modules/6.18.0-dirty/kernel/drivers/net/usb/lan78xx.ko
+FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/drivers/net/usb/lan78xx.ko

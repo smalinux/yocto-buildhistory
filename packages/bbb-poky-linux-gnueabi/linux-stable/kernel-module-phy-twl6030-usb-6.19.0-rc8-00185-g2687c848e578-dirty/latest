@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.56
-RPROVIDES = kernel-module-phy-twl6030-usb
-RDEPENDS = kernel-6.19.0-rc8-00185-g2687c848e578-dirty kernel-module-musb-hdrc-6.19.0-rc8-00185-g2687c848e578-dirty
-RRECOMMENDS = 
-PKGSIZE = 11712
-FILES = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/usb/phy/.debug/phy-twl6030-usb.ko /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/usb/phy/phy-twl6030-usb.ko
-FILELIST = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/usb/phy/phy-twl6030-usb.ko

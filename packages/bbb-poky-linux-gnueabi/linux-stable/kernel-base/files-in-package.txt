@@ -1,7 +1,7 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/modules
-drwxr-xr-x root       root             4096 ./usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty
--rw-r--r-- root       root            18132 ./usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/modules.builtin
--rw-r--r-- root       root           295020 ./usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/modules.builtin.modinfo
--rw-r--r-- root       root             9201 ./usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/modules.order
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.18.0-dirty
+-rw-r--r-- root       root            18104 ./usr/lib/modules/6.18.0-dirty/modules.builtin
+-rwxr-xr-x root       root           293454 ./usr/lib/modules/6.18.0-dirty/modules.builtin.modinfo
+-rw-r--r-- root       root             9208 ./usr/lib/modules/6.18.0-dirty/modules.order

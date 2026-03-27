@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.50
+PKGR = r0.51
 RPROVIDES = kernel-module-usb-f-ncm
 RDEPENDS = kernel-6.19.0-rc8-00185-g2687c848e578-dirty kernel-module-u-ether-6.19.0-rc8-00185-g2687c848e578-dirty
 RRECOMMENDS = 

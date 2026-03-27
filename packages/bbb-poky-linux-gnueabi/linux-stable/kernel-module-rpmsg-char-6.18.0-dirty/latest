@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.57
-RPROVIDES = kernel-module-rpmsg-char
-RDEPENDS = kernel-6.18.0-dirty kernel-module-rpmsg-core-6.18.0-dirty
-RRECOMMENDS = 
-PKGSIZE = 13252
-FILES = /usr/lib/modules/6.18.0-dirty/kernel/drivers/rpmsg/.debug/rpmsg_char.ko /usr/lib/modules/6.18.0-dirty/kernel/drivers/rpmsg/rpmsg_char.ko
-FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/drivers/rpmsg/rpmsg_char.ko

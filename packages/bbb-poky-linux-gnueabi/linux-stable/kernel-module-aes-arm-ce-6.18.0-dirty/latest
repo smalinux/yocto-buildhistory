@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.57
-RPROVIDES = kernel-module-aes-arm-ce
-RDEPENDS = kernel-6.18.0-dirty
-RRECOMMENDS = 
-PKGSIZE = 16856
-FILES = /usr/lib/modules/6.18.0-dirty/kernel/arch/arm/crypto/.debug/aes-arm-ce.ko /usr/lib/modules/6.18.0-dirty/kernel/arch/arm/crypto/aes-arm-ce.ko
-FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/arch/arm/crypto/aes-arm-ce.ko

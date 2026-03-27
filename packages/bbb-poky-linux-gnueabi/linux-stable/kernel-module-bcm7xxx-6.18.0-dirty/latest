@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.57
-RPROVIDES = kernel-module-bcm7xxx
-RDEPENDS = kernel-6.18.0-dirty
-RRECOMMENDS = 
-PKGSIZE = 22780
-FILES = /usr/lib/modules/6.18.0-dirty/kernel/drivers/net/phy/.debug/bcm7xxx.ko /usr/lib/modules/6.18.0-dirty/kernel/drivers/net/phy/bcm7xxx.ko
-FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/drivers/net/phy/bcm7xxx.ko

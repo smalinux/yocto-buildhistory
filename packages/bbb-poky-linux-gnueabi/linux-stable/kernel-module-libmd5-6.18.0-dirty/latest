@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.57
-RPROVIDES = kernel-module-libmd5
-RDEPENDS = kernel-6.18.0-dirty
-RRECOMMENDS = 
-PKGSIZE = 9668
-FILES = /usr/lib/modules/6.18.0-dirty/kernel/lib/crypto/.debug/libmd5.ko /usr/lib/modules/6.18.0-dirty/kernel/lib/crypto/libmd5.ko
-FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/lib/crypto/libmd5.ko

@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.57
-RPROVIDES = kernel-module-ti-tpd12s015
-RDEPENDS = kernel-6.18.0-dirty
-RRECOMMENDS = 
-PKGSIZE = 7204
-FILES = /usr/lib/modules/6.18.0-dirty/kernel/drivers/gpu/drm/bridge/.debug/ti-tpd12s015.ko /usr/lib/modules/6.18.0-dirty/kernel/drivers/gpu/drm/bridge/ti-tpd12s015.ko
-FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/drivers/gpu/drm/bridge/ti-tpd12s015.ko

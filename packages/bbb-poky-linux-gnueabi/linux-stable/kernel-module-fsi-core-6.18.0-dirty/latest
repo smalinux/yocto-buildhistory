@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.57
-RPROVIDES = kernel-module-fsi-core
-RDEPENDS = kernel-6.18.0-dirty kernel-module-crc4-6.18.0-dirty
-RRECOMMENDS = 
-PKGSIZE = 45732
-FILES = /usr/lib/modules/6.18.0-dirty/kernel/drivers/fsi/.debug/fsi-core.ko /usr/lib/modules/6.18.0-dirty/kernel/drivers/fsi/fsi-core.ko
-FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/drivers/fsi/fsi-core.ko

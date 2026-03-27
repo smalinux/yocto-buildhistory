@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.57
-RPROVIDES = kernel-module-typec
-RDEPENDS = kernel-6.18.0-dirty
-RRECOMMENDS = 
-PKGSIZE = 78424
-FILES = /usr/lib/modules/6.18.0-dirty/kernel/drivers/usb/typec/.debug/typec.ko /usr/lib/modules/6.18.0-dirty/kernel/drivers/usb/typec/typec.ko
-FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/drivers/usb/typec/typec.ko

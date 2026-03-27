@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.57
-RPROVIDES = kernel-module-amlogic-gxl-crypto
-RDEPENDS = kernel-6.18.0-dirty kernel-module-crypto-engine-6.18.0-dirty
-RRECOMMENDS = 
-PKGSIZE = 15636
-FILES = /usr/lib/modules/6.18.0-dirty/kernel/drivers/crypto/amlogic/.debug/amlogic-gxl-crypto.ko /usr/lib/modules/6.18.0-dirty/kernel/drivers/crypto/amlogic/amlogic-gxl-crypto.ko
-FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/drivers/crypto/amlogic/amlogic-gxl-crypto.ko

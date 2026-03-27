@@ -1,9 +1,9 @@
 set -e
-	if [ ! -e "$D/lib/modules/6.18.0-dirty" ]; then
-		mkdir -p $D/lib/modules/6.18.0-dirty
+	if [ ! -e "$D/lib/modules/6.13.0-dirty" ]; then
+		mkdir -p $D/lib/modules/6.13.0-dirty
 	fi
 	if [ -n "$D" ]; then
-		depmodwrapper -a -b $D 6.18.0-dirty kernel
+		depmodwrapper -a -b $D 6.13.0-dirty kernel
 	else
-		depmod -a 6.18.0-dirty
+		depmod -a 6.13.0-dirty
 	fi

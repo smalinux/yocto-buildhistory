@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.57
-RPROVIDES = kernel-module-fsi-master-aspeed
-RDEPENDS = kernel-6.18.0-dirty kernel-module-fsi-core-6.18.0-dirty
-RRECOMMENDS = 
-PKGSIZE = 23344
-FILES = /usr/lib/modules/6.18.0-dirty/kernel/drivers/fsi/.debug/fsi-master-aspeed.ko /usr/lib/modules/6.18.0-dirty/kernel/drivers/fsi/fsi-master-aspeed.ko
-FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/drivers/fsi/fsi-master-aspeed.ko

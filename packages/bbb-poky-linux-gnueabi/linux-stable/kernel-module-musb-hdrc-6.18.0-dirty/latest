@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.57
-RPROVIDES = kernel-module-musb-hdrc
-RDEPENDS = kernel-6.18.0-dirty
-RRECOMMENDS = 
-PKGSIZE = 171688
-FILES = /usr/lib/modules/6.18.0-dirty/kernel/drivers/usb/musb/.debug/musb_hdrc.ko /usr/lib/modules/6.18.0-dirty/kernel/drivers/usb/musb/musb_hdrc.ko
-FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/drivers/usb/musb/musb_hdrc.ko

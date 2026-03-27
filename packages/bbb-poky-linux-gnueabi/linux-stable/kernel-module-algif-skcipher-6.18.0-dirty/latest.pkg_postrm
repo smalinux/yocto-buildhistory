@@ -1,8 +1,0 @@
-#!/bin/sh
-set -e
-if [ -z "$D" ]; then
-	depmod -a 6.18.0-dirty
-else
-	depmodwrapper -a -b $D 6.18.0-dirty kernel
-fi
-

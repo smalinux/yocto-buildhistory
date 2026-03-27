@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.57
-RPROVIDES = kernel-module-drm-display-helper
-RDEPENDS = kernel-6.18.0-dirty kernel-module-cec-6.18.0-dirty
-RRECOMMENDS = 
-PKGSIZE = 36272
-FILES = /usr/lib/modules/6.18.0-dirty/kernel/drivers/gpu/drm/display/.debug/drm_display_helper.ko /usr/lib/modules/6.18.0-dirty/kernel/drivers/gpu/drm/display/drm_display_helper.ko
-FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/drivers/gpu/drm/display/drm_display_helper.ko

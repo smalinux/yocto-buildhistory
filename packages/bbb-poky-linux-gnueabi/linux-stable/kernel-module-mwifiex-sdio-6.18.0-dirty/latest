@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.57
-RPROVIDES = kernel-module-mwifiex-sdio
-RDEPENDS = kernel-6.18.0-dirty kernel-module-mwifiex-6.18.0-dirty
-RRECOMMENDS = 
-PKGSIZE = 44440
-FILES = /usr/lib/modules/6.18.0-dirty/kernel/drivers/net/wireless/marvell/mwifiex/.debug/mwifiex_sdio.ko /usr/lib/modules/6.18.0-dirty/kernel/drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.ko
-FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.ko

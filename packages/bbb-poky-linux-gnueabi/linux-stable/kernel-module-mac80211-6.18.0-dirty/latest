@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.57
-RPROVIDES = kernel-module-mac80211
-RDEPENDS = kernel-6.18.0-dirty kernel-module-cfg80211-6.18.0-dirty kernel-module-libarc4-6.18.0-dirty
-RRECOMMENDS = 
-PKGSIZE = 1027616
-FILES = /usr/lib/modules/6.18.0-dirty/kernel/net/mac80211/.debug/mac80211.ko /usr/lib/modules/6.18.0-dirty/kernel/net/mac80211/mac80211.ko
-FILELIST = /usr/lib/modules/6.18.0-dirty/kernel/net/mac80211/mac80211.ko

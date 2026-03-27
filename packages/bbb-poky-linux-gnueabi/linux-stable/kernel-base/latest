@@ -1,10 +1,10 @@
 PV = 6.13.1
 PR = r0
 PKG = kernel-6.19.0-rc8-00185-g2687c848e578-dirty
-PKGR = r0.55
+PKGR = r0.56
 RPROVIDES = kernel-6.19.0-rc8-00185-g2687c848e578-dirty kernel-base (=6.13.1)
 RDEPENDS = 
-RRECOMMENDS = kernel-image (= 6.13.1-r0.55)
+RRECOMMENDS = kernel-image (= 6.13.1-r0.56)
 PKGSIZE = 322353
 FILES = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/modules.order /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/modules.builtin /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/modules.builtin.modinfo
 FILELIST = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/modules.builtin /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/modules.builtin.modinfo /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/modules.order

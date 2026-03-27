@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.49
-RPROVIDES = kernel-module-crypto-user
-RDEPENDS = kernel-6.13.1-dirty
-RRECOMMENDS = 
-PKGSIZE = 11704
-FILES = /usr/lib/modules/6.13.1-dirty/kernel/crypto/.debug/crypto_user.ko /usr/lib/modules/6.13.1-dirty/kernel/crypto/crypto_user.ko
-FILELIST = /usr/lib/modules/6.13.1-dirty/kernel/crypto/crypto_user.ko

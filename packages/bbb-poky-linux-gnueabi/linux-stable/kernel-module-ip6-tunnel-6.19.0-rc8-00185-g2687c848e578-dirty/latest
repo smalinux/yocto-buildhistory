@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.50
+RPROVIDES = kernel-module-ip6-tunnel
+RDEPENDS = kernel-6.19.0-rc8-00185-g2687c848e578-dirty kernel-module-tunnel6-6.19.0-rc8-00185-g2687c848e578-dirty
+RRECOMMENDS = 
+PKGSIZE = 37484
+FILES = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/net/ipv6/.debug/ip6_tunnel.ko /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/net/ipv6/ip6_tunnel.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/net/ipv6/ip6_tunnel.ko

@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.50
+RPROVIDES = kernel-module-leds-pca9532
+RDEPENDS = kernel-6.19.0-rc8-00185-g2687c848e578-dirty
+RRECOMMENDS = 
+PKGSIZE = 13376
+FILES = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/leds/.debug/leds-pca9532.ko /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/leds/leds-pca9532.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/leds/leds-pca9532.ko

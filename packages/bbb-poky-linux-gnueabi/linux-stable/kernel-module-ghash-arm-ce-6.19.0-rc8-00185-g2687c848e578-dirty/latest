@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.50
+RPROVIDES = kernel-module-ghash-arm-ce
+RDEPENDS = kernel-6.19.0-rc8-00185-g2687c848e578-dirty kernel-module-gf128mul-6.19.0-rc8-00185-g2687c848e578-dirty kernel-module-libaes-6.19.0-rc8-00185-g2687c848e578-dirty
+RRECOMMENDS = 
+PKGSIZE = 17232
+FILES = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/arch/arm/crypto/.debug/ghash-arm-ce.ko /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/arch/arm/crypto/ghash-arm-ce.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/arch/arm/crypto/ghash-arm-ce.ko

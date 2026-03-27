@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.50
+RPROVIDES = kernel-module-brcmutil
+RDEPENDS = kernel-6.19.0-rc8-00185-g2687c848e578-dirty
+RRECOMMENDS = 
+PKGSIZE = 12460
+FILES = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/net/wireless/broadcom/brcm80211/brcmutil/.debug/brcmutil.ko /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00185-g2687c848e578-dirty/kernel/drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.ko

@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-usb-f-eem
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b kernel-module-u-ether-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 12464
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/usb/gadget/function/.debug/usb_f_eem.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/usb/gadget/function/usb_f_eem.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/usb/gadget/function/usb_f_eem.ko

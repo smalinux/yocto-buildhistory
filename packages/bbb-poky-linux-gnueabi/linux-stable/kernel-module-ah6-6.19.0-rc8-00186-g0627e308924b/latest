@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-ah6
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b kernel-module-xfrm-algo-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 12732
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/net/ipv6/.debug/ah6.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/net/ipv6/ah6.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/net/ipv6/ah6.ko

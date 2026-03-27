@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-dsa-core
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 170336
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/net/dsa/.debug/dsa_core.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/net/dsa/dsa_core.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/net/dsa/dsa_core.ko

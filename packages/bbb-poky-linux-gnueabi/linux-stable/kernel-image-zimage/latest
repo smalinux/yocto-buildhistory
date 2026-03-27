@@ -1,10 +1,10 @@
 PV = 6.13.1
 PR = r0
-PKG = kernel-image-zimage-6.13.0-dirty
-PKGR = r0.58
+PKG = kernel-image-zimage-6.19.0-rc8-00186-g0627e308924b
+PKGR = r0.59
 RPROVIDES = kernel-image-zimage (=6.13.1)
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 8507904
-FILES = /boot/zImage-6.13.0-dirty /boot/zImage
-FILELIST = /boot/zImage-6.13.0-dirty
+PKGSIZE = 8782336
+FILES = /boot/zImage-6.19.0-rc8-00186-g0627e308924b /boot/zImage
+FILELIST = /boot/zImage-6.19.0-rc8-00186-g0627e308924b

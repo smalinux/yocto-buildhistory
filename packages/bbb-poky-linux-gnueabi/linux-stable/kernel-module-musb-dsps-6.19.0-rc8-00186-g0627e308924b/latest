@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-musb-dsps
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b kernel-module-musb-hdrc-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 18284
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/usb/musb/.debug/musb_dsps.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/usb/musb/musb_dsps.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/usb/musb/musb_dsps.ko

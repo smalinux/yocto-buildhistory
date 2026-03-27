@@ -1,2 +1,2 @@
 drwxr-xr-x root       root             4096 ./boot
--rw-r--r-- root       root          8507904 ./boot/zImage-6.13.0-dirty
+-rw-r--r-- root       root          8782336 ./boot/zImage-6.19.0-rc8-00186-g0627e308924b

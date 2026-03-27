@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-libsha512
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 20060
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/lib/crypto/.debug/libsha512.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/lib/crypto/libsha512.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/lib/crypto/libsha512.ko

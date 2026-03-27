@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+if [ -z "$D" ]; then
+	depmod -a 6.19.0-rc8-00186-g0627e308924b
+else
+	depmodwrapper -a -b $D 6.19.0-rc8-00186-g0627e308924b kernel
+fi
+

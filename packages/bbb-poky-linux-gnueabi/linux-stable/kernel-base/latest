@@ -1,10 +1,10 @@
 PV = 6.13.1
 PR = r0
-PKG = kernel-6.13.0-dirty
-PKGR = r0.58
-RPROVIDES = kernel-6.13.0-dirty kernel-base (=6.13.1)
+PKG = kernel-6.19.0-rc8-00186-g0627e308924b
+PKGR = r0.59
+RPROVIDES = kernel-6.19.0-rc8-00186-g0627e308924b kernel-base (=6.13.1)
 RDEPENDS = 
-RRECOMMENDS = kernel-image (= 6.13.1-r0.58)
-PKGSIZE = 152937
-FILES = /usr/lib/modules/6.13.0-dirty/modules.order /usr/lib/modules/6.13.0-dirty/modules.builtin /usr/lib/modules/6.13.0-dirty/modules.builtin.modinfo
-FILELIST = /usr/lib/modules/6.13.0-dirty/modules.builtin /usr/lib/modules/6.13.0-dirty/modules.builtin.modinfo /usr/lib/modules/6.13.0-dirty/modules.order
+RRECOMMENDS = kernel-image (= 6.13.1-r0.59)
+PKGSIZE = 322353
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/modules.order /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/modules.builtin /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/modules.builtin.modinfo
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/modules.builtin /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/modules.builtin.modinfo /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/modules.order

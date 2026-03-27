@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-max8952
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 9804
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/regulator/.debug/max8952.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/regulator/max8952.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/regulator/max8952.ko

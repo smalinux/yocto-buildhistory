@@ -1,9 +1,0 @@
-PV = 6.13.1
-PR = r0
-PKGR = r0.58
-RPROVIDES = kernel-module-btmrvl-sdio
-RDEPENDS = kernel-6.13.0-dirty kernel-module-bluetooth-6.13.0-dirty kernel-module-btmrvl-6.13.0-dirty
-RRECOMMENDS = 
-PKGSIZE = 28128
-FILES = /usr/lib/modules/6.13.0-dirty/kernel/drivers/bluetooth/.debug/btmrvl_sdio.ko /usr/lib/modules/6.13.0-dirty/kernel/drivers/bluetooth/btmrvl_sdio.ko
-FILELIST = /usr/lib/modules/6.13.0-dirty/kernel/drivers/bluetooth/btmrvl_sdio.ko

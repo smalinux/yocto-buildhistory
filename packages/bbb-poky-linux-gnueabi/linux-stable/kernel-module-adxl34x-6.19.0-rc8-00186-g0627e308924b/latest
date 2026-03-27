@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-adxl34x
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 11648
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/input/misc/.debug/adxl34x.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/input/misc/adxl34x.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/input/misc/adxl34x.ko

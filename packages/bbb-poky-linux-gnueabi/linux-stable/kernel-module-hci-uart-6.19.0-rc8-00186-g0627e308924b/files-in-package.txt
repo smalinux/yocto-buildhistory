@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/modules
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.19.0-rc8-00186-g0627e308924b
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers
+drwxr-xr-x root       root             4096 ./usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/bluetooth
+-rw-r--r-- root       root            42472 ./usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/bluetooth/hci_uart.ko

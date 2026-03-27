@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-crc4
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 3324
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/lib/crc/.debug/crc4.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/lib/crc/crc4.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/lib/crc/crc4.ko

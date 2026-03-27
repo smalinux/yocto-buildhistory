@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-b53-serdes
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 7308
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/net/dsa/b53/.debug/b53_serdes.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/net/dsa/b53/b53_serdes.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/net/dsa/b53/b53_serdes.ko

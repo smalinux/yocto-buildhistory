@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-xfrm-ipcomp
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b kernel-module-xfrm-algo-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 8088
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/net/xfrm/.debug/xfrm_ipcomp.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/net/xfrm/xfrm_ipcomp.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/net/xfrm/xfrm_ipcomp.ko

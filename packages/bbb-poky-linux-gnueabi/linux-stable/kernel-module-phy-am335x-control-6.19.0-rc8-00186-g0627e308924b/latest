@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-phy-am335x-control
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 7824
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/usb/phy/.debug/phy-am335x-control.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/usb/phy/phy-am335x-control.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/usb/phy/phy-am335x-control.ko

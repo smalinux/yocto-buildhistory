@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-fsi-occ
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b kernel-module-fsi-sbefifo-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 13408
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/fsi/.debug/fsi-occ.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/fsi/fsi-occ.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/fsi/fsi-occ.ko

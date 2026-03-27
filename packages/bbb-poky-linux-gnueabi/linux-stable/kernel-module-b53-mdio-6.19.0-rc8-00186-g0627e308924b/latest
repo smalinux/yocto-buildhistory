@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-b53-mdio
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b kernel-module-b53-common-6.19.0-rc8-00186-g0627e308924b kernel-module-dsa-core-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 12204
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/net/dsa/b53/.debug/b53_mdio.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/net/dsa/b53/b53_mdio.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/net/dsa/b53/b53_mdio.ko

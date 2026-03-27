@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-cpufreq-conservative
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 8552
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/cpufreq/.debug/cpufreq_conservative.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/cpufreq/cpufreq_conservative.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/cpufreq/cpufreq_conservative.ko

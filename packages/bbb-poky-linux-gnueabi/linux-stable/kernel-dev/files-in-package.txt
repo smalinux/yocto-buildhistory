@@ -1,4 +1,4 @@
 drwxr-xr-x root       root             4096 ./boot
--rw-r--r-- root       root           188826 ./boot/config-6.13.0-dirty
--rw-r--r-- root       root           821705 ./boot/Module.symvers-6.13.0-dirty
--rw-r--r-- root       root          3462692 ./boot/System.map-6.13.0-dirty
+-rw-r--r-- root       root           193229 ./boot/config-6.19.0-rc8-00186-g0627e308924b
+-rw-r--r-- root       root           842192 ./boot/Module.symvers-6.19.0-rc8-00186-g0627e308924b
+-rw-r--r-- root       root          3776416 ./boot/System.map-6.19.0-rc8-00186-g0627e308924b

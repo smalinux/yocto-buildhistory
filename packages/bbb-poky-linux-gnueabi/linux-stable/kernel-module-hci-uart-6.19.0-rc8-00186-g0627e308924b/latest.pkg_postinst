@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+if [ -z "$D" ]; then
+	depmod -a 6.19.0-rc8-00186-g0627e308924b
+else
+	# image.bbclass will call depmodwrapper after everything is installed,
+	# no need to do it here as well
+	:
+fi
+

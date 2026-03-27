@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-adxl34x-i2c
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b kernel-module-adxl34x-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 6920
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/input/misc/.debug/adxl34x-i2c.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/input/misc/adxl34x-i2c.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/input/misc/adxl34x-i2c.ko

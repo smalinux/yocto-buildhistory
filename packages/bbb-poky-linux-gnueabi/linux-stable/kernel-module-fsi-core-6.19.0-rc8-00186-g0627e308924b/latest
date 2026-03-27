@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-fsi-core
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b kernel-module-crc4-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 46456
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/fsi/.debug/fsi-core.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/fsi/fsi-core.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/fsi/fsi-core.ko

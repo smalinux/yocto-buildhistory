@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-bluetooth
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b kernel-module-ecdh-generic-6.19.0-rc8-00186-g0627e308924b kernel-module-libaes-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 635380
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/net/bluetooth/.debug/bluetooth.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/net/bluetooth/bluetooth.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/net/bluetooth/bluetooth.ko

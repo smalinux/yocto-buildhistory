@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-pwm-tiehrpwm
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 10652
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/pwm/.debug/pwm-tiehrpwm.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/pwm/pwm-tiehrpwm.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/pwm/pwm-tiehrpwm.ko

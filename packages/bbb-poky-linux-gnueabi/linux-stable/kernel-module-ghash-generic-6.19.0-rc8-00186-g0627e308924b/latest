@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-ghash-generic
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b kernel-module-gf128mul-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 5960
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/crypto/.debug/ghash-generic.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/crypto/ghash-generic.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/crypto/ghash-generic.ko

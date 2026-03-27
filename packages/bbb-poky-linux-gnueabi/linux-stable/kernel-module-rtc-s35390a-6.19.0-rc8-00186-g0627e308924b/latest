@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-rtc-s35390a
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 10240
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/rtc/.debug/rtc-s35390a.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/rtc/rtc-s35390a.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/rtc/rtc-s35390a.ko

@@ -1,0 +1,9 @@
+PV = 6.13.1
+PR = r0
+PKGR = r0.59
+RPROVIDES = kernel-module-omap2430
+RDEPENDS = kernel-6.19.0-rc8-00186-g0627e308924b kernel-module-musb-hdrc-6.19.0-rc8-00186-g0627e308924b
+RRECOMMENDS = 
+PKGSIZE = 13752
+FILES = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/usb/musb/.debug/omap2430.ko /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/usb/musb/omap2430.ko
+FILELIST = /usr/lib/modules/6.19.0-rc8-00186-g0627e308924b/kernel/drivers/usb/musb/omap2430.ko

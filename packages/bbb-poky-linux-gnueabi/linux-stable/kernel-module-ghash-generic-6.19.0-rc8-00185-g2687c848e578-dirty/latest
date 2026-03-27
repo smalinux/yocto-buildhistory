@@ -1,6 +1,6 @@
 PV = 6.13.1
 PR = r0
-PKGR = r0.52
+PKGR = r0.53
 RPROVIDES = kernel-module-ghash-generic
 RDEPENDS = kernel-6.19.0-rc8-00185-g2687c848e578-dirty kernel-module-gf128mul-6.19.0-rc8-00185-g2687c848e578-dirty
 RRECOMMENDS = 
